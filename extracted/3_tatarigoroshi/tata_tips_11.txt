@@ -1,0 +1,24 @@
+`Year 19__`
+`Principal Abusers (in cases reported to the Ministry of Health and Welfare)`
+`Total: 5,352`
+`Mother by blood:`
+` 2,943 (55.0%)`
+`Mother not by blood:`
+` 203 ( 3.8%)`
+`Father by blood:`
+` 1,445 (27.0%)`
+`Father not by blood:`
+` 488 ( 9.1%)`
+`Year 19__`
+`Instances by Type of Abuse (in cases reported to the Ministry of Health and Welfare)`
+`Total: 5,352`
+`Physical abuse:`
+` 2,780 (51.9%)`
+`Neglect (abandonment of child):`
+` 1,728 (32.3%)`
+`Psychological abuse:`
+` 458 ( 8.6%)`
+`Forbidden from going to school:`
+` 75 ( 1.4%)`
+`Sexual violence:`
+` 311 ( 5.8%)`
