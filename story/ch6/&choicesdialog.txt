@@ -1,1 +1,0 @@
-`This arc includes choices that were added in the console version. These choices result in dialog changes and can lead to bad ends. Do you want to see these choices?`
