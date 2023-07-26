@@ -47,7 +47,7 @@ function main($argc, $argv) {
 	if ($argc < 2) err('');
 
 	$scripts_dir = 'scripts';
-	$extracted_dir = 'extracted';
+	$extracted_dir = 'story';
 	
 	ini_set('memory_limit','2048M');
 
