@@ -733,7 +733,7 @@ void main()
 		   NULL, " Hello!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600065", 256, TRUE);
 	OutputLine(NULL, "「やあレナちゃん、こんにちは！",
 		   NULL, "\"Hello, Rena-chan!", Line_WaitForInput);
@@ -757,7 +757,7 @@ void main()
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "maskleft" , 1, FALSE, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600069", 256, TRUE);
 	OutputLine(NULL, "「しかし、お父さんもダム戦争の頃の話は一応、聞いてたんだが、すごいなぁ！",
 		   NULL, "\"I've heard the stories about the dam conflict, but this is impressive!", Line_WaitForInput);

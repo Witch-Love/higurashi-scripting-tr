@@ -86,7 +86,7 @@ void main()
 	DrawSceneWithMask("background/ma_s1", "up", 0, 0, 1300 );
 
 //「圭一～＠この浴衣、まだ着れるかしら＠　ちょっと袖を通してみてくれる？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700047", 256, TRUE);
 	OutputLine(NULL, "「圭一〜。",
 		   NULL, "\"Keiichi~", Line_WaitForInput);
@@ -121,7 +121,7 @@ void main()
 
 
 //「でもお祭りなんだから。着て行きなさいな？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700050", 256, TRUE);
 	OutputLine(NULL, "「でもお祭りなんだから。着て行きなさいな？」",
 		   NULL, "\"But this is a festival. Wear it, okay?\"", GetGlobalFlag(GLinemodeSp));
@@ -161,7 +161,7 @@ void main()
 
 
 //「そう＠　じゃあ母さんは父さんが起きたら二人で行くわね。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700051", 256, TRUE);
 	OutputLine(NULL, "「そう？",
 		   NULL, "\"Is that so?", Line_WaitForInput);
@@ -189,7 +189,7 @@ void main()
 
 
 //「急ぎの原稿をようやく発送したとこなの＠ひょっとすると起きないかもねぇ…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700053", 256, TRUE);
 	OutputLine(NULL, "「急ぎの原稿をようやく発送したとこなの。",
 		   NULL, "\"He just finished sending in his manuscript.", Line_WaitForInput);
@@ -293,7 +293,7 @@ void main()
 	FadeBustshotWithFiltering( 5, "right", 0, FALSE, 0, 0, 1300, TRUE );
 
 //「あらあらレナちゃん＠　いつもうちの圭一がお世話になってまして…！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700055", 256, TRUE);
 	OutputLine(NULL, "「あらあらレナちゃん！",
 		   NULL, "\"Oh my, it's Rena-chan!", Line_WaitForInput);
@@ -348,7 +348,7 @@ void main()
 	DrawSceneWithMask("background/ma2", "right", 0, 0, 1300 );
 
 //「レナちゃ～ん！　圭一をよろしくね～！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700057", 256, TRUE);
 	OutputLine(NULL, "「レナちゃ〜ん！　圭一をよろしくね〜！」",
 		   NULL, "\"Rena-chan~! Look after Keiichi for me~!\"", GetGlobalFlag(GLinemodeSp));

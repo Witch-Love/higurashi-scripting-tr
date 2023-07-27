@@ -34,7 +34,7 @@ void main()
 	ClearMessage();
 
 //「どうしたの圭一＠昨夜は何時に寝たの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700001", 256, TRUE);
 	OutputLine(NULL, "「どうしたの圭一。",
 		   NULL, "\"What's the matter, Keiichi?", Line_WaitForInput);
@@ -53,7 +53,7 @@ void main()
 
 
 //「お祭りではしゃぎ過ぎて、興奮して眠れなかったんでしょう。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700003", 256, TRUE);
 	OutputLine(NULL, "「お祭りではしゃぎ過ぎて、興奮して眠れなかったんでしょう。」",
 		   NULL, "\"You were probably all worked up from the festival.\"", GetGlobalFlag(GLinemodeSp));
@@ -1985,7 +1985,7 @@ void main()
 
 
 //「圭一＠悪いんだけど、図書館に行って本を返してきてくれない？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700004", 256, TRUE);
 	OutputLine(NULL, "「圭一。",
 		   NULL, "\"Keiichi?", Line_WaitForInput);
@@ -2004,7 +2004,7 @@ void main()
 
 
 //「お父さんもお母さんも、今ね、ちょっと電話待ちをしてるところで家を空けられないの＠返却期限も今日までだし、お願いできない？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700006", 256, TRUE);
 	OutputLine(NULL, "「お父さんもお母さんも、今ね、ちょっと電話待ちをしてるところで家を空けられないの。",
 		   NULL, "\"Your dad and I have to wait inside the house for a phone call right now, so we can't leave.", Line_WaitForInput);
@@ -2040,7 +2040,7 @@ void main()
 
 
 //「あら、知らないの＠　興宮の駅前をちょっと進んで...、￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700008", 256, TRUE);
 	OutputLine(NULL, "「あら、知らないの？",
 		   NULL, "\"Oh, you don't?", Line_WaitForInput);
@@ -2071,7 +2071,7 @@ void main()
 	ClearMessage();
 
 //「もしもし＠　前原です。!s300...............!sdはい＠　はい。おりますけど。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700010", 256, TRUE);
 	OutputLine(NULL, "「もしもし！",
 		   NULL, "\"Hello!", Line_WaitForInput);
@@ -2101,7 +2101,7 @@ void main()
 	ClearMessage();
 
 //「圭一に電話よ＠早めに終わらせてね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700013", 256, TRUE);
 	OutputLine(NULL, "「圭一に電話よ。",
 		   NULL, "\"It's for you, Keiichi.", Line_WaitForInput);
@@ -2323,7 +2323,7 @@ void main()
 	ClearMessage();
 
 //「圭一、よろしくね＠お夕飯までには帰るのよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700015", 256, TRUE);
 	OutputLine(NULL, "「圭一、よろしくね。",
 		   NULL, "\"Thank you, Keiichi.", Line_WaitForInput);

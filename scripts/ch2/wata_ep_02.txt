@@ -1403,7 +1403,7 @@ void main()
 
 
 //「......そう＠　手短にね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700035", 256, TRUE);
 	OutputLine(NULL, "「……そう？",
 		   NULL, "\"...Is that so?", Line_WaitForInput);

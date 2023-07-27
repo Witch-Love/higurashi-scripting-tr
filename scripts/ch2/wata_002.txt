@@ -3754,7 +3754,7 @@ void main()
 	ClearMessage();
 
 //「おう、圭一＠帰ったか＠......お父さんはこれから散歩、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600004", 256, TRUE);
 	OutputLine(NULL, "「おう、圭一。",
 		   NULL, "\"Oh, Keiichi.", Line_WaitForInput);
@@ -3813,7 +3813,7 @@ void main()
 	PlayBGM( 1, "msys03", 56, 0 );
 
 //「...圭一＠父さんとアトリエでちょっとお話しような＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600007", 256, TRUE);
 	OutputLine(NULL, "「…圭一。",
 		   NULL, "\"...Keiichi.", Line_WaitForInput);
@@ -3868,7 +3868,7 @@ void main()
 //gosub *Sion_resutoran
 
 //「圭一いる＠　あら、お風呂だったのね＠...............それ、化粧水よ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700025", 256, TRUE);
 	OutputLine(NULL, "「圭一いる？",
 		   NULL, "\"Keiichi, are you home?", Line_WaitForInput);
@@ -3893,7 +3893,7 @@ void main()
 
 
 //「ごめんね＠母さんちょっと頭が痛くて、お夕飯作れそうにないの＠だから申し訳ないんだけど、お父さんと一緒に表に食べに行ってくれる？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700028", 256, TRUE);
 	OutputLine(NULL, "「ごめんね。",
 		   NULL, "\"Sorry.", Line_WaitForInput);
@@ -3930,7 +3930,7 @@ void main()
 
 
 //「母さんひとりなら、適当に何とかするから＠行ってらっしゃい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700031", 256, TRUE);
 	OutputLine(NULL, "「母さんひとりなら、適当に何とかするから。",
 		   NULL, "\"If it's just for myself, I can probably find a way to scrounge something together.", Line_WaitForInput);
@@ -3941,7 +3941,7 @@ void main()
 
 
 //「圭一～！＠　車で行くから早くしなさーい。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600010", 256, TRUE);
 	OutputLine(NULL, "「圭一〜！！",
 		   NULL, "\"Keiichi~!!", Line_WaitForInput);
@@ -3980,7 +3980,7 @@ void main()
 
 
 //「......うーん＠お父さんな、この間、いいお店見つけたんだよ。そこ行こうか！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600012", 256, TRUE);
 	OutputLine(NULL, "「……うーん。",
 		   NULL, "\"...Hmmm.", Line_WaitForInput);
@@ -4050,7 +4050,7 @@ void main()
 	ClearMessage();
 
 //「圭一は入ったことないだろう。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600014", 256, TRUE);
 	OutputLine(NULL, "「圭一は入ったことないだろう。」",
 		   NULL, "\"You've never been inside, Keiichi?\"", GetGlobalFlag(GLinemodeSp));
@@ -4150,7 +4150,7 @@ void main()
 	ClearMessage();
 
 //「ふっふっふ＠圭一もどうやら、この店の凄みに気付いたようだな...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600015", 256, TRUE);
 	OutputLine(NULL, "「ふっふっふ。",
 		   NULL, "\"Heh heh heh.", Line_WaitForInput);
@@ -4223,7 +4223,7 @@ void main()
 
 
 //「味なんかはどうでもいいんだ圭一＠　!s200な～...!sdいいだろう～☆＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600017", 256, TRUE);
 	OutputLine(NULL, "「味なんかはどうでもいいんだ圭一！",
 		   NULL, "\"Who gives a damn about the taste, Keiichi!", Line_WaitForInput);
@@ -4295,7 +4295,7 @@ void main()
 	ClearMessage();
 
 //「すみませ～ん、セットのデザートがまだ来ないんですけど～。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600019", 256, TRUE);
 	OutputLine(NULL, "「すみませ〜ん、セットのデザートがまだ来ないんですけど〜。」",
 		   NULL, "\"Excuse me~, the dessert that comes with the meal still hasn't come yet~.\"", GetGlobalFlag(GLinemodeSp));
@@ -4321,7 +4321,7 @@ void main()
 
 
 //「日替わりＡセットのデザートです＠さっきからずっと待ってるんですけどねぇ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600020", 256, TRUE);
 	OutputLine(NULL, "「日替わりＡセットのデザートです。",
 		   NULL, "\"There's a dessert that comes with Daily Combo A.", Line_WaitForInput);
@@ -4364,7 +4364,7 @@ void main()
 
 
 //「いいだろう～＠ここのウェイトレスさんの制服～～♪￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600022", 256, TRUE);
 	OutputLine(NULL, "「いいだろう〜。",
 		   NULL, "\"Aren't they great~?", Line_WaitForInput);
@@ -4397,7 +4397,7 @@ void main()
 	PlayBGM( 1, "msys03", 56, 0 );
 
 //「なな、何をするんだ圭一＠　父さんにも殴られたことないのにー！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600024", 256, TRUE);
 	OutputLine(NULL, "「なな、何をするんだ圭一！",
 		   NULL, "\"W-W-What are you doing, Keiichi!?", Line_WaitForInput);
@@ -4417,7 +4417,7 @@ void main()
 	ClearMessage();
 
 //「いいか圭一、父さんは決して不埒なつもりで来ているんじゃないんだぞ＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600026", 256, TRUE);
 	OutputLine(NULL, "「いいか圭一、父さんは決して不埒なつもりで来ているんじゃないんだぞ。",
 		   NULL, "\"Listen, Keiichi, I've never come here with impure intentions.", GetGlobalFlag(GLinemodeSp));
@@ -4425,7 +4425,7 @@ void main()
 
 
 //　あのグッドでキュートでエキセントリックな衣装から受けるインプレッションを＠　芸術的インスピレーションを＠　お前に感じさせてやりたかったんだよ！＠　お前だってこういう刺激を求めていたはずだ！＠　そうだろ？＠　でもひとりじゃ恥ずかしい＠わかってる！＠　だから父さんが無理やり連れてきたんだ＠　父さんのせいにしていいんだぞ＠　父さんが泥を被ったとしても...圭一にはこの気持ちをわかってほしかっただぁあぁああッ！！！/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600027", 256, TRUE);
 	OutputLine(NULL, "　あのグッドでキュートでエキセントリックな衣装から受けるインプレッションを！",
 		   NULL, "That belle and attirante and excentrique clothing, quel effet!", Line_WaitForInput);
@@ -4441,7 +4441,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600031", 256, TRUE);
 	OutputLine(NULL, "　そうだろ？！",
 		   NULL, " Haven't you!? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600032", 256, TRUE);
 	OutputLine(NULL, "　でもひとりじゃ恥ずかしい。",
 		   NULL, "Coming here alone, though, is a bit embarrassing.", Line_WaitForInput);
@@ -4467,7 +4467,7 @@ void main()
 
 
 //　.........あー.../
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/662600078", 256, TRUE);
 	OutputLine(NULL, "　………あー…",
 		   NULL, ".... Aah...", Line_Continue);
@@ -5782,7 +5782,7 @@ void main()
 	ClearMessage();
 
 //「圭一、そろそろいいか＠　帰ろう。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600038", 256, TRUE);
 	OutputLine(NULL, "「圭一、そろそろいいか？",
 		   NULL, "\"Keiichi, are you about ready?", Line_WaitForInput);
@@ -5804,7 +5804,7 @@ void main()
 	ClearMessage();
 
 //「さっきの新米ウェイトレスさんは圭一の知り合いか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600040", 256, TRUE);
 	OutputLine(NULL, "「さっきの新米ウェイトレスさんは圭一の知り合いか？」",
 		   NULL, "\"Was that new waitress just now somebody you know, Keiichi?\"", GetGlobalFlag(GLinemodeSp));
@@ -5828,7 +5828,7 @@ void main()
 	ClearMessage();
 
 //「学校の子かい＠　雛見沢の？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600041", 256, TRUE);
 	OutputLine(NULL, "「学校の子かい？",
 		   NULL, "\"Somebody from school?", Line_WaitForInput);
@@ -5855,7 +5855,7 @@ void main()
 
 
 //「へー。雛見沢の子ってみんな圭一と同じ学校に通ってるわけじゃないのか。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600043", 256, TRUE);
 	OutputLine(NULL, "「へー。雛見沢の子ってみんな圭一と同じ学校に通ってるわけじゃないのか。」",
 		   NULL, "\"Hmmm. So not all the kids in Hinamizawa go to the same school?\"", GetGlobalFlag(GLinemodeSp));

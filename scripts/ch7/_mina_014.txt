@@ -117,7 +117,7 @@ void main()
 		   NULL, "Since I looked so nervous, the leaders of the committee all came up to me and said that I could just act natural and do my thing.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600025", 256, TRUE);
 	OutputLine(NULL, "「どうもこの度は愚息をご推薦いただきありがとうございます。",
 		   NULL, "\"Thank you for offering my son such an important position.", Line_WaitForInput);
@@ -203,7 +203,7 @@ void main()
 
 	DrawSceneWithMask( "background/js4_02", "maskright", 1, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600028", 256, TRUE);
 	OutputLine(NULL, "「なら圭一、スーツに蝶ネクタイでも充分、司会っぽい雰囲気は出るだろ。」",
 		   NULL, "\"How about a suit with a bowtie? That would make you look like a real MC!\"", GetGlobalFlag(GLinemodeSp));
@@ -253,7 +253,7 @@ void main()
 		   NULL, " If you don't have anything flashy to wear, I can get you something like that.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600029", 256, TRUE);
 	OutputLine(NULL, "「本当ですか？！",
 		   NULL, "\"Really?", Line_WaitForInput);
@@ -366,7 +366,7 @@ void main()
 		   NULL, " Nice to see you too, Maebara-san.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600031", 256, TRUE);
 	OutputLine(NULL, "「あぁあぁどうも先生！",
 		   NULL, "\"Ah, ah, hello, ma'am!", Line_WaitForInput);
@@ -1210,7 +1210,7 @@ void main()
 		   NULL, "Everyone returned to their seats and listened to each section head's report on what they discussed.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600033", 256, TRUE);
 	OutputLine(NULL, "「圭一はすごいな…。",
 		   NULL, "\"You're incredible, Keiichi...", Line_WaitForInput);
@@ -1225,7 +1225,7 @@ void main()
 		   NULL, "\"But there are even more people that I don't know.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600035", 256, TRUE);
 	OutputLine(NULL, "「そうか？",
 		   NULL, "\"Are you sure?", Line_WaitForInput);
@@ -1252,7 +1252,7 @@ void main()
 		   NULL, " I know you're busy with your work, but you should be involved as much as you can.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600039", 256, TRUE);
 	OutputLine(NULL, "「そうだなぁ。帰ったら母さんにも話してみるよ。」",
 		   NULL, "\"I'm going to talk with your mother about that, I think.\"", Line_Normal);
@@ -1337,7 +1337,7 @@ void main()
 		   NULL, " He can sleep in if he wants to, as long as he makes his deadlines.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600040", 256, TRUE);
 	OutputLine(NULL, "「圭一、",
 		   NULL, "\"Keiichi...", Line_WaitForInput);

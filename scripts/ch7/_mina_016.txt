@@ -4058,7 +4058,7 @@ void main()
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "maskleft" , 1, FALSE, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600042", 256, TRUE);
 	OutputLine(NULL, "「圭一。」",
 		   NULL, "\"Keiichi.\"", Line_Normal);
@@ -4073,7 +4073,7 @@ void main()
 		   NULL, " I know it's important to be polite... But I need to do this for my friend...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600043", 256, TRUE);
 	OutputLine(NULL, "「父さんは止めんぞ。」",
 		   NULL, "\"I'm not going to stop you.\"", GetGlobalFlag(GLinemodeSp));
@@ -4095,7 +4095,7 @@ void main()
 		   NULL, "I've never seen my dad smile like that before.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600044", 256, TRUE);
 	OutputLine(NULL, "「お前が今、大石さんに言ったとおりだ。",
 		   NULL, "\"I believe in what you just told Ooishi-san.", Line_WaitForInput);
@@ -4105,7 +4105,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600046", 256, TRUE);
 	OutputLine(NULL, "その時は、男の人生のどこかにあるものなんだ。",
 		   NULL, " You'll encounter something like that in your life sooner or later. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600047", 256, TRUE);
 	OutputLine(NULL, "圭一にとってのその時が今だというなら、父さんは何も言わん！」",
 		   NULL, "If this is that time, then I'm not going to stop you.\"", Line_Normal);
@@ -4162,14 +4162,14 @@ void main()
 		   NULL, " If you're going to forfeit, do so immediately. But if you're going to fight, be confident in yourself.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600048", 256, TRUE);
 	OutputLine(NULL, "「麻雀は得点が倍々計算だからなぁ。",
 		   NULL, "\"Mahjong uses double-double scoring, after all.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600049", 256, TRUE);
 	OutputLine(NULL, "変に弱気に二三度アガっても、一度の大きなアガリにすぐ引っくり返されちゃう。",
 		   NULL, " Even if you get a small amount of points several times in succession, you'll lose if someone scores a lot of points all at once. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600050", 256, TRUE);
 	OutputLine(NULL, "勝負手の時はとことん強気がいいんだ。」",
 		   NULL, "You just have to be confident when you're ready to fight.\"", GetGlobalFlag(GLinemodeSp));

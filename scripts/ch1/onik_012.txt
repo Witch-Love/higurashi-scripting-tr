@@ -37,7 +37,7 @@ void main()
 	DrawSceneWithMask("background/ma_d1", "left", 0, 0, 1300 );
 
 //「どうしたの＠圭一＠……今朝は顔色悪いわよ＠　昨夜は何時に寝たの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700011", 256, TRUE);
 	OutputLine(NULL, "「どうしたの。",
 		   NULL, "\"What's wrong?", Line_WaitForInput);
@@ -145,7 +145,7 @@ void main()
 
 
 //「…あら＠…ちょっと熱あるんじゃない…＠　どうする＠　学校、行ける？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700015", 256, TRUE);
 	OutputLine(NULL, "「…あら。",
 		   NULL, "\"...My.", Line_WaitForInput);
@@ -223,7 +223,7 @@ void main()
 
 
 //「レナちゃん迎えに来ちゃったけど……どうする＠　お休みする？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700019", 256, TRUE);
 	OutputLine(NULL, "「レナちゃん迎えに来ちゃったけど……どうする？",
 		   NULL, "\"Rena-chan came to get you... what are you going to do?", Line_WaitForInput);
@@ -295,7 +295,7 @@ void main()
 
 
 //「じゃあ、母さんが断ってきてあげるわね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700021", 256, TRUE);
 	OutputLine(NULL, "「じゃあ、母さんが断ってきてあげるわね。」",
 		   NULL, "\"Then I'll go send her off for you.\"", GetGlobalFlag(GLinemodeSp));

@@ -86,7 +86,7 @@ void main()
 		   NULL, "My parents waved at us, smiling.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/172700006", 256, TRUE);
 	OutputLine(NULL, "「いってらっしゃ〜い。",
 		   NULL, "\"Have a nice day.", Line_WaitForInput);

@@ -131,7 +131,7 @@ void main()
 	DrawSceneWithMask("background/ma_s1", "left", 0, 0, 300 );
 
 //「どうしたの、圭一＠今日はどこかにお出掛けでもするの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700020", 256, TRUE);
 	OutputLine(NULL, "「どうしたの、圭一。",
 		   NULL, "\"What's wrong, Keiichi?", Line_WaitForInput);

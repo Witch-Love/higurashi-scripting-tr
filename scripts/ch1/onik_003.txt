@@ -3207,7 +3207,7 @@ void main()
 
 
 //「お帰り、圭一。…お父さん、大変そうだからそっとしてあげてね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700007", 256, TRUE);
 	OutputLine(NULL, "「お帰り、圭一。…お父さん、大変そうだからそっとしてあげてね。」",
 		   NULL, "\"Welcome home, Keiichi. ...Dad... he's in a bit of a rut right now, so don't bother him, okay?\"", GetGlobalFlag(GLinemodeSp));
@@ -3225,7 +3225,7 @@ void main()
 
 
 //「今回は締め切りが重なったからね＠お父さん、充電期間がないと大変だから。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700008", 256, TRUE);
 	OutputLine(NULL, "「今回は締め切りが重なったからね。",
 		   NULL, "\"It's because the deadlines are so close together this time.", Line_WaitForInput);
@@ -3264,7 +3264,7 @@ void main()
 
 
 //「今回は"生活空間"がテーマだから＠お父さん、この家をモチーフにしたいみたい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700010", 256, TRUE);
 	OutputLine(NULL, "「今回は“生活空間”がテーマだから。",
 		   NULL, "\"The theme of the piece this time is 'in the household.'", Line_WaitForInput);
@@ -3284,7 +3284,7 @@ void main()
 
 
 //「…圭一！！　部屋の中を少しは片付けなさい！！　みっともないぞー！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992600003", 256, TRUE);
 	OutputLine(NULL, "「…圭一！！　部屋の中を少しは片付けなさい！！　みっともないぞー！」",
 		   NULL, "\"...Keiichi!! Tidy your room for once in a while!! It looks terrible!\"", GetGlobalFlag(GLinemodeSp));
@@ -3308,7 +3308,7 @@ void main()
 	ClearMessage();
 
 //「圭一、お夕飯までまだ時間があるから＠表でも散歩してらっしゃい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700012", 256, TRUE);
 	OutputLine(NULL, "「圭一、お夕飯までまだ時間があるから。",
 		   NULL, "\"Keiichi, there's still some time before dinner.", Line_WaitForInput);

@@ -2906,7 +2906,7 @@ void main()
 
 
 //「どうしたの圭一、そんなところで＠…中に入りなさい。風邪を引くわよ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700001", 256, TRUE);
 	OutputLine(NULL, "「どうしたの圭一、そんなところで。",
 		   NULL, "\"What's wrong, Keiichi? Why are you standing in a place like that?", Line_WaitForInput);
@@ -2938,7 +2938,7 @@ void main()
 
 
 //「結局、お父さんが起きなかったからね＠行きそびれちゃったわ＠残念。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/122700003", 256, TRUE);
 	OutputLine(NULL, "「結局、お父さんが起きなかったからね。",
 		   NULL, "\"In the end your father didn't wake up,", Line_WaitForInput);

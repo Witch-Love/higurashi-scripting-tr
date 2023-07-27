@@ -71,7 +71,7 @@ void main()
 	ClearMessage();
 
 //「...じゃあ、昨夜はお友達とみんなで、夜遅くまで探してたの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700026", 256, TRUE);
 	OutputLine(NULL, "「…じゃあ、昨夜はお友達とみんなで、夜遅くまで探してたの？」",
 		   NULL, "\"...So then, you were out late last night with all your friends looking for them?\"", GetGlobalFlag(GLinemodeSp));
@@ -90,7 +90,7 @@ void main()
 
 
 //「......結局、見つかったの＠　その、梨花ちゃんと沙都子ちゃんは。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700027", 256, TRUE);
 	OutputLine(NULL, "「……結局、見つかったの？",
 		   NULL, "\"...Did you find them?", Line_WaitForInput);

@@ -15,7 +15,7 @@ void main()
 
 //「おはよう圭一＠.........あら＠　昨夜は何時に寝たの？￥
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700040", 256, TRUE);
 	OutputLine(NULL, "「おはよう圭一。",
 		   NULL, "\"Morning, Keiichi.", Line_WaitForInput);
@@ -211,7 +211,7 @@ void main()
 
 //「気持ち悪い笑い＠寝ぼけてるなら顔を洗ってらっしゃい。＠
 //　せっかく景気付けで笑ったのに、お袋にぴしゃりと言われてムッとした￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700043", 256, TRUE);
 	OutputLine(NULL, "「気持ち悪い笑い。",
 		   NULL, "\"That's a creepy smile.", Line_WaitForInput);
@@ -246,7 +246,7 @@ void main()
 
 //「いってらっしゃい＠車に気をつけるのよー！＠
 //「気をつけるほど車もいないよ＠雛見沢には。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700045", 256, TRUE);
 	OutputLine(NULL, "「いってらっしゃい。",
 		   NULL, "\"Have a good day.", Line_WaitForInput);

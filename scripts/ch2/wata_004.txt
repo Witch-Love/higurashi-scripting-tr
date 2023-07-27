@@ -5780,7 +5780,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 //「圭一～＠園崎さんから電話よ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700001", 256, TRUE);
 	OutputLine(NULL, "「圭一〜。",
 		   NULL, "\"Keiichi~.", Line_WaitForInput);
