@@ -377,6 +377,10 @@
 ` ......What do you think?"`
 `"...Wh-What do I think?`
 ` ...I don't really know what you mean by 'certain members of the village'..."`
+`"Are you familiar with the Three Families?`
+` Representatives from each of them gave short addresses at the Watanagashi festival's opening ceremony.`
+` Did you see them?"`
+`"...I came... partway through the festival... so I don't really..."`
 `"The Three Families are the three oldest families in Hinamizawa.`
 ` To give actual names—`
 ` the Kimiyoshi family,`

@@ -141,6 +141,23 @@
 `"Ah haha!`
 ` You don't say.`
 ` You were such a cute little tyke the last time I saw you!"`
+`Mion'un bakışları göğsümden başlayıp aşağıya kaydı,`
+` ve bacaklarımın arasındaki noktaya odaklandı.`
+`...Yani eskiden kasıklarımın daha güzel olduğunu söylüyordu.`
+`Siz sormadan önce, açıkça belirteyim, ona göstermeye hiç çalışmadım.`
+`"Oldukça görkemli bir şekilde büyüdüm.`
+` Şaşıracaksın."`
+`"Yalnızca büyümekle de kalmadı, artık ufak bir bıyığı da var~☆"`
+`"Yine de her sabah enerjiyle *taşıyor* olmak oldukça büyük bir sorun.`
+` Gelecek sefer sizi tanıştıracağım, bu yüzden onu düzgün bir şekilde selamladığınızdan emin olun."`
+`"'Gelecek sefer' deme. Şu an da gayet iyi.`
+` Ufaklığın ferah sabah havasını almasına izin vermeye ne dersin?"`
+`Daha önce sabah havasını bile kirletecek kadar kirli bir konuşma duyduğumu hiç sanmıyorum.`
+`Mion bazen yaşlı bir adam gibi davranıyor.`
+`"Anlaşıldı.`
+` Büyük gösteri zamanı.`
+` Umarım bundan pişman olmazsın...!!"`
+`Elim fermuarıma uzandığında, Rena panik içinde saçmalamaya başladı.`
 `"...Hey,`
 ` hey hey...`
 ` What are you talking about?`
@@ -413,6 +430,8 @@
 `"Keiichi-kun, hurry, hurry!"`
 `Rena waved her chopsticks in an unrefined manner, trying to hurry me along.`
 `Unless everyone was together, they wouldn't even open their lunch boxes.`
+`"Keiichi-san'ın beslenme kutusu kesinlikle bir tür fakir fukara gibi ekmek kırıntılarıyla dolu~!`
+` Neden bize göstermiyorsun? Hadi ama!"`
 `Even though Satoko was hurling insults at me, she still wouldn't open the lid to her lunch box until I was there.`
 `I pulled out my lunch box swiftly and dragged my chair over to join the circle.`
 `"Hey, sorry to keep you waiting!"`
@@ -622,6 +641,7 @@
 ` I'll...`
 ` make all the food, maybe...`
 ` Maybe!"`
+`"Beni sen de görmezden gelme, Rena! İkinizin otel bölgesinde kaybolduğunuza dair köy çapında bir söylenti çıkaracağım!"`
 `"Well then... I'm going home right now to start making it...!`
 ` Tomorrow is going to be so fun~! Later Keiichi-kun, Mii-chan! Bye!"`
 `Rena bounded off like she was walking on the moon.`

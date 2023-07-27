@@ -38,6 +38,9 @@
 `"Huh, I didn't know your aunt was a welfare officer.`
 ` ...What happened?`
 ` Did you tell her about Satoko-chan?"`
+`"Yep.`
+` Chie-sensei called the child consultation center right after we talked to her.`
+` A child welfare officer apparently visited before the night was over. `
 `My aunt said that they were going to pay visits at regular intervals from now on."`
 `"...Enough with the dumb, little stuff.`
 ` I want to know what happened to Satoko.`
@@ -72,6 +75,8 @@
 `"Satoko-chan!`
 ` ...Umm... Are you okay?"`
 `All of our friends crowded around Satoko excitedly.`
+`"...A probation officer came, right?`
+` ...Umm... How did it go?"`
 `"...Who was it that called them?`
 ` I swear... It was quite a mess, you know."`
 `"It was the teacher.`
@@ -119,6 +124,7 @@
 ` This doesn't make any sense!!`
 ` Answer me, damn it!!"`
 `".........Keiichi.`
+` ...This is actually the third time someone has reported Satoko's child abuse.`
 ` ...It happened... twice in the past too."`
 `"Furude-san...!"`
 `Sensei tried to stop her, but Rika-chan went on speaking anyway.`
@@ -190,6 +196,7 @@
 ` that's why...`
 ` the winter before last... they decided to wait and see...?"`
 `"...Yes.`
+` ......The child consultation center had all their past records...`
 ` so they needed to act carefully... in case Satoko was lying."`
 `"...What the hell...`
 ` So... so what?`

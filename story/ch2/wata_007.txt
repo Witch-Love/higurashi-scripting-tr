@@ -251,6 +251,15 @@
 ` It's quite unusual for you to come here."`
 `"Oh, hey, it's Tomitake and Takano-san!"`
 `"Good evening. It's been a while, hasn't it?"`
+`"So you're that transfer student I've been hearing about—Keiichi Maebara-kun, right?`
+` You really did a bang-up job today! I'm impressed."`
+`...I feel like I've seen this photographer guy before.`
+`"Umm... Have we met before?"`
+`"I'm glad you remembered.`
+` We've passed many times on the road, Keiichi-kun.`
+` I'm Tomitake.`
+` I'm a freelancing photographer from Tokyo."`
+`"Then do you recognize me...?"`
 `"............I'm sorry, but I don't."`
 `"She's Miyo Takano-san.`
 ` Do you remember when you were at the doctor's office when you still had a cold, Kei-chan?`
@@ -260,6 +269,8 @@
 ` Tell me when you're coming in for treatment. I'll prepare a huge needle for you."`
 `"...That's very thoughtful of you..."`
 `Tomitake-san seemed to be quite entertained at the Sonozaki twins being in the same place, and he took picture after picture.`
+`"I've heard about them, but this is the first time I've actually seen a pair of identical twins.`
+` You really do look exactly alike!"`
 `"We're not just alike on the outside! See, our underwear matches, too☆."`
 `"Gyaahhhhhhh! You idiot, what the heck are you doing!!?"`
 `...Things have never been as lively as when the two of them are together.`
@@ -421,6 +432,8 @@
 `...I won't go into too much detail, but it's the sort of national and religious ideas that lead to war.`
 ` Of course, that goes for Japan, too.`
 `"A long time ago, the people of Hinamizawa strongly believed themselves different from humans, that they were above them.`
+`They believed that interaction with the lower world would sully their souls.`
+`......So everyone believed that if one from the lower world came to the village, they would be sullied and suffer the wrath of Oyashiro-sama. Apparently that kept everyone away."`
 `"...Well, they'll deny it to preserve their pride. It was all a long time ago, after all!`
 ` Things are different now."`
 `Shion followed up quickly, having sensed the thorns in Tomitake-san's words.`
@@ -442,6 +455,9 @@
 ` Four years ago, I believe?`
 ` It took the newspapers by storm. Do you remember it?"`
 `"Uhh... No, not really..."`
+`"He had a fight with a subordinate and was beaten to death with a pickaxe. His limbs and head were torn off, and the remains disposed of."`
+`"One of those dismemberment homicides.`
+` They were all the rage at one point."`
 `...Such a gruesome incident...`
 `But...it was just that—an incident.`
 `A person caused the incident, after all. Should they really put it down to the curse...?`

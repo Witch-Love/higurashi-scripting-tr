@@ -5,6 +5,36 @@ define('CRLF', "\r\n");
 
 // exclude empty files
 $exclude = [
+	'zonik_001_vm00_n01.txt',
+	'zonik_001_vm0x_n01.txt',
+	'zonik_002_vm00_n01.txt',
+	'zonik_002_vm0x_n01.txt',
+	'zonik_009_02_vm00_n01.txt',
+	'zonik_009_02_vm0x_n01.txt',
+	'zonik_012_vm00_n01.txt',
+	'zonik_012_vm0x_n01.txt',
+	'zonik_tips_01_vm00_n01.txt',
+	'zonik_tips_01_vm0x_n01.txt',
+	'zonik_tips_02_vm00_n01.txt',
+	'zonik_tips_02_vm0x_n01.txt',
+	'zonik_tips_17_vm00_n01.txt',
+	'zonik_tips_17_vm0x_n01.txt',
+	'zwata_010_02_vm00_n01.txt',
+	'zwata_010_02_vm0x_n01.txt',
+	'zwata_012_02_vm00_n01.txt',
+	'zwata_012_02_vm0x_n01.txt',
+	'zwata_012_vm00_n01.txt',
+	'zwata_012_vm0x_n01.txt',
+	'zwata_tips_01_vm00_n01.txt',
+	'zwata_tips_01_vm0x_n01.txt',
+	'zwata_tips_22_vm00_n01.txt',
+	'zwata_tips_22_vm0x_n01.txt',
+	'_zmeak_008_vm00_n01.txt',
+	'_zmeak_008_vm0x_n01.txt',
+	'_zmeak_012_vm00_n01.txt',
+	'_zmeak_012_vm0x_n01.txt',
+	'_zmeak_016_2_vm00_n01.txt',
+	'_zmeak_016_2_vm0x_n01.txt',
 	'flow.txt',
 	'init.txt',
 	'zwata_00x_vm00_n01.txt',
@@ -19,6 +49,7 @@ $exclude = [
 	'&endroll_staff6.txt',
 	'_mina_009_1.txt',
 	'&eyecampblack.txt',
+	'&endroll_staff7.txt',
 	'&endroll_staff8.txt',
 	'&endroll_staff9.txt',
 	'&eyefragment.txt',
@@ -48,6 +79,7 @@ function main($argc, $argv) {
 
 	$scripts_dir = 'scripts';
 	$extracted_dir = 'story';
+	$out_dir = 'output';
 	
 	ini_set('memory_limit','2048M');
 
@@ -69,7 +101,7 @@ function main($argc, $argv) {
 						if ($result == 1) {
 							$match = $matches[1][0];
 							$match = str_replace('\\"', '"', $match);
-							array_push($newfile, '`' . $match . '`' . CRLF);
+							array_push($newfile, '`' . $match . '`' . LF);
 						}
 					}
 					fclose($handle);
@@ -104,7 +136,8 @@ function main($argc, $argv) {
 
 
 
-			$story = readDirs($scripts_dir);
+			recurseCopy("$scripts_dir/", "$out_dir/");
+			$story = readDirs($out_dir);
 
 			for ($i = 0; $i < count($story); $i++) {
 				$chapter = $story[$i];
@@ -132,6 +165,56 @@ function main($argc, $argv) {
 			}
 			break;
 	}
+}
+
+
+function recurseCopy(
+    string $sourceDirectory,
+    string $destinationDirectory,
+    string $childFolder = ''
+): void {
+    $directory = opendir($sourceDirectory);
+
+    if (is_dir($destinationDirectory) === false) {
+        mkdir($destinationDirectory);
+    }
+
+    if ($childFolder !== '') {
+        if (is_dir("$destinationDirectory/$childFolder") === false) {
+            mkdir("$destinationDirectory/$childFolder");
+        }
+
+        while (($file = readdir($directory)) !== false) {
+            if ($file === '.' || $file === '..') {
+                continue;
+            }
+
+            if (is_dir("$sourceDirectory/$file") === true) {
+                recurseCopy("$sourceDirectory/$file", "$destinationDirectory/$childFolder/$file");
+            } else {
+                copy("$sourceDirectory/$file", "$destinationDirectory/$childFolder/$file");
+            }
+        }
+
+        closedir($directory);
+
+        return;
+    }
+
+    while (($file = readdir($directory)) !== false) {
+        if ($file === '.' || $file === '..') {
+            continue;
+        }
+
+        if (is_dir("$sourceDirectory/$file") === true) {
+            recurseCopy("$sourceDirectory/$file", "$destinationDirectory/$file");
+        }
+        else {
+            copy("$sourceDirectory/$file", "$destinationDirectory/$file");
+        }
+    }
+
+    closedir($directory);
 }
 
 

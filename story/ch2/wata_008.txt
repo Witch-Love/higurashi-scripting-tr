@@ -39,6 +39,8 @@
 `Whooaaa!! The shrine grounds... they were packed with people! It was a festival if I ever saw one!!`
 `"Wow! They went all-out this year too!! Amazing, amazing!!"`
 `"They're coming from Hinamizawa.`
+`Huh? The bedridden old man from the Kimiyoshi branch family is here too!`
+` I think that old guy went home from Watanagashi last year and stayed in bed ever since."`
 `Yeah, there were a lot of villagers here that I didn't really know.`
 `They must have all been pouring in just for today.`
 `"Oh!`
@@ -337,6 +339,7 @@
 ` Shion, what the heck are you trying to dooooo!!?"`
 `"...How vulgar!!`
 ` I seem to have misjudged you!!"`
+`"......What about my flat chest?"`
 `Rika-chan clasps onto my other arm, too.`
 ` Rub.`
 `A plentiful, plump feeling on my left shoulder, and the sour sensation of a young, unripe fruit on my right......`
@@ -473,6 +476,9 @@
 `And there we saw... two figures, one male, and one female.`
 `(Wha... What's that?`
 ` ...............I-Is that...)`
+`(We're right at the scene of a rendezvous, of course~.`
+` See, look closely.`
+` Can you tell who they are?)`
 `I peered intently into the dark at Shion's suggestion.`
 `...Oh, it's Tomitake-san and Takano-san...!`
 `The two of them were clearly breathing quietly and glancing around to make sure nobody knew they were there, as they crouched before the entrance to a wooden, storehouse-like building.`
@@ -493,9 +499,19 @@
 `"My, my.`
 ` If it isn't Shion-chan and Maebara-kun.`
 ` Good evening. Yes, the moon certainly is pretty."`
+`"What's this...? Keiichi-kun, you sure are smart, you know that?`
+` Having a secret date in a place like this?`
+` Then I guess we accidentally interrupted something important. A-ha-ha-ha!!"`
 `Tomitake-san and Takano-san laughed to themselves, and it got on my nerves for some reason.`
+`"Wait, so you two weren't having a little rendezvous, then?"`
 `"O-Of course we weren't.`
 ` Though I don't dislike that kind of romance."`
+`"Heehee...`
+` Unfortunately, this wasn't the location of a rendezvous either of you would want to see.`
+` Sorry for not living up to your expectations."`
+`"Hmm.`
+` If this wasn't a rendezvous, then what were you doing?`
+` Tomitake-san, were you messing around with the padlock on the door just now?"`
 `Huh? After she said that, I looked at the two of them again...`
 ` And I definitely saw it.`
 `They were hunched in front of a warehouse door, fiddling with a pretty heavy-looking padlock.`
@@ -523,6 +539,9 @@
 ` Basically, this is a warehouse where they store such tools used in rituals.`
 ` ...Well, more accurately, maybe it's a temple where the implements are enshrined.`
 `The ritual hoe Rika-chan is using for the offertory dance was inside here until today.`
+`Of course, if anyone but the Furude family enters...`
+` ...they bring 'impurity' into it, so absolutely no one is allowed a single step inside it.`
+` ......It's a sanctuary."`
 `Shouldn't we absolutely NOT be coming to a place like this, then?!`
 `However, Takano was wearing a childlike expression—an innocent smile at best, and terribly cruel grin at worst.`
 `"I told you I was researching Hinamizawa's folk tales and legends out of an interest in them, didn't I?`
@@ -828,7 +847,13 @@
 `"That blood still runs through the villagers' veins.`
 ` ......They say that sometimes, the blood awakens from its slumber."`
 `I thought the fairy tale had a happy ending, with the humans and demons living in peace... but it began to suddenly change into a brutal, bloody story...`
+`"Well, they eat people.`
+` They say that every decade or so, they can't help but want to feast on human flesh.`
+` The villagers can't eat other villagers... `
+`So when this happens, it's said that they descended on the human villages and conducted Onikakushi."`
 `"What's an... Onikakushi?"`
+`"Broadly speaking, it's when a demon kidnaps someone; when a person is 'demoned away.'`
+` They say that the villagers of Onigafuchi would overwhelm unfortunate human villages, in order to kidnap sacrifices."`
 ` Takano-san's explanation was plain and simple... but when I imagined what it must have been like... it was terrifying.`
 `They lose their human reason...`
 `The villagers turn into real demons en masse...`
@@ -839,10 +864,13 @@
 ` Wasn't he supposed to be staying in the village and watching over them?"`
 `"Oyashiro-sama knew about it, of course.`
 ` Onikakushi isn't indiscriminate. The villagers apparently never kidnapped anyone other than the sacrifices decided upon by their god.`
+`In the texts, it's usually one or two people."`
 `......A village inhabited by those both human and inhuman.`
 `...It was like the heart-warming episode's colors had inverted, like negative film...`
 ` ...revealing the painful...`
 ` ...and ugly truth...`
+`"So on the nights when they stole away villagers...`
+` they would feast on their kidnapped sacrifices, which is why the nights came to be known as 'Watanagashi.'"`
 `Watanagashi.`
 `...Tonight's festival was Watanagashi.`
 `...I just couldn't reconcile the fun festival with the horrible tale Takano-san was telling me.`
@@ -862,9 +890,20 @@
 `"Yes.`
 ` It's as you imagine, Maebara-kun.`
 `...Right now, the Watanagashi Festival might just be a somewhat early summer festival occurring every June, but it used to be different.`
+`It used to be a ghastly, cannibalistic feast... held on the night the villagers had collected their unfortunate dinner."`
 `"Th-That can't be true!!!"`
 `I had no real reason to say that,`
 ` but I couldn't help it.`
+`"Maebara-kun, you said that Watanagashi is a ritual about purifying futons, right?`
+` What do you think the futons, filled with cotton—with 'wata'—represent?"`
+`"Futons are futons!!`
+` They're beds!`
+` They're things for sleeping in!`
+` What else could they possibly represent?!"`
+`I was rattling on, desperately attempting to deny the horrible festival that Takano-san was describing...`
+`Deep down, however... I found myself understanding all too well what she meant.`
+`Futons, stuffed with cotton.`
+`If the cotton represented entrails in both pronunciation and meaning, then entrail-filled futons... would have to be humans.`
 `"Why don't you think back to the offertory dance Rika-chan performed?`
 ` Do you know...`
 ` what she was doing up there?"`
@@ -874,6 +913,9 @@
 ` Kei-chan, you're getting too worked up."`
 `Shion grabbed one of my ears, reminding me that this wasn't somewhere I should raise my voice.`
 ` Even so, I still can't suppress this agitation I feel.`
+`"Rika-chan was carrying a festival hoe.`
+` ...You've probably realized it already, but that's not a hoe for plowing fields.`
+` ...It's a tool for dissecting human bodies."`
 `I didn't see the dance all the way through, so I don't know what kind of performance Rika-chan was putting on after I'd left.`
 `When I told this to Takano-san, she kindly explained Rika-chan's dance to me.`
 `To summarize what she said... After what I'd seen,`
@@ -882,6 +924,10 @@
 ` and pull out the cotton inside...`
 `She'd cut the cotton out, one bit at a time, and set it afloat.`
 ` ......That's the kind of ritual it was.`
+`"Broadly speaking, it was quite the bombastic ceremony, where they'd rip out the guts and throw them into a basin.`
+` ...And then the ritual was over.`
+`It's thought that afterwards, the villagers, each with a different role, dismantled the flesh piece-by-piece and feasted upon it.`
+` ...Heehee."`
 `...At Takano-san's strangely happy giggle, I felt, for some reason, violent displeasure.`
 `Rika-chan... Every day during our lunch break, she'd take a rice-pounding mallet into the schoolyard... and she'd work so hard, sweating bullets, to practice for the offertory dance she had done today...`
 `......All that effort...`
@@ -911,13 +957,18 @@
 ` I'd seen pictures of these sorts of tools before.`
 `...Yeah, they... They came up in a Japanese history textbook.`
 `Yes...... on the page introducing the <i>Kaitai Shinsho</i>, or the <i>New Text on Anatomy.</i>`
+`"These sorts of things...`
+` They're printed realistically in the literature of Germany, capital of the medical world."`
 `These... aren't carpentry tools.`
 ` ...These strangely-shaped tools... They're for dissection.`
 `Everyone knows that in the Edo period, they would dissect the corpses of those who had been put to death in order to gain knowledge about Western medical techniques.`
 `Illustrations of the dissection tools they used at the time came up in textbook supplements.`
 ` ......The things hung up on this wall... all looked exactly the same as those.`
+`"If you want a scarier way of looking at it, think of them as cooking utensils.`
+` ...Heehee."`
 `Takano-san, holding the lantern, the only light source in the room, led us along the wall.`
 `...She had the only light, so I had to walk after her whether I liked it or not.`
+`"...Look."`
 `Takano-san illuminated a coiled chain which left a bigger impression than the other things we saw.`
 `The chain in itself was nothing unusual...... but further along it were metal fetters that were like hinges, clearly meant for binding people.`
 `"Ke... Kei-chan,`
@@ -926,6 +977,9 @@
 `My spine froze...... My blood felt like it was turning into sherbet as it crawled up my back.`
 `On each of the joints, there were things like chains and iron balls attached...`
 ` It was like the table was searching for its next sacrifice, ready to spread their arms wide and close them in...`
+`"It's probably... a chopping block.`
+` I think you'd strap the sacrifice down to prep them for eating."`
+`The words "chopping block" sent a jolt through my body......`
 `When I looked more closely...... there were many dark slices carved into it, as through from a knife or a saw...`
 `They were the most clear-cut signs of usage you could ask for.`
 `...It proved these tools weren't just for show—they were used for their original purpose.`
@@ -981,10 +1035,46 @@
 `"People, you see...`
 ` Most of these wouldn't kill them, if used properly."`
 `Takano-san, as if reading my mind, displayed a shocking smile...`
+`"Burning at the stake, the famous method of execution for witches, will kill the person immediately.`
+`When the body suffers extreme burns on the skin all over, the decomposition of the skin's chemical makeup produces poison-like symptoms and causes an immense shock to the victim. `
+`...Though I suppose it's still very cruel—compared to the guillotine, you have to wait far longer for that to happen."`
 `......She described such horrors in a strangely medical way.`
 ` ...Shion immediately answered the question I had.`
 `"Takano-san is a nurse."`
 `...There's a saying that nothing can scare a doctor...... I guess it's true.`
+`"Oh, and also.`
+` There was a method of execution in ancient Rome where they would grill the person.`
+` Just like a barbecue.`
+` They would cover the person in wire netting and slowly cook them over a charcoal fire."`
+`To think the memories of when I went to a day camp with my family... would come rushing back now, of all times, so vividly...`
+`"...That's what it was like.`
+` Apparently they wouldn't die too easily for some reason.`
+`According to one source, even if they roasted one side of a person to a crisp for an entire night, they would still be conscious and able to speak fluently."`
+`...That's insane... You'd grill someone the whole day... and they'd still be conscious......`
+`It's said that ancient Rome, famous for their executions, thought of plenty of ways to execute someone while having the victim stay alive as long as possible...`
+`"Among them...`
+` there was one method where they would open the gut, pull out the intestines like sausages, pull them up with a winch, and put them on public display."`
+`Shion was behind me, clinging to me.`
+`...Not just because she was scared.`
+` ...She was protecting her stomach...`
+`"You would think someone with their intestines pulled out would die instantly, right?`
+` Actually...`
+` ...As long as you do it tenderly and thoroughly... `
+`It's apparently possible to pull them all out while the person is still conscious."`
+`I felt a sick feeling in my stomach...`
+`It was like my organs were coiling up... just from Takano-san's stare...`
+`"Though pulling them out with a winch was a rather... exaggerated method.`
+`In a more barbaric way, they might slice open the gut, then cut the intestines out and throw them everywhere...`
+` It's quite imaginable that they did dreadful things like that too, isn't it? `
+`However, those being put to death are conscious.`
+` ...It must be far more terrifying than painful..."`
+`She spoke with pleasure, as if she had come here on a sightseeing trip.`
+` ...I heard Shion gulping multiple times near my ears......`
+`"Perhaps Hinamizawa—or, rather, Onigafuchi Village—did something like that for the Watanagashi Festival.`
+` ......Listen.`
+` If you try hard...... can't you hear it?"`
+`I wanted nothing more than to not hear anything at all...`
+`So why? Why only at times like these do I begin to hear things I shouldn't be able to...`
 `Takano-san, having realized she'd scared Shion and I enough at this point, smiled soothingly.`
 `...Then, she turned on her heel, raised the lantern, and began to walk again.`
 `...If Takano-san left us here, we'd get even further away from the light...`
@@ -1010,6 +1100,19 @@
 `...Takano-san's mention of execution by grilling crosses my mind...`
 `We weren't just surrounded on all sides... by these terrifying instruments.`
 ` Things crowding the ceiling... were even hanging over our heads...`
+`"There are many of these sorts of bird cages among European torture devices.`
+` I'm surprised to see them in Japan as well."`
+`"Ke...... Kei-chan,`
+` ......Is there... something in there?!`
+` A person?`
+` A mummy?!"`
+`"Eh?! Wh-Where...?!"`
+`Shion desperately pointed to one of the many human-sized bird cages hanging from the ceiling, but I couldn't tell which one she meant.`
+`...Being that dark, there wasn't any way you could tell if something was there in the first place.`
+`"...I don't see anything.`
+` You sure you're not seeing things?"`
+`"..............."`
+`Shion didn't seem convinced... but without a means to confirm for ourselves, we couldn't do much but wonder.`
 `"Maebara-kun, after seeing this, have you come to believe in all of it?`
 ` The countless terrible rituals passed down in Hinamizawa?"`
 `It's got nothing to do with believing in them.`
@@ -1042,6 +1145,10 @@
 `Shion flashed a devilish smile, as if reveling in the immorality of it.`
 `"Maebara-kun, you keep it a secret too, okay?`
 ` If this gets out, I could suffer Oyashiro-sama's curse, or be made into a sacrifice.`
+`If it's the curse, then I wonder what kind of death it'll be this year?`
+` If it's the sacrifice... then will I be thrown into the Onigafuchi Swamp while still alive?`
+` ......It is tonight, you know.`
+` The night of Oyashiro-sama's curse."`
 `Takano-san said, bringing her face right up close to ours.`
 `...As if to say that if she had the choice, she'd rather suffer the curse.`
 ` ...That was what she seemed to be implying.`
@@ -1071,6 +1178,12 @@
 `"Do you understand what it must have been like?"`
 `I couldn't imagine such a strange sight... even if I tried.`
 `This was the first time I was ever thankful for my lack of imagination...`
+`"The victim was skinned while still alive, underwent all kinds of torture, and was killed brutally...`
+`...The author here also thinks that even after death, the remains were divided and dissected even further—the epitome of inhumanity.`
+`......I'm of the opinion that the entire 'process'`
+` was performed while the person was still alive, though.`
+` What do you think, Maebara-kun?"`
+`...She spoke in a way intended to make me imagine even more vicious things...`
 `As my brain was already far over capacity, however, there was no way I could imagine anything more brutal.`
 `Then when I broke my gaze from Takano-san's... those strangely-shaped weird tools were... all around us.`
 `I wonder if you could faithfully reproduce the mutilated corpse discovered at the end of the Meiji era... with the tools found in this place...`
@@ -1090,9 +1203,19 @@
 `Also...... there's a newspaper clipping right here suggesting it......`
 `"O-Okay, but... even if it really happened... it was a long time ago, right?`
 ` I mean, the Meiji era ended a hundred years ago..."`
+`"That's all.`
+` ...Only a hundred years ago.`
+` Besides.`
+` It kept happening even after the beginning of the Showa period.`
+` ...Like with the uproar around the post-war`
+` canned flesh incident,`
+` ......Oh, I apologize. `
 `That story was taboo, wasn't it...?"`
 `Takano-san immediately stopped talking as if worried about Shion.`
 `...Shion briefly looked somewhat angry, but that expression soon disappeared.`
+`"......Huh?`
+` Takano-san, what did you just say?`
+` Canned flesh...?"`
 `Just then, there was a huge CREAAAAAKING noise!!!`
 `Everyone whipped around to look!!`
 `...It was Tomitake-san, who had opened the door slightly.`

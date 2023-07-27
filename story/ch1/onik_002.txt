@@ -453,8 +453,11 @@
 `"You have someone with you?`
 ` ...What would she be doing over there?"`
 `That's what I wanted to know.`
+`"Dunno.`
+` Maybe she's checking on that dismembered corpse that was out here long ago."`
 `Tomitake-san looked shaken up by that for a moment.`
 `Uh-oh, I responded like I would if I were talking with Rena and the others.`
+`"...It was quite a disturbing incident... They still haven't found one of the arms."`
 `"Hahaha! Keiichi-kun, sorry to keep you~`
 ` You were waiting a while, I guess?`
 ` ...I guess?"`
@@ -468,6 +471,15 @@
 `It wasn't Rena's fault, so I decided to just brush it off for now.`
 `"How was it?`
 ` Find a treasure trove?"`
+`"Oh, yes~ So listen!`
+` Ah ...um, you see!`
+` There was...!`
+` A Colonel Sanders doll!♪"`
+`"A Colonel Sanders doll!?`
+` ...Oh, that thing. Those statues they always have out in front of that fried chicken place...`
+` That life-sized dummy?"`
+`"...Yes! Colonel Sanders.☆`
+` ...Hau... kyute... I want to take it hooome...☆"`
 `I couldn't tell how she decides what's 'kyute' or not... but, well, she seems to want it.`
 `"It's garbage, right?`
 ` No one would care if you just take it home, right?"`
@@ -479,6 +491,8 @@
 ` To repay you for that delicious picnic you prepared today."`
 `"...Hau... Th... Thank you..."`
 `Birds heading home to roost proclaimed that nightfall would soon be upon us.`
+`"Keiichi-kun is going to help.☆`
+` ...I can take Colonel Sanders home... hau..."`
 `Rena staggered along as if intoxicated in her dreamy state of mind.`
 `I tried asking her in a way that wouldn't take her out of her cheery state.`
 `"...Hey, Rena.`
@@ -501,5 +515,6 @@
 `"Don't really know; don't want to talk about it." That was the kind of feeling she gave me.`
 `Thinking about it, of course it would be like that.`
 ` This wasn't the type of thing girls would enjoy talking about.`
+`"...It was quite a disturbing incident... They still haven't found one of the arms."`
 `If it's just like Tomitake-san said...`
 `Then I had a feeling only the higurashi would know.`

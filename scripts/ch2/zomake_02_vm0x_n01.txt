@@ -18,5 +18,5 @@ void dialog002()
 {	   
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900118", 256, TRUE);
 	OutputLine(NULL, "…「鬼隠し」でも「たらいまわし」でも、そして今回の「綿流し」でも。",
-		   NULL, " ...Last time in Onikakushi and Taraimawashi. And now in Watanagashi. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Last time in Onikakushi and Taraimawashi. And now in Watanagashi. ", GetGlobalFlag(GLinemodeSp));	
 }
