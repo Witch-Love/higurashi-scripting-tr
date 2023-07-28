@@ -45,15 +45,32 @@ jobs:
           cp output-scripts/ch8/* assets/ch8/HigurashiEp08_Data/StreamingAssets/Update
           
           mkdir -p out
-          zip -qry ./out/1_onikakushi-turkish.zip assets/ch1/HigurashiEp01_Data || exit 1
-          zip -qry ./out/2_watanagashi-turkish.zip assets/ch2/HigurashiEp02_Data || exit 1
-          zip -qry ./out/3_tatarigoroshi-turkish.zip assets/ch3/HigurashiEp03_Data || exit 1
-          zip -qry ./out/4_himatsubushi-turkish.zip assets/ch4/HigurashiEp04_Data || exit 1
-          zip -qry ./out/5_meakashi-turkish.zip assets/ch5/HigurashiEp05_Data || exit 1
-          zip -qry ./out/6_tsumihoroboshi-turkish.zip assets/ch6/HigurashiEp06_Data || exit 1
-          zip -qry ./out/7_minagoroshi-turkish.zip assets/ch7/HigurashiEp07_Data || exit 1
-          zip -qry ./out/8_matsuribayashi-turkish.zip assets/ch8/HigurashiEp08_Data || exit 1
+
+          cd assets/ch1
+          zip -qry ../../out/1_onikakushi-turkish.zip HigurashiEp01_Data || exit 1
+
+          cd ../../assets/ch2
+          zip -qry ../../out/2_watanagashi-turkish.zip HigurashiEp02_Data || exit 1
+
+          cd ../../assets/ch3
+          zip -qry ../../out/3_tatarigoroshi-turkish.zip HigurashiEp03_Data || exit 1
+
+          cd ../../assets/ch4
+          zip -qry ../../out/4_himatsubushi-turkish.zip HigurashiEp04_Data || exit 1
           
+          cd ../../assets/ch5
+          zip -qry ../../out/5_meakashi-turkish.zip HigurashiEp05_Data || exit 1
+
+          cd ../../assets/ch6
+          zip -qry ../../out/6_tsumihoroboshi-turkish.zip HigurashiEp06_Data || exit 1
+
+          cd ../../assets/ch7
+          zip -qry ../../out/7_minagoroshi-turkish.zip HigurashiEp07_Data || exit 1
+
+          cd ../../assets/ch8
+          zip -qry ../../out/8_matsuribayashi-turkish.zip HigurashiEp08_Data || exit 1
+
+          cd ../..
           echo "Kurulum detayları için [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#kurulum) bakın." >> release_notes.md
 
       - name: Release
