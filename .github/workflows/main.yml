@@ -1,0 +1,150 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Compile
+        run: |
+          BUILD=$(($(git rev-list --count --first-parent HEAD)+100))
+          VERSION=$(($(git rev-list --count --first-parent HEAD)))
+          TODAY=$(date +"%d.%m.%y")
+          echo "BUILD=${BUILD}" >> "$GITHUB_ENV"
+          echo "TODAY=${TODAY}" >> "$GITHUB_ENV"
+          echo "Build number ${BUILD}"
+
+          php manager.php insert
+          
+          cp output-scripts/ch1/* assets/ch1/HigurashiEp01_Data/StreamingAssets/Update
+          cp output-scripts/ch2/* assets/ch2/HigurashiEp02_Data/StreamingAssets/Update
+          cp output-scripts/ch3/* assets/ch3/HigurashiEp03_Data/StreamingAssets/Update
+          cp output-scripts/ch4/* assets/ch4/HigurashiEp04_Data/StreamingAssets/Update
+          cp output-scripts/ch5/* assets/ch5/HigurashiEp05_Data/StreamingAssets/Update
+          cp output-scripts/ch6/* assets/ch6/HigurashiEp06_Data/StreamingAssets/Update
+          cp output-scripts/ch7/* assets/ch7/HigurashiEp07_Data/StreamingAssets/Update
+          cp output-scripts/ch8/* assets/ch8/HigurashiEp08_Data/StreamingAssets/Update
+          
+          mkdir -p out
+          zip -qry ./out/1_onikakushi-turkish.zip assets/ch1/HigurashiEp01_Data || exit 1
+          zip -qry ./out/2_watanagashi-turkish.zip assets/ch2/HigurashiEp02_Data || exit 1
+          zip -qry ./out/3_tatarigoroshi-turkish.zip assets/ch3/HigurashiEp03_Data || exit 1
+          zip -qry ./out/4_himatsubushi-turkish.zip assets/ch4/HigurashiEp04_Data || exit 1
+          zip -qry ./out/5_meakashi-turkish.zip assets/ch5/HigurashiEp05_Data || exit 1
+          zip -qry ./out/6_tsumihoroboshi-turkish.zip assets/ch6/HigurashiEp06_Data || exit 1
+          zip -qry ./out/7_minagoroshi-turkish.zip assets/ch7/HigurashiEp07_Data || exit 1
+          zip -qry ./out/8_matsuribayashi-turkish.zip assets/ch8/HigurashiEp08_Data || exit 1
+          
+          echo "Kurulum detayları için [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#kurulum) bakın." >> release_notes.md
+
+      - name: Release
+        if: github.repository_owner == 'Witch-Love'
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.BUILD }}
+          release_name: Higurashi Turkish Files v${{ env.BUILD }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+
+      - name: Upload Onikakushi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/1_onikakushi-turkish.zip
+          asset_name: 1_onikakushi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Watanagashi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/2_watanagashi-turkish.zip
+          asset_name: 2_watanagashi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Tatarigoroshi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/3_tatarigoroshi-turkish.zip
+          asset_name: 3_tatarigoroshi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Himatsubushi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/4_himatsubushi-turkish.zip
+          asset_name: 4_himatsubushi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Meakashi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/5_meakashi-turkish.zip
+          asset_name: 5_meakashi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Tsumihoroboshi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/6_tsumihoroboshi-turkish.zip
+          asset_name: 6_tsumihoroboshi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Minagoroshi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/7_minagoroshi-turkish.zip
+          asset_name: 7_minagoroshi-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Matsuribayashi Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/8_matsuribayashi-turkish.zip
+          asset_name: 8_matsuribayashi-turkish.zip
+          asset_content_type: application/zip
+

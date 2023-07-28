@@ -1,7 +1,7 @@
 output-plain
 output-scripts
 .vscode
-data
+/data
 plain
 plain.php
 story-backup
