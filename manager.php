@@ -79,7 +79,7 @@ function main($argc, $argv) {
 
 	$scripts_dir = 'scripts';
 	$extracted_dir = 'story';
-	$out_dir = 'output';
+	$out_dir = 'output-scripts';
 	
 	ini_set('memory_limit','2048M');
 

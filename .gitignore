@@ -1,1 +1,8 @@
-output
+output-plain
+output-scripts
+.vscode
+data
+plain
+plain.php
+story-backup
+start.bat
