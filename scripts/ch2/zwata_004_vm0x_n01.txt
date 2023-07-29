@@ -28,7 +28,7 @@ void dialog005()
 
 void dialog006()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badb50006", 256, TRUE);
 	OutputLine(NULL, "「ンだこの女ぁあぁぁあぁああ！！！",
@@ -42,7 +42,7 @@ void dialog006()
 
 void dialog007()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/womb50004", 256, TRUE);
 	OutputLine(NULL, "　はぁ…まったく！」",
 		   NULL, "*sigh*... honestly!\"", GetGlobalFlag(GLinemodeSp));

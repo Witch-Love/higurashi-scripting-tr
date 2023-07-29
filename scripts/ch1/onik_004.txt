@@ -1325,7 +1325,7 @@ void main()
 
 
 //「伝言伝言あははは～～！＠　いいよいいよ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99001", 256, TRUE);
 	OutputLine(NULL, "「伝言伝言あははは〜〜！！",
 		   NULL, "\"Message, message, ahahaha~~!!", Line_WaitForInput);
@@ -1514,7 +1514,7 @@ void main()
 
 
 //「いないね前原さん＠そっちいた？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlb99001", 256, TRUE);
 	OutputLine(NULL, "「いないね前原さん。",
 		   NULL, "\"Maebara-san isn't around.", Line_WaitForInput);
@@ -1526,7 +1526,7 @@ void main()
 
 
 //「いない～＠圭一さんどこだろ＠お父さんが校門に来てるのにね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlc99001", 256, TRUE);
 	OutputLine(NULL, "「いない〜。",
 		   NULL, "\"Nope~", Line_WaitForInput);
@@ -1567,7 +1567,7 @@ void main()
 
 
 //「ねぇねぇ、圭一さん知らないー＠　お母さんが急病で大変なんだってー！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girld99001", 256, TRUE);
 	OutputLine(NULL, "「ねぇねぇ、圭一さん知らないー？",
 		   NULL, "\"Hey, hey, do you know where Keiichi-san is at~?", Line_WaitForInput);
@@ -1579,7 +1579,7 @@ void main()
 
 
 //「前原さんに伝言だよ＠家が火事だから急いで校門に来い！って。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girle99001", 256, TRUE);
 	OutputLine(NULL, "「前原さんに伝言だよ。",
 		   NULL, "\"A message for Maebara-san.", Line_WaitForInput);
@@ -1591,7 +1591,7 @@ void main()
 
 
 //「前原さんちにジャンボ機が墜落したらしいよ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlf99001", 256, TRUE);
 	OutputLine(NULL, "「前原さんちにジャンボ機が墜落したらしいよ！」",
 		   NULL, "\"A jumbo jet fell on top of the Maebara residence!\"", GetGlobalFlag(GLinemodeSp));
@@ -1600,7 +1600,7 @@ void main()
 
 
 //「警察が事情聴取に来てるって言ってた！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99003", 256, TRUE);
 	OutputLine(NULL, "「警察が事情聴取に来てるって言ってた！」",
 		   NULL, "\"The police have come to question him!\"", GetGlobalFlag(GLinemodeSp));
@@ -1621,7 +1621,7 @@ void main()
 	//VoiceMatchingEnd
 
 //「え゛ーーーッッ？！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girld99004", 256, TRUE);
 	OutputLine(NULL, "「え゛ーーーッッ？！」",
 		   NULL, "\"Whaaat!?\"", Line_Normal);
@@ -2335,7 +2335,7 @@ void main()
 
 
 //「…前原さんちにジャンボ機が落っこちたことより大変なのー？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99004", 256, TRUE);
 	OutputLine(NULL, "「…前原さんちにジャンボ機が落っこちたことより大変なのー？」",
 		   NULL, "\"...It's a bigger problem than a jumbo jet crashing into your family's house?\"", GetGlobalFlag(GLinemodeSp));
@@ -2398,7 +2398,7 @@ void main()
 
 
 //「……竜宮さんってすごいんだぁ……。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99007", 256, TRUE);
 	OutputLine(NULL, "「……竜宮さんってすごいんだぁ……。」",
 		   NULL, "\"...Ryuugu-san is amazing...\"", GetGlobalFlag(GLinemodeSp));
@@ -2987,7 +2987,7 @@ void main()
 
 
 //「表の物置の中になかった＠　タオルは洗面所ね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700014", 256, TRUE);
 	OutputLine(NULL, "「表の物置の中になかった？",
 		   NULL, "\"Aren't they in the shed out back?", Line_WaitForInput);
@@ -3008,7 +3008,7 @@ void main()
 
 
 //「なぁに圭一＠すごいいでたちでどこへお出かけ…？？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700016", 256, TRUE);
 	OutputLine(NULL, "「なぁに圭一。",
 		   NULL, "\"What's going on, Keiichi?", Line_WaitForInput);
@@ -3041,7 +3041,7 @@ void main()
 
 
 //「？？…あまり遅くならないようにね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700018", 256, TRUE);
 	OutputLine(NULL, "「？？…あまり遅くならないようにね。」",
 		   NULL, "\"...Well, don't be out too late.\"", GetGlobalFlag(GLinemodeSp));

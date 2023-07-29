@@ -813,7 +813,7 @@ void main()
 	ClearMessage();
 
 //「圭一＠あなた塾に入る気はない＠　学校の勉強がわかるようになって、楽しくなるわよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700049", 256, TRUE);
 	OutputLine(NULL, "「圭一。",
 		   NULL, "\"Keiichi.", Line_WaitForInput);
@@ -871,7 +871,7 @@ void main()
 
 //「えっと、...６１って、平均点が６１点ですか？＠
 //「いいえ、違いますよお母さん＠全国展開する当塾での平均偏差値が６１です＠簡易式の知能検査でも非凡な数字が出ています＠...まず申し上げて、前原圭一くんは大変に頭がいい。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700052", 256, TRUE);
 	OutputLine(NULL, "「えっと、…６１って、平均点が６１点ですか？」",
 		   NULL, "\"Umm... By 61, do you mean his average score was 61 points?\"", GetGlobalFlag(GLinemodeSp));
@@ -896,7 +896,7 @@ void main()
 
 //「圭一が......＠でも、学校では大した成績じゃありませんし＠通信簿も２、３、４が適当に並ぶ平均的なもので......＠...何かの間違いではありませんか...？＠
 //「クレペリン検査とも重ねましたが、その結果、興味深いことがわかりました＠前原くんは意味を持たない問題に非常に弱いのです＠...無味簡素で自身の生活に結びつかない内容の問題に興味が持てないのです。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700053", 256, TRUE);
 	OutputLine(NULL, "「圭一が……。",
 		   NULL, "\"Keiichi...?", Line_WaitForInput);
@@ -929,7 +929,7 @@ void main()
 //「その通りです＠例えば正六面体の展開図を書け...と言われて混乱する圭一くんも、サイコロを切り開いたらどんな形になる＠　という風に聞けば、見事に答えられるのです。＠
 //　そして塾の人が、俺の書いた答案の一枚を見せた＠
 //　......それは工作の問題の答案だった＠工作の問題なんて珍しいのでとても面白かったっけ￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700057", 256, TRUE);
 	OutputLine(NULL, "「…２＋３はわからなくても、リンゴが２個あって、３個増やしたら何個に…という形なら理解できる、ということですか？」",
 		   NULL, "\"...So even if he doesn't know what 2+3 is, if you told him he had two apples, then got three more... He would understand that sort of question?\"", GetGlobalFlag(GLinemodeSp));
@@ -981,7 +981,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700058", 256, TRUE);
 	OutputLine(NULL, "「圭一。",
 		   NULL, "\"Keiichi...", Line_WaitForInput);

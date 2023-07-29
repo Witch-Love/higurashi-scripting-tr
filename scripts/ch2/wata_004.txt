@@ -2764,7 +2764,7 @@ void main()
 
 
 //「ンにすんだンの野郎ぉおおおぉおッ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/bada50001", 256, TRUE);
 	OutputLine(NULL, "「ンにすんだンの野郎ぉおおおぉおッ！！！」",
 		   NULL, "\"The hell you think yer doin'!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -2809,7 +2809,7 @@ void main()
 	PlayBGM( 1, "msys12", 56, 0 );
 
 //「すっとろけてンじゃねやぁあぁあッ！＠　おぁしたるぁ？＠　おああぁああッ？！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badb50001", 256, TRUE);
 	OutputLine(NULL, "「すっとろけてンじゃねやぁあぁあッ！！",
 		   NULL, "\"Dun be playin' dumb!!", Line_WaitForInput);
@@ -2843,7 +2843,7 @@ void main()
 
 
 //「ついじゃねぇだろ、おあぁッ？＠　蹴ったゃねえかよボケぇえぇえッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badc50001", 256, TRUE);
 	OutputLine(NULL, "「ついじゃねぇだろ、おあぁッ？！",
 		   NULL, "\"Axident my ass!", Line_WaitForInput);
@@ -2867,7 +2867,7 @@ void main()
 	ClearMessage();
 
 //「ンだちくしょぉおぉおおぉッ！＠　塗装剥げたじゃねえかよぉおおぉッ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/bada50002", 256, TRUE);
 	OutputLine(NULL, "「ンだちくしょぉおぉおおぉッ！！",
 		   NULL, "\"Da hell man!!", Line_WaitForInput);
@@ -2878,7 +2878,7 @@ void main()
 
 
 //「おぅ餓鬼ぃッ！＠　せがンとしたぁンないするつもりじゃあああぁあぁッ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badb50004", 256, TRUE);
 	OutputLine(NULL, "「おぅ餓鬼ぃッ！！",
 		   NULL, "\"Yo, brat!!", Line_WaitForInput);
@@ -2889,7 +2889,7 @@ void main()
 
 
 //「悪ぃのはてめぇなンだぞこんにゃろぉおおぉおッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badc50003", 256, TRUE);
 	OutputLine(NULL, "「悪ぃのはてめぇなンだぞこんにゃろぉおおぉおッ！！」",
 		   NULL, "\"Dis iz yer gerdam fault!!\"", GetGlobalFlag(GLinemodeSp));
@@ -3060,7 +3060,7 @@ void main()
 	DrawScene("background/mati2", 200 );
 
 //「黙ってンなごらぁああぁああッ！！＠　しゃあっすぞおらぁッ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/bada50004", 256, TRUE);
 	OutputLine(NULL, "「黙ってンなごらぁああぁああッ！！！",
 		   NULL, "\"Fookin' say sumtin!!!", Line_WaitForInput);
@@ -3138,7 +3138,7 @@ void main()
 	PlayBGM( 2, "lsys20", 56, 0 );
 
 //「...ンだてめぇええぇッ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/bada50006", 256, TRUE);
 	OutputLine(NULL, "「…ンだてめぇええぇッ！！！」",
 		   NULL, "\"Dafuq ye say!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -3339,7 +3339,7 @@ void main()
 	ClearMessage();
 
 //「な、何だこいつら.........！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badc50004", 256, TRUE);
 	OutputLine(NULL, "「な、何だこいつら………！！」",
 		   NULL, "\"Who da hell are deez guys!!\"", GetGlobalFlag(GLinemodeSp));
@@ -3436,7 +3436,7 @@ void main()
 	ClearMessage();
 
 //「んだ、お前らッ！＠　散らんかぃこらァ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badc50005", 256, TRUE);
 	OutputLine(NULL, "「んだ、お前らッ！！",
 		   NULL, "\"Dafuq are you guys?", Line_WaitForInput);
@@ -3511,7 +3511,7 @@ void main()
 	DrawSceneWithMask( "background/mati2", "right", 0, 0, 300 );
 
 //「ハイハイハイハイ、どうしたのかなぁ、どうしたのかなぁ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>警官</color>", NULL, "<color=#f5e6d3>Polis Memuru</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>警官</color>", NULL, "<color=#f5e6d3>Policeman</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/polia50001", 256, TRUE);
 	OutputLine(NULL, "「ハイハイハイハイ、どうしたのかなぁ、どうしたのかなぁ！！」",
 		   NULL, "\"All right, all right, all right, what's going on here? What's going on!?\"", GetGlobalFlag(GLinemodeSp));
@@ -3562,7 +3562,7 @@ void main()
 
 
 //「ンだごらぁあぁああぁッ！！＠　ンのガキが悪ぃんだろぉおぉ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/badb50008", 256, TRUE);
 	OutputLine(NULL, "「ンだごらぁあぁああぁッ！！！",
 		   NULL, "\"Dafuq!?", Line_WaitForInput);
@@ -3602,7 +3602,7 @@ void main()
 	FadeAllBustshots( 400, TRUE );
 
 //「わかったからわかったから！＠　ちょっとおいで＠いいからいいからッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>警官</color>", NULL, "<color=#f5e6d3>Polis Memuru</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>警官</color>", NULL, "<color=#f5e6d3>Policeman</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/polib50001", 256, TRUE);
 	OutputLine(NULL, "「わかったからわかったから！！",
 		   NULL, "\"Okay, okay!!", Line_WaitForInput);
@@ -3624,7 +3624,7 @@ void main()
 	DrawSceneWithMask("background/mati3", "right", 0, 0, 300 );
 
 //「ンだよ離せよ！＠　俺らが被害者なンだよ、聞いてんのか畜生ぉぉおおぉッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/bada50007", 256, TRUE);
 	OutputLine(NULL, "「ンだよ離せよ！！",
 		   NULL, "\"Dafuq, lemme go!!", Line_WaitForInput);
@@ -3657,7 +3657,7 @@ void main()
 	DrawScene("background/mati2", 300 );
 
 //「大丈夫ですか＠　お怪我はありませんか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Orta Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Middle-Aged Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700001", 256, TRUE);
 	OutputLine(NULL, "「大丈夫ですか？",
 		   NULL, "\"Are you all right?", Line_WaitForInput);
@@ -3688,7 +3688,7 @@ void main()
 	ModDrawCharacter(3, 11, "sprite/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「んっふっふっふ＠　それは不幸中の幸いでした＠では、良いお年を。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Orta Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Middle-Aged Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700003", 256, TRUE);
 	OutputLine(NULL, "「んっふっふっふ！",
 		   NULL, "\"Nfu-fu-fu-fu!", Line_WaitForInput);
@@ -3708,7 +3708,7 @@ void main()
 	ClearMessage();
 
 //「市民の皆さんの迅速な通報に感謝しま＠。住民の皆さんの連帯のお陰で、今日も町の平穏が保たれています＠素晴らしいことです＠...んっふっふっふ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Orta Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Middle-Aged Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700006", 256, TRUE);
 	OutputLine(NULL, "「市民の皆さんの迅速な通報に感謝します",
 		   NULL, "\"Thank you, citizens, for your timely report.", Line_WaitForInput);
@@ -3762,7 +3762,7 @@ void main()
 	ModDrawCharacter(3, 11, "sprite/oisi1_1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「偶然ですよ＠県警の帰り道に無線連絡が入りましてね＠寄り道したわけです。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Orta Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Middle-Aged Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700010", 256, TRUE);
 	OutputLine(NULL, "「偶然ですよ。",
 		   NULL, "\"It was a coincidence.", Line_WaitForInput);
@@ -3787,7 +3787,7 @@ void main()
 
 
 //「んっふっふっふ＠　いえいえ＠でも怪我人が出なくて本当に良かったです。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Orta Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Middle-Aged Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700013", 256, TRUE);
 	OutputLine(NULL, "「んっふっふっふ！",
 		   NULL, "\"Nfu-fu-fu-fu!", Line_WaitForInput);
@@ -3818,7 +3818,7 @@ void main()
 	ModDrawCharacter(3, 11, "sprite/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「ではでは、良いお年を＠.........失礼、道を開けてもらえますかな？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Orta Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Middle-Aged Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700016", 256, TRUE);
 	OutputLine(NULL, "「ではでは、良いお年を。",
 		   NULL, "\"Well then, have a good year.", Line_WaitForInput);
@@ -3907,7 +3907,7 @@ void main()
 	DrawSceneWithMask("background/mati3", "left", 0, 0, 300 );
 
 //「大丈夫かい、前原の坊や＠今度からは喧嘩は相手を選んでやりな～。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/mana50001", 256, TRUE);
 	OutputLine(NULL, "「大丈夫かい、前原の坊や。",
 		   NULL, "\"Are you okay, young Maebara?", Line_WaitForInput);
@@ -3926,7 +3926,7 @@ void main()
 
 
 //「怪我とかしてない＠　頭とかぶつけてるならレントゲンを撮っておいた方がいいわよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/woma50001", 256, TRUE);
 	OutputLine(NULL, "「怪我とかしてない？",
 		   NULL, "\"Are you hurt anywhere?", Line_WaitForInput);
@@ -3943,7 +3943,7 @@ void main()
 	ClearMessage();
 
 //「たまたま駅前で、人通りの多い時間だったからこれだけ集まれたけど＠次からは気をつけるんだよ...＠　最近の町モンは物騒なんだから＠　ブツブツ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/womb50001", 256, TRUE);
 	OutputLine(NULL, "「たまたま駅前で、人通りの多い時間だったからこれだけ集まれたけど。",
 		   NULL, "\"You were lucky this happened right in front of the station when it was busy, otherwise we wouldn't have been able to gather as many people.", Line_WaitForInput);
@@ -5480,7 +5480,7 @@ void main()
 	DrawSceneWithMask("background/res1", "right", 0, 0, 300 );
 
 //「園崎さ～ん＠店長がホール入ってほしいそうです。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50001", 256, TRUE);
 	OutputLine(NULL, "「園崎さ〜ん。",
 		   NULL, "\"Sonozaki-sa~n.", Line_WaitForInput);
@@ -5638,7 +5638,7 @@ void main()
 	ClearMessage();
 
 //「園崎さ～んすみませ～ん、レジ入ってくださ～い！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50003", 256, TRUE);
 	OutputLine(NULL, "「園崎さ〜んすみませ〜ん、レジ入ってくださ〜い！」",
 		   NULL, "\"Sonozaki-sa~n. Sorry, could you take care of the register~!\"", GetGlobalFlag(GLinemodeSp));
@@ -5780,7 +5780,7 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 
 //「圭一～＠園崎さんから電話よ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700001", 256, TRUE);
 	OutputLine(NULL, "「圭一〜。",
 		   NULL, "\"Keiichi~.", Line_WaitForInput);

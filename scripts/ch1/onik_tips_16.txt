@@ -29,7 +29,7 @@ void main()
 
 
 //「直接的にはない。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200020", 256, TRUE);
 	OutputLine(NULL, "「直接的にはない。」",
 		   NULL, "\"Not directly, no.\"", Line_Normal);
@@ -48,7 +48,7 @@ void main()
 
 
 //「自殺したくなる精神状態を誘発することはできる、!w1000っちゅうことだ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200021", 256, TRUE);
 	OutputLine(NULL, "「自殺したくなる精神状態を誘発することはできる、",
 		   NULL, "\"It's possible to induce a suicidal mental state,", Line_Continue);
@@ -118,7 +118,7 @@ void main()
 
 
 //「仏は犯人に囲まれて命に危険が迫っとったんじゃろ＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200038", 256, TRUE);
 	OutputLine(NULL, "「仏は犯人に囲まれて命に危険が迫っとったんじゃろ？",
 		   NULL, "\"The deceased was surrounded after being chased, and his life was in danger, right?", GetGlobalFlag(GLinemodeSp));
@@ -127,7 +127,7 @@ void main()
 
 
 //　極度の緊張が続いて、それに分泌異常が重なって、さらに打ち所が悪くて脳に障害が起こり自虐行動に走った...可能性もあるかもしれんの。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200039", 256, TRUE);
 	OutputLine(NULL, "　極度の緊張が続いて、それに分泌異常が重なって、さらに打ち所が悪くて脳に障害が起こり自虐行動に走った…可能性もあるかもしれんの。」",
 		   NULL, "All that stress could have messed with his brain chemistry, he could have hit his head, and those factors combined might have caused him to mutilate himself. It's a possibility.\"", Line_Normal);
@@ -177,7 +177,7 @@ void main()
 
 
 //「こほん＠...いかにも。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200041", 256, TRUE);
 	OutputLine(NULL, "「こほん。",
 		   NULL, "\"Ahem.", Line_Continue);
@@ -187,7 +187,7 @@ void main()
 	ClearMessage();
 
 //「薬物の常用にせよ、精神的なものにせよ、仏の身元がカギを握っとるぞい＠そっちはどうなっとるんじゃ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200042", 256, TRUE);
 	OutputLine(NULL, "「薬物の常用にせよ、精神的なものにせよ、仏の身元がカギを握っとるぞい。",
 		   NULL, "\"Whether it was habitual drug use, or something mental, the deceased's background holds the key.", Line_Continue);
@@ -209,7 +209,7 @@ void main()
 
 
 //「おう＠　頑張れよ＠　いいお年をの！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Adli Müfettiş</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200043", 256, TRUE);
 	OutputLine(NULL, "「おう！",
 		   NULL, "\"Yeah!", Line_Continue);

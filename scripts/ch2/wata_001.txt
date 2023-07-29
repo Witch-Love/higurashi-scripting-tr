@@ -130,7 +130,7 @@ void main()
 
 
 //「圭一～、起きてる～？＠　電話よー！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700019", 256, TRUE);
 	OutputLine(NULL, "「圭一〜、起きてる〜？！",
 		   NULL, "\"Keiichi~, are you awake~!?", Line_WaitForInput);
@@ -576,7 +576,7 @@ void main()
 	ClearMessage();
 
 //「あら圭一、上機嫌みたいね。お出掛け？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700021", 256, TRUE);
 	OutputLine(NULL, "「あら圭一、上機嫌みたいね。お出掛け？」",
 		   NULL, "\"Oh, Keiichi, you seem like you're in a good mood. Heading out?\"", GetGlobalFlag(GLinemodeSp));
@@ -595,7 +595,7 @@ void main()
 
 
 //「いってらっしゃい＠車に気をつけるのよ～＠　夕飯までには帰ってくるのよ～！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700022", 256, TRUE);
 	OutputLine(NULL, "「いってらっしゃい。",
 		   NULL, "\"Take care.", Line_WaitForInput);
@@ -1577,7 +1577,7 @@ void main()
 
 
 //「「「ファイト、お～～～♪」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/gallary001", 256, TRUE);
 	OutputLine(NULL, "「「「ファイト、お〜〜〜♪」」」",
 		   NULL, "\"\"\"Go for it, yaaaaay♪\"\"\"", GetGlobalFlag(GLinemodeSp));
@@ -1870,7 +1870,7 @@ void main()
 	DrawSceneWithMask("background/mati_o4", "left", 0, 0, 300 );
 
 //「梨花ちゃんガンバレー！＠　僕たちも応援してるよ～～！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/yaji99001", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/yaji99001_1", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/yaji99001_2", 256, TRUE);
@@ -3068,7 +3068,7 @@ void main()
 	ClearMessage();
 
 //「じゃあ、読みますよ～＠...『犬も歩けばくたびれる』～。」!w1500
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Yönetici</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Master</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/mas99001", 256, TRUE);
 	OutputLine(NULL, "「じゃあ、読みますよ〜。",
 		   NULL, "\"Then, I'll read it out~.", Line_WaitForInput);
@@ -3297,7 +3297,7 @@ void main()
 	ClearMessage();
 
 //「北条、悪いけど...僕も優勝賞金を狙ってるんだ＠悪く思うなよぉ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boya99001", 256, TRUE);
 	OutputLine(NULL, "「北条、悪いけど…僕も優勝賞金を狙ってるんだ。",
 		   NULL, "\"Houjou... Sorry, but I'm also aiming for the prize money.", Line_WaitForInput);
@@ -3352,7 +3352,7 @@ void main()
 	ClearMessage();
 
 //「え、えぇええぇッ？！？＠　そんな！＠　確かにここはハートのＡ...ッ！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boya99003", 256, TRUE);
 	OutputLine(NULL, "「え、えぇええぇッ？！？！",
 		   NULL, "\"Wh-Whaaat?!?!", Line_WaitForInput);
@@ -3607,7 +3607,7 @@ void main()
 
 
 //「うまいうまい＠　梨花ちゃんうまいよ～！」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/mana99001", 256, TRUE);
 	OutputLine(NULL, "「うまいうまい！",
 		   NULL, "\"You're so good!", Line_WaitForInput);
@@ -3615,7 +3615,7 @@ void main()
 	OutputLine(NULL, "　梨花ちゃんうまいよ〜！」",
 		   NULL, " Rika-chan, you're good at this~!\"", Line_Normal);
 //「おっとっと、また釣られちゃったよ～＠梨花ちゃんはうまいなぁ☆＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/manb99001", 256, TRUE);
 	OutputLine(NULL, "「おっとっと、また釣られちゃったよ〜。",
 		   NULL, " \"Oh my, she caught another one~.", Line_WaitForInput);
@@ -4098,7 +4098,7 @@ void main()
 
 
 //「前原君は...投了でいいかな...？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Yönetici</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Master</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/mas99003", 256, TRUE);
 	OutputLine(NULL, "「前原君は…投了でいいかな…？」",
 		   NULL, "\"Maebara-kun... should I take that to mean you're giving up?\"", GetGlobalFlag(GLinemodeSp));
@@ -5569,7 +5569,7 @@ void main()
 
 
 //「今日はみんな、本当にありがとう＠お陰でイベントは大盛り上がりだったよ～＠　大したものじゃないけど、これ、今日のお駄賃に～。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Yönetici</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Master</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/mas99004", 256, TRUE);
 	OutputLine(NULL, "「今日はみんな、本当にありがとう。",
 		   NULL, "\"Thank you, everybody, for today.", Line_WaitForInput);

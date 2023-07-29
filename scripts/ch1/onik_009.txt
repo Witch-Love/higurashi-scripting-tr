@@ -86,7 +86,7 @@ void main()
 	DrawSceneWithMask("background/ma_s1", "up", 0, 0, 1300 );
 
 //「圭一～＠この浴衣、まだ着れるかしら＠　ちょっと袖を通してみてくれる？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700047", 256, TRUE);
 	OutputLine(NULL, "「圭一〜。",
 		   NULL, "\"Keiichi~", Line_WaitForInput);
@@ -121,7 +121,7 @@ void main()
 
 
 //「でもお祭りなんだから。着て行きなさいな？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700050", 256, TRUE);
 	OutputLine(NULL, "「でもお祭りなんだから。着て行きなさいな？」",
 		   NULL, "\"But this is a festival. Wear it, okay?\"", GetGlobalFlag(GLinemodeSp));
@@ -161,7 +161,7 @@ void main()
 
 
 //「そう＠　じゃあ母さんは父さんが起きたら二人で行くわね。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700051", 256, TRUE);
 	OutputLine(NULL, "「そう？",
 		   NULL, "\"Is that so?", Line_WaitForInput);
@@ -189,7 +189,7 @@ void main()
 
 
 //「急ぎの原稿をようやく発送したとこなの＠ひょっとすると起きないかもねぇ…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700053", 256, TRUE);
 	OutputLine(NULL, "「急ぎの原稿をようやく発送したとこなの。",
 		   NULL, "\"He just finished sending in his manuscript.", Line_WaitForInput);
@@ -293,7 +293,7 @@ void main()
 	FadeBustshotWithFiltering( 5, "right", 0, FALSE, 0, 0, 1300, TRUE );
 
 //「あらあらレナちゃん＠　いつもうちの圭一がお世話になってまして…！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700055", 256, TRUE);
 	OutputLine(NULL, "「あらあらレナちゃん！",
 		   NULL, "\"Oh my, it's Rena-chan!", Line_WaitForInput);
@@ -348,7 +348,7 @@ void main()
 	DrawSceneWithMask("background/ma2", "right", 0, 0, 1300 );
 
 //「レナちゃ～ん！　圭一をよろしくね～！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/502700057", 256, TRUE);
 	OutputLine(NULL, "「レナちゃ〜ん！　圭一をよろしくね〜！」",
 		   NULL, "\"Rena-chan~! Look after Keiichi for me~!\"", GetGlobalFlag(GLinemodeSp));
@@ -610,7 +610,7 @@ void main()
 
 
 //「あぁらレナちゃん＠この間はお惣菜をありがとうね＠　うちの子もおいしいって喜んでたわ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/villa88001", 256, TRUE);
 	OutputLine(NULL, "「あぁらレナちゃん。",
 		   NULL, "\"Oh, Rena-chan.", Line_WaitForInput);
@@ -642,7 +642,7 @@ void main()
 
 
 //「よぉ＠　園崎のお嬢ちゃんじゃねぇの＠　今年も屋台担いで来てやったぜぇ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiob5001", 256, TRUE);
 	OutputLine(NULL, "「よぉ！",
 		   NULL, "\"Hey!", Line_WaitForInput);
@@ -672,7 +672,7 @@ void main()
 
 
 //「お。この兄ちゃんは新顔だなぁ＠嬢ちゃんの後輩かい？！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiob5004", 256, TRUE);
 	OutputLine(NULL, "「お。この兄ちゃんは新顔だなぁ。",
 		   NULL, "\"Oh. This kid here is new.", Line_WaitForInput);
@@ -699,7 +699,7 @@ void main()
 
 
 //「嬢ちゃんのお墨付きかい！　そりゃーお手柔らかに頼むぜ～！！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiob5006", 256, TRUE);
 	OutputLine(NULL, "「嬢ちゃんのお墨付きかい！　そりゃーお手柔らかに頼むぜ〜！！！」",
 		   NULL, "\"You've got little missy's seal of approval, I see! Hope you take it easy on me~!!!\"", Line_Normal);
@@ -3706,7 +3706,7 @@ void main()
 	DrawSceneWithMask("background/je1", "left", 0, 0, 1300 );
 
 //「来たかい＠園崎の嬢ちゃん！…今年は大人数みたいじゃねえの。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiz50001", 256, TRUE);
 	OutputLine(NULL, "「来たかい。",
 		   NULL, "\"You're here.", Line_WaitForInput);
@@ -3916,7 +3916,7 @@ void main()
 
 
 //「へいへい＠　他のお客さんも待ってるんだぜぇ？＠　最初のチャレンジャーはだれからだい？！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiz50003", 256, TRUE);
 	OutputLine(NULL, "「へいへい！",
 		   NULL, "\"Hey!", Line_WaitForInput);
@@ -3997,7 +3997,7 @@ void main()
 	OutputLine(NULL, "「１番は避けたかったんだけど……ま、ハンデってことにしとくかな。おっちゃん！！銃ッ！！」",
 		   NULL, "\"I didn't want to end up first... Ah well, I'll just think of it as a handicap. Gramps!! Gun!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiz50006", 256, TRUE);
 	OutputLine(NULL, "「そらよッ！！」",
 		   NULL, "\"Here yah go!!\"", Line_Normal);
@@ -4145,7 +4145,7 @@ void main()
 
 
 //「わぁあぁああぁあッ！！＠　すげぇええぞぉおおぉおぉお！！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yaji_mix1", 256, TRUE);
 	OutputLine(NULL, "「「「わぁあぁああぁあッ！！！",
 		   NULL, "\"\"\"Whoaaaaa!!!", Line_WaitForInput);
@@ -4550,7 +4550,7 @@ void main()
 
 
 //「うぉおおぉおぉおおおおッ！！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yaji_mix3", 256, TRUE);
 	OutputLine(NULL, "「「「うぉおおぉおぉおおおおッ！！！！」」」",
 		   NULL, "\"\"\"Whoaaaaah!!!\"\"\"", GetGlobalFlag(GLinemodeSp));
@@ -4629,7 +4629,7 @@ void main()
 	Wait( 1500 );
 
 //「ぅおおおぉおぉおおおぉッ！！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yaji_mix4", 256, TRUE);
 	OutputLine(NULL, "「「「ぅおおおぉおぉおおおぉッ！！！！」」」",
 		   NULL, "\"\"\"Whooooaaa!!!!\"\"\"", GetGlobalFlag(GLinemodeSp));
@@ -4737,7 +4737,7 @@ void main()
 	Wait( 1500 );
 
 //「あぁあぁあぁーーーーー…ッ！！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yaji_mix5", 256, TRUE);
 	OutputLine(NULL, "「「「あぁあぁあぁーーーーー…ッ！！！！」」」",
 		   NULL, "\"\"\"OwWwwWw-----!!!!\"\"\"", GetGlobalFlag(GLinemodeSp));
@@ -4791,7 +4791,7 @@ void main()
 
 
 //「こいつぁ嬢ちゃんのだぜ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiz50007", 256, TRUE);
 	OutputLine(NULL, "「こいつぁ嬢ちゃんのだぜ。」",
 		   NULL, "\"This's fer you, little lady.\"", GetGlobalFlag(GLinemodeSp));
@@ -4812,7 +4812,7 @@ void main()
 
 
 //「あんなすげぇの見せられて手ぶらで帰しちゃあ…お天道様に申し訳が立たねえぜ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiz50008", 256, TRUE);
 	OutputLine(NULL, "「あんなすげぇの見せられて手ぶらで帰しちゃあ…お天道様に申し訳が立たねえぜ！」",
 		   NULL, "\"The gods wouldn't forgive me if I let you go home empty-handed after such a display!\"", GetGlobalFlag(GLinemodeSp));
@@ -5322,7 +5322,7 @@ void main()
 
 
 //「おぉおおぉおぉ！！＠　兄ちゃんいいぞぉ！＠　男見せたれぇえぇええぇッ！！！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yaji_mix6", 256, TRUE);
 	OutputLine(NULL, "「「「おぉおおぉおぉ！！！",
 		   NULL, "\"\"\"Whoooooo!!", Line_Continue);
@@ -5705,7 +5705,7 @@ void main()
 
 
 //「ぅおおぉぉおおおぉおぉおおッ！！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Seyirciler</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ギャラリー</color>", NULL, "<color=#f5e6d3>Gallery</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yaji_mix7", 256, TRUE);
 	OutputLine(NULL, "「「「ぅおおぉぉおおおぉおぉおおッ！！！！」」」",
 		   NULL, "\"\"\"oOOooOOOoOoOO!!!!\"\"\"", GetGlobalFlag(GLinemodeSp));
@@ -5731,7 +5731,7 @@ void main()
 	DrawSceneWithMask("background/je2", "left", 0, 0, 300 );
 
 //「……まさか本当に落としやがるたぁなぁ＠…完敗だぜ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/yataiz50009", 256, TRUE);
 	OutputLine(NULL, "「……まさか本当に落としやがるたぁなぁ。",
 		   NULL, "\"...You actually knocked it over.", Line_WaitForInput);

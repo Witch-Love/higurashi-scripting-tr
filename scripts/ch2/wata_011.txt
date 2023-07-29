@@ -71,7 +71,7 @@ void main()
 	ClearMessage();
 
 //「...じゃあ、昨夜はお友達とみんなで、夜遅くまで探してたの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700026", 256, TRUE);
 	OutputLine(NULL, "「…じゃあ、昨夜はお友達とみんなで、夜遅くまで探してたの？」",
 		   NULL, "\"...So then, you were out late last night with all your friends looking for them?\"", GetGlobalFlag(GLinemodeSp));
@@ -90,7 +90,7 @@ void main()
 
 
 //「......結局、見つかったの＠　その、梨花ちゃんと沙都子ちゃんは。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700027", 256, TRUE);
 	OutputLine(NULL, "「……結局、見つかったの？",
 		   NULL, "\"...Did you find them?", Line_WaitForInput);
@@ -439,7 +439,7 @@ void main()
 	ClearMessage();
 
 //校長「おはようございます。」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/133200001", 256, TRUE);
 	OutputLine(NULL, "「おはようございます。」",
 		   NULL, "\"Good morning.\"", GetGlobalFlag(GLinemodeSp));
@@ -463,7 +463,7 @@ void main()
 	ClearMessage();
 
 //「前原君、おはよう＠竜宮君、おはよう。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/133200002", 256, TRUE);
 	OutputLine(NULL, "「前原君、おはよう。",
 		   NULL, "\"Maebara-kun, good morning.", Line_WaitForInput);
@@ -485,7 +485,7 @@ void main()
 
 
 //「先生から大切なお話があるから、すぐに教室に入るように＠...いいかね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/133200004", 256, TRUE);
 	OutputLine(NULL, "「先生から大切なお話があるから、すぐに教室に入るように。",
 		   NULL, "\"Your teacher has something important to say, so head straight to the classroom.", Line_WaitForInput);
@@ -564,7 +564,7 @@ void main()
 	ClearMessage();
 
 //「.........もう知っている生徒もおるだろう。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/133200006", 256, TRUE);
 	OutputLine(NULL, "「………もう知っている生徒もおるだろう。」",
 		   NULL, "\"......I'm sure some of you already know this.\"", GetGlobalFlag(GLinemodeSp));
@@ -691,7 +691,7 @@ void main()
 
 
 //「きりーーーーつ、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/boya03005", 256, TRUE);
 	OutputLine(NULL, "「きりーーーーつ、」",
 		   NULL, "\"All rise!\"", GetGlobalFlag(GLinemodeSp));
@@ -2494,7 +2494,7 @@ void main()
 	PlayBGM( 1, "msys12", 56, 0 );
 
 //「前原くん、昼休みは終わりであるぞ＠教室に戻りなさい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/133200007", 256, TRUE);
 	OutputLine(NULL, "「前原くん、昼休みは終わりであるぞ。",
 		   NULL, "\"Maebara-kun, lunch break is over.", Line_WaitForInput);

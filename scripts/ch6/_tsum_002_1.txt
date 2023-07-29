@@ -232,7 +232,7 @@ void main()
 
 	DrawSceneWithMask( "background/Ma_S1", "maskleft", 1, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/172600001", 256, TRUE);
 	OutputLine(NULL, "「大体、日本の電話料金は高すぎるんだ。",
 		   NULL, "\"First of all, telephone service charges in Japan are way too expensive.", Line_WaitForInput);
@@ -241,7 +241,7 @@ void main()
 		   NULL, " It's because the state has a monopoly.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/172700001", 256, TRUE);
 	OutputLine(NULL, "「でも民間企業ってのは営利団体なのよ？",
 		   NULL, "\"But, private companies are profit-oriented organizations.", Line_WaitForInput);
@@ -299,7 +299,7 @@ void main()
 		   NULL, "A cold relationship between parents doesn't bring any benefits to their kids.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/172700003", 256, TRUE);
 	OutputLine(NULL, "「あら、圭一。",
 		   NULL, "\"Oh, Keiichi.", Line_WaitForInput);
@@ -320,7 +320,7 @@ void main()
 		   NULL, " I'm going out today, so I don't need anything.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/172600003", 256, TRUE);
 	OutputLine(NULL, "「なんだ、友達と一緒か？",
 		   NULL, "\"Are you going out with your friends?", Line_WaitForInput);

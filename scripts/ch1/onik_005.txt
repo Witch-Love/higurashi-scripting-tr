@@ -806,7 +806,7 @@ void main()
 
 
 //「な～～しッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei07330_01", 256, TRUE);
 	ModPlayVoiceLS(5, 2, "ps3/s19/02/990200320", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s19/04/990400121", 256, TRUE);
@@ -4265,7 +4265,7 @@ void main()
 
 
 //「うむ。入りたまえ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/993200001", 256, TRUE);
 	OutputLine(NULL, "「うむ。入りたまえ。」",
 		   NULL, "\"Yes. Please come in.\"", GetGlobalFlag(GLinemodeSp));
@@ -4393,7 +4393,7 @@ void main()
 
 
 //「漢（ヲトコ）とはなんぞや…？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/993200002", 256, TRUE);
 	OutputLine(NULL, "「漢（ヲトコ）とはなんぞや…？」",
 		   NULL, "\"What does it mean to be a man...?\"", Line_Normal);

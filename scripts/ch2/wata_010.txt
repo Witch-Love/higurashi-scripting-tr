@@ -131,7 +131,7 @@ void main()
 	DrawSceneWithMask("background/ma_s1", "left", 0, 0, 300 );
 
 //「どうしたの、圭一＠今日はどこかにお出掛けでもするの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin annesi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700020", 256, TRUE);
 	OutputLine(NULL, "「どうしたの、圭一。",
 		   NULL, "\"What's wrong, Keiichi?", Line_WaitForInput);
@@ -825,7 +825,7 @@ void main()
 	PlaySE( 3, "wa_022", 56, 64 );
 
 //「...そう言えば、悟史さんがいなくなったのも、...去年の今頃だったね。」!w2000@
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/boya03001", 256, TRUE);
 	OutputLine(NULL, "「…そう言えば、悟史さんがいなくなったのも、…去年の今頃だったね。」",
 		   NULL, "\"...Now that you mention it, Satoshi-san... he left around this time last year, didn't he?\"", Line_Continue);
@@ -863,7 +863,7 @@ void main()
 	ClearMessage();
 
 //「...悟史さんの時も確か、こんな風に村中で探したんじゃなかったっけ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/boyab03001", 256, TRUE);
 	OutputLine(NULL, "「…悟史さんの時も確か、こんな風に村中で探したんじゃなかったっけ。」",
 		   NULL, "\"...Didn't we search the whole village like this for Satoshi-san, too?\"", GetGlobalFlag(GLinemodeSp));
@@ -871,7 +871,7 @@ void main()
 
 
 //「あれも見つからなかったんだよねー＠...あれって、...結局どうなったんだっけ＠...確か、鬼隠しじゃなかったんだよね？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/boya03002", 256, TRUE);
 	OutputLine(NULL, "「あれも見つからなかったんだよねー。",
 		   NULL, "\"We didn't find him, either.", Line_WaitForInput);
@@ -885,7 +885,7 @@ void main()
 
 
 //「うん＠貯金を全部下ろして、家出しちゃったんだって聞いたよ＠警察の人が、名古屋駅で新幹線に乗るところを見た人がいるとか言ってたもん。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Genç çocuk</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/boyab03002", 256, TRUE);
 	OutputLine(NULL, "「うん。",
 		   NULL, "\"Yeah.", Line_WaitForInput);
@@ -1760,7 +1760,7 @@ void main()
 	ClearMessage();
 
 //「兄ちゃん、倉庫裏に菜園があるだろ＠だいぶ、くたびれかけてたぞ＠あそこにも水をやってあげな。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/mana03001", 256, TRUE);
 	OutputLine(NULL, "「兄ちゃん、倉庫裏に菜園があるだろ。",
 		   NULL, "\"Sonny, there's a vegetable garden behind the warehouse, right?", Line_WaitForInput);

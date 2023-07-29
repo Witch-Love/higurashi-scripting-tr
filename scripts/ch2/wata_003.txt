@@ -367,7 +367,7 @@ void main()
 
 
 //「うむ。わしと先生と、それから営林署の方５人で採点する＠　各自健闘を祈るぞ！＠　がっはっはっは！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200001", 256, TRUE);
 	OutputLine(NULL, "「うむ。わしと先生と、それから営林署の方５人で採点する！",
 		   NULL, "\"Yup. Your teacher and I, as well as five people from the Forestry Service, will be judging your cooking!", Line_WaitForInput);
@@ -2582,7 +2582,7 @@ void main()
 	PlayBGM( 1, "msys03", 56, 0 );
 
 //「次は竜宮くんのカレーであるな＠うむ＠...実に美味そうである！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200004", 256, TRUE);
 	OutputLine(NULL, "「次は竜宮くんのカレーであるな。",
 		   NULL, "\"Next up is Ryuugu-kun's curry.", Line_WaitForInput);
@@ -2650,7 +2650,7 @@ void main()
 	ClearMessage();
 
 //「失敗こそ成功の調味料である！＠　次回に期待するぞ＠　頑張りたまえ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200007", 256, TRUE);
 	OutputLine(NULL, "「失敗こそ成功の調味料である！！",
 		   NULL, "\"Failure is but the seasoning for success!!", Line_WaitForInput);
@@ -2747,7 +2747,7 @@ void main()
 	ClearMessage();
 
 //「う～ん、この子のカレーも結構悪くないけどな＠......俺、ニンジン嫌いなんだよな。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>署員</color>", NULL, "<color=#f5e6d3>Personel</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>署員</color>", NULL, "<color=#f5e6d3>Staff Member</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/work50001", 256, TRUE);
 	OutputLine(NULL, "「う〜ん、この子のカレーも結構悪くないけどな。",
 		   NULL, "\"Yeah, this kid's curry really isn't half bad...", Line_WaitForInput);
@@ -3714,7 +3714,7 @@ void main()
 	FadeAllBustshots( 400, TRUE );
 
 //「むぅ＠...そうであるか＠それは実に残念である！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200010", 256, TRUE);
 	OutputLine(NULL, "「むぅ。",
 		   NULL, "\"Hmph.", Line_WaitForInput);
@@ -3776,7 +3776,7 @@ void main()
 
 
 //「むぅ...＠......おにぎり、であるか。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200013", 256, TRUE);
 	OutputLine(NULL, "「むぅ…。",
 		   NULL, "\"Hmph...", Line_WaitForInput);
@@ -3988,7 +3988,7 @@ void main()
 	ClearMessage();
 
 //「健闘は称えるが...今日はカレー勝負＠......これに点数を与えてよいものなのか。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200015", 256, TRUE);
 	OutputLine(NULL, "「健闘は称えるが…今日はカレー勝負。",
 		   NULL, "\"I'll praise your efforts, but... today's contest was about curry.", Line_WaitForInput);
@@ -4585,7 +4585,7 @@ void main()
 	ClearMessage();
 
 //「がっはっはっは！＠　さっきの前原くんの話を聞いていたら、噛み締める米の味が一際美味でのぅ！＠　がっはっはっはっは！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200017", 256, TRUE);
 	OutputLine(NULL, "「がっはっはっは！！",
 		   NULL, "\"Gahahaha!!", Line_WaitForInput);
@@ -4607,7 +4607,7 @@ void main()
 
 
 //「がっはっはっはっはっはっは！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200020", 256, TRUE);
 	OutputLine(NULL, "「がっはっはっはっはっはっは！！！」",
 		   NULL, "\"Gahahahahahaha!!!\"", GetGlobalFlag(GLinemodeSp));
