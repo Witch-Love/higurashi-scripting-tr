@@ -1,146 +1,146 @@
-`Even though we were approaching summer, the morning air still had a frigid bite.`
-`Although, in exchange, you could fill your lungs up with crisp, clean air.`
-`Flipping open the window, I was greeted with a verdant expanse.`
-`Nothing but trees.`
-`The neighboring house was far away on the other side.`
-`So I was probably the only one enjoying that view and that air.`
-`I filled my lungs with another deep breath.`
-`Since I started living in Hinamizawa, I learned that even air had its own taste.`
-`I quickly finished getting ready for school and headed downstairs for breakfast.`
-`My mother was the only one there. My father was nowhere to be seen.`
-`He was probably up working until the early morning.`
-`Dad had a rather unconventional job as a painter.`
-`It's such a laid-back profession.`
-`Get up when you want, sleep when you want, and work when you want.`
-`I was so jealous of that easy-going lifestyle,`
-`I even wrote for school that I wanted to be a painter when I grew up. Dad was ecstatic about that.`
-`It was just because it looked easy. I'd never tell him that, though.`
-`Mom laid breakfast out on the table.`
-`Seaweed, pickled vegetables, raw egg, and grilled salmon.`
-`My mom was such a good cook, it was scary.`
-`A perfect, immaculate, ideal breakfast.`
-`Unlike my dad, who didn't even know the meaning of the word "schedule," my mom never squandered any time or effort.`
-`She hummed a little tune as she brought over the miso soup. It seemed like she was in a good mood today.`
-`"I'm so happy you've been waking up early since we moved here, Keiichi."`
-`"If I don't get up early, I don't make it in time for your early breakfasts!"`
-`I thought I was being cute, responding with a wise-crack after being praised for being good.`
-`"Full bowl of rice? Or will half be enough?"`
-`"Pile it on."`
-`First, I savored the steaming hot rice with the seaweed.`
-` After that, I covered it with the egg.`
-`Between bites of rice, I enjoyed the crunch of the pickles.`
-`Not bad at all.`
-` Excellent, as usual.`
-`Watching me clean my plate, Mom gave me a warm smile.`
-`"I'm so happy you haven't skipped breakfast ever since we moved here, Keiichi."`
-`I was not a morning person when we lived in the city.`
-`I slept right until the last minute before school and rarely ate breakfast.`
-`Boycotting the breakfast Mom made me each morning... that was probably the only way I could protest being forced to attend cram school.`
-`...I guess that was what you'd call my rebellious phase.`
-`I wouldn't so much as look at the breakfast she woke up early every day to make.`
-`If I could go back in time, I'd slap myself.`
-`Mindful of the time, Mom rushed me along with a wide grin.`
-`"Isn't it about time to meet up with Rena-chan?`
-` Hurry, hurry."`
-`Mom really seemed to enjoy the fact that her son was going to school with a girl.`
-`Rena is one of my classmates.`
-`She really loves looking after people, coming to meet me every day without fail.`
-`The way I looked at it, a guy my age walking to school with a girl was just lame...`
-`But, well, keeping a classmate waiting for me every day wouldn't be very considerate.`
-`...Seriously, though, how long does Rena wait there for me every morning...?`
-`Taking one last gulp of miso soup, I raced for the door.`
-`"Please thank Rena-chan for the pickles~!"`
-`Come to think of it, those pickles weren't store-bought, were they?`
-`...If I'd known that, I would have savored them a bit more!`
-`"Mornin'!"`
+`Yaza yaklaşıyor olsak da, sabah havası hala soğuk bir ısırığa sahipti.`
+`Buna karşılık, ciğerlerinizi berrak ve temiz havayla doldurabiliyordunuz.`
+`Pencereyi açtığımda yemyeşil bir alanla karşılaştım.`
+`Ağaçlardan başka bir şey yoktu.`
+`Komşu ev epey uzakta, diğer taraftaydı.`
+`Yani muhtemelen bu manzaranın ve bu havanın tadını çıkaran tek kişi bendim.`
+`Derin bir nefes daha alarak ciğerlerimi doldurdum.`
+`Hinamizawa'da yaşamaya başladığımdan beri havanın bile kendine has bir tadı olduğunu öğrenmiştim.`
+`Okul hazırlıklarımı çabucak bitirdim ve kahvaltı için aşağıya indim.`
+`Orada sadece annem vardı. Babam ortalıkta görünmüyordu.`
+`Muhtemelen sabahın erken saatlerine kadar çalışmıştı.`
+`Babamın boyacılık gibi alışılmadık bir mesleği vardı.`
+`Çok rahat bir meslek.`
+`İstediğin zaman kalkarsın, istediğin zaman uyursun ve istediğin zaman çalışırsın.`
+`Bu rahat yaşam tarzını çok kıskanırdım,`
+`Hatta okulda sorduklarında, büyüdüğümde ressam olmak istediğimi yazmıştım. Babam bu konuda çok mutluydu.`
+`Çünkü kolay görünüyordu. Yine de bunu ona asla söylemezdim.`
+`Annem kahvaltıyı masaya koydu.`
+`Deniz yosunu, sebze turşusu, çiğ yumurta ve ızgara somon.`
+`Annem o kadar iyi bir aşçıydı ki, korkutucuydu.`
+`Eksiksiz, mükemmel, ideal bir kahvaltı.`
+`"Plan" kelimesinin anlamını bile bilmeyen babamın aksine, annem ne zamanını ne de emeğini asla boşa harcamazdı.`
+`Miso çorbasını getirirken küçük bir melodi mırıldandı. Bugün keyfi yerinde gibiydi.`
+`"Buraya taşındığımızdan beri erken kalkmana çok sevindim Keiichi."`
+`"Eğer erken kalkmazsam, senin erken kahvaltılarına yetişemiyorum!"`
+`İyi olduğum için övüldükten sonra ukalaca bir cevap vererek şirin olduğumu sanıyordum.`
+`"Tepeleme pilav mı? Yoksa yarısı yeterli olur mu?"`
+`"Alabildiği kadar."`
+`Önce yosunla birlikte dumanı tüten pilavın tadını çıkardım.`
+` Sonra da onu yumurtayla kapladım.`
+`Pilav ısırıkları arasında turşuların çıtırtısının keyfini çıkardım.`
+`Hiç de fena değil.`
+` Her zamanki gibi mükemmeldi.`
+`Tabağımı temizlerken annem bana sıcak bir şekilde gülümsedi.`
+`"Buraya taşındığımızdan beri kahvaltıyı aksatmadığın için çok mutluyum Keiichi."`
+`Şehirde yaşarken pek erkenci değildim.`
+`Okul başlamadan önceki son dakikaya kadar uyurdum ve nadiren kahvaltı ederdim.`
+`Annemin her sabah bana hazırladığı kahvaltıyı boykot etmek... muhtemelen dershaneye gitmeye zorlanmamı protesto edebilmemin tek yoluydu.`
+`...Sanırım bu benim asilik dönemim diyebileceğiniz bir şeydi.`
+`Her gün erkenden kalkıp hazırladığı kahvaltıya bakmazdım bile.`
+`Zamanda geriye gidebilseydim, kendimi tokatlardım.`
+`Saatin farkında olan annem, genişçe sırıtarak beni koşturdu.`
+`"Rena-chan ile buluşma vakti gelmedi mi?`
+` Çabuk, çabuk."`
+`Annem, oğlunun okula bir kızla yürümesinden gerçekten hoşlanıyor gibiydi.`
+`Rena benim sınıf arkadaşlarımdan biri.`
+`İnsanlarla ilgilenmeyi gerçekten çok seviyor, her gün mutlaka benimle buluşmaya geliyor.`
+`Bana kalırsa, benim yaşımda bir erkeğin bir kızla okula yürümesi çok aptalcaydı...`
+`Ama bir sınıf arkadaşımı her gün bekletmek de pek düşünceli bir davranış olmazdı.`
+`...Cidden, Rena her sabah beni orada ne kadar bekliyor...?`
+`Miso çorbasından son bir yudum alarak kapıya doğru koştum.`
+`"Lütfen Rena-chan'a turşular için teşekkür et~!"`
+`Düşündüm de, o turşular marketten alınmamıştı, değil mi?`
+`...Bunu bilseydim, biraz daha tadını çıkarırdım!`
+`"Günaydın!"`
 `"Keiichi-kun~!`
-` Good morning~!"`
-`Her cheerful greeting was as fresh as the morning itself.`
-`"You're always so early.`
-` You should try sleeping in sometime."`
-`"If I sleep in, I'll keep you waiting."`
-`...She's so conscientious, and such a good person.`
-`"If that ever happens, I'll just leave you behind."`
-`"Keiichi-kun, you're so cold.`
-` I wait for you all the time..."`
-`"I'll leave you in the dust.`
-` Without looking back."`
-`"Why are you so mean?`
-` ...Why?"`
-`Rena had a slightly troubled look on her face.`
-`Toying with her was rather fun because of how quickly her mood changed.`
-`"I'm kidding. I'd wait for you."`
-`With those words, Rena seemed to relax.`
-`Her face flushed bright red.`
-`"...Ah ...Th-Thank you..."`
-`"I'd wait forever until you came, Rena.`
-` No matter how long."`
+` Günaydın~!"`
+`Neşeli selamlaması sabahın kendisi kadar ferahtı.`
+`"Her zaman çok erkencisin.`
+` Bir ara uyumayı denemelisin."`
+`"Eğer uyursam, seni bekletirim."`
+`...Çok duyarlı ve çok iyi bir insan.`
+`"Eğer öyle bir şey olursa, seni geride bırakırım."`
+`"Keiichi-kun, çok soğuksun.`
+` Her zaman seni bekliyorum..."`
+`"Seni toz içinde bırakacağım.`
+` Arkama bile bakmadan."`
+`"Neden bu kadar acımasızsın?`
+` ...Neden?"`
+`Rena'nın yüzünde hafif sıkıntılı bir ifade vardı.`
+`Ruh hali bu kadar çabuk değiştiği için onunla uğraşmak oldukça eğlenceliydi.`
+`"Şaka yapıyorum. Ben olsam seni beklerdim."`
+`Bu sözlerle Rena rahatlar gibi oldu.`
+`Yüzü kıpkırmızı oldu.`
+`"...Ah ...Te-Teşekkür ederim..."`
+`"Sen gelene kadar sonsuza kadar beklerdim, Rena.`
+` Ne kadar uzun olursa olsun."`
 `"...Ah-ah, ah...`
-` ...For...`
-` Forever..."`
-`Rena turned bright red, steam rising from her head as her brain short-circuited.`
-`She's especially weak to this sort of talk.`
-`It's quite rare to find someone this fun to tease.`
-`"Have you ever read a romance novel, Rena...?"`
-`"...Huh...`
-` ...Ah ...I haven't.`
-` N-Never read any before."`
-`From that response, I gathered she was interested in them but was too embarrassed to actually buy one.`
-`I couldn't imagine what would happen if she did read one.`
-`She'd probably turn red and pass out...`
-`"Oh, yeah, message from Mom. She says thanks for the pickles."`
-`"I-It was nothing. You're welcome~.`
-` How were they?`
-` Not too salty?"`
-`They weren't that salty.`
-`Actually, they had a pretty light flavor to them.`
-`...It would have been fine to just be honest and say they were good, but apparently I couldn't be that forthright.`
-`"...I'd like to ask something before that.`
-` Were you the one who pickled them, Rena?`
-` Or was it your mom?"`
-`"Huh?`
-` ...Huh? Why do you ask?`
-` Were...`
-` Were they too salty...?"`
-`Her attitude completely changed as she began to panic frantically.`
-`"Was it you, Rena? Or was it your mom?"`
-`"...Wh-Why are you asking who made them?`
-` ...Why!?"`
-`"Depending on who made them, my opinion of them might change drastically."`
+` ...So...`
+` Sonsuza kadar..."`
+`Rena kıpkırmızı oldu, beyni kısa devre yaparken kafasından buharlar yükseliyordu.`
+`Bu tür konuşmalara karşı özellikle zaaflı.`
+`Uğraşması kadar eğlenceli birini bulmak oldukça nadirdir.`
+`"Hiç aşk romanı okudun mu, Rena...?"`
+`"...Hı...`
+` ...Ah ...Okumadım.`
+` D-Daha önce hiç okumadım."`
+`Bu yanıttan anladığım kadarıyla onlarla ilgileniyordu ama gidip satın almaya utanıyordu.`
+`Okuduğunda ne olacağını hayal bile edemiyordum.`
+`Muhtemelen kıpkırmızı olur ve bayılırdı.`
+`"Ah, evet, annemden mesaj var. Turşular için teşekkür ediyor."`
+`"Ö-Önemli bir şey değildi. Rica ederim~.`
+` Nasıldı?`
+` Çok tuzlu değildi, değil mi?"`
+`O kadar tuzlu değildi.`
+`Aslında, oldukça hafif bir tadı vardı.`
+`...Dürüst olup iyi olduğunu söylemek uygun olurdu, ama görünüşe göre bu kadar açık sözlü olamadım.`
+`"...Ondan önce bir şey sormak istiyorum.`
+` Turşuyu kuran sen miydin, Rena?`
+` Yoksa annen miydi?"`
+`"Ha?`
+` ...Ha? Neden soruyorsun?`
+` Çok...`
+` Çok mu tuzluydu...?"`
+`Çılgınca paniklemeye başladığında tavrı tamamen değişti.`
+`"Sen miydin, Rena? Yoksa annen miydi?"`
+`"...Ne-Neden onu kimin yaptığını soruyorsun?`
+` ...Neden!?"`
+`"Kimin yaptığına bağlı olarak, onun hakkındaki görüşüm büyük ölçüde değişebilir."`
 `"...Huh, huh uh...!?"`
-`She counted frantically on her fingers, trying to remember the amount of salt she'd used to pickle them.`
-`...It wasn't like I was trying to tease her, but I couldn't stop myself.`
-`Guys who take pleasure in this kind of thing are probably the worst.`
-` ...Guys like me.`
-`Rena nervously opened and closed her mouth over and over, trying to muster a response.`
-`"...I-It was me..."`
-`"Delicious."`
-`"Huh?"`
-`"Pretty good, just like the last ones. They went perfectly with the rice."`
-`Her face went bright red again.`
-` She was completely spacing out.`
-`It truly was a lot of fun to tease her.`
-`I pray that Rena never gets taken advantage of by some lowlife.`
-`Keep at it, Rena. I'll train you until you handle it like the average person!`
-` ...Or so I decided for myself.`
-`"Let's go! If we keep Mion waiting, we'll never hear the end of it."`
-`Seeing as she'd just keep spacing out otherwise, I called Rena back to reality so we could make our way to school.`
-`This strange, easily flustered girl is Rena Ryuugu.`
-`I've only known her for about a month, but I've come to realize it's not just her name that's strange.`
-`"Mii-cha~n! Good morning~!"`
-`Coming up to the next rendezvous point, we saw another person waiting for us.`
-` Noticing us, she waved.`
-`"Ah, finally, finally. You two are late~!"`
-`"Usually, you're the one who's late!"`
-`In sharp contrast to the diligent Rena, this one marched to the beat of her own drum.`
-`She's Mion Sonozaki.`
-`For what it's worth, she's our senior and head of the class.`
-`"Morning, Rena. And it's been a while, Kei-chan!`
-` How many years?"`
-`"I was only off two days!"`
+`Parmaklarıyla çılgınca sayıyor, turşu yapmak için kullandığı tuz miktarını hatırlamaya çalışıyordu.`
+`...Onu kızdırmaya çalışmıyordum ama kendimi tutamadım.`
+`Bu tür şeylerden zevk alan erkekler muhtemelen en kötüleridir.`
+` ...Benim gibi erkekler.`
+`Rena gergin bir şekilde ağzını tekrar tekrar açıp kapatarak bir yanıt bulmaya çalıştı.`
+`"...R-Rena yaptı..."`
+`"Leziz."`
+`"Ha?"`
+`"Oldukça güzel, tıpkı öncekiler gibi. Pilava çok yakıştı."`
+`Yüzü yine kıpkırmızı oldu.`
+` Tamamen kendinden geçmişti.`
+`Onu tahrik etmek gerçekten çok eğlenceliydi.`
+`Rena'nın bir serseri tarafından istismar edilmemesi için dua ediyorum.`
+`Böyle devam et, Rena. Sıradan bir insan gibi davranana kadar seni eğiteceğim!`
+` ...Ya da ben kendim için öyle karar vermiştim.`
+`"Hadi gidelim! Mion'u bekletirsek, susmak bilmeyecek."`
+`Aksi takdirde dalgın dalgın takılmaya devam edeceğini görünce, Rena'yı kendine getirdim, böylece okula doğru ilerleyebilirdik.`
+`Bu tuhaf, kolayca telaşlanan kız Rena Ryuugu.`
+`Onu sadece bir aydır tanıyorum ama tuhaf olanın sadece ismi olmadığını fark ettim.`
+`"Mii-cha~n! Günaydın~!"`
+`Bir sonraki buluşma noktasına vardığımızda, bizi bekleyen başka birini gördük.`
+` Bizi fark etti ve el salladı.`
+`"Ah, nihayet, nihayet. Siz ikiniz geç kaldınız~!"`
+`"Genelde geç kalan sen oluyorsun!"`
+`Gayretli Rena'nın tam aksine, bu kişi kendi istediği şekilde davranıyordu.`
+`O Mion Sonozaki.`
+`Ne olursa olsun, o bizim üst sınıfımız ve aynı zamanda sınıf başkanımız.`
+`"Günaydın, Rena. Uzun zaman oldu, Kei-chan!`
+` Kaç yıl oldu?"`
+`"Sadece iki gün izinliydim!"`
 `"Ah haha!`
-` You don't say.`
-` You were such a cute little tyke the last time I saw you!"`
+` Deme ya.`
+` Seni son gördüğümde ne kadar da şirin bir ufaklıktın!"`
 `Mion'un bakışları göğsümden başlayıp aşağıya kaydı,`
 ` ve bacaklarımın arasındaki noktaya odaklandı.`
 `...Yani önceden kasığımın daha sevimli olduğunu söylüyordu.`
@@ -160,157 +160,157 @@
 `Elim fermuarıma uzandığında, Rena panik içinde saçmalamaya başladı.`
 `"...Hey,`
 ` hey hey...`
-` What are you talking about?`
-` What're you talking about!? What're you talking about...!!"`
-`Red-faced and flustered, Rena tried to play dumb, but it was obvious she knew exactly what we were talking about.`
-`"How was it?`
-` Seeing the city again."`
-`Mion switched gears, dropping the dirty talk and changing the topic to something more befitting the pleasant morning.`
-`"I only went for a funeral. I didn't have much time."`
-`"So yeah! Did you look for it?`
-` ...That thing I asked for?"`
-`"You're... not listening... at all.`
-` I just came back from a funeral!`
-` I didn't have any time to look around in toy stores!"`
-`"Tsk tsk tsk.`
-` Toy stores and hobby shops are completely different, you know?`
-` It's really difficult to get western stuff around here, after all."`
-`"Is this about games again, Mii-chan?"`
-`Mion nodded proudly as Rena giggled.`
-`"Yep! I wanted Kei-chan to bring me back a 'west port' catalogue, you see."`
-`"West port" was short for "western imported games."`
-`Using that abbreviation did make it sound pretty geeky.`
-`"You can just get them to send you one in the mail, can't you?"`
-`"Well, guess I have to now.`
-` I'm going to get another game full of hot action!"`
-`"...Th-This time, I'd like a game that's easy to understand..."`
-`Mion is a board and card game enthusiast, and I hear she's collected quite a lot of different ones.`
-`According to Rena, Mion's room has kind of become a museum for domestic and foreign games.`
-`"If there's a game you think I'd understand, let me play too."`
-`"Heh... of course!`
-` If Kei-chan is up for it. I should warn you though, we're pretty tough."`
-`"Just what I want.`
-` I play all sorts of games. I don't intend to lose!"`
+` Sen neden bahsediyorsun?`
+` Sen neden bahsediyorsun!? Sen neden bahsediyorsun...!!"`
+`Yüzü kızaran ve telaşlanan Rena aptalı oynamaya çalıştı ama neden bahsettiğimizi çok iyi bildiği belliydi.`
+`"Nasıldı?`
+` Şehri tekrar görmek."`
+`Mion lafı dolandırdı, edepsiz konuşmayı bıraktı ve konuyu bu güzel sabaha daha uygun bir şeye çevirdi.`
+`"Sadece bir cenaze için gittim. Fazla zamanım yoktu."`
+`"Yani evet! Onu aradın mı?`
+` ...Şu istediğim şey mi?"`
+`"Beni... hiç de... dinlemiyorsun.`
+` Cenazeden yeni geldim!`
+` Oyuncakçılara bakacak vaktim olmadı!"`
+`"Cık cık cık.`
+` Oyuncakçılar ve hobi dükkanları tamamen farklıdır, biliyor musun?`
+` Buralarda batı tarzı şeyler bulmak gerçekten zor."`
+`"Konu yine oyunlar mı, Mii-chan?"`
+`Rena kıkırdarken Mion gururla başını salladı.`
+`"Evet! Kei-chan'dan bana bir 'west port' kataloğu getirmesini istedim."`
+`""West port" batıdan ithal edilen oyunların kısaltmasıydı."`
+`Bu kısaltmayı kullanınca kulağa oldukça inekçe geliyor.`
+`"Sana postayla bir tane göndermelerini isteyebilirsin, değil mi?"`
+`"Sanırım artık mecbur kaldım.`
+` Ateşli aksiyon dolu bir oyun daha alacağım!"`
+`"...B-Bu sefer, anlaşılması kolay bir oyun istiyorum..."`
+`Mion bir masa ve kart oyunu tutkunu ve duyduğuma göre pek çok farklı oyun biriktirmiş.`
+`Rena'ya göre, Mion'un odası yerli ve yabancı oyunlar için bir tür müze haline gelmiş.`
+`"Anlayacağımı düşündüğün bir oyun varsa, ben de oynayayım."`
+`"Heh... elbette!`
+` Kei-chan da isterse. Seni uyarmalıyım, biz oldukça sertiz."`
+`"Tam istediğim gibi.`
+` Her türlü oyunu oynarım. Kaybetmeye niyetim yok!"`
 `"...Whoa...`
-` Then we'll let you in the group this time, I guess.`
-` ...I guess!"`
-`Bristling with joy from head to toe, Rena looked back and forth between me and Mion.`
-`Mion gave her an affirmative wink, and her expression perked up even further.`
-`"I thought boys preferred playing outside more, so... I figured you wouldn't want to."`
-`Rena laughed happily.`
-`From such a friendly conversation, you wouldn't think I had moved here less than a month ago.`
-`I understood that they did all they could to make a transfer student like me feel at home.`
-`I'll have to try harder to fit in, so they won't feel like they have to try to make me feel welcome.`
-`I felt like if I acted a bit more open than I usually am, it should probably be about right for this place.`
-`Hinamizawa was a really small village. Not only was there only one school, but there was only one class.`
-`That class encompasses all different grades and ages.`
-`There are about 30 students at different levels, and they all study in the same class.`
-`I'm told that, long ago, there used to be a bigger school building and they had actual separate classes.`
-`However, it seems something happened that made it become a single class, and now it stayed that way out of tradition.`
-`I was shocked at first, but humans adapt pretty quickly. I've already gotten quite used to it.`
-`The sound of children playing started right from the morning.`
-`With such a lively mood, it felt more like a kindergarten than a proper school, not that that was a bad thing.`
-`Mion, who had been walking in front of us up until then, suddenly let me take the lead.`
-`Right in front of the classroom door.`
-`So I was meant to slide the door open and enter the room first.`
+` O zaman bu seferlik seni gruba alacağız, sanırım.`
+` ...Sanırım!"`
+`Tepeden tırnağa sevinçle dolan Rena, bir bana, bir de Mion'a bakıp durdu.`
+`Mion ona olumlu bir şekilde göz kırptı, ve yüz ifadesi daha da canlandı.`
+`"Erkeklerin dışarıda oynamayı daha çok tercih ettiğini sanıyordum, ondan... Senin oynamak istemeyeceğini düşündüm."`
+`Rena keyifli bir şekilde güldü.`
+`Böylesine dostane bir sohbete bakarak, buraya taşınalı daha bir ay bile olmadığı aklınızdan geçmezdi.`
+`Benim gibi bir nakil öğrenciyi evinde hissettirmek için ellerinden geleni yaptıklarını anladım.`
+`Uyum sağlamak için daha çok çabalamam gerekecek, böylece beni hoş karşılamaları gerektiğini hissetmeyecekler.`
+`Normalde olduğumdan biraz daha açık davranırsam, muhtemelen burası için uygun olacağını hissettim.`
+`Hinamizawa gerçekten küçük bir köydü. Sadece tek bir okul değil, aynı zamanda tek bir derslik vardı.`
+`Bu derslik tüm farklı sınıfları ve yaşları kapsıyordu.`
+`Farklı sınıflardan yaklaşık 30 öğrenci vardı ve hepsi aynı sınıfta okuyordu.`
+`Bana uzun zaman önce okulun daha büyük bir binası olduğu ve gerçek anlamda ayrı derslikleri olduğu söylendi.`
+`Ancak, öyle görünüyor ki önceden yaşanan bir olay nedeniyle tek bir derslik haline getirilmiş, ve şimdi de gelenek usulü bu şekilde kalmış.`
+`Başta şaşırmıştım ama insanlar çok çabuk adapte oluyor. Ben çoktan alıştım bile.`
+`Sabah saatlerinden beri çocukların oyun sesleri duyuluyordu.`
+`Böylesine canlı bir havayla, burası gerçek bir okuldan çok bir anaokulu gibi hissettiriyordu, bu kötü bir şey değildi.`
+`O ana kadar önümüzden yürüyen Mion, birden bana yol verdi.`
+`Tam da sınıf kapısının önünde.`
+`Yani kapıyı kaydırarak açacak ve odaya ilk ben girecektim.`
 `Heh...`
-` Too bad. I wasn't going to fall for that again.`
-`"...To think you'd give up the lead here.`
-` You meant for this to be a test of my skills."`
-`Mion chuckled with a haughty smirk on her face.`
-`"Wh-What is it... you guys...?"`
-`"Step back, Rena. It's dangerous.`
-` ...She's here!"`
-`"Huh...?`
-` Then... Satoko-chan is...!?"`
-`Her name was Satoko Houjou.`
-`She was a disrespectful, impudent, bossy kid.`
-`The way she talks was annoying, but it would be immature to get worked up over just that.`
-`The real problem... was this...`
-`"...Quite the obvious trap. A blackboard eraser wedged in the door.`
-` ...It's too obvious! Satoko!"`
-`A haughty laugh came from beyond the door.`
-`"Excellent, Kei-chan! ...I guess that means you win this round?"`
-`"...No, this is Satoko we're talking about.`
-` I doubt this is it..!"`
-`After falling for such intricate traps since the day I transferred, I no longer let my guard down.`
-`Satoko liked to combine a variety of traps: traps that were simply there to bait you into the main one, traps that relentlessly kept coming at you like a sadistic Rube Goldberg machine, the list goes on.`
-`As well as being clever, they almost never misfire.`
-`When you least expect it... she strikes!`
-`No escape. No time to relax.`
-`"By the looks of it, this eraser is normal.`
-` No rocks or anything in it."`
-`I took a pretty heavy hit from a blackboard eraser loaded with rocks on my first day.`
-`"So then why don't you just open the door and let it drop...?"`
-`"That's what it is!"`
-`That's what Satoko was after.`
-`Making me focus my attention upward. So as I lifted my hand to the door...`
-`There were thumbtacks stuck to the sliding door handle with tape; a frightening trap.`
-`A potent and terrifying trap.`
-`Concealed by using the blackboard eraser...`
-`"An impressive combination, Satoko!`
-` But in the end, nothing more than the trivial machinations of a child!"`
-`Assured of my victory, I threw the door open and stepped into the room.`
-`I felt something strange at my ankle.`
-` It was similar to the sensation of a jump rope catching on my leg.`
-`By the time I realized she had me—hook, line, and sinker—it was already too late.`
-`I began to fall in an almost picturesque manner.`
-`"Kei-chan, watch out!!"`
-`Instinctively reacting to Mion's shrill warning, I twisted my body in midair before I landed on the floor.`
+` Çok yazık. Bu tuzağa tekrar düşmeyecektim.`
+`"...Burada öncülüğü bırakacağını düşünmek.`
+` Bunu yeteneklerimi sınamak için yaptın."`
+`Mion yüzünde mağrur bir sırıtışla kıkırdadı.`
+`"N-Ne oldu... çocuklar...?"`
+`"Geri çekil, Rena. Burası tehlikeli.`
+` ...O burada!"`
+`"Ha...?`
+` O zaman... Satoko-chan da...!?"`
+`Adı Satoko Houjou'ydu.`
+`Saygısız, küstah, otoriter bir çocuktu.`
+`Konuşma tarzı sinir bozucuydu ama sırf bu yüzden öfkelenmek çocukça olurdu.`
+`Asıl problem... şuydu...`
+`"...Oldukça bariz bir tuzak. Kapıya sıkıştırılmış bir karatahta silgisi.`
+` ...Bu çok bariz! Satoko!"`
+`Kapının arkasından mağrur bir kahkaha geldi.`
+`"Mükemmel, Kei-chan! ...Sanırım bu sefer sen kazandın?"`
+`"...Hayır, Satoko'dan bahsediyoruz.`
+` Sadece bundan ibaret olduğundan şüpheliyim...!"`
+`Nakil olduğum günden beri böyle çetrefilli tuzaklara düştükten sonra artık gardımı düşürmüyordum.`
+`Satoko çeşitli tuzakları bir araya getirmeyi severdi: sizi asıl tuzağa çekmek için kurulmuş tuzaklar, sadist bir Rube Goldberg makinesi gibi durmaksızın üzerinize gelen tuzaklar, liste uzayıp giderdi.`
+`Zekice olmalarının yanı sıra, hedeflerini neredeyse hiç şaşmazlar.`
+`En beklemediğiniz anda... saldırır!`
+`Kaçış yok. Rahatlayacak zaman yok.`
+`"Görünüşe göre, bu sıradan bir silgi.`
+` İçinde taş ya da benzeri bir şey yok."`
+`İlk günümde taşla dolu bir tahta silgisinden oldukça ağır bir darbe almıştım.`
+`"O zaman neden kapıyı açıp düşmesine izin vermiyorsun...?"`
+`"İşte bu!"`
+`Satoko'nun peşinde olduğu şey buydu.`
+`Dikkatimi yukarıya vermemi sağlamak. Elimi kapıya uzattığımda...`
+`Sürgülü kapının koluna bantla yapıştırılmış raptiyeler vardı; korkutucu bir tuzak.`
+`Güçlü ve dehşet verici bir tuzak.`
+`Tahta silgisi kullanılarak gizlenmişti...`
+`"Etkileyici bir kombinasyon, Satoko!`
+` Ama sonuçta, bir çocuğun uyduruk oyunlarından başka bir şey değildi!"`
+`Zaferimden emin bir şekilde kapıyı açtım ve odaya adım attım.`
+`Ayak bileğimde garip bir şey hissettim.`
+` Atlama ipinin bacağıma takılmasına benzer bir histi.`
+`Beni yakaladığını fark ettiğimde—kanca, misina ve kurşun—artık çok geçti.`
+`Neredeyse resmedilesi bir şekilde düşmeye başladım.`
+`"Kei-chan, dikkat et!!"`
+`Mion'un cırtlak sesli uyarısına istemsizce tepki vererek, yere inmeden önce vücudumu havada kıvırdım.`
 `"...Ow ow... ow!?"`
-`An ink stone, filled to the brim, was placed right where I would have landed...!`
-`I shuddered, imagining the situation had I landed square on it.`
-`"My, my, what do we have here?`
-` A fair morning to you, Keiichi-san. Aren't we a lively one this morning~!"`
-`Still sprawled in an awkward position, I was greeted by a mocking voice.`
-`"That was a step up from your usual traps, Satoko!!"`
-`"I haven't the faintest idea what you mean.`
-` You're quite unlucky this morning."`
-`"You little~...!!`
+`Ağzına kadar dolu bir mürekkep taşı tam da düşeceğim yere yerleştirilmişti...!`
+`Tam üzerine düşmüş olsaydım nasıl bir durumla karşılaşacağımı hayal ederek irkildim.`
+`"Vay, vay, burada kimler varmış?`
+` Senin için neşeli bir sabah, Keiichi-san. Bu sabah ne kadar da canlıyız~!"`
+`Hâlâ garip bir pozisyonda yere yığılmışken, alaycı bir ses beni karşıladı.`
+`"Bu her zamanki tuzaklarından bir tık daha gelişmişti, Satoko!!"`
+`"Ne demek istediğin hakkında en ufak bir fikrim yok.`
+` Bu sabah oldukça talihsizsin."`
+`"Seni küçük~...!!`
 ` ...`
 `...`
 `...Owowow..."`
-`It seemed I'd inadvertently sprained my back a little when I'd landed.`
-` ...Better than landing on that inkstone.`
-`A small hand gently rubbed my head.`
-`"...Pain, pain, go away."`
-`The small, dainty hand continued to gently stroke my head.`
-`"...You didn't sprain your back or anything, did you...?`
-` If you rub it like this, the pain disappears..."`
-`I thought about asking how rubbing my head would help my back, but I didn't.`
-`It's not so much about what you actually do, it's the thought that counts.`
-`"Y... Yeah, thanks Rika-chan. The pain's going away now."`
-`"Yay~! ...Rika-chan! Good mor~ning!"`
-`"...Good morning to you, Rena.`
-` A good morning to all."`
-`Rika-chan greeted each of us with an adorable little bow.`
-`It was infectious. Rena, Mion, and I all bowed back.`
-`"You're such a good kid, Rika-chan...`
-` So much better than Satoko...!"`
-`I glared over in her direction. Satoko was whistling while rather deliberately trying to avoid eye contact.`
-`"I am the very model of a good girl."`
-`"A good girl wouldn't set those nasty traps!"`
-`"Nothing but lies and slander!`
-` Exactly what proof—`
+`Görünüşe göre yere yapıştığımda istemeden sırtımı biraz burkmuşum.`
+` O mürekkep taşının üzerine düşmekten iyidir.`
+`Küçük bir el başımı hafifçe sıvazladı.`
+`"...Ağrı, ağrı, git buradan."`
+`Küçük, zarif el başımı hafifçe okşamaya devam etti.`
+`"...Sırtını falan burkmadın, değil mi...?`
+` Böyle ovalarsan ağrın geçer..."`
+`Başımı ovmanın sırtıma nasıl iyi geleceğini sormayı düşündüm ama sormadım.`
+`Önemli olan aslında ne yaptığın değil, düşüncendir.`
+`"E... Evet, teşekkürler Rika-chan. Ağrı şimdi geçiyor."`
+`"Yaşasın~! ...Rika-chan! Günay~dın!"`
+`"...Sana da günaydın, Rena.`
+` Herkese günaydın."`
+`Rika-chan her birimizi sevimli bir şekilde başını eğerek selamladı.`
+`Bulaşıcı bir şeydi. Rena, Mion ve ben de başımızı eğerek selam verdik.`
+`"Sen çok tatlı bir çocuksun, Rika-chan.`
+` Satoko'dan çok daha iyi...!"`
+`Ona doğru ters ters baktım. Satoko kasten göz temasından kaçınırken bir yandan da ıslık çalıyordu.`
+`"Satoko tam anlamıyla iyi bir kız modelidir."`
+`"İyi bir kız o iğrenç tuzakları kurmaz!"`
+`"Yalan ve iftiradan başka bir şey değil!`
+` Tam olarak hangi kanıt—`
 ` ...Uwah!"`
-`I picked up Satoko by the back of her collar.`
-` She looks like a misbehaved cat when I do this.`
-`But a cat wouldn't be setting traps.`
-`...She's much harder to deal with!!`
-`"I-M S-O-R-R-Y.`
-` Try saying that.`
-` If you won't say it...!"`
-`I cocked my index finger on my thumb, letting it tremble as I brought it closer to Satoko's forehead.`
-`"I-I'm against violence!!`
-` You don't even have any proof!!"`
-`"Just so you know, my forehead flick really hurts.`
-` It can split plywood right in half!"`
+`Satoko'yu yakasından tutup kaldırdım.`
+` Bunu yaptığımda yaramaz bir kedi gibi görünüyor.`
+`Ama bir kedi tuzak kurmaz.`
+`...Onunla uğraşmak çok daha zor!!`
+`"Ö-Z-Ü-R D-İ-L-E-R-İ-M.`
+` Bunu söylemeyi dene.`
+` Eğer söylemeyeceksen...!"`
+`İşaret parmağımı başparmağımla gerdim ve Satoko'nun alnına yaklaştırırken titremesine izin verdim.`
+`"Be-Ben şiddete karşıyım!!`
+` Kanıtın bile yok!!"`
+`"Bil diye söylüyorum, bu fiskeyi alnına vurursam çok acıyacak.`
+` Kontrplağı ortadan ikiye bölebilir!"`
 `"Eeeeeeeek...!!!!`
-` Stop! Get away from me, you beast~!!!"`
-`"Don't say that in a way people will misunderstand!!"`
-`A small hand tugged on the back of my shirt.`
-`"...She's been lonely since you were gone for two days."`
-`...Rika-chan really is just so...`
+` Dur! Uzak dur benden, seni canavar~!!!"`
+`"Bunu insanların yanlış anlayacağı şekilde söyleme!!!"`
+`Küçük bir el gömleğimin arkasından çekiştirdi.`
+`"...İki gündür ortalıkta olmadığından çok yalnızdı."`
+`...Rika-chan gerçekten de öyleydi...`
 `How could I do anything more after being told that?`
 `I gently released my grip on Satoko, who at this point was on the verge of tears. She still had her eyes clamped shut as she braced herself for the forehead flick.`
 `"...U-Uwaaaaaaa...hnn!!`
