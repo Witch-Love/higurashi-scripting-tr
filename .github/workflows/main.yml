@@ -25,6 +25,7 @@ jobs:
           echo "Build number ${BUILD}"
 
           php manager.php insert
+          php manager.php insert_charnames
 
           mkdir -p assets/ch1/HigurashiEp01_Data/StreamingAssets/Update
           mkdir -p assets/ch2/HigurashiEp02_Data/StreamingAssets/Update

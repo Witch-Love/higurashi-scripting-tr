@@ -80,6 +80,7 @@ function main($argc, $argv) {
 	$scripts_dir = 'scripts';
 	$extracted_dir = 'story';
 	$out_dir = 'output-scripts';
+	$char_json_dir = 'character_names.json';
 	
 	ini_set('memory_limit','2048M');
 
@@ -155,6 +156,34 @@ function main($argc, $argv) {
 							$data = str_replace('"', '\\"', $data);
 							array_push($newfile, $matches[1][0] . str_replace(array("\r", "\n"), '', $data) . $matches[3][0] . LF);
 							$n++;
+						} else {
+							array_push($newfile, $line);
+						}
+					}
+					fclose($handle);
+				}
+				file_put_contents($chapter, $newfile);
+			}
+			break;
+		case 'insert_charnames':
+			$story = readDirs($out_dir);
+			$data = json_decode(file_get_contents($char_json_dir), true);
+
+			for ($i = 0; $i < count($story); $i++) {
+				$chapter = $story[$i];
+
+				$exp = '/(\s"<color=.{0,7}>)(.*?)(<\/color>)/';
+
+				$handle = fopen($chapter, "r");
+				$newfile = [];
+				if ($handle) {
+					while (($line = fgets($handle)) !== false) {
+						$result = preg_match($exp, $line, $matches, PREG_OFFSET_CAPTURE);
+						if ($result == 1 && array_key_exists($matches[2][0], $data) && $data[$matches[2][0]] != '') {
+
+							$newline = str_replace($matches[2][0], $data[$matches[2][0]] ,$line);
+
+							array_push($newfile, $newline);
 						} else {
 							array_push($newfile, $line);
 						}

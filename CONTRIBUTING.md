@@ -33,3 +33,4 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Cicada `->` Ağustos Böceği
    * Ice Cream Parlor `->` Dondurmacı
    * Music Store `->` Plakçı
+3. [Karakter İsimleri](../../tree/master/character_names.json)
