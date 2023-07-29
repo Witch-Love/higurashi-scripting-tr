@@ -371,7 +371,7 @@ void main()
 	PlayBGM( 1, "msys13", 56, 0 );
 
 //「...もしもし＠竜宮です。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナの父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナの父</color>", NULL, "<color=#f5e6d3>Rena'nın babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/renf03001", 256, TRUE);
 	OutputLine(NULL, "「…もしもし。",
 		   NULL, "\"...Hello?", Line_WaitForInput);
@@ -408,7 +408,7 @@ void main()
 
 
 //「礼奈は風呂に入っていますが、!w1000......あ、出たかな＠　......礼奈＠友達から電話だぞ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナの父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナの父</color>", NULL, "<color=#f5e6d3>Rena'nın babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/renf03003", 256, TRUE);
 	OutputLine(NULL, "「礼奈は風呂に入っていますが、",
 		   NULL, "\"Reina is taking a bath...", Line_Continue);
@@ -3845,7 +3845,7 @@ void main()
 //	DrawSceneWithMask( "bg_240", "left", 0, 0, 300 );
 
 //「魅音ちゃん、梨花ちゃまと沙都子ちゃんがいなくなったってのは本当かい！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/mana03004", 256, TRUE);
 	OutputLine(NULL, "「魅音ちゃん、梨花ちゃまと沙都子ちゃんがいなくなったってのは本当かい！！」",
 		   NULL, "\"Mion-chan, is it true that Rika-chan and Satoko-chan aren't anywhere to be found?!\"", GetGlobalFlag(GLinemodeSp));
@@ -3905,7 +3905,7 @@ void main()
 	ClearMessage();
 
 //「我々も手分けしよう＠昨夜の村長探しで回ったところをもう一度回る。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/manb03001", 256, TRUE);
 	OutputLine(NULL, "「我々も手分けしよう。",
 		   NULL, "\"We should divide up the work, too.", Line_WaitForInput);
@@ -3916,7 +3916,7 @@ void main()
 
 
 //「...俺たちはダム現場をよく念入りに探してみる＠お前さんたちは学校の辺りを探してみてくれ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/manc03001", 256, TRUE);
 	OutputLine(NULL, "「…俺たちはダム現場をよく念入りに探してみる。",
 		   NULL, "\"...We'll go look around the dam construction site as best we can.", Line_WaitForInput);
@@ -3927,7 +3927,7 @@ void main()
 
 
 //「おぅ＠　すったら早ぅ回らんと！＠　行こ行こ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/mand03001", 256, TRUE);
 	OutputLine(NULL, "「おぅ！",
 		   NULL, "\"Right!", Line_WaitForInput);
@@ -3959,7 +3959,7 @@ void main()
 	ModPlayVoiceLS(7, 0, "ps3/s02/00/all03001d", 256, TRUE);
 	ModPlayVoiceLS(8, 0, "ps3/s02/00/all03001e", 256, TRUE);
 //「「「おぉうッ！！！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男性</color>", NULL, "<color=#f5e6d3>Men</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男性</color>", NULL, "<color=#f5e6d3>Adamlar</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「「おぉうッ！！！」」」",
 		   NULL, "\"\"\"Got it!!!\"\"\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

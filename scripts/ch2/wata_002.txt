@@ -1002,7 +1002,7 @@ void main()
 	ModDrawCharacterWithFiltering(3, 5, "sprite/ri1_niko_a1_", "0", "m1", 1, 240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「イチゴ＠「メロン＠「宇治金時＠「イチゴ＠「イチゴ＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(5, 2, "ps3/s19/02/990200466", 256, TRUE);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei10840_01", 256, TRUE);
 	ModPlayVoiceLS(6, 5, "ps3/s19/05/990500108", 256, TRUE);
@@ -1810,7 +1810,7 @@ void main()
 	ClearMessage();
 
 //「夏祭り＠「夏祭り＠「花火＠「蚊取り線香￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/990200482", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s19/03/990300567", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s19/04/990400242", 256, TRUE);
@@ -2255,7 +2255,7 @@ void main()
 	FadeAllBustshots( 400, TRUE );
 
 //「イルカ」/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300580", 256, TRUE);
 	OutputLine(NULL, "「イルカ」",
 		   NULL, "\"Dolphin.\"", Line_Continue);
@@ -4306,7 +4306,7 @@ void main()
 	ModDrawCharacter(3, 6, "sprite/si2_odoroki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「あ、...も！!w1000　も、申し訳ございません...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600001", 256, TRUE);
 	OutputLine(NULL, "「あ、…も！",
 		   NULL, "\"Oh... I—!", Line_Continue);
@@ -4334,7 +4334,7 @@ void main()
 	ModDrawCharacter(3, 6, "sprite/si2_yowaki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「その、......す、すみません。すぐにお持ちしますので...！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600002", 256, TRUE);
 	OutputLine(NULL, "「その、……す、すみません。すぐにお持ちしますので…！」",
 		   NULL, "\"Oh it's— ...M-My apologies. I'll bring it right away!\"", GetGlobalFlag(GLinemodeSp));
@@ -4531,7 +4531,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_yowaki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「あ、あの.........えっと......、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600003", 256, TRUE);
 	OutputLine(NULL, "「あ、あの………えっと……、」",
 		   NULL, "\"Uh... ummm...\"", GetGlobalFlag(GLinemodeSp));
@@ -4561,7 +4561,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_hau_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「えっと......大変お待たせして申し訳ありませんでした...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600004", 256, TRUE);
 	OutputLine(NULL, "「えっと……大変お待たせして申し訳ありませんでした…。」",
 		   NULL, "\"Ummm... Terribly sorry for the wait...\"", GetGlobalFlag(GLinemodeSp));
@@ -4725,7 +4725,7 @@ void main()
 //!s200
 	SetSpeedOfMessage( TRUE, 0, );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600005", 256, TRUE);
 	OutputLine(NULL, "「…………へ…。」",
 		   NULL, "\".........Eh...\"", GetGlobalFlag(GLinemodeSp));
@@ -4776,7 +4776,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_hau_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「え、!w800あ、!w800あの、!w1000......お、叔父さんのお店の手伝......、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600006", 256, TRUE);
 	OutputLine(NULL, "「え、",
 		   NULL, "\"Uh,", Line_Continue);
@@ -4894,7 +4894,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_yowaki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「は、恥ずかしいんだからその、!w800......あまり見ないでよー...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600007", 256, TRUE);
 	OutputLine(NULL, "「は、恥ずかしいんだからその、",
 		   NULL, "\"I-It's embarrassing, so...", Line_Continue);
@@ -4941,7 +4941,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_hau_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「そ、そんな、...こと...言わないでよー......。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/660600049", 256, TRUE);
 	OutputLine(NULL, "「そ、そんな、…こと…言わないでよー……。」",
 		   NULL, "\"D-Don't... say... that...\"", GetGlobalFlag(GLinemodeSp));
@@ -4966,7 +4966,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_yowaki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「わ、わ、私だってその......好きでこんな...してるわけじゃ......、￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600009", 256, TRUE);
 	OutputLine(NULL, "「わ、わ、私だってその……好きでこんな…してるわけじゃ……、」",
 		   NULL, "\"I-It's not like... I'm doing this... because I like to...\"", Line_Normal);
@@ -5013,7 +5013,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_odoroki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「ぅぅ～......！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600010", 256, TRUE);
 	OutputLine(NULL, "「ぅぅ〜……！」",
 		   NULL, "\"*whimper*\"", GetGlobalFlag(GLinemodeSp));
@@ -5032,7 +5032,7 @@ void main()
 
 
 //「ひぃ～...堪忍して～...！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600011", 256, TRUE);
 	OutputLine(NULL, "「ひぃ〜…堪忍して〜…！」",
 		   NULL, "\"Eek~ ...Please stop~...!\"", GetGlobalFlag(GLinemodeSp));
@@ -5051,7 +5051,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_hau_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「ど、どうかお許しを～...！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600012", 256, TRUE);
 	OutputLine(NULL, "「ど、どうかお許しを〜…！」",
 		   NULL, "\"P-Please forgive me~...!\"", GetGlobalFlag(GLinemodeSp));
@@ -5070,7 +5070,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_odoroki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「それは嫌ぁぁああぁあ～...！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600013", 256, TRUE);
 	OutputLine(NULL, "「それは嫌ぁぁああぁあ〜…！」",
 		   NULL, "\"No, not thaaaAAaaaat~...!\"", Line_Normal);
@@ -5122,7 +5122,7 @@ void main()
 
 
 //「.....................ぅぅ...あの、!w800...ち、ちが...、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600014", 256, TRUE);
 	OutputLine(NULL, "「…………………ぅぅ…あの、",
 		   NULL, "\"......*whimper*...Um,", Line_Continue);
@@ -5158,7 +5158,7 @@ void main()
 
 
 //「ちが、ち、......違うんです...、￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600015", 256, TRUE);
 	OutputLine(NULL, "「ちが、ち、……違うんです…、」",
 		   NULL, "\"Th-That's.... wrong...\"", Line_Normal);
@@ -5174,7 +5174,7 @@ void main()
 
 
 //「だだ、だから違うんです...！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600016", 256, TRUE);
 	OutputLine(NULL, "「だだ、だから違うんです…！！」",
 		   NULL, "\"I-I'm saying that's wrong!!\"", GetGlobalFlag(GLinemodeSp));
@@ -5205,7 +5205,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_odoroki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「わた、私＠　............/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600017", 256, TRUE);
 	OutputLine(NULL, "「わた、私！",
 		   NULL, "\"I-I'm!", Line_WaitForInput);
@@ -5245,7 +5245,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si2_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「あの.........ごめんなさい＠言いそびれちゃってたんですけど....../
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600019", 256, TRUE);
 	OutputLine(NULL, "「あの………ごめんなさい。",
 		   NULL, "\"Umm...... I'm sorry.", Line_WaitForInput);
@@ -5598,7 +5598,7 @@ void main()
 	DrawSceneWithMask("background/res1_01", "right", 0, 0, 300 );
 
 //「園崎さ～ん、Ｒ入っちゃっていいですよ～！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/wait99001", 256, TRUE);
 	OutputLine(NULL, "「園崎さ〜ん、Ｒ入っちゃっていいですよ〜！」",
 		   NULL, "\"Sonozaki-sa~n, you can take your break now~!\"", GetGlobalFlag(GLinemodeSp));

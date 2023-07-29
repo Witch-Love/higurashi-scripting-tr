@@ -159,7 +159,7 @@ void main()
 	ClearMessage();
 
 //「大石さん、いますかー＠　一般の方から外線でーす。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/dek02001", 256, TRUE);
 	OutputLine(NULL, "「大石さん、いますかー？",
 		   NULL, "\"Are you here, Ooishi-san?", Line_WaitForInput);
@@ -205,7 +205,7 @@ void main()
 
 
 //「外線です＠公衆から。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/dek02003", 256, TRUE);
 	OutputLine(NULL, "「外線です。",
 		   NULL, "\"Outside line.", Line_WaitForInput);
@@ -548,7 +548,7 @@ void main()
 
 
 //「２人です。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/dek02005", 256, TRUE);
 	OutputLine(NULL, "「２人です。」",
 		   NULL, "\"Two.\"", Line_Normal);
@@ -585,7 +585,7 @@ void main()
 
 
 //「定時巡回の時間です＠家人は留守で連絡不能。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/dek02006", 256, TRUE);
 	OutputLine(NULL, "「定時巡回の時間です。",
 		   NULL, "\"He's scheduled to be on patrol.", Line_WaitForInput);

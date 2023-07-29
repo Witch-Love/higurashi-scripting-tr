@@ -29,7 +29,7 @@ void main()
 
 
 //「あんりゃ、蔵ちゃん。あんたが一番遅いよ～＠　若い人はみんな揃ってる。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Master</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Yönetici</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/master44001", 256, TRUE);
 	OutputLine(NULL, "「あんりゃ、蔵ちゃん。あんたが一番遅いよ〜？",
 		   NULL, "\"Heya, Kura-chan. You're the last one here~", Line_Continue);
@@ -93,7 +93,7 @@ void main()
 
 
 //「「「ぅおおっす！！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Detectives</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Dedektifler</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442500011", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s20/00/keijib44008", 256, TRUE);
 	ModPlayVoiceLS(6, 19, "ps3/s20/19/443100037", 256, TRUE);
@@ -239,7 +239,7 @@ void main()
 
 
 //「「「わっはっはっはっはっは...！！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Detectives</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Dedektifler</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442500012", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s20/00/keijib44009", 256, TRUE);
 	ModPlayVoiceLS(6, 19, "ps3/s20/19/443100038", 256, TRUE);
@@ -292,7 +292,7 @@ void main()
 //長文につき＠を￥に変換
 
 //「「「わっはっはっはっはっは！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Detectives</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Dedektifler</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442500013", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s20/00/keijib44010", 256, TRUE);
 	ModPlayVoiceLS(6, 19, "ps3/s20/19/443100039", 256, TRUE);

@@ -33,3 +33,27 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Cicada `->` Ağustos Böceği
    * Ice Cream Parlor `->` Dondurmacı
    * Music Store `->` Plakçı
+3. Karakter isimleri vs:
+   * Club Members `->` Kulüp Üyeleri
+   * Delinquent `->` Gangster
+   * Detective `->` Dedektif
+   * Doctor `->` Doktor
+   * Forensic Investigator `->` Adli Müfettiş
+   * Girl `->` Kız
+   * Man `->` Adam
+   * Master `->` Yönetici
+   * Middle-Aged Man `->` Orta Yaşlı Adam
+   * Nurse `->` Hemşire
+   * Okinomiya PS `->` Okinomiya PK
+   * Principal `->` 
+   * Professor `->` Profesör
+   * Reporter `->` Gazeteci
+   * Sonozaki Representative `->` Sonozaki Temsilcisi
+   * Villager `->` Köylğ
+   * Woman `->` Kadın
+   * Young boy `->` Genç çocuk
+   * Festival Stall `->` Festival Standı
+   * Gallery `->` Seyirciler
+   * Policeman `->` Polis Memuru
+   * Staff Member `->` Personel
+   * Waitress `->` Garson Kız

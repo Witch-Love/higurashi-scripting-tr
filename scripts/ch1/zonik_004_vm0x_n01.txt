@@ -13,7 +13,7 @@ void dialog000()
 void dialog001()
 {
 //「趣味はお風呂覗きなんだってー。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlb99003", 256, TRUE);
 	OutputLine(NULL, "「趣味は抱きまくらのコレクションなんだってー。」",
 		   NULL, "\"They say he has a collection of dakimakura love pillows.\"", GetGlobalFlag(GLinemodeSp));
@@ -30,7 +30,7 @@ void dialog001()
 
 
 //「夜な夜な下着を盗んで回ってるって本当なのぅ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlc99004", 256, TRUE);
 	OutputLine(NULL, "「夜な夜な抱きながら寝てるって本当なのぅ？」",
 		   NULL, "\"Is it true that he sleeps with them at night?\"", GetGlobalFlag(GLinemodeSp));
@@ -47,7 +47,7 @@ void dialog001()
 
 
 //「ぱんつをかぶったり匂いを嗅いだりするんだって。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girld99003", 256, TRUE);
 	OutputLine(NULL, "「ふにふにの柔らか〜い感触がたまんないって。」",
 		   NULL, "\"I heard he can't get enough of the fluffy soft sensation!\"", GetGlobalFlag(GLinemodeSp));
@@ -64,7 +64,7 @@ void dialog001()
 
 
 //「魅音委員長も被害にあったって言ってたよー！」!w800
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girle99003", 256, TRUE);
 	OutputLine(NULL, "「委員長の写真貼り付けたのもあるらしいよー！」",
 		   NULL, "\"I heard he even has one with a photo of our Class Rep stuck to it~!\"", GetGlobalFlag(GLinemodeSp));
@@ -74,7 +74,7 @@ void dialog001()
 void dialog002()
 {
 //「聞いたー＠　転校生の前原さんてＨな人なんだってー＠　きゃはははは！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girle99004", 256, TRUE);
 	OutputLine(NULL, "「聞いたー？",
 		   NULL, "\"Did you hear?", Line_WaitForInput);
@@ -157,7 +157,7 @@ void dialog003()
 
 
 //「そ…それでどうなるの…＠　地球連邦は負けちゃうの？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlc99005", 256, TRUE);
 	OutputLine(NULL, "「ち…地球軍って…？",
 		   NULL, "\"A... An Earth Federation...?", Line_WaitForInput);
@@ -182,14 +182,14 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girlc99007", 256, TRUE);
 	OutputLine(NULL, "　「す、すごい……！」",
 		   NULL, "\"A-Amazing...!\"", Line_WaitForInput);
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99005", 256, TRUE);
 	OutputLine(NULL, "　「やっぱり、上級生は私たちと違うんだ！」",
 		   NULL, "\"So the older kids really ARE different!\"", Line_WaitForInput);
@@ -199,7 +199,7 @@ void dialog003()
 void dialog004()
 {
 //「でも…連邦艦隊の拡散波動砲でも、彗星帝国には効かなかったんじゃ…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/girla99006", 256, TRUE);
 	OutputLine(NULL, "「でも…たとえレナさんでも、月を押し戻すことなんて出来るんでしょうか？」",
 		   NULL, "\"But... Rena-san might be strong... but, can she really push back the moon..?\"", GetGlobalFlag(GLinemodeSp));

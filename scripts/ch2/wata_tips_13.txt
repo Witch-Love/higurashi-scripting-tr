@@ -302,7 +302,7 @@ void main()
 	ClearMessage();
 
 //「大石さん＠　小宮山さんです！＠　出ました＠　興宮のデンタルクリニックで３年前に親知らずの治療をしてます！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijia44001", 256, TRUE);
 	OutputLine(NULL, "「大石さん！",
 		   NULL, "\"Ooishi-san!", Line_Continue);
@@ -331,7 +331,7 @@ void main()
 
 
 //「レントゲン付きでばっちりと！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijia44004", 256, TRUE);
 	OutputLine(NULL, "「レントゲン付きでばっちりと！」",
 		   NULL, "\"Complete with X-rays!\"", Line_Normal);
@@ -360,7 +360,7 @@ void main()
 
 
 //「あ、課長です！＠　夜分、お疲れさまです！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijia44005", 256, TRUE);
 	OutputLine(NULL, "「あ、課長です！！",
 		   NULL, "\"Oh, it's the Chief!!", Line_Continue);

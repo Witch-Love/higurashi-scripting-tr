@@ -16,7 +16,7 @@ void main()
 
 //「あ、お疲れさまです！！＠
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijib44007", 256, TRUE);
 	OutputLine(NULL, "「あ、お疲れさまです！！」",
 		   NULL, "\"I'm back!!\"", GetGlobalFlag(GLinemodeSp));
@@ -318,7 +318,7 @@ void main()
 	DrawScene("black", 400 );
 
 //「わしは議員の園崎じゃ！＠　責任者を出さんかッ！！＠　早ぅせいッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44001", 256, TRUE);
 	OutputLine(NULL, "「わしは議員の園崎じゃ！！",
 		   NULL, "\"I am Congressman Sonozaki!!", Line_Continue);
@@ -343,7 +343,7 @@ void main()
 
 
 //「お前の名刺なぞ要らんわ！＠　お前なんぞ、いつだって閑職に飛ばせるんじゃぞ＠　それにお前だけでは足らん＠　大石とか言う男も呼ばんか！＠　神聖な古手神社に捜査令状なんぞを請求しおったバチ当たり者じゃッ！！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44003", 256, TRUE);
 	OutputLine(NULL, "「お前の名刺なぞ要らんわ！！",
 		   NULL, "\"I don't need YOUR name!!", Line_Continue);
@@ -355,7 +355,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44005", 256, TRUE);
 	OutputLine(NULL, "　大石とか言う男も呼ばんか！！",
 		   NULL, " Bring out the one called Ooishi or whatever!! ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44006", 256, TRUE);
 	OutputLine(NULL, "　神聖な古手神社に捜査令状なんぞを請求しおったバチ当たり者じゃッ！！！」",
 		   NULL, "He deserves punishment for requesting a search warrant on the sacred Furude Shrine!!!\"", Line_Normal);
@@ -393,18 +393,18 @@ void main()
 	DrawSceneWithMask("background/ke2", "left", 0, 0, 300 );
 
 //「良いかッ？！　古手神社はそもそも皇暦２６００年に継ぐ２５００年の歴史を有する、神聖にして侵すべからずの聖地なのじゃ！＠　八百万の神々とオヤシロさまと先祖の霊を祀り、日が昇りてから沈むまで＠月が昇りてから沈むまで雛見沢を見守る尊い神社なのじゃ＠それを土足で踏みにじろうという馬鹿がいるッッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44007", 256, TRUE);
 	OutputLine(NULL, "「良いかッ？！　古手神社はそもそも皇暦２６００年に継ぐ２５００年の歴史を有する、神聖にして侵すべからずの聖地なのじゃ！！",
 		   NULL, "\"Listen here!! The Furude Shrine spent 2600 years under the imperial calendar and 2500 more beyond that! It is sacred! A sanctuary that must never be defiled!! ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44008", 256, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　八百万の神々とオヤシロさまと先祖の霊を祀り、日が昇りてから沈むまで。",
 		   NULL, "The eight hundred thousand gods, Oyashiro-sama, and the spirits of our ancestors are enshrined there.", Line_Continue);
 	OutputLine(NULL, "月が昇りてから沈むまで雛見沢を見守る尊い神社なのじゃ。",
 		   NULL, " The holy shrine protects Hinamizawa from when the sun comes up to when it sets, and from when the moon rises to when it falls. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44009", 256, TRUE);
 	OutputLine(NULL, "それを土足で踏みにじろうという馬鹿がいるッッ！！！",
 		   NULL, "Who is the idiot who wanted to set foot in there?!?!", GetGlobalFlag(GLinemodeSp));
@@ -412,13 +412,13 @@ void main()
 
 
 //　そもそも信仰の自由は憲法で定められた国民の最も尊い権利であろうが！！＠　それを自らの捜査の怠慢を口実に汚そうという魂胆ッ！！＠　こんなものは断じて許せんぞッ！！＠　聞いておるのか大虚けがッ！！＠　わしを怒らせてただで済むと思わん方がいいぞぉおおぉッ！！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44010", 256, TRUE);
 	OutputLine(NULL, "　そもそも信仰の自由は憲法で定められた国民の最も尊い権利であろうが！！！",
 		   NULL, "Besides, the right to religion is the most revered right of the people of this country in the constitution!!!", Line_Continue);
 	OutputLine(NULL, "　それを自らの捜査の怠慢を口実に汚そうという魂胆ッ！！！",
 		   NULL, " You dare to be so bold as to sully that using your own investigation's negligence as pretext!!? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Representative</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Sonozaki Temsilcisi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44011", 256, TRUE);
 	OutputLine(NULL, "　こんなものは断じて許せんぞッ！！！",
 		   NULL, "I cannot—I will not allow it!!!", Line_Continue);

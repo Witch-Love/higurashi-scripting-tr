@@ -656,7 +656,7 @@ void main()
 	ModDrawCharacter(1, 4, "sprite/sa2a_warai_a1_", "1", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「「「おおーーーー！！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200024", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s02/03/130300017", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s02/04/130400007", 256, TRUE);
@@ -674,7 +674,7 @@ void main()
 	DrawSceneWithMask("background/je1", "right", 0, 0, 300 );
 
 //「よー＠　園崎のお嬢ちゃんじゃねーの＠　食ってきな！＠　豚肉たっぷりの焼きソバだぜよ～＠　今年はイカリングまで入ってるボリューム派よー！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/yataa03001", 256, TRUE);
 	OutputLine(NULL, "「よー！",
 		   NULL, "\"Yo!", Line_WaitForInput);
@@ -1339,7 +1339,7 @@ void main()
 
 
 //「「「えぇ...？！？！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー＆おやじ</color>", NULL, "<color=#f5e6d3>Club Members and Old Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー＆おやじ</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri ve Yaşlı Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200040", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s02/03/130300034_1", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s02/04/130400016", 256, TRUE);
@@ -1512,7 +1512,7 @@ void main()
 
 
 //「...あぁそうよ＠明石のタコは...すごく高いんだよ...。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/yataa03007", 256, TRUE);
 	OutputLine(NULL, "「…あぁそうよ。",
 		   NULL, "\"...Yeah, that's right.", Line_WaitForInput);
@@ -1739,7 +1739,7 @@ void main()
 	DrawScene("background/je1", 1000 );
 
 //「おいおい兄ちゃんたち、うちのあんずアメも頼むよ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/yatac03001", 256, TRUE);
 	OutputLine(NULL, "「おいおい兄ちゃんたち、うちのあんずアメも頼むよ！！」",
 		   NULL, "\"Hey, hey, you guys, do that for my sweets, too!!\"", GetGlobalFlag(GLinemodeSp));
@@ -1989,7 +1989,7 @@ void main()
 
 
 //「ヘイらっしゃい＠はいよ、網とお椀。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Stall</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>屋台</color>", NULL, "<color=#f5e6d3>Festival Standı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/yatad03001", 256, TRUE);
 	OutputLine(NULL, "「ヘイらっしゃい。",
 		   NULL, "\"Welcome, welcome!", Line_WaitForInput);
@@ -2720,7 +2720,7 @@ void main()
 	ModDrawCharacter(2, 2, "sprite/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「「「ファイト、おーー！！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Kulüp Üyeleri</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200060", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s02/03/130300061", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s02/04/130400031", 256, TRUE);

@@ -15,7 +15,7 @@ void main()
 
 //「ンで俺たちが逮捕されなきゃなんねぇんだらぁあぁッ！！！＠
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryoa44001", 256, TRUE);
 	OutputLine(NULL, "「ンで俺たちが逮捕されなきゃなんねぇんだらぁあぁッ！！！」",
 		   NULL, "\"Just why ya arrestin' us?!!\"", GetGlobalFlag(GLinemodeSp));
@@ -24,7 +24,7 @@ void main()
 
 
 //「すッとらってンじゃぇえよ！＠　離さんかいごらあッ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryob44001", 256, TRUE);
 	OutputLine(NULL, "「すッとらってンじゃぇえよ！！",
 		   NULL, "\"Bullshit!!", Line_Continue);
@@ -201,7 +201,7 @@ void main()
 
 
 //「.................................。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryoa44002", 256, TRUE);
 	OutputLine(NULL, "「……………………………。」",
 		   NULL, "\"............\"", GetGlobalFlag(GLinemodeSp));
@@ -229,7 +229,7 @@ void main()
 
 
 //「ンなの、どこでもいいだろ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryob44002", 256, TRUE);
 	OutputLine(NULL, "「ンなの、どこでもいいだろ。」",
 		   NULL, "\"Whassit matter to ya?\"", GetGlobalFlag(GLinemodeSp));
@@ -407,7 +407,7 @@ void main()
 
 
 //「......バイク。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryoa44003", 256, TRUE);
 	OutputLine(NULL, "「……バイク。」",
 		   NULL, "\"...Bike.\"", Line_Normal);
@@ -435,7 +435,7 @@ void main()
 
 
 //「な、......何だよそれ！＠　上等じゃねぇかよぉおおぉッ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryob44003", 256, TRUE);
 	OutputLine(NULL, "「な、……何だよそれ！！",
 		   NULL, "\"......Hellsat?", Line_Continue);
@@ -497,7 +497,7 @@ void main()
 
 
 //「べ、別にいいよ...＠　自分たちで取りに行くからいいって！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryoa44004", 256, TRUE);
 	OutputLine(NULL, "「べ、別にいいよ…！",
 		   NULL, "\"Iss, iss fine...!", Line_Continue);
@@ -529,7 +529,7 @@ void main()
 
 
 //「...........................。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryoa44005", 256, TRUE);
 	OutputLine(NULL, "「………………………。」",
 		   NULL, "\"............\"", GetGlobalFlag(GLinemodeSp));
@@ -538,7 +538,7 @@ void main()
 
 
 //「大丈夫だッつってんだらぁ？＠　囲み上等だよ！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryob44004", 256, TRUE);
 	OutputLine(NULL, "「大丈夫だッつってんだらぁ？！",
 		   NULL, "\"It's fine, innit!?", Line_Continue);
@@ -579,7 +579,7 @@ void main()
 
 
 //「...き、...汚ぇえぇえぇ...！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryob44005", 256, TRUE);
 	OutputLine(NULL, "「…き、…汚ぇえぇえぇ…！！」",
 		   NULL, "\"...You... that's fuckin' dirty...!!\"", GetGlobalFlag(GLinemodeSp));
@@ -729,7 +729,7 @@ void main()
 
 
 //「いいよ、俺たちもう行くから＠こんなとこにいつまでもいたくねぇよ！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryoa44006", 256, TRUE);
 	OutputLine(NULL, "「いいよ、俺たちもう行くから。",
 		   NULL, "\"Nah, thanks, we's leavin'.", Line_Continue);
@@ -757,7 +757,7 @@ void main()
 	ClearMessage();
 
 //「...な、...なんだよ！＠　俺たちが何かしたかよッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/huryob44006", 256, TRUE);
 	OutputLine(NULL, "「…な、…なんだよ！！",
 		   NULL, "\"...Wha... What?!!", Line_Continue);

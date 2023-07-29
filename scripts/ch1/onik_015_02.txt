@@ -4617,7 +4617,7 @@ void main()
 	PlaySE( 4, "wa_027", 56, 64 );
 
 //「いたぞ！！　裏口だ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/inu02001", 256, TRUE);
 	OutputLine(NULL, "「いたぞ！！　裏口だ！！」",
 		   NULL, "\"There he is!! The back door!!\"", GetGlobalFlag(GLinemodeSp));

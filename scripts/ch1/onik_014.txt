@@ -346,7 +346,7 @@ void main()
 
 
 //「…あぁら圭一くん＠今朝は早いわねぇ。みんなで早朝から待ち合わせ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villaa02009", 256, TRUE);
 	OutputLine(NULL, "「…あぁら圭一くん。",
 		   NULL, "\"...Myyy, Keiichi-kun.", Line_WaitForInput);
@@ -393,7 +393,7 @@ void main()
 	ClearMessage();
 
 //「レナちゃんや魅音ちゃんはどうしたんだい＠　今日はひとりなの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villaa02011", 256, TRUE);
 	OutputLine(NULL, "「レナちゃんや魅音ちゃんはどうしたんだい？",
 		   NULL, "\"What about Rena-chan and Mion-chan?", Line_WaitForInput);

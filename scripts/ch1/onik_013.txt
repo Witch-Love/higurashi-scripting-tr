@@ -990,7 +990,7 @@ void main()
 
 
 //「あぁれ、圭一ちゃんにレナちゃん、今日はちょっと遅いんじゃないの～＠　魅音ちゃん、先に行くって言ってたわよー？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villaa02007", 256, TRUE);
 	OutputLine(NULL, "「あぁれ、圭一ちゃんにレナちゃん、今日はちょっと遅いんじゃないの〜？",
 		   NULL, "\"Oh, my! Keiichi-chan and Rena-chan, aren't you two a bit late today~?", Line_WaitForInput);

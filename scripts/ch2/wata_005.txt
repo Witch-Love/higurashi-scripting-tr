@@ -859,7 +859,7 @@ void main()
 	ClearMessage();
 
 //「あ、あんた...当選者なのか？＠　チケットを持ってるのか？！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/manz50001", 256, TRUE);
 	OutputLine(NULL, "「あ、あんた…当選者なのか？！",
 		   NULL, "\"A-Are you... a participant!?", Line_WaitForInput);
@@ -979,7 +979,7 @@ void main()
 	ClearMessage();
 
 //「な、なんて身軽なヤツ！＠　取り押さえろー！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/manz50003", 256, TRUE);
 	OutputLine(NULL, "「な、なんて身軽なヤツ！！",
 		   NULL, "\"W-What a heartless dick!!", Line_WaitForInput);
@@ -1032,7 +1032,7 @@ void main()
 	ClearMessage();
 
 //「いらっしゃいませ＠エンジェルモートへようこそいらっしゃいました＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50004", 256, TRUE);
 	OutputLine(NULL, "「いらっしゃいませ。",
 		   NULL, "\"Good afternoon.", Line_WaitForInput);
@@ -1043,7 +1043,7 @@ void main()
 
 
 //　本日はデザートフェスタにつき、チケットのお客様のみの貸切になっております＠チケットとご芳名をお伺いしてもよろしいでしょうか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50006", 256, TRUE);
 	OutputLine(NULL, "　本日はデザートフェスタにつき、チケットのお客様のみの貸切になっております。",
 		   NULL, "Due to today's Dessert Festa, the restaurant is reserved for customers who won the draw.", Line_WaitForInput);
@@ -1064,7 +1064,7 @@ void main()
 	ClearMessage();
 
 //「前原...!w700前原＠...あった＠...失礼ですがフルネームでお伺いしてよろしいですか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50008", 256, TRUE);
 	OutputLine(NULL, "「前原…",
 		   NULL, "\"Maebara...", Line_Continue);
@@ -1096,7 +1096,7 @@ void main()
 
 
 //「大変失礼いたしました＠特別招待の前原圭一さまですね＠お席へご案内いたします＠どうぞこちらへ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50011", 256, TRUE);
 	OutputLine(NULL, "「大変失礼いたしました。",
 		   NULL, "\"My apologies for the inconvenience.", Line_WaitForInput);
@@ -1384,7 +1384,7 @@ void main()
 	DrawSceneWithMask("background/res2", "left", 0, 0, 1300 );
 
 //「お待たせしました～＠次のデザートは『南国風シナモンのアバンチュール』でございます。......＠　どうかなさいましたか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50001", 256, TRUE);
 	OutputLine(NULL, "「お待たせしました〜。",
 		   NULL, "\"Sorry to keep you waiting~.", Line_WaitForInput);
@@ -1422,7 +1422,7 @@ void main()
 	ClearMessage();
 
 //「うちのお店、その道の方々にはかなり有名らしいんです＠まぁ、そういう狙いのお店ですからイイんですけどね＠...でもイベントの日のお客様はちょっと濃い目の方が多いんで、困っちゃいます☆＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50004", 256, TRUE);
 	OutputLine(NULL, "「うちのお店、その道の方々にはかなり有名らしいんです。",
 		   NULL, "\"Our restaurant is pretty famous in their circles.", Line_WaitForInput);
@@ -1442,7 +1442,7 @@ void main()
 	ClearMessage();
 
 //「なんかお客の人たちも血走ってて...ハイエナみたいですよね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50007", 256, TRUE);
 	OutputLine(NULL, "「なんかお客の人たちも血走ってて…ハイエナみたいですよね。」",
 		   NULL, "\"The customers seem rather riled up... almost like a pack of hyenas.\"", GetGlobalFlag(GLinemodeSp));
@@ -1450,14 +1450,14 @@ void main()
 
 
 //「今日のお客さんのほとんどはかなり遠方から無理して来てるみたいですからね＠......そういう方々ってハメを外し易いんでちょっと怖いんです＠ちゃんとガードを固めておかないと大変なんですから。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50008", 256, TRUE);
 	OutputLine(NULL, "「今日のお客さんのほとんどはかなり遠方から無理して来てるみたいですからね。",
 		   NULL, "\"Seems a lot of the customers today came from unreasonably far away.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50009", 256, TRUE);
 	OutputLine(NULL, "……そういう方々ってハメを外し易いんでちょっと怖いんです。",
 		   NULL, " ...Those types of people are fairly prone to losing their self-control, so it's a little scary. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50010", 256, TRUE);
 	OutputLine(NULL, "ちゃんとガードを固めておかないと大変なんですから。」",
 		   NULL, "If you don't keep your guard up, something bad can happen.\"", Line_Normal);
@@ -1652,7 +1652,7 @@ void main()
 	DrawSceneWithMask("background/res2", "right", 0, 0, 300 );
 
 //「...園崎さん、足を引っ掛けられたんですね＠ああやってわざと衣服を汚させて絡んでくるお客が最近多いんですよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50011", 256, TRUE);
 	OutputLine(NULL, "「…園崎さん、足を引っ掛けられたんですね。",
 		   NULL, "\"...Sonozaki-san was tripped.", Line_WaitForInput);
@@ -1680,11 +1680,11 @@ void main()
 	ClearMessage();
 
 //「メインの女の子は充分気をつけてますから絶対あぁはならないんですけど...、園崎さんは短期バイトだからまだガードが甘くて＠...今日のお客様たちにも早々に見破られちゃったみたいで...朝からあんな感じで絡まれてるんです。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50013", 256, TRUE);
 	OutputLine(NULL, "「メインの女の子は充分気をつけてますから絶対あぁはならないんですけど…、園崎さんは短期バイトだからまだガードが甘くて。",
 		   NULL, "\"The regular girls are careful about it, so they definitely won't end up like that... but Sonozaki-san is only a seasonal hire, so she had her guard down. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitb50014", 256, TRUE);
 	OutputLine(NULL, "…今日のお客様たちにも早々に見破られちゃったみたいで…朝からあんな感じで絡まれてるんです。」",
 		   NULL, "...The customers today could easily pick up on that... so she's been targeted since this morning.\"", GetGlobalFlag(GLinemodeSp));
@@ -2361,7 +2361,7 @@ void main()
 	PlayBGM( 1, "msysMi", 56, 0 );
 
 //「怪我しなくてよかったですね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50015", 256, TRUE);
 	OutputLine(NULL, "「怪我しなくてよかったですね。」",
 		   NULL, "\"Thankfully you weren't injured.\"", GetGlobalFlag(GLinemodeSp));
@@ -2435,7 +2435,7 @@ void main()
 	ClearMessage();
 
 //「園崎さん、Ｒ入っててもいいですよ＠あと１～２時間でしょう？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50016", 256, TRUE);
 	OutputLine(NULL, "「園崎さん、Ｒ入っててもいいですよ。",
 		   NULL, "\"Sonozaki-san, you can take your break now.", Line_WaitForInput);
@@ -2526,7 +2526,7 @@ void main()
 
 
 //「電話ですか＠　レジ横にございますよ＠ご案内いたします。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50018", 256, TRUE);
 	OutputLine(NULL, "「電話ですか？",
 		   NULL, "\"The phone?", Line_WaitForInput);
@@ -2586,7 +2586,7 @@ void main()
 
 
 //「えぇ、そうですけど...＠一応、名簿に書きますので、お名前を伺ってもよろしいですか？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50021", 256, TRUE);
 	OutputLine(NULL, "「えぇ、そうですけど…。",
 		   NULL, "\"Yes, that's fine...", Line_WaitForInput);
@@ -2683,7 +2683,7 @@ void main()
 
 
 //「かしこまりました。承ります。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50023", 256, TRUE);
 	OutputLine(NULL, "「かしこまりました。承ります。」",
 		   NULL, "\"Understood. I'll do that.\"", GetGlobalFlag(GLinemodeSp));
@@ -3367,7 +3367,7 @@ void main()
 	DrawScene("background/res1", 200 );
 
 //「園崎さ～ん、７番テーブルにDXパフェを５つお願いします～！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50024", 256, TRUE);
 	OutputLine(NULL, "「園崎さ〜ん、７番テーブルにDXパフェを５つお願いします〜！」",
 		   NULL, "\"Sonozaki-sa~n, five Deluxe Parfaits for table seven~!\"", GetGlobalFlag(GLinemodeSp));
@@ -3838,7 +3838,7 @@ void main()
 
 //＜詩音＜あたふたした感じで
 //「まーまー＠　園崎さん、いいからいいから彼女に任せておいて＠　それよりもこのオーダー、全部一度に行くからお願いね！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50025", 256, TRUE);
 	OutputLine(NULL, "「まーまー☆",
 		   NULL, "\"Now, now☆.", Line_WaitForInput);
@@ -4308,7 +4308,7 @@ void main()
 	ShakeScreen( 1, 50, 20, 6, 0, );
 
 //「「「のわぁあぁあああぁああぁあッ...？！？！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>オタクたち</color>", NULL, "<color=#f5e6d3>Otakus</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>オタクたち</color>", NULL, "<color=#f5e6d3>Otakular</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/hr_otk00000_abc", 256, TRUE);
 	OutputLine(NULL, "「「「のわぁあぁあああぁああぁあッ…？！？！」」」",
 		   NULL, "\"\"\"Nnnnwaaaaaaaaaaah!?!?\"\"\"", GetGlobalFlag(GLinemodeSp));
@@ -4669,7 +4669,7 @@ void main()
 	ClearMessage();
 
 //「本日はご来店、誠にありがとうございました～☆＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waitall50001", 256, TRUE);
 	OutputLine(NULL, "「本日はご来店、誠にありがとうございました〜☆」",
 		   NULL, "\"Thank you very much for coming~☆\"", GetGlobalFlag(GLinemodeSp));
@@ -4769,7 +4769,7 @@ void main()
 
 
 //「素敵な友人に恵まれたわね。園崎さん。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50028", 256, TRUE);
 	OutputLine(NULL, "「素敵な友人に恵まれたわね。園崎さん。」",
 		   NULL, "\"You're blessed to have such wonderful friends, Sonozaki-san.\"", GetGlobalFlag(GLinemodeSp));
@@ -4839,7 +4839,7 @@ void main()
 	ClearMessage();
 
 //「わかってると思いますけど、園崎さん、とても感謝してますよ＠私もホールを代表して感謝いたします。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/waita50029", 256, TRUE);
 	OutputLine(NULL, "「わかってると思いますけど、園崎さん、とても感謝してますよ。",
 		   NULL, "\"I think you know this already, but Sonozaki-san is very grateful.", Line_WaitForInput);
@@ -7027,7 +7027,7 @@ void main()
 ////print 42
 
 //「今日はみんな、本当にありがとう＠お陰でイベントは大盛り上がりだったよ～＠　大したものじゃないけど、これ、今日のお駄賃に～。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Master</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>マスター</color>", NULL, "<color=#f5e6d3>Yönetici</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/mas99004", 256, TRUE);
 	OutputLine(NULL, "「今日はみんな、本当にありがとう。",
 		   NULL, "\"Thank you very much for today, everyone.", Line_WaitForInput);

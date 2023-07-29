@@ -617,7 +617,7 @@ void main()
 	PlayBGM( 1, "msys01", 56, 0 );
 
 //「「「お疲れさまでした～～～ッ！！！！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Herkes</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300314", 256, TRUE);
 	ModPlayVoiceLS(5, 6, "ps3/s20/06/440600075", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s20/04/440400178", 256, TRUE);

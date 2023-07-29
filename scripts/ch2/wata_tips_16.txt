@@ -69,7 +69,7 @@ void main()
 
 
 //「どうだい＠　ダメ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kimif44001", 256, TRUE);
 	OutputLine(NULL, "「どうだい？",
 		   NULL, "\"So?", Line_Continue);
@@ -92,7 +92,7 @@ void main()
 
 
 //「囲碁の人の家は全部、電話したんでしょ？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kimif44002", 256, TRUE);
 	OutputLine(NULL, "「囲碁の人の家は全部、電話したんでしょ？」",
 		   NULL, "\"You called everyone he plays Go with, didn't you?\"", Line_Normal);

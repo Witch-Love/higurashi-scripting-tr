@@ -1671,7 +1671,7 @@ void main()
 
 
 //「あら、圭一くん＠　お母さまはいらっしゃいますかしら。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villd02001", 256, TRUE);
 	OutputLine(NULL, "「あら、圭一くん？",
 		   NULL, "\"Oh, is this Keiichi-kun?", Line_WaitForInput);
@@ -1725,7 +1725,7 @@ void main()
 	ClearMessage();
 
 //「なら結構です＠大した話でもありませんから...＠では、失礼しますわね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villd02003", 256, TRUE);
 	OutputLine(NULL, "「なら結構です。",
 		   NULL, "\"Then that's fine.", Line_WaitForInput);

@@ -18,7 +18,7 @@ void main()
 
 //「興宮ＳＴより、３号どうぞ＠３号どうぞ。＠
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PK</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps2/00/keijic44001", 540, TRUE);
 	OutputLine(NULL, "「興宮ＳＴより、３号どうぞ。",
 		   NULL, "\"This is Okinomiya Station, calling Unit 3.", Line_Continue);
@@ -40,7 +40,7 @@ void main()
 	ClearMessage();
 
 //「応援が向かいました＠別命あるまで維持で願いします＠どうぞー。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PK</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/keijic44002", 256, TRUE);
 	OutputLine(NULL, "「応援が向かいました。",
 		   NULL, "\"Back-up is heading your way.", Line_Continue);
@@ -62,7 +62,7 @@ void main()
 	ClearMessage();
 
 //「それから回転灯は付けないでお願いします＠静か静かで願います。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PK</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/keijic44004", 256, TRUE);
 	OutputLine(NULL, "「それから回転灯は付けないでお願いします。",
 		   NULL, "\"Requesting no headlights.", Line_Continue);
@@ -87,7 +87,7 @@ void main()
 	ClearMessage();
 
 //「了解しました＠先生に任せてください。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PK</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/keijic44005", 256, TRUE);
 	OutputLine(NULL, "「了解しました。",
 		   NULL, "\"Acknowledged.", Line_Continue);

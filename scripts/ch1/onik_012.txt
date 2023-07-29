@@ -509,7 +509,7 @@ void main()
 
 
 //「前原さん。診察室へどうぞ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Nurse</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>看護師</color>", NULL, "<color=#f5e6d3>Hemşire</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/nur02001", 256, TRUE);
 	OutputLine(NULL, "「前原さん。診察室へどうぞ。」",
 		   NULL, "\"Maebara-san, please make your way to the examination room.\"", Line_Normal);
@@ -573,7 +573,7 @@ void main()
 
 
 //「………やっぱり鬼隠しかいね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villa02001", 256, TRUE);
 	OutputLine(NULL, "「………やっぱり鬼隠しかいね。」",
 		   NULL, "\"...must have been an Onikakushi.\"", GetGlobalFlag(GLinemodeSp));
@@ -583,7 +583,7 @@ void main()
 
 
 //「どうかね＠まだまだ若い子だきゃあ＠駆け落ちかも知られへん。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villb02001", 256, TRUE);
 	OutputLine(NULL, "「どうかね。",
 		   NULL, "\"I wonder...", Line_WaitForInput);
@@ -599,7 +599,7 @@ void main()
 
 
 //「どこの誰とよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villc02001", 256, TRUE);
 	OutputLine(NULL, "「どこの誰とよ。」",
 		   NULL, "\"With whom?\"", GetGlobalFlag(GLinemodeSp));
@@ -609,7 +609,7 @@ void main()
 
 
 //「季節の度に東京モンが来ちょったろ＠でっけえカメラ持った若者が＠あれと仲が良きゃったって話、知られへんの？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villb02004", 256, TRUE);
 	OutputLine(NULL, "「季節の度に東京モンが来ちょったろ。",
 		   NULL, "\"That man from Tokyo who visits every season.", Line_WaitForInput);
@@ -641,7 +641,7 @@ void main()
 
 
 //「そら知らんけど…＠でも…普通、駆け落ちっても仁義あるだろ＠書置きとか、辞表とか書かんかいね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villa02002", 256, TRUE);
 	OutputLine(NULL, "「そら知らんけど…。",
 		   NULL, "\"I don't know about that...", Line_WaitForInput);
@@ -657,7 +657,7 @@ void main()
 
 
 //「すったらん書かんから駆け落ち言うんね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villb02007", 256, TRUE);
 	OutputLine(NULL, "「すったらん書かんから駆け落ち言うんね。」",
 		   NULL, "\"It's an elopement because they didn't leave a note or message.\"", GetGlobalFlag(GLinemodeSp));
@@ -667,7 +667,7 @@ void main()
 
 
 //「…若きゃあ看護婦さんの顔、見られんようなるんは寂しいんねぇ…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villc02002", 256, TRUE);
 	OutputLine(NULL, "「…若きゃあ看護師さんの顔、見られんようなるんは寂しいんねぇ…。」",
 		   NULL, "\"...The thought that I'll never see that young nurse's face again makes me rather sad...\"", GetGlobalFlag(GLinemodeSp));
@@ -678,7 +678,7 @@ void main()
 
 
 //「鷹野さんはしっかり者よ＠…どこへ行ってもやって行けるん。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Villager</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Köylü</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/villa02005", 256, TRUE);
 	OutputLine(NULL, "「鷹野さんはしっかり者よ。",
 		   NULL, "\"Takano-san is an upstanding young woman.", Line_WaitForInput);
@@ -1189,7 +1189,7 @@ void main()
 
 
 //「こちらへどうぞ＠ご注文がお決まりになりましたらお呼び下さい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Waitress</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Garson Kız</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s01/00/waita2001", 256, TRUE);
 	OutputLine(NULL, "「こちらへどうぞ。",
 		   NULL, "\"This way, please.", Line_WaitForInput);

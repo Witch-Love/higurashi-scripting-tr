@@ -59,7 +59,7 @@ void main()
 
 
 //「みんな、お疲れさん＠　綿流しはいよいよ明日だからなぁ＠今夜は早めに眠って体力を蓄えておいてくれよ！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijib44001", 256, TRUE);
 	OutputLine(NULL, "「みんな、お疲れさん！",
 		   NULL, "\"Good work, everyone!", Line_Continue);
@@ -103,7 +103,7 @@ void main()
 
 
 //「そりゃあ決まってるだろ＠　全部終わった後のビールがうまいからだよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Dedektif</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijib44003", 256, TRUE);
 	OutputLine(NULL, "「そりゃあ決まってるだろ！",
 		   NULL, "\"You sure as hell know why!", Line_Continue);
@@ -172,7 +172,7 @@ void main()
 
 
 //「「「お疲れさまです！！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Detectives</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Dedektifler</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442500005", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s20/00/keijib44004", 256, TRUE);
 	ModPlayVoiceLS(6, 19, "ps3/s20/19/443100012", 256, TRUE);
@@ -256,7 +256,7 @@ void main()
 
 
 //「「「ぅおっす！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Detectives</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Dedektifler</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442500006", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s20/00/keijib44005", 256, TRUE);
 	ModPlayVoiceLS(6, 19, "ps3/s20/19/443100013", 256, TRUE);
@@ -327,7 +327,7 @@ void main()
 	//VoiceMatchingEnd
 
 //「「「うおぉぉおおぉおぉすッッ！！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Detectives</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事たち</color>", NULL, "<color=#f5e6d3>Dedektifler</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442500007", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s20/00/keijib44006", 256, TRUE);
 	ModPlayVoiceLS(6, 19, "ps3/s20/19/443100014", 256, TRUE);

@@ -630,7 +630,7 @@ void main()
 	ClearMessage();
 
 //「む、前原くんであるか。関心である！＠　綿流しの準備の手伝いに来たのかね？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200023", 256, TRUE);
 	OutputLine(NULL, "「む、前原くんであるか。関心である！！",
 		   NULL, "\"Hm! If it isn't Maebara-kun. Interesting!!", Line_WaitForInput);
@@ -652,7 +652,7 @@ void main()
 
 
 //「殊勝な心掛けである！＠　存分に汗を流すがよいぞ＠　がっはっはっは！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Principal</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Müdür</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/503200025", 256, TRUE);
 	OutputLine(NULL, "「殊勝な心掛けである！！",
 		   NULL, "\"How commendable your attitude is!!", Line_WaitForInput);
@@ -673,7 +673,7 @@ void main()
 	ClearMessage();
 
 //「ありゃー、前原の兄ちゃんじゃねえの＠ひょっとして、手伝いに来たのかい？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50001", 256, TRUE);
 	OutputLine(NULL, "「ありゃー、前原の兄ちゃんじゃねえの。",
 		   NULL, "\"Oh, what's this? It's Maebara-chan.", Line_WaitForInput);
@@ -704,7 +704,7 @@ void main()
 
 
 //「若いのは元気があっていいね～＠　おら、軍手付けて＠テントは組んだことあるかい？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50003", 256, TRUE);
 	OutputLine(NULL, "「若いのは元気があっていいね〜！",
 		   NULL, "\"You young ones have all the vitality~!", Line_WaitForInput);
@@ -735,7 +735,7 @@ void main()
 	DrawSceneWithMask("background/ji6", "right", 0, 0, 1300 );
 
 //「じゃ、兄ちゃんは天幕の内側に入って天骨のヒモだけ結んで＠結んだら脚を立てて、残りのヒモも結ぶからな！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50006", 256, TRUE);
 	OutputLine(NULL, "「じゃ、兄ちゃんは天幕の内側に入って天骨のヒモだけ結んで。",
 		   NULL, "\"Okay, kid, go inside the tent and tie up just the cords for the top.", Line_WaitForInput);
@@ -757,7 +757,7 @@ void main()
 
 
 //「結んだかぁー＠　立てるぞー！＠　いっせーのぉ！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50008", 256, TRUE);
 	OutputLine(NULL, "「結んだかぁー？",
 		   NULL, "\"All done?", Line_WaitForInput);
@@ -780,7 +780,7 @@ void main()
 	ClearMessage();
 
 //「ほれほれ、感動してる場合じゃないぞ！＠　まだまだたくさんあるんだからなぁ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50011", 256, TRUE);
 	OutputLine(NULL, "「ほれほれ、感動してる場合じゃないぞ！！",
 		   NULL, "\"Come on, no time to stare in wonder!!", Line_WaitForInput);
@@ -791,7 +791,7 @@ void main()
 
 
 //「トラックにテントを積んであるからここまで持ってきな＠重いから二人でやれよ！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50013", 256, TRUE);
 	OutputLine(NULL, "「トラックにテントを積んであるからここまで持ってきな。",
 		   NULL, "\"We packed the tents into the truck, so go get them from there.", Line_WaitForInput);
@@ -823,7 +823,7 @@ void main()
 	ClearMessage();
 
 //「だぁから二人で運べって言ったろー？＠　ほれほれ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50015", 256, TRUE);
 	OutputLine(NULL, "「だぁから二人で運べって言ったろー？！",
 		   NULL, "\"That's why I told you to have someone help!!", Line_WaitForInput);
@@ -847,7 +847,7 @@ void main()
 	ClearMessage();
 
 //「ほら、一番若いんだから汗しないとダメだぞー！＠　がんばれがんばれ！＠　終わったあとのビールがうまいぞ～！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50017", 256, TRUE);
 	OutputLine(NULL, "「ほら、一番若いんだから汗しないとダメだぞー！！",
 		   NULL, "\"Let's go! You're the youngest one here, so we're going to make you sweat for it!!", Line_WaitForInput);
@@ -886,7 +886,7 @@ void main()
 	DrawScene("background/ji6", 1000 );
 
 //「若いからねぇ＠たーんとお飲み。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Senior</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Yaşlı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/elda50001", 256, TRUE);
 	OutputLine(NULL, "「若いからねぇ。",
 		   NULL, "\"You're so young.", Line_WaitForInput);
@@ -961,7 +961,7 @@ void main()
 	DrawSceneWithMask("background/ji6", "left", 0, 0, 300 );
 
 //「梨花ちゃまも頑張るなぁ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Senior</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Yaşlı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/elda50003", 256, TRUE);
 	OutputLine(NULL, "「梨花ちゃまも頑張るなぁ。」",
 		   NULL, "\"Rika-chama is doing a great job.\"", GetGlobalFlag(GLinemodeSp));
@@ -969,7 +969,7 @@ void main()
 
 
 //「去年に比べるとだいぶ板についてきたみたいだしなぁー！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Senior</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Yaşlı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/elda50004", 256, TRUE);
 	OutputLine(NULL, "「去年に比べるとだいぶ板についてきたみたいだしなぁー！」",
 		   NULL, "\"She seems far more used to this than she did last year!\"", GetGlobalFlag(GLinemodeSp));
@@ -984,7 +984,7 @@ void main()
 
 
 //「梨花さまぁ～、ありがたやありがたや...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Senior</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Yaşlı</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/elda50005", 256, TRUE);
 	OutputLine(NULL, "「梨花さまぁ〜、ありがたやありがたや…。」",
 		   NULL, "\"Rika-samaaa~, we thank you, we thank you...\"", GetGlobalFlag(GLinemodeSp));
@@ -1020,7 +1020,7 @@ void main()
 	ClearMessage();
 
 //「そうだよ＠梨花ちゃまの古手一族は代々オヤシロさまをお祀りする由緒正しい一族なんだよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/oldb50001", 256, TRUE);
 	OutputLine(NULL, "「そうだよ。",
 		   NULL, "\"That's right.", Line_WaitForInput);
@@ -1039,7 +1039,7 @@ void main()
 	ClearMessage();
 
 //「一昨年、神主さまだったお父さんが亡くなられてからは、ああやってがんばって祭事を引き継いでおるんだよ＠...この立派になった姿、神主さまに見せたかったのぅ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/oldb50003", 256, TRUE);
 	OutputLine(NULL, "「一昨年、神主さまだったお父さんが亡くなられてからは、ああやってがんばって祭事を引き継いでおるんだよ。",
 		   NULL, "\"After her father, who was the shrine priest, died the year before last, she's really been doing her best to learn the rituals.", Line_WaitForInput);
@@ -1060,7 +1060,7 @@ void main()
 	ClearMessage();
 
 //「よぅし！　休憩終わり＠次は使わないパイプイスを興小の体育館に戻しちゃおっか＠牧さん、軽を回して何人か連れてってよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/olda50020", 256, TRUE);
 	OutputLine(NULL, "「よぅし！　休憩終わり。",
 		   NULL, "\"Okay! Break time is over.", Line_WaitForInput);
@@ -1074,7 +1074,7 @@ void main()
 
 
 //「んじゃ前原くん、最後にもう一働きしよぅか！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Adam</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/oldb50005", 256, TRUE);
 	OutputLine(NULL, "「んじゃ前原くん、最後にもう一働きしよぅか！」",
 		   NULL, "\"All right, Maebara-kun, let's get to work on one last job!\"", GetGlobalFlag(GLinemodeSp));
@@ -1604,7 +1604,7 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「こんばんは＠......あら、詩音ちゃん＠　珍しいわね、こっちへ来るなんて。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s19/09/500900001", 256, TRUE);
 	OutputLine(NULL, "「こんばんは。",
 		   NULL, "\"Good evening.", Line_WaitForInput);
@@ -1694,7 +1694,7 @@ void main()
 	ModDrawCharacterWithFiltering(1, 9, "sprite/ta1_def_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「じゃあ私はわかるかしら...？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Kadın</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1000", 256, TRUE);
 	OutputLine(NULL, "「じゃあ私はわかるかしら…？」",
 		   NULL, "\"Then do you recognize me...?\"", GetGlobalFlag(GLinemodeSp));
