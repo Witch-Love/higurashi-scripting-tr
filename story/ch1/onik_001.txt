@@ -334,14 +334,14 @@
 `"Ama... sadece bir süreliğine... olur mu?`
 ` Olur mu?"`
 `Ağzından çılgınca fikirler dökülürken bile Rena sevimli yüz ifadesini korudu...`
-`Mion'a göre... Rena sevimli şeylere karşı gülünç derecede zaaflı ve her zaman onları eve götürmeye çalışır.`
-`Nesne ya da insan...!`
+`Mion'a göre... Rena sevimli şeylere karşı gülünç derecede zaaflıdır ve her zaman onları eve götürmeye çalışır.`
+`Nesne ya da insan fark etmez...!`
 `"Çalmak kötüdür, ama insan kaçırmak daha da kötüdür.`
 ` Vazgeç."`
 `"O zaman sadece bakabilirim. Sadece bakmak...`
 ` Bu uygun olmalı, değil mi? Değil mi?"`
 `Rena, Satoko'nun ağlayan halini görünce yine kendinden geçti.`
-`Hinamizawa'da bir kız kaybolursa, Rena'yı yetkililere ihbar etmek zorunda kalacağım.`
+`Hinamizawa'da bir kız bile kaybolursa, Rena'yı yetkililere ihbar etmek zorunda kalacağım.`
 `Affet beni, Rena.`
 `Seni hapse attıklarında sana erzak getireceğimden emin olabilirsin!`
 `"Öğretmen geliyor.`
@@ -385,7 +385,7 @@
 `"...N-Ne...`
 ` Çok teşekkür ederim..."`
 `"Özellikle sana, Rena.`
-` Özel dersler... sadece ikimiz."`
+` Özel dersler... başbaşa."`
 `"...Öz-`
 ` ...Özel...de-`
 ` dersler..."`
