@@ -21,14 +21,14 @@
 `Eksiksiz, mükemmel, ideal bir kahvaltı.`
 `"Plan" kelimesinin anlamını bile bilmeyen babamın aksine, annem ne zamanını ne de emeğini asla boşa harcamazdı.`
 `Miso çorbasını getirirken küçük bir melodi mırıldandı. Bugün keyfi yerinde gibiydi.`
-`"Buraya taşındığımızdan beri erken kalkmana çok sevindim Keiichi."`
-`"Eğer erken kalkmazsam, senin erken kahvaltılarına yetişemiyorum!"`
+`"Buraya taşındığımızdan beri erken kalkıyor olmana çok sevindim Keiichi."`
+`"Eğer erken kalkmazsam, senin erken kahvaltılarına yetişemem!"`
 `İyi olduğum için övüldükten sonra ukalaca bir cevap vererek şirin olduğumu sanıyordum.`
 `"Tepeleme pilav mı? Yoksa yarısı yeterli olur mu?"`
 `"Alabildiği kadar."`
 `Önce yosunla birlikte dumanı tüten pilavın tadını çıkardım.`
-` Sonra da onu yumurtayla kapladım.`
-`Pilav ısırıkları arasında turşuların çıtırtısının keyfini çıkardım.`
+` Sonra da üstünü yumurtayla kapladım.`
+`Pilav lokmaları arasında turşuların çıtırtısının keyfini çıkardım.`
 `Hiç de fena değil.`
 ` Her zamanki gibi mükemmeldi.`
 `Tabağımı temizlerken annem bana sıcak bir şekilde gülümsedi.`
@@ -37,33 +37,33 @@
 `Okul başlamadan önceki son dakikaya kadar uyurdum ve nadiren kahvaltı ederdim.`
 `Annemin her sabah bana hazırladığı kahvaltıyı boykot etmek... muhtemelen dershaneye gitmeye zorlanmamı protesto edebilmemin tek yoluydu.`
 `...Sanırım bu benim asilik dönemim diyebileceğiniz bir şeydi.`
-`Her gün erkenden kalkıp hazırladığı kahvaltıya bakmazdım bile.`
+`Onun her gün erkenden kalkıp hazırladığı kahvaltıya bakmazdım bile.`
 `Zamanda geriye gidebilseydim, kendimi tokatlardım.`
-`Saatin farkında olan annem, genişçe sırıtarak beni koşturdu.`
+`Saatin farkında olan annem, genişçe sırıtarak beni itekledi.`
 `"Rena-chan ile buluşma vakti gelmedi mi?`
-` Çabuk, çabuk."`
-`Annem, oğlunun okula bir kızla yürümesinden gerçekten hoşlanıyor gibiydi.`
+` Hadi, hadi."`
+`Annem, oğlunun bir kızla okula yürümesinden gerçekten hoşlanıyor gibiydi.`
 `Rena benim sınıf arkadaşlarımdan biri.`
-`İnsanlarla ilgilenmeyi gerçekten çok seviyor, her gün mutlaka benimle buluşmaya geliyor.`
+`İnsanlarla ilgilenmeyi gerçekten çok sever, her gün mutlaka benimle buluşmaya gelirdi.`
 `Bana kalırsa, benim yaşımda bir erkeğin bir kızla okula yürümesi çok aptalcaydı...`
 `Ama bir sınıf arkadaşımı her gün bekletmek de pek düşünceli bir davranış olmazdı.`
 `...Cidden, Rena her sabah beni orada ne kadar bekliyor...?`
 `Miso çorbasından son bir yudum alarak kapıya doğru koştum.`
-`"Lütfen Rena-chan'a turşular için teşekkür et~!"`
+`"Lütfen Rena-chan'a turşu için teşekkür et~!"`
 `Düşündüm de, o turşular marketten alınmamıştı, değil mi?`
-`...Bunu bilseydim, biraz daha tadını çıkarırdım!`
+`...Bunun farkında olsaydım, biraz daha tadını çıkarırdım!`
 `"Günaydın!"`
 `"Keiichi-kun~!`
 ` Günaydın~!"`
 `Neşeli selamlaması sabahın kendisi kadar ferahtı.`
 `"Her zaman çok erkencisin.`
 ` Bir ara uyumayı denemelisin."`
-`"Eğer uyursam, seni bekletirim."`
+`"Eğer uyursam, seni bekletmiş olurum."`
 `...Çok duyarlı ve çok iyi bir insan.`
-`"Eğer öyle bir şey olursa, seni geride bırakırım."`
+`"Eğer öyle bir şey olursa, seni beklemeden yürürüm."`
 `"Keiichi-kun, çok soğuksun.`
 ` Her zaman seni bekliyorum..."`
-`"Seni toz içinde bırakacağım.`
+`"Tozu dumana katıp gideceğim.`
 ` Arkama bile bakmadan."`
 `"Neden bu kadar acımasızsın?`
 ` ...Neden?"`
@@ -78,9 +78,9 @@
 `"...Ah-ah, ah...`
 ` ...So...`
 ` Sonsuza kadar..."`
-`Rena kıpkırmızı oldu, beyni kısa devre yaparken kafasından buharlar yükseliyordu.`
+`Rena kıpkırmızı oldu, beyni kısa devre yaparken kafasından buharlar çıkıyordu.`
 `Bu tür konuşmalara karşı özellikle zaaflı.`
-`Uğraşması kadar eğlenceli birini bulmak oldukça nadirdir.`
+`Uğraşması bu kadar eğlenceli birini bulmak oldukça nadirdir.`
 `"Hiç aşk romanı okudun mu, Rena...?"`
 `"...Hı...`
 ` ...Ah ...Okumadım.`
@@ -88,7 +88,7 @@
 `Bu yanıttan anladığım kadarıyla onlarla ilgileniyordu ama gidip satın almaya utanıyordu.`
 `Okuduğunda ne olacağını hayal bile edemiyordum.`
 `Muhtemelen kıpkırmızı olur ve bayılırdı.`
-`"Ah, evet, annemden mesaj var. Turşular için teşekkür ediyor."`
+`"Ah, evet, annemden mesaj var. Turşu için teşekkür ediyor."`
 `"Ö-Önemli bir şey değildi. Rica ederim~.`
 ` Nasıldı?`
 ` Çok tuzlu değildi, değil mi?"`
@@ -121,7 +121,7 @@
 ` Tamamen kendinden geçmişti.`
 `Onu tahrik etmek gerçekten çok eğlenceliydi.`
 `Rena'nın bir serseri tarafından istismar edilmemesi için dua ediyorum.`
-`Böyle devam et, Rena. Sıradan bir insan gibi davranana kadar seni eğiteceğim!`
+`Böyle devam et, Rena. Sıradan bir insan gibi karşılayana kadar seni eğiteceğim!`
 ` ...Ya da ben kendim için öyle karar vermiştim.`
 `"Hadi gidelim! Mion'u bekletirsek, susmak bilmeyecek."`
 `Aksi takdirde dalgın dalgın takılmaya devam edeceğini görünce, Rena'yı kendine getirdim, böylece okula doğru ilerleyebilirdik.`
@@ -149,7 +149,7 @@
 ` Şaşıracaksın."`
 `"Yalnızca büyümekle de kalmadı, artık ufak bir bıyığı da var~☆"`
 `"Her sabah bu denli enerjiyle *taşıyor* olmak gerçekten büyük bir sorun.`
-` Gelecek sefere seni tanıştıracağım, bu yüzden onunla düzgünce selamlaşacağından emin ol."`
+` Gelecek sefere sizi tanıştıracağım, bu yüzden onunla düzgünce selamlaştığından emin ol."`
 `"'Gelecek sefer' deme. Şu an gayet iyi.`
 ` Ufaklığın ferah sabah havasını almasına izin vermeye ne dersin?"`
 `Daha önce sabah havasını bile kirletecek kadar kirli bir konuşma duyduğumu hiç sanmıyorum.`
@@ -162,7 +162,7 @@
 ` hey hey...`
 ` Sen neden bahsediyorsun?`
 ` Sen neden bahsediyorsun!? Sen neden bahsediyorsun...!!"`
-`Yüzü kızaran ve telaşlanan Rena aptalı oynamaya çalıştı ama neden bahsettiğimizi çok iyi bildiği belliydi.`
+`Yüzü kızaran ve telaşlanan Rena salağa yatmaya çalıştı ama neden bahsettiğimizi çok iyi bildiği belliydi.`
 `"Nasıldı?`
 ` Şehri tekrar görmek."`
 `Mion lafı dolandırdı, edepsiz konuşmayı bıraktı ve konuyu bu güzel sabaha daha uygun bir şeye çevirdi.`
