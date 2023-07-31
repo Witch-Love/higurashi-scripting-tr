@@ -31,6 +31,12 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
      * "Gyah!", "Aaaahh", "Oooooohh!" ve benzerleri
 2. Terimler şu şekilde:
    * Cicada `->` Ağustos Böceği
+   * Clique `->` Gruplaşma
+   * Higurashi `->` Ağustos Böceği [^1]
    * Ice Cream Parlor `->` Dondurmacı
    * Music Store `->` Plakçı
+   * Old Geezer `->` Yaşlı Moruk
+   * Transfer `->` Nakil
 3. [Karakter İsimleri](../../tree/master/character_names.json)
+
+[^1]: Higurashi'nin bu çevirisi duruma uygun şekilde yapılmalıdır. Örneğin, [onik_000.txt](../../tree/master/story/ch1/onik_000.txt) için bu çeviri geçerli değildir.
