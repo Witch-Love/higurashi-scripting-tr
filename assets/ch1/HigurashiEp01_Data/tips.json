@@ -4,14 +4,14 @@
 			"Id": 0,
 			"Script": "onik_tips_01",
 			"UnlockChapter": 1,
-			"Title": "We're a mixed grade?",
+			"Title": "Karma sınıf mıyız?",
 			"TitleJp": "うちって学年混在？"
 		},
 		{
 			"Id": 1,
 			"Script": "onik_tips_02",
 			"UnlockChapter": 1,
-			"Title": "We don't have a uniform?",
+			"Title": "Üniformamız yok mu?",
 			"TitleJp": "うちって制服自由？"
 		},
 		{

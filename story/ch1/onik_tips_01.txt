@@ -1,31 +1,31 @@
 `"...Rena, şimdi biz aynı yaşta mıyız?"`
 `"Evet.`
-` Aynen öyle.`
-` Aynı burç hayvanıyız da."`
-`Hey, aynı yaşta olup da aynı burçtan olmasaydık garip olurdu.`
+` Doğru.`
+` Burç hayvanlarımız da aynı."`
+`Hey, aynı yaşta olup da aynı burç hayvanına sahip olmasaydık garip olurdu.`
 `"Bu doğru değil.`
 ` Eğer doğum gününüz aynı değilse, aynı yaşta olsanız bile farklı hayvanlarınız olabilir!"`
 `"Ha?`
 ` Oh, anladım~`
-` Mion, sen çok zekisin!"`
+` Mion, sen oldukça zekisin!"`
 `"Ahahahahaha.`
-` Bu arada, hangi ayda doğmuştun, Keiichi-kun?`
+` Bu arada, Keiichi-kun sen hangi ayda doğmuştun?`
 ` Ben Temmuz'luyum!"`
-`Rena sırıttı ve gururla kabardı.`
+`Rena sırıttı ve gururla göğsünü kabarttı.`
 `...Hey, peki, bu ne anlama geliyor?`
-`Kendi doğum günü benimkinden aaaazıcık daha erken diye büyüklük taslamayı planlamıyor, değil mi...`
+`Kendi doğum günü benimkinden aaazıcık daha erken diye büyüklük taslamayı planlamıyor, değil mi...`
 `"...Heh!`
 ` Deneme bile.`
 ` Doğum günümle bana meydan okumak imkansız!!`
-` ...Aylık bir dolar bahse girsen bile umurumda olmazsın!"`
+` ...Aylık bir dolarına bahse girsen bile umrumda olmazsın!"`
 `"Ha?`
-` Huh!?`
+` Hah!?`
 ` Neden?`
 ` Neden!?"`
 `Rena aniden bir iddia teklif edilince panikledi.`
-`...Ne kadar paniklediğine bakılırsa, bu ay fazla harçlığı kalmadığına eminim.`
+`...Ne kadar paniklediğine bakılırsa, bu ay fazla harçlığı kalmadığından eminim.`
 `Sadece... Doğum günü gibi basit bir konuda onu telaşlandırmak o kadar eğlenceli ki, kendime engel olamıyorum.`
-`"Yani Nisan'da mı doğdun, Kei-chan?"`
+`"Yani Kei-chan, Nisan'da mı doğdun?"`
 `"Aynen öyle!`
 ` Çok yazık, Rena!`
 ` Ben çoktan Rena'dan daha yaşlıyım."`
@@ -37,25 +37,25 @@
 `Mion burnundan kıs kıs güldü.`
 `...Hey, bak, bu büyük görünüp ve böbürlenecek bir şey değil.`
 ` Sanki ben laf yapıyormuşum gibi (heh).`
-`"...Şimdi sen söyleyince aklıma geldi... Sen daha üst bir sınıftasın, değil mi Mion?"`
+`"...Şimdi sen söyleyince aklıma geldi... Mion sen daha üst bir sınıftasın, değil mi?"`
 `"Eğer alt sınıflardan hoşlanıyorsan, bundan sonra ben de alt sınıf olabilirim!"`
 `"Mii-chan, dediklerinden hiçbir şey anlamıyorum..."`
 `Sadece Rena'nın kızaran yüzünü görerek bile ne demek istediğini tam olarak anladığını söyleyebilirdiniz...`
-`"O zaman Satoko ve Rika-chan alt sınıflardan.`
-` ...Sınıfları o kadar farklı ki, farklı bir okulda olmaları gerekmez mi?"`
-`"Ke... Keiichi-kun, zevklerin yaşına göre küçük kalıyor, sanırım...`
+`"Satoko ve Rika-chan da alt sınıflardan.`
+` ...Seviyeleri o kadar farklı ki, farklı bir okulda olmaları gerekmez mi?"`
+`"Ke... Keiichi-kun, zevklerin yaşına göre biraz küçük kalıyor, sanırım...`
 ` Sanırım..."`
-`Senin dediklerinden de hiçbir şey anlaşılmıyor, Rena...`
+`Rena, dediklerinden de hiçbir şey anlaşılmıyor...`
 `Kafasını tutup biraz kaşıyacağım.`
 `"Hau~~~!! Y~a~p~m~a~~...!"`
-`"Bunu daha önce merak etmiştim, gerçekten.`
+`"Bunu daha önce de merak etmiştim.`
 ` Bu okulda neden farklı sınıfların karışık olduğunu merak ediyordum."`
-`"Yeterince derslik yok.`
+`"Yeterince sınıf yok.`
 ` Elden bir şey gelmez.`
 ` Ne de olsa bu bina ormancılık idaresinden kiralandı~."`
-`...Böyle söyleyince mantıklı geldi.`
+`...O böyle söyleyince mantıklı geldi.`
 ` Bir süredir okulumuzun bir acayip olduğunu düşünüyordum.`
-`Okul bahçesi çakıllı, derslik olmayan odalar var ve burada park edilmiş garip bir tür iş makinesi var.`
+`Okul bahçesi çakıllı, sınıf olmayan odalar var ve burada park edilmiş garip bir tür iş makinesi var.`
 `"Neden ödünç alınıyor?`
 ` Gerçek okula ne oldu?"`
 `"Burada savaştan çok öncesinden kalma bir tane vardı...`
@@ -64,7 +64,7 @@
 `Muhtemelen eski ve büyük bir okul binasıydı.`
 `"Bu yüzden öğrenciler şehirdeki okula gitmek zorunda kaldılar. Orası da epey uzakta."`
 `"Hangi okul oluyor o?"`
-`"Okinomiya tren istasyonundan geçerken, hastaneden dönüp pediatri bölümüne doğru ilerlediğinde orada bir okul olduğunu biliyor muydun?"`
+`"Okinomiya tren istasyonundan geçip, hastaneden dönünce çocuk hastalıkları bölümüne doğru yöneldiğinizde bir okul bulabileceğinizi biliyor muydunuz?"`
 `"N-Neeeeee!?!?`
 ` Ç-Çok uzak...!"`
 `Tarifinden neresi olduğunu anlayamadım ama Rena'nın tepkisinden oldukça uzak olduğunu anladım.`
@@ -72,26 +72,26 @@
 ` Okinomiya'ya gidip gelmek istemeyen çocuklar binayı ormancılık idaresinden kiraladılar ve buradaki yapmacık okula geliyorlar."`
 `"Hinamizawa'daki çocukların yaklaşık yarısı burada okuyor.`
 ` Buraya bisikletle gelen çok sayıda çocuk var."`
-`"Bu berbat okula gittikleri için yüksek öğrenim görmeleri oldukça zor olabilir."`
+`"Bu berbat okula devam ettikleri sürece yüksek öğrenime geçmeleri oldukça zor olabilir."`
 `"Bu doğru değil, Mii-chan.`
-` Düzgün çalışırsan istediğin yere gidebilirsin."`
+` Düzgünce çalışırsan istediğin yere gidebilirsin."`
 `"Evet, bu doğru, bu doğru!`
-` Bu konuda Rena'ya tamamen katılıyorum!"`
+` Rena'ya Bu konuda tamamen katılıyorum!"`
 `"Evet, aynen öyle.`
 ` Aynen öyle!`
 ` Elimizden geleni yapalım!"`
 `"Hepiniz elinizden geleni yapın.`
 ` Bu yaşlı adam sizi destekliyor olacak."`
-`"Sadece biz değil! Sen de!`
+`"Sadece biz değil! Sen de Mion!`
 ` Sınavlara hazırlanmalısın, değil mi!?`
 ` Böyle notlarla geleceğin karanlık!"`
 `"Yeterince iyiler.`
 ` Eğer geçemezsem, Kei-chan sonsuza dek çalışırken ondan otlanırım."`
-`"Ke-Ke-Kei-chan'dan otlanmak derken ne demek istiyorsun!?`
+`"O-o-otlanmak derken ne demek istiyorsun!?`
 ` Ne demek istiyorsun!?"`
 `"Hey!`
-` Çok ses yapıyorsunuz!`
-` Kendi kendinize çalışırken sessiz olun!"`
+` Çok gürültü yapıyorsunuz!`
+` Kendi başınıza çalışırken sessiz olun!"`
 `Öğretmen üçümüze de bağırdı.`
 `Bu tamamen bizim hatamızdı...`
 `Satoko bunu gördü ve küstahça kıkırdadı.`
