@@ -76,7 +76,7 @@
 `"Bu doğru değil, Mii-chan.`
 ` Düzgünce çalışırsan istediğin yere gidebilirsin."`
 `"Evet, bu doğru, bu doğru!`
-` Rena'ya Bu konuda tamamen katılıyorum!"`
+` Rena'ya bu konuda tamamen katılıyorum!"`
 `"Evet, aynen öyle.`
 ` Aynen öyle!`
 ` Elimizden geleni yapalım!"`
