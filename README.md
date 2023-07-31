@@ -19,7 +19,7 @@ Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabil
    * Story
       * [onik_op](../../tree/master/story/ch1/onik_op.txt) ✅
       * [onik_000](../../tree/master/story/ch1/onik_000.txt) ✅
-      * [onik_001](../../tree/master/story/ch1/onik_001.txt) ❌
+      * [onik_001](../../tree/master/story/ch1/onik_001.txt) ✅
       * [onik_002](../../tree/master/story/ch1/onik_002.txt) ❌
       * [onik_003](../../tree/master/story/ch1/onik_003.txt) ❌
       * [onik_004](../../tree/master/story/ch1/onik_004.txt) ❌
@@ -39,8 +39,8 @@ Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabil
       * [onik_015_02](../../tree/master/story/ch1/onik_015_02.txt) ❌
       * [onik_015_03](../../tree/master/story/ch1/onik_015_03.txt) ❌
    * Tips
-      * [onik_tips_01](../../tree/master/story/ch1/onik_tips_01.txt) ❌
-      * [onik_tips_02](../../tree/master/story/ch1/onik_tips_02.txt) ❌
+      * [onik_tips_01](../../tree/master/story/ch1/onik_tips_01.txt) ✅
+      * [onik_tips_02](../../tree/master/story/ch1/onik_tips_02.txt) ✅
       * [onik_tips_03](../../tree/master/story/ch1/onik_tips_03.txt) ❌
       * [onik_tips_04](../../tree/master/story/ch1/onik_tips_04.txt) ❌
       * [onik_tips_05](../../tree/master/story/ch1/onik_tips_05.txt) ❌
