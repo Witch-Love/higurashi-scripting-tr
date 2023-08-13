@@ -37,6 +37,12 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Music Store `->` Plakçı
    * Old Geezer `->` Yaşlı Moruk
    * Transfer `->` Nakil
+   * Dam site `->` Baraj şantiyesi
 3. [Karakter İsimleri](../../tree/master/character_names.json)
 
 [^1]: Higurashi'nin bu çevirisi duruma uygun şekilde yapılmalıdır. Örneğin, [onik_000.txt](../../tree/master/story/ch1/onik_000.txt) için bu çeviri geçerli değildir.
+
+4. Saygı hitabı:
+   * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
+      * Oryou Sonozaki
+      * Kiichirou Kimiyoshi
