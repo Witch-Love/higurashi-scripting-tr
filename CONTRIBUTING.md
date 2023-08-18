@@ -39,12 +39,12 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
 3. Terimler şu şekilde:
    * Cicada `->` Ağustos Böceği
    * Clique `->` Gruplaşma
-   * Higurashi `->` Ağustos Böceği *?* [^1]
+   * Dam site `->` Baraj şantiyesi
+   * Higurashi `->` Higurashi *?* [^1]
    * Ice Cream Parlor `->` Dondurmacı
    * Music Store `->` Plakçı
    * Old Geezer `->` Yaşlı Moruk
    * Transfer `->` Nakil
-   * Dam site `->` Baraj şantiyesi
 4. [Karakter İsimleri](../../tree/master/character_names.json)
 
 [^1]: "Higurashi" hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
