@@ -44,7 +44,7 @@
 `O anda yapabileceğim tek şey biraz daha fazla acıkmak için egzersiz yapmaktı...`
 `Sohbeti bitirdikten sonra, yavaş yavaş yürümeye başladık.`
 `Hafif sabah güneşiyle yıkanan kaygısız bir yürüyüş.`
-`Şehirde geçirdiğim zamanlarda böylesine kadar huzur dolu bir şeyin varlığını hayal bile edemezdim.`
+`Şehirde geçirdiğim zamanlarda böylesine huzur dolu bir şeyin varlığını hayal bile edemezdim.`
 `Ne de olsa burası taşraydı.`
 `Burada hafta sonları işe giden pasaklı masabaşı çalışanları yoktu.`
 `Gerçekten güzel bir yerdi... huzurlu ve sessiz.`
@@ -74,7 +74,7 @@
 `"Az önce karşılaştığımız kişi de Irie kliniğindeki hemşire Miyo-san'dı.`
 ` Hobileri kuş gözlemciliği ve fotoğrafçılık."`
 `"...Yanından geçtiğimiz herkesin ismini biliyorsunuz...`
-` ve hatta profillerine bile!?"`
+` ve hatta profillerini bile!?"`
 `Şaşkınlığımı gören Mion ve Rena bakışıp kahkahalara boğuldular.`
 `"Yani, evet.`
 ` İnsanların komşularını neredeyse hiç tanımadığı şehirler gibi değiliz."`
@@ -116,8 +116,8 @@
 `"Good!"`
 `Rena ve Mion'a dönüp baktığımda bana göz kırptılar.`
 `"...Öyleyse, şimdi.☆`
-` Öğle yemeği vakti geldi mi?`
-` ...Geldi mi?"`
+` Öğle yemeği vakti geldi mi acaba?`
+` ...Acaba?"`
 `Rena'nın ışıltılı gülümsemesi hem benim hem de Mion'un unutmaya çalıştığı bir olayın yaklaştığını işaret ediyordu.`
 `İkimiz de birbirimize baktık.`
 `"...Ben bir erkeğim. Elimden geleni yapacağım.`
@@ -212,7 +212,7 @@
 `"Görünüşe göre, uzun zaman önce insanlar sessizlik içinde yemek yiyorlarmış.`
 ` ...Bu durum yemeği hazırlayanları biraz üzmüş olmalı, sizce de öyle değil mi?"`
 `"Muhtemelen o zamanlarda insanlar yemek yemekle o kadar meşguldü ki, lezzetine iltifat edecek zamanları yoktu!"`
-`Bu sadece sensin.`
+`Bu sadece senin için geçerli.`
 `"Ama, bilirsiniz, güzel olduğunu duymak bile beni mutlu ediyor.`
 ` ...Çabalarıma değdiğini duymak, yani."`
 `Bunu söylerken biraz kızardı.`
@@ -378,7 +378,7 @@
 ` ...Eğlenceli miydi?"`
 `"Evet.`
 ` Çok eğlenceliydi.`
-` Eve dönmek tıpkı bir eziyet gibi hissettirecek kadar!"`
+` Eve dönmek tıpkı bir eziyet olacak kadar!"`
 `"Ah... O zaman, şey...`
 ` Biraz dolambaçlı bir yoldan gitmemizin sakıncası var mı... acaba?`
 ` ...Acaba?"`
