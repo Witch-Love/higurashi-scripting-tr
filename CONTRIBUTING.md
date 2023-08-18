@@ -29,14 +29,22 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
      * Rena-san, Mion-san gibi saygı ekleri
      * "Gyah!", "Aaaahh", "Oooooohh!" ve benzerleri
-2. Terimler şu şekilde:
+   * Rena'nın "kana"sı:
+     * İngilizce, cümle sonlarında özel bir kelimeyi kullanmayı zorlaştıran bir dil olması nedeniyle çeviride cümle sonunda kullanılan kelimeleri tekrarlayarak bu sorunu çözmüştür. Türkçe'de Rena'nın "kana"larını "acaba" olarak çeviriyoruz.
+     * `About time to have lunch, maybe? Maybe?` -> `Öğle yemeği vakti geldi mi acaba? Acaba?`
+2. Hitaplar:
+   * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
+     * Oryou Sonozaki
+     * Kiichirou Kimiyoshi
+3. Terimler şu şekilde:
    * Cicada `->` Ağustos Böceği
    * Clique `->` Gruplaşma
-   * Higurashi `->` Ağustos Böceği [^1]
+   * Higurashi `->` Ağustos Böceği *?* [^1]
    * Ice Cream Parlor `->` Dondurmacı
    * Music Store `->` Plakçı
    * Old Geezer `->` Yaşlı Moruk
    * Transfer `->` Nakil
-3. [Karakter İsimleri](../../tree/master/character_names.json)
+   * Dam site `->` Baraj şantiyesi
+4. [Karakter İsimleri](../../tree/master/character_names.json)
 
-[^1]: Higurashi'nin bu çevirisi duruma uygun şekilde yapılmalıdır. Örneğin, [onik_000.txt](../../tree/master/story/ch1/onik_000.txt) için bu çeviri geçerli değildir.
+[^1]: "Higurashi" hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
