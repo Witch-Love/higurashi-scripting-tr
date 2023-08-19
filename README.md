@@ -7,9 +7,10 @@ Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabil
 ## Kurulum
 
 1. Steam'den Higurashi'nin oynamak istediğiniz Chapter'ını kurun.
-2. [Releases](../../releases) sayfasından Chapter'ınızın son sürüm Türkçe dosyalarını indirin.
-3. Oyunun yerel dosyalarının bulunduğu klasöre bu dosyaları atın.
-   * Klasörü açmak için: *Steam `>` Kütüphane `>` Oyuna sağ tık `>` Özellikler `>` Yüklü Dosyalar `>` Göz at...*
+2. [07th-mod](https://07th-mod.com/home/)'u oyununuza kurun.
+3. [Releases](../../releases) sayfasından Chapter'ınızın son sürüm Türkçe dosyalarını indirin.
+4. Oyunun yerel dosyalarının bulunduğu klasöre bu dosyaları atın.
+   * *Steam `>` Kütüphane `>` Oyuna sağ tık `>` Özellikler `>` Yüklü Dosyalar `>` Göz at...*
 
 ## İletişim
 - <img src="https://i.imgur.com/62IuQAp.png" width=20 title="Discord" />  @singulariity
