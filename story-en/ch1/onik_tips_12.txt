@@ -1,0 +1,20 @@
+`"This is Okinomiya Station, calling Unit 3.`
+` Unit 3 please respond."`
+`"This is Unit 3,`
+` loud and clear."`
+`"Back-up is heading your way.`
+` Hold position until further instructions.`
+` Over."`
+`"Roger, Unit 3 acknowledged."`
+`"Requesting no headlights.`
+` Requesting radio silence."`
+`"Station, the doctor has arrived.`
+` They want to carry it away. What's the order?`
+` Over."`
+`"Acknowledged.`
+` Leave it to the doctor."`
+`"Affirmative.`
+` Understood.`
+` ...Ah, back-up has arrived.`
+` Shouldn't we let them take a photo first?`
+` ...I think the vic is done for."`
