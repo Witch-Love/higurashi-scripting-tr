@@ -1,0 +1,536 @@
+`"No, no, don't worry about calling so late.`
+` I don't get paid overtime, but I'm on duty as long as I'm here."`
+`I started the conversation with an ordinary greeting to try and gauge his reaction.`
+`There's a 50/50 chance that Ooishi is one of them.`
+`If he's their pawn, he'll either lure me out somewhere so he can arrest me, or he'll ask me where the scrapbooks are.`
+`...But even if he didn't, that wouldn't prove anything.`
+`It's going to be difficult to determine if he's on my side or not, and I'd have to tell him about the scrapbooks no matter what.`
+`My heart's beating very fast.`
+`Even if I was sure that Ooishi isn't their pawn... I'd still have to make him believe such a crazy story.`
+` And I'd have to do that over the phone.`
+`Worrying wouldn't do anything for me.`
+`This is, I know, a gamble. I have but a small chance of winning.`
+` If I didn't put my chips on the table, the game wouldn't even start!`
+`"I told you a little bit about this before... but I think somebody is following me."`
+`"Are you sure about that?"`
+`"Yes.`
+` I wasn't sure before. I thought it was just my imagination, but things have changed over the past few days, and now I'm certain."`
+`"...Mmmmm, what do you mean, 'things have changed'?"`
+`"A few cars have been following me.`
+` One of them is a white van with four men in it. They disguise themselves as gardeners, but they're actually attack units."`
+`"...Attack units... you mean the Sonozaki family's death squad?"`
+`"Yes.`
+` I'm pretty sure that's them. They came to my school today.`
+` I managed to escape from them in time, but it was very close."`
+`"...But... why would they do that?`
+` ...Do they think you're trying to sniff out their connection to Tomitake's murder?"`
+`...Ooishi hasn't mentioned the scrapbooks yet.`
+`It sounded rather unnatural to beat around the bush like that by mentioning Tomitake's murder.`
+`But as I haven't told him about the scrapbooks, it could be a legitimate reaction.`
+`"To tell you the truth, I just heard some bad news.`
+` ...I wanted to confirm it a bit more before letting you know, but we did promise to share new information with each other.`
+` So, this is what I heard. `
+`...It seems like the Sonozaki Corps in Okinomiya are on the move."`
+`"...Are you talking about <i>the</i> Sonozaki Corps...?"`
+`"Yes.`
+` ...You might find it a bit of a shock.`
+` They ordered their greenhorns to find a certain person."`
+`"A certain person..."`
+`My heart stopped for a moment upon hearing that.`
+` ...Are they...?`
+`"...It's hard to believe.`
+` But you're the person they're looking for.`
+` They're trying to find you.`
+` I just got this information, so I don't know the reason why, but they're mentioning your name."`
+`"So, you believe my story that my life is in danger?"`
+`"...Yes.`
+` It matches with my information perfectly.`
+` ...Ryuugu-san, what's going on?`
+` Do you have any idea?"`
+`What they're really looking for are the scrapbooks I have.`
+`They want to know where they are, and they believe that I'm hiding them.`
+`...They must be thinking that they'll be able to hide the information in the scrapbooks forever if they succeed in shutting my mouth.`
+`But I couldn't tell Ooishi about that yet. I answered his question by asking him a question.`
+`"What about you, Ooishi-san? Do <i>you</i> have any idea?`
+` I can't think of anything..."`
+`"No, I'm afraid I don't.`
+` ...It's hard to believe that the Sonozaki Corps are using their resources to capture an individual like you.`
+` But it's true.`
+` It came from a reliable source."`
+`"It might be the Sonozaki family who are after me...`
+` not just the Sonozaki Corps."`
+`"...Hmmmmmm...`
+` It's very unusual for them to take action like this.`
+` They only do this when one of their people runs away with their money, or something like that. `
+`It's usually about some kind of trouble within the group. They've never done things like this to an honest person like you."`
+`"Well, I'm honored to be the very first one, but I need you to do something other than tell me that they've never done this before...!"`
+`"...I understand, Ryuugu-san.`
+` Please calm down.`
+` Isn't it your turn to tell me something now?"`
+`"...What do you mean...?"`
+`"Like I said,`
+` the Sonozaki Corps don't take action like this often.`
+` They might be under some kind of misunderstanding, but still, it's very unusual that they would do something like this. `
+`Are you sure you have no idea?"`
+`"........................"`
+`"You could have gotten them confused about something without you knowing it.`
+` My guess is that you sniffed around the Sonozaki family and found out about a secret of theirs, or they think you did. `
+`You can't lead them to mobilize like that by doing nothing.`
+` What you did must have been obvious to them.`
+` ...Are you sure you have no idea...?"`
+`Is he my ally or my enemy? ...I still can't figure it out.`
+` This is it! Make your decision, Rena Ryuugu!`
+`"Maybe... they're after me because I have Miyo-san's scrapbooks."`
+`"Miyo-san?`
+` Miyo Takano?`
+` Her scrapbooks...`
+` What do you mean?"`
+`If he was my enemy, he wouldn't be able to hide his excitement.`
+`But his voice remained steady, and it didn't sound unusual when he said the word 'scrapbooks'.`
+`"Well...`
+` I met Miyo-san at the library a few days before she was murdered.`
+` ...We talked and got along well, so she let me borrow some of her scrapbooks, in which she wrote about her studies."`
+`"Scrapbooks... Her studies...`
+` Mmm, hmmm."`
+`"Yes.`
+` Miyo-san was studying the history of Hinamizawa.`
+` She summed up her findings in those scrapbooks. `
+`...I think when they killed Miyo-san, they found out that some of her scrapbooks were missing, and also that she gave them to me."`
+`"They're after the scrapbooks...?`
+` ...Ryuugu-san, what in the world are you talking about?!"`
+`"She collected all her research about Hinamizawa and its ancient past as Onigafuchi into these scrapbooks.`
+` She wrote about the origin of Oyashiro-sama's cult in them too."`
+`"The origin of the cult of Oyashiro-sama...?`
+` You mean the story about the man-eating demons...?"`
+`"Yes.`
+` In her research, she discovered a very important secret about Oyashiro-sama.`
+` The secret was extremely blasphemous for the people who worship him."`
+`"...I see... those people, the most devout believers, couldn't accept the result of her research..."`
+`Ooishi was taking notes.`
+` I could hear him writing something while he spoke.`
+`"They killed Miyo-san, and they're trying to get at her scrapbooks. `
+`They weren't sure that I had them, so they followed me to find out...`
+` but I think they changed their plans yesterday.`
+` They're now trying to kill anyone they think is suspicious."`
+`"...I see...`
+` That doesn't sound good at all.`
+` I'm going to arrange a security detail for you.`
+` And let me take a look at the scrapbooks, too.`
+` I might be able to find some clues about her murder."`
+`"Ah...`
+` ......No...`
+` I mean... they might have pawns inside the police force.`
+` So, don't worry about me.`
+` I can look after myself.`
+` Same with the scrapbooks.`
+` They're going to try to destroy them `
+`even if they were kept at the police station."`
+`"...You may be right. If the Sonozaki Corps is chasing after you because of an order from the head of the Sonozaki family... that means our enemy is the Sonozaki family itself. `
+`If so, I'm afraid I really can't guarantee that we don't have a traitor among us."`
+`"That's what I'm saying.`
+` Please don't worry about me.`
+` But I have a favor to ask you.`
+` It's very important."`
+`"Go ahead.`
+` What is it?"`
+`"......According to Miyo-san's research,`
+` there's a horrifying conspiracy at work in the shadows of Hinamizawa, and it's about to be carried out in the near future."`
+`"A conspiracy?`
+` ...What's that about?"`
+`...I got tense all of a sudden.`
+`...If I tell him everything, it's going to sound like a big lie.`
+`I should leave out the bizarre-sounding parts for now.`
+` It'd actually make the story more credible.`
+`"Fanatical worshippers of Oyashiro-sama are the ones behind the conspiracy. `
+`Since the Meiji era, belief in Oyashiro-sama has slowly disappeared. So, they're trying to revive the majesty of Oyashiro-sama that the people of Onigafuchi once worshipped."`
+`"...Hmmmm`
+` ...Hmmmm`
+`... Go on, I'm listening.`
+` I'm just writing this down."`
+`"According to Miyo-san's research, the origin of the legend of Oyashiro-sama lies in a primitive endemic disease. `
+`People feared this endemic disease and called it the 'curse of Oyashiro-sama,' and then someone like a doctor treated the disease, and was then worshipped by the villagers as Oyashiro-sama himself. The village was then under his control."`
+`"...Oh, I see...`
+` That's interesting... Go on..."`
+`"The endemic disease was caused by a parasite unique to this region.`
+` But it became weaker with every generation, and now, it doesn't do any harm to people, as you can imagine. `
+`To them, a harmless endemic disease means no curse of Oyashiro-sama. No curse means no savior.`
+` They can't keep the sanctity of Oyashiro-sama like that."`
+`"...And to revive the sanctity of Oyashiro-sama means...`
+` they have to revive the endemic disease... right?"`
+`"That's right!`
+` They want to recreate the legend of Oyashiro-sama in order to make Oyashiro-sama a deity again! `
+`That's why they're trying to create the original parasite, because it can bring back the more powerful strain of the endemic disease. `
+`The true intention of the series of the mysterious deaths was to test the results of their research.`
+` And now they've finally succeeded, reenacting the 'maggots disease' with Tomitake-san. `
+`It took them five years, but they managed to bring the parasite back to its original power!"`
+`"...What the hell...!"`
+`"Their goal is to spread the parasite, use the cure they developed to save only those people who believe in Oyashiro-sama, and create for them a paradise...!"`
+`"Are you sure it's all true?!"`
+`"The scrapbooks say that most of the residents of Hinamizawa are infected by the parasite.`
+` There's medical evidence of its existence too."`
+`"...I can't believe it.`
+` ...Damn it... That hag Oryou is on death's door already...`
+` Yet she can't just cross the Styx on her own?!`
+` This is... indiscriminate terrorism!`
+` What the hell!!"`
+`"The original parasite could only survive around Hinamizawa.`
+` ...But there's a high probability that they've improved it to be able to survive in a wider area.`
+` It's going to destroy not only Hinamizawa... `
+`but also Okinomiya...`
+` or even the entire city`
+` ...or the entire prefecture..."`
+`"...Damn it...`
+` What should we do?`
+` Who's behind all this?"`
+`"It's the Three Families.`
+` Most likely the Sonozaki family is in charge,`
+` but I'm not sure if Oryou is the leader or not.`
+` ...I can only refer to them as <i>they</i>.`
+` I also have no idea how far this thing reaches."`
+`"Do you know where they're doing all this research?`
+` I can shut it down!"`
+`"I don't know. It's not in the scrapbooks, either.`
+` ...Do you have any idea?"`
+`"...It must be a big facility to do that kind of research...`
+` You can use a garage for remodeling guns or something like that, but when it comes to parasites, I don't think that would be enough."`
+`"...Miyo-san was a nurse at the Irie Clinic.`
+` Do you think that could be it?`
+` I always thought it was a bit too big and fancy for a small village like Hinamizawa."`
+`"Haaaaaah...`
+` The Irie Clinic...`
+` ...Mmmmmmm."`
+`They'd need a specially designed facility, with advanced airtight containment, among other considerations, to be able to do research on dangerous parasites like this one.`
+`It's easy to equate suspicious research with a clinic facility, but it also sounds too easy and a little cliché.`
+`At first, I thought they converted part of the clinic into a secret research center... but that actually sounds a little too unrealistic.`
+`"Anyway, I don't know where it is.`
+` So please find that out.`
+` Can't you just raid every suspicious place at once?"`
+`"...As you know, we need a warrant for that kind of thing.`
+` There's a way I can get one even after doing a raid, but... `
+`I'd need conclusive evidence that it was actually the research building in question in order to do that."`
+`Ooishi is a police officer.`
+`If he's going to work as a police officer, he has to follow their rules.`
+`"But they really are planning bioterrorism!!`
+` There has to be a reason why they killed Miyo-san so quickly... I think the reason is because their Day of Revival isn't far off!"`
+`"Okay, I understand!`
+` I'll try to do what I can!`
+` With an unthinkable plan like this, I'd imagine it'd be difficult to keep all the Sonozaki family members on their side. `
+`I'm sure there are some who are secretly against it.`
+` I'll try to make contact with those people.`
+` Don't worry. I'm very good at things like this.`
+` Nfu fu!"`
+`Ooishi laughed to try to cheer me up.`
+`I was upset with the work of the police before, but Ooishi's positive reaction is very reliable.`
+`He's what you might call an outlaw.`
+` Ooishi's greatest advantage to me is that he doesn't exactly play by the rules.`
+`It's very encouraging that he has that kind of skill, especially since we have to act both very quickly and without conclusive evidence.`
+`The police normally investigate incidents after they've happened, but that doesn't work in this case.`
+`If this incident actually does occur... it's going to be a big disaster.`
+`"Miyo-san exposed such a horrifying conspiracy... I'm scared."`
+`"...She met with a very sad end.`
+` She was burned in a drum in the mountains of Gifu.`
+` I feel very sorry for her.`
+` ......Oh, right. I forgot to tell you something.`
+` ...We found something odd about her death."`
+`"Something odd...?"`
+`"Well,`
+` at first I thought it had something to do with the case.`
+` But after hearing your conspiracy story, it's going to sound like nothing.`
+` The crime lab probably just made a mistake."`
+`"Please tell me. I want to know.`
+` We promised to tell each other everything, didn't we?"`
+`"I don't mean to hide it.`
+` It's just that it might sound like a silly horror story.`
+` ...Ryuugu-san, do you remember the night of Watanagashi?`
+` After the festival, `
+`you and four of your friends talked with Tomitake and Takano, didn't you?"`
+`"Yes, we did.`
+` We just talked for a few minutes or so, I think."`
+`"Well,`
+` we found Takano's dead body that night, but... the crime lab in Gifu Prefecture said that she'd been dead for 24 hours when she was found.`
+` But that doesn't make sense. `
+`If that's true, she had to be dead the night before the festival."`
+`"What's that supposed to mean...?"`
+`I'm confused.`
+`If she was found dead on the night of Watanagashi, and she had been dead for 24 hours... that means...`
+`"In short, it means she was already dead`
+` on the night of Watanagashi.`
+` So, the Takano whom you saw on that night was a... zombie! ...I got you, didn't I!`
+` Na ha ha ha. `
+`Well, like I said, I think they just made a mistake."`
+`...I felt my brain freezing over.`
+`Ooishi laughed, saying that it sounded like a horror story from summer camp.`
+` ......But actually... the fact that Miyo-san's time of death was off...`
+` ......backed up her incredulous theories.`
+`I haven't mentioned this one to Ooishi or Keiichi-kun.`
+`...If I did, they'd start to doubt everything else I've said.`
+` ...That's how absolutely unbelievable this theory is.`
+`At any rate, at any rate, the mismatch with the time of Miyo-san's death means a lot.`
+`What irony...`
+`Miyo-san came up with the theory... and she proved it correct with her own life...`
+`No, not yet.`
+` This doesn't prove anything yet.`
+`...If`
+` her theory is true,`
+` ...it might happen again.`
+`...Ahh.`
+` ...There's no way... It can't be true...`
+`I still can't believe it.`
+`But Ooishi just said it.`
+`He said Miyo-san was already dead on the night of the festival.`
+`It means that the Miyo-san, who was walking arm in arm with Tomitake-san on that night... wasn't Miyo-san.`
+`Miyo-san was already dead. So, that wasn't her.`
+`That means...`
+` she was.........`
+`I felt a new sensation, one I'd never felt in my life before.`
+`...It wasn't an ordinary kind of dread.`
+`...It was fear of the truth.`
+`No fear is worse than the fear of accepting a truth you don't want to believe.`
+`Compared to this fear, the fear of being stalked by the Sonozaki family or being burned alive in an oil drum looked silly.`
+`...That's how deep of a fear I felt.`
+` ...And I felt it crawling all over my body...`
+`"Ryuugu-san, please listen to me.`
+` I understand you don't trust the police.`
+` It's true that the Sonozaki family has control over the entire city.`
+` There are some traitors at my station, too.`
+` ...But you're in danger. `
+`You can trust me. I want you to trust me as an individual person.`
+` I can provide shelter for you. It's in a place nobody knows but me.`
+` Please trust me!"`
+`I don't doubt Ooishi at this point.`
+`I actually think he's very reliable.`
+`I would've said yes without a second thought.`
+` ...But the situation has drastically changed.`
+`If Miyo-san's death... backs up this unbelievable truth...`
+`I trust Ooishi.`
+`I believe he'll find the enemy and take them down.`
+`But I'd rather protect myself on my own than let someone else do it.`
+`...If the unbelievable truth is real...`
+` Then I couldn't trust anybody except myself.`
+`No, even "myself" might appear before me, too...`
+`"Ooishi-san, thank you so much.`
+` Anyway, please find their research center and put a stop to their conspiracy.`
+` I'm going to hide somewhere for a while.`
+` ...I'll call you again!"`
+`I noticed I'd been on the phone too long.`
+`I'd been using this phone booth with a light on in the middle of the darkness. In other words, I'd been telling everybody I'm here.`
+`"Hello!`
+` Hello!!"`
+`...She hung up.`
+`Ooishi wanted to talk more. He clicked his tongue and put the phone down.`
+`His junior, Kumagai, rushed into the room.`
+`"Ooishi-san,`
+` it's getting really bad now!`
+` The one who gave the Sonozaki Corps the order to find Rena Ryuugu,`
+` it's Tatsuyoshi Kasai!"`
+`"Kasai?!`
+` Akane Sonozaki's right-hand man...?"`
+`Tatsuyoshi Kasai was a pretty high-ranking big shot, even amongst the boss's younger brothers.`
+`He used to be the boss of a subordinate branch, but after suffering a bad injury during a gang war, he stepped down, and now he served as the boss's aide.`
+`Akane Sonozaki relies especially on him, and as her right-hand man, he's still feared even now.`
+`When Kasai moves, other gangs consider it as a declaration of war.`
+`They fear him very much. He's a warrior among warriors.`
+`He's been lying low these days, but he's led countless numbers of gang wars!`
+`He was also the leader of the professional attack squadron that went to the U.S. to receive military training during the dam conflict.`
+`They were crazy enough to think of attacking the Ministry of Construction for real!`
+`"...It looks like it's causing quite an uproar among our informants.`
+` They're saying that Rena Ryuugu must've found some kind of information that's very inconvenient for the Sonozaki Corps."`
+`"I'm impressed at how to-the-point our informants actually are. Na ha ha.`
+` ...Still, this is getting serious..."`
+`"Satou-san thinks it's the tape Oryou and the Ministry of Construction recorded during their secret negotiations.`
+` ...If that's true, it's going to cause quite a few deaths..."`
+`This is more serious than that, Ooishi thought.`
+`If her story is true, this is a massive conspiracy.`
+`It's going to cause more than quite a few deaths.`
+`It might destroy the entire village, or even the entire prefecture. This is going to be the biggest terrorist strike in history!`
+`"...Rena Ryuugu is in danger.`
+` ......Kuma-chan,`
+` arrange an unmarked patrol car to keep watch on her house. `
+`As of today, we're going to put Rena Ryuugu under protection. She's convinced she's being threatened by the gang.`
+` I'll talk to the section manager later."`
+`"Well... um... actually, Rena Ryuugu seems to have run away from home.`
+` A police officer confirmed that a lot of money disappeared from her father's cash box. Sounds like she took it and ran away. `
+`And I also had a call about a car belonging to the Sonozaki Corps parked in front of her house too."`
+`"What?!!`
+` Why didn't you tell me that sooner?!`
+` Rena Ryuugu is in great danger!`
+` She wasn't calling me from her house, then!`
+` We need to find her right away!!`
+` Get me a car!! `
+`Arrest the people parked in front of her house!`
+` And get some guys over here.`
+` They're coming with me!!"`
+`"""Yes sir!!"""`
+`"What?`
+` Rena-san wasn't at home?`
+` It's pretty late."`
+`"Yes.`
+` I waited in front of her house for a while, but she didn't come home."`
+`"Maybe she's at a friend's place.`
+` She might be at Sis's house with her other friends, doing their club activities or whatever."`
+`Shion was lying down on the sofa, picturing her sister and her friends fooling around and playing games like they always did.`
+`"...I thought so, too. So I stopped by Mion-san's house, but Rena-san wasn't there either.`
+` Mion-san was worried about her, too."`
+`".........Oh, really?`
+` ...Well, I wonder what happened to her.`
+` Hmm?"`
+`"She might have been caught by some hoodlum, though that would be unusual.`
+` I already told my staff to look for her just in case."`
+`"I don't think that's what happened.`
+` She's not as weak as she looks.`
+` Ahahaha."`
+`"Anyway, why did she want to see me...?"`
+`Kasai took off his jacket.`
+`Shion only told him to go see Rena because she heard that Rena had requested to see him in person.`
+`"Oh,`
+` I thought I told you.`
+` She said she found something you lost.`
+` Rena-san wanted to give it back to you in person.`
+` ...Hey, I guess she likes you or something☆."`
+`"Oh, please...`
+` Anyway, I hope she's alright."`
+`Right then, the phone rang.`
+`Kasai answered it while loosening his tie.`
+`"............Yes.`
+` ...Yes.`
+` ...I understand.`
+` At once."`
+`Kasai sounded very serious, and Shion immediately figured out who he was talking to.`
+`"Who was it?`
+` Was it my father?"`
+`"...Yes.`
+` The Sonozaki family has sent out an order to find Rena-san right away and to bring her to the main house."`
+`"You mean Oryou gave the order?!`
+` ......I wonder what Rena-san did?`
+` Will she have to peel off her own fingernails?`
+` ...I hope Oryou goes easy on her.`
+` Poor girl..."`
+`"Rena hasn't come home yet?!"`
+`"No.`
+` I heard that Rena ran away from home, and that she's hiding somewhere."`
+`"Hiding somewhere?!`
+` ...What do you mean?"`
+`"Also... I just got this information. It seems the police are looking for her."`
+`"Wh-What...?"`
+`"An unmarked patrol car is watching her house right now.`
+` It seems like there are several patrol cars looking for her in the village. `
+`Uncle Kimiyoshi received a call from the police, too. He was told to use the town network to find out if anybody knows where she is."`
+`"...Do you think...... they found the corpses we hid?!"`
+`We hid them deep in the mountains.`
+` They couldn't have found them that easily!`
+`"No, it's 100% impossible.`
+` I guarantee you that."`
+`"Wow, how can you be so sure?"`
+`"Well...`
+` to tell you the truth... I let the Sonozaki family take care of them. They moved the bags to a secret place."`
+`"Secret place?!"`
+`"Calm down!`
+` Don't worry about it!`
+` I heard that there's a major logging project happening this summer on that mountain where we hid the corpses.`
+` So, I arranged help and took care of it."`
+`"I see...`
+` You're a very reliable person when you're on my side, but you'd be a very scary person to have as an enemy...!"`
+`"Heh heh heh!`
+` I recommend you never underestimate me!!"`
+`"...So, it's not the corpses they're after.`
+` Then why are the police trying to find her?"`
+`"I don't know.`
+` But it seems like many gang members knew that Teppei Houjou and Rina Mamiya were trying to blackmail the Ryuugu family.`
+` ...So, that might be the reason why the police are after Rena. `
+`I don't think they consider her a suspect yet...`
+` but they probably want her as a material witness."`
+`"That's the same thing!`
+` Damn it!`
+` Rena finally regained her peaceful life!`
+` I'm not going to let them ruin it!`
+` Mion, we need to help her!"`
+`"Of course!`
+` I already told my family in Okinomiya to find her before the police can.`
+` You can trust the Sonozaki family. They can protect her from the police, 120% guaranteed!"`
+`"But just finding her first isn't going to solve the problem...`
+` We have to do something to clear her of suspicion!"`
+`"I'll think about that after we've found her.`
+` We can make as many alibis as she needs and as many witnesses for the alibis as necessary. We have very good lawyers, too! `
+`We'll never abandon our friends when they're in trouble!"`
+`"That's right!`
+` We can save Rena!!`
+` Damn it. I wish I could do more than to depend on you, Mion."`
+`"Well, don't worry about it! It's okay to let someone else handle the situation when that person is better at it.`
+` This ol' man will take care of everything. `
+`Also, I'll create an alibi to fool the cops watching the whole village.`
+` We'll say Rena was spotted near Gogura.`
+` The wider the search area, the fewer policemen in one place."`
+`"I see! That's a great idea!!"`
+`"This is like nothing to us. We did more during the dam conflict.`
+` I'll protect Rena!`
+` And Kei-chan,`
+` Rena trusts you more than anybody.`
+` ...So, she might come to you.`
+` If she does, please protect her! `
+`And give me a call right away!"`
+`"Yeah, will do!!"`
+`"Rena is a strong girl!`
+` ...She should be fine. She can overcome this."`
+`"...Yeah, I think so, too."`
+`I hesitated to say something.`
+`Rena... hadn't been her normal self lately. If she was her normal self, I'd have no doubt that she could overcome this.`
+`But Rena is deeply convinced that Takano-san's delusions are true.`
+`...Rena believes the Sonozaki family is behind the conspiracy.`
+` ...I'm not sure if she'd trust the Sonozaki family to protect her...`
+`"Don't worry. I'm her friend, too!`
+` She'll understand once I sit down and talk to her.`
+` Just like Kei-chan and I cleared up our misunderstanding, I can do that with her.`
+` Heh heh heh! `
+`I still can't believe that you believed such a crazy story, though."`
+`"Well...`
+` I can't believe I did, either.`
+` This is going to be the most embarrassing thing to ever happen in my life..."`
+`I really was deeply convinced until I talked to Mion.`
+`...Even after the promise of friendship we made, I doubted her.`
+`...Takano-san was endowed with magic... And I think the scrapbooks she wrote also carried a spell.`
+`The scrapbooks can make people go mad.`
+`...They're forbidden scrapbooks. Nobody was supposed to read them.`
+`Rena is captivated by the power of that magic, even after Takano-san's death.`
+`...I have to wake her up... I've got a very bad feeling about it...!`
+`"Oh, I'm sorry. Someone is at the door.`
+` ...It might be the police.`
+` I have to go now."`
+`"Okay!"`
+`"I'll tell them that Rena is hiding near Gogura.`
+` If they ask you something, just keep telling them you don't know anything!"`
+`"Okay, got it!!"`
+`Mion waited for my answer, then hung up the phone.`
+`After she hung up... I slowly started to feel like Rena was being consumed by some huge, unthinkable fate.`
+`It's not only the police I'm worried about... I'm also worried because Rena is ensnared by the power of Takano-san's magic. I fear that she might be suffering from incredible anxiety.`
+`...Oh, right.`
+`Rena might be hiding at her secret base in the garbage dump.`
+`Rena once told me that she used to spend time there when Rina-san was at her house.`
+`And she told me that she hid the scrapbooks there, too!`
+`If she's hiding there, she must be hungry by now.`
+` ...I should bring her something to eat.`
+`I went to the kitchen to look for some junk food. My mother looked confused.`
+`"Mom!`
+` I'm going to go somewhere, but I'll be right back!!"`
+`"At this time...?`
+` It's late..."`
+`"It's very important!`
+` I promise I'll be right back.`
+` And... if Rena comes here while I'm gone, let her stay in my room. `
+`And if someone calls and asks you if you know where she is, just tell them you don't know, and hang up, okay?"`
+`My mom looked angry that I was leaving the house at so late an hour, but I rushed out of the house before she could say anything.`
+`I grabbed a flashlight from the wall of the garage, got on my bicycle, and sped off into the darkness.`
+`The moon looked beautiful, but in a creepy way.`
+`I feel like... something terrible is going to happen.`
+`I don't know what it is... but I know it's coming.`
+` Something is going to happen!`
+`The moon, seemingly knowing just what that "something" will be, looked like it was laughing at us pacing back and forth in confusion.`
+`Damn it!`
+` Laugh all you want!`
+` Laugh at this funny story as much as you want!`
+` I'm not going to laugh!`
+` I'm going to fight!`
+` I'm going to smash through whatever fate is waiting for us!`
+`Rena... I hope you're there...!!`
+`Maybe my bicycle needs some oil...?`
+` It was making a lousy noise as I pedaled.`
+`Damn it. Even my bicycle is laughing at us...!`
