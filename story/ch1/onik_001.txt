@@ -271,7 +271,7 @@
 `...`
 `...Owowow..."`
 `Görünüşe göre yere yapıştığımda istemeden sırtımı biraz burkmuşum.`
-` O mürekkep taşının üzerine düşmekten iyidir.`
+` ...O mürekkep taşının üzerine düşmekten iyidir.`
 `Küçük bir el başımı hafifçe okşadı.`
 `"...Keiichi'nin acısı, acısı, git buradan."`
 `Küçük, zarif el başımı hafifçe okşamaya devam etti.`
@@ -285,7 +285,7 @@
 ` Herkese günaydın."`
 `Rika-chan her birimizi sevimli bir şekilde başını eğerek selamladı.`
 `Bulaşıcı bir şeydi. Rena, Mion ve ben de başımızı eğerek selam verdik.`
-`"Rika-chan, sen çok tatlı bir çocuksun.`
+`"Rika-chan, sen çok tatlı bir çocuksun...`
 ` Satoko'dan çok daha iyi...!"`
 `Ona doğru ters ters baktım. Satoko kasten göz temasından kaçınırken bir yandan da ıslık çalıyordu.`
 `"Satoko tam anlamıyla iyi bir kız modeli."`
