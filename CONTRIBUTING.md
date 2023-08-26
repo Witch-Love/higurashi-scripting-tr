@@ -32,6 +32,9 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Rena'nın "kana"sı:
      * İngilizce, cümle sonlarında özel bir kelimeyi kullanmayı zorlaştıran bir dil olması nedeniyle çeviride cümle sonunda kullanılan kelimeleri tekrarlayarak bu sorunu çözmüştür. Türkçe'de Rena'nın "kana"larını "acaba" olarak çeviriyoruz.
      * `About time to have lunch, maybe? Maybe?` -> `Öğle yemeği vakti geldi mi acaba? Acaba?`
+   * Rena'nın "kyute" diyişi:
+     * İngilizce çeviride, başka karakterler Rena'nın kyute diyişini tekrarlarken kyute diyebiliyor. Türkçe çevirisinde bu kelimenin anlamı harflerin tekrarlanmasıyla verildiği için, sadece Rena'nın "taatlııı" diyebilmesi, diğer karakterlerin "tatlı" demesi gerekiyor.
+     * `I couldn't tell how she decides what's 'kyute' or not...` -> `Neyin 'tatlı' olup olmadığına nasıl karar verdiğini anlayamadım...`
 2. Hitaplar:
    * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
      * Oryou Sonozaki
