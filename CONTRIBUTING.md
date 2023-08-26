@@ -35,6 +35,10 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Rena'nın "kyute" diyişi:
      * İngilizce çeviride, başka karakterler Rena'nın kyute diyişini tekrarlarken kyute diyebiliyor. Türkçe çevirisinde bu kelimenin anlamı harflerin tekrarlanmasıyla verildiği için, sadece Rena'nın "taatlııı" diyebilmesi, diğer karakterlerin "tatlı" demesi gerekiyor.
      * `I couldn't tell how she decides what's 'kyute' or not...` -> `Neyin 'tatlı' olup olmadığına nasıl karar verdiğini anlayamadım...`
+   * Üç noktadan sonra büyük harf kullanımı:
+     * Cümle ortasında üç nokta ile biten sözlerin bazen "... I", "... I've" şeklinde devam ettiğini görebiliyoruz. Burada büyük harf kullanımı belirsiz olduğundan, önceki sözün tam bir cümle olup olmadığına göre büyük har kullanıyoruz.
+     * `Besides... I'm not throwing it away.` -> `Kaldı ki... bunu atmıyorum.`
+     * `I still wanted to believe... I hadn't been split apart.` -> `Hâlâ inanmak istiyordum... Henüz parçalanmamıştım.`
 2. Hitaplar:
    * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
      * Oryou Sonozaki
