@@ -173,7 +173,7 @@
 ` Benim yerim nerede!?"`
 `"Senin için yer yok ve yiyecek bir şey de yok!"`
 `"...M-Merak etme... Satoko-chan için de biraz var..."`
-`"Yok! Satoko'nunkileri de yiyeceğim!!!"`
+`"Yok! Satoko'nunkileri de yiyeceğim!!"`
 `"Buna izin vermeyeceğim!!!`
 ` Rikaa!"`
 `"...İşte, yemek çubukları."`
@@ -192,7 +192,7 @@
 `Ne kadar çok olduğu değişmemişti, ama arkasındaki ima farklıydı.`
 `"Bu hamburgeri yemene izin vermeyeceğim!!"`
 `"Hurk!!`
-` Dirseğini kullanmak kurallara aykırı, Satoko!"`
+` Dirseğini kullanmak kurallara aykırı, Satoko!!"`
 `"Yakamın arkasından tutman da kurallara aykırı!!!"`
 `Zorlu bir mücadeleydi. Açılış hamlelerinde tüm momentumuyla ve dirseğiyle blok yapan Satoko, üstünlüğü ele geçirmiş gibi görünüyordu. Ama yemek çubuklarını kullanma becerilerimiz arasındaki fark ölümcül oldu ve bana üstünlük kazandırdı!`
 `"Aaah! Son köfteeeeeeeeeeeeeee!!!"`
@@ -217,14 +217,14 @@
 ` ...Çabalarıma değdiğini duymak, yani."`
 `Bunu söylerken biraz kızardı.`
 `"...Çok lezzetliydi."`
-`Rika-chan kesinlikle mükemmel bir zamanlamayla Rena'ya doğrudan "övgü" yağdırdı."`
+`Rika-chan kesinlikle mükemmel bir zamanlamayla Rena'ya doğrudan "övgü" yağdırdı.`
 `Büyüleyici bir masumiyet ifadesiyle doğruca ona baktı.`
 `"...Auh..."`
 `"...Auh?"`
 `Rena anlaşılmaz bir ses çıkardıktan sonra...`
-` Duyulabilir bir "puf!" sesi ile kafasından bir duman halkası yükseldi."`
+` Duyulabilir bir "puf!" sesi ile kafasından bir duman halkası yükseldi.`
 `"Hau~!!`
-` ...Ri... Ri-Ri... Rika-chan, seni eve götüreceğim. Hayır, yani...!`
+` ...Ri... Ri-Ri... Rika-chan, seni eve götüreceğim... Hayır, yani...!`
 ` Teşekkürler!!!!"`
 `"...Gerçekten çok lezzetliydi."`
 `Rena heyecandan kıpkırmızı kesildi, Rika-chan'ı kucakladı ve yanağını ona öyle sert sürttü ki neredeyse duyabilirdiniz.`
@@ -315,7 +315,7 @@
 `Bwoooosh!!`
 `Tavşanlarla dolu bir plastik saklama kabı.`
 `"L-L-L-L-Lütfen biraz ye, Keiichi-kun!?!`
-` Sa-Sa-Sa-Sana bolca yetecek kadar var...!!!"`
+` Sa-Sa-Sa-Sana bolca yetecek kadar var...!!"`
 `Huwarkh!? Anında, düzinelerce elma ağzıma tıkıldı ve beni yere düşürdü.`
 `"T-T-Tamam.`
 ` A...`
@@ -405,7 +405,7 @@
 `"Hey, bekle, geliyorum`
 ` ...`
 ` Wohoahoa...!"`
-`Şehirde yetişen halim tamamen acınacak durumdaydı.`
+`Şehirde yetişen halim tamamen acınacak durumdaydı...`
 `"Sorun değil! Keiichi-kun, sen orada bekle! Çok sürmeyecek!"`
 `Rena eşlik etmemi nazikçe reddetti.`
 `"...Sakın düşme!`
@@ -462,7 +462,7 @@
 ` Çok beklettim mi acaba?`
 ` ...Acaba?"`
 `"Siz iki muhabbet kuşunu yalnız bıraksam iyi olacak.`
-` Seni korkuttuğum için tekrar özür dilerim, 'Keiichi-kun'."`
+` Seni korkuttuğum için tekrar özür dilerim, 'Keiichi-kun.'"`
 `Tomitake-san imalı bir şekilde kıkırdadı, sonra da alacakaranlıkta kayboldu.`
 `Cevap yapıştırma şansımı kaçırmak beni biraz rahatsız etmişti.`
 `"...Keiichi-kun, kızgın mısın?`
@@ -479,13 +479,13 @@
 ` ...Oh, o şey. Şu kızarmış tavuk dükkanının önünde her zaman olan heykellerden..`
 ` Şu gerçek boyutlu kukla mı?"`
 `"...Evet! Colonel Sanders.☆`
-` ...Hau... taatlııı... Onu eve götürmek istiyoruuuum.☆"`
+` ...Hau... taatlııı... Onu eve götürmek istiyoruuuum...☆"`
 `Neyin 'taatlııı' olup olmadığına nasıl karar verdiğini anlayamadım... ama, şey, onu istiyormuş gibi görünüyordu.`
 `"O çöp, değil mi?`
 ` Eve götürsen bile kimse umursamaz, değil mi?"`
 `"Başka bir yığının altında kalmış.`
 ` ...Kolayca çıkaramam...`
-` Orada hiç sokak lambası yok, yani yakında ortalık kararacak."`
+` Orada hiç sokak lambası yok, yani yakında ortalık kararacak..."`
 `Rena bir hazine bulduğu ve onu yanında götüremediği için oldukça üzgün görünüyordu.`
 `"Sana yardım edeceğim.`
 ` Bugün hazırladığın o lezzetli pikniğin borcunu ödemek için."`

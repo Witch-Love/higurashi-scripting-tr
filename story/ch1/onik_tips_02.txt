@@ -44,13 +44,13 @@
 `...Garip bir ikinci el giyim mağazası olmalı.`
 `İkinci el giyim mağazası olduğunu anlıyorum ama ülkenin dört bir yanındaki okulların kıyafetlerini stoklamak?`
 `...Bu bir ikinci el giyim mağazası için oldukça garip.`
-`Hakkında hiçbir şey bilmedikleri uzak okullardan kıyafet stoklamanın ne anlamı var?`
+`Hakkında hiçbir şey bilmedikleri uzak okullardan kıyafet stoklamanın ne anlamı var??`
 `"...Evet. Rena da anlamıyor.`
 ` Kullanılmış okul mayoları ve beden eğitimi üniformaları da var...`
 ` Kullanılmış olanları bulundurma fikrini sevmiyorum."`
 `"Kulağa pek para kazanıyormuş gibi gelmiyor...`
 ` Biraz daha fazla kazanabilmek için Mion'u devreye sokmuşlardır."`
-`"...Ama Mion-san büyük bir inançla "Çok tutacak ve büyük bir mağaza olacak!" diyor.`
+`"...Ama Mion-san büyük bir inançla 'Çok tutacak ve büyük bir mağaza olacak!' diyor.`
 ` diyor."`
 `...Okul üniformaları satan ikinci el bir giyim mağazası müşteriyle mi taşacak?`
 `...Anlam veremiyorum.`
