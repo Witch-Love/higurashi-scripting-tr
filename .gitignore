@@ -8,3 +8,5 @@ story-backup
 story-backup-plain
 start.bat
 SortContributing.py
+/.idea
+characterCheckerBlacklist.txt
