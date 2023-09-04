@@ -32,14 +32,14 @@
 			"Id": 4,
 			"Script": "onik_tips_05",
 			"UnlockChapter": 3,
-			"Title": "The Hinamizawa Dam Project",
+			"Title": "Hinamizawa Baraj Projesi",
 			"TitleJp": "雛見沢ダム計画"
 		},
 		{
 			"Id": 5,
 			"Script": "onik_tips_06",
 			"UnlockChapter": 3,
-			"Title": "Special tabloid report",
+			"Title": "Özel gazete haberi",
 			"TitleJp": "週刊誌の特集記事"
 		},
 		{

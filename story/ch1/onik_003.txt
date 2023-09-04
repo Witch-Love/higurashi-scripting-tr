@@ -1,11 +1,11 @@
-`"Albay Sanders!?`
+`"Colonel Sanders!?`
 ` Ah~ Elbette bu tam ona göre!"`
-`"...Satoko ve Rika-chan'ı eve götürmek istemesini anlıyorum.`
-` Ama Albay Sanders'ı anlayamıyorum! O dört gözlü moruğun nesi bu kadar iyi!?"`
-`"Bunu Rena'dan duymak daha iyi olur, değil mi?`
+`"...Rena'nın Satoko ve Rika-chan'ı eve götürmek istemesini anlıyorum.`
+` Ama Colonel Sanders'ı anlayamıyorum! O dört gözlü moruğun nesi bu kadar iyi!?"`
+`"Bunun cevabını Rena'dan duymak daha iyi olur, değil mi?`
 ` Muhtemelen sadece 'çünkü çok tatlı☆' diyecektir."`
-`"Rena sık sık... hazine avlamak için inşaat alanına gider mi?"`
-`"...Arada bir bakmaya gideceğini söylüyor."`
+`"Rena sık sık... hazine bulmak için inşaat alanına gider mi?"`
+`"...Arada bir bakmaya gideceğini söyler."`
 `"Ama... onun yaşında bir kızın çöpleri karıştırması..."`
 `"...Eğer Rena bundan hoşlanıyorsa, bence sorun yok."`
 `"Orada ne yapıyorlardı?`
@@ -14,12 +14,12 @@
 `"Hahaha! Uzun zaman önce durdurulmuştu."`
 `"...Herkes bir araya geldi ve ona karşı savaştı."`
 `Rika-chan'ın ağzından "savaşmak" gibi korkunç bir kelime duymak beni ürküttü.`
-`"Doğru ya!`
+`"Aynen öyle!`
 ` İnanılmazdı!`
 ` Hinamizawa'nın baraj gölüne gömüleceğini ve bu konuda hiçbir söz hakkımız olmadığını söylediler!"`
 `Burada bulunabilmemin tek nedeni protestonun başarılı olması yani.`
 `"Özür dilerim, özür dilerim!`
-` Sizi bekletmedim, değil mi? ...Değil mi?"`
+` Sizi beklettim mi acaba? ...Acaba?"`
 `"En derin özürlerimi sunarım, Keiichi-san. Burnumu pudralamam biraz zaman aldı!"`
 `"Satoko.`
 ` Tenekeyi kullanmak için gerçekten gitmen gerekene kadar bekle.`
@@ -43,10 +43,10 @@
 `"Baştan başla!`
 ` Katılacağımı söylemedim!`
 ` Ne kulübü bu?"`
-`"Kulübümüz ne yapıyor, şöyle... Karmaşık toplumumuzla başa çıkabilmek için farklı farklı kurallara uyarak çeşitli faaliyetler gerçekleştiriyoruz.`
+`"Kulübümüzün faaliyetleri, şöyle... Karmaşık toplumumuzla başa çıkabilmek için farklı farklı kurallara uyarak çeşitli etkinlikler düzenliyoruz.`
 ` ...Bazen bunlar sizin lehinizedir.`
 `Bazen de aleyhinize...!!"`
-`"...Rena oldukça zayıf... bu yüzden beni tek başıma bırakmamanı tercih ederim. İyi geçinmeye çalışalım."`
+`"...Rena oldukça zayıf... bu yüzden beni dışlayacak şeyler yapmamayı tercih ederim. İyi geçinmeye çalışalım."`
 `"Çok safsın, Rena!`
 ` En güçlü olanın hayatta kalması ormanın kanunudur!"`
 `...Bu kulağa biraz şüpheli gelmeye başlamıştı...`
@@ -64,17 +64,17 @@
 ` Sadece birinciliği hedefle!`
 ` ...Sırf 'bu bir oyun' diye yarım yamalak oynamaya izin yok!"`
 `"Toplumumuzun ikinci kuralı!`
-` Bu nedenle, mümkün olan tüm çabayı göstermek zorundasınız!"`
+` Buna bağlı olarak, mümkün olan tüm çabayı göstermek zorundasınız!"`
 `...Satoko'nun bunu söyleme şekli, "gerekiyorsa her yola başvur" der gibiydi."`
 `"...Elbette ben de elimden geleni yapacağım."`
-`"Oldukça zayıfım... ama elimden ne geliyorsa yapıyorum."`
+`"Rena oldukça zayıf... ama elimden ne geliyorsa yapıyorum."`
 `Ne söylemeye çalıştıklarını biliyordum.`
 `Herkesin zirveyi hedeflediği bir oyunda, sadece eğlenmek için oynamak sportmenliğe aykırıdır.`
 `"Pekâlâ. O zaman ben de... varımı yoğumu ortaya koyacağım!!"`
-`Bununla birlikte, nihayet kabul törenine hazırdım. Vaftizim.`
-`"Bir uyarı, Kei-chan.`
+`Bununla birlikte, nihayet kabul törenine hazırdım... Vaftizim.`
+`"Kei-chan, uyarmış olayım.`
 ` ...Rena oldukça çirkinleşebilir."`
-`Bu kabul töreni zor geçecek gibi görünüyor.`
+`Bu kabul töreni zor geçecek gibi görünüyor...`
 `Mion odanın arkasındaki öğrenci dolaplarını karıştırmaya başladı.`
 `...Oyunları okulda mı tutuyorlar?`
 ` ...Yani, bunlar kulüp ekipmanları, o yüzden sanırım sorun yok.`
@@ -82,9 +82,9 @@
 ` O yüzden bugün, aşina olacağın bir oyun oynayacağız.`
 ` Sıradan bir kart oyununa ne dersiniz...?`
 ` ...`
-`Dost Kazığı gibi mi!?"`
-`"Pekala! Hadi başlayalım!!"`
-`"Bir ceza olmadığı sürece gerçekten kendimi veremiyorum!`
+`Mesela, Bekâr Kaçtı!?"`
+`"Pekâlâ! Hadi başlayalım!!"`
+`"Bir ceza olmadığı sürece gerçekten insan kendini veremiyor!`
 ` Bu sefer kaybeden yüzünün boyanmasına mahkum olacak!`
 ` Ne dersiniz!?"`
 `"Whoa,`
@@ -92,546 +92,546 @@
 ` ...Kalıcı kalem olmayacak, değil mi?`
 ` ...Değil mi...?"`
 `...Kalıcı... Yüzümüzü kalıcı kalemle mi boyamak istiyor?`
-`"Bu mükemmel—!!!!"`
+`"Harika olur—!!!!"`
 `Satoko bu fikri destekledi.`
 `Böylesine ağır bir cezayı düşününce irkilmedi bile.`
 ` Oynamak için can atıyor gibiydi.`
 `...Eğer böyle olacaksa, ben de kaybedemem!`
-`"O zaman desteyi kesip dağıtmaya başlayacağım!"`
-`Dost Kazığı, Papaz Kaçtı ile hemen hemen aynıdır.`
-`Tek bir farkı var: Joker yok.`
-` In its place, one card is pulled out at the start.`
-`Meaning there will be one card without a match left over at the end.`
-`You don't know which card will end up being the joker.`
-` It's a pretty thrilling game!`
-`"I'll take out the card now."`
-`Mion took out one card and left it face down on the table.`
-`Everybody stared at the card intently.`
-`"Well, it'll be pretty obvious in the endgame.`
-` No way to tell at the start."`
-`But... the rest of them were very serious.`
-` They didn't seem as relaxed as I was.`
-`They compared their cards to the one face down, all the while gauging each other's reactions.`
-`It was as if...they could see what the face down card was...`
-`...No, it couldn't be.`
-`"...This deck is pretty worn out.`
-` ...No way... Can everyone tell by the scratches what the card on the table is...?"`
-`"Remember the second rule of our society~`
-` Keiichi-san must try his hardest to win as well~!"`
-`"A number of cards are quite unique... Keiichi-kun should be able to remember them pretty quickly."`
-`She said that so matter-of-factly.`
-`"S-Suits me fine!!`
-` Don't think a little thing like that can be your crutch!!!"`
-`...I lashed out angrily, but it was rather obvious I was at a disadvantage.`
-`After all... they'd gone so far as to memorize the wear and tear for each individual card...!`
-`This wasn't a simple game of Old Bachelor.`
-` ...If this was a test...`
-` then they were playing with the answer sheet in front of them!!`
-`Bring it!`
-` I'll take advantage of your carelessness and beat you at your own game...!`
-`...That baseless confidence... would soon be crushed...`
+`"O zaman desteyi kesiyorum... ve dağıtıyorum!"`
+`Bekâr Kaçtı, Papaz Kaçtı ile hemen hemen aynı şey.`
+`Tek bir farkı var: joker yok.`
+` Onun yerine, başlangıçta desteden bir kart çıkartırsın.`
+`Yani sonunda eşi bulunmayan bir kart kalır.`
+`Hangi kartın joker olacağını önceden tahmin edemezsin.`
+` Oldukça heyecan verici bir oyun!`
+`"Şimdi kartı çıkartacağım."`
+`Mion bir kart çıkarttı ve yüzü aşağı bakacak şekilde masanın üzerine koydu.`
+`Herkes dikkatle karta baktı.`
+`"Ne olduğu, oyunun sonunda çok bariz olacak.`
+` Başlangıçta anlamanın bir yolu yok."`
+`Ama... diğerleri çok ciddiydi.`
+` Benim kadar rahat görünmüyorlardı.`
+`Bir yandan birbirlerinin tepkilerini ölçerken, bir yandan da kendi kartlarını kapalı olanla karşılaştırdılar.`
+`Sanki...kapalı kartın ne olduğunu görebiliyorlardı...`
+`...Hayır, öyle olamaz.`
+`"...Bu deste oldukça yıpranmış.`
+` ...Yok artık... Herkes masadaki kartın ne olduğunu üstündeki çiziklerden anlayabiliyor mu...?"`
+`"Toplumumuzun ikinci kuralını hatırlayın~`
+` Keiichi-san da kazanmak için elinden geleni yapmalı~!"`
+`"Bazı kartlar oldukça benzersiz... Keiichi-kun onları oldukça çabuk hatırlayabilmeli."`
+`Dedi, çok kesin bir şekilde.`
+`"Ö-Öyle olsun!!`
+` Böyle küçük bir şeye dayanarak kazanacağınızı sanmayın!!!"`
+`...Öfkeyle karşılık verdim ama dezavantajlı olduğum çok açıktı.`
+`Ne de olsa... her bir kart için aşınma ve yıpranmayı ezberleyecek kadar ileri gitmişlerdi...!`
+`Bu basit bir Bekâr Kaçtı oyunu değildi.`
+` ...Eğer bu bir sınavsa...`
+` o zaman önlerinde cevap kağıdıyla oynuyorlardı!!`
+`Haydi bakalım!`
+` Dikkatsizliğinizden yararlanıp sizi kendi oyununuzda yeneceğim...!`
+`...Bu temelsiz özgüven... yakında ezilecekti...`
 `"Kekeke!`
-` How about I tell you your hand starting from the right?`
-` Three,`
-` Four,`
-` Nine,`
-` Jack,`
-` Queen."`
+` Sağdan başlayarak Keii-chan'a elini söyleyeyim mi?`
+` Üç,`
+` Dört,`
+` Dokuz,`
+` Vale,`
+` Kız."`
 `"WaAargh!!"`
-`"...By the way, the bachelor is the Jack of Diamonds."`
+`"...Bu arada, bekâr olan Karo Valesi."`
 `"GaAaRgh!!"`
-`"I can tell what they are even if you switch them around!`
-` I am out!!"`
+`"Yerlerini değiştirsen bile ne olduklarını söyleyebilirim!`
+` Ben bittim!!"`
 `"UuUrrgh!!"`
-`I thought I was prepared... but for it to be this brutal... Just overwhelming...!!!`
-`"D... Demons...`
-` You're all demons...!`
-` Rena... isn't... a demon, are you...?"`
-`"S-Sorry, Keiichi-kun.`
-` ...This is the Three of Hearts, isn't it?`
-` ...I'm out!"`
+`Hazır olduğumu sanıyordum... ama bu kadar acımasız olması... Dayanılır gibi değil!!!!`
+`"Ş... Şeytanlar...`
+` Hepiniz şeytansınız...!`
+` Rena... şeytan... değil, değil mi...?"`
+`"Ö-Özür dilerim, Keiichi-kun.`
+` ...Bu Kupa Üçlü, değil mi?`
+` ...Ben bittim!"`
 `"UwaAaaAaaAaaaAAah!!"`
-`Not even a hint of mercy...!!`
-` Rena... Even Rika-chan...!!`
-`These club activities weren't to be trifled with.`
-` An alumnus of this club would definitely survive in the cruelest of situations...`
-`If our entire class had self-detonating collars strapped to their necks and were dropped into a death match on a deserted island, these guys would probably take to it like fish to water.`
-`I can already picture their joy as they hunt down each of their classmates...`
-`"It's a lowest point system.`
-` The order itself dictates the points. Whoever has the lowest point total wins!"`
-`"...Since Keiichi finished last, he has five points."`
-`There's already a 5 marked down on my scoreboard...!`
-`"...I-I think it's unfair to Keiichi-kun if we don't use a new deck."`
-`"It's fine, it's fine. Kei-chan is a man after all.`
-`He can turn the tables even if the odds are stacked against him, right!?"`
-`"It's fitting for a lowly peasant to scamper home and soak their pillow in tears, don't you think~??"`
-`A petite hand laid itself on top of my head, which was trembling from uncontainable frustration.`
-` ...It was Rika-chan's.`
-`"...Keep on fighting,`
-` yeah~."`
-`Thanks to Rika-chan's words of encouragement, I was able to calm down.`
-`You need to be calm, especially when you're cornered.`
-` ...That's the "power" I could muster during this crisis.`
-`Think clearly, Keiichi Maebara.`
-`...Take your time and look at the cards carefully.`
-`It's just as Rena said, several of the cards have their own distinct markings making them stand out. Memorizing them should be pretty simple.`
-`Think about what you can do in this situation. Try everything in your power to improve your chances of victory.`
-`"Whoa... Great, Keiichi-kun. Just like that!"`
-`I covered the uniquely-marked cards with my hands or other cards, arranging them in such a way that they couldn't be seen.`
-`"...The one with the ripped corner should be the Five...`
-` And... I'm out."`
-`I couldn't let any of those precious hints slip by me.`
-` All information is a weapon.`
-`Then it was my turn.`
-`Satoko fanned out her cards for me.`
-`"You see, I want the Seven.`
-` ...Is it this one?"`
-`"...I wonder about that...`
-` You won't know unless you take it..."`
-`There was a bit of dismay in her expression.`
-` ...Like she doesn't want it taken... That kind of expression...!`
-`I won't let that momentary lapse slip by me!!`
-`"I know!!`
-` It's this ooooone!!!!"`
-`Got it!`
-` Seven of Spades...!!!`
-`A cheer of "Ooo!" rang out!`
-`"W-Wh-Wh-What is this!?`
-` The Seven should be the hardest one of all to tell apart~!?!?!"`
-`It wasn't from memorizing the markings. Those slight changes in their expressions as I was selecting a card were enough!`
-`"Can't hide it from me, Kei-chan!`
-` ...This mark means it's the Two of Diamonds.`
-` ...What!?"`
-`She was startled by her own misread.`
-` Of course everyone else was too...!`
+`Bir parça bile merhamet yok...!!`
+` Rena... hatta Rika-chan...!!`
+`Bu kulüp aktiviteleri hafife alınacak şeyler değildi.`
+` Bu kulübün bir mezunu en acımasız durumlarda bile hayatta kalabilirdi...`
+`Eğer sınıfça boynumuza patlayıcı tasma takılacak ve ıssız bir adaya bırakılıp ölesiye dövüştürülecek olsaydık, bu çocuklar herhalde suya bırakılan balık gibi sevinirlerdi.`
+`Sınıf arkadaşlarının her birini avlarken duyacakları sevinci şimdiden hayal edebiliyorum...`
+`"Sistem en düşük puana göre.`
+` Puanları, sıranın kendisi belirliyor. En düşük puana sahip olan kazanır!"`
+`"...Keiichi sonuncu olduğu için beş puanı var."`
+`Puan tabloma şimdiden bir 5 yazılmış...!`
+`"...B-Bence yeni bir deste kullanmazsak Keiichi-kun'a haksızlık olur."`
+`"Sorun değil, sorun değil. Kei-chan sonuçta bir erkek.`
+`Şartlar aleyhine olsa bile durumu tersine çevirebilir, değil mi!?"`
+`"Aşağılık bir köylü gibi eve kaçıp gözyaşlarıyla yastığını yıkaması uygun olur, değil mi~??"`
+`Minik bir el, kontrol dışı bir hüsrandan titreyen başımın üzerine uzandı.`
+` ...Rika-chan'ın eliydi.`
+`"...Savaşmaya devam et,`
+` evet~."`
+`Rika-chan'ın cesaretlendirici sözleri sayesinde sakinleşebildim.`
+`Sakin olmalısın, özellikle de köşeye sıkıştığında.`
+` ...Bu kriz sırasında toplayabildiğim "güç" buydu.`
+`İyi düşün, Keiichi Maebara.`
+`...Acele etme ve kartlara dikkatlice bak.`
+`Rena'nın dediği gibi, kartların birçoğunun kendine özgü işaretleri var ve bu da onları belirgin kılıyor. Onları ezberlemek oldukça basit olmalı.`
+`Bu durumda ne yapabileceğini düşünün. Kazanma şansını artırmak için elinden gelen her şeyi yap.`
+`"Vay... Harika, Keiichi-kun. İşte böyle!"`
+`Barizce işaretli kartları ellerimle ya da başka kartlarla kapatarak görünmeyecekleri şekilde dizdim.`
+`"...Köşesi yırtık olan Beşli olmalı...`
+` Ve... Ben bittim."`
+`O değerli ipuçlarından hiçbirinin elimden kaçmasına izin veremezdim.`
+` Tüm bilgiler birer silahtır.`
+`Sonra sıra bana geldi.`
+`Satoko benim için kartlarını açtı.`
+`"Görüyorsun, Yedili'yi istiyorum.`
+` ...Bu mu acaba?"`
+`"...Kim bilir...`
+` Onu almadan bilemezsin..."`
+`Yüz ifadesinde biraz endişe vardı.`
+` ...Sanki alınmasını istemiyormuş gibi... Bu tür bir ifade...!`
+`Bu anlık hatanın elimden kaçmasına izin vermem!!`
+`"Biliyorum!!`
+` İşte buuuu!!!!"`
+`Aldım!`
+` Maça Yedili...!!!`
+`"Ooo!" diye bir tezahürat yükseldi!`
+`"B-Bu-Bu-Bu da ne!?`
+` Ye-Yedili ayırt etmesi en zor olan olmalı~!?!?!"`
+`İşaretleri ezberlemekten değildi. Bir kart seçerken yüz ifadelerindeki o ufak değişiklikler yeterliydi!`
+`"Bunu benden saklayamazsın, Kei-chan!`
+` ...Bu işaret Karo İkili olduğu anlamına geliyor.`
+` ...Ne!?"`
+`Kendi hatalı okuyuşu onu ürkütmüştü.`
+` Tabii ki diğer herkes de öyle...!`
 `"...Whoa`
-` ...It's rare that Mii-chan gets a card wrong."`
-`"N-No...`
+` ...Mii-chan nadiren bir kartı yanlış okur."`
+`"H-Hayır...`
 ` Kei-chan`
 ` ...`
-` Could it be... you...!!"`
-`They told them apart by different "marks."`
-` That mark was a "nail scratch."`
-`So... I put...`
-` a new one on it!!`
-`"Are you saying he disguised it... as the Two of Diamonds!?`
-` W...What an impressive show of wit...!!"`
-`"...Keiichi landed a clean hit."`
-`Clap clap clap...`
-`"That's great, Keiichi-kun!`
-` That was an incredible match, you know!? You know!?"`
-`Having defeated the forerunner, Mion, my brilliant battle left me ecstatic.`
-`But by total points, it was already set in stone that Mion would win and I would finish last.`
-`I laughed haughtily, selecting the tone of my voice carefully to get on Mion's nerves.`
-`"...Well... I'm going to end up the loser, but I'm satisfied with one-upping Mion at the end.☆`
-` Bwahahahahahaa~...♪"`
-`That should be the proverbial slap in the face to Mion, who was at the top already and ensured victory...!`
-`"Even if Kei-chan gets first place this round, he'll still end up last place overall`
+` Sen... mi yaptın...!!"`
+`Onları farklı "işaretlerle" ayırt ediyorlardı.`
+` Bu işaret bir "tırnak çiziğiydi."`
+`Bu... yüzden...`
+` yeni bir işaret koydum!!`
+`"Onu Karo İkili olarak... gizlediğini mi söylüyorsun!?`
+` N...Ne kadar etkileyici bir zekâ gösterisi!!!"`
+`"...Keiichi tam isabet vurdu."`
+`Clap clap clap..`
+`"Bu harika, Keiichi-kun!`
+` İnanılmaz bir maçtı, biliyor musun!? Biliyor musun!?"`
+`Başı çeken Mion'u yendikten sonra, muhteşem savaşım beni kendimden geçirmişti.`
+`Ancak toplam puana bakılırsa, Mion'un kazanacağı ve benim sonuncu olacağım çoktan kesinleşmişti.`
+`Mion'un sinirlerini bozmak için sesimin tonunu dikkatle seçerek kibirli bir şekilde güldüm.`
+`"...Şey... Kaybeden ben olacağım, ama sonunda Mion'u Karo'yla alt ettiğim için mutluyum.☆`
+` Bwahahahahaa~...♪"`
+`Bu, zaten zirvede olan ve zaferi garantilemiş olan Mion'a efsanevi bir tokat olmalı...!`
+`"Bu turun birincisi Kei-chan olsa bile, yine de genel olarak sonuncu olacak`
 ` ...`
-`Don't you hate that?"`
-`"Of course I do!"`
-`"Let's have a duel.`
-` One chance!`
-` If you win, then we'll swap first and last place! ...How about it!? You up for it!?"`
-`She fell for it!`
-`A chance for an upset that wouldn't be possible without goading her into it!!`
-`"One chance, you say?`
-` Let me hear the rules."`
-`Mion discarded two cards from her hand and replaced one with the joker card that was on the table, then shuffled the resulting hand behind her back.`
-`"The card in my right or the card in my left!`
-` If Kei-chan can guess which hand the joker's in, then he wins!"`
-`"When you turned around just now, you didn't pull out the joker, did you!?"`
-`"If you lose, I'll show the card in the other hand.`
-` That okay?"`
-`The other three gulped nervously at this unexpected turn of events.`
-`"...All right!!`
-` You've got it!!!!"`
-`Mion grasped one card in each hand and thrust them out at me!`
-`First, I needed to inspect them closely...!`
-`The card on the right had no distinguishing marks, I couldn't tell which one it was.`
-`"...Which one, I wonder... Keiichi-kun... Be careful!"`
-`"Yeah, of course! ...This is my chance... for a big comeback!!"`
-`Looking closely at the card on the left, I saw a little wear. It wasn't one I hadn't seen before.`
-`"Ah... That card is...!!"`
-`I didn't let that bit from Satoko slip by me.`
-`Mion clucked her tongue.`
-`I didn't recognize the mark on the left card from the small number that I had memorized.`
-`I didn't know what the left card was, but I could tell from Satoko's reaction that the card had already appeared during the game.`
-`Since it had already appeared before, it meant that it definitely wasn't the joker!`
-`"...Ooh.`
-` Kei-chan thinks it's the one on the right?`
-` Will you choose that one then?`
-` Will you?"`
-`...The left card definitely wasn't the joker. If I could trust that theory, then I should've been able to declare that the card to the right was the joker.`
-`Even without Mion's taunting... The one on the right was the most suspicious.`
-`But wasn't it a bit too rash to decide based solely on Satoko's reaction!?`
-` More... carefully...`
+`Bundan nefret etmiyor musun?"`
+`"Tabii ki ediyorum!"`
+`"Hadi bir düello yapalım.`
+` Tek şans!`
+` Eğer sen kazanırsan, ilk ve son sırayı değiştiririz! ...Ne dersin!? Var mısın!?"`
+`Kandı!`
+`Onu kışkırtmadan mümkün olmayacak bir çevirme şansı!!`
+`"Tek şans mı diyorsun?`
+` Kuralları duyayım."`
+`Mion elindeki iki kartı çıkarttı ve birini masadaki joker kartıyla değiştirdi, ardından ortaya çıkan eli arkasına doğru karıştırdı.`
+`"Sağ elimdeki mi sol elimdeki mi!`
+` Eğer jokerin hangi elimde olduğunu tahmin edebilirse, o zaman Kei-chan kazanır!"`
+`"Az önce arkanı dönerken jokeri çıkartmadın, değil mi!?"`
+`"Eğer Kei-chan kaybederse, diğer elimdeki kartı göstereceğim.`
+` Öyle olur mu?"`
+`Diğer üçü olayların bu beklenmedik dönüşü karşısında endişeyle yutkundu.`
+`"...Pekâlâ!!`
+` Yapalım öyleyse!!!!"`
+`Mion her iki elinde birer kart tuttu ve bana uzattı!`
+`Önce onları yakından incelemem gerekiyordu...!`
+`Sağdaki kartta ayırt edici hiçbir işaret yoktu, hangisi olduğunu anlayamadım.`
+`"...Hangisi, merak ediyorum... Keiichi-kun... Dikkatli ol!"`
+`"Evet, tabii ki! ...Büyük bir comeback yapmam için... bir fırsat doğdu!!"`
+`Soldaki karta yakından baktığımda biraz yıpranmış olduğunu gördüm. Daha önce görmediğim bir şey değildi.`
+`"Ah... Bu kart...!!"`
+`Satoko'nun söylediklerinin gözümden kaçmasına izin vermedim.`
+`Mion dilini şaklattı.`
+`Ezberlediğim küçük sayıdan soldaki kartın üzerindeki işareti tanıyamadım.`
+`Soldaki kartın ne olduğunu bilmiyordum ama Satoko'nun tepkisinden o kartın oyun sırasında zaten karşıma çıkmış olduğunu anlayabiliyordum.`
+`Daha önce karşıma çıktığına göre, bu kesinlikle joker olmadığı anlamına geliyordu!`
+`"...Hmmm.`
+` Kei-chan sağdaki olduğunu mu düşünüyor?`
+` O zaman sağı mı seçeceksin?`
+` Sağ mı?"`
+`...Soldaki kart kesinlikle joker değildi. Eğer bu teoriye güvenebilseydim, o zaman sağdaki kartın joker olduğunu söyleyebilirdim.`
+`Mion'un kışkırtmaları olmasa bile... Sağdaki kart en şüpheli olanıydı.`
+`Ama sadece Satoko'nun tepkisine bakarak karar vermek biraz acelecilik olmaz mıydı!?`
+` Daha... dikkatli...`
 ` ...`
 ` Ah!`
-`...I remember now...!!`
-` That mark... The left card...`
-` No doubt about it!`
-` The Seven of Clubs!!!`
-`"Hmm...`
-` It's the Seven of Clubs, I see..."`
-`I've won!`
-` The card on the left was the Seven of Clubs!`
-`So that meant the card on the right was... the joker!!!!`
-`And then, just before my hand touched the right card, I froze.`
+`...Şimdi hatırladım...!!`
+` O işaret... Soldaki kart...`
+` Hiç şüphe yok!`
+` Sinek Yedili!!!`
+`"Oh...`
+` Gördüğüm kadarıyla Sinek Yedili..."`
+`Ben kazandım!`
+` Soldaki kart Sinek Yediliydi!`
+`Bu da sağdaki kartın... joker olduğu anlamına geliyordu!!!!`
+`Ve sonra, elim sağdaki karta dokunmadan hemen önce, donup kaldım.`
 `"...Huhuhuh...`
 ` heheheh...`
-` I would expect no less from you."`
-`There was a wave of murmurs amongst the onlookers at my sudden halt, right before I confirmed the right card was the joker.`
+` Mion'dan daha azını beklemezdim."`
+`Doğru kartın joker olduğunu onaylamadan hemen önce, ani duruşum karşısında seyirciler arasında bir mırıltı dalgası oluştu.`
 `"??`
-` Huh?`
-` What could Keiichi-san possibly be saying??`
-` I mean, the left one is..."`
+` He?`
+` Keiichi-san ne diyor olabilir??`
+` Yani, soldaki..."`
 `"...Shh."`
-`"Ooh...`
-` What makes you so certain that the right one isn't the joker, Kei-chan?"`
-`Mion let loose an unexpected question.`
-` Everyone else was baffled.`
-`"I don't know what the card on the right could be.`
-` But I know that the one on the left is the Seven of Clubs."`
-`"Then!`
-` Doesn't that leave the right one as the joker!?`
-` One of them has to be the joker, right!?"`
-`"Yeah.`
-` ...One of those is the joker, right?"`
-`"...Keiichi has good intuition."`
-`"Huh?`
-` Rika-chan, what do you mean by...?"`
-`"So basically...`
-` the Seven of Clubs...`
-` I discarded that by matching it with Satoko's Seven of Spades earlier...!"`
-`Everyone's attention snapped to the discard pile at the same time!`
-`The truth of the matter couldn't be discerned from that sloppy pile...!`
-`"So that means...`
-` Mion pocketed one of the discarded cards... then aligned it over the left card... and that means—!!!"`
-`"...I see, I get it!`
-` This left card... is being disguised as the Seven of Clubs, right!?"`
-`It was the first time since the start of the match that a shadow ran across Mion's expression, and I didn't let that slip by.`
-`Then... with a grand flourish, I declared it loudly!!`
-`"The joker is...`
+`"Heh...`
+` Kei-chan sağdakinin joker olmadığından nasıl bu kadar emin olabiliyor?"`
+`Mion beklenmedik bir soru sordu.`
+` Herkes şaşkındı.`
+`"Sağdaki kartın ne olabileceğini bilmiyorum.`
+` Ama soldakinin Sinek Yedili olduğunu biliyorum."`
+`"O zaman!`
+` Sağdakinin joker olması gerekmiyor mu!?`
+` İçlerinden biri joker olmalı, değil mi!?"`
+`"Evet.`
+` ...Bunlardan biri joker, değil mi?"`
+`"...Keiichi'nin sezgileri iyiymiş."`
+`"Ne?`
+` Rika-chan, ne demek istiyorsun...?"`
+`"Yani özetle...`
+` Sinek Yedili...`
+` Onu önceden Satoko'nun Maça Yedilisiyle eşleştirerek çıkartmıştım...!"`
+`Herkesin dikkati aynı anda ıskarta yığınına yöneldi!`
+`O özensiz yığından işin aslı anlaşılamıyordu...!`
+`"Demek ki...`
+` Mion atılan kartlardan birini çıkarttı... sonra onu soldaki kartın üzerine hizaladı... ve bunun anlamı—!!!"`
+`"...Anladım, anladım!`
+` Bu sol kart... Sinek Yediliymiş gibi gösteriliyor, değil mi!?"`
+`Maçın başından beri ilk kez Mion'un yüz ifadesinde bir gölge belirdi, ve ben de bunun gözümden kaçmasına izin vermedim.`
+`Sonra... büyük bir gösterişle, yüksek sesle ilan ettim!!`
+`"Joker...`
 ` ...`
-` the left ooooooooooone!!!!!!"`
-`It was an intense moment...!`
-` That one second felt like an eternity for everyone there.`
-`Breaking that silence, the first one to speak... was Mion.`
-`"...Being the first president of this club, I've been witness to a variety of performances.`
+` soldakiiiiiiiiiiiiiii!!!!!!"`
+`Hararetli bir andı...!`
+` O bir saniye oradaki herkes için sonsuzluk gibi geldi.`
+`Sessizliği bozan ilk kişi... Mion oldu.`
+`"...Bu kulübün ilk başkanı olarak, çeşitli performanslara tanık oldum.`
 ` Kei-chan...`
-` yours is...`
-` the best.`
-` ...The best of the best of the best!"`
-`That was probably the greatest compliment Mion could give.`
-` Mion accepted her defeat... dropping the cards from both hands.`
-`...My...`
-` comeback victory!!!!!!!`
-`Rika-chan placed her hand on my head and began petting it, congratulating me on my victory.`
-`"Huh...?`
-` ...Rika-chan is...?"`
-`Rena and Satoko gaped at us... as if they had seen a ghost.`
-`"What is it, Rena? It's not as if I cheated or anything, right?? This was fair and square!"`
-`"...Rika... only pets someone on the head...to console them."`
-`Huh...? What's the meaning of...?`
-`At that moment, Rena let out a small shriek.`
+` seninki...`
+` en iyisi.`
+` ...En iyinin en iyisinin de en iyisi!"`
+`Bu muhtemelen Mion'un edebileceği en büyük iltifattı.`
+` Mion iki elindeki kartları da düşürerek... yenilgiyi kabul etti.`
+`...Benim...`
+` comeback zaferim!!!!!!!`
+`Rika-chan elini başıma koydu ve zaferimi kutlamak için başımı okşamaya başladı.`
+`"Ha...?`
+` ...Rika-chan...?"`
+`Rena ve Satoko sanki bir hayalet görmüş gibi bize bakakaldılar...`
+`"Ne oldu, Rena? Sonuçta hile falan yapmadım, değil mi?? Bu adil ve dürüst bir kapışmaydı!"`
+`"...Rika... sadece teselli etmek için...birinin başını okşar."`
+`Huh...? Bu da ne demek oluyor...?`
+`O anda, Rena küçük bir çığlık attı.`
 `"Ke... Keiichi-kun...!`
-` ...This is how it was...!?!?"`
-`"You know, Kei-chan.`
-` I thought you'd read into it that far.`
+` ...Demek böyleydi...!?!?"`
+`"Biliyor musun, Kei-chan.`
+` Bu kadarını tahmin edeceğini düşünmüştüm.`
 ` ...Heheheh!"`
-`Everyone froze.`
-` ...No, it was just me...`
-`"It was a gamble.`
-` If you had just jumped to conclusions like a little brat, then I would have lost."`
-`...It was the answer everyone was certain about...`
-`Mion picked up the card from the losing hand...`
-`"Kei-chan, you know, you should take pride in this loss."`
-`She turned it around...`
-`...That was... the card that proclaimed the victor of this duel.`
-`The card under the Seven of Clubs`
+`Herkes donup kalmıştı.`
+` ...Hayır, sadece ben kalmıştım...`
+`"Bu bir kumardı.`
+` Eğer küçük bir velet gibi hemen sonuca atlasaydın, o zaman kaybederdim."`
+`...Herkesin emin olduğu cevap buydu...`
+`Mion kaybeden eldeki kartı aldı...`
+`"Kei-chan, aslında bu mağlubiyetle gurur duymalısın."`
+`Kartı çevirdi...`
+`...Bu... bu düellonun galibini ilan eden karttı.`
+`Sinek Yedilinin altındaki kart`
 ` ...`
-` Unbelievable! It was the Two of Diamonds!`
-`I-It was a setup behind the setup...!!`
-` If I'd just picked the right one without reading so deeply into it...!`
-`"...I, Mion Sonozaki, as the club president...`
-` do accept...`
-` Keiichi Maebara's membership...into our club...!!!"`
-`As I slumped to my knees, dazed, everybody let out a round of applause for the excellent effort I gave despite my defeat.`
-`"The match is now over!!`
-` Today's victor is me! Mion Sonozaki! And our exalted loser is...`
-` Keiichi Maebara~!!!"`
-`Everyone made a commotion, applauding cheerfully.`
-`I felt I was bested, but I was so soundly beaten that it unexpectedly felt rather refreshing...`
-`"When Mii-chan pulled that little trick behind her back I got excited, thinking, 'She's going to do it again!'"`
-`"When Keiichi-san stopped the moment before touching the correct card, I thought, 'He fell for it~!'"`
-`"...He fell for it quite handily."`
+` İnanılır gibi değil! Karo İkiliydi!`
+`T-Tuzağın arkasında bir tuzak vardı...!!`
+` Bu kadar derinlemesine düşünmeden doğru olanı seçseydim...!`
+`"...Ben, Mion Sonozaki, kulüp başkanı olarak...`
+` Maebara Keiichi'yi...`
+` kulübümüze üye olarak...kabul ediyorum...!!!"`
+`Sersemlemiş bir şekilde dizlerimin üzerine çöktüğümde, yenilgime rağmen gösterdiğim mükemmel çaba için herkes beni alkışladı.`
+`"Maç sona erdi!!`
+` Bugünün galibi benim! Sonozaki Mion! Ve şanlı kaybedenimiz...`
+` Maebara Keiichiiii~!!!"`
+`Herkes neşeyle alkışlayarak kargaşa çıkardı.`
+`Yenildiğimi hissettim, ama o kadar sağlam bir şekilde yenilmiştim ki nasıl oluyorsa ferahlatıcı hissettiriyordu...`
+`"Mii-chan arkasında o küçük numarayı yaptığında heyecanlandım ve 'Yine yapacak!' diye düşündüm."`
+`"Keiichi-san doğru karta dokunmadan bir an önce durduğunda, 'Kandı~!' diye düşündüm."`
+`"...Oldukça kolay bir şekilde kandı."`
 `...Huh?`
-`Hey, wait.`
-`All of them knew from the start and still got so excited so earnestly...??`
-`"...Everyone got excited to make it more fun."`
+`Hey, bekle.`
+`Hepsi başından beri biliyor olmasına rağmen bu kadar heyecanlandılar mı...??`
+`"...Herkes daha eğlenceli hale getirmek için heyecanlandı."`
 `...`
-` You...`
-`"You're all demoooons! You monsters~!!!"`
-`"Now, then, Kei-chan... it's time for your penalty...!`
-` Since it's your first day participating,`
-` I'll go easy, okay?`
-` ...It would be a problem if you refused to come to school!"`
-`The other three members held down my arms and shoulders firmly.`
-`Mion approached, licking her lips...`
-`Her right hand went to pull something out of her pocket.`
-`That's... a felt-tip marker!! And it's... a giant permanent one!!!`
-`"Okay...Here we gooo~!"`
-`She took the cap off the marker and brought it slowly up to my face while I was immobilized...!`
-`"N-No...`
-` NOoOoOoOoo...oo...oo...!!!"`
-`I let out my death throes...`
-`As soon as the club activities were finished, Rena flew off.`
-`Probably so she could dig out that 'kyute' Colonel Sanders that she wasn't able to take home yesterday.`
-`So today it was just Mion and me walking home together, a rather rare occurrence.`
-`"A mountain of treasure, huh...`
-` The guys throwing it away probably never thought in their wildest dreams that Rena would be grateful to them."`
-`"Mountain of treasure," meaning that dam construction site from before.`
-`...Oh, right. Mion would probably tell me.`
-`That murder by dismemberment that seemed to have happened there...`
-`"Over there, you know, at that dam construction site.`
-` ...Did something happen there?`
-` Long ago?"`
-`"Something sure did. A grand battle!`
-` There were sit-ins and demonstrations!"`
-`It was a bit different from what I wanted to hear, but I decided I'd listen just the same.`
-`"It was our land that was going to be sunk into the dam reservoir.`
-` I would have fought as well, probably."`
-`"The government guys were really adamant about it.`
-` Acting all big and full of themselves!`
-` Since they figured out that they couldn't settle it with money, they did a bunch of nasty stuff!`
-` They were nasty guys!"`
-`Mion spoke excitedly, as if the whole thing was happening right in front of her.`
-`"I'm amazed you guys won... You were facing the federal government, right?"`
-`"The mayor and prominent figures in the village all signed petitions.`
-` They went to Tokyo and struck deals with legislators...`
-` And as a result, the development plan was retracted.`
-` It was our complete victory!`
+` Hepiniz...`
+`"Hepiniz şeytansınıııız! Sizi canavarlaaaar~!!!"`
+`"Şimdi, o zaman, Kei-chan... cezanın zamanı geldi...!`
+` Katıldığın ilk gün olduğu için,`
+` Üstüne çok gitmeyeceğim, tamam mı?`
+` ...Okula gelmeyi reddedersen bu bir sorun olur!"`
+`Diğer üç üye kollarımı ve omuzlarımı sıkıca tuttu.`
+`Mion dudaklarını yalayarak yaklaştı...`
+`Sağ eli cebinden bir şey çıkarmaya gitti.`
+`Bu... bir keçeli kalem!! Hem de... devasa ve kalıcı olanından!!!`
+`"Tamam...Haydi başlıyoruzzz~!"`
+`Kalemin kapağını çıkardı ve ben sabitlenmişken yavaşça yüzüme yaklaştırdı...!`
+`"H-Ha...`
+` HAaAaAaYııı...ıı...rr...!!!"`
+`Ölüm feryatları kopardım...`
+`Kulüp faaliyetleri biter bitmez Rena uçup gitti.`
+`Muhtemelen dün eve götüremediği 'tatlı' Colonel Sanders'ı kazmak için.`
+`Yani bugün sadece Mion ve ben eve yürüyorduk, bu oldukça nadir bir şeydi.`
+`"Hazine dağı, ha...`
+` Onu çöpe atanlar muhtemelen en çılgın rüyalarında bile Rena'nın onlara minnettar olacağını düşünmemişlerdir."`
+`"Hazine dağı", daha önceki baraj şantiyesini kastediyor.`
+`...Ah, doğru ya. Mion muhtemelen bana söylerdi.`
+`Orada gerçekleşmiş gibi görünen parçalayarak öldürme olayı...`
+`"Orada, şey, baraj şantiyesinde.`
+` ...Orada bir şey mi oldu?`
+` Uzun zaman önce?"`
+`"Bir şey olduğu kesin. Büyük bir savaş verildi!`
+` Oturma eylemleri ve gösteriler yapıldı!"`
+`Duymak istediğim şeylerden biraz farklıydı ama yine de dinlemeye karar verdim.`
+`"Baraj gölüne gömülecek olan bizim topraklarımızdı.`
+` Muhtemelen ben de mücadele ederdim."`
+`"Hükümet adamları bu konuda bir hayli ısrarcıydı.`
+` Büyüklük taslıyor ve ukalalık yapıyorlardı!`
+` Bu işi parayla halledemeyeceklerini anladıkları için, bir sürü çirkin şey yaptılar!`
+` Onlar kötü adamlardı!"`
+`Mion sanki her şey gözünün önünde yaşanıyormuş gibi heyecanla konuştu.`
+`"Sizin kazanmanıza şaşırdım... Federal hükümetle karşı karşıyaydınız, değil mi?"`
+`"Belediye başkanı ve köyün önde gelenleri dilekçe imzaladı.`
+` Tokyo'ya gidip milletvekilleriyle anlaştılar...`
+` Ve sonuç olarak, imar planı geri çekildi.`
+` Bu bizim mutlak zaferimizdi!`
 `Ahahahahaha!"`
-`"There wasn't any... violence, was there?`
-` Like assaults... or murders?"`
-`"None."`
-`She promptly cut me off.`
-`The same as Rena had.`
-`Her words signaled the end of discussion.`
-`Tomitake-san said, "one arm wasn't found" in the 'incident.'`
-`I thought... that a murder by dismemberment had occurred... but I guess I was wrong.`
-`My curiosity unsated, I sighed dejectedly inside.`
-`"Later. See you tomorrow!`
-` Kei-chan! You can't wash that off until you get home, got it!?"`
-`"I got it. I won't!"`
-`Mion held back her laughter while stealing glances at my face.`
-`...I wonder what kind of nasty doodles they drew...`
-`Damn you, Mion! You shall rue this day...!`
-`If our roles are ever reversed... I'm going to go all out!`
-` All over your face so you won't be able to take it off, even with a scouring pad...!!!`
-`Upon arriving home, I ran straight into my mom, embarrassing myself yet again...`
-`The mood I'd come home to was already on edge.`
-`...It's not an uncommon thing in our family.`
-`Whenever Dad can't come up with a good idea, it always ends up like this.`
-`He stomps around the house with his arms crossed.`
-`Mom whispered into my ear.`
-`"Welcome home, Keiichi. ...Dad... he's in a bit of a rut right now, so don't bother him, okay?"`
-`"He can't come up with a new idea?"`
-`"It's because the deadlines are so close together this time.`
-` Your dad needs time to recharge or he doesn't work as well."`
-`Dad's paintings feed our entire family. If he runs out of ideas, then it's the end of the Maebaras.`
-`(...We've never gone hungry before.`
-` ...Could it be that my dad... is a master painter??)`
-`"...Wouldn't it be easier to get an idea taking a walk outside rather than wandering around the house?"`
-`"The theme of the piece this time is 'in the household.'`
-` So it seems your dad wants to use this house as a motif."`
-`...That's quite a bothersome motif.`
-`"...Keiichi!! Tidy your room for once in a while!! It looks terrible!"`
-`"S-Sorry! I'll clean it up later!"`
-`Ah, come on! Please don't use my room as the motif...!`
-`"Keiichi, there's still some time before dinner.`
-` So please go take a walk out back or something."`
-`Dad's moods are only temporary.`
-`As soon as he gets an idea, his mood improves and he starts humming.`
-`Until then, it wouldn't be a bad idea to just go take a walk so I don't aggravate him further.`
-`"Well, I guess I will then."`
-`I said I was going to take a walk, but I didn't have any particular destination in mind.`
-`I just needed to kill some time.`
-`I got on my bike and pondered where to go.`
-`I could just go read at the bookstore, but it would take about an hour by bike to get to town.`
-`It would be dark by the time I got back, so I didn't want to go unless I had to.`
-`The roads at night here in Hinamizawa creep me out.`
-`If Mion or Satoko ever found out about that...`
-` I smiled wryly.`
-`Oh yeah.`
-`Rena was probably still at the mountain of treasure... The dam construction site.`
-`The excavation of Colonel Sanders was probably taking her a while.`
-`It wouldn't be so bad to have her owe me one.`
-`"...She might return the favor next time we have club activities."`
-`With a little bit of self-interest in mind, I set off towards the dam construction site.`
-`Tomitake-san might be there as well.`
-`The only person with information about the incident that both Rena and Mion denied knowing anything about.`
-`If I met him again, I'd like to ask for more details...`
-`...To ask, "Was there really a dismemberment here in Hinamizawa?"`
-`That was my real intention.`
-`I spotted Rena struggling up on the slope of the garbage pile.`
-`It looked like Colonel Sanders was lodged in there pretty firmly.`
-`It didn't look like Rena would be able to excavate him by herself.`
-`Realizing that Tomitake-san wasn't around, I began climbing down the slope unsteadily.`
+`"Hiç... şiddet görülmedi, değil mi?`
+` Saldırı... ya da cinayet gibi?"`
+`"Hiç."`
+`Hemen sözümü kesti.`
+`Tıpkı Rena'nın yaptığı gibi.`
+`Onun sözleri tartışmanın bittiğini gösteriyordu.`
+`Tomitake-san, 'olayda' "bir kolun bulunamadığını" söylemişti.`
+`Parçalanarak işlenen... bir cinayet olduğunu düşünmüştüm... ama sanırım yanılmışım.`
+`Merakımı gideremeden, içimden kederli bir şekilde iç geçirdim.`
+`"Kaçtım. Yarın görüşürüz!`
+` Kei-chan! Eve gidene kadar yüzünü yıkayamazsın, anladın mı!?"`
+`"Anladım. Yıkamam!"`
+`Mion yüzüme bakarken kahkahalarını tuttu.`
+`...Ne tür iğrenç karalamalar çizdiklerini merak ediyorum...`
+`Lanet olsun, Mion! Bugüne pişman olacaksın...!`
+`Eğer rollerimiz tersine çevrilirse... kendimi tutmayacağım!`
+` Yüzünün her yerine öyle bir çizerim ki, ovalayarak bile çıkaramazsın...!!!`
+`Eve geldiğimde annemle karşılaştım ve kendimi bir kez daha utandırdım...`
+`Eve geldiğimde zaten gergin bir ruh hali içindeydim.`
+`...Bu bizim ailede alışılmadık bir şey değildi.`
+`Babama ilham gelmediği zamanlarda hep böyle olurdu.`
+`Kollarını bağlayıp evin içinde dolanır durur.`
+`Annem kulağıma fısıldadı.`
+`"Eve hoş geldin, Keiichi. ...Baban... şu anda biraz huysuz, o yüzden onu rahatsız etme, tamam mı?"`
+`"Yeni bir fikir bulamıyor mu?"`
+`"Bu sefer teslim tarihleri birbirine çok yakın olduğu için.`
+` Babanın enerji toplamak için zamana ihtiyacı var, yoksa o kadar iyi çalışamaz."`
+`Babamın resimleri tüm ailemizi besliyor. Fikirleri tükenirse, Maebaraların sonu olur.`
+`(...Daha önce hiç aç kalmamıştık.`
+` ...Acaba Babam... usta bir ressam olabilir miydi??)`
+`"...Evin içinde dolanmak yerine dışarıda yürüyüş yaparak fikir edinmesi daha kolay olmaz mıydı?"`
+`"Bu seferki eserin teması 'ev içinde.'`
+` Görünüşe göre baban bu evi bir motif olarak kullanmak istiyor."`
+`...Bu oldukça rahatsız edici bir motif.`
+`"...Keiichi!! Arada bir odanı topla!! Berbat görünüyor!"`
+`"Ö-Özür dilerim! Sonra temizlerim!"`
+`Ah, hadi ama! Lütfen odamı motif olarak kullanma...!`
+`"Keiichi, yemekten önce hâlâ biraz zaman var.`
+` O yüzden lütfen dışarıda yürüyüşe falan çık."`
+`Babamın ruh hali geçicidir.`
+`Aklına bir fikir gelir gelmez ruh hali düzelir ve mırıldanmaya başlar.`
+`O zamana kadar, onu daha fazla kızdırmamak için yürüyüşe çıkmak kötü bir fikir olmaz.`
+`"Sanırım öyle yapacağım."`
+`Yürüyüşe çıkacağımı söyledim ama aklımda gideceğim belirli bir yer yoktu.`
+`Sadece biraz oyalanmam gerekiyordu.`
+`Bisikletime bindim ve nereye gideceğimi düşündüm.`
+`Kitapçıya gidip kitap okuyabilirdim ama bisikletle şehre varmak yaklaşık bir saat sürerdi.`
+`Geri döndüğümde hava kararmış olacaktı, bu yüzden mecbur kalmadıkça gitmek istemedim.`
+`Geceleri Hinamizawa'nın yolları beni ürkütüyor.`
+`Mion ya da Satoko bunu öğrenirse...`
+` Huysuz bir şekilde sırıttım.`
+`Oh, evet.`
+`Rena muhtemelen hâlâ hazine dağındaydı... Baraj şantiyesinde.`
+`Colonel Sanders'ın kazısı muhtemelen biraz zamanını alıyordu.`
+`Bana borçlu olması o kadar da kötü olmazdı.`
+`"...Belki bir sonraki kulüp etkinliğinde bu iyiliğimin karşılığını öder."`
+`Biraz da kendi çıkarımı düşünerek baraj şantiyesine doğru yola çıktım.`
+`Tomitake-san da orada olabilir.`
+`Rena ve Mion'un bilmediğini söylediği olay hakkında bilgi sahibi olan tek kişi.`
+`Onunla tekrar karşılaşırsam, daha fazla ayrıntı öğrenmek isterdim...`
+`..."Hinamizawa'da gerçekten bir parçalama olayı mı oldu?" diye sormak."`
+`Asıl amacım buydu.`
+`Çöp yığınının yamacında debelenen Rena'yı fark ettim.`
+`Colonel Sanders orada sıkışıp kalmış gibi görünüyordu.`
+`Rena onu tek başına çıkarabilecek gibi görünmüyordu.`
+`Tomitake-san'ın etrafta olmadığını fark ederek, yamaçtan aşağıya doğru dengesiz bir şekilde inmeye başladım.`
 `"Hey, Rena.`
-` Looks like you're working up a sweat."`
+` Kan ter içinde kalmış gibisin."`
 `"...Whoa,`
 ` whoa,`
 ` Keiichi-kun!`
-` ...What brings you to a place like this?"`
-`A place like this, huh?`
-` I see. She was aware of it, at least.`
-`"I received a signal for emergency assistance at the accident site!`
-` Where is the injured party!?"`
+` ...Seni böyle bir yere hangi rüzgâr attı?"`
+`Böyle bir yere, ha?`
+` Demek öyle. En azından farkındaydı.`
+`"Kaza mahallinde acil yardım için bir sinyal aldım!`
+` Yaralı nerede!?"`
 `"Huh!? Huh!?`
-` Accident!?`
+` Kaza!?`
 ` ...Huh!?"`
-`"But there was a report Colonel Sanders was buried alive in the trash pile...!"`
-`"Huh? ...O-Oh, that. You scared me...`
-` Don't frighten me like that, Keiichi-kun."`
-`"...I was just kidding.`
-` I thought you might be struggling by yourself, so I came to help you out."`
-`"...Eh? ...You came... for me...?`
+`"Ama Colonel Sanders'ın canlı canlı çöp yığınına gömüldüğüne dair bir rapor vardı...!"`
+`"Huh? ...O-Oh, bu. Beni korkuttun...`
+` Beni böyle korkutma, Keiichi-kun."`
+`"...Sadece şaka yapıyordum.`
+` Rena'nın tek başına zorlanabileceğini düşündüm, bu yüzden yardım etmeye geldim."`
+`"...Eh? ...R-Rena için... mi geldin...?`
 ` ...Hau."`
-`Well, I filled my quota for today.`
-`If I don't see Rena blush at least once a day, then I'm not getting my daily required nutritional intake.`
-`"Just kidding. You're embarrassing me now!"`
-`"...So... huh?`
-` ...What part... was the joke? What part was it!?"`
-`I just ignored her bewilderment.`
-`"Okay, now move out of the way.`
-` So where is Colonel Sanders?"`
-`"...Ah, sorry!`
-` ...Can't you see him... in that gap?"`
-`"He's... really buried in there...!!"`
-`The Colonel Sanders was sideways, surrounded by boards and other construction materials, like they were caging him inside.`
-`According to Rena, it wasn't like this yesterday.`
-`It seems as though another illegal dumper came yesterday, dumped again, and now he's buried like this.`
-`"...You're trying to move this pile all by yourself...!?`
-` With those scrawny arms...!?"`
-`There's no way she would be able to do that with her slender arms.`
-`"...But... Colonel Sanders... so kyute...`
-` There's a chain on the Colonel Sanders at the store... This one, though... I should be able to take this one home...`
+`Günlük kotamı doldurmuş oldum.`
+`Rena'nın günde en az bir kez utandığını görmezsem, günlük besin ihtiyacımı karşılayamıyorum demektir.`
+`"Şaka yapıyorum. Şimdi de beni utandırıyorsun!"`
+`"...Ee... ha?`
+` ...Şaka... hangisiydi? Hangisiydi!?"`
+`Şaşkınlığını görmezden geldim.`
+`"Tamam, şimdi yoldan çekil.`
+` Peki Colonel Sanders nerede?"`
+`"...Ah, pardon!`
+` ...Şu aralıktan... onu göremiyor musun?"`
+`"O... gerçekten de derine gömülmüş...!!"`
+`Colonel Sanders yan yatmış, etrafı tahtalar ve diğer inşaat malzemeleriyle çevrilmişti, sanki onu kafese kapatmışlardı.`
+`Rena'ya göre, dün böyle değilmiş.`
+`Görünüşe göre dün başka bir kaçak kamyon gelmiş, çöp boşaltmış ve şimdi de o böyle gömülü kalmış.`
+`"...Bu yığını tek başına mı taşımaya çalışıyorsun...!?`
+` O sıska kollarınla mı...!?"`
+`O incecik kollarıyla bunu yapabilmesinin imkanı yok.`
+`"...Ama... Colonel Sanders... çok taatlııı...`
+` Dükkandaki Colonel Sanders zincirlenmiş... Ama bu... Bunu eve götürebilirim...`
 ` Hau..."`
-`If Rena gave up on this Colonel Sanders, she'll probably start devising a plan to steal the one in front of the store...`
-`As Rena's guardian, I won't allow her to sully her hands with crime!`
-`"Out of the way. I'll do it."`
-`Rena blushed again, but this time I left it alone.`
-`The pile was enormous.`
-`Also, the more days we wasted, the more likely another illegal dumping would occur.`
-`If it got buried any deeper, there would be nothing that could be done.`
-`"Keiichi-kun, I'll help too. Let me help."`
-`"You'd just get in the way, so stay back!`
+`Eğer Rena bu Colonel Sanders'tan vazgeçerse, muhtemelen mağazanın önündekini çalmak için bir plan yapmaya başlar...`
+`Rena'nın koruyucusu olarak, suç işleyerek ellerini kirletmesine izin vermeyeceğim!`
+`"Çekil yoldan. Ben yaparım."`
+`Rena yine kızardı ama bu sefer onu rahat bıraktım.`
+`Yığın çok büyüktü.`
+`Ayrıca, ne kadar çok gün kaybedersek, başka bir kaçak çöplük oluşma ihtimali de o kadar artıyordu.`
+`Eğer daha da derine gömülürse, yapılabilecek hiçbir şey kalmazdı.`
+`"Keiichi-kun, Rena da yardım edecek. Bırak yardım edeyim."`
+`"Sadece ayak bağı olursun, o yüzden geri çekil!`
 ` Hrrrrnnnnnngh!!"`
-`Pulling out scraps,`
-` bending them,`
-` tossing them aside.`
-`I quickly became covered in sweat and dust.`
-`Flying objects drew beautiful arcs across the twilight sky, one after another.`
-`Lumber,`
-` timber,`
-` plywood.`
-`Damn iiiit!!`
-` No matter how much I threw out, there was still more!!`
-`Even though I could see Colonel Sanders right there!!`
-`After grandstanding like that in front of Rena, I felt frantic because of how little I had progressed.`
-`"...If I was going to do this seriously... I'd need an axe or saw or something...!"`
-`"That's enough, Keiichi-kun...!`
-` You're so sweaty.`
-` ...You don't... have to try... so hard..."`
-`"I'm just doing it for you, Rena.`
-` Don't worry about it."`
-`Rena began sputtering and turned beet red.`
-`Ah, whoops... I meant to say I was trying my best so as to keep her from becoming a criminal...`
-`Oh well.`
-`"I guess I just... need a break...!`
-` This... is pretty tough...!!"`
-`I sprawled on my back over the grassy slope.`
-`"I'm so sorry...`
-` You're... covered in sweat..."`
-`Rena patted her handkerchief against my forehead.`
-`It felt pretty nice.`
-`"U-Uhm, well, wait here a minute, okay?`
-` My house is pretty close.`
-` I'll bring you some barley tea, okay?"`
-`Leaving the handkerchief on my forehead, Rena took off running.`
-`The cries of the higurashi gently cooled the air.`
-`After I was certain that Rena was gone, I picked myself up and headed towards what I'd discovered earlier.`
-`That was a garbage pile of magazines and newspapers bound up in twine.`
-`Unless I'm mistaken...`
-` I believe it... was around here...`
-`There it was.`
-`They were bound stacks of not-so-reputable tabloids.`
-`They were stacked chronologically, going back quite a few years.`
-`"...It was quite a disturbing incident.`
-` ...They still haven't found one of the arms."`
-`If it was just as Tomitake-san said, then undoubtedly there would be mention of the murder.`
-`These are troubled times.`
-` There is no end to these sickening incidents.`
-`There's a large part of society drawn in by these incidents, as well.`
-`So it had to be recorded.`
-` Somewhere.`
-`I unfastened the packages and opened the rain-soaked pages carefully, looking over the table of contents.`
-`Not here.`
-` Next one.`
-` Not here.`
-` Next one.`
-`It was hard to search since I didn't know when it happened.`
-`I didn't know who the perpetrator or the victim was, either.`
-`I only knew it had happened here.`
-`I looked up every so often, checking to see if Rena had come back or not.`
-`I wouldn't want her to see me gawking at a dirty magazine, but it wasn't just that.`
-`Both Rena and Mion said they didn't know.`
-`But it had happened, without a doubt.`
-`...As long as Tomitake-san wasn't lying.`
-`Then if both Rena and Mion...`
-` "Ah. Yeah, there was."`
-` If they had just said that, then I wouldn't have gotten so hung up on it.`
-`An 'incident' that neither Rena nor Mion wished to talk about.`
-`Trying to uncover it after they tried to conceal it out of good intentions...`
-`That made me feel like I was acting against my friends.`
-`"HINAMIZAWA DAM WORKER LYNCHING! MURDER BY DISMEMBERMENT!!"`
-`...Here it is!`
-`The featured article was in the back and it seemed that there was a photograph in the colored pages at the front.`
-`The pages of the featured article were stuck together and weren't easy to open.`
-`Rena could return at any moment.`
-`...Feeling rushed, I gave up and opened the photograph page.`
-`The police investigators were carrying a body bag and newspaper reporters were all bathing it in camera flashes.`
-`The image was blurry and hard to understand, but I could definitely make out the headlines.`
-`"A Tragic Nightmare at the Hinamizawa Construction Site! Lynching and Murder/Dismemberment!"`
-`"The victim was the site foreman. He had assaulted his assailants daily with..."`
-`"An explosive backlash from his daily actions? It's a horrible image, to see the site foreman as..."`
-`...It happened...`
-` It really did happen...`
-`It seemed the details were on the next page.`
-`...I turned the page without pausing.`
-`...On it was...`
-`"The assailants butchered the victim's body with hatchets and pickaxes,`
-`then used an axe to split the cadaver into six pieces: the head, arms, legs, and torso."`
-`I could understand just from the headline that it was... just too terrible...`
-` an incident.`
-`Normally a lynching is just assault and murder right...?`
-`Dismemberment with hatchets and pickaxes?`
-` That wasn't a lynching.`
-`It was a merciless killing to the letter, a brutal murder...`
-`Done by a group of people.`
-`Rena fluttered her arms in a panic, continuing to explain and apologize.`
-`It seemed I'd been glaring at her pretty intensely.`
-`"I-I'm sorry... I guess my reaction was a bit overboard."`
-`"N-No... I-I'm sorry as well! ...I'm sorry!"`
-`...Night was drawing close.`
-`I was pretty worn out, and it wouldn't hurt to do the rest tomorrow.`
-` All right?"`
-`"...Okay."`
-`"Why do you look so glum? Tomorrow we'll be digging out Colonel Sanders, right!?"`
-`"You're right. ...Ahahaha!`
-` I really want to take Colonel Sanders home soon~!"`
-`We both knew that it was useless to apologize any more than that.`
-`I quenched my thirst with the barley tea Rena brought and wiped off the sweat that had now gone cold. We took the path to head home.`
-`I felt quite guilty about the tabloid wrapped up in my jacket.`
+`Hurdaları çıkart,`
+` onları bük,`
+` bir kenara fırlat.`
+`Kısa sürede ter ve tozla kaplanmıştım.`
+`Uçuşan nesneler alacakaranlık gökyüzünde birbiri ardına güzel yaylar çiziyordu.`
+`Kereste,`
+` ahşap,`
+` kontrplak.`
+`Kahretsiiiin!!`
+` Ne kadar atarsam atayım, hep daha fazlası vardı!!`
+`Colonel Sanders'ı çok bariz görebildiğim halde!!`
+`Rena'nın önünde böyle büyüklük tasladıktan sonra, çok az ilerleme kaydettiğim için kendimi çılgına dönmüş hissettim.`
+`"...Eğer bunu cidden yapacaksam... Bir baltaya, testereye ya da başka bir şeye ihtiyacım olacak...!"`
+`"Bu kadar yeter, Keiichi-kun...!`
+` Çok terlemişsin.`
+` ...Bu kadar... uğraşmana gerek yok..."`
+`"Bunu sadece Rena için yapıyorum.`
+` Dert etme."`
+`Rena kekelemeye başladı ve kıpkırmızı oldu.`
+`Ah, tüh... Onun bir suçlu olmasını engellemek için elimden geleni yaptığımı söylemek istemiştim...`
+`Her neyse.`
+`"Sanırım bir molaya... ihtiyacım var...!`
+` Bu... oldukça zorlu...!!"`
+`Çimenli yamaçta sırtüstü uzandım.`
+`"Üzgünüm... Üzgünüm...`
+` Ter içinde... kalmışsın..."`
+`Rena mendiliyle alnımdaki teri aldı.`
+`Çok iyi geldi.`
+`"A-Azıcık... bekle burada, tamam mı?`
+` Evim oldukça yakın.`
+` Sana biraz arpa çayı getireceğim, tamam mı?"`
+`Mendili alnımda bırakan Rena koşmaya başladı.`
+`Higurashilerin ağlamaları havayı hafifçe serinletti.`
+`Rena'nın gittiğinden emin olduktan sonra kendimi toparladım ve daha önce keşfettiğim yere doğru yöneldim.`
+`Bu, iple bağlanmış dergi ve gazetelerden oluşan bir çöp yığınıydı.`
+`Yanılmıyorsam...`
+` Sanırım... buralarda bir yerdeydi...`
+`İşte burada.`
+`Pek de saygın olmayan gazete yığınlarıydı.`
+`Kronolojik olarak dizilmişlerdi, çok eskileri bile vardı.`
+`"...Oldukça rahatsız edici bir olaydı.`
+` ...Hâlâ kollardan birini bulamadılar."`
+`Eğer Tomitake-san'ın dediği gibiyse, kuşkusuz bu cinayetten bahsedilirdi.`
+`Sıkıntılı zamanlardan geçiyoruz.`
+` Bu mide bulandırıcı olayların sonu gelmiyor.`
+`Toplumun büyük bir kısmı da bu olaylardan etkilenmişti.`
+`Bu yüzden kayda geçmiş olmalıydı.`
+` Bir yerde.`
+`Paketleri açtım ve yağmurdan ıslanmış sayfaları dikkatle çevirerek içindekiler bölümüne baktım.`
+`Burada yok.`
+` Sonraki.`
+` Burada yok.`
+` Sonraki.`
+`Ne zaman gerçekleştiğini bilmediğim için aramak zordu.`
+`Failin ya da kurbanın kim olduğunu da bilmiyordum.`
+`Sadece burada yaşandığını biliyordum.`
+`Rena'nın geri dönüp dönmediğini kontrol etmek için sık sık başımı kaldırıp bakıyordum.`
+`Beni kirli bir dergiye aval aval bakarken görmesini istemezdim ama mesele sadece bu değildi.`
+`Hem Rena hem de Mion bilmediklerini söylediler.`
+`Ama şüphesiz böyle bir şey olmuştu.`
+`...Tomitake-san yalan söylemediği sürece.`
+`O zaman hem Rena hem de Mion...`
+` "Ah. Evet, vardı."`
+` Eğer söylemiş olsalardı, o zaman buna bu kadar takılmazdım.`
+`Ne Rena'nın ne de Mion'un konuşmak istemediği bir 'olay'.`
+`Onlar iyi niyetle gizlemeye çalıştıktan sonra açığa çıkarmaya çalışmak...`
+`Bu bana arkadaşlarıma karşı geliyormuşum gibi hissettirdi.`
+`"HINAMIZAWA BARAJI İŞÇİSİNE LİNÇ! PARÇALANARAK KATLETME!!"`
+`...İşte burada!`
+`Yer verilen makale sonlardaydı ve sanki öndeki renkli sayfalara bir fotoğraf koymuşlardı.`
+`Yer verilen makalenin sayfaları birbirine yapışmıştı ve açılması kolay değildi.`
+`Rena her an geri dönebilir.`
+`...Acele etmem gerektiğini hissederek vazgeçtim ve fotoğraf sayfasını açtım.`
+`Polis müfettişleri bir ceset torbası taşıyordu ve gazete muhabirleri de onu flaşlarla yıkıyordu.`
+`Görüntü bulanıktı ve anlaşılması zordu ama başlıkları kesinlikle seçebiliyordum.`
+`"Hinamizawa Şantiyesinde Trajik Bir Kâbus! Linç ve Cinayet/Parçalanma!"`
+`"Kurban şantiye şefiydi. Önceden, ona saldırmış olanları her gün şöyle hırpalamıştı..."`
+`"Günlük faaliyetleri sonucu patlayıcı bir tepki mi? Şantiye şefini böyle görmek korkunç bir görüntüydü..."`
+`...Bu yaşanmıştı...`
+` Gerçekten yaşanmıştı...`
+`Detaylar bir sonraki sayfadaymış gibi görünüyordu.`
+`...Duraksamadan sayfayı çevirdim.`
+`...Üzerinde...`
+`"Saldırganlar kurbanın cesedini balta ve kazmalarla doğramış,`
+`daha sonra bir balta kullanarak kadavrayı kafa, kollar, bacaklar ve gövde olmak üzere altı parçaya ayırmışlardı."`
+`Sadece başlıktan bile olayın...`
+` çok korkunç... olduğunu anlayabiliyordum...`
+`Normalde linç etmek saldırı ve cinayetten ibarettir, değil mi...?`
+`Balta ve kazmalarla parçalara ayırma mı?`
+` Bu linç etmek değildi.`
+`Tam anlamıyla acımasız bir cinayetti, vahşi bir cinayet...`
+`Bir grup insanın...`
+`Rena panik içinde kollarını çırptı, açıklamaya ve özür dilemeye devam etti.`
+`Görünüşe göre ona oldukça sert bir bakış atmıştım.`
+`"Ö-Özür dilerim... Sanırım tepkim biraz abartılıydı."`
+`"H-Hayır... B-Ben de özür dilerim! ...Özür dilerim!"`
+`...Gece yaklaşıyordu.`
+`Oldukça yorgundum ve kalanını yarın yapmaktan zarar gelmezdi.`
+` Tamam mı?"`
+`"...Tamam."`
+`"Neden bu kadar asık suratlı görünüyorsun? Yarın Colonel Sanders'ı çıkaracağız, değil mi!?"`
+`"Haklısın. ...Ahahaha!`
+` Gerçekten Colonel Sanders'ı yakında eve götürmek istiyorum~!"`
+`İkimiz de bundan daha fazla özür dilemenin faydasız olduğunu biliyorduk.`
+`Rena'nın getirdiği arpa çayıyla susuzluğumu giderdim ve artık soğumuş olan terimi sildim. Eve doğru yola koyulduk.`
+`Ceketime sardığım gazete yüzünden kendimi oldukça suçlu hissediyordum.`
