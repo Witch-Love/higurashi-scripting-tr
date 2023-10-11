@@ -36,7 +36,7 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
      * İngilizce çeviride, başka karakterler Rena'nın kyute diyişini tekrarlarken kyute diyebiliyor. Türkçe çevirisinde bu kelimenin anlamı harflerin tekrarlanmasıyla verildiği için, sadece Rena'nın "taatlııı" diyebilmesi, diğer karakterlerin "tatlı" demesi gerekiyor.
      * `I couldn't tell how she decides what's 'kyute' or not...` -> `Neyin 'tatlı' olup olmadığına nasıl karar verdiğini anlayamadım...`
    * Üç noktadan sonra büyük harf kullanımı:
-     * Cümle ortasında üç nokta ile biten sözlerin bazen "... I", "... I've" şeklinde devam ettiğini görebiliyoruz. Burada büyük harf kullanımı belirsiz olduğundan, önceki sözün tam bir cümle olup olmadığına göre büyük har kullanıyoruz.
+     * Cümle ortasında üç nokta ile biten sözlerin bazen "... I", "... I've" şeklinde devam ettiğini görebiliyoruz. Burada büyük harf kullanımı belirsiz olduğundan, önceki sözün tam bir cümle olup olmadığına göre büyük harf kullanıyoruz.
      * `Besides... I'm not throwing it away.` -> `Kaldı ki... bunu atmıyorum.`
      * `I still wanted to believe... I hadn't been split apart.` -> `Hâlâ inanmak istiyordum... Henüz parçalanmamıştım.`
 2. Hitaplar:
