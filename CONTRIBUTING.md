@@ -52,6 +52,9 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Music Store `->` Plakçı
    * Old Geezer `->` Yaşlı Moruk
    * Transfer `->` Nakil
+   * Shrine `->` Tapınak
+   * Temple `->` Şinto *?* [^2]
 4. [Karakter İsimleri](../../tree/master/character_names.json)
 
 [^1]: "Higurashi" hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
+[^2]: Temple sözü, shrine'a kıyasla çok daha az sayıda geçtiği, fakat farklı şeyleri kast ettiği için bazı yerlerde bu şekilde çevirdik.
