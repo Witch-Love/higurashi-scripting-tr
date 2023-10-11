@@ -1,12 +1,3 @@
-output-plain
-output-scripts
 .vscode
-/data
-plain
-plain.php
-story-backup
-story-backup-plain
-start.bat
 SortContributing.py
 /.idea
-characterCheckerBlacklist.txt
