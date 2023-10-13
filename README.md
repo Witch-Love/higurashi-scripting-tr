@@ -18,7 +18,7 @@ Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabil
 
 ## İlerleme
 * <details>
-  <summary>Chapter 1 (Onikakushi) ❌</summary>
+  <summary>Chapter 1 (Onikakushi) ✍️</summary>
 
    * Story
       * [onik_op](../../tree/master/story/ch1/onik_op.txt) ✅
@@ -26,11 +26,8 @@ Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabil
       * [onik_001](../../tree/master/story/ch1/onik_001.txt) ✅
       * [onik_002](../../tree/master/story/ch1/onik_002.txt) ✅
       * [onik_003](../../tree/master/story/ch1/onik_003.txt) ✅
-      * [onik_004](../../tree/master/story/ch1/onik_004.txt) ❌
+      * [onik_004](../../tree/master/story/ch1/onik_004.txt) ✍️
       * [onik_005](../../tree/master/story/ch1/onik_005.txt) ❌
-      * [onik_006](../../tree/master/story/ch1/onik_006.txt) ❌
-      * [onik_007](../../tree/master/story/ch1/onik_007.txt) ❌
-      * [onik_008](../../tree/master/story/ch1/onik_008.txt) ❌
       * [onik_009](../../tree/master/story/ch1/onik_009.txt) ❌
       * [onik_009_02](../../tree/master/story/ch1/onik_009_02.txt) ❌
       * [onik_010](../../tree/master/story/ch1/onik_010.txt) ❌
