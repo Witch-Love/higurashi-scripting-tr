@@ -392,7 +392,7 @@
 `Büyük bir çöp yığını bataklığa doğru yayılmıştı.`
 `Muhtemelen yasadışı çöplük. Gazetede yazdığını hatırlıyorum.`
 `"Ufufu!`
-` Uzun zaman oldu~ Burada ne var acaba, Burada ne var acaba...!"`
+` Uzun zaman oldu~ Burada ne var acaba, burada ne var acaba...!"`
 `"Uzun zaman oldu derken... buradaki çöp yığınıyla ilgili... bir işin olduğunu mu söylüyorsun!?"`
 `"B-Bunlar çöp değil!`
 ` ...Rena'ya göre, burası bir hazine yığını..."`
