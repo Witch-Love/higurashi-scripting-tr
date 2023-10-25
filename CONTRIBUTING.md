@@ -1,28 +1,18 @@
-[guncel-dosya]: ../../tree/master/README.md#ilerleme
+[ilerleme]: ../../tree/master/README.md#ilerleme
 
 # Çeviriye Katkıda Bulunmak
 
-Çevirmekte olduğumuz güncel dosya: [**Tıkla**][guncel-dosya]
+Çeviri İlerlemesi: [**Tıkla**][ilerleme]
 
 ## Nasıl Katkıda Bulunabilirsiniz?
 
-‼️ Katkıda bulunmak konusunda ciddi iseniz mutlaka her şeyden önce benimle iletişime geçin. [(İletişim)](../../tree/master/README.md#iletişim)
-
-1. [Bu repo'yu forklayın.](https://github.com/Witch-Love/higurashi-scripting-tr/fork)
-2. Çevirmekte olduğumuz Chapter'ın herhangi bir part'ını forkunuz üzerinde [Çeviri Kuralları](#çeviri-kuralları)'na uyarak düzeltin.
-3. Daha sonra bir pull request açın.
-
-   Pull request başlığına düzelttiğiniz part'ı yazın.  
-   Örneğin başlığınız `onik_000.txt` şeklinde olmalı.
-
-Part bitmeden pull request açmayın. Sadece part'ı (dosyayı) tamamen düzelttiyseniz pull request açın.  
-
-Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](https://discord.gg/jyD5jn9Vpd)a katılabilirsiniz. Çakışma olmaması için çeviri düzeltmelerinden önce sunucuya yazmanız yararlı olacaktır.
+‼️ Gerçekten katkıda bulunmak / bizimle çeviri yapmak istiyorsanız kapımız her zaman açık! Lütfen bizimle iletişime geçin.  
+‼️ Gerekli tüm materyalleri, çeviri araçlarımızı vs. sizinle paylaşarak çeviriyi nasıl yapacağınızı anlatacağız. [(İletişim)](../../tree/master/README.md#iletişim)
 
 ## Çeviri Kuralları
 
->**`DİKKAT!`**  
->Higurashi'yi tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikaye üzerindeki muhakemenizi (akıl yürütmenizi) muhtemelen etkileyecek. Bu nedenle buraya yalnızca Higurashi'ye hakimseniz bakmanızı öneriyoruz.
+> [!WARNING]
+> **`DİKKAT!`** *Higurashi'yi tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikaye üzerindeki muhakemenizi (akıl yürütmenizi) muhtemelen etkileyecek. Bu nedenle buraya yalnızca Higurashi'ye hakimseniz bakmanızı öneriyoruz.*
 
 1. Özel durumlar vs:
    * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
@@ -43,18 +33,19 @@ Düzenli olarak katkıda bulunmayı düşünüyorsanız [Discord sunucumuz](http
    * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
      * Oryou Sonozaki
      * Kiichirou Kimiyoshi
-3. Terimler şu şekilde:
-   * Cicada `->` Ağustos Böceği
-   * Clique `->` Gruplaşma
-   * Dam site `->` Baraj şantiyesi
-   * Higurashi `->` Higurashi *?* [^1]
-   * Ice Cream Parlor `->` Dondurmacı
-   * Music Store `->` Plakçı
-   * Old Geezer `->` Yaşlı Moruk
-   * Transfer `->` Nakil
-   * Shrine `->` Tapınak
-   * Temple `->` Şinto *?* [^2]
-4. [Karakter İsimleri](../../tree/master/character_names.json)
+
+### Karşılıklar
+
+* Cicada `->` Ağustos Böceği
+* Clique `->` Gruplaşma
+* Dam site `->` Baraj şantiyesi
+* Higurashi `->` Higurashi *?* [^1]
+* Ice Cream Parlor `->` Dondurmacı
+* Music Store `->` Plakçı
+* Old Geezer `->` Yaşlı Moruk
+* Transfer `->` Nakil
+* Shrine `->` Tapınak
+* Temple `->` Şinto *?* [^2]
 
 [^1]: "Higurashi" hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
 [^2]: Temple sözü, shrine'a kıyasla çok daha az sayıda geçtiği, fakat farklı şeyleri kast ettiği için bazı yerlerde bu şekilde çevirdik.
