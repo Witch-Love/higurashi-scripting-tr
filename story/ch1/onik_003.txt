@@ -99,10 +99,10 @@
 `...Eğer böyle olacaksa, ben de kaybedemem!`
 `"O zaman desteyi kesiyorum... ve dağıtıyorum!"`
 `Bekâr Kaçtı, Papaz Kaçtı ile hemen hemen aynı şey.`
-`Tek bir farkı var: joker belli değil.`
+`Tek bir farkı var: papaz belli değil.`
 ` Onun yerine, başlangıçta desteden bir kart çıkartırsın.`
 `Yani oyunun sonunda eşi olmayan bir kart kalır.`
-`Hangi kartın joker olduğunu önceden bilemezsin.`
+`Hangi kartın papaz olduğunu önceden bilemezsin.`
 ` Oldukça heyecan verici bir oyun!`
 `"Şimdi kartı çıkartacağım."`
 `Mion bir kart çıkarttı ve yüzü aşağı bakacak şekilde masanın üzerine koydu.`
