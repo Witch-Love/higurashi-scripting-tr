@@ -7,6 +7,8 @@
 `"Yeah, yeah, I'm very sorry for all the worry I caused you yesterday."`
 `"Heeey, goood morning!"`
 `"Mii-chan, good morning~!`
+` ...Wow... You really stink of liquor! You'll get found out for sure!"`
+`"Oh, right, wasn't there a big business meeting with all the people on the town council yesterday?"`
 `"They only called it that—it was more like a party.`
 ` We have the festival every year, right?`
 ` We wouldn't have any annoying meetings at this point."`
@@ -118,6 +120,7 @@
 ` Regardless of the affected party's intent."`
 `"Then why?!`
 ` Why is Satoko's intent being respected so much—it's weird! Why don't they put her into safety?!"`
+`"...Well... After the person in charge at the child consultation center looked into it from many angles, they determined..."`
 `"What the hell is that?!?`
 ` Sensei, didn't you say it was going to be all right, since you'd definitely save her?!`
 ` What's the meaning of this?!`
@@ -157,6 +160,8 @@
 `"...What story did you hear, Sensei?"`
 `"...That Satoko-chan...`
 ` wanted to trick her parents...`
+` especially her stepfather, so she inflicted wounds on herself so she could... make up a false story about abuse...`
+` And that she sent out an SOS herself."`
 `"She made up a story... about hurting herself...?"`
 `"...Satoko made a fake phone call... to try and get rid of the father she hated."`
 `Child welfare officers rushed there and heard the story.`

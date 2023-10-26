@@ -73,6 +73,7 @@
 `"...It's X."`
 `"What does 「seibetsu」 mean!?"`
 `"Of course I know what that is~!!`
+` Se...`
 `...`
 `..."`
 `Satoko cut herself off before finishing the answer.`
@@ -91,6 +92,11 @@
 `Mion's pursuit was relentless, making Satoko stammer.`
 `"Now then, go ahead and say it, nice and loudly!!`
 `What does 'that' mean!?!?"`
+`"I do know...!!`
+` I do know!!`
+` I do know!!!...`
+` ...`
+`Se..."`
 `"'That' means a previously indicated person, thing or event."`
 `"Huh?`
 ` ...Ah."`
@@ -209,6 +215,13 @@
 `"A jumbo jet fell on top of the Maebara residence!"`
 `"The police have come to question him!"`
 `...Anything goes now.`
+`"They say he enjoys peeping into bathrooms."`
+`HaouUuh!?`
+`"Is it true that he's going around every night stealing panties?"`
+`Who were they talking about!?`
+`"I heard he wears panties on his head and smells them and stuff."`
+`No way I would do thaaat!!`
+`"I heard that Class Representative Mion was a victim too~!"`
 `"Whaaat!?"`
 `GaaaaaaaAAaaRRRrrrrggh!!!!!`
 `This was your doing, Mionnnnnnn!!!`
@@ -224,6 +237,9 @@
 ` It's my victory!`
 ` Bwahahahaha...!!`
 `Wiping unrelenting tears away, I felt intoxicated by my own victory...`
+`"Did you hear?`
+` I heard that the new transfer student Maebara-san is a really perverted person!`
+` Kyahahahaha!!"`
 `The cost of beating Mion had too high a price...`
 `Ah!`
 ` ...Oh.`
@@ -317,11 +333,30 @@
 `"...It's a bigger problem than a jumbo jet crashing into your family's house?"`
 `...Oh, yeah, it had turned into that, hadn't it.`
 ` Mion whistled nonchalantly, trying to avoid the blame.`
+`"Yeah! It's not even in the same league as jumbo jets!`
+` What fell on Rena's house...`
+`Was a space colony!!"`
+`"A-A space colonyyyyy!?"`
+`"Yeah, it's a really big disaster!`
+` Everything in a 100 kilometer radius was obliterated!`
+` But that's only the prelude to this tragic tale!!`
+` This is the beginning... the start of a war for independence by the Propagandapality of Zeon!!"`
+`The lower grades were dumbfounded, their eyes like saucers at the grand turn of events...`
+`"Wh... What will happen...?`
+` Will the Terran Federation lose?"`
+`"If things go on like this, they will!!`
+` Only one person can defeat the Red Comet!!`
+` That person is Rena Ryuugu!!"`
+`The lower grade students all gulped...!`
 `It seemed I'd made them fully understand that the fight for Earth was lost without Rena.`
 `"Now scatter, comrades!! We must find Rena!!!"`
 `My comrades in the lower grades let out an enthusiastic cheer and dashed off in various directions around the school grounds.`
 `...Hm?`
 ` There was still one person who hadn't gone.`
+`"But... I thought even the Terran Federation's Impulse Wave Diffusal Cannon... didn't work on the Comet Empire..."`
+`"You're close. That's the white variety of those comets.`
+` The reason it didn't work was because they didn't know the weak point.`
+` Of course, Rena knows their weak point all too well!"`
 `"...Ryuugu-san is amazing..."`
 `Satisfied with that, she also rushed off to look for Rena.`
 `...It does seem... like there are some promising up-and-comers amongst the youngsters.`
@@ -340,6 +375,8 @@
 ` So scary!!!"`
 `It probably was scary being chased around by the entire student body.`
 `All the lower grades closed in on Rena, saying she was the only one who could save the world.`
+`"What are you all saying!?`
+` I can't control a mech!"`
 `"Renaaa, how could you leave me for deeaad?!!`
 ` Are you ready to pay for it...!?!?"`
 `"I-I-I'm sorry about that, Keiichi-kun ...b-b-but I didn't have a choice...!!"`
@@ -413,11 +450,15 @@
 ` Was that girl an acquaintance of yours...?"`
 `He was probably talking about Rena.`
 ` Guessing by the way Tomitake-san was shaken up...`
+`"Wh-What was that all about!?`
+` She was walking around with a bared axe!`
+` And she was laughing with a huge smile across her face!!"`
 `That was Rena, without a doubt.`
 `I expect that she was grinning in anticipation of taking Colonel Randy home.`
 `"I hid myself because I thought it might be dangerous`
 ` ...`
 `Should I call the cops to be safe...!?"`
+`Well, it certainly would be quite the spectacle for a girl of her age to be roaming around with a axe.`
 `Tomitake-san's reaction was the epitome of logical.`
 `"It's fine, it's fine.`
 ` Just leave her be.`
@@ -440,9 +481,13 @@
 `"Keiichi-kun~!`
 ` I was waiting for you. Let's try our best today!"`
 `I understood what Tomitake-san was trying to say.`
+`Somebody gallivanting about while waving a axe around certainly would seem dangerous.`
+`"You should put a cover on that axe when you have it in public.`
+` It's not good to carry it around out in the open like that!"`
 `"Seems that I lost it... so there isn't one."`
 `Thinking about it, there really was no need to try to keep up appearances.`
 `Everyone in Hinamizawa probably already knew about Rena's eccentricities.`
+`She's probably the only person who could carry a axe around Hinamizawa and not be considered suspicious...`
 `"Ah well!`
 ` Let's finish this today!`
 ` If we bust through this last beam, we should be able to pull him out.`
@@ -462,6 +507,7 @@
 ` I have plenty of power today!`
 ` I can do it!"`
 `...But this adversary was more formidable than I expected.`
+`First of all, I'd never used a axe before.`
 `During a school camping trip, I had wanted to split the wood, but I lost at rock-paper-scissors and wasn't able to do it.`
 `Because the spot where I was standing was so unstable, I soon became tired and decided to take a break.`
 `Rena had already spread out a tarp and laid down some tea and sweets.`
@@ -499,6 +545,7 @@
 `"Not really.`
 ` ...I was getting bored of the city anyway."`
 `I was trying to get answers from Rena, but I ended up being the one giving out all the answers.`
+`With a bit of a wry smile on my face, I grabbed the handle of the axe and headed back to worksite.`
 `The air grew colder as the sun slowly set.`
 `The higurashi began their song, as if to tell me to stop and head home for the day.`
 `Just a bit more.`
@@ -507,11 +554,15 @@
 `"Hooyah!`
 ` You little...!`
 ` Damn it!"`
+`I had swung the axe countless times today, just like this.`
+` Contact.`
+` Shards of wood splintered.`
 `"The assailants butchered the victim's body with hatchets and pickaxes."`
 `I recalled that passage from the tabloid.`
 `One hit with something like this would smash someone's head in...`
 `Axes and pickaxes are not meant to be swung at people, ever.`
 `With one last swing, the beam cracked apart.`
+`The weight I put behind the axe not only split through the beam, but smashed the statue's shoulder as well.`
 `The arm came off with a sickening sound.`
 `It clattered down noisily, stopping at my feet.`
 `"...Ah."`
@@ -555,6 +606,7 @@
 `For now, I'd just hold back my evil cackle.`
 `We were ready to take it to her house, but we couldn't go like this.`
 `We rolled the statue up in the tarp and lifted him.`
+`And so Jack and Jill went down the hill, carrying a human-sized bag and an unsheathed axe!`
 `I prayed that we wouldn't run into Tomitake-san.`
 `If he saw us here and took a picture... we'll need to get rid of him. (lol)`
 `"...Is that meant to be a warning for an outsider like me?"`

@@ -295,11 +295,14 @@
 `"Kawasaki and Saeki, monitor communications from the Minister and the child's residences 24/7.`
 ` Find out what the Minister is doing.`
 ` Report anything that happens. `
+`The remaining members, investigate whatever is related to the case as assigned to your units.`
+` Focus your line of investigation on the Commies, Reds, and Confeds. `
 `Don't discount the possibility of foreign involvement, either!"`
 `I've experienced one or two... unamicable situations before.`
 ` This, however, was the first time I've seen things get so hectic.`
 `Several sophisticated conversations were progressing without the involvement of a rookie like me.`
 `...I didn't intend to be timid, but I couldn't hide my confusion at this unfamiliar situation.`
+`"--and cover that.`
 ` As for Akasaka-kun,"`
 `I snapped back to alertness upon hearing my name called.`
 `"Y-Yes!"`
@@ -377,8 +380,10 @@
 `The kidnapping of the Minister's grandson was classified.`
 `...That meant of course, I couldn't tell the XX Prefectural Department about it either.`
 `"As you know, there were arrests after last week's confrontation with Minister Inukai.`
+` There's enough reason to believe they could use illegal means to assert their demands."`
 `I skimmed over the list of the criminal records related to the Onigafuchi Guardians recorded in the documents.`
 `...The contents were all violent, not giving me the barest hint of a feeling that these people were trying to uphold the law.`
+`"Could you give me a basic rundown of the types of illegal activities the Onigafuchi Guardians are engaging in?"`
 `The chief opened up a manila envelope, fished out several unorganized sheets and spread them out on the desk.`
 `"It seems that raids on the construction site are the most common.`
 ` At first, they were committing relatively petty crimes like cutting power cords, jamming locks, and breaking office windows by throwing rocks."`
@@ -452,6 +457,7 @@
 ` You could say they're afraid...`
 ` ...Since it's a little special there."`
 `"...Special?`
+` Is it an outcaste community?"`
 `"No... it's a little different from that...`
 ` ...Well... just think of it as them being afraid.`
 ` It's a little hard to explain it just now.`
@@ -530,6 +536,7 @@
 `...It seemed like my work wouldn't end so simply after all.`
 `"...Oh, Akasaka-kun.`
 ` Good work.`
+` How's the information gathering at the XX Prefectural Office?"`
 `"It's coming along.`
 ` It seems I'll be able to meet with their local Public Safety Department, so I'm planning on heading out that way.`
 ` How's the investigation in Tokyo going?"`
@@ -782,6 +789,7 @@
 ` If they find out you're from Public Safety, who knows what you'll suffer through...`
 ` Nfu fu fu!"`
 `Ooishi was acting like we were talking about something fun, but for me it was no laughing matter...`
+`"...It almost feels like we've wandered into a civil war in the Middle East."`
 `"Na ha ha ha ha ha!`
 ` That's a good way of putting it.`
 ` It's pretty much just what you said."`
@@ -954,6 +962,7 @@
 `"Na ha ha ha ha!`
 ` I got it, I swear.`
 ` Nothing here gets said anywhere else.`
+` On top of that, thanks to you, I can pay back what I owe from my mahjong debts.`
 ` In any case, I won't break a promise that involves money.`
 ` Nfu fu fu!"`
 `I was still unsure if I should trust him until the very last moment... but in the end, I broke down.`
@@ -980,6 +989,7 @@
 `"If this matter became public, not only would this affect the minister's political career, but the possibility of there being a shift in the political landscape is extremely high. `
 `If the perpetrators' aim is indeed that, then this could develop into a very grave situation."`
 `"...Well, with the government having development projects all over the country, they've butted heads with quite a few people. `
+`It wouldn't take much wrongdoing for the left wing parties to suddenly garner more support."`
 `"We're currently investigating what demands are being forced on the minister.`
 ` But at least we have a good idea of how he's being threatened."`
 `"...How?"`
@@ -1045,6 +1055,8 @@
 ` It's a bit of an interesting old tale, isn't it?"`
 `"If you set foot into the demons' village without reason, you'll promptly be captured and eaten alive.`
 ` So don't go near Onigafuchi. `
+`...Kids these days might not believe such superstitions,`
+` but amongst the older folk in Okinomiya born in the Meiji Era, many would never question these warnings."`
 `Hinamizawa Village was feared by the people in the area.`
 ` I recalled that piece of information I heard from the Prefectural Public Safety Division.`
 `"In any case, we're in the boonies out here.`

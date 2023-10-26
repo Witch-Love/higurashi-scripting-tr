@@ -217,6 +217,7 @@
 `"Yep!`
 ` He saw it just fine.`
 ` Didn't you see how big an applause he gave you?"`
+`"And he ignored it when that blockhead Shion came up and made a pass at him~!`
 ` Ah-ha-ha-ha!`
 ` Take that, Shion!`
 ` Wow, that felt good!"`
@@ -369,6 +370,7 @@
 `...What I was trying to ask was...`
 `"...I... well...... When did I meet up with you...?"`
 `"...How could you forget that?`
+` ...Keiichi-kun, I think you shouldn't be drinking until you're an adult..."`
 `"Whatever!`
 ` When did I meet up with you...?!"`
 `"Uh! ......Um... well..."`
@@ -407,6 +409,7 @@
 ` ...When did we see each other?`
 ` When... and where...?"`
 `"...I don't know what you're trying to ask."`
+`"I, uh, drank so much beer I lost some of my memory...`
 ` I don't remember a thing.`
 ` ...Hehehehe..."`
 `It looked like Rika-chan bought into my babbling.`
@@ -904,6 +907,7 @@
 `"Well yes, I'm more or less a doctor here.`
 ` ...Doctors have it really good, you know?`
 ` You get to see and touch all that young, silky smooth skin~☆. `
+`I could inject them with a weird chemical that'd make them my slaves, and have them be my personal maids~~...☆"`
 `"Thank you very much.`
 ` Just seeing that made my cold go away.`
 ` I'll be leaving now.`
@@ -936,6 +940,9 @@
 ` I was drinking in the main tent with the chairman and the others the whole time... I didn't go out to see the festival at all.`
 ` I don't think I saw you."`
 `"...Oh."`
+`"That was a strange question.`
+` Did you have too much to drink and forget about what happened last night?`
+` And underaged, too—you bad child."`
 `Coach let out a laugh.`
 `...He didn't laugh in an unnatural way, like Mion and Rena did.`
 `...Coach was okay.`
@@ -946,6 +953,7 @@
 ` might seem a little weird to you, but...`
 ` I want you to hear me out without laughing."`
 `"Yes, go ahead.`
+` I greatly welcome any shy, bashful worries you might have as you come into your secondary sex characteristics~☆."`
 `"............Could it...`
 ` be possible...`
 ` that I have... an identical twin?"`
@@ -1269,6 +1277,7 @@
 `It seemed like Coach was giving directions to the two doctors.`
 `"Black tea?`
 ` I'll make some."`
+`"Mix in amobarbital or Ravonal.`
 ` Cover the taste with milk and sugar."`
 `"He may grow suspicious at the sudden onset of drowsiness.`
 ` It's possible he may get agitated and become violent..."`
@@ -1329,6 +1338,7 @@
 `......Hey, wait... so then... does that mean when I cursed her, wishing for her death, that wish was granted...?!`
 `"What do you mean, burned corpse?`
 ` Was it an accident?"`
+`"...According to the Gifu police's statement, the possibility is extremely high that she was murdered..."`
 `...Huhuhu... ahahaha...`
 `...As I cried... I laughed quietly.`
 `...Serves you right... Serves you right...!`
@@ -1632,6 +1642,7 @@
 ` ...Grah!"`
 `Ooishi kicks some mud into my face.`
 `"...Use your hands, please, not your mouth.`
+` Only in the red-light district do they use both at once.`
 ` ...Isn't that right, boys?"`
 `...The men around him didn't react, not knowing quite whether they should laugh... but when Ooishi glared at them... they started mumbling out pained chuckles.`
 `...Just who... who was this guy...`

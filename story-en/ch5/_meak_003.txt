@@ -140,6 +140,9 @@
 `"I never learned anything like that.`
 ` I'm just trying to act like her...`
 `You can do it easily, too."`
+`"Aha ha ha ha. I don't want to.`
+` It's your role.`
+` Well, don't try too hard or you'll tire yourself out."`
 `I didn't mean to be cold, but Mion seemed to take it that way.`
 `She smiled as if trying to pacify me.`
 `I smiled gently back at her.`
@@ -316,6 +319,12 @@
 ` So she hasn't told Dad yet?"`
 `"She's probably waiting for the right moment.`
 ` I think she's going to in a couple of days."`
+`"......Humm, dad is on the hag's side,`
+` so he'll definitely talk to her if he hears about it.`
+` Then she'll have her men bring me to her`
+` and depending on my explanation, make me offer a finger or two...`
+` Scary! `
+`Aha ha ha!"`
 `"I wish you could laugh it off,`
 ` but... please remember you're not the only one who...`
 ` Ouch..."`
@@ -324,6 +333,8 @@
 ` Uh, I cooked too much rice and miso soup, so you'll have to have another round.`
 ` At least three helpings, all right?!"`
 `A few days later, Mion told me that the hag had heard about my escape.`
+`"So?`
+` How did she take it?"`
 `"She was furious.`
 ` She said that if you were in Okinomiya, she'd get you right away."`
 `"Scary.`
