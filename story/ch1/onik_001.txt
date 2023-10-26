@@ -192,7 +192,7 @@
 `"Tam istediğim gibi.`
 ` Her türlü oyunu oynarım. Kaybetmeye niyetim yok!"`
 `"...Whoa...`
-` O zaman bu seferlik seni gruba alacak mıyız, acaba.`
+` O zaman, bu seferlik Keiichi-kun'u gruba alacak mıyız, acaba.`
 ` ...Acaba!"`
 `Tepeden tırnağa sevinçle dolan Rena, bir bana, bir de Mion'a bakıp durdu.`
 `Mion ona olumlu bir şekilde göz kırptı, ve yüz ifadesi daha da canlandı.`
@@ -280,7 +280,7 @@
 `Başımı okşamanın sırtıma nasıl iyi geleceğini sormayı düşündüm ama sormadım.`
 `Önemli olan aslında ne yaptığın değil, düşüncendir.`
 `"E... Evet, teşekkürler Rika-chan. Ağrı şimdi geçiyor."`
-`"Yey~! ...Rika-chan! Günay~dın!"`
+`"Oley~! ...Rika-chan! Günay~dın!"`
 `"...Rena, sana da günaydın.`
 ` Herkese günaydın."`
 `Rika-chan her birimizi sevimli bir şekilde başını eğerek selamladı.`
@@ -309,7 +309,7 @@
 ` Dur! Uzak dur benden, seni canavar~!!!"`
 `"Bunu insanların yanlış anlayacağı şekilde söyleme!!"`
 `Küçük bir el gömleğimin arkasından çekiştirdi.`
-`"...İki gündür ortalıkta olmadığın için çok yalnızdı."`
+`"...Keiichi iki gündür ortalıkta olmadığı için çok yalnızdı."`
 `...Rika-chan gerçekten de...`
 `Böyle söyledikten sonra daha nasıl bir şey yapabilirdim ki?`
 `Gözyaşı dökmenin eşiğine gelmiş olan Satoko'yu yavaşça bıraktım. Alnına inecek darbeye hazırlanırken gözleri hâlâ kapalıydı.`
@@ -357,9 +357,9 @@
 `Mion sabah komutlarını verdi.`
 `Bir sınıfta tüm bu farklı yaşların öğretmeni olmak zor.`
 `Her birine farklı bir şey öğretmek zorunda.`
-`Ama doğal olarak tüm zamanını küçük çocuklarla geçiriyordu.`
-`Rena ve Mion, en üst sınıfta oldukları için çoğunlukla kendi başlarına ders çalışıyorlar.`
-`Hatta küçük çocukların derslerine yardımcı oluyorlar, bu yüzden kendi derslerine hiç vakit ayıramıyorlar gibi görünüyor.`
+`Ama doğal olarak tüm zamanını küçük çocuklarla geçiriyor.`
+`Rena ve Mion, en üst sınıfta oldukları için çoğunlukla kendi başlarına ders çalışırlar.`
+`Hatta küçük çocukların derslerine yardımcı oluyorlar, bu yüzden kendi derslerine hiç vakit ayıramıyorlarmış gibi görünüyor.`
 `Benim çalışmalarımın ilerlediği noktanın çok gerisinde kaldılar.`
 `Sonuç olarak, öğretmenin yerine geçip Rena ve Mion'a çalışmalarında yardımcı oluyorum.`
 `"Keiichi-kun, oldukça iyi bir öğretmensin.`
@@ -407,7 +407,7 @@
 ` Burada sınavla ayıklanmayı gerektirecek kadar insan bulunmuyor."`
 `"Herkes üniversiteye girebiliyorsa, bu konuda bu kadar kasmaya gerek yok, değil mi?"`
 `"...Evet, bu doğru... ama en azından herkesin bilmesi gereken şeyleri bilmelisin..."`
-`"Bu yaşlı moruk, anlamsızca çalışarak zaman kaybetmek yerine,`
+`"Bu yaşlı moruk, anlamsızca ders çalışarak zaman kaybetmek yerine,`
 ` değerli gençlik yıllarınızı daha anlamlı şeyler yaparak geçirmeniz gerektiğini düşünüyor."`
 `Bu öylece gülüp geçilemeyecek kadar derin bir sözdü.`
 `Ama bunu söyleyen Mion olduğu için muhtemelen o kadar da derin bir anlamı yoktu.`
@@ -460,7 +460,7 @@
 `Benim mutlu yüzümü gören Rika-chan'ın ifadesi küçük bir gülümsemeye dönüştü.`
 `"...Dün akşamki yemekten biraz ayırdım."`
 `Bu arada, Satoko ve Rika-chan'ın öğle yemekleri hep birbirinin aynısıydı.`
-`Görünüşe göre Rika-chan her gün ikisi için de yemek yapıyor.`
+`Görünüşe göre Rika-chan her gün ikisi için de yemek yapıyordu.`
 `"Bunu da mı Rika-chan yaptı?`
 ` ...Tadı annemin ev yemekleri gibi!"`
 `Gerçekten etkilenmiştim.`
@@ -497,10 +497,10 @@
 ` Brokoli ile karnabahar arasındaki farkı ayırt edebilmeye başladın mı?"`
 `Satoko'nun yüzü soldu.`
 `"...Hey, hey. Ben bile brokoli ile karnabahar arasındaki farkı ayırt edebilirim, biliyor musun?"`
-`"E-Elbette edebilirim!`
+`"E-El-Elbette edebilirim!`
 ` ...Gerçekten edebilirim!"`
 `Yalan söylemek onun için gerçekten de zordu.`
-`"Keiichi-kun, haşlanıp üzerine mayonez eklendiğinde ikisinin de tadı güzel oluyor, değil mi?`
+`"Keiichi-kun, h-haşlanıp üzerine mayonez eklendiğinde ikisinin de tadı güzel oluyor, değil mi?`
 ` Onunla uğraşmamalısın...`
 ` Mii-chan sen de!"`
 `Rena telaşla yetişmeye çalıştı ama Mion Satoko'ya yaklaşırken ukala bir şekilde güldü.`
@@ -560,7 +560,7 @@
 ` ...Mmm, taatlıııı~!`
 ` Seni eve götürmek istiyorum~!"`
 `Rena'nın görmediğinden emin olarak, Satoko bize dil çıkardı.`
-`Tsk, lanet olsun~! Rena'yı kukla gibi kullanıyor!!`
+`Cık, lanet olsun~! Rena'yı kukla gibi kullanıyor!!`
 `Rika-chan tek kelime etmeden yaralarımıza masaj yaptı...`
 `Gün nasıl geçmiş olursa olsun, son ders zili her zaman çok erken çalıyordu.`
 `Gölgelerimiz ufka doğru uzanıyordu.`
@@ -607,7 +607,7 @@
 `Bunu söylemekten nefret ediyorum ama gözümü bağlasanız ve körebe oynar gibi üç kez döndürseniz, göğü yerden ayırt edemem.`
 `"...Evet. Okula gidiş geliş dışında bir yere nasıl gideceğimi bildiğimi sanmıyorum."`
 `"Evet, evet. Yarın Mii-chan ve ben, Keiichi-kun'a Hinamizawa'da eşlik edip etrafı gezdiririz diye düşünüyorduk..."`
-`Bu çok iyi olurdu. Açıkçası, teklifleri beni mutlu etti.`
+`Bu çok iyi olurdu. Açıkçası, teklifleri beni mutlu etmişti.`
 `"Elbette geleceksin, değil mi?"`
 `"Eğer müsait olursam."`
 `"Bir kız tarafından davet edildiğinin farkında mısın!?"`
@@ -641,7 +641,7 @@
 ` Rena...`
 ` bütün yemekleri yapar mı, acaba...`
 ` Acaba!"`
-`"Rena, beni sen de görmezden gelme! İkinizin otel bölgesinde kaybolduğuna dair köy çapında bir söylenti çıkaracağım!"`
+`"Rena, beni sen de görmezden gelme! İkinizin otel bölgesinde kaybolduğuna dair köy çapında bir söylenti çıkarırım!"`
 `"Peki o zaman... Şimdi eve gidip hazırlamaya başlayacağım...!`
 ` Yarın çok eğlenceli olacak~! Görüşürüz Keiichi-kun, Mii-chan! Hoşçakalın!"`
 `Rena ayın üzerinde yürüyormuş gibi sıçradı.`

@@ -1,8 +1,8 @@
 `...Birisi bir süredir özür dileyip duruyor.`
 `Ne için özür dilediğini merak ediyorum.`
-`Kulak misafiri olmak yanlış geldi, bu yüzden görmezden gelmeye çalıştım.`
+`Kulak misafiri olmak yanlış geldi, bu yüzden kulak asmamaya çalıştım.`
 `Şehre son gidişimin üzerinden epey zaman geçmişti. Sadece bir akrabamın cenazesine katılmak için dönmüştüm.`
-`Geçen aya kadar orada yaşıyor olmama rağmen, şehrin karmaşasını bunaltıcı buldum.`
+`Geçen aya kadar orada yaşamış olmama rağmen, şehrin karmaşasını bunaltıcı buldum.`
 `O gökdelenler ve çok şeritli yollar.`
 `Yaya geçidinin melodik kakofonisi.`
 `İstasyonun önünde bangır bangır yükselen reklam konuşmaları bile nostaljik bir his veriyordu.`
