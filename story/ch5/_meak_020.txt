@@ -870,6 +870,9 @@
 `"The police think he ran, using the money he saved to buy Satoko's birthday present, because he was the main suspect of his aunt's murder.`
 ` What do you think about that?"`
 `"......Well... I heard that the culprit was some kind of drug addict."`
+`"What do you think about that?`
+` I... ahahaha, maybe I shouldn't say this, but I believe Satoshi-kun is the culprit.`
+` The drug addict was probably a decoy the hag arranged."`
 `"I've......... suspected as much.`
 ` That guy appeared out of nowhere.`
 ` ...I didn't understand it at the time."`
@@ -886,6 +889,8 @@
 `"But fabricating a suspect can't be that easy, don't you agree?"`
 `".........The only person who can do things like that...`
 ` is Oryou-san."`
+`"...I knew the hag was very powerful in the underside of Hinamizawa,`
+` but I never knew she was that powerful..."`
 `"...I'm sure you've heard quite a few rumors`
 ` during the dam conflict.`
 ` Didn't you also hear things directly?"`
@@ -907,6 +912,10 @@
 ` at Oryou-san's command...`
 ` The Minister promised to stop the dam construction, and the grandson was released.`
 ` ......All the top people in the ex-Guardians know that."`
+`"...Hmmm.`
+` I guess I was right in the middle of it when it was happening, but I didn't notice.`
+` The hag, the Three Families, and the ex-Guardians are truly magnificent, huh?`
+` How terrifying..."`
 `Kimiyoshi finally realized the situation he was in, and he was answering my questions. That made me happy, but...`
 `The more Kimiyoshi told me the truth`
 ` the more I realized Satoshi-kun really was dead... That made me very sad.`
@@ -1012,6 +1021,8 @@
 `Mion started to sob.`
 `"You weren't there... when Satoshi-kun was killed, were you?"`
 `".........No."`
+`"If you were there...`
+` Would you have begged the hag to forgive him?"`
 `"Yes.`
 ` I would have begged her to let him live..."`
 `"Liar."`

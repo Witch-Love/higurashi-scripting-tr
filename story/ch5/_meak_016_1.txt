@@ -78,6 +78,12 @@
 `Then I'd talk about the day with him later.`
 `"How are you going to Hinamizawa?`
 ` I can give you a ride if you want."`
+`"I'm taking my moped, so you don't have to."`
+`"That won't do.`
+` Aren't you going to the family party afterwards?`
+` I can't let you drive under the influence."`
+`He won't let me drive,`
+` but he's kind enough to let me drink.`
 `"All right, take me then."`
 `"Good.`
 ` Let's leave before nightfall.`

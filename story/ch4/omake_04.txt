@@ -79,6 +79,8 @@
 `"Wha--!?`
 ` What is this!?`
 ` A blackout!?"`
+`"Nobody move!!`
+` Any weird movements, and you'll come face-to-face with a combo trap that takes you from a pendulum to a landmine to an electric chair with a buzzsaw!!"`
 `"...Sa-Satoko!?`
 ` What's the meaning of this!?"`
 `"Hooo ho ho ho ho!!`
@@ -113,6 +115,9 @@
 `"Oh, it's Shii-chan! Hello~!`
 ` ....Gyah!?"`
 `"......I feel sorry for her falling for the same trap twice."`
+`"I thought it was you, Shion!!`
+` Even though you're penciled in to be the main character in the next scenario! This is an outrage!`
+` Now you've gone and done it!!"`
 `"Heh heh heh...`
 ` Even if it is only the bonus scene before the answer arcs, I can't let my sister have all the appearances. I'm not that generous, you know.`
 ` Well☆. `
@@ -121,6 +126,8 @@
 ` Shion, what is it that you want!?"`
 `"Let's just say I'm securing myself a little safety buffer.`
 ` The other day, for some reason, you were steadily getting more votes in the popularity poll."`
+`"Yup.`
+` In the first half of the Watanagashi chapter, there were a lot of people getting infatuated with Mii-chan."`
 `"Heh heh heh!`
 ` When your malicious side made its appearance, all the players finally started noticing my charm.`
 ` Satoko also earned a good reputation during the Tatarigoroshi arc. `
@@ -161,6 +168,10 @@
 `"He seems somehow reliable for once!!"`
 `"I, Kyousuke Irie, shall not allow any aggression against Satoko-chan.`
 ` I may also just be a supporting character... but don't think you can persuade me so easily!"`
+`"Oh.`
+` Then you're saying you want to withdraw from being the lead in`
+` 'Live Performance!! Satoko's Maid Training, Dress-up Chapter'`
+` that we planned on filming after this?"`
 `"...Shion-sama.`
 ` I, Kyousuke Irie, shall follow you to the depths of hell!!!"`
 `"That was fast!!!"`
@@ -179,9 +190,17 @@
 `"Rena-chan!`
 ` I won't do anything to hurt you, but it's easier if you don't resist!"`
 `"I-- sorry, but all this is really bizarre!"`
+`"...What're you trying to do?`
+` ...The lightswitches?`
+` I see, you're planning to do something when the room's pitch black, aren't you?`
+` Hee hee hee... resistance is futile."`
 `"Rena-san.`
 ` You should stop your pointless resistance and just come along peacefully.`
 ` If you make me angry enough, then not only will you suffer, but so will my dear sister as well."`
+`"...You can't do anything just by turning off the lights...`
+` ...Rena, I'm sorry, but do what they say..."`
+`"It's alright, don't worry.`
+` By turning off the lights... we can reverse this situation!"`
 `"...Reverse the situation!?`
 ` ...Exactly... what are you scheming!?"`
 `"...Ahahahaha!!`
@@ -202,18 +221,42 @@
 ` Kei-chan!!`
 ` That's right, he never has any appearances during the afterparties!`
 ` There's no way Kei-chan would allow somebody to monopolize the afterparties all to themselves without him!"`
+`"I see.`
+` So?`
+` How is Kei-chan going to appear here, when he doesn't even have any character art?`
+` ...It couldn't possibly be that they'd insert new character art just for this.`
+` Heh heh heh!!"`
 `"That's just your self-centered way of thinking, Shii-chan!!"`
+`"...Gah!!`
+` No!!`
+` If the lights are turned off...!!`
+` Chie-sensei, hold Rena-chan back!!"`
 `"Huh?`
 ` Huh?"`
 `"It's too late!!!!"`
+`"...Save meeeeeeee!! Keiichi-kuuuuuuuuun!!!!!"`
 `"...Kukukuku...`
 ` Uwaaa ha ha ha ha ha!!!!"`
+`"Th-That voice is... Kei-chan!?!?"`
+`"Rena, you have my thanks!!`
+` When even the moon abandons the land and shrouds it in true darkness,`
 ` The Demon Lord of the Darkest Black, Keiichi Maebara, shall appear!!!!"`
+`"I see, if it's like this, he can appear even if he doesn't have any character art."`
+`"...There's no character or background art, so it's really easy on the production staff."`
 `"Bwa ha hahahaha!!!`
 ` Shionnnn!!`
 ` You act like you're the main character in a tragedy, but from my point of view, it's more like a comedy!!!`
 ` It seems like you've gotten a little carried awaaaay!!`
+` Every. Afterparty. `
+`Without any character art, without any sort of appreciation. Witness my`
+` anger,`
+` my grudge,`
+` and all of my sorrow!!`
+`I shall instill it all upon you!!!"`
 `"...I-It almost seems like Keiichi-kun is doing some sort of bad-guy transformation sequence."`
+`"This isn't some sort of transformation. I'll have you know I've always been a Demon Lord!!`
+` And as of right now, this world which is enveloped within true darkness shall dance upon the palm of my hand!! `
+`Within this world of darkness, there are none who can oppose me!!!!"`
 `"...Keiichi-kun is kind of scary... hau..."`
 `"Scary?`
 ` Wa ha ha ha ha!!!`
@@ -245,6 +288,11 @@
 ` school uniform`
 ` gym clothes`
 ` school swimsuit triple combo!?!?"`
+`"Maebara-sama, you're the best~~!!!!!`
+` How about a bunny girl, or campaign girl costu-- no no, lingerie could be good too!! `
+`No, wait!!`
+` How about just about making everybody naked!!!`
+`B-But of course, leave the socks on!!!"`
 `"Whoaaaaaaa!!`
 ` That's a good idea!!`
 ` You know your stuff!!`
@@ -290,17 +338,32 @@
 `He's been on a private couple's hot springs vacation his wife's family set up for them since yesterday!!`
 ` In other words!`
 ` All the bases are covered!!"`
+`"...You're so naive, Kei-chan.`
+` ...Even characters who have art are able to reveal their true form in the darkness.`
 ` ...Chie-sensei!!!"`
 `"...That's how it is, Maebara-kun."`
 `"...It's dark so I can't really tell, but it seems like Chie-sensei's outfit is different.`
 ` ...What are those?`
 ` All those swords in her hands.`
 ` ...Th-They couldn't be!!`
+` The Blac---hrmph!!!"`
 `"......Any more than that is a secret.`
 ` Nipah~☆."`
 `"...Maebara-kun?`
 ` ...That was just a little too much mischief on your part.`
 ` The church can't overlook any more than this."`
+`"Wa-Wa-`
+`Wait a minute,`
+` this here,`
+` there's no way, right,`
+` that's cheating,`
+` it's against the rules!!!!`
+` Hey, she can't do this, right!?!?`
+` Wa-wait, you can't use that big one!!!`
+` Huuuh!? `
+`Her arc drive has startup invincibility!?`
+` The Seventh Hooo--`
+` Gyagyagyaaaaaaaaaaaa!!!!"`
 `"Ahahaha...`
 ` Hello again.`
 ` Thank you very much for playing Higurashi When They Cry ~Himatsubushi~."`

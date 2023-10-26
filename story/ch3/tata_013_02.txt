@@ -27,6 +27,7 @@
 `"He was sitting on the sofa in the head office; he looked like he was taking a nap."`
 `"There was a jug and an empty bottle of sleep medication on his desk, so you immediately thought he had tried to commit suicide with it.`
 ` What else?"`
+`"His high temperature and incontinence indicated a severe disturbance of consciousness.`
 ` It seemed like a typical case of sleeping pill poisoning, so I immediately began to treat him."`
 `"Without calling the police or an ambulance?"`
 `"This is a hospital—and I'm a doctor!`
@@ -58,6 +59,7 @@
 `...And yesterday, I wished Coach was dead.`
 `...Then.........`
 ` could he... have...`
+`"Did he use sleeping medication regularly?"`
 `"...I don't really know."`
 `"Did he normally complain that he was tired or wanted to die?"`
 `"Well... Irie-sensei was normally so... well, himself.`
@@ -176,6 +178,7 @@
 ` ...He felt like there was something he had to give his life for... and chose to do so after a lot of worrying and suffering.`
 ` ...It's not anyone's fault."`
 `She smiled a little, trying to comfort me.`
+`".........I do not want to be naked forever.`
 ` ...I want... some clothes."`
 `"Are you okay?!`
 ` Shouldn't you get someone at the clinic to..."`
@@ -231,6 +234,7 @@
 ` I didn't go... I was doing something else.`
 ` ...The whole time.`
 ` I wasn't sleeping or unconscious or anything. `
+`So it's not possible... that I walked to the festival in my sleep and forgot about it afterwards."`
 `"...That is quite strange.`
 ` ...Then how were you at the festival...?"`
 `"That's what I mean!`
@@ -322,6 +326,7 @@
 ` ...Your legs are still shaking, aren't they?`
 ` It would be terrible if you collapsed halfway there..."`
 `"Really, I am fine now...!`
+` I do not want to expose my naked self to a man any more than this...!`
 ` ...Hah...`
 ` guh...`
 ` hah...`

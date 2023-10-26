@@ -90,6 +90,9 @@
 `"...I suddenly received a call from the prefectural police the other day.`
 ` They said that one of the guys in detention confessed to the murder of the housewife."`
 `"Who is it?"`
+`"He's a crazy dopehead.`
+` He's been in and out of prison for drug abuse.`
+` His statement says that he was interested in the series of mysterious deaths and wanted to imitate them."`
 `"...Are you sure he's the real culprit?"`
 `"I didn't interrogate him myself,`
 ` but... the prefectural police tells me that he has information that only the real culprit would know.`
@@ -103,16 +106,23 @@
 `"......You don't seem quite convinced."`
 `"....................."`
 `Ooishi, still looking up at the ceiling, went quiet.`
+`"As a matter of fact,`
+` the dopehead was already dead`
+` by the time I got their call."`
 `"Dead?"`
 `"...You know those spoons that are forked at the tip?`
 ` They use those at the detention facility.`
 ` I was told that he swallowed one and choked on it... `
 `They couldn't tell if it was a suicide or if it was caused by some mental disorder."`
 `I imagined somebody swallowing that spoon... and gagged.`
+`"So, the investigation hadn't been done that thoroughly...`
+` But although I'm not convinced, my superiors are.`
+` I think with that, the case will be closed."`
 `Ooishi turned his eyes from the ceiling to me.`
 `He looked serious.`
 `"...This is just what I personally feel, okay?`
 ` So please keep it between the two of us.`
+` ...I believe that this lunatic is some kind of mistake."`
 `"..............."`
 `"It might be either a big misunderstanding caused by a chain of coincidences, or...`
 ` ...you know?`
@@ -134,6 +144,9 @@
 `"......Where did Satoshi-kun go...?"`
 `"His disappearance convinced me that he was the culprit.`
 ` If he wasn't the culprit... there'd be no real reason for him to disappear."`
+`"...What if the murder actually was done by that lunatic and Satoshi-kun's disappearance has nothing to do with it...? `
+`In other words, what if Satoshi-kun disappeared because the Sonozaki family didn't like my relationship with him,`
+` and he has nothing to do with the murder...?"`
 `Was Satoshi-kun a culprit`
 ` or a victim?`
 `...The reason for his disappearance had become unclear...`
@@ -156,6 +169,9 @@
 ` ...Do we have a deal?"`
 `"That sounds too convenient for you."`
 `Ooishi chuckled.`
+`"...Shion-san...`
+` I think if we leave things as they are, they'll conclude that the lunatic committed the murder.`
+` If that happens, Satoshi-kun's disappearance will be treated as just another runaway minor. `
 `They won't search for him as actively as before."`
 `"....................."`
 `"But I will continue searching for him.`
@@ -361,6 +377,9 @@
 ` Did I startle you...?`
 ` Hee hee."`
 `The intelligent-looking woman giggled.`
+`"N-No,`
+` I was just a bit surprised...`
+` Sorry about that."`
 `She could have apologized a little better, too, since she'd been watching me from behind...`
 `But she just stared at my face instead...`
 `".........Are you Shion Sonozaki-san?"`

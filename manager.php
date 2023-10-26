@@ -66,7 +66,7 @@ function readDirs($path) {
 	$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
 	foreach ($iterator as $file) {
 		if ($file -> isFile()) {
-			if (!in_array(basename($file), $GLOBALS['exclude'])) {
+			if (!in_array(basename($file), $GLOBALS['exclude']) && !str_contains(basename($file), "vm0x") && !str_contains(basename($file), "vm00")) {
 				array_push($list, str_replace('\\', '/', $file));
 			}
 		}
@@ -103,6 +103,37 @@ function main($argc, $argv) {
 							$match = $matches[1][0];
 							$match = str_replace('\\"', '"', $match);
 							array_push($newfile, '`' . $match . '`' . LF);
+						} else {
+							$z_exp = '/(?:GetGlobalFlag\(GCensor\) <= .\)\{ModCallScriptSection\(")(.*?)(?:",")(.*?)(?:")/';
+							$result = preg_match($z_exp, $line, $matches, PREG_OFFSET_CAPTURE);
+							if ($result == 1) {
+								$parts = pathinfo($chapter);
+								$in_handle = fopen($parts['dirname']."/".$matches[1][0].".txt", "r");
+								if ($in_handle) {
+									$state = false;
+									$dialog_name = $matches[2][0];
+									while (($in_line = fgets($in_handle)) !== false) {
+										if (!$state) {
+											if (str_contains($in_line, $dialog_name)) {
+												$state = true;
+											}
+											continue;
+										}
+
+										$dialog_exp = '/dialog.*?\(/';
+										$result = preg_match($dialog_exp, $in_line, $matches, PREG_OFFSET_CAPTURE);
+										if ($result == 1) break;
+
+										$result = preg_match($exp, $in_line, $matches, PREG_OFFSET_CAPTURE);
+										if ($result == 1) {
+											$match = $matches[1][0];
+											$match = str_replace('\\"', '"', $match);
+											array_push($newfile, '`' . $match . '`' . LF);
+										}
+									}
+									fclose($in_handle);
+								}
+							}
 						}
 					}
 					fclose($handle);
@@ -131,7 +162,8 @@ function main($argc, $argv) {
 					}
 					fclose($handle);
 				}
-				$datas[$i] = $data;
+				$name = basename($file);
+				$datas[$name] = $data;
 			}
 
 
@@ -152,12 +184,60 @@ function main($argc, $argv) {
 					while (($line = fgets($handle)) !== false) {
 						$result = preg_match($exp, $line, $matches, PREG_OFFSET_CAPTURE);
 						if ($result == 1) {
-							$data = $datas[$i][$n];
+							$name = basename($chapter);
+							$data = $datas[$name][$n];
 							$data = str_replace('"', '\\"', $data);
 							array_push($newfile, $matches[1][0] . str_replace(array("\r", "\n"), '', $data) . $matches[3][0] . LF);
 							$n++;
 						} else {
 							array_push($newfile, $line);
+
+							$z_exp = '/(?:GetGlobalFlag\(GCensor\) <= .\)\{ModCallScriptSection\(")(.*?)(?:",")(.*?)(?:")/';
+							$result = preg_match($z_exp, $line, $matches, PREG_OFFSET_CAPTURE);
+							if ($result == 1) {
+								$parts = pathinfo($chapter);
+								$in_chapter = $parts['dirname']."/".$matches[1][0].".txt";
+								$in_handle = fopen($in_chapter, "r");
+								$new_infile = [];
+
+								if ($in_handle) {
+									$state = false;
+									$dialog_name = $matches[2][0];
+									while (($in_line = fgets($in_handle)) !== false) {
+										if (!$state) {
+											if (str_contains($in_line, $dialog_name)) {
+												$state = true;
+											}
+											array_push($new_infile, $in_line);
+											continue;
+										}
+
+										$dialog_exp = '/dialog.*?\(/';
+										$result = preg_match($dialog_exp, $in_line, $matches, PREG_OFFSET_CAPTURE);
+										if ($result == 1) {
+											array_push($new_infile, $in_line);
+											$state = false;
+											continue;
+										}
+
+										$result = preg_match($exp, $in_line, $matches, PREG_OFFSET_CAPTURE);
+										if ($result == 1) {
+											$name = basename($chapter);
+											$data = $datas[$name][$n];
+											$data = str_replace('"', '\\"', $data);
+											array_push($new_infile, $matches[1][0] . str_replace(array("\r", "\n"), '', $data) . $matches[3][0] . LF);
+											$n++;
+										} else {
+											array_push($new_infile, $in_line);
+										}
+									}
+									fclose($in_handle);
+								}
+								file_put_contents($in_chapter, $new_infile);
+
+							}
+
+							
 						}
 					}
 					fclose($handle);

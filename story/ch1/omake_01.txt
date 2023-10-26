@@ -5,8 +5,18 @@
 `"Even a little bit is stretching it!`
 ` That incredibly dark ending made me angry, you know?"`
 `"...Made us angry."`
+`"As I understand it, this ~Onikakushi~ chapter is supposed to be somewhat of a prologue to the entire series."`
 `"How could the prologue... have such an incredibly dark ending?"`
 `"Yeah, but doesn't that happen sometimes?`
+`The player digging through the story in order to avoid a bad ending is the point of these types of games after all."`
+`"...It's still just the first chapter. I'm looking forward to the next one."`
+`"What happens in the next chapter?`
+` Rena, do you know?"`
+`"Yeah. They said the next chapter will introduce another aspect of the story."`
+`"...That's a strange way of putting it.`
+` What does that mean?"`
+`"In this chapter, they introduced the string of mysterious deaths that were happening in Hinamizawa recently, right?`
+` The next chapter will introduce some of the history of Hinamizawa."`
 `"With one strange event happening after another, I got totally lost... what exactly is Oyashiro-sama's curse about?`
 ` Actually, what is Oyashiro-sama to begin with? They didn't explain it much."`
 `"...Hmmmm, I haven't heard much about it.`
@@ -25,6 +35,9 @@
 `"...Huh...`
 ` That's too bad.`
 ` He could have at least poked in to say hello."`
+`"...It's probably because he doesn't have any character art so he couldn't poke his head in even if he wanted to."`
+`"Rika-san, that's what we refer to as a 'personal problem,'`
+` hehehehe!"`
 `"In any case, that story really was a lot of trouble, especially for Keiichi-kun and Rena-chan!"`
 `"Trouble? That was the mother of all Bad Ends!"`
 `"I wonder... What was the identity of the thing that attacked Keiichi-kun?"`
@@ -90,6 +103,9 @@
 ` I think... that maybe this was an act of revenge.`
 ` Something native to the region...`
 ` Some connection not touched on this time around!"`
+`"I see.`
+` A member of some repressed family looking to air out an old grudge of their ancestors... something like that?`
+` Hmmm... I don't like that."`
 `"Then what is it? It couldn't be that you're leaning towards the 'curse' explanation, Ooishi-san?"`
 `"That's right, that's right!!`
 ` The man playing the detective said so!`
@@ -223,6 +239,8 @@
 `"I can hear you, you know!!`
 ` It must be nice having a wrap-up party!`
 ` I wanted to go too!!!"`
+`"...You can come if you get some character art for yourself."`
+`"Rika, that's a secret..."`
 `"Ah, sorry about that, Keiichi-kun.`
 ` Anyways, during the current chapter,`
 ` Keiichi-kun,`
