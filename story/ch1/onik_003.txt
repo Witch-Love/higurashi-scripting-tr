@@ -99,10 +99,10 @@
 `...Eğer böyle olacaksa, ben de kaybedemem!`
 `"O zaman desteyi kesiyorum... ve dağıtıyorum!"`
 `Bekâr Kaçtı, Papaz Kaçtı ile hemen hemen aynı şey.`
-`Tek bir farkı var: papaz belli değil.`
+`Tek bir farkı var: joker belli değil.`
 ` Onun yerine, başlangıçta desteden bir kart çıkartırsın.`
 `Yani oyunun sonunda eşi olmayan bir kart kalır.`
-`Hangi kartın papaz olduğunu önceden bilemezsin.`
+`Hangi kartın joker olduğunu önceden bilemezsin.`
 ` Oldukça heyecan verici bir oyun!`
 `"Şimdi kartı çıkartacağım."`
 `Mion bir kart çıkarttı ve yüzü aşağı bakacak şekilde masanın üzerine koydu.`
@@ -158,7 +158,7 @@
 `Eğer sınıfça boynumuza patlayıcı tasma takılacak ve ıssız bir adaya bırakılıp ölesiye dövüştürülecek olsaydık, bu çocuklar herhalde suya bırakılan balık gibi sevinirlerdi.`
 `Sınıf arkadaşlarının her birini avlarken duyacakları sevinci şimdiden hayal edebiliyorum...`
 `"Sistem en düşük puana göre.`
-` Puanları, sıranın kendisi belirliyor. En düşük puana sahip olan kazanır!"`
+` Puanlar, sıranın kendisiyle belirleniyor. En düşük puana sahip olan kazanır!"`
 `"...Keiichi sonuncu olduğu için beş puanı var."`
 `Puan tabloma şimdiden bir 5 yazılmış...!`
 `"...B-Bence yeni bir deste kullanmazsak Keiichi-kun'a haksızlık olur."`
@@ -232,7 +232,7 @@
 `"Tabii ki ediyorum!"`
 `"Hadi bir düello yapalım.`
 ` Tek şans!`
-` Eğer sen kazanırsan, ilk ve son sırayı değiştiririz! ...Ne dersin!? Var mısın!?"`
+` Eğer Kei-chan kazanırsa, ilk ve son sırayı değiştiririz! ...Ne dersin!? Var mısın!?"`
 `Kandı!`
 `Onu kışkırtmadan mümkün olmayacak bir çevirme şansı!!`
 `"Tek şans mı diyorsun?`
@@ -354,7 +354,7 @@
 ` İnanılır gibi değil! Karo İkiliydi!`
 `T-Tuzağın arkasında bir tuzak vardı...!!`
 ` Eğer sadece bu kadar derinlemesine düşünmeden doğru olanı seçseydim...!`
-`"...Ben, Mion Sonozaki, kulüp başkanı olarak...`
+`"...Ben, Sonozaki Mion, kulüp başkanı olarak...`
 ` Maebara Keiichi'yi...`
 ` kulübümüze üye olarak...kabul ediyorum...!!!"`
 `Sersemlemiş bir şekilde dizlerimin üzerine çöktüğümde, yenilgime rağmen gösterdiğim mükemmel çaba için herkes beni alkışladı.`
@@ -623,7 +623,7 @@
 `Vahşi bir cinayet.`
 `...Baltalarla.`
 ` ...Kazmalarla.`
-` ...Bir... balta ile yaptığı bir işti.`
+` ...Balta... ile.`
 `"AhhHhhhHhHhhh!!!"`
 `"Eek! Ü-Ü-Üzgünüm...!!!`
 ` Korkuttum mu acaba!? Korkuttum mu acaba!?"`
@@ -638,8 +638,8 @@
 `Oldukça yorgunum ve sanırım kalanını yarın yapmaktan zarar gelmez.`
 `"O balta olmadan son kirişi kırabilirmişiz gibi görünmüyor.`
 ` Ne de olsa getirdin... Yarın ödünç almam gerekecek.`
-` Değil mi?"`
-`"...Tamam."`
+` Tamam mı?"`
+`"...Olur."`
 `"Neden bu kadar asık suratlı görünüyorsun? Yarın Colonel Sanders'ı çıkaracağız, değil mi!?"`
 `"Haklısın. ...Ahahaha!`
 ` Gerçekten Colonel Sanders'ı yakında eve götürmek istiyorum~!"`
