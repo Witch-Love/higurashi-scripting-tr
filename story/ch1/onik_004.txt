@@ -48,11 +48,11 @@
 `"Bu versiyona 'zombi ebelemece' diyoruz."`
 `"Anladım. Bir zombi tarafından enfekte edilen herkes zombiye dönüşüyor."`
 `"...Neden kulağa bu kadar korkutucu geliyor, acaba?`
-` Acaba?"`
+` ...Acaba?"`
 `"Rena'yı yakalar yakalamaz, hâlâ hayattayken bağırsaklarını çıkaracağım!!!"`
 `"...İ-İ-İğ-İğrenç, Keiichi-kun, bu iğrenç...!"`
 `Rika-chan elini panikleyen Rena'nın başına koydu.`
-`"...Merak etme. Keiichi seni mideye indirmeden önce, ben seni nazikçe yiyeceğim."`
+`"...Merak etme. ...Keiichi seni mideye indirmeden önce, ben seni nazikçe yiyeceğim."`
 `"Rika, bu hiç de rahatlatıcı değil."`
 `Hem Mion hem de ben derin bir şekilde başımızı salladık.`
 `"Peki, ilk ebe... Kimin zombi olduğuna nasıl karar veriyorsunuz?`
@@ -153,7 +153,7 @@
 `Beni bulmak için en iyi yöntem ne olabilir?`
 `Ayak izleri ya da koku... ya da belki bir çeşit iz.`
 `İzlerimi ustalıkla gizleyebilirsem... o zaman Satoko'nun takip edebileceği bir iz kalmazdı!`
-`Ama ben dedektif değildim. Böyle amatör bir oyunda böyle bir şey yapabilir miydim?`
+`Ama ben dedektif değildim... Böyle amatör bir oyunda böyle bir şey yapabilir miydim?`
 `"Tomita~ Okamura~!`
 ` Şu aralar Keiichi-san'ı gördünüz mü!?"`
 `B-Bu da neeeeeeee!?!?`
@@ -186,7 +186,7 @@
 ` ...Ve bu benim için ters tepebilirdi...!`
 `Elçiler aracılığıyla yanlış bilgi yaymaya başladığım ortaya çıktığında, o 'mesajlardan' birinin alıcısı da ben olabilirdim.`
 `Satoko muhtemelen elçilerden beni aramalarına yardım etmelerini isteyecektir.`
-`Bu da... oyuna dahil olanlardan daha fazla zombi olacağı anlamına gelir!!!`
+`Bu da... oyuna dahil olanlardan daha fazla zombi olacağı anlamına gelir!!`
 `Yaramazlığım yüzünden ortaya çıkan virüs bir salgına neden olabilir...`
 `Tüm sınıf arkadaşlarım zombiye dönüşür... ve sadece beni ararlar!`
 `...Bu taktik...`
@@ -220,7 +220,7 @@
 `"Her gece etrafta dolaşıp külot çaldığı doğru mu?"`
 `Kimden bahsediyorlar!?`
 `"Kafasına külot giyip onları kokladığını falan duydum."`
-`Bunu yapmamın imkânı yok!`
+`Bunu yapmamın imkânı yooook!!`
 `"Sınıf Temsilcisi Mion'un da kurban olduğunu duydum~!"`
 `"Neee!?"`
 `GaaaaaaaAAaaRRRrrrrggh!!!!!`
@@ -240,7 +240,7 @@
 `"Duydunuz mu?`
 ` Yeni nakil öğrenci Maebara-san'ın gerçekten sapık biri olduğunu duydum!`
 ` Kyahahahaha!!"`
-`Mion'u yenmenin bedeli çok yüksekti.`
+`Mion'u yenmenin bedeli çok yüksekti...`
 `Ah!`
 ` ...Oh.`
 ` Aşağıdan biri geçti.`
@@ -251,7 +251,7 @@
 `"...Haah haah.`
 ` ...Görünüşe göre Mii-chan da ebe..."`
 `Mion!?`
-` Olamaz. Benim küçük stratejim yüzünden mi ebe oldu!?`
+` Olamaz... Benim küçük stratejim yüzünden mi ebe oldu!?`
 `Bu, bu amansız mesaj savaşının arkasında Mion'un olduğunu doğruladı.`
 ` ...O zaman... Bu iyi değildi...`
 `"Sonunda Mii-chan'dan kurtulduk, ama Satoko-chan... O..."`
@@ -310,7 +310,7 @@
 `"...Yani bu Rena'nın hâlâ hayatta olduğu anlamına geliyor.`
 ` Zile kadar fazla zaman yok."`
 `"...Lanet olsun sana, Renaaaaa...!!`
-` Ne cürretle... beni terk edersiiiiiin!"`
+` Ne cürretle... beni terk edersiiiiiin!!"`
 `Bir zombinin duyguları.`
 ` Kalıcı pişmanlıkları olan intikamcı hayaletlerin nasıl hissettiğini anladım.`
 `"...Bu üzücü, çok üzücü.`
@@ -336,7 +336,7 @@
 `"Evet! Jumbo jetlerle aynı ligde bile değil!`
 ` Rena'nın evine düşen şey...`
 `bir uzay kolonisiydi!!"`
-`"B-Bir uzay kolonisi miiiiiiii?"`
+`"B-Bir uzay kolonisi miiiiiiii!?"`
 `"Evet, bu gerçekten büyük bir felaket!`
 ` 100 kilometre yarıçapındaki her şey yok oldu!`
 ` Ama bu sadece bu trajik hikayenin başlangıcı!!`
@@ -344,12 +344,12 @@
 `Alt sınıflar afallamıştı, olayların bu büyük dönüşü karşısında gözleri faltaşı gibiydi...`
 `"Ne... Ne olacak...?`
 ` Terran Federasyonu kaybedecek mi?"`
-`"Eğer işler böyle giderse, kaybedecekler!!!`
+`"Eğer işler böyle giderse, kaybedecekler!!`
 ` Sadece Rena... Rena Kızıl Kuyruklu Yıldız'ı yenebilir!!`
 ` O kişi Ryuugu Rena!!"`
 `Alt sınıf öğrencilerinin hepsi yutkundu...!`
 `Rena olmadan Dünya savaşının kaybedileceğini anlamalarını tam olarak sağlamış gibiydim.`
-`"Şimdi dağılın, yoldaşlar! Rena'yı bulmalıyız!!!"`
+`"Şimdi dağılın, yoldaşlar!! Rena'yı bulmalıyız!!!"`
 `Alt sınıflardaki yoldaşlarım coşkulu bir tezahürat kopardılar ve okul sahasının çeşitli yönlerine doğru fırladılar.`
 `...Hm?`
 ` Hâlâ gitmemiş olan bir kişi vardı.`
@@ -397,7 +397,7 @@
 `"...Pekiiii o zaman... Hazır mısın!?"`
 `"...Tamam... Keiichi-kun olduğu sürece..."`
 `Kaderine boyun eğerken yüzünde beliren ifade kalbimi küt küt attırdı.`
-`"Keiichi-kun'un bana korkunç şeyler yapmayacağına inanıyorum."`
+`"Keiichi-kun'un... Rena'ya... korkunç şeyler yapmayacağına inanıyorum..."`
 `...Argh... Vücut... hareket etmiyor... Bu bir çeşit zombi karşıtı mantra olmalıydı.`
 `Mantık duygum devreye girdiği anda, içimdeki canavar anında öldü.`
 `İşte zil çaldı! Oyun bitti.`
@@ -414,7 +414,7 @@
 `Satoko ve Rika-chan tarafından yakalandım ve bir kez daha yüz gıdıklamayla ölüme mahkum edildim.`
 `"Eeeeeek! Affet beni! Eeeeeeek!"`
 `"O zaman hayatta kalma ödülü Ryuugu Rena ve Sonozaki Mion'a gidiyor. Oleey!"`
-`"Huh...? Mii-chan zombi değil miydi?"`
+`"Huh...? Mii-chan zombi değil miydi...?"`
 `"Sadece öyleymiş gibi davrandı. Düşmanı kandırmadan önce müttefiklerini kandırmalısın derler, bilirsin~?"`
 `"...Uroooogh! Mion~ seni küçük!"`
 `"Evet, evet.`
@@ -447,7 +447,7 @@
 `"Saygılarımı sunarım."`
 `Kafamdaki kaba imgeleri kovdum ve terslemeden onu selamladım.`
 `"Bu arada...`
-` O kız senin bir tanıdığın mıydı?"`
+` O kız senin bir tanıdığın mıydı...?"`
 `Muhtemelen Rena'dan bahsediyordu.`
 ` Tomitake-san'ın sarsılmasına bakılırsa...`
 `"O-O da neydi öyle!?`
@@ -475,7 +475,7 @@
 `"Hah hah hah!`
 ` Dikkatli olmak için elimden geleni yapacağım."`
 `Arkasında sadece bu sözleri bırakarak, Tomitake-san arkasını döndü ve gitti.`
-`Ona yabancı demek istememiştim.`
+`Ona yabancı demek istememiştim...`
 ` Bunu söylerken gerçekten bir şey ima etmiyordum...`
 `Sadece şaka yapmak istemiştim ama sanki kötü bir şey söylemişim gibi hissettim...`
 `"Keiichi-kun~!`
@@ -493,7 +493,7 @@
 ` Şu son kirişi de kırarsak, onu çekip çıkarabiliriz.`
 ` İhtiyacım olan her şey var.`
 ` Bana bırak!"`
-`"Tamam! Tamam!"`
+`"Tamam!"`
 `Rena'dan baltayı aldım ve dengesiz yamaçtan yukarı çıktım.`
 `"Sadece bekle, Colonel Sanders.`
 ` Keiichi-kun seni kurtaracak...☆"`
@@ -515,7 +515,7 @@
 ` Neredeyse eriştim.`
 ` Rena'nın bu gece Colonel Sanders'a iyi geceler öpücüğü vermesini sağlayacağım."`
 `"...Evet.`
-` Teşekkürler.`
+` ...Teşekkürler.`
 ` ...Colonel Sanders'a... iyi geceler öpücüğü vermek... hau..."`
 `"Aklıma geldi de... Rena, sen de nakil öğrencisin, değil mi?`
 ` Daha önce nerede yaşıyordun?"`
@@ -531,7 +531,7 @@
 ` Babanın işiyle bir ilgisi var mı?"`
 `"Babam stüdyosunu taşımak istediğini söyledi.`
 ` Bir süredir dağların derinliklerinde böyle bir yerin mükemmel olacağını söylüyordu."`
-`"Stüdyo mu? ...Baban ressam falan mı?"`
+`"Stüdyo mu? ...Baban ressam falan mı??"`
 `"Manzara resimleri yapıyor.`
 ` Görünüşe göre yılda iki kez yaptığı işler için bir galeri açıyor."`
 `İşe başladığında eserleri Tokyo'da bir endüstri plazasında sergileniyordu ama şimdi Makuhari Messe'de sergileniyor.`
@@ -543,7 +543,7 @@
 `"Ama... dönemin ortasında nakil oldun, değil mi?`
 ` Zor olmadı mı?"`
 `"Pek sayılmaz.`
-` Zaten şehirden sıkılmaya başlamıştım."`
+` ...Zaten şehirden sıkılmaya başlamıştım."`
 `Rena'dan cevaplar almaya çalışıyordum ama sonunda tüm cevapları veren ben oldum.`
 `Yüzümde biraz alaycı bir gülümsemeyle baltanın sapını kavradım ve şantiyeye geri döndüm.`
 `Güneş yavaş yavaş batarken hava daha da soğudu.`
@@ -592,21 +592,21 @@
 ` Oleeey!"`
 `Üç kez alkışlamak için doğru zaman!`
 ` İki günlük çalışmanın meyve verdiği o an.`
-`Hinamizawa'ya pislik içinde getirilen kişi sonuyla tanıştı. Onun yerine, onu tekrar karşılayabildik.`
+`Hinamizawa'ya pislik içinde getirilen o sonuyla tanışmıştı. Bunun yerine, onu tekrar aramıza alabilirdik.`
 `Çok şanslısınız, Colonel Sanders. Yeni efendiniz oldukça iyi bir insan.`
-`"...Waa... Colonel Sanders. O gerçekten taatlııı!"`
+`"...Waa... Colonel Sanders... O gerçekten taatlııı!"`
 `Kirli olması önemli değildi. Rena yanağıyla neşeyle ona sokuldu.`
-`Yorgunluktan ölüyordum ama Rena'nın mutlu yüzünü görmek her şeye değdi.`
+`Yorgunluktan ölüyordum ama Rena'nın mutlu yüzünü görmek her şeye değmişti.`
 `"Onu taşımana yardım edeceğim. Hava kararırsa kötü olur."`
-`"...Evet. Doğru ya!`
+`"...Evet. Bu doğru!`
 ` Sana gerçekten teşekkür etmek istiyorum, Keiichi-kun! Bunu unutmayacağım!"`
 `"Bana borcunu nasıl ödeyebileceğini çok iyi düşüneceğim!"`
-`"Vay... Vay... Ne tür bir 'geri ödeme' acaba?`
+`"Wh... Whoa... Ne tür bir 'ödeme' acaba?`
 ` ...Acaba?"`
 `Şimdilik, şeytani kıkırdamamı tutuyorum.`
-`Heykeli evine götürmeye hazırdık ama bu şekilde gidemezdik.`
+`Onu evine götürmeye hazırdık ama bu şekilde gidemezdik.`
 `Heykeli muşambaya sardık ve kaldırdık.`
-`Böylece Jack ve Jill, insan boyunda bir çanta ve kınından çıkarılmış bir balta taşıyarak tepeden aşağı indiler!`
+`Böylece Jack ve Jill, insan boyunda bir çanta ve kılıfından çıkarılmış bir balta taşıyarak tepeden aşağı indiler!`
 `Tomitake-san'la karşılaşmamak için dua ettim.`
 `Eğer bizi burada görür ve fotoğrafımızı çekerse... ondan kurtulmamız gerekecek. (ehehe)`
 `"...Bu benim gibi bir yabancı için bir uyarı mı?"`

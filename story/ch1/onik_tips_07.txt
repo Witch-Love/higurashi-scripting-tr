@@ -43,7 +43,7 @@
 `"...Hayır, öyle değil. Doğrusu 'Reina'."`
 `"Rena-san ona 'Rena' dememizi istediğini söylemişti.`
 ` Bu yüzden ona Rena-san diyoruz."`
-`"Kei-chan.`
+`"Kei-chan...`
 ` Rena Rena'dır, anlıyor musun?`
 ` Sadece yabancılar ona Reina der.`
 ` Nereye varmaya çalıştığımı anladın mı?"`
