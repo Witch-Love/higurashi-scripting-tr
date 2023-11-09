@@ -6,7 +6,7 @@
 `"Elden bir şey gelmez. Herkesin yaşı veya cinsiyeti farklı."`
 `"Uymamız gereken tek kural, egzersiz yaparken okul sınırları içinde kalmamız gerektiği."`
 `Bütün küçük çocuklar etrafta koşuşturuyordu.`
-`Yani... hiç şüphesiz hareketlilerdi. Bol bol egzersiz görünüyor olabilirlerdi, ama...`
+`Yani... hiç şüphesiz hareketlilerdi. Bol bol egzersiz yapıyormuş gibi görünüyor olabilirlerdi, ama...`
 `"...Eğitim bakanlığı muhtemelen bu okulu tamamen unutmuştur."`
 `"...Beklettiğim için üzgünüm."`
 `"Şimdi herkes burada. Bugün beden eğitiminde ne yapalım!?"`
@@ -547,7 +547,7 @@
 `Rena'dan cevaplar almaya çalışıyordum ama sonunda tüm cevapları veren ben oldum.`
 `Yüzümde biraz alaycı bir gülümsemeyle baltanın sapını kavradım ve çalışmaya geri döndüm.`
 `Güneş yavaş yavaş batarken hava daha da soğudu.`
-`Higurashi'ler şakı söylemeye başladılar, sanki bana durmamı ve eve dönmemi söylüyor gibiydiler.`
+`Higurashi'ler şarkı söylemeye başladılar, sanki bana durmamı ve eve dönmemi söylüyor gibiydiler.`
 `Biraz daha.`
 ` Bugün... bitirecektim!`
 `İlk başladığımda çalışırken Rena'yla sohbet ediyordum ama şimdi böyle bir lüksüm yoktu.`
