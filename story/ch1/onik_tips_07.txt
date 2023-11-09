@@ -1,41 +1,41 @@
 `"...Rena burada değil.`
 ` Keiichi, onun nerede olduğunu biliyor musun?"`
 `"Ha?`
-` Az önce oradaydı, aslında...`
+` Aslında az önce oradaydı...`
 ` Hey, Mion.`
 ` Rena nereye gitti?"`
-`"Rena~?`
-` Tuvalete gitmedi mi?`
+`"Rena mı~?`
+` Lavaboya gitmedi mi?`
 ` Son zamanlarda bağırsak sorunları yaşadığını söylemişti."`
 `Ben öyle bir şey duymamıştım!`
 `"...Satoko,`
 ` Rena'nın nereye gittiğini biliyor musun?"`
 `"Rena-san mı dedin?`
 ` Az önce koridorda yanından geçtim.`
-` Rena-san'ın bugün nöbetçilik görevi var, o yüzden çiçekliği sulamaya gitti."`
+` Rena-san'ın bugün nöbetçilik görevi var, o yüzden çiçek yatağını sulamaya gitti."`
 `"Ah~ Nöbetçilik sırası Rena'daydı.`
 ` Kulağa sıkıcı geliyor."`
 `...Rena, Rena, Rena.`
 `...Tekrarlandığını duyunca aklıma takıldı.`
 `Birinin ismi hakkında bunu söylemek kabalık olacak... ama bu garip bir isimdi.`
 ` Sanki bir yabancının ismi gibiydi.`
-`"Rena nasıl bir isim acaba?`
+`"Rena ne tür bir isim acaba...?`
 ` İsminde ne tür bir kanji kullanılıyor?"`
 `"...Rena onun takma adı.`
-` Özel bir adı da var."`
+` Gerçek bir adı da var."`
 `"Ne, gerçekten mi!?`
 ` Onun gerçek adının Ryuugu Rena olduğundan emindim."`
 `"Şey...`
 ` Ona sadece Rena-san dediğimiz için bu hataya düşmeni anlayabiliyorum."`
 `Adını bile "Rena" olarak yazıyordu.`
 ` Sanki okuldaki gerçek adı buymuş gibi.`
-`"Gerçek adını merak ediyorum...`
-` Döndüğünde Rena'ya soralım!"`
+`"Gerçek adının nolduğunu merak ediyorum...`
+` Rena'ya döndüğünde soralım!"`
 `Satoko ve Rika-chan birbirlerine baktılar.`
 `"...Ona sormana gerek yok.`
 ` Sana ne olduğunu söyleyeceğiz."`
 `"'orei' den 'rei' ve 'nara' dan 'na.'`
-` Gerçek adı Ryuugu Reina!"`
+` Ryuugu Reina onun gerçek adı!"`
 `"Reina, öyle mi?`
 ` ...Hmm.`
 ` Yani Reina yerine Rena olarak mı söyleniyor?`
@@ -44,8 +44,8 @@
 `"Rena-san ona 'Rena' dememizi istediğini söylemişti.`
 ` Bu yüzden ona Rena-san diyoruz."`
 `"Kei-chan...`
-` Rena Rena'dır, anlıyor musun?`
-` Sadece yabancılar ona Reina der.`
+` Rena, Rena'dır, anlıyor musun?`
+` Reina'yı ona sadece yabancılar der.`
 ` Nereye varmaya çalıştığımı anladın mı?"`
 `Mion'un ne dediğini anlamıştım.`
 `Gerçek isminin ne olduğu önemli değildi, sadece aramızda kullandığımız isimler önemliydi!`
@@ -55,7 +55,7 @@
 ` Peki sana ne denmesini istersin?"`
 `"Dolandırıcı."`
 `Rena ardından sınıfa geri döndü.`
-`Kapının yanındaki çocuklardan biri, Rena'ya insanların onu aradığını söyledi.`
+`Kapının yanındaki çocuklardan biri, Rena'ya birilerinin onu aradığını söyledi.`
 `"Bu da ne şimdi?`
 ` Rena'yı kim arıyor acaba?`
 ` Acaba?"`
@@ -67,13 +67,13 @@
 ` Keiichi-kun ve Mii-chan kötü bir icra memuru ve...?`
 ` dolandırıcı mı!?"`
 `"Lanet olsun sana, Ryuugu Renanosuke!`
-` Bugün senin yaratanla karşılaştığın gün olacak.`
+` Bugün, senin yaratıcınla karşılaştığın gün olacak.`
 ` Yıkıl karşımdan~!!"`
 `"Wah!`
 ` Wah!`
 ` Suke-san, Kaku-san, onlara ne olduğunu gösterin!"`
 `"Hay hay, efendim!!!"`
-`"...Maaşımın İsviçre banka hesabıma yatırılacağını tahmin ediyorum."`
+`"...Maaşımın Swiss banka hesabıma yatırılacağını tahmin ediyorum."`
 `İşler bu noktaya geldiğine göre, başka seçeneğimiz yok! Sadece beş kişiyle büyük bir savaş vereceğiz...!`
 `Rena'nın şiddetli yumrukları mührünü gösterir göstermez patladı.`
 `Mion ve benden ibaret olan kötülük sonunda yenildi...`
@@ -87,5 +87,5 @@
 `Rena'nın elini tuttum ve ayağa kalktım.`
 `Tam o sırada öğretmen sınıfa girdi.`
 `...Sadece bir saat daha.`
-` Adamım, ah adamım.`
+` Dostum, ah dostum.`
 ` ...Bir saat daha dayanmalıyım!`
