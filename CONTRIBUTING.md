@@ -16,17 +16,18 @@
 
 1. Özel durumlar vs:
    * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
+   * Japonca'da soyadlar isimden önce kullanılabiliyor. Bu soyad kuralını kullanarak seslendirilmiş yerlerde biz de bu kuralı kullanıyoruz.
    * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
      * Rena-san, Mion-san gibi saygı ekleri
-     * "Gyah!", "Aaaahh", "Oooooohh!" ve benzerleri
-   * Rena'nın "kana"sı:
-     * İngilizce, cümle sonlarında özel bir kelimeyi kullanmayı zorlaştıran bir dil olması nedeniyle çeviride cümle sonunda kullanılan kelimeleri tekrarlayarak bu sorunu çözmüştür. Türkçe'de Rena'nın "kana"larını "acaba" olarak çeviriyoruz.
+     * `Gyah!`, `Aaaahh`, `Oooooohh!` ve benzerleri
+   * Rena'nın `kana`'sı:
+     * İngilizce, cümle sonlarında özel bir kelimeyi kullanmayı zorlaştıran bir dil olması nedeniyle çeviride cümle sonunda kullanılan kelimeleri tekrarlayarak bu sorunu çözmüştür. Türkçe'de Rena'nın `kana`'larını `acaba` olarak çeviriyoruz.
      * `About time to have lunch, maybe? Maybe?` -> `Öğle yemeği vakti geldi mi acaba? Acaba?`
-   * Rena'nın "kyute" diyişi:
-     * İngilizce çeviride, başka karakterler Rena'nın kyute diyişini tekrarlarken kyute diyebiliyor. Türkçe çevirisinde bu kelimenin anlamı harflerin tekrarlanmasıyla verildiği için, sadece Rena'nın "taatlııı" diyebilmesi, diğer karakterlerin "tatlı" demesi gerekiyor.
-     * `I couldn't tell how she decides what's 'kyute' or not...` -> `Neyin 'tatlı' olup olmadığına nasıl karar verdiğini anlayamadım...`
+   * Rena'nın `kyute` diyişi:
+     * İngilizce çeviride, başka karakterler Rena'nın `kyute` diyişini tekrarlarken `kyute` diyebiliyor. Türkçe çevirisinde bu kelimenin anlamı harflerin tekrarlanmasıyla verildiği için, sadece Rena'nın `taatlııı` diyebilmesi, diğer karakterlerin tek tırnak içerisinde `'tatlı'` demesi gerekiyor.
+     * `And kyute kids like Rika-chan are locked away in the basement?` -> `Ve Rika-chan gibi 'tatlı' çocuklar bodrumda mı kilitli?`
    * Üç noktadan sonra büyük harf kullanımı:
-     * Cümle ortasında üç nokta ile biten sözlerin bazen "... I", "... I've" şeklinde devam ettiğini görebiliyoruz. Burada büyük harf kullanımı belirsiz olduğundan, önceki sözün tam bir cümle olup olmadığına göre büyük harf kullanıyoruz.
+     * Cümle ortasında üç nokta ile biten sözlerin bazen `... I`, `... I've` şeklinde devam ettiğini görebiliyoruz. Burada büyük harf kullanımı belirsiz olduğundan, önceki sözün tam bir cümle olup olmadığına göre büyük harf kullanıyoruz.
      * `Besides... I'm not throwing it away.` -> `Kaldı ki... bunu atmıyorum.`
      * `I still wanted to believe... I hadn't been split apart.` -> `Hâlâ inanmak istiyordum... Henüz parçalanmamıştım.`
 2. Hitaplar:
@@ -47,5 +48,5 @@
 * Shrine `->` Tapınak
 * Temple `->` Şinto *?* [^2]
 
-[^1]: "Higurashi" hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
+[^1]: `Higurashi` hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
 [^2]: Temple sözü, shrine'a kıyasla çok daha az sayıda geçtiği, fakat farklı şeyleri kast ettiği için bazı yerlerde bu şekilde çevirdik.
