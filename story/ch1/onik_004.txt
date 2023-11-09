@@ -1,613 +1,613 @@
-`The function of this school as an educational facility is very questionable.`
-`Our PE class is exceptionally disorganized.`
-`The only things we do together are the warm-ups at the start.`
-`The teacher isn't even there after that.`
-` All we do is play together.`
-`"No helping it. Everybody's a different age or gender."`
-`"The only rule was that we have to stay on school grounds while exercising."`
-`All the little kids were gallivanting about.`
-`Well... they certainly are being active. They might be getting plenty of exercise, but...`
-`"...The board of education probably completely forgot about this school."`
-`"...Sorry to keep you waiting."`
-`"We're all together now. What shall we do today for PE!?"`
-`"All right.`
-` We have all of our members gathered now."`
-`"Now then, Class Representative, what shall we do for PE today?`
-` What shall we do?"`
-`...Mion harrumphed and crossed her arms haughtily, surveying the area.`
-`"Explosive power and endurance.`
-` There are no friends in the world of sports.`
-` Everyone is a rival! The only thing you can trust in is your own body!"`
-`"What the heck do you mean by that? You really read too much manga."`
-`I quipped without missing a beat.`
-`"And so, we'll be taking a lesson from history!!`
-` The tried and true king of all outdoor melee events...`
-` Let's play tag!"`
-`It was quite the adorable choice to make after playing it up so much.`
-`"Just what I was hoping for~!!`
-` That dunderhead Keiichi-san shall be the first one to be it!"`
-`"...I won't be beaten."`
-`"I'll try my best too! You can't beat me~!"`
-`"...Why are you guys all so into it...?"`
-`"The third rule of our society!! You must partake in the game, enjoying it without question!!!"`
-`"Then... this counts as a club activity!?"`
-`Everyone smirked at each other.`
-`They all seemed pretty confident.`
-` I'm a man.`
-`Physically, I should be able to keep up with any girls my own age.`
-`Regardless, Mion and Satoko looked like they were aiming for victory and Rena was looking at me as if pitying my disadvantage.`
-`"...Fine. Tag,`
-` I'm iiiiiiiiin!!!"`
-`My yell echoed across the school grounds.`
-`These were the rules:`
-`Anyone who was able to evade being tagged before the bell was a winner.`
-`But we didn't switch who was 'it.'`
-` The ones who were tagged by 'it' also became 'it.'`
-`So the number of people who were 'it' could increase exponentially.`
-`The endgame would become a hellish siege.`
-`"We call this version 'zombie tag,' you see."`
-`"I see. Anyone infected by a zombie turns into a zombie."`
-`"...Why do you make it sound so scary, I wonder?`
-` ...I wonder?"`
-`"As soon as I catch Rena, I'm going to tear out her entrails while she's still alive...!!"`
-`"...G-G-Gr-Gross, Keiichi-kun, that's gross...!"`
-`Rika-chan placed her hand on Rena's head as she panicked.`
-`"...Don't worry. ...Before Keiichi gobbles you down, I'll eat you up gently."`
-`"Rika, that isn't comforting at all."`
-`Both Mion and I nodded deeply.`
-`"So, the first 'it'... how do you decide who's the zombie?`
-` ...With rock-paper-scissors?"`
-`"Well, it is class time after all. Let's decide by answering questions.`
-` I'll ask the questions, and the one who isn't able to answer is the zombie!"`
-`I have no idea which grade level they're coming from.`
-`"What does the Japanese word 「roku」 mean?"`
-`Huh?`
-` ...I was bewildered by the sudden question.`
-`Mion repeated it.`
-`"So you need to answer!`
-` What's 「roku」 in English!?"`
-`"Uhm, it's six!!"`
-`"How about 「kutsushita」!?"`
-`"Socks!"`
-`"What's the third-last letter in the alphabet!?"`
-`"...It's X."`
-`"What does 「seibetsu」 mean!?"`
-`"Of course I know what that is~!!`
+`Bu okulun bir eğitim kurumu olarak işlevselliği tartışılır.`
+`Beden Eğitimi derslerimiz son derece düzensiz.`
+`Birlikte yaptığımız tek şey, başta yapılan ısınma hareketleri.`
+`Ondan sonra öğretmen bile ortalıkta olmuyor.`
+` Tek yaptığımız birlikte oynamak.`
+`"Elden bir şey gelmez. Herkesin yaşı veya cinsiyeti farklı."`
+`"Uymamız gereken tek kural, egzersiz yaparken okul sınırları içinde kalmamız gerektiği."`
+`Bütün küçük çocuklar etrafta koşuşturuyordu.`
+`Yani... hiç şüphesiz hareketlilerdi. Bol bol egzersiz yapıyormuş gibi görünüyor olabilirlerdi, ama...`
+`"...Eğitim bakanlığı muhtemelen bu okulu tamamen unutmuştur."`
+`"...Beklettiğim için üzgünüm."`
+`"Şimdi herkes burada. Bugün beden eğitiminde ne yapalım!?"`
+`"Pekâlâ.`
+` Tüm üyelerimiz toplanmış bulunuyor."`
+`"O zaman, Sınıf Temsilcisi, bugün beden eğitiminde ne yapalım acaba?`
+` Ne yapalım acaba?"`
+`...Mion kükredi ve kollarını kibirli bir şekilde kavuşturarak alanı inceledi.`
+`"Patlayıcı güç ve dayanıklılık.`
+` Spor dünyasında arkadaş yoktur.`
+` Herkes rakiptir! Güvenebileceğiniz tek şey kendi vücudunuzdur!"`
+`"Ne diyorsun? Gerçekten çok fazla manga okuyorsun."`
+`Hiç beklemeden espri yaptım.`
+`"Ve böylece, tarihten bir ders alacağız!!`
+` Tüm açık hava yakın dövüş etkinliklerinin kendini kanıtlamış kralı...`
+` Hadi ebelemece oynayalım!"`
+`Bu kadar çok gösteriş yaptıktan sonra oldukça sevimli bir seçim oldu.`
+`"Tam da istediğim şey~!!`
+` İlk ebemiz o mankafa Keiichi-san olsun!"`
+`"...Kaybetmeyeceğim."`
+`"Rena da elinden geleni yapacak! Beni yenemezsiniz~!"`
+`"...Neden hepiniz bu kadar heveslisiniz...?"`
+`"Toplumumuzun üçüncü kuralı!! Oyuna katılmalı, ve sorgusuz sualsiz zevk almalısın!!!"`
+`"O zaman... bu bir kulüp etkinliği mi sayılıyor!?"`
+`Herkes birbirine sırıttı.`
+`Hepsi kendinden emin görünüyordu.`
+` Ben bir erkeğim.`
+`Fiziksel olarak, kendi yaşımdaki kızlara ayak uydurabilmeliydim.`
+`Ne olursa olsun, Mion ve Satoko zaferi hedefliyor gibi görünüyordu ve Rena sanki dezavantajıma acıyormuş gibi bana bakıyordu.`
+`"...İyi. Ebelemece,`
+` varıııııım!!!"`
+`Haykırışım okul bahçesinde yankılandı.`
+`Kurallar şöyleydi:`
+`Zil çalmadan önce ebelenmekten kaçabilen herkes kazanırdı.`
+`Ama kimin ebe olduğunu değiştirmiyorduk.`
+` Ebe tarafından dokunulanlar da ebe oluyordu.`
+`Böylece ebe olan kişi sayısı katlanarak artabilirdi.`
+`Oyunun sonu cehennem gibi bir kuşatmaya dönüşecekti.`
+`"Bu versiyona 'zombi ebelemece' diyoruz."`
+`"Anladım. Bir zombi tarafından enfekte edilen herkes zombiye dönüşüyor."`
+`"...Neden kulağa bu kadar korkutucu geliyor, acaba?`
+` ...Acaba?"`
+`"Rena'yı yakalar yakalamaz, hâlâ hayattayken bağırsaklarını çıkaracağım...!!"`
+`"...İ-İ-İğ-İğrenç, Keiichi-kun, bu iğrenç...!"`
+`Rika-chan elini panikleyen Rena'nın başına koydu.`
+`"...Merak etme. ...Keiichi seni midesine indirmeden önce, ben seni nazikçe yiyeceğim."`
+`"Rika, bu hiç de rahatlatıcı değil."`
+`Hem Mion hem de ben düşünceli bir şekilde başımızı salladık.`
+`"Peki, ilk ebenin... kimin zombi olduğuna nasıl karar veriyorsunuz?`
+` ...Taş-kağıt-makasla mı?"`
+`"Ne de olsa dersteyiz. Sorulara cevap vererek karar verelim.`
+` Soruları ben soracağım ve cevap veremeyen zombi olacak!"`
+`Hangi sınıf seviyesinden sorular olacaklarına dair hiçbir fikrim yoktu.`
+`"Japonca 「roku」 ne anlama geliyor?"`
+`Ha?`
+` ...Ani soru karşısında şaşkına döndüm.`
+`Mion tekrarladı.`
+`"Hadi, cevap vermelisin!`
+` İngilizce'de 「roku」 neye karşılık geliyor!?"`
+`"Uhm, altı!!"`
+`"Peki ya 「kutsushita」!?"`
+`"Çorap!"`
+`"Alfabenin sondan üçüncü harfi nedir!?"`
+`"...X."`
+`"Peki 「seibetsu」 ne demek!?"`
+`"Tabii ki ne olduğunu biliyorum~!!`
 ` Se...`
 `...`
 `..."`
-`Satoko cut herself off before finishing the answer.`
-`...I see. It's quite a lewd question.`
-`"You're an adult, aren't you~?`
-` Of course you know what it is, right??"`
-`"...I-I certainly do...!`
-` Of course I know...!!"`
-`"Then go ahead and say it.`
-` 'That,' you know? 'That.'`
-` What does 'that' mean, exactly?"`
-`"...Hau... Satoko looks like she's in trouble...`
-` How kyute..."`
-`"Don't take her home. It's a crime."`
-`If I didn't nip it in the bud, she really might have tried to take her home...`
-`Mion's pursuit was relentless, making Satoko stammer.`
-`"Now then, go ahead and say it, nice and loudly!!`
-`What does 'that' mean!?!?"`
-`"I do know...!!`
-` I do know!!`
-` I do know!!!...`
+`Satoko cevabını bitirmeden sözünü kesti.`
+`...Anlıyorum. Oldukça müstehcen bir soruydu.`
+`"Sen bir yetişkinsin, değil mi~?`
+` Elbette ne olduğunu biliyorsun, değil mi??"`
+`"...K-Kesinlikle biliyorum...!`
+` Tabii ki biliyorum...!!"`
+`"O zaman çekinme de söyle.`
+` 'O,' anlıyor musun? 'O.'`
+` 'O' tam olarak ne anlama geliyor?"`
+`"...Hau... Satoko-chan'ın başı dertte gibi görünüyor...`
+` Ne kadar taatlııı..."`
+`"Onu eve götürme. Bu bir suç."`
+`Eğer engel olmasaydım, onu gerçekten eve götürmeye çalışabilirdi...`
+`Mion'un acımasız üsteleyişi Satoko'nun kekelemesine neden oluyordu.`
+`"Şimdi, çekinme ve söyle, düzgünce ve yüksek sesle!!`
+`'O' ne demek!?!?"`
+`"Biliyorum...!!`
+` Biliyorum!!`
+` Biliyorum!!!...`
 ` ...`
-`Se..."`
-`"'That' means a previously indicated person, thing or event."`
-`"Huh?`
+`S-Se..."`
+`"'O' önceden belirtilen bir kişi, şey veya olay anlamına gelir."`
+`"Ha?`
 ` ...Ah."`
-`All of us were a bit surprised by Rika-chan's unexpected answer.`
-`I see. Well it certainly is what 'that' means.`
-` ...That could have been awkward.`
-`...I wonder what I would have done in Satoko's position.`
-`...I'd probably get ticked off and just blurt out you-know-what at the top of my lungs...`
-`I wouldn't want you as an enemy, Mion Sonozaki!`
-`Thank goodness you were born a girl.`
-`If you were a boy, you'd probably be a perverted asshole...`
-`"It... It appears I have no choice.`
-` ...Unfortunately, I, Satoko Houjou, shall assume the role of the zombie.`
+`Rika-chan'ın beklenmedik cevabı hepimizi biraz şaşırttı.`
+`Anlıyorum. 'O' kesinlikle bu anlama geliyordu.`
+` ...Bu garip olabilirdi.`
+`...Satoko'nun yerinde olsaydım ne yapardım merak ediyorum.`
+`...Muhtemelen sinirlenir ve avazım çıktığı kadar bağırırdım...`
+`Düşmanım olmanı istemezdim, Mion Sonozaki!`
+`İyi ki kız olarak doğmuşsun.`
+`Erkek olsaydın, muhtemelen sapık bir pislik olurdun...`
+`"Görünüşe... Görünüşe göre başka seçeneğim yok.`
+` ...Ne yazık ki, ben, Houjou Satoko, zombi rolünü üstleneceğim.`
 ` ...`
-` I shall eat everyone~!!"`
-`Seems like she's raring to go.`
-`"All I must do is count to 100, correct!?"`
-`"Some jerks skip numbers while counting to 100.`
-` So you can start chasing after you solve this problem."`
-`"Whoa, Keiichi-kun... give her a simple one, okay...?"`
-`"1/5th of a cake, 1/6th of a cake, and 1/7th of a cake are all on a plate."`
-`"Oh no!!`
-` Th-There are no common denominators?!?!"`
-`Satoko grabbed a stick in a panic and began drawing a cake and fractions on the ground.`
-`"If Satoko, who can eat one cake in 60 seconds, eats all of them... how many cakes are left on the plate?"`
-`Just as I finished giving the word problem, Mion shouted.`
-`"Ready... go!!!!"`
-`On Mion's signal, everyone but Satoko scattered.`
+` Hepinizi yiyeceğim~!!"`
+`Görünüşe göre başlamaya can atıyordu.`
+`"Tek yapmam gereken 100'e kadar saymak, değil mi!?"`
+`"Bazı uyanıklar 100'e kadar sayarken sayıları atlıyor.`
+` O yüzden vereceğim soruyu çözdükten sonra kovalamaya başlayabilirsin."`
+`"Bekle, Keiichi-kun... Ona basit bir tane ver, tamam mı...?"`
+`"Bir pastanın 1/5'i, bir pastanın 1/6'sı ve bir pastanın 1/7'si bir tabakta."`
+`"Olamaz!!`
+` Hi-Hiç ortak payda yok mu?!?!"`
+`Satoko panik içinde eline bir sopa aldı ve yere pastayı ve kesirleri çizmeye başladı.`
+`"Bir pastayı 60 saniyede yiyebilen Satoko hepsini yerse... tabakta ne kadar pasta kalır?"`
+`Tam kelime sorumu anlatmayı bitirmiştim ki, Mion bağırdı.`
+`"Hazır... başla!!!!"`
+`Mion'un işaretiyle Satoko hariç herkes dağıldı.`
 `"Heheh... Keiichi-kun,`
-` that wasn't a problem at all, was it?"`
-`Satoko had already lost the moment she started working it out.`
-`She's eating it all, so of course there's nothing left on the plate!`
-`Everyone dashed off in a direction they thought was best.`
-`Knowing the lay of the land, they probably headed right to the best spots.`
-`It was obvious I was at a disadvantage.`
-`At a time like this, it would have been more effective to go along with those trained in survival skills...`
-` Like Mion, for example.`
-`...The fact that I didn't realize it at the start of the game probably hurt my chances.`
-`Glancing back over the school grounds, I saw Satoko just rising up to start.`
-`She was really, really mad.`
+` bu normal bir soru değildi, değil mi?"`
+`Satoko düşünmeye başladığı anda zaten kaybetmişti.`
+`Hepsini yediği için, elbette tabakta bir şey kalmayacak!`
+`Herkes en uygun olduğunu düşündüğü yöne doğru fırladı.`
+`Arazinin yapısını bildiklerinden, muhtemelen en iyi noktalara doğru yöneldiler.`
+`Benim dezavantajlı olduğum açıktı.`
+`Böyle bir zamanda, hayatta kalma becerileri konusunda eğitimli olanlarla birlikte gitmek daha etkili olurdu...`
+` Örneğin Mion gibi.`
+`...Oyunun başında bunu fark etmemiş olmam muhtemelen şansımı azalttı.`
+`Okul alanına dönüp baktığımda Satoko'nun başlamak için ayağa kalktığını gördüm.`
+`Çok ama çok kızgındı.`
 ` Mwahaha!`
-` ...She got tripped up on such a dumb question.`
-`I stood at one of the corners of the school.`
-`I had clear sightlines in two directions and would probably have a good response time if any zombies started closing in.`
-`For the time being, I caught my breath and focused on what I was trained to think during club activities yesterday.`
-`...Now think calmly, Keiichi Maebara...`
-` If I was 'it,' what would I do?`
-`Increasing my numbers would be the shortcut to victory.`
-`...Then going after the weakest player first is the obvious plan of attack.`
-`Meaning... me!`
-`"Now then, where could Keiichi-san possibly be!?`
-` I shan't let you escape!!!"`
-`...But of course.`
-`What would be the best method to track me down?`
-`Footprints or smell... or maybe some type of trail.`
-`If I could craftily hide my tracks... then there would be no trail for Satoko to follow!`
-`But I was no detective... Would I even be able to do that kind of thing in an amateur game like this?`
+` ...Böyle aptalca bir soruya takıldı.`
+`Okulun köşelerinden birinde durdum.`
+`İki yönü de net bir şekilde görebiliyordum ve herhangi bir zombi yaklaşmaya kalkışırsa muhtemelen iyi bir tepki sürem olacaktı.`
+`Şimdilik nefeslendim ve dünkü kulüp faaliyetleri sırasında düşünmek için eğitildiğim şeye odaklandım.`
+`...Şimdi sakince düşün Keiichi Maebara...`
+` Eğer ben ebe olsaydım, ne yapardım?`
+`Sayımı arttırmak zafere giden kestirme yol olurdu.`
+`...O zaman ilk önce en zayıf oyuncunun peşinden gitmek en bariz saldırı planı olacaktı.`
+`Yani... ben!`
+`"Peki o zaman, Keiichi-san nerede olabilir!?`
+` Kaçmana izin vermem!!!"`
+`...Tabii ki.`
+`Beni bulmak için en iyi yöntem ne olabilir?`
+`Ayak izleri ya da koku... ya da belki bir çeşit iz.`
+`İzlerimi ustalıkla gizleyebilirsem... o zaman Satoko'nun takip edebileceği bir iz kalmazdı!`
+`Ama ben dedektif değildim... Böyle amatörce bir oyunda öyle bir şey yapabilir miydim?`
 `"Tomita~ Okamura~!`
-` Have you seen Keiichi-san recently!?"`
-`Wh-What the heeeeeck!?!?`
-`Do zombies hunt their prey by asking nicely where they went!?!?`
-`Tomita-kun and Okamura-kun pointed to the location where I was hiding.`
-`After confirming she was headed in this direction, I abandoned my position.`
-`It wasn't easy to hide myself with all those little kids running around as they pleased.`
-`It was becoming even more obvious that I was at a disadvantage from not being familiar with these surroundings...!`
-`If that's how it was going to be... Then to confront this intelligence-gathering zombie, I'd just counter it in a similar vein...!!`
-`I approached some girls playing with a ball.`
-`"...I'm sorry, but could you relay this message?`
-` Tell Satoko Houjou that her parents are at the gate,`
-` please."`
-`"Message, message, ahahaha~~!!`
-` Okay okay!"`
-`I stopped the girls as they turned to run off.`
-`"Wait, don't go yet!`
-` Also, take this one to Mion Sonozaki.`
-` Tell her the teacher is calling her to the gate."`
-`Mwahaha, I am quite the schemer, if I do say so myself...!`
-`If things went well, then Satoko and Mion would run into each other at the gate!!`
-`It would put me at a disadvantage if more people were 'it,' but this was Mion we were talking about.`
-` She'd figure out a way to escape.`
-`...But that was just fine.`
-` As long as it bought me more time...!!`
-`Mwahaha, dance for me, Mion and Satoko!!`
-` In the palm of my haaaaaand!!!`
-`Having my fill of playing the conman, I looked for a place to hide.`
-`If you think about it logically, I'd only bought myself a scant amount of time.`
-` ...And it might even come back to bite me...!`
-`Once it became apparent I'd started spreading false information through messengers, I could end up being the recipient of one of those 'messages.'`
-`Satoko would probably ask the messengers to help her look for me.`
-`That would mean... there would be more zombies than participants in the game!!`
-`The virus that was brought about by my mischief could cause an epidemic...`
-`All my classmates would transform into zombies... and would only be searching for me!`
-`...This tactic...`
-` This tactic might backfire horribly.`
-`While trembling at the thought of the impending Dawn of the Dead, I began searching for a safehouse.`
-`I found a shed by the incinerator behind the school.`
-`After climbing up to the roof, I held my breath.`
-`It wasn't a bad place to hold out.`
-`Not only did I have good line of sight but, if necessary, I could jump off in three different directions to escape!`
-`It was getting rowdy down there.`
-` The lower grades were running around below the shed.`
-`"Maebara-san isn't around.`
-` Is he over there?"`
-`"Nope~`
-` Where's Keiichi-san, I wonder?`
-` His dad is at the front gate."`
-`That was definitely a lie.`
-`The word, "gate," the same one I'd used, gave a hint of revenge.`
-` So Mion was behind this...!`
-`I was still keeping one step ahead of the game.`
-` I felt bad for my underclassmen, but they'd have to search until the school bell.`
-`"Hey, hey, do you know where Keiichi-san is at~?`
-` His mom suddenly got really sick~!"`
-`"A message for Maebara-san.`
-` They said his house caught fire and he needs to come to the gate!"`
-`"A jumbo jet fell on top of the Maebara residence!"`
-`"The police have come to question him!"`
-`...Anything goes now.`
-`"They say he enjoys peeping into bathrooms."`
+` Keiichi-san'ı buralarda gördünüz mü!?"`
+`B-Bu da neeeeeeee!?!?`
+`Zombiler avlarını kibarca nereye gittiklerini sorarak mı avlarlar!?!?`
+`Tomita-kun ve Okamura-kun saklandığım yeri işaret ettiler.`
+`Onun bu tarafa doğru geldiğini doğruladıktan sonra yerimi terk ettim.`
+`Etrafta istedikleri gibi koşuşturan onca küçük çocuk varken kendimi saklamak kolay değildi.`
+`Bu çevreye aşina olmadığım için dezavantajlı olduğum daha da belirginleşiyordu...!`
+`Eğer böyle olacaksa... O zaman bu istihbarat toplayan zombiyle yüzleşmek için ona benzer bir şekilde karşılık verirdim...!!`
+`Topla oynayan birkaç kıza yaklaştım.`
+`"...Affedersin, bu mesajımı iletebilir misin?`
+` Houjou Satoko'ya ailesinin girişte olduğunu söyle,`
+` lütfen."`
+`"Mesaj, mesaj, ahahaha~~!!`
+` Olur olur!"`
+`Koşmak için dönen kızları durdurdum.`
+`"Bekle, hemen gitmeyin!`
+` Ayrıca, bunu da Sonozaki Mion'a ilet.`
+` Öğretmenin onu girişe çağırdığını söyle."`
+`Mwahaha, söylemek gerekirse, oldukça entrikacıyımdır...!`
+`İşler yolunda giderse, Satoko ve Mion kapıda karşılaşacaklar!!`
+`Daha fazla kişi ebe olsaydı bu beni dezavantajlı duruma düşürecekti, ama bahsettiğimiz kişi Mion'du.`
+` Kaçmanın bir yolunu bulurdu.`
+`...Yine de bana daha fazla zaman kazandırdığı sürece`
+` bunda sorun yoktu...!!`
+`Mwahaha, benim için dans edin, Mion ve Satoko!!`
+` Avucumun içindeeeee!!!`
+`Düzenbazlıktan nasibimi aldıktan sonra saklanacak bir yer aradım.`
+`Mantıklı düşünürsek, kendime sadece azıcık bir zaman kazandırmıştım.`
+` ...Ve bu benim için ters tepebilirdi...!`
+`Elçiler aracılığıyla yanlış bilgi yaymaya başladığım ortaya çıktığında, o 'mesajlardan' birinin alıcısı da ben olabilirdim.`
+`Satoko muhtemelen elçilerden beni aramalarına yardım etmelerini isteyecektir.`
+`Bu da... oyuna katılanlardan daha fazla zombi olacağı anlamına gelir!!`
+`Yaramazlığım yüzünden ortaya çıkan virüs bir salgına neden olabilir...`
+`Tüm sınıf arkadaşlarım zombiye dönüşür... ve sadece beni ararlar!`
+`...Bu taktik...`
+` Bu taktik korkunç bir şekilde geri tepebilir.`
+`Giderek yaklaşan Ölülerin Şafağı düşüncesiyle titrerken, güvenli bir mekan aramaya başladım.`
+`Okulun arkasındaki çöp fırınının yanında bir baraka buldum.`
+`Çatıya tırmandıktan sonra nefesimi tuttum.`
+`Saklanmak için fena bir yer değildi.`
+`Sadece iyi bir görüş açısına sahip olmakla kalmamıştım, aynı zamanda gerekirse kaçmak için üç farklı yöne de atlayabilirdim!`
+`Aşağıda ortalık karışmaya başlamıştı.`
+` Alt sınıflar kulübenin altında koşuşturuyordu.`
+`"Maebara-san buralarda değil.`
+` Orada mı?"`
+`"Yok~`
+` Keiichi-san nerede acaba?`
+` Babası ön girişte."`
+`Bu kesinlikle bir yalandı.`
+`Benimle aynı "giriş" kelimesini kullanmış olmaları, bir intikamı andırıyordu.`
+` Yani bu işin arkasında Mion vardı...!`
+`Oyunda hâlâ bir adım öndeydim.`
+` Alt sınıflarım için üzülüyordum ama okul ziline kadar beni aramaları gerekecekti.`
+`"Hey, hey, Keiichi-san'ın nerede olduğunu biliyor musun~?`
+` Annesi aniden hastalandı~!"`
+`"Maebara-san için bir mesaj var.`
+` Evinde yangın çıktığını ve girişe gelmesi gerektiğini söylediler!"`
+`"Maebara-san'ın evinin üstüne bir jumbo jet düştü!"`
+`"Polis onu sorgulamaya geldi!"`
+`...Artık her şey olabilir.`
+`"Tuvaletleri gözetlemekten hoşlandığını söylüyorlar."`
 `HaouUuh!?`
-`"Is it true that he's going around every night stealing panties?"`
-`Who were they talking about!?`
-`"I heard he wears panties on his head and smells them and stuff."`
-`No way I would do thaaat!!`
-`"I heard that Class Representative Mion was a victim too~!"`
-`"Whaaat!?"`
+`"Her gece etrafta dolaşıp külot çaldığı doğru mu?"`
+`Kimden bahsediyorlar!?`
+`"Kafasına külot giyip onları kokladığını falan duydum."`
+`Bunu yapmamın imkânı yooook!!`
+`"Sınıf Temsilcisi Mion'un da buna kurban düştüğünü duydum~!"`
+`"Neee!?"`
 `GaaaaaaaAAaaRRRrrrrggh!!!!!`
-`This was your doing, Mionnnnnnn!!!`
-`C-Calm down, Keiichi Maebara!!`
-` This is Mion's battle tactic to flush me out!`
-` Just hold on!!`
-`If my underclassmen thought about it logically, they would know it's all nonsense!`
-`...But small kids don't think about things logically.`
-`To them, all of those things were true, so they all chuckled together while looking for me.`
+`Bu senin işin, Mionnnnn!!!`
+`S-Sakin ol, Keiichi Maebara!!`
+` Bu, Mion'un beni ortaya çıkarmak için kullandığı savaş taktiğiydi!`
+` Sadece dayan!!`
+`Eğer alt sınıflarım bunu mantıklı bir şekilde düşünselerdi, tamamen saçmalık olduğunu anlarlardı!`
+`...Ama küçük çocuklar mantıklı düşünemezler.`
+`Onlara göre bunların hepsi doğruydu, bu yüzden beni ararken hep birlikte kıkırdadılar.`
 `Heheheheh...`
 ` Bwahahahaha...!`
-` I win, Mion!`
-` It's my victory!`
+` Ben kazandım, Mion!`
+` Bu zafer benim!`
 ` Bwahahahaha...!!`
-`Wiping unrelenting tears away, I felt intoxicated by my own victory...`
-`"Did you hear?`
-` I heard that the new transfer student Maebara-san is a really perverted person!`
+`Dinmek bilmeyen gözyaşlarımı silerken, kendi zaferimin sarhoşluğunu hissediyordum...`
+`"Duydunuz mu?`
+` Yeni nakil öğrenci Maebara-san'ın gerçekten sapık biri olduğunu duydum!`
 ` Kyahahahaha!!"`
-`The cost of beating Mion had too high a price...`
+`Mion'u yenmenin bedeli çok yüksekti...`
 `Ah!`
 ` ...Oh.`
-` Someone passed below.`
-`That's... Rena and Rika-chan.`
+` Aşağıdan biri geçti.`
+`Onlar... Rena ve Rika-chan'dı.`
 `"...Haah haah.`
-` Rika-chan, you're still okay!?"`
-`"...I'm getting by somehow."`
+` Rika-chan, hâlâ iyi misin!?"`
+`"...Bir şekilde idare ediyorum."`
 `"...Haah haah.`
-` ...It seems Mii-chan is 'it,' as well..."`
-`Mion!?`
-` It couldn't be... She'd become 'it' because of my little strategy!?`
-`This confirmed that Mion was behind this relentless message war.`
-` ...Then... This wasn't good...`
-`"We finally got away from Mii-chan, but Satoko-chan... She's..."`
-`"...Satoko is searching around the pipes... so we should be safe here for a while."`
-`Upon hearing that, I breathed a sigh of relief.`
-`While Rena was slumped on the ground breathing heavily, Rika-chan had started creeping up to her...`
-`Rika-chan doesn't normally make noise when she walks...`
-` but it's strange.`
-` ...It couldn't be...`
-`"Whoa!?`
+` ...Mii-chan da ebe olmuş gibi görünüyor..."`
+`Mion mu!?`
+` Yoksa... Benim küçük stratejim yüzünden mi ebe oldu!?`
+`Bu, bu amansız mesaj savaşının arkasında Mion'un olduğunu doğruladı.`
+` ...O zaman... Durum iyi değildi...`
+`"Mii-chan'dan sonunda kurtulduk, ama Satoko-chan... O..."`
+`"...Satoko boruların etrafını araştırıyor... yani bir süre daha burada güvende olmalıyız."`
+`Bunu duyunca rahat bir nefes aldım.`
+`Rena yere yığılmış ağır ağır nefes alırken, Rika-chan ona doğru yaklaşmaya başlamıştı...`
+`Rika-chan normalde yürürken ses çıkarmazdı...`
+` ama bu garipti.`
+` ...Yoksa...`
+`"Heh!?`
 ` ...Rika-chan?`
-` ...What is it? What is it!?`
+` ...Ne oldu acaba? Ne oldu acaba!?`
 ` ...Haoh...!?"`
-`"...Don't worry."`
-`I had never seen Rika-chan smile so creepily before.`
-`"Wh-Why are you coming closer? Why!?`
-` Rika-chan isn't... a zombie, is she!?"`
-`"...Don't be scared...`
-` I'll be sure to...`
-` eat you, gently."`
-`"N-N-N-No way!?`
-` ...Rika-chan, no... Eeeek...!!"`
-`Rena was pressed against the wall and Rika-chan lurched forward with both arms out, just like a zombie...`
-`Rena quaked with her back pushed up against the wall.`
-`It was quite a surreal scene of horror...`
-`Like one of those zombie breakout videos you'd see.`
-`At that moment, Rena's eyes met mine.`
-`"K-Keiichi-kun! Save meeee!!!"`
-`Zombie Rika-chan turned 180 degrees, Exorcist-style, and glared at me!`
-`"Found him!! I see Kei-chan!!!!"`
-`Mion popped out from behind the cinderblock wall around the garbage dump, also seeing where I was.`
-`My position was only advantageous when there was one zombie. Being surrounded was not as good!!!`
-`"You said you located Keiichi-san~~!?!?"`
-`I could tell that Satoko was rushing my way.`
-`It seemed that Rika-chan had let Rena escape, and now she was baring her fangs in my direction.`
+`"...Merak etme."`
+`Rika-chan'ın daha önce hiç bu kadar ürkütücü gülümsediğini görmemiştim.`
+`"Ne-Neden yaklaşıyorsun acaba? Acaba!?`
+` Rika-chan bir zombi değil... değil mi!?"`
+`"...Korkma...`
+` Emin ol...`
+` seni nazikçe yiyeceğim."`
+`"Ş-Şa-Şaka yapıyorsun!?`
+` ...Rika-chan, hayır... Eeeek...!!"`
+`Rena duvara yaslandı ve Rika-chan—tıpkı bir zombi gibi—iki kolunu birden açarak öne doğru atıldı...`
+`Rena sırtını duvara dayamış bir şekilde titriyordu.`
+`Oldukça gerçekötesi bir dehşet sahnesiydi...`
+`Şu gördüğünüz zombi kaçış videolarındaki gibi.`
+`O anda Rena'nın gözleri benimkilerle buluştu.`
+`"Ke-Keiichi-kun! Kurtar beniiii!!!"`
+`Zombi Rika-chan, Exorcist tarzında 180 derece döndü, ve bana baktı!`
+`"Buldum onu!! Kei-chan'ı görüyorum!!!!"`
+`Mion çöplüğün etrafındaki tuğla duvarın arkasından fırladı ve benim de nerede olduğumu gördü.`
+`Konumum, sadece tek bir zombi varken avantajlıydı. Etrafımın sarılmış olması o kadar da iyi değildi!!!`
+`"Keiichi-san'ı buldum mu dedin~~!?!?"`
+`Satoko'nun bana doğru koştuğunu görebiliyordum.`
+`Görünüşe göre Rika-chan Rena'nın kaçmasına izin vermişti, ve şimdi dişlerini bana doğrultmuştu.`
 `"Uuurgh~... oooough~..."`
-`"...Come~ on~ down~... Keiiiiiii-chaAaaAan..."`
-`The three zombies circled the shed, moaning curses.`
-`"Y... You guys are scary!!!`
-` Too scary!!!"`
-`"I wonder how Keiichi-san's guts taste!!`
+`"...Hadi~ aşağı~ in~... Keiiiiiii-chaAaaAan..."`
+`Üç zombi lanetler okuyarak kulübenin etrafında dönüyordu.`
+`"S... Siz çocuklar korkutucusunuz!!!`
+` Çok korkutucusunuz!!!"`
+`"Keiichi-san'ın bağırsaklarının tadını merak ediyorum!!`
 ` Keichi-saAaAn...!"`
-`"...Keiichi... I want you to become one of us."`
-`"S-S-S-Someone please save meeeee!!!!!"`
-`I saw Rena apologizing to me from across the schoolyard.`
-`An apology.`
-` Sorry.`
-` Leaving me for dead?`
+`"...Keiichi... senin de bizden biri olmanı istiyorum."`
+`"B-B-B-Biri beni kurtarsın lütfeeeeen!!!!!"`
+`Rena'nın okul bahçesinin karşısından benden özür dilediğini gördüm.`
+`Bir özür.`
+` Pardon.`
+` Beni ölüme mi terk ediyor?`
 ` ...R-Renaaaa!!!!!`
-`I leapt off the roof out of fear,`
-` slipping as I landed.`
-`Satoko and Rika jumped on top of me and, after straddling me... they tickled me, all over my body.`
+`Korkudan çatıdan atlamış,`
+` ve yere düşerken kaymıştım.`
+`Satoko ve Rika üstüme atladıktan sonra... vücudumun her yerini gıdıklamaya başladılar.`
 `"Gwa ha ha ha!!!`
-` Stop! Stop!!`
+` Durun! Durun!!`
 ` Gwaaaah!!!!!"`
-`"...So this means Rena is still left.`
-` There isn't much time until the bell."`
-`"...Damn you, Renaaa...!!`
-` How dare you... leave me for deaaaad!!"`
-`The feelings of a zombie.`
-` I understood how vengeful ghosts with lingering regrets felt.`
-`"...It's sad, so sad.`
-` ...But Keiichi is one of us now."`
-`It felt like I'd been bitten by a vampire and was now one of their thralls.`
-`It was a strange feeling, being welcomed over to the side that had pursued me.`
-`"...Zombie tag is quite profound!"`
-`"This is no time to postulate!!`
-` We must capture Rena-san!!!"`
-`"The principal is walking down the hall.`
-` ...The bell will ring soon!!"`
-`To devour Rena... I, who had been turned into a demon of vengeance, needed to use any means necessary.`
-`Except I wasn't just a zombie.`
-` I was a master of the night... A vampire!!`
-`Using the same trick that had tightened the noose around my own neck, I used my classmates to further my evil designs.`
-`I gathered up the lower grades from around the school grounds.`
-`"Everyone, listen!`
-` Rena's in big trouble!`
-` All of you, please look for Rena!"`
-`"...It's a bigger problem than a jumbo jet crashing into your family's house?"`
-`...Oh, yeah, it had turned into that, hadn't it.`
-` Mion whistled nonchalantly, trying to avoid the blame.`
-`"Yeah! It's not even in the same league as jumbo jets!`
-` What fell on Rena's house...`
-`Was a space colony!!"`
-`"A-A space colonyyyyy!?"`
-`"Yeah, it's a really big disaster!`
-` Everything in a 100 kilometer radius was obliterated!`
-` But that's only the prelude to this tragic tale!!`
-` This is the beginning... the start of a war for independence by the Propagandapality of Zeon!!"`
-`The lower grades were dumbfounded, their eyes like saucers at the grand turn of events...`
-`"Wh... What will happen...?`
-` Will the Terran Federation lose?"`
-`"If things go on like this, they will!!`
-` Only one person can defeat the Red Comet!!`
-` That person is Rena Ryuugu!!"`
-`The lower grade students all gulped...!`
-`It seemed I'd made them fully understand that the fight for Earth was lost without Rena.`
-`"Now scatter, comrades!! We must find Rena!!!"`
-`My comrades in the lower grades let out an enthusiastic cheer and dashed off in various directions around the school grounds.`
+`"...Yani bu, geriye Rena'nın kaldığı anlamına geliyor.`
+` Zile kadar fazla zaman yok."`
+`"...Lanet olsun sana, Renaaaaa...!!`
+` Ne cürretle... beni ölüme terk edersiiiiiin!!"`
+`Bir zombinin duyguları.`
+` Kalıcı pişmanlıkları olan intikamcı hayaletlerin nasıl hissettiğini anladım.`
+`"...Bu üzücü, çok üzücü.`
+` ...Ama Keiichi artık bizden biri."`
+`Sanki bir vampir tarafından ısırılmış ve artık onun kölelerinden biriymişim gibi hissettim.`
+`Beni kovalamış tarafa kabul edilmek garip bir duyguydu.`
+`"...Zombi ebelemece oldukça etkileyici!"`
+`"Tartışmanın zamanı değil!!`
+` Rena-san'ı yakalamalıyız!!!"`
+`"Müdür koridorda yürüyor.`
+` ...Zil yakında çalacak!!"`
+`Rena'yı yutmak için... intikam şeytanına dönüşmüş olan ben, ne gerekiyorsa yapmalıydım.`
+`Ama ben sadece bir zombi değildim.`
+` Ben gecenin efendisiydim... Bir vampirdim!!`
+`Beni boynumdaki halatla infaz etmiş olan o aynı hileyi kullanarak, şeytani planlarımı ilerletmek için sınıf arkadaşlarımı kullandım.`
+`Okulun çevresindeki alt sınıfları bir araya topladım.`
+`"Herkes dinlesin!`
+` Rena'nın başı büyük belada!`
+` Herkes lütfen Rena'yı arasın!"`
+`"...Maebara-san'ın evine jumbo jet düşmesinden daha mı büyük bir sorun bu?"`
+`...Oh, evet, olay bu hale gelmişti.`
+` Mion suçlamalardan kaçmaya çalışarak, aldırış etmeden ıslık çaldı.`
+`"Evet! Jumbo jetler bunun yanında hiçbir şey!`
+` Rena'nın evine düşen şey...`
+`bir uzay kolonisiydi!!"`
+`"B-Bir uzay kolonisi miiiiiiii!?"`
+`"Evet, bu gerçekten büyük bir felaket!`
+` 100 kilometre çevredeki her şey yok oldu!`
+` Ama bu sadece, bu trajik hikayenin başlangıcı!!`
+` Bu başlangıç... Zeon Propagandapalitesi'nin bağımsızlık savaşının başlangıcı!!"`
+`Alt sınıflar şaşkındı, olayların büyük gelişimi karşısında gözleri fal taşı gibi açılmıştı...`
+`"N... Ne olacak...?`
+` Terran Federasyonu kaybedecek mi?"`
+`"Eğer işler böyle giderse, kaybedecekler!!`
+` Sadece Rena... Rena Kızıl Kuyruklu Yıldız'ı yenebilir!!`
+` O kişi Ryuugu Rena!!"`
+`Alt sınıf öğrencilerinin hepsi yutkundu...!`
+`Rena olmadan Dünya savaşının kaybedileceğini anlamalarını tam olarak sağlamış gibiydim.`
+`"Şimdi dağılın, yoldaşlar!! Rena'yı bulmalıyız!!!"`
+`Alt sınıflardaki yoldaşlarım coşkulu bir tezahürat eşliğinde okul sahasının çeşitli yönlerine doğru koşuşturmaya başladılar.`
 `...Hm?`
-` There was still one person who hadn't gone.`
-`"But... I thought even the Terran Federation's Impulse Wave Diffusal Cannon... didn't work on the Comet Empire..."`
-`"You're close. That's the white variety of those comets.`
-` The reason it didn't work was because they didn't know the weak point.`
-` Of course, Rena knows their weak point all too well!"`
-`"...Ryuugu-san is amazing..."`
-`Satisfied with that, she also rushed off to look for Rena.`
-`...It does seem... like there are some promising up-and-comers amongst the youngsters.`
-`"...Little Kei-chan's abilities... this old man knows them better now..."`
-`It didn't really feel like she was complimenting me, but whatever.`
-`"...Really, though... How exceptional, Keiichi-san...!!`
-` This looks quite promising!!"`
-`"If we have this many... we can win!!`
-` With this many, we will win!!"`
-`"...I was thinking that Keiichi would have been a better nominee for the initial zombie."`
-`Rika-chan's words stung a bit, but I'd let it slide for now...`
-`Not even Rena would be able to escape the entire class.`
-`As a result of everyone's thorough search, Rena was finally cornered in the back of the sports equipment shed.`
-`"Y-You're all scary!!`
-` Keiichi-kun, too...!!`
-` So scary!!!"`
-`It probably was scary being chased around by the entire student body.`
-`All the lower grades closed in on Rena, saying she was the only one who could save the world.`
-`"What are you all saying!?`
-` I can't control a mech!"`
-`"Renaaa, how could you leave me for deeaad?!!`
-` Are you ready to pay for it...!?!?"`
-`"I-I-I'm sorry about that, Keiichi-kun ...b-b-but I didn't have a choice...!!"`
-`"Do not resist... Let yourself be devoured~...!!!"`
-`"...Let's all... be together."`
-`"Now, Rena... Say your prayers!!`
+` Hâlâ gitmemiş olan bir kişi vardı.`
+`"Ama... Terran Federasyonu'nun İtki Dalgası Yayma Topu'nun bile... Kuyruklu Yıldız İmparatorluğu'na karşı işe yaramadığını sanıyordum..."`
+`"Yaklaştın. Bu kuyruklu yıldızların beyaz çeşidi.`
+` İşe yaramamasının nedeni zayıf noktasını bilmemeleriydi.`
+` Tabii ki, Rena onların zayıf noktasını çok iyi biliyor!"`
+`"...Ryuugu-san inanılmaz..."`
+`Bundan memnun bir şekilde Rena'yı aramaya koyuldu.`
+`...Görünüşe göre... gençler arasında gelecek vaat edenler vardı.`
+`"...Küçük Kei-chan'ın yetenekleri... bu yaşlı adam şimdi onları daha iyi biliyor..."`
+`Bana iltifat ediyormuş gibi gelmedi, ama her neyse.`
+`"...Gerçekten de... Ne kadar olağanüstü, Keiichi-san...!!`
+` Bu oldukça umut verici görünüyor!!"`
+`"Eğer bu kadar çok olursak... kazanabiliriz!!`
+` Bu kadar çok kişiyle, kazanacağız!!"`
+`"...Keiichi'nin ilk zombi olarak daha iyi bir aday olacağını düşünüyordum."`
+`Rika-chan'ın sözleri biraz acıttı ama şimdilik görmezden geldim...`
+`Rena bile tüm sınıftan kaçamayacaktı.`
+`Herkesin geniş çaplı araması sonucunda Rena, sonunda spor malzemeleri kulübesinin arkasında köşeye sıkıştırılmıştı.`
+`"H-Hepiniz korkutucusunuz!!`
+` Keiichi-kun da...!!`
+` Çok korkunç!!!"`
+`Muhtemelen tüm öğrenciler tarafından kovalanmak korkutucuydu.`
+`Tüm alt sınıflar Rena'nın üzerine çullanmış, dünyayı kurtarabilecek tek kişinin o olduğunu söylüyorlardı.`
+`"Hepiniz ne diyorsunuz!?`
+` Rena bir mech kontrol edemez!"`
+`"Renaaa, nasıl olur da beni ölüme terk edersiiiin?!!`
+` Bunun bedelini ödemeye hazır mısın...!?!?"`
+`"B-B-Bunun için üzgünüm, Keiichi-kun ...a-a-ama başka seçeneğim yoktu...!!"`
+`"Direnme... Mideye indirilmene izin ver~...!!!"`
+`"...Hepimiz... birlikte olalım."`
+`"Şimdi, Rena... Son dualarını et!!`
 ` Mwa ha ha!!!!!"`
-`Rena had stumbled onto a mat, trembling, with tears in her eyes.`
-` I closed in.`
-`Associating this situation with a similar, particularly immoral one made my pulse quicken just a little bit.`
-`...Satoko and Rika-chan were both wiggling their fingers.`
-` They probably wanted to tickle Rena.`
-`Rena, wanting no part of what she knew was about to happen, went stiff with fear.`
-`"...K-Keiichi-kun... you wouldn't do mean things like everyone else... would you?`
-` ...Would you?"`
-`"...I woOoOnder~!?!?"`
+`Rena gözlerinde yaşlarla, titreyerek bir minderin üzerine tökezledi.`
+` Ona yaklaştım.`
+`Bu durumu benzer, özellikle de ahlaksız bir durumla ilişkilendirmem kalbimin biraz daha hızlanmasına neden olmuştu.`
+`...Satoko ve Rika-chan parmaklarını oynatıyorlardı.`
+` Muhtemelen Rena'yı gıdıklamak istiyorlardı.`
+`Yaşanmak üzere olduğunu bildiği şeyin bir parçası olmak istemeyen Rena, korkudan kaskatı kesilmişti.`
+`"...K-Keiichi-kun... sen diğerleri gibi kötü şeyler yapmazsın... değil mi?`
+` ...Yapmazsın değil mi?"`
+`"...Kim BiLiiirr~!?!?"`
 `"...Uu... ah... hau..."`
-`"...Nowww then... Are you reaAaAady!?"`
-`"...Okay... so long as it's Keiichi-kun..."`
-`The face she made as she resigned herself to her fate made my heart skip a beat.`
-`"I-I believe... that Keiichi-kun won't... do horrible things to me..."`
-`...Argh... Body... won't move... That had to be some sort of anti-zombie mantra.`
-`The second my sense of reason chimed in, the beast inside me died instantly.`
-`There was the bell! Game over.`
-`"Yaaay~~!!`
-` I did it, I did it!!`
-` I survived!`
-` Yaaay~ Yaaaa~y☆!!"`
-`Rena pranced around merrily as if a curse had been broken.`
-`"...Heh, so daylight broke in the nick of time and the evil zombie army disintegrated into dust...`
-` And so, the heroine survived... Well, that's how it goes in the movies, anyway..."`
-`"What are you postulating about!?`
-` This is all because Keiichi-san was dawdling about!"`
-`"...Punishment is required."`
-`I was subdued by Satoko and Rika-chan and once again sentenced to death by one hundred tickles.`
-`"Eeeeeek! F-Forgive me! Eeeeeeek!"`
-`"Then the award for surviving goes to Rena Ryuugu and Mion Sonozaki. Yaay!"`
-`"Huh...? Mii-chan wasn't a zombie...?"`
-`"Only pretended to be one. They say you need to deceive your allies before you can deceive the enemy, you know~?"`
-`"...Uroooogh! Mion~ you little!"`
-`"Yeah, yeah.`
-` Hurry up and change, all right~?`
-` Don't be late for the next class~!"`
-`"Let go of me, Satoko! Rika-chan!!`
+`"...Pekiiii o zaman... Hazır mısıIıIın!?"`
+`"...Tamam... Keiichi-kun olduğu sürece..."`
+`Kaderine boyun eğerken yüzünde beliren ifade kalbimi küt küt attırdı.`
+`"Keiichi-kun'un... Rena'ya... korkunç şeyler yapmayacağına inanıyorum..."`
+`...Argh... Vücudum... hareket etmiyor... Bu bir çeşit zombi karşıtı mantra olmalıydı.`
+`Mantık duygum devreye girdiği anda, içimdeki canavar anında ölmüştü.`
+`Zil çaldı! Oyun bitti.`
+`"Oleeey~~!!`
+` Başardım, başardım!!`
+` Hayatta kaldım!`
+` Oleey~ Oleee~y☆!!"`
+`Rena sanki bir lanet bozulmuş gibi neşeyle etrafta zıpladı.`
+`"...Heh, böylece güneş tam zamanında doğdu ve kötü zombi ordusu küle dönüştü...`
+` Ve böylece, kahramanımız hayatta kaldı... Yani, en azından filmlerde böyle oluyor..."`
+`"Ne diyorsun sen!?`
+` Keiichi-san, bunların hepsi senin aylaklığın yüzünden oldu!"`
+`"...Ceza gerekli."`
+`Satoko ve Rika-chan tarafından yakalandım ve bir kez daha yüz gıdıklamayla ölüme mahkum edildim.`
+`"Eeeeeek! A-Affedin beni! Eeeeeeek!"`
+`"O zaman hayatta kalma ödülü Ryuugu Rena ve Sonozaki Mion'a gidiyor. Oleey!"`
+`"Huh...? Mii-chan zombi değil miydi...?"`
+`"Sadece öyleymiş gibi davrandım. Düşmanını kandırmadan önce müttefiklerini kandırmalısın derler, bilirsin~?"`
+`"...Uroooogh! Mion~ seni küçük!"`
+`"Evet, evet.`
+` Acele et ve üstünü değiştir, tamam mı~?`
+` Bir sonraki derse geç kalma~!"`
+`"Bırakın beni, Satoko! Rika-chan!!`
 ` GwaaAaaAaa...ah...!!!!"`
-`Having had my fill of being terrified to my very core by club activities, I solemnly swore I would have Mion crying for mercy next time.`
-`After arriving home, I quickly made preparations to head out once again.`
-`I had agreed to meet with Rena to dig Colonel Sanders out of that mountain of treasure from before.`
-`"Mom, do we have work gloves? I need towels, too."`
-`"Aren't they in the shed out back?`
-` The towels are by the sink."`
-`All right. Now I was all ready.`
-` ...Looking at me, my mom stared quizzically.`
-`"What's going on, Keiichi?`
-` Where are you headed to in that getup...?"`
-`If they come to dump again illegally, he'll be buried completely and it'll be impossible to dig him out, `
-`and if that happens... Rena will undoubtedly go after the Colonel Sanders in front of the fried chicken place in town.`
-`"A bit of excavating.`
-` So my classmate doesn't become a criminal."`
-`"...Well, don't be out too late."`
-`Mom returned to the kitchen with a puzzled expression still on her face.`
-`Cutting through the woods as a shortcut to the dam site, I ran into someone.`
-`It was Tomitake-san.`
-`Probably taking pictures of wild birds again with that precious camera of his.`
-`...It couldn't be that all he took pictures of was handsome young men in the twilight...??`
-`"Hey, long time no see.`
-` Keiichi-kun, right?"`
-`"My due regards."`
-`I expelled the rude imagery from my head and greeted him without inciting anything.`
-`"By the way...`
-` Was that girl an acquaintance of yours...?"`
-`He was probably talking about Rena.`
-` Guessing by the way Tomitake-san was shaken up...`
-`"Wh-What was that all about!?`
-` She was walking around with a bared axe!`
-` And she was laughing with a huge smile across her face!!"`
-`That was Rena, without a doubt.`
-`I expect that she was grinning in anticipation of taking Colonel Randy home.`
-`"I hid myself because I thought it might be dangerous`
+`Kulüp faaliyetleriyle ölesiye korkutulduğum için, sonraki sefere Mion'u merhamet göstermem için ağlatacağıma yemin ettim.`
+`Eve vardıktan sonra, bir kez daha yola çıkmak için hızla hazırlık yaptım.`
+`Önceden Colonel Sanders'ı hazine dağından çıkarmak için Rena ile buluşmaya karar vermiştim.`
+`"Anne, iş eldivenimiz var mı? Havlu da lazım."`
+`"Arkadaki kulübede yoklar mı?`
+` Havlular lavabonun yanında."`
+`Pekâlâ. Şimdi tamamen hazırdım.`
+` ...Annem bana şaşkınlıkla baktı.`
+`"Neler oluyor, Keiichi?`
+` Bu kılık kıyafetle nereye gidiyorsun...?"`
+`Eğer yine kaçak olarak çöp dökmeye gelirlerse, o tamamen gömülecek ve onu çıkarmak imkânsız olacaktı,`
+`ve eğer bu olursa... Rena hiç şüphesiz kasabadaki kızarmış tavukçunun önünde duran Colonel Sanders'ın peşine düşecekti.`
+`"Sınıf arkadaşım suçlu olmasın diye,`
+` biraz kazı yapacağım."`
+`"...Pekâlâ, çok geç kalma."`
+`Annem yüzünde hâlâ şaşkın bir ifadeyle mutfağa döndü.`
+`Ormandan kestirme bir yolla baraj şantiyesine giderken, biriyle karşılaştım.`
+`O Tomitake-san'dı.`
+`Muhtemelen o değerli fotoğraf makinesiyle yine yabani kuşların fotoğrafını çekiyordu.`
+`...Alacakaranlıkta çektiği tek şey yakışıklı genç erkekler olamazdı, değil mi...??`
+`"Hey, görüşmeyeli uzun zaman oldu.`
+` Keiichi-kun'du, değil mi?"`
+`"Merhaba."`
+`Kaba düşünceleri kafamdan kovdum ve herhangi bir kışkırtmada bulunmadan onu selamladım.`
+`"Bu arada...`
+` O kız senin bir tanıdığın mıydı...?"`
+`Tomitake-san'ın sarsılmasına bakılırsa,`
+` muhtemelen Rena'dan bahsediyordu...`
+`"O-O da ne öyle!?`
+` O elinde bir baltayla dolaşıyordu!`
+` Ve yüzünde kocaman bir gülümsemeyle gülüyordu!!"`
+`Bu şüphesiz Rena'ydı.`
+`Sanırım Colonel Sanders'ı eve götürme beklentisiyle sırıtıyordu.`
+`"Tehlikeli olabileceğini düşündüğüm için saklandım.`
 ` ...`
-`Should I call the cops to be safe...!?"`
-`Well, it certainly would be quite the spectacle for a girl of her age to be roaming around with a axe.`
-`Tomitake-san's reaction was the epitome of logical.`
-`"It's fine, it's fine.`
-` Just leave her be.`
-` She's just wandering around looking for more victims."`
-`Tomitake-san was alarmed by my crass response.`
-`Well, it's probably hard for normal people to understand Rena.`
-` I'll just toss out a bunch of baloney.`
-`"If you were to be killed out here, she'd probably be the one to do it.`
-` ...Try not to snoop too much around here."`
-`With a condescending smirk, I started off in the direction of the dam site where Rena was waiting.`
-`Before I got too far, Tomitake-san abruptly called out to me.`
-`"Keiichi-kun, is that meant to be a warning for an outsider like me?"`
-`...Uhhh, I didn't mean that seriously. I did try to make it obvious, but...`
+`Her ihtimale karşı polis çağırmalı mıyım...!?"`
+`Yani, o yaştaki bir kızın elinde bir baltayla dolaşması kesinlikle dikkat çekici olmalı.`
+`Tomitake-san'ın tepkisi mantıklılığın somut örneğiydi.`
+`"Sorun yok, sorun yok.`
+` Onu kendi haline bırak.`
+` Sadece etrafta dolaşarak daha fazla kurban arıyor."`
+`Tomitake-san benim küstah cevabım karşısında telaşlandı.`
+`Muhtemelen normal insanların Rena'yı anlaması zor olurdu.`
+` Onun yerine bir sürü saçmalık söyleyeceğim.`
+`"Tomitake-san, eğer burada öldürülecek olsaydın, muhtemelen bunu yapacak kişi o olurdu.`
+` ...Buralarda çok fazla dolaşmamaya çalış."`
+`Küçümseyici bir sırıtışla Rena'nın beklediği baraj şantiyesine doğru yola çıktım.`
+`Çok uzaklaşmadan, Tomitake-san aniden bana seslendi.`
+`"Keiichi-kun, bu benim gibi bir yabancı için bir uyarı mı?"`
+`...Uhhh, ciddi değildim. Belli etmeye çalışmıştım, ama...`
 `"Hah hah hah!`
-` I'll try my best to be careful."`
-`Leaving only those words behind, Tomitake-san turned around and left.`
-`I didn't really mean to call him an outsider...`
-` I wasn't really implying anything when I said that...`
-`It was only meant to be a joke, but it felt like I'd said something bad...`
+` Dikkatli olmak için elimden geleni yapacağım."`
+`Arkasında sadece bu sözleri bırakarak, Tomitake-san arkasını döndü ve gitti.`
+`Ona yabancı demek istememiştim...`
+` Bunu söylerken gerçekten bir şey ima etmiyordum...`
+`Sadece şaka yapmak istemiştim, ama sanki kötü bir şey söylemişim gibi hissettim...`
 `"Keiichi-kun~!`
-` I was waiting for you. Let's try our best today!"`
-`I understood what Tomitake-san was trying to say.`
-`Somebody gallivanting about while waving a axe around certainly would seem dangerous.`
-`"You should put a cover on that axe when you have it in public.`
-` It's not good to carry it around out in the open like that!"`
-`"Seems that I lost it... so there isn't one."`
-`Thinking about it, there really was no need to try to keep up appearances.`
-`Everyone in Hinamizawa probably already knew about Rena's eccentricities.`
-`She's probably the only person who could carry a axe around Hinamizawa and not be considered suspicious...`
-`"Ah well!`
-` Let's finish this today!`
-` If we bust through this last beam, we should be able to pull him out.`
-` I've got everything I need.`
-` Leave it to me!"`
-`"Okay!"`
-`I took the axe from Rena and made my way up the unstable slope.`
-`"Just wait, Colonel Sanders.`
-` Keiichi-kun will save you...☆"`
-`"All right, get back.`
-` ...I'll finish this in one gooooo!"`
-`A solid "thwack" rang through out Hinamizawa, as if the job was being done by a lumberjack.`
-`"...How is it?`
-` Think you can do it?`
-` If it looks too hard, you don't have to strain yourself..."`
-`"If I can break through this, then we'll be good!`
-` I have plenty of power today!`
-` I can do it!"`
-`...But this adversary was more formidable than I expected.`
-`First of all, I'd never used a axe before.`
-`During a school camping trip, I had wanted to split the wood, but I lost at rock-paper-scissors and wasn't able to do it.`
-`Because the spot where I was standing was so unstable, I soon became tired and decided to take a break.`
-`Rena had already spread out a tarp and laid down some tea and sweets.`
-`"I'm fine!`
-` I'm almost there.`
-` I'll make sure Rena can give Colonel Sanders a good-night kiss tonight."`
-`"...Yeah.`
-` ...Thanks.`
-` ...Giving Colonel Sanders... a good night kiss... hau..."`
-`"Come to think of it... Rena, you're a transfer student too, right?`
-` Where did you live before?"`
-`I asked her nonchalantly while drinking tea.`
-`I had thought she'd lived here all her life.`
+` Ben de seni bekliyordum. Bugün elimizden geleni yapalım!"`
+`Tomitake-san'ın ne söylemeye çalıştığını anladım.`
+`Etrafta balta sallayarak dolaşan biri kesinlikle tehlikeli görünebilir.`
+`"Toplum içindeyken o baltaya bir kılıf geçirmelisin.`
+` Onu bu şekilde açıkta taşımak iyi değil!"`
+`"Görünüşe göre onu kaybetmişim... yani kılıfı yok."`
+`Düşündüğümde, itibarı korumaya çalışmaya gerçekten gerek yoktu.`
+`Hinamizawa'daki herkes Rena'nın tuhaflıklarını zaten biliyordu.`
+`Muhtemelen Hinamizawa'da balta taşırken şüpheli görülmeyecek tek kişi oydu...`
+`"Neyse!`
+` Bugün bitirelim şu işi!`
+` Şu son kirişi de kırarsak, onu çekip çıkarabiliriz.`
+` İhtiyacım olan her şey burada var.`
+` Bunu bana bırak!"`
+`"Tamam!"`
+`Rena'dan baltayı aldım ve dengesiz yamaçtan yukarı çıktım.`
+`"Sadece bekle, Colonel Sanders.`
+` Keiichi-kun seni kurtaracak...☆"`
+`"Pekâlâ, geri çekil.`
+` ...Bu işi tek seferde bitireceğiiiiiim!"`
+`Sanki bu iş bir oduncu tarafından yapılıyormuş gibi Hinamizawa'da sağlam bir "güm" sesi yankılandı.`
+`"...Nasıl duruyor?`
+` Halledebilir misin?`
+` Çok zor görünüyorsa, kendini zorlamana gerek yok..."`
+`"Eğer bunu kırabilirsem, o zaman halletmiş olacağız!`
+` Bugün çok fazla gücüm var!`
+` Yapabilirim!"`
+`...Ama bu düşman beklediğimden daha zorlu çıkmıştı.`
+`Her şeyden önce, daha önce hiç balta kullanmamıştım.`
+`Bir okul kampı gezisi sırasında odunları ikiye bölmeyi istemiştim ama taş-kağıt-makas yarışında kaybettim ve bunu yapamadım.`
+`Durduğum yer çok dengesiz olduğu için kısa sürede yoruldum ve mola vermeye karar verdim.`
+`Rena çoktan bir örtü serip çay ve şekerleme hazırlamıştı.`
+`"Ben iyiyim!`
+` Neredeyse eriştim.`
+` Rena'nın bu gece Colonel Sanders'a iyi geceler öpücüğü vermesini sağlayacağım."`
+`"...Evet.`
+` ...Teşekkürler.`
+` ...Colonel Sanders'a... iyi geceler öpücüğü vermek... hau..."`
+`"Aklıma geldi de... Rena, sen de nakil öğrencisin, değil mi?`
+` Daha önce nerede yaşıyordun?"`
+`Çay içerken ona soğukkanlılıkla sordum.`
+`Hayatı boyunca burada yaşadığını sanıyordum.`
 `"Hm?`
-` In Kanto.`
-` It wasn't as rural as it is out here, but it was still out in the countryside."`
-`"Why did you move here?`
-` To Hinamizawa, I mean.`
-` You know, this is pretty far out in the boonies."`
-`"Why did you move here?`
-` Does it have to do with your dad's work?"`
-`"Dad said he wanted to relocate his studio.`
-` He'd been saying for a while that somewhere deep in the mountains like this would be perfect."`
-`"Studio? ...Is your father an artist or something??"`
-`"He paints scenery.`
-` Seems that twice a year he opens a gallery for the stuff he does."`
-`When he started, his works were displayed in an industry plaza in Tokyo, but now they're exhibited in the Makuhari Messe.`
-`He's determined to have them displayed in the Waterfront International Exhibition Hall.`
-`"That's amazing!`
-` Let me see them next time!"`
-`...I was too embarrassed to tell her that I didn't really know what kind of pictures my father painted...`
-`Well, eventually I would. I picked myself up while giving some vague answers.`
-`"But... you transferred in the middle of the semester, didn't you?`
-` Wasn't that a hassle?"`
-`"Not really.`
-` ...I was getting bored of the city anyway."`
-`I was trying to get answers from Rena, but I ended up being the one giving out all the answers.`
-`With a bit of a wry smile on my face, I grabbed the handle of the axe and headed back to worksite.`
-`The air grew colder as the sun slowly set.`
-`The higurashi began their song, as if to tell me to stop and head home for the day.`
-`Just a bit more.`
-` Today... I would end it!`
-`When I first started, I chatted with Rena as I worked, but now I didn't have that luxury.`
+` Kanto'da.`
+` Burası kadar kırsal değildi ama yine de kırsal bir bölgedeydi."`
+`"Neden buraya taşındınız?`
+` Hinamizawa'ya yani.`
+` Biliyorsun, burası oldukça uzak bir yer."`
+`"Keiichi-kun, sen neden buraya taşındın?`
+` Babanın işiyle bir ilgisi var mı?"`
+`"Babam stüdyosunu taşımak istediğini söyledi.`
+` Bir süredir dağların derinliklerinde böyle bir yerin mükemmel olacağını söylüyordu."`
+`"Stüdyo mu? ...Keiichi-kun, baban ressam falan mı??"`
+`"Manzara resimleri yapıyor.`
+` Görünüşe göre yaptığı işler için yılda iki kez bir galeri açıyor."`
+`İşe başladığında eserleri Tokyo'da bir endüstri plazasında sergileniyordu ama şimdi Makuhari Messe'de sergileniyor.`
+`Onları Waterfront Uluslararası Sergi Salonu'nda sergilemeye kararlı.`
+`"Bu inanılmaz!`
+` Bir sonraki sefer Rena'ya da göster!"`
+`...Ona babamın ne tür resimler yaptığını gerçekten bilmediğimi söylemeye utandım...`
+`Eninde sonunda söylerdim. Üstü kapalı cevaplar verirken kendimi toparladım.`
+`"Ama... dönemin ortasında nakil oldun, değil mi?`
+` Zor olmadı mı?"`
+`"Pek sayılmaz.`
+` ...Zaten şehirden sıkılmaya başlamıştım."`
+`Rena'dan cevaplar almaya çalışıyordum ama sonunda tüm cevapları veren ben oldum.`
+`Yüzümde biraz alaycı bir gülümsemeyle baltanın sapını kavradım ve çalışmaya geri döndüm.`
+`Güneş yavaş yavaş batarken hava daha da soğudu.`
+`Higurashi'ler şarkı söylemeye başladılar, sanki bana durmamı ve eve dönmemi söylüyor gibiydiler.`
+`Biraz daha.`
+` Bugün... bitirecektim!`
+`İlk başladığımda çalışırken Rena'yla sohbet ediyordum ama şimdi böyle bir lüksüm yoktu.`
 `"Hooyah!`
-` You little...!`
-` Damn it!"`
-`I had swung the axe countless times today, just like this.`
-` Contact.`
-` Shards of wood splintered.`
-`"The assailants butchered the victim's body with hatchets and pickaxes."`
-`I recalled that passage from the tabloid.`
-`One hit with something like this would smash someone's head in...`
-`Axes and pickaxes are not meant to be swung at people, ever.`
-`With one last swing, the beam cracked apart.`
-`The weight I put behind the axe not only split through the beam, but smashed the statue's shoulder as well.`
-`The arm came off with a sickening sound.`
-`It clattered down noisily, stopping at my feet.`
+` Seni küçük...!`
+` Kahretsin!"`
+`Bugün baltayı sayısız kez sallamıştım, tıpkı bunun gibi.`
+` Pat.`
+` Tahta parçalara ayrıldı.`
+`"Saldırganlar kurbanı baltalar ve kazmalarla katlettiler."`
+`Gazetedeki o kesiti hatırladım.`
+`Böyle bir şey tek vuruşta birinin kafasını parçalayabilir...`
+`Balta ve kazmalar asla insanlara doğru savrulmamalı.`
+`Son bir vuruşla kiriş parçalandı.`
+`Baltaya verdiğim ağırlık sadece kirişi bölmekle kalmadı, aynı zamanda figürün omzunu da parçaladı.`
+`Kol mide bulandırıcı bir sesle kopmuştu.`
+`Gürültüyle yere çarparak, ayaklarımın önünde durdu.`
 `"...Ah."`
-`"Wh-What's the matter!? Are you hurt!?"`
-`"S-Sorry...`
-` The figure's arm... I broke it off..."`
-`"...Oh, that's all? I thought Keiichi-kun hurt himself."`
-`I probably had a really guilty look on my face.`
-` Rena said that without a hint of dismay as she smiled.`
-`"We just need to tape it back on and put a coat over him.`
-` Nobody will even notice."`
-`"...I see. Let's pull him out then.`
-` Can you get that side?"`
-`"Okay!"`
-`"...They still haven't found one of the arms."`
-`I laughed dryly at how pathetic I was for considering the arm flopping down and rolling to my feet to be such a bad omen.`
-`Both Rena and Mion knew how sickening that incident was.`
-`So they pretended that they didn't know.`
-`I had looked it up all by myself.`
-`...And shamefully enough, I was scared.`
-`"...You're pathetic, Keiichi Maebara!`
-` All right, Rena!`
-` Let's do this in one go!`
-` Ready... and...!"`
+`"So-Sorun ne!? Yaralandın mı!?"`
+`"Ö-Özür dilerim...`
+` Figürün kolu... onu kırdım..."`
+`"...Oh, hepsi bu mu? Keiichi-kun, kendini yaraladın sanmıştım."`
+`Muhtemelen yüzümde gerçekten pişmanlık dolu bir ifade vardı.`
+` Rena bunu söylerken yüzünde en ufak bir kaygı belirtisi yoktu ve gülümsüyordu.`
+`"Sadece bantlamamız ve üzerine bir palto giydirmemiz gerekiyor.`
+` Kimse fark etmez bile."`
+`"...Peki öyleyse. O zaman onu çıkaralım.`
+` Şu tarafı tutabilir misin?"`
+`"Tamam!"`
+`"...Kollardan birini hâlâ bulamadılar."`
+`Kolun yere düşüp ayağıma yuvarlanmasını kötüye alamet saydığım için, ne kadar zavallı olduğumu düşünerek kuru bir kahkaha attım.`
+`Hem Rena hem de Mion bu olayın ne kadar mide bulandırıcı olduğunu biliyorlardı.`
+`Bu yüzden bilmiyormuş gibi davranıyorlardı.`
+`Ben kendi başıma araştırmıştım.`
+`...Ve utanç verici bir şekilde, korkmuştum.`
+`"...Zavallısın, Maebara Keiichi!`
+` Pekâlâ, Rena!`
+` Bunu tek seferde halledelim!`
+` Hazır... ve...!"`
 `"...Whoa!`
-` We did it! We did it, Keiichi-kun!`
-` Yaaay!"`
-`The right time to give three cheers!`
-` That moment of two days of work bearing fruit.`
-`He who was brought to Hinamizawa covered in filth to meet his end. Instead, we were able to welcome him back.`
-`You're pretty lucky, Colonel Sanders. Your new master is a pretty decent person.`
-`"...Waa... Colonel Sanders... He really is kyute!"`
-`It didn't matter that he was dirty. Rena nuzzled him cheerfully with her cheek.`
-`I was dead tired, but seeing Rena's happy face made it all worth it.`
-`"I'll help you carry it back. It'd be bad if it gets dark."`
-`"...Yeah. Right!`
-` I really want to thank you, Keiichi-kun! I won't forget this!"`
-`"I'll think real hard about how you can repay me!"`
-`"Wh... Whoa... I wonder what kind of 'repayment'?`
-` ...I wonder?"`
-`For now, I'd just hold back my evil cackle.`
-`We were ready to take it to her house, but we couldn't go like this.`
-`We rolled the statue up in the tarp and lifted him.`
-`And so Jack and Jill went down the hill, carrying a human-sized bag and an unsheathed axe!`
-`I prayed that we wouldn't run into Tomitake-san.`
-`If he saw us here and took a picture... we'll need to get rid of him. (lol)`
-`"...Is that meant to be a warning for an outsider like me?"`
-`Something struck me as odd about the words Tomitake-san, unable to grasp my sense of humor, had left behind.`
+` Başardık! Başardık, Keiichi-kun!`
+` Oleeey!"`
+`Kutlama yapmak için doğru zamandı!`
+` İki günlük çalışmanın meyve verdiği o an gelmişti.`
+`Hinamizawa'ya pislik içinde getirildiğinde o, bir ölüden farksızdı. Yine de, onu diriltmeyi başarmıştık.`
+`Çok şanslısınız, Colonel Sanders. Yeni efendiniz oldukça iyi bir insan.`
+`"...Waa... Colonel Sanders... O gerçekten taatlııı!"`
+`Kirli olması önemli değildi. Rena yanağıyla neşeyle ona sokuldu.`
+`Yorgunluktan ölüyordum ama Rena'nın mutlu yüzünü görmek her şeye değmişti.`
+`"Onu taşımana yardım edeceğim. Hava kararırsa kötü olur."`
+`"...Evet. Bu doğru!`
+` Keiichi-kun, sana gerçekten teşekkür etmek istiyorum! Bunu unutmayacağım!"`
+`"Bana borcunu nasıl ödeyebileceğini çok iyi düşüneceğim!"`
+`"Wh... Whoa... Ne tür bir 'ödeme' acaba?`
+` ...Acaba?"`
+`Şeytani kıkırdamamı şimdilik tutuyordum.`
+`Onu Rena'nın evine götürmeye hazırdık ama bu halde gidemezdik.`
+`Heykeli örtüye sardık ve kaldırdık.`
+`Böylece Jack ve Jill, insan boyunda bir çanta ve kılıfından çıkarılmış bir balta taşıyarak tepeden aşağı indiler!`
+`Tomitake-san'la karşılaşmamak için dua ettim.`
+`Eğer bizi burada görür ve fotoğrafımızı çekerse... ondan kurtulmamız gerekecekti. (ehehe)`
+`"...Bu benim gibi bir yabancı için bir uyarı mı?"`
+`Mizah anlayışımı kavrayamayan Tomitake-san'ın geride bıraktığı sözlerde, bana tuhaf gelen bir şey vardı.`
