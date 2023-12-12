@@ -47,6 +47,7 @@
 * Transfer `->` Nakil
 * Shrine `->` Tapınak
 * Temple `->` Şinto *?* [^2]
+* Town Council `->` Köy Meclisi
 
 [^1]: `Higurashi` hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
 [^2]: Temple sözü, shrine'a kıyasla çok daha az sayıda geçtiği, fakat farklı şeyleri kast ettiği için bazı yerlerde bu şekilde çevirdik.
