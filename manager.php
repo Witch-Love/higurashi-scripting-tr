@@ -74,6 +74,17 @@ function readDirs($path) {
 	return $list;
 }
 
+function readDirsAll($path) {
+	$list = [];
+	$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
+	foreach ($iterator as $file) {
+		if ($file -> isFile()) {
+			array_push($list, str_replace('\\', '/', $file));
+		}
+	}
+	return $list;
+}
+
 function main($argc, $argv) {
 	if ($argc < 2) err('');
 
@@ -246,7 +257,7 @@ function main($argc, $argv) {
 			}
 			break;
 		case 'insert_charnames':
-			$story = readDirs($out_dir);
+			$story = readDirsAll($out_dir);
 			$data = json_decode(file_get_contents($char_json_dir), true);
 
 			for ($i = 0; $i < count($story); $i++) {
