@@ -31,23 +31,23 @@
      * `Besides... I'm not throwing it away.` -> `Kaldı ki... bunu atmıyorum.`
      * `I still wanted to believe... I hadn't been split apart.` -> `Hâlâ inanmak istiyordum... Henüz parçalanmamıştım.`
 2. Hitaplar:
-   * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
+   * Karakterler arası geçen diyalogların sıklığından, saygı göstermek için kullanılan hitap şeklinin standartlaştırılmış olması gerekiyor. Hikayede ilerlenildikçe yönerge netleşecektir. Başka karakterlerce `Siz` hitabı kullanılacak kişiler şimdilik şu şekilde:
      * Oryou Sonozaki
      * Kiichirou Kimiyoshi
 
 ### Karşılıklar
 
-* Cicada `->` Ağustos Böceği
+* Cicada `->` Ağustos böceği
 * Clique `->` Gruplaşma
 * Dam site `->` Baraj şantiyesi
 * Higurashi `->` Higurashi *?* [^1]
-* Ice Cream Parlor `->` Dondurmacı
-* Music Store `->` Plakçı
 * Old Geezer `->` Yaşlı Moruk
 * Transfer `->` Nakil
 * Shrine `->` Tapınak
 * Temple `->` Şinto *?* [^2]
-* Town Council `->` Köy Meclisi
+* Town `->` Kasaba
+* Town Council `->` Köy Meclisi *?* [^3]
 
 [^1]: `Higurashi` hikayenin özel bir anlamını taşıdığı için, çok istisnai bir durum olmadığı sürece olduğu gibi bırakıyoruz.
 [^2]: Temple sözü, shrine'a kıyasla çok daha az sayıda geçtiği, fakat farklı şeyleri kast ettiği için bazı yerlerde bu şekilde çevirdik.
+[^3]: Normalde bahsi geçen `Town` köyün yakınlarında olan Okinomiya'yı kast ettiğiden, `Town council` sözünü köy meclisi olarak çevirdik.
