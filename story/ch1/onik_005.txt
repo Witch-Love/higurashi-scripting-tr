@@ -321,7 +321,7 @@
 ` Eğer bağırmasaydım, titreyişimi gizleyemeyecektim!`
 `Ahh, bunu KİM yazmış olabilir!?`
 ` Tanrım, lütfen o adama bir Nobel Ödülü ver!!`
-`"Bu Nobel, Saçmalık Ödülü olurdu."`
+`"Bu, Nobel Saçmalık Ödülü olurdu."`
 `İyi değil iyi değil, ne düşündüğüm yüzümden okunuyordu.`
 `"...Hau... uu... Mii-chan..."`
 `Rena ağlamaklı gözlerle Mion'a yalvardı... ama herkes Mion'un cevabını zaten biliyordu.`
@@ -561,8 +561,8 @@
 `Müdürün odasına doğru adım attım. Zilli tasmam sevimli bir şekilde şıngırdadı.`
 `Müdür beni görünce yüzünde bir gülümsemeyle dondu kaldı.`
 `Onu suçlayamazdım.`
-`Bu kutsal çalışma yerinde, özellikle de onun odasına...`
-`İçeri girerken "affedersiniz" dememe rağmen... okul mayosu, kedi kulakları, tasma ve kuyruğuyla giren birini görmek...`
+`İçeri girerken "izninizle" dememe rağmen...`
+`Bu kutsal eğitim yerinde, özellikle de onun odasında... okul mayosu, kedi kulakları, tasma ve kuyruğuyla giren birini görmek...`
 `Ve bunun genç bir erkek öğrenci olması...`
 `Normal bir insanın hiç şüphesiz aklı dururdu...`
 `Ama bu açıklanabilirdi.`
