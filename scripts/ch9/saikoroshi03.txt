@@ -1,0 +1,2375 @@
+void main()
+{
+
+	//Unhandled: *Saikorosi_day3
+
+	DrawScene( "bg/moon", 1000 );
+	PlayBGM( 0, "tsutaetaikoto_loop", 120, 0 );
+
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　日中、山本と試した時はまだ羽入と話せるほどの力は回復していなかった。",
+		   NULL, "When I tried using the crystal ball with Yamamoto today, it still hadn't recovered enough for him to talk to Hanyuu.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あれから半日しか経っていないけど、…祭具殿の中なら、ひょっとすると…通じるかもしれない。",
+		   NULL, "Only half a day had passed... but maybe if I went to the storehouse... I'd get through.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入はかつて、祭具殿の中には昔の古い空気が残っていて居心地がいいというようなことを言っていた。",
+		   NULL, "Hanyuu once told me the old air from the past had remained in the storehouse, and that she felt comfortable there.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは、祭具殿の中では羽入の力が満ちている…というような意味なのかもしれない。",
+		   NULL, "Maybe that meant... the storehouse was filled with Hanyuu's power.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ならひょっとすると、わずかに足りない水晶球の力も、祭具殿の中でなら少しは補われるのではないかと思い、",
+		   NULL, "In other words, while the crystal ball didn't have quite enough power, maybe being in the storehouse would help a little.", Line_WaitForInput);
+	OutputLine(NULL, "私は深夜に寝床を抜け出して祭具殿に潜り込んだのだった。",
+		   NULL, " Late that night, I slipped out of bed and snuck into the storehouse.", Line_Normal);
+	ClearMessage();
+
+	//;gosub *WA_015
+	DrawScene( "black", 50 );
+	//;gosub *WA_003
+	DrawSceneWithMask( "bg/jsa7_01", "effect/up", 0, 0, 1300 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　今はどうしても羽入と話がしたかった。",
+		   NULL, "I wanted nothing more than to talk to Hanyuu.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　御神体前の祭壇へ行き、私は水晶球に語りかける…。",
+		   NULL, "I went to the altar before the holy vessel and spoke into the crystal ball...", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/left", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050420", 128, TRUE);
+	OutputLine(NULL, "「……聞こえる…？",
+		   NULL, "\"...Can you hear me...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050421", 128, TRUE);
+	OutputLine(NULL, "　羽入…。」",
+		   NULL, " Hanyuu...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　水晶球の光は弱々しい。",
+		   NULL, "The light in the ball was feeble.", Line_WaitForInput);
+	OutputLine(NULL, "…でも、この世ならざる輝きは確かに残っていた。",
+		   NULL, " ...But its otherworldly glow was clearly present.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　お願いだから声を聞かせて……。",
+		   NULL, "Please, let her hear me...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その願いは届き、今にも消えてしまいそうな小さな声で返事をしてくれた。",
+		   NULL, "My wish was granted, and a quiet voice, so low it might disappear at any moment, spoke in answer.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "bg/kamunomikotori", 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070142", 128, TRUE);
+	OutputLine(NULL, "「…………聞こえますのですよ、梨花…。」",
+		   NULL, "\"......I can hear you, Rika...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050422", 128, TRUE);
+	OutputLine(NULL, "「羽入、よかった聞いて！！",
+		   NULL, "\"Hanyuu, thank goodness, listen!!", Line_WaitForInput);
+	SetSpeedOfMessage( TRUE, 128 );
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050423", 128, TRUE);
+	OutputLine(NULL, "　私、",
+		   NULL, " I...", Line_Continue);
+	OutputLine(NULL, "……私、",
+		   NULL, " I......", Line_Continue);
+	OutputLine(NULL, "………うううぅうぅッ！！",
+		   NULL, " uuuuuuu!!", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050424", 128, TRUE);
+	OutputLine(NULL, "　どうしていいかわかんないの！",
+		   NULL, " I don't know what to do!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050425", 128, TRUE);
+	OutputLine(NULL, "　わかんない！",
+		   NULL, " I don't know!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050426", 128, TRUE);
+	OutputLine(NULL, "　うううぅッ！！」",
+		   NULL, " Uuuu!!\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　泣いてる場合じゃない。",
+		   NULL, "This wasn't the time for crying.", Line_WaitForInput);
+	OutputLine(NULL, "…私は自分の知ること全てを話し、羽入に意見を聞かなければならない。",
+		   NULL, " ...I needed to tell her everything I discovered and ask Hanyuu's opinion.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私は高ぶる感情を押さえ、…カケラが母の中にあったことを告げた。",
+		   NULL, "I quashed my frantic emotions... and told her the Fragment was in my mother.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 3000 );
+	Wait( 2000 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入はしばらく絶句していた。",
+		   NULL, "Hanyuu stayed quiet for a few moments.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………無論、そのカケラを神の世界に戻すには、…母を殺さなければならないことまで承知してだ。",
+		   NULL, "...She knew, of course... that I'd have to kill my mother to return the Fragment to the world of the gods.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050427", 128, TRUE);
+	OutputLine(NULL, "「………納得よね。",
+		   NULL, "\"...It makes sense, doesn't it?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050428", 128, TRUE);
+	OutputLine(NULL, "あんたはオヤシロさまの生まれ変わりの前に姿を現す。",
+		   NULL, " You can only appear to Oyashiro-sama's reincarnation.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050429", 128, TRUE);
+	OutputLine(NULL, "…この世界の私は８代目じゃないから、あんたは私の前に現れられない。",
+		   NULL, " ...I'm not the eighth in this world, so you can't appear to me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050430", 128, TRUE);
+	OutputLine(NULL, "…９代目は駄目ってことなの？」",
+		   NULL, " ...The ninth isn't good enough, huh?\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "bg/kamunomikotori", 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070143", 128, TRUE);
+	OutputLine(NULL, "「大昔のことです。",
+		   NULL, "\"It was a very long time ago.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070144", 128, TRUE);
+	OutputLine(NULL, "…私ですらほとんど忘れてしまった、太古の太古の昔。」",
+		   NULL, " ...Ancient times. So ancient even I've mostly forgotten.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　まだ雛見沢に羽入が居た頃の話。",
+		   NULL, "It happened back when Hanyuu was still living in Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　まだ羽入が、オヤシロさまでなかった頃の話…。",
+		   NULL, "Before Hanyuu became Oyashiro-sama...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは羽入に聞いても、いつも話してもらえない、全ての始まりの話だった。",
+		   NULL, "It was how it all began, which Hanyuu never told me about no matter how much I asked her.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 1000 );
+	FadeOutBGM( 0, 300, FALSE );
+
+	SetSpeedOfMessage( TRUE, 128 );
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070145", 128, TRUE);
+	OutputLine(NULL, "「僕が、",
+		   NULL, "\"I...", Line_Continue);
+	OutputLine(NULL, "…………いえ、",
+		   NULL, " ......my human self, that is...", Line_Continue);
+	OutputLine(NULL, "…私が神になろうと決めた時。",
+		   NULL, " When I decided I would become a god...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070146", 128, TRUE);
+	OutputLine(NULL, "……私の娘、",
+		   NULL, " My daughter...", Line_Continue);
+	OutputLine(NULL, "……梨花のご先祖はそれをとても悲しみました。",
+		   NULL, " Your ancestor, Rika, was very sad about that. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070147", 128, TRUE);
+	OutputLine(NULL, "私がそう決めたのが、…人の世に絶望したからだと知っていたからです。」",
+		   NULL, "She knew I'd made the decision... because I'd lost hope in the human world.\"", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "bg/moon", 1000 );
+	PlayBGM( 0, "as_time_goes_by", 120, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私は、人の世の罪を全て引き受けました。",
+		   NULL, "I took all the sins of the human world upon me.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　罪を、人ごと滅ぼす他に祓う方法がなかったからです。",
+		   NULL, "For there was no other way to cleanse those sins other than to destroy the sinners themselves.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから人は、罪を押し付け合い、醜く生きていました。",
+		   NULL, "People were forcing their sins on each other. An ugly existence.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私はそのあまりの醜さに、この世界を絶望しました。",
+		   NULL, "Their excessive cruelty caused me to lose hope in this world.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私は、人の世の罪の全てを引き受け、人に討たせることでそれらを祓う。",
+		   NULL, "I undertook all the sins of the human world, and cleansed them by letting them kill me.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私はその討たせる役を、自分の娘に託しました。",
+		   NULL, "I entrusted that final duty to my own daughter.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その役目を与えなければ、娘もやがては鬼神の娘と蔑まれ、人の世に絶望するであろうと思って。",
+		   NULL, "I thought that unless I gave her that role, she would one day be despised as the daughter of a demon god, and lose all hope in the human world herself.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　娘はその役目を嫌がりましたが、自らの使命の重さを理解し、最後には全うしてくれました。",
+		   NULL, "My daughter didn't like that role, but she understood the weight of her mission, and in the end, she went through with it.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも娘は言いました。",
+		   NULL, "But she said something to me.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　人の世の罪を、命の対価でしか禊げないこの世を、自分が作り変えますと。",
+		   NULL, "That she would change the human world, in which only the price of life could purify its sins.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　人々が力を合わせて協力し合い、互助の精神で助け合う。",
+		   NULL, "Humans would combine their strength and help each other, cooperating with mutual benefit in mind.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　母上が夢見た理想郷を、必ずやこの地に作り出して見せますと、私に言いました。",
+		   NULL, "She swore to me that she would create this utopia, which her mother had only dreamed of.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ですから母上、どうか人の世に絶望なされないでください。",
+		   NULL, "Please, Mother, do not lose hope in the world of man.", Line_WaitForInput);
+	OutputLine(NULL, "その悲しみ、この私が必ずや癒してさしあげます、と…。",
+		   NULL, " I swear that I shall heal that sadness...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、私は神となる。",
+		   NULL, "But I would become a god.", Line_WaitForInput);
+	OutputLine(NULL, "娘のその気持ちは受け取れない……。",
+		   NULL, " I couldn't accept my daughter's feelings...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………いや、実は違う。",
+		   NULL, "......No, actually, that wasn't it.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…汚らしい人の世に絶望していたから、もう見たくないだけだった。",
+		   NULL, "...I had already lost hope in the corrupted world of man, and I just didn't want to look at it anymore.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、…娘はそんな世の中を、作り直すと私に強く約束してくれた…。",
+		   NULL, "But... my daughter made a firm promise that she would remake that world into something better...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ならばあなたの気持ちを信じましょう。",
+		   NULL, "Then I shall believe in what you feel.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この地に、人々が明るく過ごし、助け合い、支えあい、思いをひとつにできた時、私は再びこの地へ舞い戻りましょう。",
+		   NULL, "When in this land people live happily, aid one another, support one another, and think as one, I shall return to this land once more.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "bg/moon", 50 );
+	DrawBustshot(5, "effect/waku_b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
+	DrawScene( "bg/flashback/hasi1_01", 1000 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　娘は私を討ち取り、鬼神の神通力を宿して村を統治しました。",
+		   NULL, "My daughter killed me and took control of the village, the divine power of the demon god dwelling within her.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　人々を統率し、互いが信じ合い助け合うための教義を作り上げていきました。",
+		   NULL, "She became their leader, and created doctrines so that everyone would trust in and help one another.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　不和の心があれば必ずや鬼神が蘇る、祟りがあると恐れさせながら。",
+		   NULL, "By making them to fear a curse where discordant hearts would revive the specter of the demon god.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私の禊を無駄にせず、祓われた罪が二度と村に蘇らぬように、人々を厳しく導きました。",
+		   NULL, "She led them strictly, not letting my purification go to waste, so that those purified sins would never again revisit the village.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして村は仮初の平和を取り戻しますが、私が再臨することはありませんでした。",
+		   NULL, "And so the village did regain a temporary peace, but I never descended to them again.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……私が人の世を拒む力が、あまりに大きかったからです。",
+		   NULL, ".......I had rejected the human world much too strongly.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ですが、どのような拒む力であれ、永劫に続くものはありえない。",
+		   NULL, "But no matter how strong the power to reject, it can never last forever.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　心であっても、壁であっても、蓋であっても扉であっても、",
+		   NULL, "Whether hearts, or walls, or lids or doors...", Line_WaitForInput);
+	OutputLine(NULL, "…時間で朽ち果てないものは存在しない。",
+		   NULL, " there is nothing that time will not decay.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 1300 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私と人の世の間を閉ざす力も、永遠には続かない。",
+		   NULL, "Even the power shutting me away from the human world wouldn't last forever.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…その力には限りがあることを、娘はより上位の神の神託で知ります。",
+		   NULL, "...My daughter would learn the limits of that power through a revelation from a higher god than me.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは、古手家に８代続けて第１子が女子であった時、私が再臨するというもの。",
+		   NULL, "It was said that when eight generations of Furude bore a girl as their first child, I would come again.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私が人の世を拒む力は、８代続けて第１子が女子である「奇跡」が鍵となって打ち破られる。",
+		   NULL, "The miracle of eight consecutive firstborn girls would be the key that broke my power of rejection.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　娘はそれを古手家の伝承に残し、その日までにこの地が私の理想の地であり続けるよう、子孫たちに受け継いでいった…。",
+		   NULL, "My daughter left that legend to the Furude family, and it passed down to her descendants, so that this land would continue becoming my ideal...", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 50 );
+	ModSetLayerFilter(22, 256, "none");
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 0, FALSE );
+	DrawScene( "bg/kamunomikotori", 1000 );
+	//print 28
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070148", 128, TRUE);
+	OutputLine(NULL, "「……だから梨花。",
+		   NULL, "\"...So, Rika.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070149", 128, TRUE);
+	OutputLine(NULL, "あなたが８人目として生まれた時。",
+		   NULL, " When you were born as the eighth girl in a row.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070150", 128, TRUE);
+	OutputLine(NULL, "…僕は人の世との接点を再び持てたのです。",
+		   NULL, " ...I was connected to the human world again.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070151", 128, TRUE);
+	OutputLine(NULL, "………確かに大昔は、人の世を嫌って無視していました。",
+		   NULL, " ......Long ago, I may have hated and shunned the human world. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070152", 128, TRUE);
+	OutputLine(NULL, "でも、誰とも交流できない千年は、私の悲しみを癒してもなお余りある時間。",
+		   NULL, "But a millennium without contact was more than enough time to heal my sadness. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070153", 128, TRUE);
+	OutputLine(NULL, "…いつしか私は、誰とも交流できない世界にむしろ悲しみすら覚えるようになりました。",
+		   NULL, "...At some point, I actually started to feel sad at the prospect of living in a world where I was all alone.", Line_ContinueAfterTyping);
+	OutputLine(NULL, "私が拒んだつもりでいた千年は、……実は、私を閉ざす罰のような千年でもあったのです。",
+		   NULL, " I had intended to spend those thousand years in rejection... but it was also a punishment for me. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070154", 128, TRUE);
+	OutputLine(NULL, "私は、…人の世を浅はかな気持ちで嫌い絶望したことを悟りました。",
+		   NULL, "I... realized how shallow my feelings had been when I hated and despaired over the human world.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070155", 128, TRUE);
+	OutputLine(NULL, "……そして、悟り始めた時、古手家に女子が続けて生まれ始めた。",
+		   NULL, " ...And before I realized it, the Furude family started giving birth to consecutive girls.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070156", 128, TRUE);
+	OutputLine(NULL, "…あなたの母が身篭った時、それが女子であってほしいと私がどれだけ祈ったことか…。」",
+		   NULL, " ...When your mother was pregnant, I wished so, so much for it to be a girl...\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050431", 128, TRUE);
+	OutputLine(NULL, "「……でしょうね。",
+		   NULL, "\"...I'm sure.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050432", 128, TRUE);
+	OutputLine(NULL, "私が最初に見た顔は、母じゃなくてあんただった気がするもの。」",
+		   NULL, " I mean, the first face I remember seeing wasn't my mother's—it was yours.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_muhyou_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070157", 128, TRUE);
+	OutputLine(NULL, "「この千年は、人の世を見限った私に対する罪だったのかもしれません。",
+		   NULL, "\"Maybe abandoning the human world for a thousand years was my punishment.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070158", 128, TRUE);
+	OutputLine(NULL, "人は、人の世に生きる。",
+		   NULL, " Humans can only live in the human world.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070159", 128, TRUE);
+	OutputLine(NULL, "そして生まれた世界に懸命でなくてはならない。",
+		   NULL, " And they must live earnestly in the world they are born into. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070160", 128, TRUE);
+	OutputLine(NULL, "…それを軽んじ、世界を容易に手放そうとする者は、千年にも及ぶ流罪に等しい罰を受けなければならないのかもしれません。」",
+		   NULL, "...For someone who made light of that and tried to abandon the world so easily, maybe an exile of a thousand years is a fitting punishment.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………その羽入の言葉は、重い。",
+		   NULL, "......Hanyuu's words were heavy.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　数多の世界を気楽に歩き、自らの人生をサイコロにすら例えた自分は、…罪深いのかもしれない。",
+		   NULL, "Maybe, having been carefree in our walk between countless worlds, even comparing our own lives to dice rolls... we had been sinful.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070161", 128, TRUE);
+	OutputLine(NULL, "「…私は、千年ぶりの友人であり娘であるあなたと人生を共にしました。",
+		   NULL, "\"...I lived with you, my friend and daughter of one thousand years ago.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070162", 128, TRUE);
+	OutputLine(NULL, "…そして、昭和５８年の袋小路にぶつかり、…………私は再び罪を犯しました。",
+		   NULL, " ...And when we came to the dead end of 1983......... I committed another sin.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070163", 128, TRUE);
+	OutputLine(NULL, "あなたの運命を変えるために、力を使ったことです。」",
+		   NULL, " I used my power to change your fate.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050433", 128, TRUE);
+	OutputLine(NULL, "「…………私たちは、",
+		   NULL, "\"......Are you saying...", Line_Continue);
+	OutputLine(NULL, "一番最初のあの世界で、",
+		   NULL, " that in the very first world...", Line_Continue);
+	OutputLine(NULL, "鷹野に腹を割かれて死ぬ運命を、受け入れるべきだったと言いたいの…？」",
+		   NULL, " you should have accepted the fate of Takano cutting me open and killing me...?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_yowaki_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070164", 128, TRUE);
+	OutputLine(NULL, "「………梨花には残酷でしょうが、今の僕にはそう思えます。",
+		   NULL, "\"......It may sound cruel to you, Rika, but that is how I feel right now.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070165", 128, TRUE);
+	OutputLine(NULL, "僕は、僕の生きる世界を蔑ろにした。",
+		   NULL, " I made light of the world I lived in.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070166", 128, TRUE);
+	OutputLine(NULL, "そして梨花の生きる世界まで蔑ろにしている。",
+		   NULL, " And I made light of the world you lived in, too. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070167", 128, TRUE);
+	OutputLine(NULL, "あなたと一緒の世界を懸命に生き、その最期を形に関わらず歓迎すべきであった。」",
+		   NULL, "I should have lived in earnest in the world where we were together. I should have welcomed it, no matter its end.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050434", 128, TRUE);
+	OutputLine(NULL, "「やめて。",
+		   NULL, "\"Stop that.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050435", 128, TRUE);
+	OutputLine(NULL, "あんたは自虐に酔って心地いいかもしれないけど、私には不愉快だわ。",
+		   NULL, " Wallowing in masochism might make you feel better, but it makes me unhappy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050436", 128, TRUE);
+	OutputLine(NULL, "…あんな運命に屈服したくない、",
+		   NULL, " ...I said I didn't want to surrender to that fate...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050437", 128, TRUE);
+	OutputLine(NULL, "もっともっと素晴らしい人生のためにどこまでも戦っていこうって言って、",
+		   NULL, " and that I'd fight on forever to achieve a much more wonderful life... ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050438", 128, TRUE);
+	OutputLine(NULL, "あなたと百年にも及ぶ旅路を共にしたはず。",
+		   NULL, "and made this hundred-year journey with you.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050439", 128, TRUE);
+	OutputLine(NULL, "その果てにそんなことを言い出すなんてメチャクチャだわ！",
+		   NULL, " We're at the end—it's absurd to come out with that now!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050440", 128, TRUE);
+	OutputLine(NULL, "　そんなのはあんたの感傷よ！",
+		   NULL, " You're just being sentimental! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050441", 128, TRUE);
+	OutputLine(NULL, "　そうしてあんたは、私と共に築いてきたこの百年とその果てに掴んだ世界も蔑ろにしようというのね。",
+		   NULL, "Aren't you just making light of this world, too, which you and I built together over a hundred years?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050442", 128, TRUE);
+	OutputLine(NULL, "勝手な話じゃない？！」",
+		   NULL, " Don't you think that's selfish?!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_shinken_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070168", 128, TRUE);
+	OutputLine(NULL, "「……死に行く獣を助けて悦に浸るのは人の罪です。",
+		   NULL, "\"...It is man's sin to save a dying animal, then bask in rapture.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070169", 128, TRUE);
+	OutputLine(NULL, "雪山は獣を殺しその数を神に委ねます。」",
+		   NULL, " We go up the snowy mountain, kill the beasts, and offer their numbers to the gods.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050443", 128, TRUE);
+	OutputLine(NULL, "「私が死ぬのも運命だったと今頃言い出すわけ？！",
+		   NULL, "\"After all this, you're saying it was my fate to die, too?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050444", 128, TRUE);
+	OutputLine(NULL, "　あんたどうかしてるわ！！",
+		   NULL, " You've gone insane!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050445", 128, TRUE);
+	OutputLine(NULL, "　あんたがどう言おうと、私たちの勝ち取った世界は汗の結晶のような世界よ！",
+		   NULL, " I don't care what you say—the world we won is a result of our sweat and tears! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050446", 128, TRUE);
+	OutputLine(NULL, "　その輝きは、私とあなたにしかわからないはず！",
+		   NULL, "You and I are the only ones who can understand how brilliantly it shines!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050447", 128, TRUE);
+	OutputLine(NULL, "　そのあなたがあの世界を否定するの？！」",
+		   NULL, " And now you're rejecting it?!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070170", 128, TRUE);
+	OutputLine(NULL, "「……梨花、話を戻します。",
+		   NULL, "\"...Rika, please let me get back on topic.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070171", 128, TRUE);
+	OutputLine(NULL, "…僕は、８代目のあなたと一緒にこの世界を満喫したら、あなたの人生の終末と一緒に消え去るつもりでした。",
+		   NULL, " ...Once I had my fill of this world with you, the eighth, I planned to disappear at the end of your life. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070172", 128, TRUE);
+	OutputLine(NULL, "あなたが生きている内には関係ないことだから、あなたに話したことはありませんでした。",
+		   NULL, "It had nothing to do with the time you'd be alive for, so I never told you.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070173", 128, TRUE);
+	OutputLine(NULL, "その世界では、あなたの母が８代目。",
+		   NULL, " But in that world, your mother is the eighth.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070174", 128, TRUE);
+	OutputLine(NULL, "…つまり、すでに私は人の世と接点を持ち、",
+		   NULL, " ...That means I've already had contact with the world of man...", Line_Continue);
+	OutputLine(NULL, "…素晴らしい雛見沢に満足して、さらに上の世界へ消え去った後の世界なのです。",
+		   NULL, " was satisfied with how wonderful Hinamizawa had become, and have already left for a higher plane. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070175", 128, TRUE);
+	OutputLine(NULL, "…私が、もう消え去っている後の世界。",
+		   NULL, "...In that world, I've already left.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070176", 128, TRUE);
+	OutputLine(NULL, "だから、そこに私は、現れられない。」",
+		   NULL, " That's why I can't appear there.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050448", 128, TRUE);
+	OutputLine(NULL, "「でも、そこにあんたの世界のカケラが紛れ込んでる。",
+		   NULL, "\"But there's a Fragment of your world there.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050449", 128, TRUE);
+	OutputLine(NULL, "そしてそれが母にあった。",
+		   NULL, " And it's in my mother.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050450", 128, TRUE);
+	OutputLine(NULL, "つまりこういうことでしょ。",
+		   NULL, " Which means this.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050451", 128, TRUE);
+	OutputLine(NULL, "母が８代目であることは母しか知らない。",
+		   NULL, " Only my mother knows that she is the eighth.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050452", 128, TRUE);
+	OutputLine(NULL, "それを殺せば、あんたが現れられないという矛盾の力が消える。",
+		   NULL, " If I kill her, the contradictory force saying you can't appear here will vanish. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050453", 128, TRUE);
+	OutputLine(NULL, "正解？」",
+		   NULL, "Correct?\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070177", 128, TRUE);
+	OutputLine(NULL, "「そうです。",
+		   NULL, "\"That's right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070178", 128, TRUE);
+	OutputLine(NULL, "本来なら、梨花のお母さんがその世界の８代目であることは歴然とした事実であり、",
+		   NULL, " Originally, it was an obvious fact that your mother is the eighth in that world...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070179", 128, TRUE);
+	OutputLine(NULL, "お母さんを殺したからといって変わることではありません。",
+		   NULL, " and killing her wouldn't necessarily change anything. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070180", 128, TRUE);
+	OutputLine(NULL, "ですが、異なる世界から漂着した梨花には、それは例えるなら船を繋ぎとめる舫（もやい）と同じ。",
+		   NULL, "But after you drifted here from another world, Rika, it would be like mooring a boat to dock.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070181", 128, TRUE);
+	OutputLine(NULL, "…その事実を知るのがお母さんだけで幸いでした。",
+		   NULL, " ...It was fortunate only your mother knew the truth. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070182", 128, TRUE);
+	OutputLine(NULL, "もし他にも大勢知る人がいたなら、梨花はその全員を殺さなければならなかった。」",
+		   NULL, "If a lot of other people knew, you would have had to kill them all.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050454", 128, TRUE);
+	OutputLine(NULL, "「……………………。」",
+		   NULL, "\".........\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_muhyou_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070183", 128, TRUE);
+	OutputLine(NULL, "「梨花は、元の世界に戻るために母を殺すべきか、この世界に留まるべきかを、私に意見してもらいたかったのでしょう。」",
+		   NULL, "\"I'm sure you wanted my opinion on whether you should kill your mother to return to the previous world or stay in this world.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050455", 128, TRUE);
+	OutputLine(NULL, "「…………そうよ。」",
+		   NULL, "\"......I did.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300,  TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070184", 128, TRUE);
+	OutputLine(NULL, "「私も、梨花のいる世界がどういう世界かずっと調べていました。",
+		   NULL, "\"This whole time, I've been investigating what kind of world you're in.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070185", 128, TRUE);
+	OutputLine(NULL, "…そして、そこがどういう世界なのかを理解し、…やがてこの日が訪れることを予想していました。",
+		   NULL, " ...And when I found out what it was... I expected this day would eventually come. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070186", 128, TRUE);
+	OutputLine(NULL, "だから、悩んだ梨花が私に相談することも、そしてその結果を受けて世界を選ぼうとすることも予想していました。",
+		   NULL, "And I predicted you would grow indecisive and talk to me about it, and that you would want to choose a world based on the result of our discussion.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070187", 128, TRUE);
+	OutputLine(NULL, "……だから、悩みました。",
+		   NULL, " ...So I thought long and hard.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070188", 128, TRUE);
+	OutputLine(NULL, "あなたをどう導くべきかを。",
+		   NULL, " About how to guide you. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070189", 128, TRUE);
+	OutputLine(NULL, "神の世の言葉と違い、人の世の言葉は狭い。",
+		   NULL, "Unlike the world of gods, the words in the world of man are narrow.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070190", 128, TRUE);
+	OutputLine(NULL, "……どう言葉を選んでも意味が偏る。",
+		   NULL, " ...No matter what words I choose, they will carry bias within them. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070191", 128, TRUE);
+	OutputLine(NULL, "あなたに、本当の意味で選んでもらうためにはどう言葉をかけるべきか本当に悩みました。",
+		   NULL, "I thought very hard about what words to say so that you would truly choose for yourself.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_yowaki_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070192", 128, TRUE);
+	OutputLine(NULL, "　…そして今も悩んでいます。",
+		   NULL, "...And I still am.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070193", 128, TRUE);
+	OutputLine(NULL, "なぜなら、あなたは私に答えを委ねているから。",
+		   NULL, " After all, you've left the answer in my hands.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070194", 128, TRUE);
+	OutputLine(NULL, "……私がこっちの世界にせよと助言したなら、そちらを選ぶ気でいる。",
+		   NULL, " ...If I suggested you should choose this world, you would choose it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070195", 128, TRUE);
+	OutputLine(NULL, "そのために払う代価の責任を私に転嫁しながら。",
+		   NULL, " You would shift the responsibility of paying the price to me. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070196", 128, TRUE);
+	OutputLine(NULL, "それは卑劣なことだし、そんなことで選んだ人生に価値はない。",
+		   NULL, "That would be cowardly, and there is no worth in a life resulting from such a decision. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070197", 128, TRUE);
+	OutputLine(NULL, "……あなたは、数多の世界を渡り歩き、人の世の外側に足跡を残した人間として、責任ある選択をしなくてはならない。",
+		   NULL, "...As someone who has trodden countless worlds and left her footprints outside the world of man, you must make a responsible choice.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070198", 128, TRUE);
+	OutputLine(NULL, "私に頼ることなく。",
+		   NULL, " Without relying on me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070199", 128, TRUE);
+	OutputLine(NULL, "自分の力で。」",
+		   NULL, " With your own strength.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050456", 128, TRUE);
+	OutputLine(NULL, "「………言いたいことはわかるわ。",
+		   NULL, "\"......I know what you're trying to say.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050457", 128, TRUE);
+	OutputLine(NULL, "…あんたの言う通りにしたからこうなった、",
+		   NULL, " ...You couldn't bear me shifting the blame...", Line_Continue);
+	OutputLine(NULL, "…なんて責任転嫁されたらたまらないもんね。",
+		   NULL, " and saying 'this happened because I did what you said.'", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050458", 128, TRUE);
+	OutputLine(NULL, "…自分の人生は自分で決めろ、ってことくらい理解できるわ。」",
+		   NULL, " ...Decide your own life for yourself. Easy enough to understand.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070200", 128, TRUE);
+	OutputLine(NULL, "「伝えたかったのです。",
+		   NULL, "\"I wanted to tell you this, too.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070201", 128, TRUE);
+	OutputLine(NULL, "……私は梨花と人生を一緒にできて幸せでした。",
+		   NULL, " ...I was happy, spending my life with you.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070202", 128, TRUE);
+	OutputLine(NULL, "そして数多の世界を供にし、雛見沢がやさしい助け合いに満ちていたことを知りました。",
+		   NULL, " And through those countless worlds we walked together, I learned that Hinamizawa overflowed with kind and gentle cooperation. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070203", 128, TRUE);
+	OutputLine(NULL, "私のほしかった世界は、全て満たされたのです。",
+		   NULL, "It had everything I wanted from the world.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070204", 128, TRUE);
+	OutputLine(NULL, "……だから、梨花が私のいない世界を選び、僕がこのまま消えてしまっても幸せだと、それを伝えたかったのです。」",
+		   NULL, " ...I wanted to say that even if you chose a world without me in it, and I was to disappear, I would still be happy.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050459", 128, TRUE);
+	OutputLine(NULL, "「………………羽入……。」",
+		   NULL, "\".........Hanyuu...\"", Line_Normal);
+	ClearMessage();
+
+	//csp -1
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入はすでに見越していた。",
+		   NULL, "Hanyuu had foreseen this.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……この世界が私にとって暖かなものになりつつあることを、見越していた。",
+		   NULL, "...Foreseen that this world would grow ever warmer for me.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、羽入という存在自体がこの世界と相対する。",
+		   NULL, "But Hanyuu herself was in opposition to this world.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…元の世界の存在である羽入と相談するということは、…どう相談しても、元の世界を見限るのを難しくすることでしかない。",
+		   NULL, "...Any amount of discussing this with Hanyuu, who was from the previous world... would only make it more difficult to forsake that one.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入は、自分と相談する限り、私が公平な立場から世界を選べないと、そこまで予想していたのだ。",
+		   NULL, "She had even anticipated that after discussing it with her, I would need to make a decision from an impartial viewpoint.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから、言う。",
+		   NULL, "That's why she said it.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　古手梨花が選ぶことで迎える自分の運命を、そのまま受け入れたい。",
+		   NULL, "She wanted to accept whatever fate Rika Furude's decision gave her.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　自分のことは気にせず、好きな方の世界に生きればいいと…。",
+		   NULL, "She didn't want me to worry about her, and live in the world that I liked the best...", Line_Normal);
+	ClearMessage();
+
+	//print 26
+	ModDrawCharacter(22, 12, "portrait/ha4_def_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 0, FALSE );
+	DrawSceneWithMask( "bg/kamunomikotori", "effect/up", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050460", 128, TRUE);
+	OutputLine(NULL, "「……仮にこの世界に生きることを選んだとして。",
+		   NULL, "\"...Let's say I did choose this world.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050461", 128, TRUE);
+	OutputLine(NULL, "……あなたはどうなるの。」",
+		   NULL, " ...What would happen to you?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070205", 128, TRUE);
+	OutputLine(NULL, "「梨花と僕の長い旅は、その世界のルールで終焉します。",
+		   NULL, "\"Because of that world's rules, our long journey together would come to an end.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070206", 128, TRUE);
+	OutputLine(NULL, "…つまり、梨花にはその世界での人生が。",
+		   NULL, " ...For you, a life in that world...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070207", 128, TRUE);
+	OutputLine(NULL, "そして私には、その世界ですでに終わってしまった事実が適用される。」",
+		   NULL, " And for me, the fact that my time has already ended in that world would be applied.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050462", 128, TRUE);
+	OutputLine(NULL, "「つまり、あんたは消えてしまうってことじゃない！」",
+		   NULL, "\"Doesn't that mean you would disappear?!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070208", 128, TRUE);
+	OutputLine(NULL, "「………でも、それはとてもとても心地よいことなのです。",
+		   NULL, "\"...But that's a really, really pleasant thing.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070209", 128, TRUE);
+	OutputLine(NULL, "……梨花はそれを僕の死と考えるようですが。",
+		   NULL, " ...Rika, you seem to think of it as me dying.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070210", 128, TRUE);
+	OutputLine(NULL, "…僕も、その世界における自分は死んでいると、最初はそう考えました。",
+		   NULL, " ...And at first, I thought so too--that the me in that world would die. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070211", 128, TRUE);
+	OutputLine(NULL, "…ですが、その世界における羽入は、…消えてしまってはいますが、喜びに満ちているのです。",
+		   NULL, "...But the Hanyuu of that world... She may have disappeared, but she was filled with joy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070212", 128, TRUE);
+	OutputLine(NULL, "……あなたのお母さんと人生を供にして、楽しい時間を過ごした。",
+		   NULL, " ...She spent her life with your mother, enjoying her time to the fullest. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070213", 128, TRUE);
+	OutputLine(NULL, "お母さんはまだ生きていますが、その世界の僕はやさしさに包まれながら、二度と目覚めぬまどろみの中で楽しい夢を見続けているのです。",
+		   NULL, "Your mother is still alive, but that world's version of me is having a wonderful dream, enveloped in kindness, in a sleep from which she'll never awake. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070214", 128, TRUE);
+	OutputLine(NULL, "……その温かさと心地よさは、きっとこの世に生まれ出でる前の母の胎内にも似ている。",
+		   NULL, "...I'm sure that warmth, that comfort, is like that of a mother's womb.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070215", 128, TRUE);
+	OutputLine(NULL, "………それを知ってしまったから、",
+		   NULL, " ......Now that I know that...", Line_Continue);
+	OutputLine(NULL, "僕は梨花がむしろ、その世界を受け入れてくれないかとすら思っているのですよ…。」",
+		   NULL, " I actually wonder if you will choose that world, for me...\"", Line_Normal);
+	ClearMessage();
+
+	SetSpeedOfMessage( TRUE, 128 );
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050463", 128, TRUE);
+	OutputLine(NULL, "「…………あんた、",
+		   NULL, "\"......Are......", Line_Continue);
+	OutputLine(NULL, "………本気………？」",
+		   NULL, " you serious...?\"", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070216", 128, TRUE);
+	OutputLine(NULL, "「……梨花も千年を生きてみれば、この温かさを理解できるようになりますのですよ…。」",
+		   NULL, "\"...If you had lived for one thousand years, Rika, you would understand that warmth...\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入の言葉からは恍惚が感じられた…。",
+		   NULL, "I could feel an ecstasy in Hanyuu's words...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…私には理解できない境地を、…千年を生きた羽入は理解している。",
+		   NULL, "...Hanyuu had lived for a millennium... and she understood that in a way I couldn't.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050464", 128, TRUE);
+	OutputLine(NULL, "「冗談じゃない、私は百歳程度の若造だから理解不能よ。」",
+		   NULL, "\"You have to be joking. I'm just a kid. I'm only a hundred years old. Of course I can't understand.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_yowaki_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070217", 128, TRUE);
+	OutputLine(NULL, "「……………梨花。",
+		   NULL, "\".........Rika.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070218", 128, TRUE);
+	OutputLine(NULL, "もういい加減に、僕のことを理由に選択肢から逃れるのを止めにしませんか。」",
+		   NULL, " Would you please stop using me as a reason to run away from this choice?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050465", 128, TRUE);
+	OutputLine(NULL, "「………………………ん。」",
+		   NULL, "\"............Mgh.\"", Line_Normal);
+	ClearMessage();
+
+	//csp -1
+	DrawScene( "black", 600 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…それは、真実。",
+		   NULL, "...That was the truth.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私の胸の中にある天秤には、元の世界とこの世界が掛けられている。",
+		   NULL, "My old world and this one are being weighed on scales in my heart.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…どちらにもわずかも傾かない。",
+		   NULL, "...It isn't tipping, even slightly, toward either side.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それを無責任に、羽入に選ばせて責任転嫁しようとしている…。",
+		   NULL, "Trying to shift the responsibility for choosing onto Hanyuu was just me being irresponsible...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070219", 128, TRUE);
+	OutputLine(NULL, "「梨花の選択の助けになるよう、私の知るその世界の組成を全て話しましょう。",
+		   NULL, "\"I can tell you everything about that world's construction to help you make your choice.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DrawSceneWithMask( "white", "effect/maskc", 0, 0, 2000 );
+	DrawSceneWithMask( "scene/413", "effect/maskc", 0, 0, 2000 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070220", 128, TRUE);
+	OutputLine(NULL, "まず、………私たちに運命が打ち破れることを何度も教えてくれる前原圭一。",
+		   NULL, "First... Keiichi Maebara, who told us many times that destiny could be broken. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070221", 128, TRUE);
+	OutputLine(NULL, "…彼はこの世界では転校してきません。」",
+		   NULL, "...He did not transfer schools in this world.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050466", 128, TRUE);
+	OutputLine(NULL, "「とっくに知ってるわ。",
+		   NULL, "\"I knew that for a while now.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050467", 128, TRUE);
+	OutputLine(NULL, "クラスにいなかった。」",
+		   NULL, " He wasn't in my class.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070222", 128, TRUE);
+	OutputLine(NULL, "「圭一は一時期、受験勉強のストレスから心を病みますが、",
+		   NULL, "\"For a time, Keiichi suffered the stress of his entrance exams...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070223", 128, TRUE);
+	OutputLine(NULL, "…元の世界のように、玩具の鉄砲で子供を撃つような真似はしなかった。",
+		   NULL, " but, unlike in the previous world, he wasn't firing any toy guns at children. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070224", 128, TRUE);
+	OutputLine(NULL, "より心を強くしてその誘惑に耐え、ついに心の弱みを克服します。",
+		   NULL, "He strengthened his mind, endured the temptation, and finally overcame his mental weakness.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070225", 128, TRUE);
+	OutputLine(NULL, "……今の圭一は、自らに胸を張れる強い意志を持った人間として、待ち受ける受験に力強く臨もうとしています。」",
+		   NULL, " ...Right now, he's trying to deal with the exams awaiting him as someone with a firm pride in his breast.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050468", 128, TRUE);
+	OutputLine(NULL, "「…………圭一の、罪がないわけね。",
+		   NULL, "\"......Which means Keiichi's sin is absent.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050469", 128, TRUE);
+	OutputLine(NULL, "…だから、引越しもしない。」",
+		   NULL, " ...Which is why he never moved here.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070226", 128, TRUE);
+	OutputLine(NULL, "「竜宮レナも、両親の会社が潰れませんから茨城へ引越しをしませんでした。",
+		   NULL, "\"Rena Ryuugu, too, never moved to Ibaraki, since her parents' company stayed in business.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070227", 128, TRUE);
+	OutputLine(NULL, "だから離婚も起きない。",
+		   NULL, " Therefore, the divorce didn't happen, either.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070228", 128, TRUE);
+	OutputLine(NULL, "だからそれを理由にレナが罪を感じることもない。」",
+		   NULL, " For that reason, Rena will feel no guilt.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　レナに、罪がない。",
+		   NULL, "Rena had no sin either.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070229", 128, TRUE);
+	OutputLine(NULL, "「園崎魅音と園崎詩音は、背中に刺青を入れる儀式の日、入れ替わりをしませんでした。」",
+		   NULL, "\"On the day of the ceremony where the elder sister had her back tattooed, Mion Sonozaki and Shion Sonozaki didn't switch places.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050470", 128, TRUE);
+	OutputLine(NULL, "「……なるほど。",
+		   NULL, "\"...I see.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050471", 128, TRUE);
+	OutputLine(NULL, "学校の魅音がどことなく雰囲気が違うような気がしてた。",
+		   NULL, " I got the feeling that the Mion at school seemed somehow different.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050472", 128, TRUE);
+	OutputLine(NULL, "…………ボードゲームが大好きなはずなのに、妹が詳しいなんて言い方をしてたし。",
+		   NULL, " ......She always loved board games, but she talked about her little sister knowing more about them.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050473", 128, TRUE);
+	OutputLine(NULL, "……なるほど、",
+		   NULL, " ...I see...", Line_Continue);
+	OutputLine(NULL, "…納得ね。」",
+		   NULL, " I get it.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070230", 128, TRUE);
+	OutputLine(NULL, "「だから魅音は、頭首跡継ぎの座を妹に押し付けることにならず、頭首の修行をしながら日々を過ごしています。",
+		   NULL, "\"Mion didn't push her role as the successor onto her younger sister, and now spends her days training to be the head of her family. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070231", 128, TRUE);
+	OutputLine(NULL, "そして詩音も、本家の邪魔にならず影から支えられるよう、遠方の学園でひとり、今日も努力してがんばっています。」",
+		   NULL, "Shion, too, attends a distant school so she can support the family without getting in the way, and she's working her hardest as we speak.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050474", 128, TRUE);
+	OutputLine(NULL, "「…あの姉妹はかつて、刺青の入れ替わりで互いに罪を感じあっていた。",
+		   NULL, "\"...The sisters both felt guilty at switching on the day of the tattoo ceremony.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050475", 128, TRUE);
+	OutputLine(NULL, "…それがないってことは…。」",
+		   NULL, " ...If that didn't happen, then...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　魅音と詩音に、罪がない。",
+		   NULL, "Mion and Shion had no sin.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070232", 128, TRUE);
+	OutputLine(NULL, "「……もうこれ以上を話す必要もないでしょうが、北条沙都子にも親殺しの罪がありません。",
+		   NULL, "\"...I don't think I need to go on, but Satoko Houjou doesn't carry the sin of patricide.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070233", 128, TRUE);
+	OutputLine(NULL, "沙都子は義理の父との交流を深め、家族仲を再構築しました。",
+		   NULL, " Satoko grew closer with her stepfather, and they rebuilt their relationship. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070234", 128, TRUE);
+	OutputLine(NULL, "そのため、悪い病気に取り憑かれることもなかった。」",
+		   NULL, "Because of that, she wasn't possessed by that terrible illness.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050476", 128, TRUE);
+	OutputLine(NULL, "「北条家も村と敵対せず、村八分にもならない。",
+		   NULL, "\"The Houjou family didn't oppose the village, and they weren't even ostracized.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050477", 128, TRUE);
+	OutputLine(NULL, "……沙都子に、罪がない。",
+		   NULL, " ...Satoko has no sin.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050478", 128, TRUE);
+	OutputLine(NULL, "いや、…沙都子たち一家にとって、ここは理想の世界ということね。」",
+		   NULL, " Well... For Satoko and her family, this would be their ideal world.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　沙都子たち一家にとって…？",
+		   NULL, "For Satoko and her family...?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　いや、違う…。",
+		   NULL, "Wait, no...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この世界は、",
+		   NULL, "Isn't this...", Line_ContinueAfterTyping);
+	Wait( 700 );
+	OutputLine(NULL, "……全ての人間にとって、理想の世界では…？",
+		   NULL, " the ideal world for everybody...?", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "white", "effect/maskc", 0, 0, 1300 );
+	DrawFilm( 2, 255, 255, 255, 255, 0, 400, FALSE );
+	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacter(1, 1, "sprite/kei1_def1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/gk3", "effect/maskc", 0, 0, 1300 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　圭一が雛見沢にやってくるのは罪を犯したからだ。",
+		   NULL, "Keiichi came to Hinamizawa because he had committed a sin.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その罪が生まれず、しかも圭一はがんばって懸命に生きてるという。",
+		   NULL, "But in this world, he didn't, and was right now living his very best.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacterWithFiltering(2, 2, "sprite/re1a_def_a1_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　レナも悲しい運命を避けられるから、自らに罪を課すことがない。",
+		   NULL, "Rena avoided her sad fate, too, and never sinned.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　自らに授けられた名前、礼奈を名乗り、幸せに生きている。",
+		   NULL, "She called herself by her given name, Reina, and was living happily.", Line_Normal);
+	ClearMessage();
+
+	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 6, "sprite/si1b_wink_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 3, "sprite/me1a_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawSceneWithMask( "bg/ima3", "effect/right", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　魅音も詩音も、幸せに暮らしている。",
+		   NULL, "Mion and Shion were leading happy lives, too.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…刺青の事件さえなければ、二人は生まれつきの仲良し姉妹だったのだ。",
+		   NULL, "...Without the tattoo incident, they were friendly sisters, the way they'd been born.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　家のしきたりなどで今は別居を強いられているが、そんなことであの姉妹の仲は裂けないだろう。",
+		   NULL, "They were forced to live apart due to family matters, but that wouldn't be enough to tear them apart.", Line_Normal);
+	ClearMessage();
+
+	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
+	ModDrawCharacter(1, 4, "sprite/sa1a_warai_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/ho1", "effect/right", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　沙都子にとって、この世界はまさに理想の夢の中の世界。",
+		   NULL, "For Satoko, this world was exactly the world of her dreams.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacterWithFiltering(2, 7, "sprite/sato1_def2_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　温かな家族と兄に囲まれ、健やかに温かに暮らしている。",
+		   NULL, "Surrounded by the warmth of her family and big brother, she was leading a bright and healthy life.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…親友の私が、一番望んでやらなければならない世界だ。",
+		   NULL, "...This is the world that I, as her friend, should be wishing for the most.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	ModDrawCharacter(2, 7, "sprite/sato1_warai_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　悟史にとっては、この世界は唯一自分が存在できる世界。",
+		   NULL, "For Satoshi, well, this was the only world in which he still existed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……数多の世界の中で、悟史が生きていられる世界はここしか知らない。",
+		   NULL, "...In all the worlds I'd been to, this was the only one where he was alive.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この世界しか、悟史にはありえないのだ。",
+		   NULL, "Satoshi couldn't exist anywhere but here.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
+	FadeFilm( 0, FALSE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……そして、古手梨花。",
+		   NULL, "...And Rika Furude.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　梨花にとってこの世界は、",
+		   NULL, "For Rika, this world was...", Line_ContinueAfterTyping);
+	Wait( 900 );
+	OutputLine(NULL, "…………………この世界は…。",
+		   NULL, " .........this world was...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　友達の数はゼロかもしれない。",
+		   NULL, "Maybe I had zero friends.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　元の世界と比べたらあまりに悲しい。",
+		   NULL, "Compared to my old world, that was very sad.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でもそれは、これから時間と努力で改善していくことができる。",
+		   NULL, "But I could change that now, through time and effort.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　圭一がいないことは悲しいかもしれない。",
+		   NULL, "Maybe I was sad Keiichi wasn't here.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…でも、圭一は、本来住んでいた地で別の人生をたくましく生きている。",
+		   NULL, "...But Keiichi was living a resolute life in the place he originally lived.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その代わり、悟史がいる。",
+		   NULL, "Instead, I had Satoshi.", Line_WaitForInput);
+	OutputLine(NULL, "圭一とはタイプは違うが、とてもやさしい思いやりのある人…。",
+		   NULL, " He wasn't the same as Keiichi, but he was very kind and considerate...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　なくて落胆した部活も、私が明日登校して望めばすぐにでも始まるだろう。",
+		   NULL, "Even the club I was disappointed didn't exist could start the very next day, if I wanted it to.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　北条兄妹と魅音とレナ、そして私。",
+		   NULL, "With the Houjou siblings, Mion, Rena, and me.", Line_WaitForInput);
+	OutputLine(NULL, "あるいは他のクラスメートも巻き込んで？",
+		   NULL, " And maybe my other classmates, too?", Line_WaitForInput);
+	OutputLine(NULL, "　大盛り上がりする部活はどんなだろう…。",
+		   NULL, " What would the club be like with so many people...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それはきっと、…圭一たちと盛り上がったそれとは比べようがない。",
+		   NULL, "I didn't think I'd be able to compare it to the fun we had with Keiichi and the rest.", Line_WaitForInput);
+	OutputLine(NULL, "優劣などつけられないに違いない…。",
+		   NULL, " I knew I wouldn't be able to place one over the other...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この世界には両親がいる。",
+		   NULL, "My parents were in this world.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、家族愛を取り戻す古手梨花としての付き合い方も、もう理解している。",
+		   NULL, "And I'd already learned how to interact with them, as Rika Furude, who had regained the love of her family.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　元の世界に両親はいない。",
+		   NULL, "My parents weren't in the previous world.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…でも、それを寂しく思わせない賑やかな同居人がいる。",
+		   NULL, "...But I had lively roommates that wouldn't leave me feeling lonely.", Line_WaitForInput);
+	OutputLine(NULL, "沙都子。",
+		   NULL, " Satoko.", Line_WaitForInput);
+	OutputLine(NULL, "…………そして、羽入。",
+		   NULL, " ......And Hanyuu.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こちらの世界を選べば、百年を共にした親友と呼べる羽入と、",
+		   NULL, "If I chose this world, I'd have to say good-bye...", Line_ContinueAfterTyping);
+	Wait( 600 );
+	OutputLine(NULL, "……別れることになる。",
+		   NULL, " to Hanyuu, the friend I'd spent a hundred years with.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　親友…？",
+		   NULL, "Friend...?", Line_Normal);
+	ClearMessage();
+
+	SetSpeedOfMessage( TRUE, 128 );
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　いや、",
+		   NULL, "No.........", Line_ContinueAfterTyping);
+	Wait( 600 );
+	OutputLine(NULL, "…………羽入の言う話が本当なら、",
+		   NULL, " If what Hanyuu said was true...", Line_ContinueAfterTyping);
+	Wait( 800 );
+	OutputLine(NULL, "……羽入は私の先祖であり、母でもある人。",
+		   NULL, " then she was my ancestor, and a mother to me.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…つまり、父や母とまったく同等の、",
+		   NULL, "...Which meant she was on the exact same level as my father and mother.", Line_ContinueAfterTyping);
+	Wait( 700 );
+	OutputLine(NULL, "…家族だった。",
+		   NULL, " She was my family.", Line_ContinueAfterTyping);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", Line_Normal);
+
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　両親と羽入は、どちらも私にとって大切なもの。",
+		   NULL, "My parents and Hanyuu were both very important to me.", Line_WaitForInput);
+	OutputLine(NULL, "……天秤になど、かけられない…。",
+		   NULL, " ...I couldn't possibly weigh them against each other...", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "bg/jsa7_01", "effect/up", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070235", 128, TRUE);
+	OutputLine(NULL, "「…………その世界は、誰かの夢が作り出した『理想の世界』なのです。",
+		   NULL, "\"......That world is the ideal world, born of someone's dream.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070236", 128, TRUE);
+	OutputLine(NULL, "あなたに関わる全ての人間に罪がない。",
+		   NULL, " Nobody related to you has sinned.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070237", 128, TRUE);
+	OutputLine(NULL, "それはとてもとても純粋で透き通った美しい世界なのです。",
+		   NULL, " It's a very, very pure, clear, and beautiful world. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070238", 128, TRUE);
+	OutputLine(NULL, "その世界では、私はすでに消え去っており、梨花の人生を穢していない。",
+		   NULL, "I've already left that world, and Rika's life hasn't been corrupted.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070239", 128, TRUE);
+	OutputLine(NULL, "…だから僕にも罪がない。",
+		   NULL, " ...So I have no sin, either.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070240", 128, TRUE);
+	OutputLine(NULL, "そして梨花。",
+		   NULL, " And you, Rika.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070241", 128, TRUE);
+	OutputLine(NULL, "あなたも自らの人生を穢していないから、罪がない。」",
+		   NULL, " You haven't corrupted your own life, so neither do you.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050479", 128, TRUE);
+	OutputLine(NULL, "「あの鷹野にすら罪がない。",
+		   NULL, "\"Even Takano has no sin.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050480", 128, TRUE);
+	OutputLine(NULL, "誰から誰まで罪がない。",
+		   NULL, " Not a single person does.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050481", 128, TRUE);
+	OutputLine(NULL, "真っ白な世界…。」",
+		   NULL, " A perfectly white, blank world...\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070242", 128, TRUE);
+	OutputLine(NULL, "「そうです。",
+		   NULL, "\"That's right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070243", 128, TRUE);
+	OutputLine(NULL, "今の梨花は、その世界を選ぶことができます。",
+		   NULL, " And you can choose that now, Rika.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070244", 128, TRUE);
+	OutputLine(NULL, "………これは、僕にも与り知れない、運命のサイコロの神さまが、百年の旅の果てに下さった貴重な機会なのかもしれません。」",
+		   NULL, " ......Maybe this world is a valuable opportunity given to you at the end of your century-long journey by the god of fate, who even I've never met.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050482", 128, TRUE);
+	OutputLine(NULL, "「…………………もう少し、慈悲深い与え方だったらよかったのにね。」",
+		   NULL, "\"............They could have been a little more compassionate about it.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "org/hanyu8005", 128, TRUE);
+	OutputLine(NULL, "「ですから、その神さまは元の世界へ戻る道も与えてくれました。",
+		   NULL, "\"Which is why that god gave you the chance to go back to your old world, too.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "org/hanyu8006", 128, TRUE);
+	OutputLine(NULL, "………母殺しという最大の罪を犯すことによって、",
+		   NULL, " ...By committing the gravest sin of matricide...", Line_Continue);
+	Wait( 900 );
+	OutputLine(NULL, "……その罪なき楽園を自ら追放されることを選ぶことです。」",
+		   NULL, " you can choose to release yourself from this sinless paradise.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050483", 128, TRUE);
+	OutputLine(NULL, "「…羽入。",
+		   NULL, "\"...Hanyuu.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050484", 128, TRUE);
+	OutputLine(NULL, "あんたは娘に討たれたって言ったわね。",
+		   NULL, " You said your daughter killed you.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050485", 128, TRUE);
+	OutputLine(NULL, "………私が自分の人生を選ぶために、母殺しを繰り返すことをどう思うの。」",
+		   NULL, " ...What do you think of me repeating the act?\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070247", 128, TRUE);
+	OutputLine(NULL, "「…………梨花のお母さんならこう言うでしょう。",
+		   NULL, "\"......If I were your mother, I would probably say this.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070248", 128, TRUE);
+	OutputLine(NULL, "娘が幸せになれるなら、自分の命など惜しくないと。",
+		   NULL, " If it made you happy, I would not spare my own life.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070249", 128, TRUE);
+	OutputLine(NULL, "……梨花にはまだわかりません。",
+		   NULL, " ...It might be too early for you to understand, Rika. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070250", 128, TRUE);
+	OutputLine(NULL, "子を持ち母となった身にしかわからぬ気持ちです。",
+		   NULL, "But it's a feeling only someone who has given birth to a child and become a mother could know.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070251", 128, TRUE);
+	OutputLine(NULL, "かつて一度は母になったからわかる。",
+		   NULL, " I was once a mother, so I understand. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070252", 128, TRUE);
+	OutputLine(NULL, "…もし梨花が元の世界の方が幸せだったと言えるなら、梨花のお母さんは喜んでその命を差し出すでしょう。」",
+		   NULL, "...If you said going back to your old world would make you happy, your mother would gladly offer you her life.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050486", 128, TRUE);
+	OutputLine(NULL, "「まさか…。",
+		   NULL, "\"She couldn't...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050487", 128, TRUE);
+	OutputLine(NULL, "あの人に限ってそんなこと言うわけないでしょ。",
+		   NULL, " She's the one person who wouldn't ever say that.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050488", 128, TRUE);
+	OutputLine(NULL, "頭は大丈夫？！って言われて、ヒステリックに叫ばれるだけよ…。」",
+		   NULL, " She'd just scream 'are you crazy?!' and go into hysterics...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……でも、…カレーを一緒に作っていた時の母の微笑が思い出される…。",
+		   NULL, "...But... Then I remembered my mother's smile when we made curry together.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あの母の口からなら、……そんな恐ろしい言葉が出てきても、",
+		   NULL, "Would it be so strange if...", Line_ContinueAfterTyping);
+	Wait( 600 );
+	OutputLine(NULL, "……おかしくないのだろうか………。",
+		   NULL, " such fearsome words came from her mouth......?", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070253", 128, TRUE);
+	OutputLine(NULL, "「僕は、娘に討たれたことを後悔していません。",
+		   NULL, "\"I don't regret my daughter killing me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070254", 128, TRUE);
+	OutputLine(NULL, "そのお陰で、娘に引き継がれたかもしれない罪が祓われたのです。",
+		   NULL, " Thanks to that, the sin she might have inherited was cleansed.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070255", 128, TRUE);
+	OutputLine(NULL, "私が命を惜しんでいたら、娘もまた私と同じように迫害されていたかもしれないのですから。」",
+		   NULL, " If I had spared my own life, my daughter might have been persecuted, same as me.\"", Line_Normal);
+	ClearMessage();
+
+	//print 26
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 0, FALSE );
+	DrawSceneWithMask( "bg/kamunomikotori", "effect/up", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050489", 128, TRUE);
+	OutputLine(NULL, "「……でも、あんたを討った娘の気持ちを考えたことはある…？」",
+		   NULL, "\"...But have you ever thought about what the daughter who killed you felt...?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_yowaki_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070256", 128, TRUE);
+	OutputLine(NULL, "「…………。」",
+		   NULL, "\"......\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050490", 128, TRUE);
+	OutputLine(NULL, "「……死んだ方は気楽よね。",
+		   NULL, "\"...It's easier to die, isn't it?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050491", 128, TRUE);
+	OutputLine(NULL, "勝手に献身美徳に酔って成仏できる。",
+		   NULL, " You can wallow in devotion and virtue as you die peacefully.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050492", 128, TRUE);
+	OutputLine(NULL, "でもね、殺した方はその十字架を背負ってずっと生きていくのよ。",
+		   NULL, " But the killer has to bear that cross forever.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050493", 128, TRUE);
+	OutputLine(NULL, "………あんた、さっき言わなかった？",
+		   NULL, " ......Didn't you say so before? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050494", 128, TRUE);
+	OutputLine(NULL, "　あんたを討った娘が、あんたのために助け合いの心の宿る雛見沢を作ると誓ったって。",
+		   NULL, "Your daughter vowed to create a Hinamizawa where everyone wanted to help each other. All for your sake.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050495", 128, TRUE);
+	OutputLine(NULL, "そして千年掛けてあんたの娘たちは、あんたの罪に付き合ったのよ。",
+		   NULL, " And your daughters, over a thousand years, went along with your sin.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050496", 128, TRUE);
+	OutputLine(NULL, "…あんたは死ぬべきじゃなかったんじゃない？",
+		   NULL, " ...Maybe you shouldn't have died. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050497", 128, TRUE);
+	OutputLine(NULL, "　何の罪を背負わされたのか知らないけど、生きて戦うべきだった。",
+		   NULL, "I don't know what the sin you were bearing was, but you should have lived and fought.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050498", 128, TRUE);
+	OutputLine(NULL, "子孫が罪を背負わずに済む様に戦うべきだった。",
+		   NULL, " Fought so that your descendants wouldn't have to bear the sin. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050499", 128, TRUE);
+	OutputLine(NULL, "なのにあんたが屈したから、千年もの間、あんたの子孫たちがあんたの十字架を背負い続けた。",
+		   NULL, "But you surrendered, and for a thousand years, your descendants have been bearing your cross.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050500", 128, TRUE);
+	OutputLine(NULL, "……そうじゃないの？！」",
+		   NULL, " ...Right?!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 0, 1000, FALSE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070257", 128, TRUE);
+	OutputLine(NULL, "「…………………………。」",
+		   NULL, "\"...............\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入は沈黙する。",
+		   NULL, "Hanyuu was silent.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……それは紛れもなく、羽入の罪だったかもしれない。",
+		   NULL, "...That, without a doubt, was Hanyuu's sin.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　娘のために死ぬことは容易い。",
+		   NULL, "It was easy to die for her daughter's sake.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、残された娘の罪を思う心は、生涯癒せない。",
+		   NULL, "But her daughter's guilt would never heal.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　しかし羽入が返す言葉に怯みはなかった。",
+		   NULL, "But when Hanyuu answered, she remained undaunted.", Line_Normal);
+	ClearMessage();
+
+	//csp -1
+	DrawScene( "black", 600 );
+	PlayBGM( 0, "liberating", 120, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070258", 128, TRUE);
+	OutputLine(NULL, "「なら、梨花。",
+		   NULL, "\"Then, let me ask you, Rika.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070259", 128, TRUE);
+	OutputLine(NULL, "……私は生きて戦うべきだったという梨花。",
+		   NULL, " ...You, who say I should have lived and fought.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070260", 128, TRUE);
+	OutputLine(NULL, "あなたはその世界にいる今、どうするというのですか。",
+		   NULL, " What will you do now, in that world? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070261", 128, TRUE);
+	OutputLine(NULL, "………その世界にいるという現実を受け入れ、元の世界と異なるいくつかの違和感と戦いながら、その世界で生きることを望みますか。",
+		   NULL, "...Do you wish to live in that world, accepting the reality you are in, and always fighting the oddities different from your old world? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070262", 128, TRUE);
+	OutputLine(NULL, "百年の果てに掴んだ、手垢と汗に塗れた、それでもなお美しいあの世界を見捨てて！」",
+		   NULL, "Will you abandon that world that you gained after a hundred years, stained in grime and sweat, and yet still beautiful?!\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050501", 128, TRUE);
+	OutputLine(NULL, "「…………………………。」",
+		   NULL, "\"...............\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　確かにこの世界は美しいかもしれない…。",
+		   NULL, "She was right—maybe this world was beautiful...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、だからといって、あの元の世界の輝きが美しくないわけがない。",
+		   NULL, "But that didn't mean the way my old world shone wasn't beautiful too.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あれだけの旅の果てに勝ち取った運命が、美しくないわけがない…。",
+		   NULL, "Why wouldn't it be? We'd won that fate after such a long journey...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070263", 128, TRUE);
+	OutputLine(NULL, "「そして、あなたは百年の末に掴んだあの世界を、元の世界と今なお呼ぶ。",
+		   NULL, "\"And even now, you call that world, which you gained at the end of a century, your original world.", Line_WaitForInput);
+	SetSpeedOfMessage( TRUE, 128 );
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070264", 128, TRUE);
+	OutputLine(NULL, "……なら、この世界の居心地がどんなによくても、",
+		   NULL, " ...So however pleasant this world may be...", Line_Continue);
+	OutputLine(NULL, "それを全て投げ捨てて、",
+		   NULL, " shouldn't you throw it all away...", Line_Continue);
+	OutputLine(NULL, "この世界に留まりたい気持ちと戦い打ち払って、元の世界へ帰るべきなのではないですか。",
+		   NULL, " fight away the desire to stay in this world, and return to your original one?", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070265", 128, TRUE);
+	OutputLine(NULL, "あなたに関わる人々が罪から解放されたこの世界を打ち壊してでも！」",
+		   NULL, "Even if you had to destroy this world, liberated from the sins of all related to you?!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050502", 128, TRUE);
+	OutputLine(NULL, "「……………く………。」",
+		   NULL, "\".........Urgh......\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "bg/fure1", "effect/maskc", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……我に戦えと言った我が娘よ。",
+		   NULL, "...My daughter, who tells me to fight.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ならばそなたも戦うがいい。",
+		   NULL, "You, too, should fight.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　戦うとは、眼前の障害を打ち倒し乗り越えることではない。",
+		   NULL, "To fight is not to defeat and overcome the obstacles before you.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そんなのは結局、単なる一本道の途中の余談でしかないのだ。",
+		   NULL, "In the end, that is no more than a simple detour on the straight path before you.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　本当に戦うというのは、自ら選ぶということ。",
+		   NULL, "To truly fight is to make your own choices.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　人生のあらゆる選択で、あらゆる岐路で。",
+		   NULL, "At every choice in life, at every crossroads...", Line_WaitForInput);
+	OutputLine(NULL, "人は迷う。",
+		   NULL, " people hesitate.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　どちらかが明るく照らし出され、そちらへ進むことが決定付けられた選択は戦いではない。",
+		   NULL, "Having one choice brightly illuminated and then selecting it—such a predetermined choice is not a fight.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　何度その選択を迫られても、同じ方を選ぶに決まっているのだから必然だ。",
+		   NULL, "When no matter how many times you are presented with the choice, you choose the same one, it's inevitability.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　真の選択とは、心の底より悩み、どちらを選ぶべきかまったくわからない時のこと。",
+		   NULL, "A real choice is when you truly think and worry. When you never know which you should choose.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　かつてあなたが箱遊びと称して、赤い箱と青い箱の選択を語った時とまったく同じ。",
+		   NULL, "It is precisely the same as the choice between the red box and blue box you spoke of once before.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤い箱を選ぶか、青い箱を選ぶか。",
+		   NULL, "Will you choose the red box or the blue?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　何の導きもなく何かを選択することは、とても勇気と決断のいることなのだ。",
+		   NULL, "To choose without guidance demands incredible courage and determination.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それこそが本当の選択。",
+		   NULL, "That is a true choice.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　箱の中に何が入っているかを知ってしまえば、それはもはや選択にはならないのだ。",
+		   NULL, "If you knew what was in the boxes, it would no longer be a choice.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　２つの箱に何が入っているかわからないからこそ、開けた方の箱の中に入っていたもので満足できるのだ。",
+		   NULL, "It is because you do not know what is inside that you can be satisfied with what is in the box you choose.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　反対の箱の中身を知っていたら、場合によっては失望するかもしれない。",
+		   NULL, "If you knew the contents of the other, it could lead to despair.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "bg/fure2", 600 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　何の導きもなく、何のヒントもなく、…岐路に放置されることこそ人生。",
+		   NULL, "Being left at a crossroads, with no guidance and no hints, is what it means to live.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　怠惰に右を選び続けるも良し、棒を倒して適当に決めるも良し。",
+		   NULL, "You may lazily continue to choose the right, or knock over the sign and choose at random. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "懸命にヒントを探し、右と左でどちらがどれだけ有利かを悩み抜き、いつまでも岐路に立ち尽くすのも、また良し…。",
+		   NULL, "You may also search carefully for hints, worrying over how beneficial the left or right would be, and remain at the crossroads forever...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ゆえに、最後に待つ結果を、自分の責任として受け入れられるのではないか。",
+		   NULL, "Thus, you would be able to accept the final result awaiting you as your own responsibility, would you not?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　まさか、老いて死に、入る棺にまで、親の助言がいるというのか……？",
+		   NULL, "You would not grow old and go into your coffin wanting advice from your parents, would you...?", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　悩め。",
+		   NULL, "Worry.", Line_WaitForInput);
+	OutputLine(NULL, "選べ。",
+		   NULL, " Choose.", Line_WaitForInput);
+	OutputLine(NULL, "そして進め。",
+		   NULL, " And go forward.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それこそ、戦い。",
+		   NULL, "That is the fight.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 600 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私は懸命に悩み、自らの人生を選び取った。",
+		   NULL, "I earnestly worried, and chose my own life.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私の娘たちも懸命に悩み、自らの人生を選び取った。",
+		   NULL, "My daughters earnestly worried, and chose their own lives.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは誰にとっても神聖なことで、大切なこと。",
+		   NULL, "For each and every one of us, that is sacred. It is precious.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それを、千年後の末裔が穢してはならない。",
+		   NULL, "The descendant one thousand years later must not sully that.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その時代を生きた人間が、常に美しい。",
+		   NULL, "All who lived in that age were always beautiful.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　後世の価値観でその生き様を語ってはならないのだ。",
+		   NULL, "You must not speak of their lives using the values of later generations.", Line_Normal);
+	ClearMessage();
+
+	//print 22
+	DrawScene( "black", 50 );
+	ModDrawCharacter(22, 12, "portrait/ha4_def_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 0, FALSE );
+	DrawScene( "bg/kamunomikotori", 600 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050503", 128, TRUE);
+	OutputLine(NULL, "「…………………………。」",
+		   NULL, "\"..................\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_def2_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070266", 128, TRUE);
+	OutputLine(NULL, "「最後に、とても重要なことを話しますです。",
+		   NULL, "\"Lastly, I'll tell you something very important.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070267", 128, TRUE);
+	OutputLine(NULL, "……梨花と僕をつなぐそのカムノミコトノリの力は、もうじきその力を永遠に失います。",
+		   NULL, " ...The Kamu-no-Mikoto-no-Ri's power that connects us will soon be lost forever.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070268", 128, TRUE);
+	OutputLine(NULL, "僕がその世界に干渉することは永遠にありません。」",
+		   NULL, " I will never again be able to interfere with that world.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050504", 128, TRUE);
+	OutputLine(NULL, "「……あんたにありがたい説教をもらうのも今夜限りってわけね。」",
+		   NULL, "\"...So this is the last night I'll be able to hear one of these helpful lectures.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_muhyou_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070269", 128, TRUE);
+	OutputLine(NULL, "「それからもうひとつ。",
+		   NULL, "\"There is one more thing.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070270", 128, TRUE);
+	OutputLine(NULL, "梨花のお母さんに現れたカケラは明日の日没と同時に、その力を永遠に失います。",
+		   NULL, " The Fragment that has appeared in your mother will lose its power forever when the sun sets tomorrow.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070271", 128, TRUE);
+	OutputLine(NULL, "失うのは消えるという意味じゃない。",
+		   NULL, " 'Losing' doesn't mean 'disappearing'. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070272", 128, TRUE);
+	OutputLine(NULL, "梨花の手でカケラを取り戻せる機会が永遠に失われるという意味です。」",
+		   NULL, "It means you will forever lose the chance to take back that Fragment with your own hands.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050505", 128, TRUE);
+	OutputLine(NULL, "「つまり、",
+		   NULL, "\"Which means...", Line_Continue);
+	Wait( 2800 );
+	OutputLine(NULL, "……元の世界に戻るという選択肢も、明日の夕方までに決断しなきゃ、なくなるってことね…。",
+		   NULL, " I need to make my decision about whether to go back to my original world by sundown tomorrow...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050506", 128, TRUE);
+	OutputLine(NULL, "選択を保留するという第３の選択肢はない、ってことか…。」",
+		   NULL, " There's no third option to put the choice off...\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	//print 80
+	ModDrawCharacter(22, 12, "portrait/ha4_yowaki_", "0", 40, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 22, 300, TRUE);
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070273", 128, TRUE);
+	OutputLine(NULL, "「いいえ。",
+		   NULL, "\"No.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070274", 128, TRUE);
+	OutputLine(NULL, "選択を逃げ、最後の時間にわざと目を瞑り、消極的にその世界に留まることを選ぶこともできます。",
+		   NULL, " You may also choose to flee the decision, purposely ignore the last moment you have to choose, and passively stay in that world. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070275", 128, TRUE);
+	OutputLine(NULL, "……その場合は、積極的に選んだ場合と違った生き方になるでしょうか。」",
+		   NULL, "...If you did, would you live that life differently than one you chose proactively?\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…積極的に選ぶか否かはつまり、…この世界を受け入れたかどうかだ。",
+		   NULL, "...Whether or not I chose proactively... was also whether or not I would accept this world.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……受け入れぬままに生き続ければ、…今の「私」の持つ苦悩を永遠に引き摺って生きることになるだろう。",
+		   NULL, "...If I continued to live here without accepting it... I would drag along all the distress that \"I\" currently held, forever.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それに比べたら、どちらかを選択する方がよっぽど潔いかもしれない。",
+		   NULL, "Compared to that, maybe it would be a lot better just to choose one or the other.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、…その潔さを簡単に選べるわけもない………。",
+		   NULL, "But... Even that wasn't easy...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その苦悩こそが戦いだと、羽入は言う…。",
+		   NULL, "Hanyuu had said that very distress itself was the battle...", Line_Normal);
+	ClearMessage();
+
+	//csp -1
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070276", 128, TRUE);
+	OutputLine(NULL, "「………さぁ梨花。",
+		   NULL, "\"......Now, Rika.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070277", 128, TRUE);
+	OutputLine(NULL, "…戦いなさい。",
+		   NULL, " ...Fight.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070278", 128, TRUE);
+	OutputLine(NULL, "その戦いは明日の日没まで続く。",
+		   NULL, " Your fight will last until sundown tomorrow.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070279", 128, TRUE);
+	OutputLine(NULL, "でもどうか逃げないで。",
+		   NULL, " But please, don't run away.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070280", 128, TRUE);
+	OutputLine(NULL, "…なぜなら、どちらの世界を決断したとしても、その世界は必ず素晴らしいものだから。",
+		   NULL, " ...Because whichever world you decide on, I know that world will be a wonderful one. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070281", 128, TRUE);
+	OutputLine(NULL, "……あの百年を戦い抜き、得た世界が素晴らしかったように。",
+		   NULL, "...Just like the world you gained after fighting for a hundred years was.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070282", 128, TRUE);
+	OutputLine(NULL, "戦い抜いて選んだ世界は必ず素晴らしくなる。",
+		   NULL, " The world you choose after fighting through this will become wonderful, I'm sure of it. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070283", 128, TRUE);
+	OutputLine(NULL, "………だから梨花、決して戦わぬことで片方を選ばぬように。",
+		   NULL, "...So please, Rika, you mustn't choose one without fighting.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070284", 128, TRUE);
+	OutputLine(NULL, "悩まぬ選択肢の結果に、人間が満足することは絶対にないのだから。」",
+		   NULL, " People are never, ever satisfied with the result of a choice they didn't struggle with.\"", Line_Normal);
+	ClearMessage();
+
+	SetSpeedOfMessage( TRUE, 128 );
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050507", 128, TRUE);
+	OutputLine(NULL, "「…",
+		   NULL, "\"...", Line_Continue);
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_Continue);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_Continue);
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_Continue);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_Continue);
+	OutputLine(NULL, "…ありがとう、",
+		   NULL, "...Thank you,", Line_Continue);
+	OutputLine(NULL, "羽入。",
+		   NULL, " Hanyuu.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050508", 128, TRUE);
+	OutputLine(NULL, "私、",
+		   NULL, " I'll......", Line_Continue);
+	OutputLine(NULL, "………戦ってみるわ。",
+		   NULL, " I'll fight.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050509", 128, TRUE);
+	OutputLine(NULL, "…この、",
+		   NULL, " ...With...", Line_Continue);
+	Wait( 1100 );
+	OutputLine(NULL, "…選択と。",
+		   NULL, " this choice.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050510", 128, TRUE);
+	OutputLine(NULL, "……もし、あなたと再会できるなら元の世界で。",
+		   NULL, " ...If I can meet you again, it will be in our original world.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050511", 128, TRUE);
+	OutputLine(NULL, "…………もし、",
+		   NULL, " .........And if...", Line_Continue);
+	OutputLine(NULL, "この世界だったなら、",
+		   NULL, " it's this world...", Line_Continue);
+	OutputLine(NULL, "…ゆっくりと休んで千年の疲れを癒して。",
+		   NULL, " then take a good rest, to heal your millennium of exhaustion. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050512", 128, TRUE);
+	OutputLine(NULL, "……………今日までありがとう。",
+		   NULL, ".........Thank you for everything.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050513", 128, TRUE);
+	OutputLine(NULL, "本当にありがとう。",
+		   NULL, " Thank you so much.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050514", 128, TRUE);
+	OutputLine(NULL, "…私、",
+		   NULL, " ...It was because of your strength...", Line_Continue);
+	OutputLine(NULL, "…あなたの力のお陰で、",
+		   NULL, " that I...", Line_Continue);
+	OutputLine(NULL, "自分の人生を何度でもやり直せるものだと勘違いしてきた。",
+		   NULL, " mistook my own life for something I could do over as many times as I wanted.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050515", 128, TRUE);
+	OutputLine(NULL, "…そんな私じゃ、",
+		   NULL, " ...If that's who I am...", Line_Continue);
+	Wait( 2400 );
+	OutputLine(NULL, "…きっと元の世界に生きても、どっかでおかしくなったと思う。",
+		   NULL, " then I feel like it would be strange, somehow, if I was living in my original world. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050516", 128, TRUE);
+	OutputLine(NULL, "…何かにちょっとでも躓いたら、やり直せばいいやって簡単に考えたと思う。",
+		   NULL, "...It was easy for me to think that if I slipped up in any small way, I could just do it over.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050517", 128, TRUE);
+	OutputLine(NULL, "そんなじゃ、",
+		   NULL, " But that...", Line_Continue);
+	OutputLine(NULL, "…素晴らしい世界になんてなるわけないよね…。",
+		   NULL, " wouldn't make that world a wonderful one...", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "bg/kamunomikotori", 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050518", 128, TRUE);
+	OutputLine(NULL, "　…………その意味では、あなたがこの力を私に使わなければ良かったという罪も、ちょっぴりだけ理解できるわ。",
+		   NULL, "......In that sense, I understand, just a little, your sin of using your power on me when you shouldn't have.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050519", 128, TRUE);
+	OutputLine(NULL, "……でも、それは軽い人生を歩んできた私の罪でもある。",
+		   NULL, " ...But that sin belongs to me, too, for walking through such an easy life. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050520", 128, TRUE);
+	OutputLine(NULL, "数多の世界でサイコロを振り直すと称して自分の命を粗末にした。",
+		   NULL, "As we traveled all those worlds, I called it 'rerolling the dice', treating my own life without respect.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050521", 128, TRUE);
+	OutputLine(NULL, "　…この世界は、",
+		   NULL, "...I think...", Line_Continue);
+	OutputLine(NULL, "そんな私に人生の重さを教えてくれたんだと思う。",
+		   NULL, " that this world taught me the weight of that decision.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050522", 128, TRUE);
+	OutputLine(NULL, "………その末が、",
+		   NULL, " ......So at the end...", Line_Continue);
+	Wait( 2800 );
+	OutputLine(NULL, "どっちに転んでも素敵な世界だなんて、",
+		   NULL, " being able to choose a wonderful world either way...", Line_Continue);
+	OutputLine(NULL, "…本当にラッキーじゃない。",
+		   NULL, " means I really am lucky, right? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050523", 128, TRUE);
+	OutputLine(NULL, "…私は多分、数多の世界で一番幸運な人間に違いないわ。",
+		   NULL, "...I have no doubt that I'm the most fortunate person in all these worlds.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050524", 128, TRUE);
+	OutputLine(NULL, "ありがとう羽入。",
+		   NULL, " Thank you, Hanyuu.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050525", 128, TRUE);
+	OutputLine(NULL, "…こんな馬鹿で身の程知らずの私に、",
+		   NULL, " Thank you for giving me your kind words until the very end...", Line_Continue);
+	OutputLine(NULL, "最後の最後まで温かな言葉を掛けてくれてありがとう。",
+		   NULL, " when I was just stupid and conceited. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050526", 128, TRUE);
+	OutputLine(NULL, "…私、一生懸命悩むよ。",
+		   NULL, "...I'll worry over this with everything I have.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050527", 128, TRUE);
+	OutputLine(NULL, "いっぱいいっぱい悩んで、",
+		   NULL, " I'll worry and worry and worry...", Line_Continue);
+	OutputLine(NULL, "……本当に本当に素敵な世界を掴み取るから。",
+		   NULL, " and grasp a really, really wonderful world.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050528", 128, TRUE);
+	OutputLine(NULL, "……だからありがとう、",
+		   NULL, " ...So thank you...", Line_Continue);
+	OutputLine(NULL, "……羽入。",
+		   NULL, " Hanyuu.", Line_WaitForInput);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, " ...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050529", 128, TRUE);
+	OutputLine(NULL, "…ねぇ、",
+		   NULL, "...Hanyuu......", Line_Continue);
+	OutputLine(NULL, "…………返事、",
+		   NULL, " Please.........", Line_Continue);
+	Wait( 4000 );
+	OutputLine(NULL, "……………してよ…。",
+		   NULL, " answer me... ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s15/05/ds42050530", 128, TRUE);
+	OutputLine(NULL, "……ぅうううぅぅううぅぅ……。」",
+		   NULL, "...uuuuuuuuu...\"", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　もう、水晶球はただ冷たいだけで……。",
+		   NULL, "The crystal ball was now quiet and cold in my hands...", Line_WaitForInput);
+	OutputLine(NULL, "私が照らす懐中電灯の光に、退屈な反射を見せるだけだった……。",
+		   NULL, " and gave off only a dull reflection of the flashlight that illuminated me...", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "bg/moon", "effect/up", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私は零せるだけの涙を零し尽くした。",
+		   NULL, "I shed all the tears I could.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　零し尽くしておかないと、…選択をする時の迷いになると思ったから。",
+		   NULL, "I thought if I didn't... I would hesitate when it came time to choose.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから思い切り泣いた。",
+		   NULL, "So I cried out everything I had.", Line_WaitForInput);
+	OutputLine(NULL, "そして百年の縁を感謝した。",
+		   NULL, " And I thanked her for our hundred-year relationship.", Line_WaitForInput);
+	OutputLine(NULL, "…選択によっては、その言葉をもう口にできないから。",
+		   NULL, " ...Because, depending on my choice, I might never get to say those words again.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それから祭壇にただのビー玉に戻った水晶球を戻して、祭具殿を抜け出し寝床に這い戻った。",
+		   NULL, "Then, I replaced the crystal ball on the altar, where it was now just a marble, slipped out of the storehouse, and crawled back into bed.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……眠れるわけがない。",
+		   NULL, "...There was no way I was going to sleep.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そう思っていたのに、タオルケットに包まれ、はみ出した素足に涼しい風を感じていたらいつの間にか寝入っていた………。",
+		   NULL, "At least, that was what I thought, until I wrapped myself in linens, felt the cool wind on my bare feet, and drifted off to sleep without realizing it......", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 7000 );
+
+	SetSpeedOfMessage( TRUE, 128 );
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　古手梨花が、",
+		   NULL, "Rika Furude", Line_ContinueAfterTyping);
+	Wait( 500 );
+	OutputLine(NULL, "眠っていく……。",
+		   NULL, " was going to sleep...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　「私」が、",
+		   NULL, "\"I\"...", Line_ContinueAfterTyping);
+	Wait( 800 );
+	OutputLine(NULL, "…眠っていく……。",
+		   NULL, " was going to sleep...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　おやすみ、",
+		   NULL, "Good night...", Line_ContinueAfterTyping);
+	Wait( 800 );
+	OutputLine(NULL, "…",
+		   NULL, " ...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "み",
+		   NULL, "eve", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "ん",
+		   NULL, "ry", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "な",
+		   NULL, "one", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "。",
+		   NULL, ".", Line_ContinueAfterTyping);
+	Wait( 1500 );
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　お",
+		   NULL, "Go", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "や",
+		   NULL, "od", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "す",
+		   NULL, " nig", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "み",
+		   NULL, "ht", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "、",
+		   NULL, ",", Line_ContinueAfterTyping);
+	Wait( 800 );
+	OutputLine(NULL, "…",
+		   NULL, " ...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "…",
+		   NULL, "...", Line_ContinueAfterTyping);
+	Wait( 200 );
+	OutputLine(NULL, "「",
+		   NULL, "\"", Line_Continue);
+	Wait( 200 );
+	OutputLine(NULL, "私",
+		   NULL, "me", Line_Continue);
+	Wait( 200 );
+	OutputLine(NULL, "」",
+		   NULL, ".", Line_Continue);
+	Wait( 200 );
+	OutputLine(NULL, "。",
+		   NULL, "\"", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", Line_Normal);
+
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM( 0, 1000, FALSE );
+	Wait( 3000 );
+	DrawSceneWithMask( "white", "effect/m1", 0, 0, 1300 );
+
+	PlayBGM( 0, "live_2", 120, 0 );
+
+	DrawSceneWithMask( "bg/sora", "effect/maskc", 0, 0, 3000 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、太陽がまた昇り、古手梨花の素晴らしい一日が始まる。",
+		   NULL, "And the sun rose again on another wonderful day for Rika Furude.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…古手梨花は、クラスメートたちと再び仲良しになるため、小さな努力の第一歩を踏み出す。",
+		   NULL, "...She took her first step, her first small effort, to become friends with her classmates again.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、家では両親の愛情にたくさん包まれた。",
+		   NULL, "And at home, she was wrapped in her parents' love.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……そして、",
+		   NULL, "...And...", Line_ContinueAfterTyping);
+	Wait( 600 );
+	OutputLine(NULL, "素晴らしい一日を照らした太陽が、",
+		   NULL, " the sun brightening her wonderful day...", Line_ContinueAfterTyping);
+	Wait( 800 );
+	OutputLine(NULL, "山陰に掛かり、",
+		   NULL, " fell behind the mountains...", Line_ContinueAfterTyping);
+	Wait( 1000 );
+	OutputLine(NULL, "…………消えていった……。",
+		   NULL, " ......and disappeared...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
+	DisableWindow();
+
+	DrawScene( "bg/sora2", 5000 );
+	Wait( 3000 );
+	DrawScene( "black", 5000 );
+
+
+	SetValidityOfInput(FALSE);
+
+	DrawSprite( 20, "effect/si_saikorosi_long", NULL, -320, -240, 0, 0, 0, 0, FALSE, FALSE, 0, 0, 32, 0, FALSE );
+	DrawScene("black", 0);
+	MoveSprite( 20, -320, -1960 + 240, 0, 0, 0, 0, 0,59160, TRUE );
+	Wait(5000);
+	FadeOutBGM( 0, 2000, FALSE );
+	FadeSprite( 20, 2000, TRUE );
+	Wait(2000);
+
+	SetValidityOfInput(TRUE);
+
+}

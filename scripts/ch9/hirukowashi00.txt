@@ -1,0 +1,541 @@
+void main()
+{
+
+	//Unhandled: *Hiru_Opning
+	//csp -1
+	DisableWindow();
+	DrawScene( "black", 3000 );
+	//Unhandled: rmode on
+	FadeOutBGM( 0, 0, TRUE );
+	FadeOutBGM( 1, 0, TRUE );
+	StopSE( 0 );
+	ModPlayMovie("mv11");
+
+	SetSpeedOfMessage( FALSE, 0 );
+
+	//;■オマケシナリオ
+	//;※この世界の羽入は、皆殺し編以前までの、梨花にしか見えない半透明存在です。
+
+
+	//;■レナと圭一の下校中。
+
+	DrawScene( "white", 1000 );
+	DrawSceneWithMask( "bg/m_hi3", "effect/maskc", 0, 0, 1300 );
+
+	PlayBGM( 0, "hidebu22", 120, 0 );
+	PlayBGM( 1, "semi", 120, 0 );
+
+	PlaySE( 0, "boyon", 128, 64 );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacterWithFiltering(1, 2, "sprite/re1b_warai_b1_", "2", "effect/up", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「るーるん、るんたったー、るんたった〜♪」",
+		   NULL, "\"Ru ru, ru ta-ta, run-ta-ta~ ♪\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そのご機嫌具合から見て、例のダム現場にまた新しいゴミ山でもできたんだろう。」",
+		   NULL, "\"You're in a good mood. You found a new pile of trash at the dam site, didn't you?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	FadeBustshotWithFiltering( 1, "effect/right", 0, FALSE, 0, 0, 200, TRUE );
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacterWithFiltering(2, 2, "sprite/re1b_kaii_b1_", "2", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「うん、そうなの〜！",
+		   NULL, "\"Yep, that's right~!", Line_WaitForInput);
+	OutputLine(NULL, "　新しい山には何が埋まってるのかな！",
+		   NULL, " I wonder what's buried in the new pile!", Line_WaitForInput);
+	OutputLine(NULL, "　かぁいいお宝の予感〜！",
+		   NULL, " I predict I'll find a kyute little treasure~!", Line_WaitForInput);
+	OutputLine(NULL, "　帰ったらね、すぐに宝探しに行くんだよー！",
+		   NULL, " After I get home, I'm going straight there for treasure-hunting!", Line_WaitForInput);
+	OutputLine(NULL, "　圭一くんも一緒に来ないかな、かな！」",
+		   NULL, " Keiichi-kun, wanna come too? Wanna come?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「俺かー？",
+		   NULL, "\"Who, me?", Line_WaitForInput);
+	OutputLine(NULL, "　うーん、魅音に借りた漫画、まだ全巻読み終わってないんだよなぁ。」",
+		   NULL, " Hmm... I still haven't finished all the comics Mion lent me.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 2, "sprite/re1a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「う〜、女の子が誘ってるのに、圭一くんは漫画を選ぶんだね…、はぅ。",
+		   NULL, "\"Uu~ A girl invites you out, but you'd rather read comics... Hau.", Line_WaitForInput);
+	OutputLine(NULL, "…今日の部活で助け舟を出してあげたのにそのご恩返しがこれなんだね…。」",
+		   NULL, " ...This is what I get for helping a friend in need during club today, huh...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ううう、ウソですごめんなさい、宝探し万歳です！",
+		   NULL, "\"N-N-No, I'm sorry, I lied! I'm all for treasure hunting!", Line_WaitForInput);
+	OutputLine(NULL, "　ぜひレナさんの旅に同行させてくださいませ！！」",
+		   NULL, " Please, allow this one to accompany you on your journey, Rena-san!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 200, FALSE);
+	DrawSceneWithMask( "bg/sora", "effect/down", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……部活は非情の一言に尽きる。",
+		   NULL, "...Club activities today could be summed up as \"heartless.\"", Line_WaitForInput);
+	OutputLine(NULL, "自分こそ優勝！",
+		   NULL, " Every man for himself!", Line_WaitForInput);
+	OutputLine(NULL, "　そして弱ったヤツは徹底的に叩きのめしビリを確定させる。",
+		   NULL, " Anyone showing weakness was crushed and dropped into last place.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　俺だって優勢の時は徹底的に蹴落とすし、逆ならとことん蹴落とされる。",
+		   NULL, "I would gladly romp people at an advantage, and be romped when the roles were reversed.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　今日の俺はどうにも運に見放され、ことごとく大勝負が裏目に出た。",
+		   NULL, "But today, luck just wasn't in my favor, and the deciding match completely backfired on me.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…そこに、ちょっとした助け舟を出してくれたのがレナだったわけだ。",
+		   NULL, "...That was when Rena had given me a little help.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「でも、結果的にビリだったね。",
+		   NULL, "\"But you ended up in last anyway.", Line_WaitForInput);
+	OutputLine(NULL, "あははは、罰ゲーム、今度の日曜日が楽しみかな、かな！」",
+		   NULL, " Ahahaha, the punishment game is this Sunday, and I can't wait! Can't wait!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……うぅうぅ、レナにあれだけ助けてもらってこのザマとは…。",
+		   NULL, "\"...Uuuu, you helped me so much, and now look at me...", Line_WaitForInput);
+	OutputLine(NULL, "不甲斐ないぜ…。」",
+		   NULL, " I'm worthless...\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　結局、レナの助け舟を活かすことはできず、俺のビリは確定した。",
+		   NULL, "In the end, I couldn't put Rena's help to good use, and that locked me in last place.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…でも、レナのお陰で、起死回生の最後の大勝負に挑戦できたのは間違いない。",
+		   NULL, "...But it was definitely thanks to her that I could even try going for that big, deciding match to turn things around.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　レナが助けてくれなかったら、その最後の勝負すら挑めないくらいの大負けだったのだから。",
+		   NULL, "If she hadn't helped me out, I would have lost even worse, without even having that opportunity.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　レナに、俺をビリから救済する義理はなかった。",
+		   NULL, "Rena didn't have any responsibility to try and rescue me.", Line_WaitForInput);
+	OutputLine(NULL, "一位が望めないとわかったら、せめてビリだけは回避したいと普通なら考える。",
+		   NULL, " Normally, you'd decide that if you couldn't hope for first, you could at least avoid last.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　放っておけば俺のビリは確定するのに、それを救済するのはリスクばかりで何の特にもならないはず。",
+		   NULL, "If she left me alone, it would have assured my last-place finish. She wouldn't gain anything from saving me aside from risk to herself, would she?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　なのに、レナは助けてくれたのだ。",
+		   NULL, "And yet she'd helped me anyway.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……部活という非情の世界において、そのやさしさのカケラは、地獄に仏さまの後光が届くような神々しさだ。",
+		   NULL, "...That fragment of kindness in the world of our cold, heartless club was sublime, as though the Buddha's nimbus had reached me in hell.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　情け容赦なく戦うのが部活の掟。",
+		   NULL, "The one rule of our club was to fight without pity or mercy.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、その中にあっても、やさしさを失わず、",
+		   NULL, "But even amidst that...", Line_WaitForInput);
+	OutputLine(NULL, "みんなで楽しくゲームをして遊ぼうという気持ちを失わないのがレナだった。",
+		   NULL, " Rena was the one who always held onto her kindness. She wants everyone to have a good time playing games.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(1, 2, "sprite/re1b_hau_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/hi4", "effect/up", 0, 0, 500 );
+
+	PlayBGM( 1, "semi", 120, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あはははは、買いかぶりすぎだよぅ。",
+		   NULL, "\"Ahahahaha, you think too highly of me.", Line_WaitForInput);
+	OutputLine(NULL, "…レナはワンサイドゲームって嫌いなだけ。",
+		   NULL, " ...Rena just hates one-sided games.", Line_WaitForInput);
+	OutputLine(NULL, "だって、どう戦っても逆転がないってわかったら、誰だって不貞腐れちゃうもん。」",
+		   NULL, " I mean, anyone would get sulky if they knew they couldn't make a comeback no matter how hard they fought.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ま、まぁなぁ。",
+		   NULL, "\"W-Well, I guess.", Line_WaitForInput);
+	OutputLine(NULL, "…罰ゲームは俺に確定だってんで、決着を待たずに服の採寸までされてたからなぁ…。",
+		   NULL, " ...After all, once I was locked in for the punishment game, they started taking my clothing measurements without waiting for the end...", Line_WaitForInput);
+	OutputLine(NULL, "あぁクソ、一体何の服の採寸なんだろぅなぁ…、トホホホ…。」",
+		   NULL, " Ah, crap, what the heck did they need them for...? Sob...\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(1, 2, "sprite/re1a_def_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「どんな逆境からでも、いつだって逆転はできると思うの。",
+		   NULL, "\"I think you can always make a comeback, no matter how bad it gets.", Line_WaitForInput);
+	OutputLine(NULL, "……うぅん、そういう世界じゃないといけない。",
+		   NULL, " ...Or, more like, that's how the world should be.", Line_WaitForInput);
+	OutputLine(NULL, "だからね、レナは、どうしても困ってる人に、その、チャンスを与えずにはいられないの。」",
+		   NULL, " That's why Rena can't help but give a chance to people who are up a creek without a paddle.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「………レナは本当にやさしいんだな。",
+		   NULL, "\"......Rena, you're such a nice person.", Line_WaitForInput);
+	OutputLine(NULL, "…何て話を聞かされると、レナが弱り目の時、容赦なく叩いてきた俺に良心の呵責が……、",
+		   NULL, " ...When you were weak, I knocked you out without mercy, so hearing this pricks my conscience...", Line_Continue);
+	Wait( 800 );
+	OutputLine(NULL, "ううぅ！」",
+		   NULL, " Uuu!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(1, 2, "sprite/re1a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あははは、レナの好きでやってるんだから、圭一くんまでそうしてなんて言わないよぅ。",
+		   NULL, "\"Ahahaha, Rena does it because she wants to. I'm not telling you to do it too.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(1, 2, "sprite/re1b_hau_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "でもその、レナがピンチになった時はその、…貸しを返してくれるとうれしいかな、かな！」",
+		   NULL, "But, well, when Rena is in a pinch... She'd be really happy if you repaid the favor! She would be!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「おう！",
+		   NULL, "\"Right!", Line_WaitForInput);
+	OutputLine(NULL, "　今日のは借りにしとくぜー！",
+		   NULL, " I owe you one for today!", Line_WaitForInput);
+	OutputLine(NULL, "　まぁ、それとは別でだ。",
+		   NULL, " Well, aside from that.", Line_WaitForInput);
+	OutputLine(NULL, "たまにはレナの宝探しに付き合ってやるぜ。",
+		   NULL, " I'll go treasure hunting with you once in a while.", Line_WaitForInput);
+	OutputLine(NULL, "じゃあ、ダム現場のゴミ山に集合でいいな？」",
+		   NULL, " Let's meet up at the dam site?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(1, 2, "sprite/re1a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「うん！",
+		   NULL, "\"Okay!", Line_WaitForInput);
+	OutputLine(NULL, "　ダム現場の宝の山に集合ねー！！」",
+		   NULL, " Let's meet at the treasure mountain!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　レナはとびきりの笑顔で答えると、ぶんぶんと腕を振りながら駆けて行った…。",
+		   NULL, "After answering with a wide smile, Rena ran off, waving her arm...", Line_Normal);
+	ClearMessage();
+
+
+
+
+	//;■梨花と沙都子の家　窓から外に叫ぶ沙都子
+	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
+	FadeOutBGM( 0, 1000, FALSE );
+	DrawSceneWithMask( "white", "effect/up", 0, 0, 1300 );
+	Wait( 2000 );
+	DrawScene( "bg/hu2", 1000 );
+	Wait( 2000 );
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 1300 );
+	Wait( 1000 );
+	PlaySE( 0, "door", 128, 64 );
+	ModDrawCharacter(1, 4, "sprite/sa1b_akireru_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/hu_r1", "effect/right", 1, 0, 500 );
+	SetSpeedOfMessage( FALSE, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「梨ぃ花ぁ〜？！",
+		   NULL, "\"Riikaa~?!", Line_WaitForInput);
+	OutputLine(NULL, "　そろそろお買い物に行きませんと、特売を逃しちゃいますわよー！！",
+		   NULL, " If you don't go shopping soon, you'll miss the special sales!!", Line_WaitForInput);
+	OutputLine(NULL, "　卵１パックがお一人様１点のみ１０円ですのよー！！",
+		   NULL, " Each customer can get one pack of eggs for ten yen!! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あとトイレットペーパーの６個セットが今日なら８円もお得で、お風呂洗剤が試供品のオマケ付き！　夕方前ならスタンプも２倍ですのよ？！",
+		   NULL, "And a 6-pack of toilet paper is on sale for eight yen today, and it comes with a sample bath cleaner! And we get twice the stamps if we go before sundown!!", Line_WaitForInput);
+	OutputLine(NULL, "　もぅ、今日は梨花がお買い物当番ですのにー！！」",
+		   NULL, " Geez, Rika, it was your turn to go shopping today!!\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
+	DrawSceneWithMask( "black", "effect/left", 0, 0, 1300 );
+	Wait( 1000 );
+	DrawSceneWithMask( "bg/jsa1", "effect/left", 0, 0, 1300 );
+	Wait( 2000 );
+	DrawSceneWithMask( "black", "effect/maskc", 0, 0, 1300 );
+	Wait( 1000 );
+	FadeOutBGM( 1, 1000, FALSE );
+	DrawScene( "bg/saiguden_01", 1000 );
+	SetSpeedOfMessage( FALSE, 0 );
+
+	//;■祭具殿
+
+	ModSetLayerFilter(1, 256, "night");
+	ModDrawCharacterWithFiltering(1, 5, "sprite/ri2_fuman_a1_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
+	PlayBGM( 0, "u2_rika", 120, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……なぁに、羽入。",
+		   NULL, "\"...What is it, Hanyuu?", Line_WaitForInput);
+	OutputLine(NULL, "早くお買い物に行かないと沙都子に怒られるんだから。」",
+		   NULL, " Satoko's going to get mad if I don't go shopping soon.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModSetLayerFilter(2, 256, "night");
+	ModDrawCharacterWithFiltering(2, 12, "sprite/ha1_au_", "2", "effect/maskc", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅ！",
+		   NULL, "\"Au au!", Line_WaitForInput);
+	OutputLine(NULL, "　梨花、ほらこれを見るのです。」",
+		   NULL, " Rika, here, look at this.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(1, 5, "sprite/ri2_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「何？",
+		   NULL, "\"What?", Line_WaitForInput);
+	OutputLine(NULL, "　……あら、どうしたの？",
+		   NULL, " ...Oh, what happened?", Line_WaitForInput);
+	OutputLine(NULL, "　香炉の足が欠けてるわね。",
+		   NULL, " This incense burner is missing a foot.", Line_WaitForInput);
+	OutputLine(NULL, "経年劣化でしょ。",
+		   NULL, " It deteriorated over time, huh?", Line_WaitForInput);
+	OutputLine(NULL, "だいぶボロっちかったしね。",
+		   NULL, " It's really worn-out.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "現代にはこんなの簡単に直せる道具がいろいろあるのよ、安心なさい。",
+		   NULL, "We have lots of tools to easily fix something like this these days, so don't worry.", Line_WaitForInput);
+	OutputLine(NULL, "……木工ボンドでくっ付くかしら。」",
+		   NULL, " ...Maybe we can stick it back on with some wood glue.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 12, "sprite/ha1_yowaki_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅあぅ、そうじゃないのです。",
+		   NULL, "\"Au au au, not that.", Line_WaitForInput);
+	OutputLine(NULL, "この香炉は、２００年前に梨花のご先祖様が、ある物を封印した時にお供えしたものなのです。",
+		   NULL, " This incense burner was offered by your ancestors 200 years ago to seal something away.", Line_WaitForInput);
+	OutputLine(NULL, "これが壊れたということは、封印が解けてしまったということなのです…！」",
+		   NULL, " If it's broken, that means the seal is undone...!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(1, 5, "sprite/ri2_majime_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……あんたって、たまにすっごくどうでもいいことでも大袈裟に言うんだけど、",
+		   NULL, "\"...You know, you have a habit of making a huge deal out of the silliest things...", Line_Continue);
+	Wait( 500 );
+	OutputLine(NULL, "…それって何？",
+		   NULL, " What is it?", Line_WaitForInput);
+	OutputLine(NULL, "　すごくまずいことなの？」",
+		   NULL, " Something terribly bad?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 12, "sprite/ha1_odoroki_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅあぅあぅ…！",
+		   NULL, "\"Au au au au...!", Line_WaitForInput);
+	OutputLine(NULL, "　使い方を誤るとものすごい惨劇になってしまうかもしれない、危険なものなのです！",
+		   NULL, " It's dangerous—if used in the wrong way, it could cause a huge disaster!", Line_WaitForInput);
+	OutputLine(NULL, "　あぅあぅ！」",
+		   NULL, " Au au!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(1, 5, "sprite/ri2_komaru_a2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ご先祖さまがわざわざ封印するくらいなんだから、…何だかヤバそうな話ね。",
+		   NULL, "\"My ancestors went to the bother of sealing it, so... It must be bad.", Line_WaitForInput);
+	OutputLine(NULL, "で？",
+		   NULL, " So?", Line_WaitForInput);
+	OutputLine(NULL, "　惨劇の規模はどのくらい？」",
+		   NULL, " How bad of a disaster would this be?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 12, "sprite/ha1_au_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「この巻物に書いてありますのです、イラスト付きなのですよ〜！",
+		   NULL, "\"It's all written in this scroll here, complete with pictures~!", Line_WaitForInput);
+	OutputLine(NULL, "　あぅあぅあぅ！」",
+		   NULL, " Au au au!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 0, 1300, FALSE );
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 1300 );
+	Wait( 2000 );
+	DrawSceneWithMask( "bg/jsa7_01", "effect/maskc", 0, 0, 1300 );
+	PlayBGM( 0, "depressive_paranoia", 120, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……何々？",
+		   NULL, "\"...What do we have here?", Line_WaitForInput);
+	OutputLine(NULL, "　フワラズの勾玉の災禍？",
+		   NULL, " The Calamity of the Magatama of Fuwarazu?", Line_WaitForInput);
+	OutputLine(NULL, "　…………例年より訪れの早き夏。",
+		   NULL, " ......One Summer, which had come earlier than most Years. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "門外不出の至宝、フワラズの勾玉が人界へ零れ出し、恐ろしき災厄を招いたり。",
+		   NULL, "The Magatama-of-Fuwarazu, two most valuable Jewels, never to be removed from the Premises, spilled into the Worlde of Man and brought forth a most terrible Disaster. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "………ずいぶん怪我人が出たみたいに書かれてるわね。",
+		   NULL, "......The way this is written, it seems like a lot of people were hurt.", Line_WaitForInput);
+	OutputLine(NULL, "……フワラズの勾玉は鬼神の残したる地獄の至宝なり。",
+		   NULL, " ...The Magatama-of-Fuwarazu are valuable Jewels of Hell, left behind by the Savage-Gods. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "人里に現れることあれば、地獄より鬼たちが現れ人々に取り憑き、阿鼻叫喚の地獄絵図となるものなり…。",
+		   NULL, "Should they appear in the Human Village, the Hell-Daemons shall appear, possess its People, and create a hellish Portrait of Pandaemonium...", Line_WaitForInput);
+	OutputLine(NULL, "…………ということはつまり、末期発症の集団発生？！",
+		   NULL, " ......Wait, does that mean a mass outbreak?!", Line_WaitForInput);
+	OutputLine(NULL, "　それはマズイわね。",
+		   NULL, " That would be bad. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鷹野が大喜びしちゃう大惨事になりかねないわ…。」",
+		   NULL, "It would be such a disaster that even Takano would be overjoyed...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(1, 12, "sprite/ha1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/saiguden_01", "effect/up", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「正しく使えば素晴らしい力があるのですが、",
+		   NULL, "\"It has a wonderful power if used properly...", Line_Continue);
+	Wait( 800 );
+	OutputLine(NULL, "……その、使い方を誤ると大変なことになってしまうのです。",
+		   NULL, " but, well, if you use it wrong, things get this bad. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あまりに危険なので、梨花のご先祖さまは、人の世から遠ざけるため、遠いお空の向こうの世界に封印していたのです。」",
+		   NULL, "It's very dangerous, so your ancestors sealed it away beyond the distant sky to place it far away from the human world.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM( 0, 300, FALSE );
+	ModDrawCharacterWithFiltering(2, 5, "sprite/ri2_majime_a1_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	PlayBGM( 1, "semi", 120, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「で、その封印が解けたとなると、どうなるの。」",
+		   NULL, "\"And now that the seal is broken, what happens?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(1, 12, "sprite/ha1_yowaki_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「お空の上に封印したのが解けますから、あぅあぅ！」",
+		   NULL, "\"That which is sealed above the sky will be unsealed, au au!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 5, "sprite/ri2_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「簡単ね。",
+		   NULL, "\"So it's simple.", Line_WaitForInput);
+	OutputLine(NULL, "そのまま村のどこかへ落下してくるわけね…。",
+		   NULL, " It'll fall down somewhere in the village...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(2, 5, "sprite/ri2_niyari_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……一刻も早くそれを見つけ出して、封印した方がいいってわけね。",
+		   NULL, "...Which means we should find it right away and seal it again.", Line_WaitForInput);
+
+	FadeOutBGM( 1, 300, FALSE );
+	PlayBGM( 0, "u2_rika", 120, 0 );
+
+	OutputLine(NULL, "…でも、正しく使えば素晴らしい力もあると言わなかった？",
+		   NULL, " ...But did you say it has a wonderful power if used properly? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それ次第では封印する前に少し遊んでみてもいいかもね。」",
+		   NULL, "It might be something I'd want to play with a little first.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(1, 12, "sprite/ha1_odoroki_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅあぅあぅ！",
+		   NULL, "\"Au au au au!", Line_WaitForInput);
+	OutputLine(NULL, "　とにかく早く見つけましょうなのです。",
+		   NULL, " Anyway, find it, quickly.", Line_WaitForInput);
+	OutputLine(NULL, "誰か他の人が拾って、もし悪い使い道に気付いてしまったら……！」",
+		   NULL, " If someone else finds it and figures out how to use it for evil, then...!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 5, "sprite/ri2_komaru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……こーゆう時に限って、鷹野みたいなヤツが拾うのよね。",
+		   NULL, "\"...And someone like Takano always ends up picking these things up.", Line_WaitForInput);
+	OutputLine(NULL, "古手神社の宝に、あんにゃろの手垢を付けさせるわけにはいかないわ！」",
+		   NULL, " There's no way we can let that tramp get her fingers on a Furude Shrine treasure!\"", Line_Normal);
+	ClearMessage();
+
+	CallScript("&eye");
+}

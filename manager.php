@@ -53,7 +53,9 @@ $exclude = [
 	'&endroll_staff8.txt',
 	'&endroll_staff9.txt',
 	'&eyefragment.txt',
-	'kakera_miss.txt'
+	'kakera_miss.txt',
+	'&endroll.txt',
+	'util.txt'
 ];
 
 function err($m) {

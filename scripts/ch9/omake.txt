@@ -1,0 +1,1482 @@
+void main()
+{
+
+	//;**************************************************************
+
+
+	//Unhandled: *Utage_Higurasi
+
+
+
+
+	//csp -1
+
+
+	ClearMessage();
+
+	DrawScene( "black", 1000 );
+
+	//Unhandled subroutine: omake_s
+	//Unhandled: rmode on
+	DrawSceneWithMask( "bg/res5", "effect/m1", 0, 0, 1300 );
+	PlayBGM( 0, "cafe", 120, 0 );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacterWithFiltering(1, 2, "sprite/re1a_warai_a1_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	SetSpeedOfMessage( FALSE, 0 );
+
+
+
+
+	//;■お疲れ様会
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「『ひぐらしのなく頃に礼』、お疲れさま会〜！",
+		   NULL, "\"Excellent work on Higurashi: When They Cry Rei~!", Line_WaitForInput);
+	OutputLine(NULL, "　ドンドンぱふ〜！」",
+		   NULL, " Bu-bum puff~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜レナ
+
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_def1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「『解』以降、大掛かりな話がずっと続いたからなー。",
+		   NULL, "\"Ever since Kai started, we've had this series of massive stories.", Line_WaitForInput);
+	OutputLine(NULL, "こういう小粒なシナリオもたまにゃオツなもんだぜ！」",
+		   NULL, " Little scenarios like this one are fine once in awhile too!\"", Line_Normal);
+	ClearMessage();
+	//;＜圭一
+
+	DrawScene( "bg/res5", 500 );
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 3, "sprite/me1a_tokui_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「いやしかし！",
+		   NULL, "\"But wait!", Line_WaitForInput);
+
+	PlaySE( 0, "kyupirn", 128, 64 );
+	OutputLine(NULL, "　山椒は小粒でも何とやら。",
+		   NULL, " Even a little knowledge can be dangerous, right?", Line_WaitForInput);
+	OutputLine(NULL, "最初の賽殺し編なんかはずいぶんヘビーなテーマじゃなかった？」",
+		   NULL, " Wasn't the first chapter, Saikoroshi, pretty heavy on the thematic side?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜魅音
+
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacterWithFiltering(4, 6, "sprite/si3_majime_a1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「…ですよね。",
+		   NULL, "\"...It was.", Line_WaitForInput);
+	OutputLine(NULL, "私たちって、運命のサイコロのせいにして、ある種の犠牲を仕方なかったって諦めたりってよくするじゃないですか。",
+		   NULL, " Haven't we often given up on certain sacrifices, and blamed it all on the dice of fate?", Line_WaitForInput);
+	OutputLine(NULL, "それが、誰のせいにもできないっていうのは、とても辛い選択だと思います。」",
+		   NULL, " Not being able to blame it on anyone seems a very painful choice.\"", Line_Normal);
+	ClearMessage();
+	//;＜詩音
+
+	ModDrawCharacter(1, 4, "sprite/sa1a_akireru_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/res1", "effect/left", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「…私にはよくわかりませんでしたけど、祭囃し編の大団円の後にこんな意地悪なシナリオが来るなんて想像もしませんでしたわ！」",
+		   NULL, "\"...I didn't really understand it, but I had no idea such a mean story would follow right after the grand finale in Matsuribayashi!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacterWithFiltering(2, 5, "sprite/ri1_komaru_a1_", "0", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……何だかひどい目に遭わされたシナリオだったのです。",
+		   NULL, "\"......I went through a lot of bad things in that story.", Line_WaitForInput);
+
+	PlaySE( 0, "pou", 128, 64 );
+	OutputLine(NULL, "みー。」",
+		   NULL, " Meep.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜梨花
+
+	ModDrawCharacterWithFiltering(3, 12, "sprite/ha3a_warai_", "2", "effect/right", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「僕は出番が色々もらえたので嬉しかったのですよ、あぅあぅ☆」",
+		   NULL, "\"I was happy I got to make so many appearances. Au au☆\"", Line_Normal);
+	ClearMessage();
+	//;＜羽入
+
+	DrawSceneWithMask( "bg/res5", "effect/left", 0, 0, 500 );
+	ModDrawCharacter(1, 1, "sprite/kei1_komaru_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そ、…そうか？",
+		   NULL, "\"R...Really?", Line_WaitForInput);
+	OutputLine(NULL, "　…しかし、自分が主人公だったらと思うと本当に嫌な話だよなぁ。",
+		   NULL, " ...But if I put myself in the main character's shoes, it would really stink.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(1, 1, "sprite/kei1_nayamu_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……俺だったら、悩んでる間にタイムリミットで元の世界へは戻れなかった気がするぜ。」",
+		   NULL, "...If it were me, I think I'd have been worrying so much the time limit to go back to our original world would have run out.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜圭一
+
+	ModDrawCharacterWithFiltering(2, 3, "sprite/me1a_tohoho_a1_", "0", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「えー？",
+		   NULL, "\"Huh?", Line_WaitForInput);
+	OutputLine(NULL, "　何で悩むのぉ。",
+		   NULL, " Why worry?", Line_WaitForInput);
+	OutputLine(NULL, "だって、あれは悪夢の世界なんでしょ？",
+		   NULL, " That world was in a nightmare, right?", Line_WaitForInput);
+	OutputLine(NULL, "　最後に羽入が、あれは夢の世界だったーって言ってなかったっけ？",
+		   NULL, " Didn't Hanyuu say that world was a dream at the end?", Line_WaitForInput);
+	OutputLine(NULL, "　なら、悪い夢を覚ますために努力しなきゃ！」",
+		   NULL, " You'd just have to do your best to wake up from it!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜魅音
+
+	FadeBustshotWithFiltering( 1, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 6, "sprite/si3_akuwarai_a1_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「違いますよ、お姉。",
+		   NULL, "\"No, Sis.", Line_WaitForInput);
+	OutputLine(NULL, "あれは、元の世界を選んだ時点で、選ばなかった世界に思いを馳せること自体が人の身には過ぎてたってことで、それで羽入が夢って言い方をしたんじゃないですかぁ！」",
+		   NULL, " I thought that after she chose her original world, it would have been too much for her to think about the world she didn't choose, which is why Hanyuu told her it was a dream!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜詩音
+
+	ModDrawCharacterWithFiltering(3, 2, "sprite/re1a_def_a1_", "2", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「というか、未練を断ち切るために言ったんだろうね。",
+		   NULL, "\"I think it was so she could sever any lingering attachments to it.", Line_WaitForInput);
+	OutputLine(NULL, "お話の中の私も、選ばなかった選択肢に対する未練について話してた気がするし。」",
+		   NULL, " In the story, I said a few things about having regrets for the choices you don't pick.\"", Line_Normal);
+	ClearMessage();
+	//;＜レナ
+
+	DrawSceneWithMask( "bg/res1", "effect/right", 0, 0, 500 );
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1b_yareyare_b1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「多分、梨花が選べば、どちらの世界も本物になって続いてたのでございましょうねぇ…。",
+		   NULL, "\"I think that either world would have been the real one, depending on what Rika chose...", Line_WaitForInput);
+	OutputLine(NULL, "もし逆を選んでいたら、元の世界の方が夢だったということになったかもしれませんわ。」",
+		   NULL, " If she'd chosen the other one, maybe her original world would have been the dream.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacterWithFiltering(2, 5, "sprite/ri1_def_a1_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……沙都子にボールをぶつけられて気絶した時に見た、幻というようなことになってたかもしれないです。」",
+		   NULL, "\"......It might have all been a hallucination I saw when Satoko hit me with the ball and knocked me out.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜梨花
+
+	FadeBustshotWithFiltering( 1, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 1, "sprite/kei1_def1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「その選択を梨花ちゃんに求めたから辛い思いをさせられたわけだが、",
+		   NULL, "\"The scenario wanted Rika-chan to make a choice, so it made things tough for her.", Line_WaitForInput);
+	OutputLine(NULL, "…いっそのこと、コイントスで決めてもらった方が気は楽だったかもしれないよな。」",
+		   NULL, " ...But after all that, maybe a coin flip would have been easier for her to handle.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜圭一
+
+
+	FadeBustshotWithFiltering( 2, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(4, 12, "sprite/ha3a_def_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「それは多分、お話の中で僕が言った、選択肢から逃げるという意味になるのだと思いますです。",
+		   NULL, "\"Like I said during the story, I think that would have meant running away from the choice.", Line_WaitForInput);
+	OutputLine(NULL, "……どんな選択肢も、自らが選んだなら納得も出来るし耐えられる。",
+		   NULL, " ...Whatever choice you make, if you made it yourself, you can be okay with it. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+ 	OutputLine(NULL, "でも、自分が選ばなかった選択肢は、それを理由に延々と愚痴り続けるだけ。」",
+		   NULL, "But if you didn't make the choice yourself, you'd have a reason to keep complaining forever.\"", Line_Normal);
+	ClearMessage();
+	//;＜羽入
+
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+	ModDrawCharacterWithFiltering(1, 2, "sprite/re1b_def_b1_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そうだね。",
+		   NULL, "\"Yeah.", Line_WaitForInput);
+
+	OutputLine(NULL, "選択肢って、選ぶ前にもう選択肢があるんだよね。",
+		   NULL, " You have a choice to make before you even make the choice:", Line_WaitForInput);
+
+	OutputLine(NULL, "選ぶか、否か。」",
+		   NULL, " whether to choose or not.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_majime_a1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「世の中にはどうしても選びようがない選択肢ってありますよね。",
+		   NULL, "\"With some choices, there's just no way to pick one option.", Line_WaitForInput);
+
+	OutputLine(NULL, "つまり、賽殺し編はそういう葛藤みたいなものがテーマだったんでしょうね。」",
+		   NULL, " That was probably the theme of Saikoroshi—the distress that can cause.\"", Line_Normal);
+	ClearMessage();
+	//;＜詩音
+
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1b_odoroki_b1_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「本当に意地悪なシナリオでございますこと！",
+		   NULL, "\"That was really a cruel tale!", Line_WaitForInput);
+
+	OutputLine(NULL, "　私なんか冷たい役だわ、梨花にぶん殴られるわ、踏んだり蹴ったりでしてよー！」",
+		   NULL, " It made me out to be a cold person, and Rika hit me with a chair! It added insult to injury!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacterWithFiltering(2, 3, "sprite/me1b_tohoho_a1_", "0", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そんなのいいじゃーん！",
+		   NULL, "\"That doesn't matter!", Line_WaitForInput);
+
+	OutputLine(NULL, "　おじさんなんか出番あんまりなかったー！",
+		   NULL, " This ol' man barely had any scenes!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(2, 3, "sprite/me1a_wink_a1_", "1", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でもいいもんね〜、祭囃し編ではその分、大活躍だったしー！」",
+		   NULL, " But I guess it's okay~ I had a huge role during Matsuribayashi to make up for it!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜魅音
+
+	ModDrawCharacter(3, 12, "sprite/ha3a_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「僕はどっちも出番がいっぱいでお腹いっぱいなのですよ〜、あぅあぅあぅ☆」",
+		   NULL, "\"I showed up a lot in both of them, so I'm nice and full~ Au au au☆\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜羽入
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(4, 5, "sprite/ri1_fuman_a1_", "0", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……そうねぇ。",
+		   NULL, "\"......Mm-hmm.", Line_WaitForInput);
+
+	OutputLine(NULL, "あんた、今回の『礼』じゃずいぶん出番をもらってたわね。",
+		   NULL, " You appeared pretty often in Rei.", Line_WaitForInput);
+
+	OutputLine(NULL, "まぁ、遅い登場だったし、そのくらいはいいのかしら。」",
+		   NULL, " You didn't first show up until later, though, so perhaps it was all right.\"", Line_Normal);
+	ClearMessage();
+	//;＜梨花
+
+	DrawSceneWithMask( "bg/res1", "effect/right", 0, 0, 500 );
+	ModDrawCharacter(1, 2, "sprite/re1a_hau_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そ、そういえば私、『昼壊し編』で大活躍だった〜！",
+		   NULL, "\"C-Come to think of it, Hirukowashi was all about me~!", Line_WaitForInput);
+
+	PlaySE( 0, "boyon", 128, 64 );
+
+
+	OutputLine(NULL, "　しかもちょっぴりらぶらぶっぽいシナリオだった。",
+		   NULL, " And the story was a tiny bit lovey-dovey.", Line_WaitForInput);
+	OutputLine(NULL, "はぅ！」",
+		   NULL, " Hau!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_warai_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「だよなぁ！",
+		   NULL, "\"Yeah!", Line_WaitForInput);
+
+	OutputLine(NULL, "　というか、レナがかぁいいモードで大暴れってノリが、『ひぐらし』の初期の頃のイメージで本当に懐かしかったぜ。」",
+		   NULL, " Actually, the way your kyute mode sends you on a rampage reminded me of how I saw you way back at the beginning of Higurashi.\"", Line_Normal);
+	ClearMessage();
+	//;＜圭一
+
+	DrawSceneWithMask( "bg/res5", "effect/left", 0, 0, 500 );
+	ModDrawCharacter(1, 6, "sprite/si3_majime_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「シナリオ見ての感想ですが。",
+		   NULL, "\"This is just my impression after reading the story, but...", Line_WaitForInput);
+	OutputLine(NULL, "……お姉。",
+		   NULL, " Sis.", Line_WaitForInput);
+
+	OutputLine(NULL, "もうちょっとしっかりしないと、多分、競り負けます。",
+		   NULL, " You have to start pulling it together a little more, or she'll outdo you.", Line_Continue);
+
+	PlaySE( 0, "dageki", 128, 64 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+	OutputLineAll(NULL, "", Line_WaitForInput);
+
+
+	OutputLine(NULL, "レナさんって案外大胆で積極的です。」",
+		   NULL, " Rena-san is way more aggressive than we thought.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜詩音
+
+	ModDrawCharacterWithFiltering(2, 5, "sprite/ri1_komaru_a1_", "0", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……みー。」",
+		   NULL, "\"...Meep.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜梨花
+
+	ModDrawCharacterWithFiltering(3, 3, "sprite/me1a_odoroki_a1_", "2", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「なな、何でみんなに憐れまれなくちゃなんないの！！",
+		   NULL, "\"W-Wait, why is everyone taking pity on me?!", Line_WaitForInput);
+
+	OutputLine(NULL, "　ふぇ？！",
+		   NULL, " Huh?!", Line_WaitForInput);
+
+	OutputLine(NULL, "　どうしてどうして！」",
+		   NULL, " Why, why?!\"", Line_Normal);
+	ClearMessage();
+	//;＜魅音
+
+	DrawSceneWithMask( "bg/res1", "effect/right", 0, 0, 500 );
+	ModDrawCharacter(1, 2, "sprite/re1b_warai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あははははは、教えてあ〜げない☆",
+		   NULL, "\"Ahahahahaha. Not telling~☆", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(1, 2, "sprite/re1a_def_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　さて、『昼壊し編』は、黄昏フロンティアさんが発表された対戦型アクションゲーム『ひぐらしデイブレイク』の世界観をモチーフにして書いた物語です。",
+		   NULL, "Anyway, Hirukowashi was a story based on motifs from the Higurashi Daybreak world, the fighting action game released by Twilight Frontier. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "この度の『昼壊し編』で興味を持ってくださった方は、ぜひ遊んでみてくださいね！」",
+		   NULL, "If you're interested after having read Hirukowashi, please go give that game a try!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_warai_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「恋愛を成就させるフワラズの勾玉を手に入れるのはどのタッグチームか！",
+		   NULL, "\"Which tag team will get their hands on the love-creating Magatama of Fuwarazu?", Line_WaitForInput);
+
+	OutputLine(NULL, "　俺とレナの組み合わせの他にも、たくさんのシナリオがあるからぜひ見てみてくれよな！（宣伝）」",
+		   NULL, " Aside from me and Rena being on one team, there are plenty of storylines to experience, so give it a look! (shameless plug)\"", Line_Normal);
+	ClearMessage();
+	//;＜圭一
+
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+	ModDrawCharacter(1, 4, "sprite/sa1b_def_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ねぇ詩音さん？",
+		   NULL, "\"Hey, Shion-san?", Line_WaitForInput);
+
+	OutputLine(NULL, "　そういえば、『昼壊し編』は普段とは違うＢＧＭが登場しましたわね？」",
+		   NULL, " Come to think of it, Hirukowashi had different BGM than usual, didn't it?\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_wink_a1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「さすが沙都子、ちゃんと聞いてましたね。",
+		   NULL, "\"Good on you for keeping an ear out, Satoko. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そう、『昼壊し編』では、よりデイブレイクらしさを出すために、黄昏フロンティアの音楽家、Ｕ２さんからデイブレイクで実際に使われている音楽を何曲かお借りさせていただいているんです！」",
+		   NULL, "You're right—in Hirukowashi, in order to give it more of a Daybreak feel, we borrowed several pieces actually used in Daybreak, composed by Twilight Frontier's composer, U2-san!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜詩音
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 5, "sprite/ri1_warai_a1_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「普段とは違う音楽だと、同じどたばたでもとても印象が変わって感じられましたのです。」",
+		   NULL, "\"With different music than usual, our normal escapades felt very different too.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜梨花
+
+	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_def_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「やはり、サウンドノベルというだけあって、サウンドは大事なのです。",
+		   NULL, "\"Of course—this is a sound novel, so the sound is important.", Line_WaitForInput);
+
+	OutputLine(NULL, "何しろ、サウンドノベルの７文字の内、サウンドは４文字も占めているのですよ？」",
+		   NULL, " The word 'sound' takes up an entire half of the term 'sound novel', after all.\"", Line_Normal);
+	ClearMessage();
+	//;＜羽入
+
+	DrawSceneWithMask( "bg/res1", "effect/right", 0, 0, 500 );
+	ModDrawCharacter(2, 3, "sprite/me1b_def_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そうだね。",
+		   NULL, "\"Yeah.", Line_WaitForInput);
+	PlaySE( 0, "kyupirn", 128, 64 );
+	OutputLine(NULL, "シーンを盛り上げる音楽の演出効果は計り知れないよね！",
+		   NULL, " Music has immeasurable effects, and can make scenes much more exciting!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(2, 3, "sprite/me1a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　『ひぐらし』に協力してくださった音楽家の皆さん、本当にありがとうございます！",
+		   NULL, "Thank you so much to all the composers who contributed to Higurashi!", Line_WaitForInput);
+
+	OutputLine(NULL, "　できたらぜひ次回の『うみねこ』でもお力をお貸し下さい〜！」",
+		   NULL, " If you can, we would very much like your help again on Umineko~!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜魅音
+
+	ModDrawCharacter(1, 1, "sprite/kei1_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「お、お、お！",
+		   NULL, "\"Oh, oh, oh!", Line_WaitForInput);
+
+	OutputLine(NULL, "　サークルＨＰの制作日記でもたまに出てくるよな、その名前。",
+		   NULL, " I've seen that name crop up on the blog on the circle's homepage.", Line_WaitForInput);
+
+	OutputLine(NULL, "『うみねこのなく頃に』って！",
+		   NULL, " Umineko: When They Cry, right?", Line_WaitForInput);
+
+	OutputLine(NULL, "　ネタみたいな名前だけど、これって本当に次回新作のタイトルなのか？！」",
+		   NULL, " The naming feels like a meme now, but that's really the new game coming out, isn't it?!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜圭一
+
+	ModDrawCharacterWithFiltering(2, 2, "sprite/re1a_komaru_a1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「えっと、あくまでも仮称だそうだけど、",
+		   NULL, "\"Well, the name is still provisional, but...", Line_WaitForInput);
+
+	OutputLine(NULL, "……あは、竜騎士07さんの口癖は、『仮定は決定』らしいし…。」",
+		   NULL, " Aha, in Ryukishi07-san's words, it's 'set in stone, tentatively'...\"", Line_Normal);
+	ClearMessage();
+	//;＜レナ
+
+	ModDrawCharacter(3, 5, "sprite/ri1_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "bg/res5", "effect/left", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……『ひぐらし』はいっぱいひぐらしが鳴いてましたですから、",
+		   NULL, "\"...A lot of higurashi sounds were used all through Higurashi,", Line_WaitForInput);
+
+	OutputLine(NULL, "やっぱり『うみねこ』だと、うみねこがいっぱい鳴いてますのでしょうか？」",
+		   NULL, " so with Umineko, does that mean a lot of seagulls will be crying?\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜梨花
+
+	ModDrawCharacterWithFiltering(2, 4, "sprite/sa1b_akireru_b1_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「うみねこの鳴き声って何だったでしたっけ。",
+		   NULL, "\"What sound did seagulls make, again?", Line_WaitForInput);
+
+	OutputLine(NULL, "…みゃーみゃー？」",
+		   NULL, " ...Squawk squawk?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	FadeBustshotWithFiltering( 3, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 12, "sprite/ha3a_warai_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「次回は舞台が島になるらしいのです。",
+		   NULL, "\"It'll apparently take place on an island.", Line_WaitForInput);
+
+	OutputLine(NULL, "それで、島と海をキーワードに、鳴く動物の名前を考えていたら、うみねこということになったらしいのです。",
+		   NULL, " And with the words 'island' and 'ocean' in mind, seagulls come up as the natural animal you'd hear making noise in the background.", Line_WaitForInput);
+
+	OutputLine(NULL, "えっへん。」",
+		   NULL, " Heh heh!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜羽入
+
+	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_odoroki_a1_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ええ〜〜？！",
+		   NULL, "\"Whaaat~~?!", Line_WaitForInput);
+
+	OutputLine(NULL, "　そんないい加減なことでタイトル決めちゃっていいんですかぁ？！」",
+		   NULL, " They decided the title based on something so minor?!\"", Line_Normal);
+	ClearMessage();
+	//;＜詩音
+
+	ModDrawCharacter(3, 3, "sprite/me1a_tohoho_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "bg/res1", "effect/right", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「とりあえず、仮でもタイトルがないと色々やりにくいだろうからってんじゃない？",
+		   NULL, "\"Anyway, wouldn't it be more difficult if you didn't even have a temporary title?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こういうイメージって、仮でもいいから先に作っとかないと、後から色々面倒になるんだよねぇ。」",
+		   NULL, "You have to put together stuff like this beforehand, or you'll be in trouble later.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜魅音
+
+	ModDrawCharacterWithFiltering(2, 2, "sprite/re1a_def_a1_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あくまでも仮のタイトルで、他にカッコイイタイトルが思いついたら変更したいそうです。",
+		   NULL, "\"He says it's only a tentative title, and if he comes up with something 'way cooler' he'll change it.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(2, 2, "sprite/re1b_nande_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……私は、多分これで決まりなんじゃないかなって思ってるけど。」",
+		   NULL, "...Though I think it's probably already settled.\"", Line_Normal);
+	ClearMessage();
+	//;＜レナ
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
+	ModDrawCharacter(1, 4, "sprite/sa1a_warai_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「次はどんな話なんでしょうねぇ？",
+		   NULL, "\"I wonder what that story will be about.", Line_WaitForInput);
+
+	OutputLine(NULL, "　“なく頃に”って同じようなタイトルですもの。",
+		   NULL, " It has the same 'When They Cry' in the title, after all.", Line_WaitForInput);
+
+	OutputLine(NULL, "また変な事件とかで人が死んだりとかするんでございますかしら！」",
+		   NULL, " I wonder if there'll be more strange crimes with people dying!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_nayamu_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「きっとそうに違いないぜ…。",
+		   NULL, "\"I don't think there's any doubt about that...", Line_WaitForInput);
+
+	OutputLine(NULL, "というか、どんなヤツが主人公になるのか知らねぇけど、災難だなぁ。",
+		   NULL, " And I don't know who's gonna be the main character, but they'll have it rough. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "とにかくこのサークルから主人公の抜擢が来たら、眉に唾つけてよく考えた方がいいぜ…。」",
+		   NULL, "In any case, if you had to choose a main character from this circle, you might want to give it some serious thought first...\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜圭一
+
+	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 600, FALSE );
+	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 600, TRUE );
+	ModDrawCharacter(3, 12, "sprite/ha3a_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「『ひぐらしのなく頃に』の血脈を受け継ぎ、",
+		   NULL, "\"He said something about it inheriting the blood of Higurashi: When They Cry,", Line_WaitForInput);
+
+	OutputLine(NULL, "それでいて『ひぐらし』とは違う世界観を目指したい、とか何とか言ってましたのです。",
+		   NULL, " but still wanting to aim for a different kind of world.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(3, 12, "sprite/ha3a_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……何を言ってんのか僕にはよくわかってないのです。",
+		   NULL, " ...I don't really understand what he's talking about.", Line_Continue);
+
+	PlaySE( 0, "boyon", 128, 64 );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+
+	OutputLineAll(NULL, "", Line_WaitForInput);
+
+
+	OutputLine(NULL, "えっへん。」",
+		   NULL, " Heh heh.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜羽入
+
+	ModDrawCharacterWithFiltering(1, 2, "sprite/re1b_def_b1_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「竜騎士07さんも、この『礼』がマスターアップしたら本格的にプロット作りに入るって言ってました。",
+		   NULL, "\"Ryukishi07-san said he'd start working on the plot for real after making the master copy of Rei.", Line_WaitForInput);
+
+	OutputLine(NULL, "多分今頃、色々と書き溜めてるんじゃないかと思うな！」",
+		   NULL, " I bet he's gotten all sorts of unpublished writings together already!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 5, "sprite/ri1_warai_a1_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「２００７年夏コミを乞うご期待なのですよ、にぱ〜☆」",
+		   NULL, "\"Look forward to Summer Comiket 2007, nipah~☆\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜梨花
+
+	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 600, TRUE );
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1b_yareyare_b1_", "0", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「…もったいぶった次回予告ですわねぇ。",
+		   NULL, "\"...Well, this was certainly one high-and-mighty next episode preview. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そのくせ、何も画面が発表されないところを見ると、本当にこの『礼』がマスターアップしてからが本格的な着手なんですのね！」",
+		   NULL, "Judging by how there aren't even any screenshots of it yet, he must have meant it when he said he'd start working on it for real after finishing Rei!\"", Line_Normal);
+	ClearMessage();
+	//;＜沙都子
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ギク。",
+		   NULL, "Urk.", Line_Normal);
+	ClearMessage();
+
+
+	ModDrawCharacter(4, 6, "sprite/si3_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawSceneWithMask( "bg/res1", "effect/right", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「まぁまぁ！",
+		   NULL, "\"Now, now!", Line_WaitForInput);
+
+	OutputLine(NULL, "　何しろ、来年の夏コミまでは８ヶ月ありますからね。",
+		   NULL, " Next year's summer Comiket is still eight months away.", Line_WaitForInput);
+
+	OutputLine(NULL, "のんびり待ちましょうってことです。」",
+		   NULL, " We just have to relax and wait.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜詩音
+
+	ModDrawCharacterWithFiltering(2, 3, "sprite/me1b_wink_a1_", "1", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「以後の進捗状況は、ぜひサークルの制作日記でチェックしてね〜！",
+		   NULL, "\"Please keep checking the circle's development blog for progress~!", Line_WaitForInput);
+
+	OutputLine(NULL, "　以上、広報からのお知らせでしたー！」",
+		   NULL, " That does it for our PR announcements!\"", Line_Normal);
+	ClearMessage();
+	//;＜魅音
+
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 1300 );
+	FadeOutBGM( 0, 2000, FALSE );
+	Wait( 2000 );
+	DrawScene( "bg/res5", 1000 );
+	PlayBGM( 0, "1", 120, 0 );
+	ModDrawCharacter(1, 2, "sprite/re1a_def_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 600, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「『ひぐらしのなく頃に礼』、いかがでしたでしょうか。",
+		   NULL, "\"How did you like Higurashi: When They Cry Rei?", Line_WaitForInput);
+
+	OutputLine(NULL, "お楽しみいただけたでしょうか。",
+		   NULL, " We hope you enjoyed it.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(1, 2, "sprite/re1b_warai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "この度の作品は、『ひぐらし』を楽しんでくださり、応援をしてくださった皆さんへのご恩返しのお礼になればと思い、礼と名づけさせていただきました。",
+		   NULL, "This volume was called 'Rei', meaning 'gratitude', because we wanted to thank all of those who enjoyed Higurashi and supported us.", Line_WaitForInput);
+	OutputLine(NULL, "お楽しみいただけたのでしたら、それに勝る喜びはありません。」",
+		   NULL, " If you've enjoyed it, then we couldn't possibly be happier.\"", Line_Normal);
+	ClearMessage();
+	//;＜レナ
+
+	ModDrawCharacter(2, 1, "sprite/kei1_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「俺たちも、祭囃し編でもう出番は終わりなのかなって思ってたら、こうしてまた出演できたのですごい楽しかった！",
+		   NULL, "\"Right when we thought we wouldn't be showing up anymore after Matsuribayashi, too. We had a ton of fun appearing again like this!", Line_WaitForInput);
+
+	OutputLine(NULL, "　やっぱり『ひぐらし』の世界は色々と暴れられて楽しいよなぁ！」",
+		   NULL, " Our Higurashi world antics are still a blast!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜圭一
+
+	ModDrawCharacterWithFiltering(3, 3, "sprite/me1a_wink_a1_", "1", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そうだよね。",
+		   NULL, "\"Yeah.", Line_WaitForInput);
+
+	OutputLine(NULL, "賽殺し編も昼壊し編もそうだったけど、喜怒哀楽色々なシナリオがあるのが『ひぐらし』の面白いところだったかもしれないね。",
+		   NULL, " Maybe Higurashi's most interesting facet was having all kinds of stories—happy ones, angry ones, sad ones, and fun ones—and Saikoroshi and Hirukowashi both fit right in. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "私も、いろんな感じでの出番があって、とっても面白かったよ！」",
+		   NULL, "I had a lot of fun appearing in all sorts of different ways!\"", Line_Normal);
+	ClearMessage();
+	//;＜魅音
+
+	ModDrawCharacter(1, 6, "sprite/si3_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/res1", "effect/left", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「私はまだまだ出たりないです。",
+		   NULL, "\"I still haven't shown up enough.", Line_WaitForInput);
+
+	OutputLine(NULL, "もうこれで私たちの出番はないんですか？」",
+		   NULL, " Is this the last time we'll be appearing?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜詩音
+
+	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_def_", "0", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅ。",
+		   NULL, "\"Au au.", Line_WaitForInput);
+
+	OutputLine(NULL, "竜騎士07も、これで『ひぐらし』はもう書くことはないだろうと思っていたのですが、今回のシナリオをとっても楽しく書いたので、少し考え直したそうなのです。",
+		   NULL, " Ryukishi07 was thinking he wouldn't write any more Higurashi from now on, but he had a lot of fun writing these stories, so he might have changed his mind a little. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "また時間があったら色々書いてみたいとか言っていましたのです。」",
+		   NULL, "He said he'd still like to write a few more things if he has time.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜羽入
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1a_warai_a1_", "0", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「をっほっほっほ！",
+		   NULL, "\"Ohh ho ho ho!", Line_WaitForInput);
+
+	OutputLine(NULL, "　そうでなくちゃでございますわよ！",
+		   NULL, " And that is how it should be!", Line_WaitForInput);
+
+	OutputLine(NULL, "　私がもっともっと大活躍する話をいーっぱい書いてほしいですわ！」",
+		   NULL, " I want him to write a lot more about how amazing I am!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacter(3, 5, "sprite/ri1_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……ボクたちの出番は、",
+		   NULL, "\"...Our appearances...", Line_Continue);
+	Wait( 800 );
+
+	OutputLine(NULL, "…いいえ、『ひぐらしのなく頃に』はまだまだ終わらないのです。」",
+		   NULL, " Or, rather, Higurashi: When They Cry isn't over yet.\"", Line_Normal);
+	ClearMessage();
+	//;＜梨花
+
+	ModDrawCharacter(4, 2, "sprite/re1a_warai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「うん。",
+		   NULL, "\"Yep.", Line_WaitForInput);
+
+	OutputLine(NULL, "終わりなんかないよ。",
+		   NULL, " There's no such thing as an ending.", Line_WaitForInput);
+
+	OutputLine(NULL, "だって、私たちはこうして暮らしていて、これからもきっと色々なことを経験していって、いっぱいたくさん大騒ぎするもの。」",
+		   NULL, " We're still living, and we'll have all kinds of experiences after this, and have many more chapters.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_warai_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「だよな！",
+		   NULL, "\"Yeah!", Line_WaitForInput);
+
+	OutputLine(NULL, "　俺たちが雛見沢にいる限り、騒動が起こらないわけはないもんな！」",
+		   NULL, " As long as we're in Hinamizawa, there's no way weird stuff won't happen!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜圭一
+
+	FadeBustshotWithFiltering( 4, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 3, "sprite/me1a_tokui_a1_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「くっくっく！",
+		   NULL, "\"Ku-ku-ku!", Line_WaitForInput);
+
+	OutputLine(NULL, "　楽しい部活ばかりとは限らないよ〜？",
+		   NULL, " That goes for more than just our club activities~!", Line_WaitForInput);
+
+	OutputLine(NULL, "　また何か恐ろしい惨劇も起こったりしてね！」",
+		   NULL, " There might be more horrific tragedies, too!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜魅音
+
+	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_akuwarai_a1_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そういう惨劇はぜひお姉が主演でお願いします。",
+		   NULL, "\"I'd very much like you to be in those tragedies, Sis.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+
+	ModDrawCharacter(2, 6, "sprite/si3_warai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	PlaySE( 0, "boyon", 128, 64 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あぁ〜ん、私は悟史くんとのラブロマンスが演じたい〜！」",
+		   NULL, "Ahhh, but I want to be in a romance with Satoshi-kun!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜詩音
+
+	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1b_odoroki_b1_", "2", "effect/right", 1, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そうですわよ、にーにーが帰ってくるシナリオがまだですわー！」",
+		   NULL, "\"That's right! We still haven't had a story where Nii-nii comes back!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜沙都子
+
+	ModDrawCharacter(3, 7, "sprite/sato1_def2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「…あははは、そうだね。",
+		   NULL, "\"...Ahahaha, you're right.", Line_WaitForInput);
+
+	OutputLine(NULL, "僕ももっとちゃんとした出番があるシナリオとかあるといいかな。」",
+		   NULL, " I'd like it if there was a story where I had something real to do.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜悟史
+
+	PlaySE( 0, "kamera", 128, 64 );
+	DrawScene( "white", 200 );
+	ModDrawCharacter(1, 8, "sprite/tomi1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawScene( "bg/res5", 600 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そうさ！",
+		   NULL, "\"That's right!", Line_WaitForInput);
+
+	OutputLine(NULL, "　僕にだってもっともっとカッコいい出番がほしいよ！",
+		   NULL, " I want to show up doing a lot more cool things too!", Line_WaitForInput);
+
+	PlaySE( 0, "nageru", 128, 64 );
+	Wait( 200 );
+	PlaySE( 0, "nageru", 128, 64 );
+	Wait( 200 );
+	PlaySE( 0, "nageru", 128, 64 );
+
+
+	OutputLine(NULL, "　富竹ジロウ風雲編なんてどうだい！」",
+		   NULL, " What about a Jirou Tomitake Stormcloud Chapter?!\"", Line_Continue);
+
+	PlaySE( 0, "finish", 128, 64 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜富竹
+
+	ModDrawCharacterWithFiltering(2, 9, "sprite/ta1_warai_", "2", "effect/right", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「くすくす。",
+		   NULL, "\"Hee-hee.", Line_WaitForInput);
+
+	OutputLine(NULL, "私たち大人の関係をシナリオに描くには、良い子のみんなには刺激が強すぎるんじゃないかしら？」",
+		   NULL, " Wouldn't a story depicting our adult relationship be a little too stimulating for all the good boys and girls?\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜鷹野
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 11, "sprite/oisi1_4_", "1", "effect/left", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「若い方に教育的な内容になるよう、私の若かりし頃の豪快な生き様をお届けするとかどうですかねぇ！",
+		   NULL, "\"How about we bring them a story about my splendid younger years to set an example for the youngsters?", Line_WaitForInput);
+	OutputLine(NULL, "　なっはっはっは！」",
+		   NULL, " Na ha ha ha!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜大石
+
+	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(4, 13, "sprite/aks1_def_", "0", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「大石さんの若い頃は興味深いですね。",
+		   NULL, "\"I'd be interested in your days as a kid, Ooishi-san.", Line_WaitForInput);
+
+	OutputLine(NULL, "私の雀士時代を描いたシナリオとかも見てみたいです。」",
+		   NULL, " And I'd like to see a story about my own mahjong days.\"", Line_Normal);
+	ClearMessage();
+	//;＜赤坂
+
+	ModDrawCharacter(1, 16, "sprite/aka_def_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/res1", "effect/left", 0, 0, 500 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「やれやれ、若い頃をだらだらと語りたくなっちゃあ、おしまいだねぇ。",
+		   NULL, "\"Sheesh. It's all over the moment you start rambling on about your younger days.", Line_WaitForInput);
+
+	OutputLine(NULL, "私は青二才時代の話なんてどうでもいいから、主人公になって大活躍してみたいよ。",
+		   NULL, " I don't care about my days as a greenhorn—I want to be the main character and have a major role.", Line_WaitForInput);
+
+	OutputLine(NULL, "お前さんもだろ？」",
+		   NULL, " Don't you?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜茜
+
+	ModDrawCharacterWithFiltering(2, 15, "sprite/kasa_1_", "0", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	//;■葛西立ち絵を。
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#76523d>葛西</color>", NULL, "<color=#76523d>Kasai</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ご冗談を…。",
+		   NULL, "\"You jest...", Line_WaitForInput);
+
+	OutputLine(NULL, "私などは派手な役はあまり。",
+		   NULL, " Flashy roles? No thank you.", Line_WaitForInput);
+
+	OutputLine(NULL, "知恵先生はいかがですか。",
+		   NULL, " What about you, Chie-sensei?", Line_WaitForInput);
+
+	OutputLine(NULL, "お若いですから、もっと派手な役をされたいでしょう。」",
+		   NULL, " You're young, so I'm sure you want a more important role.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 22, "sprite/tie_3_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	//;■知恵立ち絵
+	SetSpeedOfMessage( TRUE, 128 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「…お声さえ掛かればぜひやってみたいですけど…、",
+		   NULL, "\"...If someone gave me the chance, maybe I would, but...", Line_Continue);
+	Wait( 800 );
+
+	OutputLine(NULL, "私が主人公だと、",
+		   NULL, " If I was the protagonist,", Line_Continue);
+	Wait( 500 );
+
+	OutputLine(NULL, "その、",
+		   NULL, " well,", Line_Continue);
+	Wait( 500 );
+
+	OutputLine(NULL, "…作品のタイトルが変わっちゃいそうなので…。",
+		   NULL, " ...I think they'd have to change the title...", Line_Continue);
+	SetSpeedOfMessage( FALSE, 0 );
+	OutputLineAll(NULL, "", Line_WaitForInput);
+
+
+	OutputLine(NULL, "入江先生はいかがですか？",
+		   NULL, " What about you, Irie-sensei?", Line_WaitForInput);
+
+	OutputLine(NULL, "　主人公。」",
+		   NULL, " Would you like to be one?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+
+	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 10, "sprite/iri1_warai_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	//;■入江立ち絵
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「私ですかぁ？！",
+		   NULL, "\"Who, me?!", Line_WaitForInput);
+
+	OutputLine(NULL, "　それはもう、お声さえ掛かればぜひその大任、お引き受けさせていただきたいですねぇ！",
+		   NULL, " Well, of course—if someone called on me to do it, I'd take on the role!", Line_WaitForInput);
+
+	OutputLine(NULL, "　男に生まれたからには一度は主人公をやってみたいものです。",
+		   NULL, " Everyone born into this world wants to be a main character at least once.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(2, 10, "sprite/iri1_def2_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "小此木さんはどうです？",
+		   NULL, "What about you, Okonogi-san?", Line_WaitForInput);
+	OutputLine(NULL, "　あれだけ強かったんですから、メインで活躍したいと思うでしょう！」",
+		   NULL, " You were very powerful, so I'm sure you want to be in the spotlight!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 14, "sprite/oko_niyari_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「はっはははは…。",
+		   NULL, "\"Hah-hahahaha...", Line_WaitForInput);
+
+	OutputLine(NULL, "私は悪役で充分ですわ。",
+		   NULL, " I'm fine with my role as villain.", Line_WaitForInput);
+
+	OutputLine(NULL, "機会がもらえりゃ、またひと暴れしてみたいもんですわ。」",
+		   NULL, " If I had the chance, I'd like to make even more of a mess of things.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜小此木
+
+	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
+	PlaySE( 0, "boyon", 128, 64 );
+	ModDrawCharacterWithFiltering(2, 20, "sprite/rina_def_", "0", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#cd74a7>リナ</color>", NULL, "<color=#cd74a7>Rina</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「私もー！",
+		   NULL, "\"Me too!", Line_WaitForInput);
+
+	OutputLine(NULL, "　悪役でいいからまた再出演したいー！",
+		   NULL, " I'm fine being a villain, but I just want to show up again!", Line_WaitForInput);
+
+	OutputLine(NULL, "　私たち悪役が引き立てるからこそ、メインのキャラが引き立つわけだからさ！」",
+		   NULL, " It's only because we're such great villains that the main characters look so good!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜リナ
+
+	FadeBustshotWithFiltering( 1, "effect/left", 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 21, "sprite/tetu_2_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ワシゃあ、悪役はもう充分楽しんだんで、次は善玉がやりたいんねぇ。",
+		   NULL, "\"I've had enough of being the villain. A good guy role would be nice for next time.", Line_WaitForInput);
+
+	OutputLine(NULL, "お芝居とは言え、女の子苛めるのは性に合わんっちゅうん。",
+		   NULL, " I know it was just an act, but bullying little girls doesn't suit me.", Line_WaitForInput);
+
+	OutputLine(NULL, "なー、沙都子ぉ〜！",
+		   NULL, " Right, Satokooo~! ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　次は仲良しのシナリオだといいのぉ〜！」",
+		   NULL, "I hope we're good pals in the next story~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜鉄平
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_warai_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「をっほっほっほ！",
+		   NULL, "\"Ohh ho ho ho!", Line_WaitForInput);
+
+	OutputLine(NULL, "　鉄平さんと仲良しなんて何だかくすぐったいシナリオですわねー！」",
+		   NULL, " Being on good terms with you, Teppei-san, would make the story a bit embarrassing for me!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜沙都子
+
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+	ModDrawCharacterWithFiltering(1, 5, "sprite/ri1_niyari_a1_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……例えお疲れ様会でも、沙都子と鉄平が仲良く並んでるとすっごい違和感ね。」",
+		   NULL, "\"...Even them getting along in just the after party feels very, very odd.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜梨花
+
+	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_warai_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅ☆",
+		   NULL, "\"Au au☆", Line_WaitForInput);
+
+	OutputLine(NULL, "　でも、ここにいるみんなと一緒に出演できて、本当に楽しかったのです。」",
+		   NULL, " But everyone here got to put on a performance together, so it was really fun.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜羽入
+
+	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 600, FALSE );
+	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 600, TRUE );
+	FadeOutBGM( 0, 300, TRUE );
+	ModDrawCharacter(3, 2, "sprite/re1a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 600, TRUE );
+	PlayBGM( 0, "t1", 120, 0 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「また、みんなで一緒に出演できる機会があるといいかな…、かな。」",
+		   NULL, "\"I hope we all have the chance to perform again together... To perform again.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_warai_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あるだろ。",
+		   NULL, "\"Course we will.", Line_WaitForInput);
+
+	OutputLine(NULL, "俺たちみんなが望めば、きっとまた再会できるさ！",
+		   NULL, " If we all wish for it, we're sure to meet again!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	DisableWindow();
+
+	ModDrawCharacter(2, 1, "sprite/kei1_def1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　何しろ本編はもう終わってるんだからな！",
+		   NULL, "After all, the main story is already over!", Line_WaitForInput);
+
+	OutputLine(NULL, "　番外編ってことで何でもアリになるわけさ。",
+		   NULL, " And in extra stories, anything goes.", Line_WaitForInput);
+	OutputLine(NULL, "どんなとんでもないシナリオでお呼びがかかるか楽しみでならないぜー！！」",
+		   NULL, " I can't wait to see what kind of nonsensical stories we'll be called in for next time!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜圭一
+
+	ModDrawCharacterWithFiltering(1, 3, "sprite/me1a_akuwarai_a1_", "2", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「くっくっく、ついに07th初の大人のシナリオ展開とかあるかもよ〜ぅ？！」",
+		   NULL, "\"Ku ku ku. And maybe 07th Expansion will finally break into adult stories~?!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜魅音
+
+	ModDrawCharacter(4, 6, "sprite/si3_hau_a1_", "1", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawSceneWithMask( "bg/res5", "effect/left", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぁん、でも悟史くんがどうしてもって言うなら断れないかもです。",
+		   NULL, "\"Ahh! But if Satoshi-kun really insisted, I might not be able to refuse.", Line_WaitForInput);
+
+	OutputLine(NULL, "悟史くぅ〜ん！」",
+		   NULL, " Satoshi-kuuun!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜詩音
+
+	ModDrawCharacterWithFiltering(3, 7, "sprite/sato1_komaru2_", "0", "effect/left", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ffdc6f>悟史</color>", NULL, "<color=#ffdc6f>Satoshi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「ぼ、僕は…大人も子供もみんなが楽しめるシナリオがいいと思うな。」",
+		   NULL, "\"I-I... I'd like a story that both adults and children can enjoy.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜悟史
+
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1a_akireru_a1_", "0", "effect/right", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「そうですわよ！",
+		   NULL, "\"That's right!", Line_WaitForInput);
+
+	OutputLine(NULL, "　にーにーと不潔なシナリオなんて、詩音さんの夢の中だけになさいませー！」",
+		   NULL, " Shion-san should keep her unclean stories with Nii-nii inside her head!\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+
+	PlaySE( 0, "nageru", 128, 64 );
+	DrawScene( "black", 100 );
+	Wait( 600 );
+	PlaySE( 0, "lf226", 128, 64 );
+	Wait( 600 );
+	PlaySE( 0, "down2", 128, 64 );
+	Wait( 400 );
+
+	//;＜沙都子
+
+	ModDrawCharacter(1, 5, "sprite/ri1_warai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawSceneWithMask( "bg/res1", "effect/up", 0, 0, 500 );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……みー！",
+		   NULL, "\"...Meep!", Line_WaitForInput);
+
+	OutputLine(NULL, "　夢の中もＯＫということなら、ボクが成長して、ナイスバディになって魅力でくらくらなシナリオも楽しみなのです。」",
+		   NULL, " If it's okay to dream, then I would like a very charming little story where I've grown up and have a nice body.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	//;＜梨花
+
+	ModDrawCharacterWithFiltering(2, 12, "sprite/ha3a_au_", "2", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あぅあぅあぅ！",
+		   NULL, "\"Au au au!", Line_WaitForInput);
+
+	OutputLine(NULL, "　僕はみんなにもっと敬ってもらえるシナリオがほしいのです！",
+		   NULL, " I want a story where everyone respects me more!", Line_WaitForInput);
+
+	OutputLine(NULL, "　僕は神さまなのですよー！",
+		   NULL, " I'm a god!", Line_WaitForInput);
+
+	OutputLine(NULL, "　みんなもっと敬えなのですよ〜！」",
+		   NULL, " You should all be worshipping me~!\"", Line_Normal);
+	ClearMessage();
+	//;＜羽入
+
+	DrawSceneWithMask( "bg/res5", "effect/right", 0, 0, 500 );
+	ModDrawCharacterWithFiltering(1, 2, "sprite/re1b_warai_b1_", "2", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「あははは、みんなまだまだ出たりないんだね。",
+		   NULL, "\"Ahahaha, nobody's had enough yet.", Line_WaitForInput);
+
+	OutputLine(NULL, "だから、みんなとはまた一緒に新しいシナリオで出会えそうな気がします。",
+		   NULL, " I feel like we'll have to meet again together in a new story.", Line_WaitForInput);
+
+	OutputLine(NULL, "皆さん、今日まで『ひぐらしのなく頃に』にお付き合いいただき、本当にありがとうございました。",
+		   NULL, " We're really grateful to everyone, for continuing to follow Higurashi: When They Cry up until today. ", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "『ひぐらし』登場キャラクター一同を代表しましてお礼申し上げます。",
+		   NULL, "On behalf of all the characters appearing in Higurashi, we'd like to extend our thanks.", Line_WaitForInput);
+
+	OutputLine(NULL, "今日までやってこられたのは全て、応援してくださった皆さんの応援のお陰です。",
+		   NULL, " The only reason we made it to this point was because of how much you all supported us.", Line_WaitForInput);
+
+	OutputLine(NULL, "本当にありがとうございました。」",
+		   NULL, " Thank you so, so much.\"", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	//;＜レナ
+
+	ModDrawCharacterWithFiltering(2, 1, "sprite/kei1_warai_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「また番外編の妙なシナリオで再会できることを楽しみにしてます！",
+		   NULL, "\"We're looking forward to meeting again in some odd and special stories!", Line_WaitForInput);
+
+	OutputLine(NULL, "　それじゃみんな、いいかー？！",
+		   NULL, " Are you ready, everyone?", Line_WaitForInput);
+
+	OutputLine(NULL, "　せーのッ、」",
+		   NULL, " One, two...\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "white", 1000 );
+	DrawSceneWithMask( "omake/arigatou", "effect/maskc", 0, 0, 1300 );
+
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 7 ); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>皆さん</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「「「皆さん、今日まで本当にありがとうございましたー！",
+		   NULL, "\"\"\"Thank you for everything you've done for us!", Line_WaitForInput);
+
+	OutputLine(NULL, "　またお会いしましょう〜！！」」」",
+		   NULL, " Let's meet again~!!\"\"\"", Line_Normal);
+	ClearMessage();
+
+	//;※最後は、立ちキャラみんなを画面に全部ぎゅう詰めにして登場させる1枚絵を〜！
+
+
+	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
+
+	CallScript( "&eye" );
+
+	DrawBustshot( 5, "title/chapteroverlay1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
+	DrawSceneWithMask( "black", "effect/mask4", 0, 0, 1500 );
+	PlaySE( 0, "boyon", 128, 64 );
+	DrawSceneWithMask( "omake/omake_staff", "effect/mask5", 0, 0, 1500 );
+	Wait( 10000 );
+	DrawScene( "black", 1000 );
+
+	SetGlobalFlag(GCastReview, TRUE);
+	GetAchievement("HIGURASHI_STORY_EP09_OMAKE_01");
+}

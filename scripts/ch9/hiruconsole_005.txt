@@ -1,0 +1,2169 @@
+void main()
+{
+
+
+//*Hirukowashi Day 5
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+//#5 珍事の予兆
+
+	DrawSceneWithMask( "white", "effect/m1", 0, 0, 1000 );
+	DrawSceneWithMask( "bg/g1", "effect/up", 0, 0, 1000 );
+	PlaySE(3, "chaimu", 256, 64);
+	Wait( 2000 );
+	DrawSceneWithMask( "white", "effect/right", 0, 0, 500 );
+	PlayBGM( 1, "semi", 128, 0 );
+	DrawScene("bg/gk1", 500 );
+
+//r楽しいはずの自習の時間だったが、どうも今日は盛り上がりに欠けた。
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "楽しいはずの自習の時間だったが、どうも今日は盛り上がりに欠けた。",
+			NULL, "Today, our normally fun self-study time was somehow lacking in excitement.", Line_Normal);
+	ClearMessage();
+
+//rレナの様子が朝から変だったからだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナの様子が朝から変だったからだ。",
+			NULL, "This was because Rena had been acting strange since this morning.", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(5, 256, "none");
+	ModDrawCharacter(5, 3, "sprite/me1a_def_a1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300001.「さっきから調子悪そうだね。kvS07/03/330300002.…今日は体調悪いの？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300001", 256, TRUE);
+	OutputLine(NULL, "「さっきから調子悪そうだね。",
+			NULL, "\"You haven't looked good all day.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300002", 256, TRUE);
+	OutputLine(NULL, "…今日は体調悪いの？」",
+			NULL, " ...Are you feeling sick?\"", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 2, "sprite/re1a_hau_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200082.「…うぅん、体調悪くないよぅ。kvS07/02/330200083.……はぅ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200082", 256, TRUE);
+	OutputLine(NULL, "「…うぅん、体調悪くないよぅ。",
+			NULL, "\"...No, I'm not sick.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200083", 256, TRUE);
+	OutputLine(NULL, "……はぅ…」",
+			NULL, " ...Hau...\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 4, "sprite/sa1b_yareyare_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400069.「また溜め息をついていますわね。kvS07/04/330400070.溜め息をひとつつく度に幸せが逃げてっちゃいますのよー？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400069", 256, TRUE);
+	OutputLine(NULL, "「また溜め息をついていますわね。",
+			NULL, "\"There's that sigh again.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400070", 256, TRUE);
+	OutputLine(NULL, "溜め息をひとつつく度に幸せが逃げてっちゃいますのよー？」",
+			NULL, " Did you know that every time you sigh, a little more happiness is allowed to escape?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1b_hau_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200084.「…うん。kvS07/02/330200085.……幸せ…。kvS07/02/330200086.……はぅ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200084", 256, TRUE);
+	OutputLine(NULL, "「…うん。",
+			NULL, "\"...Yeah.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200085", 256, TRUE);
+	OutputLine(NULL, "……幸せ…。",
+			NULL, " ...Happiness...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200086", 256, TRUE);
+	OutputLine(NULL, "……はぅ…」",
+			NULL, " ...Hau...\"", Line_Normal);
+	ClearMessage();
+
+//r登校した時はこれほどではなかったのだが…。やっぱり風邪なのだろうか。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "登校した時はこれほどではなかったのだが…。やっぱり風邪なのだろうか。",
+			NULL, "It wasn't this bad when we first got to school... Was she sick after all?", Line_Normal);
+	ClearMessage();
+
+//r朝からどこかぼんやりとしていて微熱がありそうな感じだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "朝からどこかぼんやりとしていて微熱がありそうな感じだった。",
+			NULL, "She'd been kind of dazed all morning, like she was running a slight fever.", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 3, "sprite/me1a_def_a1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300003.「保健室で風邪薬でももらう？kvS07/03/330300004.　最近、昼夜の温度差が激しいからね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300003", 256, TRUE);
+	OutputLine(NULL, "「保健室で風邪薬でももらう？",
+			NULL, "\"Do you want some cold medicine from the nurse's office?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300004", 256, TRUE);
+	OutputLine(NULL, "　最近、昼夜の温度差が激しいからね」",
+			NULL, " The difference in temperature between day and night has been pretty extreme lately.\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 1, 200, FALSE  );
+	PlayBGM(2, "hm01_06", 128, 0);
+	ModDrawCharacter(3, 2, "sprite/re1b_kaii_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200087.「……うぅん、いい。kvS07/02/330200088.…今日はその、…レナは放っておいてくれないかな。kvS07/02/330200089.…かな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200087", 256, TRUE);
+	OutputLine(NULL, "「……うぅん、いい。",
+			NULL, "\"...No, I'm okay.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200088", 256, TRUE);
+	OutputLine(NULL, "…今日はその、…レナは放っておいてくれないかな。",
+			NULL, " ...Today, well... Could you leave Rena alone?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200089", 256, TRUE);
+	OutputLine(NULL, "…かな」",
+			NULL, " ...Could you?\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//rレナはぽやんとした口調でそれだけを言うと、俺たちの輪を抜け、自分の席へ戻ってしまった。そして頬杖を突きながら、窓の外を見て再び溜め息を漏らす。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナはぽやんとした口調でそれだけを言うと、俺たちの輪を抜け、自分の席へ戻ってしまった。そして頬杖を突きながら、窓の外を見て再び溜め息を漏らす。",
+			NULL, "Rena said only that, her tone lethargic, before leaving our circle and going back to her seat. Then, she rested her chin on her hand, stared out the window, and sighed again.", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kira", 256, 64);
+	ModDrawCharacter(5, 3, "sprite/me1b_tokui_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300005.「ふふ～～ん？kvS07/03/330300006.　おじさんの見たところ、あれは恋だねぇ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300005", 256, TRUE);
+	OutputLine(NULL, "「ふふ～～ん？",
+			NULL, "\"Hm-hmmm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300006", 256, TRUE);
+	OutputLine(NULL, "　おじさんの見たところ、あれは恋だねぇ！」",
+			NULL, " From what this ol' man can see, it must be love!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_odoroki_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	PlaySE(3, "daidageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//沙都子rvS07/04/330400071.「ここ、恋ですってぇええぇ？！kvS07/04/330400072.　あわわわわ、そそ、それはその、をほほ、おめでたいことでございますわねぇ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400071", 256, TRUE);
+	OutputLine(NULL, "「ここ、恋ですってぇええぇ？！",
+			NULL, "\"L-L-Love?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400072", 256, TRUE);
+	OutputLine(NULL, "　あわわわわ、そそ、それはその、をほほ、おめでたいことでございますわねぇ！」",
+			NULL, " Awawawa, th-that's, well, oh ho ho, what a splendid occasion indeed!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(1, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	DrawScene("effect/furiker_a", 100 );
+	PlaySE(1, "finish", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	ModDrawCharacter(5, 3, "sprite/me1b_tokui_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 4, "sprite/sa1b_odoroki_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	ModDrawCharacter(3, 6, "sprite/si3_wink_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawScene("bg/gk1", 1000 );
+
+//詩音rvS07/06/330600006.「へぇぇ～？kvS07/06/330600007.　レナさんもなかなかやりますねぇ…ひゅーひゅー！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600006", 256, TRUE);
+	OutputLine(NULL, "「へぇぇ～？",
+			NULL, "\"Ohhhh~?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600007", 256, TRUE);
+	OutputLine(NULL, "　レナさんもなかなかやりますねぇ…ひゅーひゅー！」",
+			NULL, " Rena-san must be doing quite well for herself...! *whistle*\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1b_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300007.「…というか詩音、あんた学校はどうしたのさ？kvS07/03/330300008.　いくら自習中でも、勝手に入ってきちゃ駄目じゃないの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300007", 256, TRUE);
+	OutputLine(NULL, "「…というか詩音、あんた学校はどうしたのさ？",
+			NULL, "\"...Hey Shion, what are you even doing at this school?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300008", 256, TRUE);
+	OutputLine(NULL, "　いくら自習中でも、勝手に入ってきちゃ駄目じゃないの」",
+			NULL, " Even if it's self-study time, you can't just barge in without permission!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 6, "sprite/si3_warai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//詩音rvS07/06/330600008.「ままま、細かいことは気にしない。kvS07/06/330600009.それはともかく、間違いありませんね！kvS07/06/330600010.　心ここに在らずで、一日中想い人のことでいっぱいって感じですよ。kvS07/06/330600011.頬杖を突いて溜め息なんて、恋する乙女そのものじゃないですか～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600008", 256, TRUE);
+	OutputLine(NULL, "「ままま、細かいことは気にしない。",
+			NULL, "\"Oh come on, don't stress about the details.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600009", 256, TRUE);
+	OutputLine(NULL, "それはともかく、間違いありませんね！",
+			NULL, " Anyway, there's no doubt about it!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600010", 256, TRUE);
+	OutputLine(NULL, "　心ここに在らずで、一日中想い人のことでいっぱいって感じですよ。",
+			NULL, " It seems like her mind's been somewhere else all day, filled with thoughts of a certain someone. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600011", 256, TRUE);
+	OutputLine(NULL, "頬杖を突いて溜め息なんて、恋する乙女そのものじゃないですか～！」",
+			NULL, "Putting your chin on your hand and sighing like that—isn't that exactly what a maiden in love would do?\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100080.「そ、そうなのかぁ…？kvS07/01/330100081.　俺には、その、…昨日、飲み込んじまった妙なもんのせいで体調を崩してるようにしか見えないんだがなぁ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100080", 256, TRUE);
+	OutputLine(NULL, "「そ、そうなのかぁ…？",
+			NULL, "\"You... you think...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100081", 256, TRUE);
+	OutputLine(NULL, "　俺には、その、…昨日、飲み込んじまった妙なもんのせいで体調を崩してるようにしか見えないんだがなぁ…」",
+			NULL, " It looks to me like, well... that she's feeling sick because she swallowed something weird yesterday...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1a_akireru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400073.「…妙なものって、何ですの？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400073", 256, TRUE);
+	OutputLine(NULL, "「…妙なものって、何ですの？」",
+			NULL, "\"Something weird?\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+
+//圭一rvS07/01/330100082.「ん？kvS07/01/330100083.　あぁ。昨日さ、宝探しに行った先でさ。kvS07/01/330100084.…何なんだろうなぁ、何か降って来たみたいなんだよ。kvS07/01/330100085.そいつがスポンと口ん中に飛びこんじまって、それを飲み込んじゃったらしいんだよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100082", 256, TRUE);
+	OutputLine(NULL, "「ん？",
+			NULL, "\"Hm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100083", 256, TRUE);
+	OutputLine(NULL, "　あぁ。昨日さ、宝探しに行った先でさ。",
+			NULL, " Yeah. Yesterday, when we went treasure hunting.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100084", 256, TRUE);
+	OutputLine(NULL, "…何なんだろうなぁ、何か降って来たみたいなんだよ。",
+			NULL, " ...Something, I don't know what, fell on her.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100085", 256, TRUE);
+	OutputLine(NULL, "そいつがスポンと口ん中に飛びこんじまって、それを飲み込んじゃったらしいんだよ」",
+			NULL, " Then it popped right into her mouth and she swallowed it whole.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1a_akuwarai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300009.「天から降って来たぁ？kvS07/03/330300010.　あははははは！kvS07/03/330300011.　ならきっと、それはキューピッドの恋の矢だねぇ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300009", 256, TRUE);
+	OutputLine(NULL, "「天から降って来たぁ？",
+			NULL, "\"So what, it fell from the sky?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300010", 256, TRUE);
+	OutputLine(NULL, "　あははははは！",
+			NULL, " Ahahahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300011", 256, TRUE);
+	OutputLine(NULL, "　ならきっと、それはキューピッドの恋の矢だねぇ」",
+			NULL, " It must have been one of Cupid's arrows of love.\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/left", 0, 0, 500 );
+	FadeOutBGM(2, 200, FALSE);
+	PlayBGM( 1, "semi", 128, 0 );
+	ModDrawCharacter(3, 5, "sprite/ri1_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "bg/gk3", "effect/right", 0, 0, 500 );
+	PlaySE(3, "pou", 256, 64);
+	ModDrawCharacter(3, 5, "sprite/ri4_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 100, TRUE );
+	ModDrawCharacter(3, 5, "sprite/ri1_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 100, TRUE );
+
+//梨花rvS07/05/330500047.「……天から、降って来た？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500047", 256, TRUE);
+	OutputLine(NULL, "「……天から、降って来た？」",
+			NULL, "\"...Fell... from the sky?\"", Line_Normal);
+	ClearMessage();
+
+//r俺たちがレナの話に夢中になっている隙に、沙都子の席にこっそりとカエルの玩具を仕掛けていた梨花ちゃんが、猫耳をぴくんと反応させて振り向いた。…人間の耳って側面だよな？　今のは錯覚か。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "俺たちがレナの話に夢中になっている隙に、沙都子の席にこっそりとカエルの玩具を仕掛けていた梨花ちゃんが、猫耳をぴくんと反応させて振り向いた。…人間の耳って側面だよな？　今のは錯覚か。",
+			NULL, "As we were focused on our Rena discussion, Rika-chan, who had secretly planted a frog toy on Satoko's seat, pricked up her cat-like ears and turned around. ...Those are just human ears viewed from the side, right? I must be seeing things.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 250 );
+	DrawSceneWithMask( "bg/gk1", "effect/left", 0, 0, 250 );
+
+//梨花rvS07/05/330500048.「……圭一。kvS07/05/330500049.レナがどうしたのですか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500048", 256, TRUE);
+	OutputLine(NULL, "「……圭一。",
+			NULL, "\"...Keiichi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500049", 256, TRUE);
+	OutputLine(NULL, "レナがどうしたのですか？」",
+			NULL, " What's wrong with Rena?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100086.「うん、いやな？kvS07/01/330100087.　昨日、ダム現場に新しいゴミ山が出来たとかで、宝探しに出掛けたんだよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100086", 256, TRUE);
+	OutputLine(NULL, "「うん、いやな？",
+			NULL, "\"Well, get this.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100087", 256, TRUE);
+	OutputLine(NULL, "　昨日、ダム現場に新しいゴミ山が出来たとかで、宝探しに出掛けたんだよ」",
+			NULL, " Yesterday, she said that someone had dumped a new trash pile at the dam site, and we went treasure hunting there.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100088.「んで、いつものように馬鹿騒ぎして、大口開けて空を見上げて笑ってたら、そこに何かが落ちてきて、綺麗に口の中に飛び込んで、思わず飲み込んじまったってんだよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100088", 256, TRUE);
+	OutputLine(NULL, "「んで、いつものように馬鹿騒ぎして、大口開けて空を見上げて笑ってたら、そこに何かが落ちてきて、綺麗に口の中に飛び込んで、思わず飲み込んじまったってんだよ」",
+			NULL, "\"The usual stupid stuff happened, and right when she looked at the sky with her mouth open wide, something fell, dropped right into her mouth, and she accidentally swallowed it whole.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM(1, 300, FALSE);
+	Negative( 1000, TRUE );
+	PlayBGM( 1, "semi_r", 128, 0 );
+
+//梨花rvS07/05/330500050.「……天から落ちてきたものが、口の中に？kvS07/05/330500051.　飲み込んだ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500050", 256, TRUE);
+	OutputLine(NULL, "「……天から落ちてきたものが、口の中に？",
+			NULL, "\"...Something fell out of the sky into her mouth?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500051", 256, TRUE);
+	OutputLine(NULL, "　飲み込んだ？」",
+			NULL, " And she swallowed it?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeFilm( 1000, TRUE );
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 4, "sprite/sa1b_odoroki_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400074.「…お聞きになりましたか、梨花？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400074", 256, TRUE);
+	OutputLine(NULL, "「…お聞きになりましたか、梨花？」",
+			NULL, "\"...Did you hear that, Rika?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1a_akireru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400075.「って、あなた私の席に何をしようとしているのでございますかっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400075", 256, TRUE);
+	OutputLine(NULL, "「って、あなた私の席に何をしようとしているのでございますかっ？！」",
+			NULL, "\"And hey, what are you trying to do to my seat?!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500052.「にぱ～、って、それは後回しなのです。kvS07/05/330500053.…え？　み、みぃっ！kvS07/05/330500054.　大変なのです！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500052", 256, TRUE);
+	OutputLine(NULL, "「にぱ～、って、それは後回しなのです。",
+			NULL, "\"Nipah~, worry about that later.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500053", 256, TRUE);
+	OutputLine(NULL, "…え？　み、みぃっ！",
+			NULL, " ...Huh? M-meep!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500054", 256, TRUE);
+	OutputLine(NULL, "　大変なのです！！」",
+			NULL, " This is really bad!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/left", 0, 0, 250 );
+	ModDrawCharacter(3, 2, "sprite/re1a_hau_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(5, 5, "sprite/ri1_majime_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	DrawSceneWithMask( "bg/gk3", "effect/right", 0, 0, 250 );
+
+//rすっとんきょうな叫びが聞こえて、俺は振り返る。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "すっとんきょうな叫びが聞こえて、俺は振り返る。",
+			NULL, "Upon hearing that panicked shout, I turned around.", Line_Normal);
+	ClearMessage();
+
+//rすると梨花ちゃんが、うっとりとした表情を浮かべながら溜め息をこぼすレナにおそるおそる、近づいていくのが見えた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "すると梨花ちゃんが、うっとりとした表情を浮かべながら溜め息をこぼすレナにおそるおそる、近づいていくのが見えた。",
+			NULL, "As Rena breathed another sigh, her expression absentminded, I could see Rika-chan slowly approaching her.", Line_Normal);
+	ClearMessage();
+
+//rその手には、なぜか派手なつくりの方位磁石。そして、しばらく様子をうかがった後……彼女には珍しく、驚きに目を見開いた表情を浮かべる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その手には、なぜか派手なつくりの方位磁石。そして、しばらく様子をうかがった後……彼女には珍しく、驚きに目を見開いた表情を浮かべる。",
+			NULL, "For some reason, she had a fancy looking directional magnet in hand. And then, after gazing at her for a while... I could see a rare look of shock in her eyes.", Line_Normal);
+	ClearMessage();
+
+//rそれからだっ、と沙都子に駆け寄り、教室の隅へと離れていった。……どうしたんだろう？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それからだっ、と沙都子に駆け寄り、教室の隅へと離れていった。……どうしたんだろう？",
+			NULL, "Then, she and Satoko darted off to the corner of the classroom. ...What is going on?", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 300, FALSE);
+	PlaySE(3, "daidageki", 256, 64);
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, FALSE );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM(2, "hm01_02", 128, 0);
+
+//梨花rvS07/05/330500055.「み、みみみみ…みぃぃッッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500055", 256, TRUE);
+	OutputLine(NULL, "「み、みみみみ…みぃぃッッ？！」",
+			NULL, "\"M-m-m-m-m... Meeep?!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 4, "sprite/sa1b_odoroki_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400076.「ひゃぁああっ？！kvS07/04/330400077.　なな、何て声をお出しになるのですかー！kvS07/04/330400078.　ってことは、まさか？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400076", 256, TRUE);
+	OutputLine(NULL, "「ひゃぁああっ？！",
+			NULL, "\"Eeeep?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400077", 256, TRUE);
+	OutputLine(NULL, "　なな、何て声をお出しになるのですかー！",
+			NULL, " Wh-wh-what are you yelling for?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400078", 256, TRUE);
+	OutputLine(NULL, "　ってことは、まさか？！」",
+			NULL, " Wait, you mean...?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_fuman_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500056.「レレ、レナの中に、勾玉の気配があるのです！kvS07/05/330500057.　勾玉の力がレナに宿ってしまったのです～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500056", 256, TRUE);
+	OutputLine(NULL, "「レレ、レナの中に、勾玉の気配があるのです！",
+			NULL, "\"I-I g-got a sign a magatama is inside Rena!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500057", 256, TRUE);
+	OutputLine(NULL, "　勾玉の力がレナに宿ってしまったのです～！」",
+			NULL, " The magatama's power is inside her!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_yareyare_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400079.「あら、それなら話は早いですわね。kvS07/04/330400080.通りすがりにローブローでも叩き込んでみますか？kvS07/04/330400081.　…反撃で殺されますわね。kvS07/04/330400082.なら下剤でも飲ませてみます？kvS07/04/330400083.　…梨花がやってくださいませ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400079", 256, TRUE);
+	OutputLine(NULL, "「あら、それなら話は早いですわね。",
+			NULL, "\"Oh my, that makes things easy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400080", 256, TRUE);
+	OutputLine(NULL, "通りすがりにローブローでも叩き込んでみますか？",
+			NULL, " Want to try a drive-by gut punch?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400081", 256, TRUE);
+	OutputLine(NULL, "　…反撃で殺されますわね。",
+			NULL, " ...Actually, her counterattack would kill me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400082", 256, TRUE);
+	OutputLine(NULL, "なら下剤でも飲ませてみます？",
+			NULL, " What about giving her a laxative?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400083", 256, TRUE);
+	OutputLine(NULL, "　…梨花がやってくださいませ！！」",
+			NULL, " ...Rika, please, do it!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_majime_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500058.「そんな簡単な問題じゃないのです、みぃ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500058", 256, TRUE);
+	OutputLine(NULL, "「そんな簡単な問題じゃないのです、みぃ！」",
+			NULL, "\"It isn't that simple, meep!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500059.「昨日読んだ古文書によると、勾玉が体内に飲み込まれると溶けてしまうとありましたのです。kvS07/05/330500060.勾玉はレナに食べられたことで、形の意味を失い、その力をレナに宿らせてしまったのですよ～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500059", 256, TRUE);
+	OutputLine(NULL, "「昨日読んだ古文書によると、勾玉が体内に飲み込まれると溶けてしまうとありましたのです。",
+			NULL, "\"According to the ancient texts I read yesterday, if a magatama is swallowed it dissolves into the body.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500060", 256, TRUE);
+	OutputLine(NULL, "勾玉はレナに食べられたことで、形の意味を失い、その力をレナに宿らせてしまったのですよ～！」",
+			NULL, " Rena ate it, so its form lost all meaning, and now its power resides in Rena!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_akireru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400084.「つまり、何ですの？kvS07/04/330400085.　あの勾玉は服用可能で、飲んだら消化吸収できるってことでございますか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400084", 256, TRUE);
+	OutputLine(NULL, "「つまり、何ですの？",
+			NULL, "\"Which means what?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400085", 256, TRUE);
+	OutputLine(NULL, "　あの勾玉は服用可能で、飲んだら消化吸収できるってことでございますか？」",
+			NULL, " You can take a dose of magatama and absorb it through digestion?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_odoroki_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400086.「どど、どうしたらよろしいのですかっ？kvS07/04/330400087.　梨花のご先祖さまが長年封印していたアイテムでございましょう、何とかなりませんの？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400086", 256, TRUE);
+	OutputLine(NULL, "「どど、どうしたらよろしいのですかっ？",
+			NULL, "\"Wh-wh-what should we do?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400087", 256, TRUE);
+	OutputLine(NULL, "　梨花のご先祖さまが長年封印していたアイテムでございましょう、何とかなりませんの？！」",
+			NULL, " Rika, your ancestors were the ones who created this item. Can't you do something?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_fuman_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500061.「みぃ、もちろん何とかはできますのです。kvS07/05/330500062.紅白の勾玉を揃え、オヤシロさまの神域、つまり古手神社の境内で解呪のおまじないをすれば、ちゃんと解けますのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500061", 256, TRUE);
+	OutputLine(NULL, "「みぃ、もちろん何とかはできますのです。",
+			NULL, "\"Meep, of course I can do something!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500062", 256, TRUE);
+	OutputLine(NULL, "紅白の勾玉を揃え、オヤシロさまの神域、つまり古手神社の境内で解呪のおまじないをすれば、ちゃんと解けますのです」",
+			NULL, " If we get the red and white magatama together, then bring her to Oyashiro-sama's sanctuary, the Furude Shrine grounds, I can chant a curse-removing charm and undo it!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400088.「なら簡単ですわ！kvS07/04/330400089.　帰りにレナさんを神社に連行して一丁上がりですわ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400088", 256, TRUE);
+	OutputLine(NULL, "「なら簡単ですわ！",
+			NULL, "\"Then it's simple!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400089", 256, TRUE);
+	OutputLine(NULL, "　帰りにレナさんを神社に連行して一丁上がりですわ！」",
+			NULL, " Let's bring Rena-san to the shrine on the way home, and that'll be that!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500063.「…ところが、レナが飲み込んだのは赤の勾玉だけなのです。kvS07/05/330500064.白の勾玉が一緒になければ解呪はできないのです。kvS07/05/330500065.このままだとレナは、白の勾玉を拾った人を無差別に好きになってしまうのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500063", 256, TRUE);
+	OutputLine(NULL, "「…ところが、レナが飲み込んだのは赤の勾玉だけなのです。",
+			NULL, "\"But Rena only swallowed the red magatama.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500064", 256, TRUE);
+	OutputLine(NULL, "白の勾玉が一緒になければ解呪はできないのです。",
+			NULL, " Without the white one, I can't undo the curse.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500065", 256, TRUE);
+	OutputLine(NULL, "このままだとレナは、白の勾玉を拾った人を無差別に好きになってしまうのです」",
+			NULL, " Rena will fall in love with whoever picks up the white magatama.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500066.「レナに赤の勾玉の効果が表れているということは、誰かが白の勾玉を拾ったということなのです。kvS07/05/330500067.だからレナは、今その人のことで頭がいっぱいになってるに違いないのですよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500066", 256, TRUE);
+	OutputLine(NULL, "「レナに赤の勾玉の効果が表れているということは、誰かが白の勾玉を拾ったということなのです。",
+			NULL, "\"And if the red magatama's effects are appearing in Rena now, that means someone already did.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500067", 256, TRUE);
+	OutputLine(NULL, "だからレナは、今その人のことで頭がいっぱいになってるに違いないのですよ」",
+			NULL, " That person is now the only thing on Rena's mind.\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500068.「みぃ、もしレナがこのまま暴走してハッピーエンドを迎えてしまったら、レナの一生は台無しになってしまいますのです、…みぃ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500068", 256, TRUE);
+	OutputLine(NULL, "「みぃ、もしレナがこのまま暴走してハッピーエンドを迎えてしまったら、レナの一生は台無しになってしまいますのです、…みぃ！」",
+			NULL, "\"Meep, if Rena goes out of control and reaches a Happy End, it'll ruin her whole life... Meep!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(1, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "nageru", 256, 64);
+	Wait( 200 );
+	PlaySE(1, "daidageki", 256, 64);
+	DrawScene("effect/furiker_a", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	ModDrawCharacter(3, 4, "sprite/sa1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	DrawScene("bg/gk3", 1000 );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//沙都子rvS07/04/330400090.「り、り、梨花ぁああぁああぁーッ！！！kvS07/04/330400091.　あなたのご先祖さまが封印していたマジックアイテムなんですから、梨花が責任をお取りなさいませっ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400090", 256, TRUE);
+	OutputLine(NULL, "「り、り、梨花ぁああぁああぁーッ！！！",
+			NULL, "\"R-R-Rikaaaaaaaaa!!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400091", 256, TRUE);
+	OutputLine(NULL, "　あなたのご先祖さまが封印していたマジックアイテムなんですから、梨花が責任をお取りなさいませっ！」",
+			NULL, " Your ancestors were the ones who sealed this magical item away, so you need to take responsibility!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_hannbeso_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, FALSE );
+	PlaySE(3, "tatakiwaru", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//沙都子rvS07/04/330400092.「何だって、こんな危険なアイテムが古手神社の秘宝なんですの～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400092", 256, TRUE);
+	OutputLine(NULL, "「何だって、こんな危険なアイテムが古手神社の秘宝なんですの～！！」",
+			NULL, "\"Why the heck is such a dangerous item a treasure of the Furude Shrine~?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_majime_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500069.「使い方さえ間違わなければ縁結びの素敵な効果なのです。kvS07/05/330500070.それは間違いないことなのです、みぃ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500069", 256, TRUE);
+	OutputLine(NULL, "「使い方さえ間違わなければ縁結びの素敵な効果なのです。",
+			NULL, "\"If you just use them properly, they have a wonderful effect! They can bond people in love.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500070", 256, TRUE);
+	OutputLine(NULL, "それは間違いないことなのです、みぃ！」",
+			NULL, " They just have to be used properly, meep!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_hannbeso_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400093.「それを巡って大騒動が昔に起こって、大変なことになったんでございましょう？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400093", 256, TRUE);
+	OutputLine(NULL, "「それを巡って大騒動が昔に起こって、大変なことになったんでございましょう？！」",
+			NULL, "\"But they caused a huge disaster a long time ago, didn't they?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400094.「あぁ、今やっと理解できましたわ、何で梨花のご先祖さまが封印したかよくわかりましたわ！kvS07/04/330400095.　オヤシロさまって、何て傍迷惑な神さまなんでございますかっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400094", 256, TRUE);
+	OutputLine(NULL, "「あぁ、今やっと理解できましたわ、何で梨花のご先祖さまが封印したかよくわかりましたわ！",
+			NULL, "\"Ahh, I understand now. I know exactly why your ancestors sealed them away!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400095", 256, TRUE);
+	OutputLine(NULL, "　オヤシロさまって、何て傍迷惑な神さまなんでございますかっ！！」",
+			NULL, " Oyashiro-sama is such an inconvenient nuisance of a god!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_fuman_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 100, TRUE );
+	PlaySE(3, "boyoon", 256, 64);
+	Wait( 150 );
+	PlaySE(0, "boyoon", 256, 64);
+
+//梨花rvS07/05/330500071.「…みぃ、それを言ったら大昔の村の人たちも、もう少し神社に寄付をしてくれていたらよかったのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500071", 256, TRUE);
+	OutputLine(NULL, "「…みぃ、それを言ったら大昔の村の人たちも、もう少し神社に寄付をしてくれていたらよかったのです」",
+			NULL, "\"...Meep. Having said that, it would've been nice if the ancient villagers donated a little more to the shrine.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_majime_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500072.「ちゃんとまとまった寄付があれば、材料と職人さんにもお金をかけて、もっとしっかりした香炉を作って封じ込めることができたかもしれないのですよ～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500072", 256, TRUE);
+	OutputLine(NULL, "「ちゃんとまとまった寄付があれば、材料と職人さんにもお金をかけて、もっとしっかりした香炉を作って封じ込めることができたかもしれないのですよ～！」",
+			NULL, "\"If they had received adequate donations, they could've spent money on the materials and craftsmen necessary to build a better incense burner and seal it away~!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_akireru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	PlaySE(3, "kira", 256, 64);
+
+//沙都子rvS07/04/330400096.「最初から税金に頼るなんて、能力のない政治家が使う言い訳ですわっ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400096", 256, TRUE);
+	OutputLine(NULL, "「最初から税金に頼るなんて、能力のない政治家が使う言い訳ですわっ！」",
+			NULL, "\"Dependence on tax money has always been an excuse of incompetent politicians!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_odoroki_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	PlaySE(3, "kyupirn", 256, 64);
+
+//沙都子rvS07/04/330400097.「そもそもちゃんとした社会保障が必要なら、もっと税金を納めろですって？！kvS07/04/330400098.　だったら一日数台しか通らない道路に何億も使わないでほしいのですわ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400097", 256, TRUE);
+	OutputLine(NULL, "「そもそもちゃんとした社会保障が必要なら、もっと税金を納めろですって？！",
+			NULL, "\"You're telling me you need to pay more in taxes to get a proper social security system?! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400098", 256, TRUE);
+	OutputLine(NULL, "　だったら一日数台しか通らない道路に何億も使わないでほしいのですわ！！」",
+			NULL, "If that's the case, I'd rather you stop spending hundreds of millions on roads that are only ever used by a handful of cars a day!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_akireru_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	PlaySE(3, "dageki", 256, 64);
+
+//沙都子rvS07/04/330400099.「しかも、予算を余らせたら来年から割り当て額が減るからって、年末は帳尻合わせの工事ばっかり！！kvS07/04/330400100.　興宮のおもちゃ屋の前の道路なんて、毎年掘り返しているじゃありませんかっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400099", 256, TRUE);
+	OutputLine(NULL, "「しかも、予算を余らせたら来年から割り当て額が減るからって、年末は帳尻合わせの工事ばっかり！！",
+			NULL, "\"Plus, they say when there's a budget surplus, allocations will be reduced the next year, but all I ever see is excess construction work at the end of the year to balance the books!! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400100", 256, TRUE);
+	OutputLine(NULL, "　興宮のおもちゃ屋の前の道路なんて、毎年掘り返しているじゃありませんかっ？！」",
+			NULL, "Doesn't the road in front of the Okinomiya toy shop get repaved every single year?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_yareyare_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	PlaySE(3, "finish", 256, 64);
+
+//沙都子rvS07/04/330400101.「そのくせ一般市民の医療負担は増える一方なんて、どう考えてもおかしすぎるのでございますわっ！！kvS07/04/330400102.　あぁ、こんなこと梨花に申し上げても仕方のないことでございますけど、ほんと納得のいかない話なのでしてよー？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400101", 256, TRUE);
+	OutputLine(NULL, "「そのくせ一般市民の医療負担は増える一方なんて、どう考えてもおかしすぎるのでございますわっ！！",
+			NULL, "\"And yet, medical costs are being further increased for the general public. No matter how you think about it, it's just too weird!! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400102", 256, TRUE);
+	OutputLine(NULL, "　あぁ、こんなこと梨花に申し上げても仕方のないことでございますけど、ほんと納得のいかない話なのでしてよー？！」",
+			NULL, "I know, there's no point in talking about things like these with you, Rika, but it's such an unsatisfying situation!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500073.「みぃ、参政権のないボクたちがここで何を言っても仕方がないのです！kvS07/05/330500074.　不満があれば２０歳になってからちゃんと選挙の投票に行く！kvS07/05/330500075.　それが民主主義のルールなのです！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500073", 256, TRUE);
+	OutputLine(NULL, "「みぃ、参政権のないボクたちがここで何を言っても仕方がないのです！",
+			NULL, "\"Meep, we don't have voting rights, so nothing we say here matters!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500074", 256, TRUE);
+	OutputLine(NULL, "　不満があれば２０歳になってからちゃんと選挙の投票に行く！",
+			NULL, " If I have any complaints, I'll be sure to go vote once I turn 20!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500075", 256, TRUE);
+	OutputLine(NULL, "　それが民主主義のルールなのです！」",
+			NULL, " That's the rule of democracy!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_akireru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400103.「こんなところで選挙のキャンペーン活動をしていても仕方ありませんでしょう？！kvS07/04/330400104.　梨花ぁ、こうなっては梨花が過去のご先祖さまの責任を取って、あなたが罰を受けるべきでございますわ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400103", 256, TRUE);
+	OutputLine(NULL, "「こんなところで選挙のキャンペーン活動をしていても仕方ありませんでしょう？！",
+			NULL, "\"Even if you conduct election campaigning, it won't make a difference here, you know? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400104", 256, TRUE);
+	OutputLine(NULL, "　梨花ぁ、こうなっては梨花が過去のご先祖さまの責任を取って、あなたが罰を受けるべきでございますわ！」",
+			NULL, "Rikaaa, now that this situation has come to pass, you need to bear the responsibility of your ancestors and be suitably punished!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "finish", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	ModDrawCharacter(3, 4, "sprite/sa1b_akuwarai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400105.「私がこの前苦しんだ、詩音さんお手製の『こちょこちょマシーン・フルコース』はいかがかしらぁっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400105", 256, TRUE);
+	OutputLine(NULL, "「私がこの前苦しんだ、詩音さんお手製の『こちょこちょマシーン・フルコース』はいかがかしらぁっ？！」",
+			NULL, "\"Perhaps you need to endure a 'full course' in Shion-san's handmade tickle torture machine, just like I suffered before?!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "daidageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	ModDrawCharacter(5, 5, "sprite/ri1_fuman_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500076.「み、みみ、みいいぃぃいぃッッ！！kvS07/05/330500077.　さ、ささ、沙都子は鬼なのです！kvS07/05/330500078.　鬼、悪魔、人でなしなのですっ！！kvS07/05/330500079.　あ、あれは人が持つべき道具ではないのですよっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500076", 256, TRUE);
+	OutputLine(NULL, "「み、みみ、みいいぃぃいぃッッ！！",
+			NULL, "\"M-m-m-meeeeeeep!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500077", 256, TRUE);
+	OutputLine(NULL, "　さ、ささ、沙都子は鬼なのです！",
+			NULL, " S-S-Satoko, you're a demon!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500078", 256, TRUE);
+	OutputLine(NULL, "　鬼、悪魔、人でなしなのですっ！！",
+			NULL, " A demon, a devil, a monster!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500079", 256, TRUE);
+	OutputLine(NULL, "　あ、あれは人が持つべき道具ではないのですよっ？！」",
+			NULL, " Th-that's not a tool fit for human hands, right?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_warai_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400106.「をっほっほっ、をーっほっほっほっ！！kvS07/04/330400107.　お可哀想ですけど、覚悟なさいませ！！kvS07/04/330400108.　私が前に詩音さんから味わわされている横で盛大に笑った分、苦しみを存分にお食らいあそばせー、でございますわぁ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400106", 256, TRUE);
+	OutputLine(NULL, "「をっほっほっ、をーっほっほっほっ！！",
+			NULL, "\"Oh ho ho, ohhh ho ho ho!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400107", 256, TRUE);
+	OutputLine(NULL, "　お可哀想ですけど、覚悟なさいませ！！",
+			NULL, " You have my pity, but prepare yourself!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400108", 256, TRUE);
+	OutputLine(NULL, "　私が前に詩音さんから味わわされている横で盛大に笑った分、苦しみを存分にお食らいあそばせー、でございますわぁ！！」",
+			NULL, " I hope you suffer just as much as I did when Shion-san made me taste the great pain of keeling over in laughter!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(2, 200, FALSE);
+	PlaySE(3, "boyoon", 256, 64);
+	ModDrawCharacter(3, 4, "sprite/sa1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//沙都子rvS07/04/330400109.「……って、ふにゃあぁっ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400109", 256, TRUE);
+	OutputLine(NULL, "「……って、ふにゃあぁっ？」",
+			NULL, "\"...Wait, yooow?\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//梨花rvS07/05/330500080.「みぃっ…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500080", 256, TRUE);
+	OutputLine(NULL, "「みぃっ…？！」",
+			NULL, "\"Meep...?!\"", Line_Normal);
+	ClearMessage();
+
+//r突然、沙都子と梨花の背中がつまみ上げられる。…二人は子猫？　ふにゃん。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "突然、沙都子と梨花の背中がつまみ上げられる。…二人は子猫？　ふにゃん。",
+			NULL, "Suddenly, Rika and Satoko both got picked up by the back of their shirts. ...What are they, kittens? Meow.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 1000 );
+
+//rつまみ上げたのは俺と詩音だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "つまみ上げたのは俺と詩音だった。",
+			NULL, "It was me and Shion who'd scooped them up.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 6, "sprite/si3_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/gk1", "effect/up", 0, 0, 1000 );
+
+//詩音rvS07/06/330600012.「…沙都子と梨花ちゃまが何をじたばたしているのかわかりませんけど。kvS07/06/330600013.何かご存じなんですか？kvS07/06/330600014.　レナさんのあれ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600012", 256, TRUE);
+	OutputLine(NULL, "「…沙都子と梨花ちゃまが何をじたばたしているのかわかりませんけど。",
+			NULL, "\"...I don't get what you two are floundering around for.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600013", 256, TRUE);
+	OutputLine(NULL, "何かご存じなんですか？",
+			NULL, " But you both know something, don't you?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600014", 256, TRUE);
+	OutputLine(NULL, "　レナさんのあれ！」",
+			NULL, " Something about what happened to Rena!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_hannbeso_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400110.「…梨花ぁ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400110", 256, TRUE);
+	OutputLine(NULL, "「…梨花ぁ？」",
+			NULL, "\"...Rikaaa?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a2_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500081.「…みぃ？kvS07/05/330500082.　み～♪」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500081", 256, TRUE);
+	OutputLine(NULL, "「…みぃ？",
+			NULL, "\"...Meep?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500082", 256, TRUE);
+	OutputLine(NULL, "　み～♪」",
+			NULL, " Meep~♪.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100089.「…沙都子はあとでシメ上げるとして、梨花ちゃん語の翻訳にはみ～リンガルとか必要だよなぁ。kvS07/01/330100090.これはつまりどっちの意味なんだ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100089", 256, TRUE);
+	OutputLine(NULL, "「…沙都子はあとでシメ上げるとして、梨花ちゃん語の翻訳にはみ～リンガルとか必要だよなぁ。",
+			NULL, "\"...Let's squeeze Satoko later. We need someone who speaks Meeplish to translate.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100090", 256, TRUE);
+	OutputLine(NULL, "これはつまりどっちの意味なんだ？」",
+			NULL, " Which is it, yes or no?\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 3, "sprite/me1b_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//魅音rvS07/03/330300012.「こーのすっとぼけ方はクロだねぇ。kvS07/03/330300013.あんたたち、レナに何かしたの？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300012", 256, TRUE);
+	OutputLine(NULL, "「こーのすっとぼけ方はクロだねぇ。",
+			NULL, "\"She's faking innocence, which means she's guilty.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300013", 256, TRUE);
+	OutputLine(NULL, "あんたたち、レナに何かしたの？！」",
+			NULL, " What did you two do to Rena?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_hannbeso_a3_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400111.「……まぁ、もうすっとぼけても仕方ありませんわね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400111", 256, TRUE);
+	OutputLine(NULL, "「……まぁ、もうすっとぼけても仕方ありませんわね」",
+			NULL, "\"...Guess there's no point in pretending anymore.\"", Line_Normal);
+	ClearMessage();
+
+//rとにかくレナをこのままにはしておけない。二人は大人しく白状して、協力を仰ぐことにした…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "とにかくレナをこのままにはしておけない。二人は大人しく白状して、協力を仰ぐことにした…。",
+			NULL, "Either way, they couldn't leave Rena like this. The two of them confessed and asked for help...", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 1000 );
+	FadeOutBGM( 1, 1000, FALSE  );
+	Wait( 2000 );
+	DrawScene("white", 250 );
+	PlaySE(3, "daidageki", 256, 64);
+	ModDrawCharacter(4, 1, "sprite/kei1_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/gk1", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM(2, "hm01_05", 128, 0);
+
+//圭一rvS07/01/330100091.「古手神社の至宝、フワラズの勾玉ぁ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100091", 256, TRUE);
+	OutputLine(NULL, "「古手神社の至宝、フワラズの勾玉ぁ？！」",
+			NULL, "\"Sacred Furude Shrine treasures, the Magatama of Fuwarazu?!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500083.「…はいなのです。kvS07/05/330500084.不和知らずに通じると言われる、縁結びのありがた～ぃ（迷惑な）宝物なのですよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500083", 256, TRUE);
+	OutputLine(NULL, "「…はいなのです。",
+			NULL, "\"...That's right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500084", 256, TRUE);
+	OutputLine(NULL, "不和知らずに通じると言われる、縁結びのありがた～ぃ（迷惑な）宝物なのですよ」",
+			NULL, " Very amazing(ly annoying) treasures that bind people in love, whose name is said to mean 'not knowing discord.'\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300014.「巻物の挿絵を見る限りじゃ、…オットセイのキーホルダーにしか見えないねぇ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300014", 256, TRUE);
+	OutputLine(NULL, "「巻物の挿絵を見る限りじゃ、…オットセイのキーホルダーにしか見えないねぇ？」",
+			NULL, "\"From the scroll's pictures... they just look like key rings with seals on them, don't they?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_wink_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600015.「同感ですね。kvS07/06/330600016.口の中に飛び込まなくても、レナさんならお持ち帰りしそうな形状をしています。kvS07/06/330600017.でもこの宝物、なんだか可愛い形ですね～」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600015", 256, TRUE);
+	OutputLine(NULL, "「同感ですね。",
+			NULL, "\"I agree.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600016", 256, TRUE);
+	OutputLine(NULL, "口の中に飛び込まなくても、レナさんならお持ち帰りしそうな形状をしています。",
+			NULL, " Even if it hadn't fallen into her mouth, knowing Rena, she would have taken them home.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600017", 256, TRUE);
+	OutputLine(NULL, "でもこの宝物、なんだか可愛い形ですね～」",
+			NULL, " But these jewels do have kind of an adorable shape to them~.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100092.「オットセイは繁殖力旺盛だから、熱愛のシンボルだーってテレビで見た気がするぜ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100092", 256, TRUE);
+	OutputLine(NULL, "「オットセイは繁殖力旺盛だから、熱愛のシンボルだーってテレビで見た気がするぜ？」",
+			NULL, "\"Fur seals are known for their vigorous reproductive habits, so I think I've seen them used on TV to symbolize passionate love.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_tokui_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300015.「へー…！kvS07/03/330300016.　だとすると、オットセイという生き物の存在が、数百年、あるいは数千年以上も前に日本、それも古手神社に伝来していた証拠になるねぇ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300015", 256, TRUE);
+	OutputLine(NULL, "「へー…！",
+			NULL, "\"I see...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300016", 256, TRUE);
+	OutputLine(NULL, "　だとすると、オットセイという生き物の存在が、数百年、あるいは数千年以上も前に日本、それも古手神社に伝来していた証拠になるねぇ？！」",
+			NULL, " That proves that fur seals were in Japan for hundreds or thousands of years, and even introduced to the Furude Shrine?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_wink_a1_", "1", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300017.「なるほど、これはとんでもないオーパーツかもしれないよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300017", 256, TRUE);
+	OutputLine(NULL, "「なるほど、これはとんでもないオーパーツかもしれないよ」",
+			NULL, "\"I see... these might be some real out-of-place artifacts.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_nayamu_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100093.「しかし、わからねぇなぁ！kvS07/01/330100094.　何でそんな宝物が空から降ってきてレナの口の中に飛び込むんだ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100093", 256, TRUE);
+	OutputLine(NULL, "「しかし、わからねぇなぁ！",
+			NULL, "\"But there's one thing that doesn't make sense!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100094", 256, TRUE);
+	OutputLine(NULL, "　何でそんな宝物が空から降ってきてレナの口の中に飛び込むんだ？」",
+			NULL, " Why would treasures like these fall out of the sky and into Rena's mouth?\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500085.「…にぱ～☆」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500085", 256, TRUE);
+	OutputLine(NULL, "「…にぱ～☆」",
+			NULL, "\"...Nipah~☆...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100095.「しかし、オヤシロさまの宝物が縁結びとは、ちょいと意外だなぁ？kvS07/01/330100096.　もうちょっと祟られたり呪われたりしそうなイメージがあるんだが」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100095", 256, TRUE);
+	OutputLine(NULL, "「しかし、オヤシロさまの宝物が縁結びとは、ちょいと意外だなぁ？",
+			NULL, "\"Still, I'm a little surprised treasures that belong to Oyashiro-sama would bind people in love.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100096", 256, TRUE);
+	OutputLine(NULL, "　もうちょっと祟られたり呪われたりしそうなイメージがあるんだが」",
+			NULL, " I always thought of him as someone who tormented and cursed people.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_tokui_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300018.「確かに、近年はオヤシロさまの祟りとか言われて、イメージがずいぶん物騒になっちゃったけど、本来のオヤシロさまは縁結びの神さまでもあるんだよね。kvS07/03/330300019.…仲良くしないと祟る、ってのがメインだけど」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300018", 256, TRUE);
+	OutputLine(NULL, "「確かに、近年はオヤシロさまの祟りとか言われて、イメージがずいぶん物騒になっちゃったけど、本来のオヤシロさまは縁結びの神さまでもあるんだよね。",
+			NULL, "\"People have been talking a lot about Oyashiro-sama's curse and stuff in recent years, which gave him a reputation for wickedness, but originally, he was a god of marriage. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300019", 256, TRUE);
+	OutputLine(NULL, "…仲良くしないと祟る、ってのがメインだけど」",
+			NULL, "Of course... mainly, he'd curse you if you didn't get along.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600018.「そうですね。kvS07/06/330600019.昔の古手神社では、縁結びのお札とかを売っていたことを覚えていますよ。kvS07/06/330600020.私も買っておけばよかったなぁ…ちぃぃ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600018", 256, TRUE);
+	OutputLine(NULL, "「そうですね。",
+			NULL, "\"Oh, indeed.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600019", 256, TRUE);
+	OutputLine(NULL, "昔の古手神社では、縁結びのお札とかを売っていたことを覚えていますよ。",
+			NULL, " I feel like the Furude Shrine used to sell marriage charms.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600020", 256, TRUE);
+	OutputLine(NULL, "私も買っておけばよかったなぁ…ちぃぃ」",
+			NULL, " Wish I had bought one too... Tch.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100097.「んで、……その勾玉の縁結びの効果は、単なる気休めじゃなくて、霊験新たかなホンモノってわけなんだな？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100097", 256, TRUE);
+	OutputLine(NULL, "「んで、……その勾玉の縁結びの効果は、単なる気休めじゃなくて、霊験新たかなホンモノってわけなんだな？！」",
+			NULL, "\"So... this isn't just a story they tell about the magatama—they actually work miracles?!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500086.「……そうなのです。kvS07/05/330500087.だから、レナは今、フワラズの勾玉の力に取り憑かれてしまっているのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500086", 256, TRUE);
+	OutputLine(NULL, "「……そうなのです。",
+			NULL, "\"...That's right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500087", 256, TRUE);
+	OutputLine(NULL, "だから、レナは今、フワラズの勾玉の力に取り憑かれてしまっているのです」",
+			NULL, " At this moment, the power of the Magatama of Fuwarazu has taken root in Rena.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_akuwarai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300020.「えっと、赤と白でペアなんだっけ？kvS07/03/330300021.　赤を持つ人が、白を持つ人を好きになる、だっけ？kvS07/03/330300022.　相思相愛じゃなくて片道なんだねぇ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300020", 256, TRUE);
+	OutputLine(NULL, "「えっと、赤と白でペアなんだっけ？",
+			NULL, "\"Um, they were a red and white pair, right?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300021", 256, TRUE);
+	OutputLine(NULL, "　赤を持つ人が、白を持つ人を好きになる、だっけ？",
+			NULL, " And whoever holds the red one falls in love with whoever holds the white one?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300022", 256, TRUE);
+	OutputLine(NULL, "　相思相愛じゃなくて片道なんだねぇ」",
+			NULL, " Sounds way more one-sided than a mutual love.\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500088.「……はいなのです。kvS07/05/330500089.レナはその赤を飲み込んでしまいましたですから、白を誰かが拾えば、もれなくレナも付いてきちゃうわけなのです。kvS07/05/330500090.みー」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500088", 256, TRUE);
+	OutputLine(NULL, "「……はいなのです。",
+			NULL, "\"...Yep.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500089", 256, TRUE);
+	OutputLine(NULL, "レナはその赤を飲み込んでしまいましたですから、白を誰かが拾えば、もれなくレナも付いてきちゃうわけなのです。",
+			NULL, " Rena swallowed the red one, so no matter who picks up the white one, she'll fall for them.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500090", 256, TRUE);
+	OutputLine(NULL, "みー」",
+			NULL, " Meep.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_majime_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600021.「な、何だか珍妙な話になってきましたねぇ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600021", 256, TRUE);
+	OutputLine(NULL, "「な、何だか珍妙な話になってきましたねぇ！」",
+			NULL, "\"Th-This is turning out to be a rather fantastic story!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600022.「…そしてレナさんを元に戻すには、白の勾玉も見つけなくてはならないというわけですか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600022", 256, TRUE);
+	OutputLine(NULL, "「…そしてレナさんを元に戻すには、白の勾玉も見つけなくてはならないというわけですか？」",
+			NULL, "\"...And to return Rena-san to normal, we need to find the white magatama?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100098.「しかも、レナの様子から見るに、誰かがすでに白の勾玉は拾っちまったわけだろ？！kvS07/01/330100099.　このまま放っておくと、レナはどんどんその人のことが好きになっていっちまうわけか。kvS07/01/330100100.レナの本当の気持ちとは別に」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100098", 256, TRUE);
+	OutputLine(NULL, "「しかも、レナの様子から見るに、誰かがすでに白の勾玉は拾っちまったわけだろ？！",
+			NULL, "\"Plus, given how she's acting, someone's already found the white one, right?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100099", 256, TRUE);
+	OutputLine(NULL, "　このまま放っておくと、レナはどんどんその人のことが好きになっていっちまうわけか。",
+			NULL, " If we leave this be, Rena's just going to fall deeper and deeper in love with them.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100100", 256, TRUE);
+	OutputLine(NULL, "レナの本当の気持ちとは別に」",
+			NULL, " Regardless of how she really feels.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300023.「ちょっとロマンチックな話ではあるけど、相手がどこの馬の骨かもわからないってのは、ちょっといただけないねぇ。kvS07/03/330300024.拾いさえすれば、誰にでも惚れちゃうわけでしょ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300023", 256, TRUE);
+	OutputLine(NULL, "「ちょっとロマンチックな話ではあるけど、相手がどこの馬の骨かもわからないってのは、ちょっといただけないねぇ。",
+			NULL, "\"Sounds romantic, but we have no clue what sewer the other person crawled out of. We can't have that.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300024", 256, TRUE);
+	OutputLine(NULL, "拾いさえすれば、誰にでも惚れちゃうわけでしょ？」",
+			NULL, " All anyone has to do is pick it up to steal her heart, right?\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500091.「……そうです。kvS07/05/330500092.拾った人が、子供だろうとお年寄りだろうと、男女お構いなしなのです。kvS07/05/330500093.ましてや相手が家族持ちだった日には色々と悲劇なのですよ、にぱ～☆」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500091", 256, TRUE);
+	OutputLine(NULL, "「……そうです。",
+			NULL, "\"...That's right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500092", 256, TRUE);
+	OutputLine(NULL, "拾った人が、子供だろうとお年寄りだろうと、男女お構いなしなのです。",
+			NULL, " They could be a child or an old person, a man or a woman—it doesn't matter.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500093", 256, TRUE);
+	OutputLine(NULL, "ましてや相手が家族持ちだった日には色々と悲劇なのですよ、にぱ～☆」",
+			NULL, " To say nothing of a family member picking it up—that would be a disaster in a number of ways, nipah~☆\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_akuwarai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600023.「それは面白そ、…あ、いやげふんげふん！　それは大変ですねぇ。kvS07/06/330600024.どうやら事態は、一刻を争うって感じですか？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600023", 256, TRUE);
+	OutputLine(NULL, "「それは面白そ、…あ、いやげふんげふん！　それは大変ですねぇ。",
+			NULL, "\"That sounds amusi- ...Ah. *cough* *cough* That sounds terrible!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600024", 256, TRUE);
+	OutputLine(NULL, "どうやら事態は、一刻を争うって感じですか？！」",
+			NULL, " Seems like the situation calls for immediate action!!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500094.「一刻を争いますのです。kvS07/05/330500095.しかも、食べても作用するので、もし通りかかった犬さんが食べてしまったら、……それはもう大変なことになってしまうのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500094", 256, TRUE);
+	OutputLine(NULL, "「一刻を争いますのです。",
+			NULL, "\"It's a race against time.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500095", 256, TRUE);
+	OutputLine(NULL, "しかも、食べても作用するので、もし通りかかった犬さんが食べてしまったら、……それはもう大変なことになってしまうのです」",
+			NULL, " And it still works if you eat it, so if a dog happened to walk by and gobble it up...\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(2, 200, FALSE);
+	PlaySE(3, "kyupirn", 256, 64);
+	DrawScene("white", 150 );
+	ModDrawCharacter(5, 6, "sprite/si3_akuwarai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	ModDrawCharacter(3, 3, "sprite/me1b_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(4, 1, "sprite/kei1_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/gk1", 250 );
+	PlaySE(3, "daidageki", 256, 64);
+	ModDrawCharacter(5, 6, "sprite/si3_odoroki_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 100, FALSE );
+	ModDrawCharacter(3, 3, "sprite/me1a_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 100, FALSE );
+	ModDrawCharacter(4, 1, "sprite/kei1_nayamu_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 100, FALSE );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM(2, "hm01_02", 128, 0);
+
+//圭一rvS07/01/330100101.「い、いいい、犬ぅっっ？！kvS07/01/330100102.　それって動物にまで有効なのかよ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100101", 256, TRUE);
+	OutputLine(NULL, "「い、いいい、犬ぅっっ？！",
+			NULL, "\"A d-d-d-d-doggg?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100102", 256, TRUE);
+	OutputLine(NULL, "　それって動物にまで有効なのかよ？！」",
+			NULL, " These things even work on animals?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300025.「さ、さすがに可愛いからって犬とカップルになるのは、おじさん、ちょっとパスだなぁ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300025", 256, TRUE);
+	OutputLine(NULL, "「さ、さすがに可愛いからって犬とカップルになるのは、おじさん、ちょっとパスだなぁ…」",
+			NULL, "\"D-dogs are cute and all, but this ol' man will, uh... have to pass on being a couple with a dog...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600025.「…むしろＯＫの人がいたらお聞きしてみたいものです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600025", 256, TRUE);
+	OutputLine(NULL, "「…むしろＯＫの人がいたらお聞きしてみたいものです」",
+			NULL, "\"...In fact, I'd have some questions for anyone who said they'd be okay with it.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	PlaySE(3, "boyoon", 256, 64);
+	ModDrawCharacter(5, 4, "sprite/sa1a_akireru_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400112.「どうしてですの？kvS07/04/330400113.　レナさんと犬が仲良くなるだけなら、一番被害は軽微でしてよ？？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400112", 256, TRUE);
+	OutputLine(NULL, "「どうしてですの？",
+			NULL, "\"Why is that?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400113", 256, TRUE);
+	OutputLine(NULL, "　レナさんと犬が仲良くなるだけなら、一番被害は軽微でしてよ？？」",
+			NULL, " Would that not keep damage to a minimum if Rena-san could play with a dog??\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500096.「…沙都子も恋愛をするようになれば、その意味がわかると思うのですよ。kvS07/05/330500097.なでなで☆」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500096", 256, TRUE);
+	OutputLine(NULL, "「…沙都子も恋愛をするようになれば、その意味がわかると思うのですよ。",
+			NULL, "\"...Satoko, I think you'll understand what they mean after you fall in love.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500097", 256, TRUE);
+	OutputLine(NULL, "なでなで☆」",
+			NULL, " Pat pat☆.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS07/01/330100103.「とにかく、人心を惑わす魔性の勾玉だってことは理解できたぜ。kvS07/01/330100104.手遅れにならん内にどうにかした方がいいな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100103", 256, TRUE);
+	OutputLine(NULL, "「とにかく、人心を惑わす魔性の勾玉だってことは理解できたぜ。",
+			NULL, "\"Anyway, we know these magatama magically deceive people's hearts.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100104", 256, TRUE);
+	OutputLine(NULL, "手遅れにならん内にどうにかした方がいいな！」",
+			NULL, " We've gotta do something before it's too late!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_majime_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300026.「そうだね。kvS07/03/330300027.恋愛は自由意志が大事だよ。kvS07/03/330300028.魔法の力で強制されるなんて、よくないね！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300026", 256, TRUE);
+	OutputLine(NULL, "「そうだね。",
+			NULL, "\"Yeah.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300027", 256, TRUE);
+	OutputLine(NULL, "恋愛は自由意志が大事だよ。",
+			NULL, " Free will is important in love.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300028", 256, TRUE);
+	OutputLine(NULL, "魔法の力で強制されるなんて、よくないね！」",
+			NULL, " You can't force it with some magic spell or another!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_warai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300029.「…まぁ、ちょっぴりはロマンチックだと思うけどさ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300029", 256, TRUE);
+	OutputLine(NULL, "「…まぁ、ちょっぴりはロマンチックだと思うけどさ！」",
+			NULL, "\"...Even though that does seem a little romantic!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500098.「…とにかく、取り返しがつかなくなる前に何とかしましょうです。kvS07/05/330500099.じゃないとこれはこれで大惨事なのですよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500098", 256, TRUE);
+	OutputLine(NULL, "「…とにかく、取り返しがつかなくなる前に何とかしましょうです。",
+			NULL, "\"...Anyway, let's do something before this turns into an irreversible situation.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500099", 256, TRUE);
+	OutputLine(NULL, "じゃないとこれはこれで大惨事なのですよ」",
+			NULL, " If we don't, it'll become a real disaster.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 6, "sprite/si3_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600026.「問題は、白のオットセイを誰が拾ったかですね。kvS07/06/330600027.いくら雛見沢が田舎とはいえ、どこの誰が拾ったのかわからないんじゃ、手の打ちようがありませんし」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600026", 256, TRUE);
+	OutputLine(NULL, "「問題は、白のオットセイを誰が拾ったかですね。",
+			NULL, "\"The problem is, who picked up the white seal?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600027", 256, TRUE);
+	OutputLine(NULL, "いくら雛見沢が田舎とはいえ、どこの誰が拾ったのかわからないんじゃ、手の打ちようがありませんし」",
+			NULL, " Hinamizawa may be a rural village, but if we don't know who found it, there's nothing we can do!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kyupirn", 256, 64);
+	ModDrawCharacter(3, 3, "sprite/me1a_wink_a1_", "1", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300030.「うん？kvS07/03/330300031.　そりゃ簡単じゃない！kvS07/03/330300032.　だって、魔法の力で、レナは白の勾玉を持った人を好きになるんでしょ？kvS07/03/330300033.　なら、レナの頭の中はその人のことでいっぱいだよ！kvS07/03/330300034.　つまり、レナに直接聞けばいいわけさ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300030", 256, TRUE);
+	OutputLine(NULL, "「うん？",
+			NULL, "\"Huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300031", 256, TRUE);
+	OutputLine(NULL, "　そりゃ簡単じゃない！",
+			NULL, " That's the easiest part!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300032", 256, TRUE);
+	OutputLine(NULL, "　だって、魔法の力で、レナは白の勾玉を持った人を好きになるんでしょ？",
+			NULL, " The magic is making Rena fall in love with the person with the white magatama, right?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300033", 256, TRUE);
+	OutputLine(NULL, "　なら、レナの頭の中はその人のことでいっぱいだよ！",
+			NULL, " That person is all she's thinking about right now! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300034", 256, TRUE);
+	OutputLine(NULL, "　つまり、レナに直接聞けばいいわけさ！」",
+			NULL, "In other words, we just have to ask Rena herself!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//魅音rvS07/03/330300035.「レぇナぁ～～！！！kvS07/03/330300036.　おじさんに教えてよぅ！kvS07/03/330300037.　レナのハートを射止めちゃった意中の相手はだぁれぇえぇ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300035", 256, TRUE);
+	OutputLine(NULL, "「レぇナぁ～～！！！",
+			NULL, "\"Reenaaa~~!!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300036", 256, TRUE);
+	OutputLine(NULL, "　おじさんに教えてよぅ！",
+			NULL, " This ol' man wants to know!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300037", 256, TRUE);
+	OutputLine(NULL, "　レナのハートを射止めちゃった意中の相手はだぁれぇえぇ？」",
+			NULL, " Just who is it that stole your heart, Renaaaa?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM(2, 200, FALSE);
+	PlaySE(3, "nageru", 256, 64);
+	DrawScene("black", 500 );
+	PlaySE(0, "dageki", 256, 64);
+	DrawScene("effect/furiker_a", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(3, "dageki", 256, 64);
+	DrawScene("effect/furiker_b", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(0, "daidageki", 256, 64);
+	ModDrawCharacter(4, 3, "sprite/me1b_tohoho_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/gk3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	DrawScene("black", 250 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "daidageki", 256, 64);
+	DrawScene("effect/furiker_a", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	DrawScene("white", 50 );
+	PlaySE(0, "kaminari2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	DrawScene("black", 1000 );
+	PlaySE(3, "dageki", 256, 64);
+	ModDrawCharacter(5, 3, "sprite/me1b_odoroki_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	DrawScene("bg/gk3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(0, "dageki", 256, 64);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 50, FALSE);
+	ModDrawCharacter(3, 3, "sprite/me1b_hau_a1_", "1", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 50, TRUE );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(3, "dageki", 256, 64);
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 50, FALSE);
+	ModDrawCharacter(5, 3, "sprite/me1b_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 50, TRUE );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(0, "dageki", 256, 64);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 50, FALSE);
+	ModDrawCharacter(3, 3, "sprite/me1b_yowaki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 50, TRUE );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(3, "nageru", 256, 64);
+	DrawSceneWithMask( "black", "effect/up", 0, 0, 250 );
+	PlaySE(0, "kyupirn", 256, 64);
+	DrawScene("white", 250 );
+	DrawScene("bg/gk3", 500 );
+	PlaySE(3, "tatakiwaru", 256, 64);
+	DrawScene("bg/oyashirosama", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(0, "daidageki", 256, 64);
+	Wait( 500 );
+	PlaySE(3, "finish", 256, 64);
+	DrawScene("white", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(0, "garasu", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(3, "down2", 256, 64);
+	DrawScene("bg/g1", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(0, "down3", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//r……レナ乱舞って今日まで色々見てきたけど、コイツはこれまでの中で一番長かった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……レナ乱舞って今日まで色々見てきたけど、コイツはこれまでの中で一番長かった。",
+			NULL, "...I'd seen Rena go into a frenzy more than a few times before, but this had to have been the longest one yet.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/left", 0, 0, 500 );
+	ModDrawCharacter(4, 2, "sprite/re1b_kaii_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/gk1", "effect/right", 0, 0, 500 );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//レナrvS07/02/330200090.「…は、…はぅうぅぅ、そんなこと言えないよぅ…。kvS07/02/330200091.はぅ～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200090", 256, TRUE);
+	OutputLine(NULL, "「…は、…はぅうぅぅ、そんなこと言えないよぅ…。",
+			NULL, "\"...Ha... Hauuuu, I can't say it...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200091", 256, TRUE);
+	OutputLine(NULL, "はぅ～！」",
+			NULL, " Hau~!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100105.「…い、いや、多分こうなると思ったよ。kvS07/01/330100106.しかしずいぶん威力が向上したな…。kvS07/01/330100107.ヒット数も大幅に増加してるぞ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100105", 256, TRUE);
+	OutputLine(NULL, "「…い、いや、多分こうなると思ったよ。",
+			NULL, "\"...W-Well, I figured as much.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100106", 256, TRUE);
+	OutputLine(NULL, "しかしずいぶん威力が向上したな…。",
+			NULL, " Man, she got a lot stronger...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100107", 256, TRUE);
+	OutputLine(NULL, "ヒット数も大幅に増加してるぞ…」",
+			NULL, " There's a lot more hits in her combo, too...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_warai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500100.「……次のパッチでは弱体化に違いないのですよ。kvS07/05/330500101.にぱ～☆」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500100", 256, TRUE);
+	OutputLine(NULL, "「……次のパッチでは弱体化に違いないのですよ。",
+			NULL, "\"...I'm sure she'll be nerfed in the next patch.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500101", 256, TRUE);
+	OutputLine(NULL, "にぱ～☆」",
+			NULL, " Nipah~☆\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(2, 6, "sprite/si3_yowaki_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawSceneWithMask( "bg/gk3", "effect/left", 0, 0, 500 );
+
+//詩音rvS07/06/330600028.「大丈夫ですか、お姉。kvS07/06/330600029.女の子に好きな人のことを直接聞くなんて、相変わらずデリカシーがなさすぎですよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600028", 256, TRUE);
+	OutputLine(NULL, "「大丈夫ですか、お姉。",
+			NULL, "\"Sis, are you okay?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600029", 256, TRUE);
+	OutputLine(NULL, "女の子に好きな人のことを直接聞くなんて、相変わらずデリカシーがなさすぎですよ」",
+			NULL, " Really, asking a girl who she likes so directly? You have no delicacy at all, like always.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_yowaki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300038.「……ごめんねぇ、おじさん、女の子じゃないもんでわかんなかったわぁ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300038", 256, TRUE);
+	OutputLine(NULL, "「……ごめんねぇ、おじさん、女の子じゃないもんでわかんなかったわぁ…」",
+			NULL, "\"...I'm sorry—this ol' man isn't a little girl, so he didn't understand...\"", Line_Normal);
+	ClearMessage();
+
+//rあああぁあぁ、もう厄介なことになったなぁぁ…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あああぁあぁ、もう厄介なことになったなぁぁ…。",
+			NULL, "Ahhhhh, this is getting really annoying...", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1b_akireru_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/gk1", "effect/right", 0, 0, 500 );
+
+//沙都子rvS07/04/330400114.「それにしても、…よりによってレナさんなのですか？kvS07/04/330400115.　恋心がそのまま攻撃力に転換されるようなお方なんですのよ？kvS07/04/330400116.　何だか話がこじれそうですわ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400114", 256, TRUE);
+	OutputLine(NULL, "「それにしても、…よりによってレナさんなのですか？",
+			NULL, "\"Anyway... this is Rena-san, of all people, right...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400115", 256, TRUE);
+	OutputLine(NULL, "　恋心がそのまま攻撃力に転換されるようなお方なんですのよ？",
+			NULL, " Didn't we know she could convert the love in her heart into raw attack power?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400116", 256, TRUE);
+	OutputLine(NULL, "　何だか話がこじれそうですわ…」",
+			NULL, " This is just getting worse...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1a_odoroki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400117.「梨花ぁ、元はといえば古手神社の管理が悪かったからなのですから、あなたも対策を何か考えなさいませ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400117", 256, TRUE);
+	OutputLine(NULL, "「梨花ぁ、元はといえば古手神社の管理が悪かったからなのですから、あなたも対策を何か考えなさいませ！」",
+			NULL, "\"Rikaaa, this was originally caused by poor management at the Furude Shrine, so you need to think up a counterstrategy for us!\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500102.「…みぃ、こちょこちょマシーンの刑を無しにしてくれるのなら、もっと真剣に考えてみますのですよ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500102", 256, TRUE);
+	OutputLine(NULL, "「…みぃ、こちょこちょマシーンの刑を無しにしてくれるのなら、もっと真剣に考えてみますのですよ…！」",
+			NULL, "\"...Meep, I'll try thinking about it a little more seriously if you call off the tickle torture punishment...!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kyupirn", 256, 64);
+	DrawScene("white", 250 );
+	ModDrawCharacter(4, 4, "sprite/sa1b_akuwarai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/gk1", 500 );
+
+//沙都子rvS07/04/330400118.「あらぁ、そうでございますかぁ？kvS07/04/330400119.　じゃあ軽くお試しに体験してみて、その恐怖のプレッシャーで気合を入れるってのはいかがかしらぁ！kvS07/04/330400120.　詩音さん詩音さん、ちょっとお話が――」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400118", 256, TRUE);
+	OutputLine(NULL, "「あらぁ、そうでございますかぁ？",
+			NULL, "\"Oh, is that how it's going to be?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400119", 256, TRUE);
+	OutputLine(NULL, "　じゃあ軽くお試しに体験してみて、その恐怖のプレッシャーで気合を入れるってのはいかがかしらぁ！",
+			NULL, " Then how about we give you a trial run, and that dread will get you a little more motivated!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400120", 256, TRUE);
+	OutputLine(NULL, "　詩音さん詩音さん、ちょっとお話が——」",
+			NULL, " Shion-san, Shion-san, could I have a word with you...?\"", Line_Normal);
+	ClearMessage();
+
+//梨花rvS07/05/330500103.「か、考えますのです！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500103", 256, TRUE);
+	OutputLine(NULL, "「か、考えますのです！！」",
+			NULL, "\"I-I'll think about it!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "lf164", 256, 64);
+	Wait( 200 );
+
+//梨花rvS07/05/330500105.「みぃ、あれです！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500105", 256, TRUE);
+	OutputLine(NULL, "「みぃ、あれです！」",
+			NULL, "\"Meep, I've got it!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1a_yareyare_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400121.「…ずいぶん投げ遣りに思いついたようでございますけど、何なんですか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400121", 256, TRUE);
+	OutputLine(NULL, "「…ずいぶん投げ遣りに思いついたようでございますけど、何なんですか？」",
+			NULL, "\"...That was rather slipshod... So, what did you come up with?\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "bg/gk3", "effect/left", 0, 0, 500 );
+
+//r梨花ちゃんが指差したのはレナの席だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "梨花ちゃんが指差したのはレナの席だった。",
+			NULL, "Rika-chan pointed to Rena's seat.", Line_Normal);
+	ClearMessage();
+
+//r……レナはさすがに頬杖に飽きたのか、読書を始めていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……レナはさすがに頬杖に飽きたのか、読書を始めていた。",
+			NULL, "...She was reading a book now, probably because she was tired from all the sitting around and staring out the window with her hand on her cheek.", Line_Normal);
+	ClearMessage();
+
+//r時には悪ふざけを抜け読書をすることもある。別に珍しい光景でもなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "時には悪ふざけを抜け読書をすることもある。別に珍しい光景でもなかった。",
+			NULL, "Sometimes she left the horseplay aside and read a book. It wasn't an unusual sight by any means.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 4, "sprite/sa1a_akireru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400122.「…でも何だか様子が違いますわね。kvS07/04/330400123.普段とは違う雰囲気の本を何冊も持ってきておりますわ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400122", 256, TRUE);
+	OutputLine(NULL, "「…でも何だか様子が違いますわね。",
+			NULL, "\"...But she still seems different.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400123", 256, TRUE);
+	OutputLine(NULL, "普段とは違う雰囲気の本を何冊も持ってきておりますわ」",
+			NULL, " She brought some books that aren't quite the same as her usual ones.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 5, "sprite/ri1_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//梨花rvS07/05/330500106.「どうかしましたか、沙都子」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500106", 256, TRUE);
+	OutputLine(NULL, "「どうかしましたか、沙都子」",
+			NULL, "\"What's the matter, Satoko?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 4, "sprite/sa1a_yareyare_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400125.「…レナさんの様子をよぉく御覧なさいませ。kvS07/04/330400126.何かヒントになるかもしれませんわ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400125", 256, TRUE);
+	OutputLine(NULL, "「…レナさんの様子をよぉく御覧なさいませ。",
+			NULL, "\"...I'm carefully watching Rena-san.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400126", 256, TRUE);
+	OutputLine(NULL, "何かヒントになるかもしれませんわ」",
+			NULL, " She might give us a hint.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 3, "sprite/me1b_tohoho_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300039.「何読んでんだろ。kvS07/03/330300040.ここからじゃよくわかんないね…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300039", 256, TRUE);
+	OutputLine(NULL, "「何読んでんだろ。",
+			NULL, "\"I wonder what she's reading.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300040", 256, TRUE);
+	OutputLine(NULL, "ここからじゃよくわかんないね…」",
+			NULL, " I can't really tell from here...\"", Line_Normal);
+	ClearMessage();
+
+//rさっきのレナの攻撃で懲りたのか、魅音は必要以上に距離を取って慎重そうだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "さっきのレナの攻撃で懲りたのか、魅音は必要以上に距離を取って慎重そうだった。",
+			NULL, "Having learned her lesson from Rena's attacks earlier, Mion was being careful to keep more distance than she had to.", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 200, FALSE);
+	DrawSceneWithMask( "bg/gk1", "effect/right", 0, 0, 500 );
+	PlayBGM(2, "hm01_06", 128, 0);
+
+//圭一rvS07/01/330100108.「何だ？kvS07/01/330100109.　ありゃ多分、何かのハウツー本だな。kvS07/01/330100110.何を勉強しようとしてるんだ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100108", 256, TRUE);
+	OutputLine(NULL, "「何だ？",
+			NULL, "\"What is it?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100109", 256, TRUE);
+	OutputLine(NULL, "　ありゃ多分、何かのハウツー本だな。",
+			NULL, " Oh, I think it's a how-to book.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100110", 256, TRUE);
+	OutputLine(NULL, "何を勉強しようとしてるんだ？」",
+			NULL, " I wonder what she's learning about.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_wink_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600030.「あッ！kvS07/06/330600031.　写真ですね！kvS07/06/330600032.　写真撮影の専門誌のようです！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600030", 256, TRUE);
+	OutputLine(NULL, "「あッ！",
+			NULL, "\"Ah!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600031", 256, TRUE);
+	OutputLine(NULL, "　写真ですね！",
+			NULL, " They're photographs!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600032", 256, TRUE);
+	OutputLine(NULL, "　写真撮影の専門誌のようです！！」",
+			NULL, " Seems like it's a photography magazine!!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100111.「他にもカメラのカタログまであるぜ！kvS07/01/330100112.　この雛見沢でこのキーワードが意味する人物はひとりしかいねぇだろ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100111", 256, TRUE);
+	OutputLine(NULL, "「他にもカメラのカタログまであるぜ！",
+			NULL, "\"And she's got a camera catalog too!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100112", 256, TRUE);
+	OutputLine(NULL, "　この雛見沢でこのキーワードが意味する人物はひとりしかいねぇだろ！！」",
+			NULL, " There's only one person in Hinamizawa who matches those keywords!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_wink_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300041.「うん、間違いないね！kvS07/03/330300042_1.　週刊激写別冊、ナースローアングル特集号まであるよ！！kvS07/03/330300043.　もう該当人物はひとりしかいないッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300041", 256, TRUE);
+	OutputLine(NULL, "「うん、間違いないね！",
+			NULL, "\"Yep, no doubt about it!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300042_1", 256, TRUE);
+	OutputLine(NULL, "　週刊激写別冊、ナースローアングル特集号まであるよ！！",
+			NULL, " She even has the weekly spectacular photo issue, Nurse Low Angle's special edition!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300043", 256, TRUE);
+	OutputLine(NULL, "　もう該当人物はひとりしかいないッ！！」",
+			NULL, " There's only one person it could possibly be!!\"", Line_Normal);
+	ClearMessage();
+
+//r…最後の一項目が大いに問題ありだが、とにかくとにかく、ここまで条件が揃えばあの人しかいないというわけだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…最後の一項目が大いに問題ありだが、とにかくとにかく、ここまで条件が揃えばあの人しかいないというわけだ。",
+			NULL, "...The last item was kinda problematic, but anyway... Anyway, given all this evidence, it had to be him.", Line_Normal);
+	ClearMessage();
+
+//rったく、ぼんやりしているクセにレナの（強制的な）片想い相手ってのは納得行かねえぇ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ったく、ぼんやりしているクセにレナの（強制的な）片想い相手ってのは納得行かねえぇ！",
+			NULL, "Geez, he's always just wandering around, so I can't accept him becoming Rena's (forced) one-sided love interest!", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re1a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/gk3", "effect/left", 0, 0, 500 );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//レナrvS07/02/330200092.「はぅ～、レナにもカメラの使い方教えてくださいって言ったら教えてくれるかな、かな…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200092", 256, TRUE);
+	OutputLine(NULL, "「はぅ～、レナにもカメラの使い方教えてくださいって言ったら教えてくれるかな、かな…！」",
+			NULL, "\"Hau~ I wonder if he'd teach me how to use a camera if I asked him. If I did...!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re1a_kaii_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200093.「そしたら手取り足取り教えてくれるかな、かなかなかな！kvS07/02/330200094.　ナースさんの格好して行ったらやさしくしてくれるかなッ！kvS07/02/330200095.　かなかなかなかなッ！！kvS07/02/330200096.　そしたらそしたら、はぅはぅ、はぅ～～～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200093", 256, TRUE);
+	OutputLine(NULL, "「そしたら手取り足取り教えてくれるかな、かなかなかな！",
+			NULL, "\"I wonder if he'd go into great detail, if he would, if he would!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200094", 256, TRUE);
+	OutputLine(NULL, "　ナースさんの格好して行ったらやさしくしてくれるかなッ！",
+			NULL, " I wonder if he'd treat me nice if I dressed up as a nurse!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200095", 256, TRUE);
+	OutputLine(NULL, "　かなかなかなかなッ！！",
+			NULL, " If I dressed up, dressed up, dressed up!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200096", 256, TRUE);
+	OutputLine(NULL, "　そしたらそしたら、はぅはぅ、はぅ～～～！！」",
+			NULL, " And then, and then, hau hau, hau~~~!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 200, FALSE);
+	FadeOutBGM(2, 200, FALSE);
+
+//rおもむろにレナが席を立つ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "おもむろにレナが席を立つ！",
+			NULL, "Rena calmly got out of her seat!", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 1, "semi_r", 128, 0 );
+
+//r瞳の中にはハートと花びらがいっぱいで、覗き込めばさぞやすごい光景が映っているに違いなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "瞳の中にはハートと花びらがいっぱいで、覗き込めばさぞやすごい光景が映っているに違いなかった。",
+			NULL, "Hearts and flower petals filled her eyes, and doubtless you would see an even more amazing image if you peered into them.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 250 );
+	FadeOutBGM(1, 200, FALSE);
+	ModDrawCharacter(5, 3, "sprite/me1a_tohoho_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	ModDrawCharacter(3, 2, "sprite/re1a_kaii_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "bg/gk1", "effect/left", 0, 0, 250 );
+	PlayBGM(2, "hm01_02", 128, 0);
+
+//レナrvS07/02/330200097.「あのねあのね魅ぃちゃん！kvS07/02/330200098.　レナは急に具合が悪くなっちゃったから早退するね、はぅ～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200097", 256, TRUE);
+	OutputLine(NULL, "「あのねあのね魅ぃちゃん！",
+			NULL, "\"Hey, hey, Mii-chan!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200098", 256, TRUE);
+	OutputLine(NULL, "　レナは急に具合が悪くなっちゃったから早退するね、はぅ～！！」",
+			NULL, " Rena suddenly feels really sick, so she's going home early, hau~!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	PlaySE(3, "door", 256, 64);
+
+//r何てメチャクチャ！　放課後を待たずにレナは教室を飛び出す！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "何てメチャクチャ！　放課後を待たずにレナは教室を飛び出す！！",
+			NULL, "How brash! Rena burst out of the classroom without waiting for school to end!!", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1b_odoroki_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300044.「あぁああぁ、レナぁ！！kvS07/03/330300045.　お、いいところに立っているのは詩音！！kvS07/03/330300046.　レナを行かせるな、引き止めろぉおぉ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300044", 256, TRUE);
+	OutputLine(NULL, "「あぁああぁ、レナぁ！！",
+			NULL, "\"Ahhhh, Renaaa!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300045", 256, TRUE);
+	OutputLine(NULL, "　お、いいところに立っているのは詩音！！",
+			NULL, " Oh, Shion, perfect timing!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300046", 256, TRUE);
+	OutputLine(NULL, "　レナを行かせるな、引き止めろぉおぉ！！」",
+			NULL, " Don't let Rena leave! Stop her!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "daidageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	ModDrawCharacter(3, 6, "sprite/si3_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//詩音rvS07/06/330600033.「む、無理ですよぉおおぉ！！kvS07/06/330600034.　さっきお姉が大変な目にあってたじゃないですかぁあぁ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600033", 256, TRUE);
+	OutputLine(NULL, "「む、無理ですよぉおおぉ！！",
+			NULL, "\"I can't do that!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600034", 256, TRUE);
+	OutputLine(NULL, "　さっきお姉が大変な目にあってたじゃないですかぁあぁ！！」",
+			NULL, " Sis, we saw what she did to you just now!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 5, "sprite/ri1_majime_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//梨花rvS07/05/330500107.「……確かに、今のレナが相手じゃ部活メンバー総掛かりでも無理そうなのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500107", 256, TRUE);
+	OutputLine(NULL, "「……確かに、今のレナが相手じゃ部活メンバー総掛かりでも無理そうなのです」",
+			NULL, "\"...It does seem impossible even for all the club members at once to defeat her.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1b_majime_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300047.「だからってまずい！！kvS07/03/330300048.　沙都子ッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300047", 256, TRUE);
+	OutputLine(NULL, "「だからってまずい！！",
+			NULL, "\"We still can't let this happen!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300048", 256, TRUE);
+	OutputLine(NULL, "　沙都子ッ！！」",
+			NULL, " Satoko!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1b_akuwarai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/gk3", "effect/left", 0, 0, 500 );
+
+//r魅音が指をバチンと鳴らすと、沙都子の手元に天井から一本の紐が垂れてくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "魅音が指をバチンと鳴らすと、沙都子の手元に天井から一本の紐が垂れてくる。",
+			NULL, "Mion snapped her fingers, and a single string dropped down from the ceiling, ending up in Satoko's hands.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1b_warai_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400127.「あいあいさーですわぁ！！kvS07/04/330400128.　そおれッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400127", 256, TRUE);
+	OutputLine(NULL, "「あいあいさーですわぁ！！",
+			NULL, "\"Oh, aye aye, sir!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400128", 256, TRUE);
+	OutputLine(NULL, "　そおれッ！！」",
+			NULL, " Take this!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "nageru", 256, 64);
+	ModDrawCharacter(4, 4, "sprite/sa1a_warai_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//rそれを勢いよく引いた時！　昇降口へ駆けて行くレナの足元にビーンと縄跳びが張られる仕掛けが作動する！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それを勢いよく引いた時！　昇降口へ駆けて行くレナの足元にビーンと縄跳びが張られる仕掛けが作動する！",
+			NULL, "Satoko yanked it! And that was when the jump-rope trap sprung into action near Rena's feet as she ran for the school entrance!", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa1a_akuwarai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400129.「とりあえず転ばせて、その上からみんなで圧殺するんですのよ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400129", 256, TRUE);
+	OutputLine(NULL, "「とりあえず転ばせて、その上からみんなで圧殺するんですのよ！！」",
+			NULL, "\"First we'll make her trip, and then we'll all pile on her!!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	PlaySE(3, "dageki", 256, 64);
+	DrawScene("white", 100 );
+	ModDrawCharacter(4, 4, "sprite/sa1b_hannbeso_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/gk3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//沙都子rvS07/04/330400130.「ふぎゃッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400130", 256, TRUE);
+	OutputLine(NULL, "「ふぎゃッ？！」",
+			NULL, "\"Fugyah?!\"", Line_Normal);
+	ClearMessage();
+
+//rが、沙都子が言い終わる前に縄跳びが千切れたすごい音がした。……ナイロン製の縄跳びを引き千切るって、どういう怪力なんだろう…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "が、沙都子が言い終わる前に縄跳びが千切れたすごい音がした。……ナイロン製の縄跳びを引き千切るって、どういう怪力なんだろう…。",
+			NULL, "But before Satoko could finish, the jump rope tore with a loud ripping noise. ...What superhuman strength to tear apart a nylon jump rope like that...", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 250 );
+	DrawSceneWithMask( "bg/g2", "effect/right", 0, 0, 250 );
+
+//r縄跳び如きではレナを静止できず、もはや下駄箱で靴を履き替えている！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "縄跳び如きではレナを静止できず、もはや下駄箱で靴を履き替えている！",
+			NULL, "A mere jump rope was unable to stop Rena, and now she was already changing into her outdoor shoes at the shoe cubbies!", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 22, "sprite/tie_2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//知恵rvS07/22/VT2A_chie1001.「こぉら！！kvS07/22/VT2A_chie1002.　廊下を走っちゃいけません！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 22, "ps3/s07/22/vt2a_chie1001", 256, TRUE);
+	OutputLine(NULL, "「こぉら！！",
+			NULL, "\"Hey!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 22, "ps3/s07/22/vt2a_chie1002", 256, TRUE);
+	OutputLine(NULL, "　廊下を走っちゃいけません！！」",
+			NULL, " No running in the halls!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 22, "sprite/tie_2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, FALSE );
+	ModDrawCharacter(3, 2, "sprite/re1b_kaii_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200099.「先生ごめんなさい、今日は早退します～～！！kvS07/02/330200100.　披露宴には呼びますからね！kvS07/02/330200101.　はぅ～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200099", 256, TRUE);
+	OutputLine(NULL, "「先生ごめんなさい、今日は早退します～～！！",
+			NULL, "\"Sensei, I'm sorry, I'm going home early today~~!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200100", 256, TRUE);
+	OutputLine(NULL, "　披露宴には呼びますからね！",
+			NULL, " I'll invite you to the wedding reception!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200101", 256, TRUE);
+	OutputLine(NULL, "　はぅ～！！」",
+			NULL, " Hau~!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "nageru", 256, 64);
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 22, "sprite/tie_3_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//知恵rvS07/22/VT2A_chie1003.「は、はぁ？！kvS07/22/VT2A_chie1004.　……ってお待ちなさい！kvS07/22/VT2A_chie1005.　ううぅ、教え子に先を越されたくなかった…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 22, "ps3/s07/22/vt2a_chie1003", 256, TRUE);
+	OutputLine(NULL, "「は、はぁ？！",
+			NULL, "\"Wh-What?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 22, "ps3/s07/22/vt2a_chie1004", 256, TRUE);
+	OutputLine(NULL, "　……ってお待ちなさい！",
+			NULL, " ...Hey, stop!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 22, "ps3/s07/22/vt2a_chie1005", 256, TRUE);
+	OutputLine(NULL, "　ううぅ、教え子に先を越されたくなかった…！」",
+			NULL, " *moan* How did I let a student get ahead of me...?!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down2", 256, 64);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 3, "sprite/me1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300049.「って、そこ落ち込むトコ違いますから！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300049", 256, TRUE);
+	OutputLine(NULL, "「って、そこ落ち込むトコ違いますから！！」",
+			NULL, "\"Wait, that's what you're upset about?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300050.「わ、私たちも早退します！kvS07/03/330300051.　とにかくレナより先に富竹さんを見つけて白い勾玉を奪おう！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300050", 256, TRUE);
+	OutputLine(NULL, "「わ、私たちも早退します！",
+			NULL, "\"W-We're leaving early too!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300051", 256, TRUE);
+	OutputLine(NULL, "　とにかくレナより先に富竹さんを見つけて白い勾玉を奪おう！」",
+			NULL, " We have to find Tomitake-san before Rena does and get our hands on the white magatama!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 1, "sprite/kei1_komaru_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//圭一rvS07/01/330100113.「それしかねぇな！kvS07/01/330100114.　富竹さんのいそうなところを捜そう！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100113", 256, TRUE);
+	OutputLine(NULL, "「それしかねぇな！",
+			NULL, "\"That's our only option!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100114", 256, TRUE);
+	OutputLine(NULL, "　富竹さんのいそうなところを捜そう！！」",
+			NULL, " Let's search for places Tomitake-san might be!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 250 );
+	PlayBGM( 1, "semi", 128, 0 );
+	ModDrawCharacter(3, 4, "sprite/sa1a_hannbeso_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "bg/g1", "effect/right", 0, 0, 250 );
+
+//沙都子rvS07/04/330400131.「…梨花ぁ！kvS07/04/330400132.　あなたのインチキ妖気探知機で富竹さんを探し出してくださいませ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400131", 256, TRUE);
+	OutputLine(NULL, "「…梨花ぁ！",
+			NULL, "\"...Rikaaa!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400132", 256, TRUE);
+	OutputLine(NULL, "　あなたのインチキ妖気探知機で富竹さんを探し出してくださいませ！」",
+			NULL, " Look for Tomitake-san using your bogus ghost energy radar!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500108.「…みぃ、その語呂がとっても嫌な感じですが、…この方向は、古手神社なのです！kvS07/05/330500109.　富竹は昨日撮影に来ると言っていましたから、たぶん境内だと思いますです！kvS07/05/330500110.　きっと鷹野も一緒なのです！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500108", 256, TRUE);
+	OutputLine(NULL, "「…みぃ、その語呂がとっても嫌な感じですが、…この方向は、古手神社なのです！",
+			NULL, "\"...Meep, I really don't like the sound of that name... but he should be that way, toward the Furude Shrine!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500109", 256, TRUE);
+	OutputLine(NULL, "　富竹は昨日撮影に来ると言っていましたから、たぶん境内だと思いますです！",
+			NULL, " Yesterday Tomitake said he was coming over to take photos, so I bet he's in the shrine grounds. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500110", 256, TRUE);
+	OutputLine(NULL, "　きっと鷹野も一緒なのです！」",
+			NULL, "And I'm sure Takano is with him!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_yareyare_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400133.「…あぁ素敵ですわ。kvS07/04/330400134.ほんと、お約束万歳でございますわ！kvS07/04/330400135.　こーゆう時のカップルって必ず二人一緒なんでしょうけど」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400133", 256, TRUE);
+	OutputLine(NULL, "「…あぁ素敵ですわ。",
+			NULL, "\"...Oh, wonderful.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400134", 256, TRUE);
+	OutputLine(NULL, "ほんと、お約束万歳でございますわ！",
+			NULL, " Seriously, hooray for cliches!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400135", 256, TRUE);
+	OutputLine(NULL, "　こーゆう時のカップルって必ず二人一緒なんでしょうけど」",
+			NULL, " Couples are always together at times like these, aren't they?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400136.「魅音さん、富竹さんは神社だって梨花が申しておりますわ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400136", 256, TRUE);
+	OutputLine(NULL, "「魅音さん、富竹さんは神社だって梨花が申しておりますわ！！」",
+			NULL, "\"Mion-san, Rika says Tomitake-san should be at the shrine!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1a_wink_a1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	DrawSceneWithMask( "bg/gr2", "effect/right", 0, 0, 250 );
+
+//魅音rvS07/03/330300052.「梨花ちゃん、そうなの？！kvS07/03/330300053.　私もそう思ってたとこだわ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300052", 256, TRUE);
+	OutputLine(NULL, "「梨花ちゃん、そうなの？！",
+			NULL, "\"You think so, Rika-chan?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300053", 256, TRUE);
+	OutputLine(NULL, "　私もそう思ってたとこだわ！！」",
+			NULL, " I was just thinking that!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 6, "sprite/si3_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//詩音rvS07/06/330600035.「でもそれはレナさんも思っているみたいですよ！！kvS07/06/330600036.　神社の方向へ走って…って、うわ速っ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600035", 256, TRUE);
+	OutputLine(NULL, "「でもそれはレナさんも思っているみたいですよ！！",
+			NULL, "\"But it looks like Rena-san is thinking the same thing!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600036", 256, TRUE);
+	OutputLine(NULL, "　神社の方向へ走って…って、うわ速っ？！」",
+			NULL, " She's running towards the sh... Whoa, so fast?!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 1, "sprite/kei1_ikari1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//圭一rvS07/01/330100115.「何て速度だ！！kvS07/01/330100116.　見る見る視界から遠のいていくぞ…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100115", 256, TRUE);
+	OutputLine(NULL, "「何て速度だ！！",
+			NULL, "\"What monstrous speed!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100116", 256, TRUE);
+	OutputLine(NULL, "　見る見る視界から遠のいていくぞ…！！」",
+			NULL, " She'll be out of sight in a flash at this rate...!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1b_majime_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300054.「それでも追うしかないよ！kvS07/03/330300055.　レナが富竹さんを口説き出す前に何とかしなきゃ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300054", 256, TRUE);
+	OutputLine(NULL, "「それでも追うしかないよ！",
+			NULL, "\"All we can do is chase after her!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300055", 256, TRUE);
+	OutputLine(NULL, "　レナが富竹さんを口説き出す前に何とかしなきゃ！」",
+			NULL, " We have to do something before Rena starts hitting on Tomitake-san!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, FALSE);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 5, "sprite/ri1_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//梨花rvS07/05/330500111.「……で、鷹野が妬いて気まずい三角関係で大変なのです。kvS07/05/330500112.にぱ～☆」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500111", 256, TRUE);
+	OutputLine(NULL, "「……で、鷹野が妬いて気まずい三角関係で大変なのです。",
+			NULL, "\"...When Takano gets jealous, the love triangle will be very awkward.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500112", 256, TRUE);
+	OutputLine(NULL, "にぱ～☆」",
+			NULL, " Nipah~☆\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 4, "sprite/sa1b_akireru_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400137.「まぁ、別にあのカップルが破局するのは構いませんけど…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400137", 256, TRUE);
+	OutputLine(NULL, "「まぁ、別にあのカップルが破局するのは構いませんけど…」",
+			NULL, "\"Well, I don't really care if the two of them break up, but...\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 6, "sprite/si3_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//詩音rvS07/06/330600037.「…八つ当たりで健康診断のときに、注射の本数増やされるかもですよ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600037", 256, TRUE);
+	OutputLine(NULL, "「…八つ当たりで健康診断のときに、注射の本数増やされるかもですよ？」",
+			NULL, "\"...She might vent her anger by giving you more shots during checkups at the clinic?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 4, "sprite/sa1a_odoroki_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400138.「じょ、冗談じゃありませんわ～ッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400138", 256, TRUE);
+	OutputLine(NULL, "「じょ、冗談じゃありませんわ～ッッ！！」",
+			NULL, "\"Th-this is serious~!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "bg/sora", "effect/down", 0, 0, 500 );
+	FadeOutBGM(1, 200, FALSE);
+
+//rそうこうするうちに、レナはとっくに俺たちの視界から消え去っている。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そうこうするうちに、レナはとっくに俺たちの視界から消え去っている。",
+			NULL, "Meanwhile, Rena had already vanished out of sight.", Line_Normal);
+	ClearMessage();
+
+//rでも立ち止まるわけにはいかない。魅音の言う通り、１秒でも早く追いついて被害を最小限に食い止めるしかない！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "でも立ち止まるわけにはいかない。魅音の言う通り、１秒でも早く追いついて被害を最小限に食い止めるしかない！",
+			NULL, "But we couldn't stop here. Our only choice, like Mion said, was to chase her down as fast as we could and keep casualties to a minimum!", Line_Normal);
+	ClearMessage();
+
+	CallScript("&eye");
+
+}

@@ -1,0 +1,289 @@
+void main()
+{
+
+
+//*Hirukowashi Day 11 route merges together after second choice
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	FadeAllBustshots( 200, TRUE );
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 5, "sprite/ri2_fuman_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//梨花rvS07/05/330500157.「…みぃ、まさか？」
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500157", 256, TRUE);
+	OutputLine(NULL, "「…みぃ、まさか？」",
+			NULL, "\"...Meep, it couldn't be?\"", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(5, 256, "none");
+	ModDrawCharacter(5, 4, "sprite/sa2b_yareyare_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400196.「梨花も見ました？kvS07/04/330400197.　やっぱり、間違いありませんわね…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400196", 256, TRUE);
+	OutputLine(NULL, "「梨花も見ました？",
+			NULL, "\"You saw it too, Rika?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400197", 256, TRUE);
+	OutputLine(NULL, "　やっぱり、間違いありませんわね…！」",
+			NULL, " I knew it, no doubt about it...!\"", Line_Normal);
+	ClearMessage();
+
+	FadeAllBustshots( 200, TRUE );
+
+//r沙都子は何か感づいたのか、俺の元へ歩み寄ってくる。そして、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "沙都子は何か感づいたのか、俺の元へ歩み寄ってくる。そして、",
+			NULL, "Satoko seemed to have sensed something, and walked up to me. And then,", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 4, "sprite/sa2b_def_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400198.「圭一さん、注意してください！kvS07/04/330400199.　…レナさんのさっき投げたあれ、スライダーですわ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400198", 256, TRUE);
+	OutputLine(NULL, "「圭一さん、注意してください！",
+			NULL, "\"Keiichi-san, please pay close attention!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400199", 256, TRUE);
+	OutputLine(NULL, "　…レナさんのさっき投げたあれ、スライダーですわ！」",
+			NULL, "...That pitch Rena-san just threw was a slider!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100289.「スライダー？　…って、なんだ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100289", 256, TRUE);
+	OutputLine(NULL, "「スライダー？　…って、なんだ？」",
+			NULL, "\"A slider? ...What's that?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2b_akireru_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400200.「知りませんの？！kvS07/04/330400201.　まっすぐの球とほとんど同じスピードで、バッターから逃げるように曲がる変化球のことですわ！kvS07/04/330400202.　ある意味でカーブよりも打ちにくい、プロご用達の魔球ですわよ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400200", 256, TRUE);
+	OutputLine(NULL, "「知りませんの？！",
+			NULL, "\"You haven't heard of it?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400201", 256, TRUE);
+	OutputLine(NULL, "　まっすぐの球とほとんど同じスピードで、バッターから逃げるように曲がる変化球のことですわ！",
+			NULL, " It's a breaking ball that travels at nearly the same speed as a fastball before bending away from the batter! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400202", 256, TRUE);
+	OutputLine(NULL, "　ある意味でカーブよりも打ちにくい、プロご用達の魔球ですわよ！」",
+			NULL, "In some ways it's even harder to hit than a curveball. A magic pitch that the pros use!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100290.「な、なにぃぃっ？！kvS07/01/330100291.　なんでそんな球、レナが投げられるんだ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100290", 256, TRUE);
+	OutputLine(NULL, "「な、なにぃぃっ？！",
+			NULL, "\"Wh-whaaat?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100291", 256, TRUE);
+	OutputLine(NULL, "　なんでそんな球、レナが投げられるんだ？！」",
+			NULL, " How is Rena able to throw pitches like that?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me2_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300138.「そりゃあまぁ、…伝記を読んできたからじゃない？kvS07/03/330300139.　往年の大投手の」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300138", 256, TRUE);
+	OutputLine(NULL, "「そりゃあまぁ、…伝記を読んできたからじゃない？",
+			NULL, "\"Well... isn't it because she read those biographies?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300139", 256, TRUE);
+	OutputLine(NULL, "　往年の大投手の」",
+			NULL, " Of great pitchers in history?\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100292.「なんじゃそりゃ？！kvS07/01/330100293.　そんなもんで魔球が身につくなら、プロ野球選手があんなに高額年俸もらったりするわけないだろぉっ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100292", 256, TRUE);
+	OutputLine(NULL, "「なんじゃそりゃ？！",
+			NULL, "\"What the...?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100293", 256, TRUE);
+	OutputLine(NULL, "　そんなもんで魔球が身につくなら、プロ野球選手があんなに高額年俸もらったりするわけないだろぉっ！！」",
+			NULL, " There's no way pro baseball players would be raking in the huge salaries they get if that was all it took to learn magic pitcheees!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si1b_yowaki_b1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600097.「…しかし、現に投げてきているわけですから。kvS07/06/330600098.さすがはレナさんというか、…正直、驚きました」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600097", 256, TRUE);
+	OutputLine(NULL, "「…しかし、現に投げてきているわけですから。",
+			NULL, "\"...But she really is throwing them, though.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600098", 256, TRUE);
+	OutputLine(NULL, "さすがはレナさんというか、…正直、驚きました」",
+			NULL, " I'd like to say I expected as much from Rena-san... but honestly, I was surprised too.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 5, "sprite/ri2_fuman_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//梨花rvS07/05/330500158.「…みぃ。kvS07/05/330500159.いくら勾玉の力とはいえ、好きな相手のために魔球を投げられるとは、レナはすごいやつなのですよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500158", 256, TRUE);
+	OutputLine(NULL, "「…みぃ。",
+			NULL, "\"...Meep.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500159", 256, TRUE);
+	OutputLine(NULL, "いくら勾玉の力とはいえ、好きな相手のために魔球を投げられるとは、レナはすごいやつなのですよ」",
+			NULL, " No matter how powerful that magatama may be, Rena is amazing for being able to throw a magic pitch for the sake of the person she loves.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100294.「た、確かに…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100294", 256, TRUE);
+	OutputLine(NULL, "「た、確かに…」",
+			NULL, "\"T-true...\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+
+//rそうこう話している間にもレナの３打席目が始まり、プライドを打ち砕かれたように半分涙目の亀田くんが３球目を投げる。そして、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そうこう話している間にもレナの３打席目が始まり、プライドを打ち砕かれたように半分涙目の亀田くんが３球目を投げる。そして、",
+			NULL, "As we were talking, Rena began her third at-bat. Kameda-kun was halfway teary-eyed as he threw the third pitch. And then,", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM(1, 300, FALSE);
+	PlayBGM(2, "hm02_11", 128, 0);
+	PlaySE(3, "rena-swing", 256, 64);
+	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
+	PlaySE(3, "vse_hit", 256, 64);
+	ModDrawCharacter(5, 2, "sprite/re2b_kaii_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	DrawScene("bg/oki_g3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//rカキィィィ――ンンッッ！！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "カキィィィ——ンンッッ！！！",
+			NULL, "*craaaack*", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "daidageki", 256, 64);
+	ModDrawCharacter(3, 23, "sprite/kameda2b_odoroki_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 50, TRUE );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//亀田rvS07/23/VT2A_kameda1020.「ひ、ひぃぃいぃっっ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5a5e5e>亀田</color>", NULL, "<color=#5a5e5e>Kameda</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 23, "ps3/s07/23/vt2a_kameda1020", 256, TRUE);
+	OutputLine(NULL, "「ひ、ひぃぃいぃっっ？！」",
+			NULL, "\"E-eeeeeek?!\"", Line_Normal);
+	ClearMessage();
+
+//r打った球はまたしてもアーチを描いて、青空高く舞い上がる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "打った球はまたしてもアーチを描いて、青空高く舞い上がる。",
+			NULL, "The ball was again batted at an arc, sending it soaring high in the bright blue sky.", Line_Normal);
+	ClearMessage();
+
+//rが、…幸か不幸かその軌道はファウルゾーンを越えて、ファウル。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "が、…幸か不幸かその軌道はファウルゾーンを越えて、ファウル。",
+			NULL, "But... fortunately, or perhaps unfortunately, the trajectory sent it beyond the foul line, so it was declared a foul ball.", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 6, "sprite/si1b_majime_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//詩音rvS07/06/330600099.「…とはいえ、飛距離だけでいえば十分スタンドインの打球でしたね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600099", 256, TRUE);
+	OutputLine(NULL, "「…とはいえ、飛距離だけでいえば十分スタンドインの打球でしたね」",
+			NULL, "\"...Though, judging it by distance alone, that hit was good even for a pinch hitter.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100295.「……ぐぅ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100295", 256, TRUE);
+	OutputLine(NULL, "「……ぐぅ」",
+			NULL, "\"...Gh.\"", Line_Normal);
+	ClearMessage();
+
+//r今さらながら、俺はとんでもない相手と戦っていることを思い知らされて戦慄する。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "今さらながら、俺はとんでもない相手と戦っていることを思い知らされて戦慄する。",
+			NULL, "I shuddered, once again reminded that I'm up against one hell of an opponent.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 2, "sprite/re2b_def_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//レナrvS07/02/330200275.「…ちっ、少し力が入っちゃったね。kvS07/02/330200276.さぁ、圭一くんの３打席目だよ？kvS07/02/330200277.　覚悟はいい？kvS07/02/330200278.　あははははは」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200275", 256, TRUE);
+	OutputLine(NULL, "「…ちっ、少し力が入っちゃったね。",
+			NULL, "\"...Tch, guess I hit that one a little too strong.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200276", 256, TRUE);
+	OutputLine(NULL, "さぁ、圭一くんの３打席目だよ？",
+			NULL, " All right Keiichi-kun, come step up for your third at-bat.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200277", 256, TRUE);
+	OutputLine(NULL, "　覚悟はいい？",
+			NULL, " Are you prepared for this?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200278", 256, TRUE);
+	OutputLine(NULL, "　あははははは」",
+			NULL, " Ahahahahaha.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100296.「……っ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100296", 256, TRUE);
+	OutputLine(NULL, "「……っ！」",
+			NULL, "\"...!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, FALSE);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//r力の差をまざまざと見せ付けられながら、俺は打席に入る。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "力の差をまざまざと見せ付けられながら、俺は打席に入る。",
+			NULL, "The power difference between us was on full display as I stepped up to the plate.", Line_Normal);
+	ClearMessage();
+
+//r次は変化球か、それとも直球か…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "次は変化球か、それとも直球か…。",
+			NULL, "Is this next one going to be a breaking ball? Or a straight shot...?", Line_Normal);
+	ClearMessage();
+
+//rくそ、コース以外にも球種の選択肢が増えたおかげで、全然集中できねぇ…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "くそ、コース以外にも球種の選択肢が増えたおかげで、全然集中できねぇ…！",
+			NULL, "Damn it, worrying about all these additional pitch options, I can't stay focused...!", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	ModDrawCharacter(4, 2, "sprite/re2a_okoru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200279.「――そらっ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200279", 256, TRUE);
+	OutputLine(NULL, "「——そらっ！」",
+			NULL, "\"...Take that!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM(2, 200, FALSE);
+	PlaySE(3, "nageru", 256, 64);
+	DrawSceneWithMask( "white", "effect/maskc", 0, 0, 150 );
+	DrawScene("black", 250 );
+	PlayBGM( 1, "kaze_lp", 128, 0 );
+
+//rレナの投げ込んだ球は外角に！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナの投げ込んだ球は外角に！",
+			NULL, "Rena's pitch was coming in the outside corner.", Line_Normal);
+	ClearMessage();
+
+//rぎりぎりバットが届く範囲だ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ぎりぎりバットが届く範囲だ！",
+			NULL, "Just barely within hitting range!", Line_Normal);
+	ClearMessage();
+
+}

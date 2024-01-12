@@ -1,0 +1,179 @@
+void RainOn()
+{
+	//rain is set to layer 60. Layers above 32 are automatically persistent between scene transitions.
+	if(GetLayerPriority(60) == -1) //will return -1 if the rain layer is not active
+	//	DrawSpriteWithFiltering(60, "effect/rain", "effect/down", 0, 0, 0, FALSE, FALSE, 0, 0, 60, 1300, TRUE);
+}
+
+void RainOff()
+{
+	if(GetLayerPriority(60) > 0) //will return -1 if the rain layer is not active
+		FadeSprite(60, 600, TRUE);
+}
+
+void PlayIntro()
+{
+	DisableWindow();
+	ClearMessage();
+	SetValidityOfSkipping(FALSE);
+	if(GetGlobalFlag(GLanguage) == 0)
+		PlayVideo("video/higurashi_hou.mp4", 640, 480);
+	else
+		PlayVideo("video/higurashi_hou_sub.mp4", 640, 480);
+	SetValidityOfSkipping(TRUE);
+}
+
+void EyeCatch()
+{
+	//for some reason, it's the same as 2
+	CallSection("EyeCatch2");
+}
+
+void EyeCatch2()
+{
+	DisableWindow();
+	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
+	//SetValidityOfInput( FALSE );
+	DrawBustshotWithFiltering( 6, "effect/cinema", "effect/x", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 62, 1300, TRUE );
+	DrawBustshot( 7, "effect/title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 63, 3000, TRUE );
+	Wait( 2000 );
+	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 61, 3000, TRUE );
+	FadeBustshotWithFiltering( 7, "effect/x", 0, FALSE, 0, 0, 1300, TRUE );
+	EndLayerPersistence(5);
+	EndLayerPersistence(6);
+	FadeOutBGM( 0, 3000, FALSE );
+	FadeOutBGM( 1, 3000, FALSE );
+	FadeOutBGM( 2, 3000, FALSE );
+	FadeOutBGM( 3, 3000, FALSE );
+	FadeOutBGM( 4, 3000, FALSE );
+	FadeOutBGM( 5, 3000, FALSE );
+	DrawScene( "black", 3000 );
+	StopAllSound();
+	//SetValidityOfInput( TRUE );
+}
+
+void HanyuuDance()
+{
+	//lsp 1,":b;Bmp2\Tati\Hanyu\miko\han_3.png",-20,30
+
+	int x = -120;
+	int y = 0;
+
+	x = x - 20;
+	y = y + 30;
+	DrawBustshot( 25, "sprite/normal/ha1_warai_2", x, y, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 400, TRUE );
+
+	PlaySE( 0, "a1_16258", 50, 64 );
+
+	x = x + 390;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+	PlaySE( 1, "a1_17270", 50, 64 );
+	y = y + 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+	y = y - 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+
+
+	PlaySE( 1, "a1_17270", 50, 64 );
+	y = y + 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+	y = y - 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+
+	PlaySE( 1, "a1_17270", 50, 64 );
+	y = y + 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+	y = y - 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+
+	PlaySE( 0, "wav/boyon", 50, 64 );
+	x = x -150;
+	y = y + 90;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+
+	PlaySE( 0, "b5", 50, 64 );
+	x = x -150;
+	y = y - 90;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+	PlaySE( 0, "wav/boyon", 50, 64 );
+	x = x - 90;
+	y = y + 90;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+
+	PlaySE( 0, "b5", 50, 64 );
+	x = x - 90;
+	y = y - 90;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+
+	PlaySE( 0, "wav/boyon", 50, 64 );
+	x = x + 120;
+	y = y + 90;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+	PlaySE( 0, "b5", 50, 64 );
+	x = x + 120;
+	y = y - 90;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 500, TRUE );
+
+	y = y + 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+
+	PlaySE( 0, "wav/down3", 50, 64 );
+	y = y - 40;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+
+	y = y + 120;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 250, TRUE );
+
+	PlaySE( 0, "wav/down3", 50, 64 );
+	Wait( 500 );
+
+	y = y - 100;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 100, TRUE );
+
+	PlaySE( 0, "wav/finish", 50, 64 );
+	ShakeScreen( 4, 9, 20, 50, 1, );
+
+	PlaySE( 1, "horror", 50, 64 );
+
+	DrawBustshot( 25, "sprite/normal-70/ha1_warai_2", x, y, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 600, TRUE );
+	DrawBustshot( 25, "sprite/normal/ha1_warai_2", x, y, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 600, TRUE );
+	DrawBustshot( 25, "sprite/normal-70/ha1_warai_2", x, y, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 600, TRUE );
+	DrawBustshot( 25, "sprite/normal/ha1_warai_2", x, y, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 600, TRUE );
+
+	Wait( 500 );
+	PlaySE( 1, "a1_16258", 50, 64 );
+	x = x - 750;
+	MoveBustshot( 25, NULL, x, y, 0, 25, 1000, TRUE );
+	FadeBustshot(25, FALSE, 0, 0, 0, 0, 0, TRUE);
+}
+
+void RenaMove1()
+{
+	//lsp 890,":b;bmp2\TATI\rena\sifuku\re_kaiib1.png",710,0
+
+	DrawBustshot( 25, "sprite/normal/re2b_kaii_b1_2", 480, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, TRUE );
+	MoveBustshot( 25, NULL, 150, 0, 0, 25, 200, TRUE );
+
+	PlaySE( 0, "b1", 50, 64 );
+	MoveBustshot( 25, NULL, 150, 63, 0, 25, 200, TRUE );
+	MoveBustshot( 25, NULL, 150, 0, 0, 25, 200, TRUE );
+
+	PlaySE( 1, "b1", 50, 64 );
+	MoveBustshot( 25, NULL, 150, 63, 0, 25, 200, TRUE );
+	MoveBustshot( 25, NULL, 150, 0, 0, 25, 200, TRUE );
+
+	Wait( 1000 );
+}
+
+void RenaMove2()
+{
+	DrawBustshot( 25, "sprite/normal/re2a_kaii_a1_2", 150, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 400, TRUE );
+	Wait( 500 );
+	MoveBustshot( 25, NULL, 150-351, 0, 0, 25, 180, TRUE );
+}

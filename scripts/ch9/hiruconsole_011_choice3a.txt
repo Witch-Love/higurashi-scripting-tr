@@ -1,0 +1,167 @@
+void main()
+{
+
+
+//*Hirukowashi Day 11 After picking choice 1 on third choice
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	PlaySE(3, "k1-swing", 256, 64);
+	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
+	FadeOutBGM(1, 200, FALSE);
+	PlaySE(3, "tataku", 256, 64);
+	DrawScene("bg/oki_g3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//rキィィンン…ッッ！！
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "キィィンン…ッッ！！",
+			NULL, "*tiiiing*", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 10, "sprite/iri3_def2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//入江rvS07/10/331000162.「…ファウル！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000162", 256, TRUE);
+	OutputLine(NULL, "「…ファウル！！」",
+			NULL, "\"...Foul!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//r俺の振りぬいたバットの上をかすめ、ボールはバックネットに突き刺さる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺の振りぬいたバットの上をかすめ、ボールはバックネットに突き刺さる。",
+			NULL, "The ball grazed the top of the bat as I swung, and then slammed into the net behind me.", Line_Normal);
+	ClearMessage();
+
+//rとりあえず、タイミングは合っていたが…今のは、直球だったのか？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "とりあえず、タイミングは合っていたが…今のは、直球だったのか？",
+			NULL, "I had the timing right, but... was that a straight pitch just now?", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 4, "sprite/sa2a_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400203.「っ、…タイムですわ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400203", 256, TRUE);
+	OutputLine(NULL, "「っ、…タイムですわ！」",
+			NULL, "\"...Timeout!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//rその時、我慢できないといった表情で沙都子が飛び出して、俺の元へと駆け寄ってくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "その時、我慢できないといった表情で沙都子が飛び出して、俺の元へと駆け寄ってくる。",
+			NULL, "Just then, Satoko jumped up and ran up beside me, with a look on her face like she couldn't take it anymore.", Line_Normal);
+	ClearMessage();
+
+//rそして、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そして、",
+			NULL, "And then,", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2b_hau_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400204.「…圭一さん、今の球は？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400204", 256, TRUE);
+	OutputLine(NULL, "「…圭一さん、今の球は？」",
+			NULL, "\"...Keiichi, what do you think that last pitch was?\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100298.「え？kvS07/01/330100299.　いや、…直球だろ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100298", 256, TRUE);
+	OutputLine(NULL, "「え？",
+			NULL, "\"Huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100299", 256, TRUE);
+	OutputLine(NULL, "　いや、…直球だろ？」",
+			NULL, " Umm... a fastball?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2a_akireru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400205.「違いますわよ！kvS07/04/330400206.　今のもスライダーです！kvS07/04/330400207.　…まずいですわね。kvS07/04/330400208.このままだと全打席、当てるのが精一杯って感じになってしまいますわ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400205", 256, TRUE);
+	OutputLine(NULL, "「違いますわよ！",
+			NULL, "\"Wrong!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400206", 256, TRUE);
+	OutputLine(NULL, "　今のもスライダーです！",
+			NULL, " That was another slider!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400207", 256, TRUE);
+	OutputLine(NULL, "　…まずいですわね。",
+			NULL, " ...This is bad.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400208", 256, TRUE);
+	OutputLine(NULL, "このままだと全打席、当てるのが精一杯って感じになってしまいますわ…！」",
+			NULL, " If it keeps up like this, we'll need to hit every single pitch...!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100300.「く、くそっ…！kvS07/01/330100301.　沙都子、どうすればいい？kvS07/01/330100302.　スライダーの打ち方、お前はわかるか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100300", 256, TRUE);
+	OutputLine(NULL, "「く、くそっ…！",
+			NULL, "\"D-damn it...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100301", 256, TRUE);
+	OutputLine(NULL, "　沙都子、どうすればいい？",
+			NULL, " Satoko, what should we do?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100302", 256, TRUE);
+	OutputLine(NULL, "　スライダーの打ち方、お前はわかるか？」",
+			NULL, " Do you know how to hit a slider?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2b_yareyare_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400209.「私も本でしか読んだことはありませんわ。kvS07/04/330400210.そもそも、そんな変化球を投げられる方と野球をやったことはございませんし…。kvS07/04/330400211.いったいどうしたら…、あっ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400209", 256, TRUE);
+	OutputLine(NULL, "「私も本でしか読んだことはありませんわ。",
+			NULL, "\"I've only read about it in books.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400210", 256, TRUE);
+	OutputLine(NULL, "そもそも、そんな変化球を投げられる方と野球をやったことはございませんし…。",
+			NULL, " I've never even played against someone who could throw a breaking ball like that in the first place...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400211", 256, TRUE);
+	OutputLine(NULL, "いったいどうしたら…、あっ！」",
+			NULL, " How on earth can we... Oh!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2b_odoroki_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
+	PlaySE(3, "koruku", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+
+//rそこで、…何かを閃いたように沙都子がポン、と手を打つ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そこで、…何かを閃いたように沙都子がポン、と手を打つ。",
+			NULL, "Just then... Satoko clapped her hands together like she'd just had an epiphany.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2a_def_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400212.「圭一さん圭一さん、私にこの後の打席を任せていただけませんか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400212", 256, TRUE);
+	OutputLine(NULL, "「圭一さん圭一さん、私にこの後の打席を任せていただけませんか？」",
+			NULL, "\"Keiichi-san, Keiichi-san, would you please allow me to handle the next at-bat?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 4, "sprite/sa2a_akuwarai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//沙都子rvS07/04/330400213.「いい手を思いつきましたわ…をっほっほっほっ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400213", 256, TRUE);
+	OutputLine(NULL, "「いい手を思いつきましたわ…をっほっほっほっ！」",
+			NULL, "\"I have a most wonderful idea... Oh ho ho ho!\"", Line_Normal);
+	ClearMessage();
+
+}

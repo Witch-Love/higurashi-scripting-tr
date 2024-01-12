@@ -1,0 +1,307 @@
+void main()
+{
+
+
+//*Hirukowashi Day 1
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	DisableWindow();
+	FadeOutBGM( 0, 1000, FALSE  );
+	FadeOutBGM( 1, 1000, FALSE  );
+	FadeOutBGM( 2, 1000, FALSE  );
+	FadeOutBGM( 3, 1000, TRUE );
+
+//昼壊し編
+
+//#1 宝探し
+
+	ModPlayMovie("mv12");
+	DrawScene("white", 500 );
+	DrawSceneWithMask( "bg/m_hi3", "effect/maskc", 0, 0, 1000 );
+	PlayBGM(2, "hm01_01", 128, 0);
+	PlayBGM( 1, "semi", 128, 0 );
+	PlaySE(3, "boyoon", 256, 64);
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 2, "sprite/re1b_warai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200001.「るーるん、るんたったー、るんたった～♪」
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200001", 256, TRUE);
+	OutputLine(NULL, "「るーるん、るんたったー、るんたった～♪」",
+			NULL, "\"Ru ru, ru ta-ta, run-ta-ta~ ♪\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100001.「そのご機嫌具合から見て、例のダム現場にまた新しいゴミ山でもできたんだろう」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100001", 256, TRUE);
+	OutputLine(NULL, "「そのご機嫌具合から見て、例のダム現場にまた新しいゴミ山でもできたんだろう」",
+			NULL, "\"You're in a good mood. You found a new pile of trash at the dam site, didn't you?\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 2, "sprite/re1b_kaii_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200002.「うん、そうなの～！kvS07/02/330200003.　新しい山には何が埋まってるのかな！kvS07/02/330200004.　かぁいいお宝の予感～！kvS07/02/330200005.　帰ったらね、すぐに宝探しに行くんだよー！kvS07/02/330200006.　圭一くんも一緒に来ないかな、かな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200002", 256, TRUE);
+	OutputLine(NULL, "「うん、そうなの～！",
+			NULL, "\"Yep, that's right~!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200003", 256, TRUE);
+	OutputLine(NULL, "　新しい山には何が埋まってるのかな！",
+			NULL, " I wonder what's buried in the new pile!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200004", 256, TRUE);
+	OutputLine(NULL, "　かぁいいお宝の予感～！",
+			NULL, " I predict I'll find a kyute little treasure~!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200005", 256, TRUE);
+	OutputLine(NULL, "　帰ったらね、すぐに宝探しに行くんだよー！",
+			NULL, " After I get home, I'm going straight there for treasure-hunting!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200006", 256, TRUE);
+	OutputLine(NULL, "　圭一くんも一緒に来ないかな、かな！」",
+			NULL, " Keiichi-kun, wanna come too? Wanna come?\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100002.「俺かー？kvS07/01/330100003.　うーん、魅音に借りた漫画、まだ全巻読み終わってないんだよなぁ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100002", 256, TRUE);
+	OutputLine(NULL, "「俺かー？",
+			NULL, "\"Who, me?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100003", 256, TRUE);
+	OutputLine(NULL, "　うーん、魅音に借りた漫画、まだ全巻読み終わってないんだよなぁ」",
+			NULL, " Hmm... I still haven't finished all the comics Mion lent me.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re1a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200007.「う～、女の子が誘ってるのに、圭一くんは漫画を選ぶんだね…、はぅ。kvS07/02/330200008.…今日の部活で助け舟を出してあげたのにそのご恩返しがこれなんだね…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200007", 256, TRUE);
+	OutputLine(NULL, "「う～、女の子が誘ってるのに、圭一くんは漫画を選ぶんだね…、はぅ。",
+			NULL, "\"Uu~ A girl invites you out, but you'd rather read comics... Hau.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200008", 256, TRUE);
+	OutputLine(NULL, "…今日の部活で助け舟を出してあげたのにそのご恩返しがこれなんだね…」",
+			NULL, " ...This is what I get for helping a friend in need during club today, huh...\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100004.「ううう、ウソですごめんなさい、宝探し万歳です！kvS07/01/330100005.　ぜひレナさんの旅に同行させてくださいませ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100004", 256, TRUE);
+	OutputLine(NULL, "「ううう、ウソですごめんなさい、宝探し万歳です！",
+			NULL, "\"N-N-No, I'm sorry, I lied! I'm all for treasure hunting!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100005", 256, TRUE);
+	OutputLine(NULL, "　ぜひレナさんの旅に同行させてくださいませ！！」",
+			NULL, " Please, allow this one to accompany you on your journey, Rena-san!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 200, FALSE);
+	DrawSceneWithMask( "bg/sora", "effect/down", 0, 0, 1000 );
+
+//r……部活は非情の一言に尽きる。自分こそ優勝！　そして弱ったヤツは徹底的に叩きのめしビリを確定させる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……部活は非情の一言に尽きる。自分こそ優勝！　そして弱ったヤツは徹底的に叩きのめしビリを確定させる。",
+			NULL, "...Club activities today could be summed up as \"heartless.\" Every man for himself! Anyone showing weakness was crushed and dropped into last place.", Line_Normal);
+	ClearMessage();
+
+//r俺だって優勢の時は徹底的に蹴落とすし、逆ならとことん蹴落とされる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺だって優勢の時は徹底的に蹴落とすし、逆ならとことん蹴落とされる。",
+			NULL, "I would gladly romp people at an advantage, and be romped when the roles were reversed.", Line_Normal);
+	ClearMessage();
+
+//r今日の俺はどうにも運に見放され、ことごとく大勝負が裏目に出た。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "今日の俺はどうにも運に見放され、ことごとく大勝負が裏目に出た。",
+			NULL, "But today, luck just wasn't in my favor, and the deciding match completely backfired on me.", Line_Normal);
+	ClearMessage();
+
+//r…そこに、ちょっとした助け舟を出してくれたのがレナだったわけだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…そこに、ちょっとした助け舟を出してくれたのがレナだったわけだ。",
+			NULL, "...That was when Rena had given me a little help.", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200009.「でも、結果的にビリだったね。kvS07/02/330200010.あははは、罰ゲーム、今度の日曜日が楽しみかな、かな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200009", 256, TRUE);
+	OutputLine(NULL, "「でも、結果的にビリだったね。",
+			NULL, "\"But you ended up in last anyway.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200010", 256, TRUE);
+	OutputLine(NULL, "あははは、罰ゲーム、今度の日曜日が楽しみかな、かな！」",
+			NULL, " Ahahaha, the punishment game is this Sunday, and I can't wait! Can't wait!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100006.「……うぅうぅ、レナにあれだけ助けてもらってこのザマとは…。kvS07/01/330100007.不甲斐ないぜ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100006", 256, TRUE);
+	OutputLine(NULL, "「……うぅうぅ、レナにあれだけ助けてもらってこのザマとは…。",
+			NULL, "\"...Uuuu, you helped me so much, and now look at me...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100007", 256, TRUE);
+	OutputLine(NULL, "不甲斐ないぜ…」",
+			NULL, " I'm worthless...\"", Line_Normal);
+	ClearMessage();
+
+//r結局、レナの助け舟を活かすことはできず、俺のビリは確定した。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "結局、レナの助け舟を活かすことはできず、俺のビリは確定した。",
+			NULL, "In the end, I couldn't put Rena's help to good use, and that locked me in last place.", Line_Normal);
+	ClearMessage();
+
+//r…でも、レナのお陰で、起死回生の最後の大勝負に挑戦できたのは間違いない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…でも、レナのお陰で、起死回生の最後の大勝負に挑戦できたのは間違いない。",
+			NULL, "...But it was definitely thanks to her that I could even try going for that big, deciding match to turn things around.", Line_Normal);
+	ClearMessage();
+
+//rレナが助けてくれなかったら、その最後の勝負すら挑めないくらいの大負けだったのだから。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナが助けてくれなかったら、その最後の勝負すら挑めないくらいの大負けだったのだから。",
+			NULL, "If she hadn't helped me out, I would have lost even worse, without even having that opportunity.", Line_Normal);
+	ClearMessage();
+
+//rレナに、俺をビリから救済する義理はなかった。一位が望めないとわかったら、せめてビリだけは回避したいと普通なら考える。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナに、俺をビリから救済する義理はなかった。一位が望めないとわかったら、せめてビリだけは回避したいと普通なら考える。",
+			NULL, "Rena didn't have any responsibility to try and rescue me. Normally, you'd decide that if you couldn't hope for first, you could at least avoid last.", Line_Normal);
+	ClearMessage();
+
+//r放っておけば俺のビリは確定するのに、それを救済するのはリスクばかりで何の得にもならないはず。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "放っておけば俺のビリは確定するのに、それを救済するのはリスクばかりで何の得にもならないはず。",
+			NULL, "If she left me alone, it would have assured my last-place finish. She wouldn't gain anything from saving me aside from risk to herself, would she?", Line_Normal);
+	ClearMessage();
+
+//rなのに、レナは助けてくれたのだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "なのに、レナは助けてくれたのだ。",
+			NULL, "And yet she'd helped me anyway.", Line_Normal);
+	ClearMessage();
+
+//r……部活という非情の世界において、そのやさしさのカケラは、地獄に仏さまの後光が届くような神々しさだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……部活という非情の世界において、そのやさしさのカケラは、地獄に仏さまの後光が届くような神々しさだ。",
+			NULL, "...That fragment of kindness in the world of our cold, heartless club was sublime, as though the Buddha's nimbus had reached me in hell.", Line_Normal);
+	ClearMessage();
+
+//r情け容赦なく戦うのが部活の掟。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "情け容赦なく戦うのが部活の掟。",
+			NULL, "The one rule of our club was to fight without pity or mercy.", Line_Normal);
+	ClearMessage();
+
+//rでも、その中にあっても、やさしさを失わず、みんなで楽しくゲームをして遊ぼうという気持ちを失わないのがレナだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "でも、その中にあっても、やさしさを失わず、みんなで楽しくゲームをして遊ぼうという気持ちを失わないのがレナだった。",
+			NULL, "But even amidst that... Rena was the one who always held onto her kindness. She wants everyone to have a good time playing games.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("bg/sora", 50 );
+	PlayBGM( 1, "semi", 128, 0 );
+	ModDrawCharacter(3, 2, "sprite/re1a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawScene("bg/hi4", 1000 );
+
+//レナrvS07/02/330200011.「あはははは、買いかぶりすぎだよぅ。kvS07/02/330200012.…レナはワンサイドゲームって嫌いなだけ。kvS07/02/330200013.だって、どう戦っても逆転がないってわかったら、誰だって不貞腐れちゃうもん」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200011", 256, TRUE);
+	OutputLine(NULL, "「あはははは、買いかぶりすぎだよぅ。",
+			NULL, "\"Ahahahaha, you think too highly of me.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200012", 256, TRUE);
+	OutputLine(NULL, "…レナはワンサイドゲームって嫌いなだけ。",
+			NULL, " ...Rena just hates one-sided games.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200013", 256, TRUE);
+	OutputLine(NULL, "だって、どう戦っても逆転がないってわかったら、誰だって不貞腐れちゃうもん」",
+			NULL, " I mean, anyone would get sulky if they knew they couldn't make a comeback no matter how hard they fought.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100008.「ま、まぁなぁ。kvS07/01/330100009.…罰ゲームは俺に確定だってんで、決着を待たずに服の採寸までされてたからなぁ…。kvS07/01/330100010.あぁクソ、一体何の服の採寸なんだろぅなぁ…、トホホホ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100008", 256, TRUE);
+	OutputLine(NULL, "「ま、まぁなぁ。",
+			NULL, "\"W-Well, I guess.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100009", 256, TRUE);
+	OutputLine(NULL, "…罰ゲームは俺に確定だってんで、決着を待たずに服の採寸までされてたからなぁ…。",
+			NULL, " ...After all, once I was locked in for the punishment game, they started taking my clothing measurements without waiting for the end...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100010", 256, TRUE);
+	OutputLine(NULL, "あぁクソ、一体何の服の採寸なんだろぅなぁ…、トホホホ…」",
+			NULL, " Ah, crap, what the heck did they need them for...? Sob...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1a_def_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200014.「どんな逆境からでも、いつだって逆転はできると思うの。kvS07/02/330200015.……うぅん、そういう世界じゃないといけない。kvS07/02/330200016.だからね、レナは、どうしても困ってる人に、その、チャンスを与えずにはいられないの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200014", 256, TRUE);
+	OutputLine(NULL, "「どんな逆境からでも、いつだって逆転はできると思うの。",
+			NULL, "\"I think you can always make a comeback, no matter how bad it gets.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200015", 256, TRUE);
+	OutputLine(NULL, "……うぅん、そういう世界じゃないといけない。",
+			NULL, " ...Or, more like, that's how the world should be.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200016", 256, TRUE);
+	OutputLine(NULL, "だからね、レナは、どうしても困ってる人に、その、チャンスを与えずにはいられないの」",
+			NULL, " That's why Rena can't help but give a chance to people who are up a creek without a paddle.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100011.「………レナは本当にやさしいんだな。kvS07/01/330100012.…なんて話を聞かされると、レナが弱り目の時、容赦なく叩いてきた俺に良心の呵責が……、ううぅ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100011", 256, TRUE);
+	OutputLine(NULL, "「………レナは本当にやさしいんだな。",
+			NULL, "\"......Rena, you're such a nice person.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100012", 256, TRUE);
+	OutputLine(NULL, "…なんて話を聞かされると、レナが弱り目の時、容赦なく叩いてきた俺に良心の呵責が……、ううぅ！」",
+			NULL, " ...When you were weak, I knocked you out without mercy, so hearing this pricks my conscience... Uuu!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200017.「あははは、レナが好きでやってるんだから、圭一くんまでそうしてなんて言わないよぅ。k|yvS07/02/330200018.でもその、レナがピンチになった時はその、…貸しを返してくれるとうれしいかな、かな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200017", 256, TRUE);
+	OutputLine(NULL, "「あははは、レナが好きでやってるんだから、圭一くんまでそうしてなんて言わないよぅ。",
+			NULL, "\"Ahahaha, Rena does it because she wants to. I'm not telling you to do it too.", Line_WaitForInput);
+	ModDrawCharacter(3, 2, "sprite/re1b_hau_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200018", 256, TRUE);
+	OutputLine(NULL, "でもその、レナがピンチになった時はその、…貸しを返してくれるとうれしいかな、かな！」",
+			NULL, " But, well, when Rena is in a pinch... She'd be really happy if you repaid the favor! She would be!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100013.「おう！kvS07/01/330100014.　今日のは借りにしとくぜー！kvS07/01/330100015.　まぁ、それとは別でだ。kvS07/01/330100016.たまにはレナの宝探しに付き合ってやるぜ。kvS07/01/330100017.じゃあ、ダム現場のゴミ山に集合でいいな？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100013", 256, TRUE);
+	OutputLine(NULL, "「おう！",
+			NULL, "\"Right!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100014", 256, TRUE);
+	OutputLine(NULL, "　今日のは借りにしとくぜー！",
+			NULL, " I owe you one for today!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100015", 256, TRUE);
+	OutputLine(NULL, "　まぁ、それとは別でだ。",
+			NULL, " Well, aside from that.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100016", 256, TRUE);
+	OutputLine(NULL, "たまにはレナの宝探しに付き合ってやるぜ。",
+			NULL, " I'll go treasure hunting with you once in a while.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100017", 256, TRUE);
+	OutputLine(NULL, "じゃあ、ダム現場のゴミ山に集合でいいな？」",
+			NULL, " Let's meet up at the dam site?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200019.「うん！kvS07/02/330200020.　ダム現場の宝の山に集合ねー！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200019", 256, TRUE);
+	OutputLine(NULL, "「うん！",
+			NULL, "\"Okay!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200020", 256, TRUE);
+	OutputLine(NULL, "　ダム現場の宝の山に集合ねー！！」",
+			NULL, " Let's meet at the treasure mountain!!\"", Line_Normal);
+	ClearMessage();
+
+//rレナはとびきりの笑顔で答えると、ぶんぶんと腕を振りながら駆けて行った…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナはとびきりの笑顔で答えると、ぶんぶんと腕を振りながら駆けて行った…。",
+			NULL, "After answering with a wide smile, Rena ran off, waving her arm...", Line_Normal);
+	ClearMessage();
+
+	CallScript( "&eye" );
+
+}

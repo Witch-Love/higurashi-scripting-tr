@@ -1,0 +1,75 @@
+void main()
+{
+
+
+//*Hirukowashi Day 11 After picking choice 1 on second choice
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	PlaySE(3, "k1-swing", 256, 64);
+	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
+	FadeOutBGM(1, 200, FALSE);
+	PlaySE(3, "daidageki", 256, 64);
+	DrawScene("bg/oki_g3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//rバシィィイィ――ンッッ！！
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "バシィィイィ——ンッッ！！",
+			NULL, "*smaaack*", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 10, "sprite/iri3_def2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//入江rvS07/10/331000160.「ストライーック！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000160", 256, TRUE);
+	OutputLine(NULL, "「ストライーック！！」",
+			NULL, "\"Strike!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//rレナの放った球は俺のスイングをまたしてもすり抜け、後ろのキャッチャーのミットに納まった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナの放った球は俺のスイングをまたしてもすり抜け、後ろのキャッチャーのミットに納まった。",
+			NULL, "Again, Rena's pitch managed to slip past my swing, and landed in the catcher's mitt behind me.", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 3, "sprite/me2_yowaki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300137.「あちゃ～、全然タイミングあってないよ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300137", 256, TRUE);
+	OutputLine(NULL, "「あちゃ～、全然タイミングあってないよ…」",
+			NULL, "\"Rats~, the timing wasn't right at all...\"", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(5, 256, "none");
+	ModDrawCharacter(5, 6, "sprite/si1b_odoroki_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600096.「もう圭ちゃん、何やってんですか～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600096", 256, TRUE);
+	OutputLine(NULL, "「もう圭ちゃん、何やってんですか～！」",
+			NULL, "\"Come on Kei-chan, what are you doing~?!\"", Line_Normal);
+	ClearMessage();
+
+//rくッ…！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "くッ…！！",
+			NULL, "Ugh...!!", Line_Normal);
+	ClearMessage();
+
+//r完全に捉えたと思っていたのに、…なんでだ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "完全に捉えたと思っていたのに、…なんでだ？！",
+			NULL, "I thought I had nailed it perfectly... so what gives?!", Line_Normal);
+	ClearMessage();
+
+}

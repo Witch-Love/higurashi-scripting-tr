@@ -1,0 +1,1117 @@
+void main()
+{
+
+
+//*Hirukowashi Day 3
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+//#3 勾玉がレナに？
+
+	DrawSceneWithMask( "bg/sora2", "effect/m1", 0, 0, 1000 );
+	PlayBGM(2, "hm01_05", 128, 0);
+	Wait( 2000 );
+	ModSetLayerFilter(5, 256, "sunset");
+	ModDrawCharacter(5, 2, "sprite/re2a_warai_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	DrawScene("bg/mo_g1_01", 1000 );
+
+//レナrvS07/02/330200021.「宝探しってねー！！kvS07/02/330200022.　２つ楽しいことがあると思うの。kvS07/02/330200023.１つはもちろん、かぁいい宝物を見つけられた時だけど、もう１つはわかるー？！」
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200021", 256, TRUE);
+	OutputLine(NULL, "「宝探しってねー！！",
+			NULL, "\"Treasure hunting!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200022", 256, TRUE);
+	OutputLine(NULL, "　２つ楽しいことがあると思うの。",
+			NULL, " There's two fun things about it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200023", 256, TRUE);
+	OutputLine(NULL, "１つはもちろん、かぁいい宝物を見つけられた時だけど、もう１つはわかるー？！」",
+			NULL, " One is obviously finding kyute treasures, but do you know the other?!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100018.「……汗だくになっても何も見つからなくて、人生と時間の大切さに気付き我に返る時かー？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100018", 256, TRUE);
+	OutputLine(NULL, "「……汗だくになっても何も見つからなくて、人生と時間の大切さに気付き我に返る時かー？」",
+			NULL, "\"...Getting all sweaty, not finding anything, realizing how precious our lives and time are, snapping out of it, and going home?\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("white", 1000 );
+	DrawScene("bg/sora2", 1000 );
+	PlaySE(3, "nageru", 256, 64);
+	Wait( 150 );
+	PlaySE(1, "tataku", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	Wait( 350 );
+	PlaySE(3, "nageru", 256, 64);
+	Wait( 150 );
+	PlaySE(1, "down2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	Wait( 350 );
+	PlaySE(3, "furu", 256, 64);
+	Wait( 150 );
+	PlaySE(1, "down", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	Wait( 350 );
+
+//r楽しいことに疲れは覚えないとよく言うが、…レナのあの細い体のどこにこんな馬力が宿ってるってんだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "楽しいことに疲れは覚えないとよく言うが、…レナのあの細い体のどこにこんな馬力が宿ってるってんだ。",
+			NULL, "They say you don't get tired when you're having fun, but... Where in that slender body was Rena storing all this horsepower?", Line_Normal);
+	ClearMessage();
+
+//r粗大ゴミの山を漁るのはそれだけでも力仕事だ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "粗大ゴミの山を漁るのはそれだけでも力仕事だ。",
+			NULL, "Rummaging through an oversized garbage heap was exhausting in and of itself.", Line_Normal);
+	ClearMessage();
+
+//r俺は早々に根を上げ、廃車の屋根の上に広げた行楽シートの上で大の字だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺は早々に根を上げ、廃車の屋根の上に広げた行楽シートの上で大の字だった。",
+			NULL, "It didn't take long for me to pull out a picnic blanket, spread it on a decommissioned vehicle's roof, and sprawl out on it.", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200024.「ちーがーう～！kvS07/02/330200025.　どんなかぁいいものに出会えるかなって、こうして探してる時が一番楽しいんだよ。kvS07/02/330200026.だからね、もし何も見つからなくても、それはとっても楽しかったことなんだよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200024", 256, TRUE);
+	OutputLine(NULL, "「ちーがーう～！",
+			NULL, "\"Nooo, that isn't it!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200025", 256, TRUE);
+	OutputLine(NULL, "　どんなかぁいいものに出会えるかなって、こうして探してる時が一番楽しいんだよ。",
+			NULL, " It's the time you spend looking and wondering what kind of kyute things you'll happen to find.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200026", 256, TRUE);
+	OutputLine(NULL, "だからね、もし何も見つからなくても、それはとっても楽しかったことなんだよ」",
+			NULL, " That's what makes it so much fun, even if you don't find anything.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100019.「ふむ。kvS07/01/330100020.…まぁ、俺もつまらなくはなかったけどな。kvS07/01/330100021.お陰で、レナが持ってきてくれた、この水筒の麦茶がおいしいぜ！kvS07/01/330100022.　これ、明らかに我が家の麦茶よりうまいよなぁ。kvS07/01/330100023.何て言うのかなぁ、香ばしさが違うというか」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100019", 256, TRUE);
+	OutputLine(NULL, "「ふむ。",
+			NULL, "\"Hmm.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100020", 256, TRUE);
+	OutputLine(NULL, "…まぁ、俺もつまらなくはなかったけどな。",
+			NULL, " ...Well, it wasn't boring for me, either.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100021", 256, TRUE);
+	OutputLine(NULL, "お陰で、レナが持ってきてくれた、この水筒の麦茶がおいしいぜ！",
+			NULL, " Thanks to all the work, this bottle of barley tea you brought tastes great!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100022", 256, TRUE);
+	OutputLine(NULL, "　これ、明らかに我が家の麦茶よりうまいよなぁ。",
+			NULL, " This is definitely better than the stuff at my house. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100023", 256, TRUE);
+	OutputLine(NULL, "何て言うのかなぁ、香ばしさが違うというか」",
+			NULL, "How should I put it—it's like they smell different, or something.\"", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200027.「普通の市販のだよ？kvS07/02/330200028.　ヤカンにパックを入れて煮出すだけ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200027", 256, TRUE);
+	OutputLine(NULL, "「普通の市販のだよ？",
+			NULL, "\"That's the normal kind.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200028", 256, TRUE);
+	OutputLine(NULL, "　ヤカンにパックを入れて煮出すだけ」",
+			NULL, " You just put a pack in a teapot and boil it to get the flavor.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100024.「あー、煮出すってのが秘密だな多分！kvS07/01/330100025.　ウチのは冷水に放り込んで冷蔵庫に入れるだけだよ。kvS07/01/330100026.やっぱ火が入らないと味ってのは出ないんだなぁ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100024", 256, TRUE);
+	OutputLine(NULL, "「あー、煮出すってのが秘密だな多分！",
+			NULL, "\"Oh, boiling it must be the secret!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100025", 256, TRUE);
+	OutputLine(NULL, "　ウチのは冷水に放り込んで冷蔵庫に入れるだけだよ。",
+			NULL, " We just dump cold water in and put it in the fridge.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100026", 256, TRUE);
+	OutputLine(NULL, "やっぱ火が入らないと味ってのは出ないんだなぁ」",
+			NULL, " I guess you don't get the flavor if you don't heat it up first.\"", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200029.「あ、そうだそうだ、忘れてたー！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200029", 256, TRUE);
+	OutputLine(NULL, "「あ、そうだそうだ、忘れてたー！」",
+			NULL, "\"Oh, that's right, I forgot!\"", Line_Normal);
+	ClearMessage();
+
+//rぽんと手を打つと、レナは宝探しを一度中断して戻ってきた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ぽんと手を打つと、レナは宝探しを一度中断して戻ってきた。",
+			NULL, "Rena pounded her fist, then put her treasure hunting aside for the moment and came over to me.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
+	ModSetLayerFilter(4, 256, "sunset");
+	ModDrawCharacter(4, 2, "sprite/re2b_def_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/mo_g1_01", 1000 );
+
+//rそして、持ってきたカバンの中から包みを出して広げる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そして、持ってきたカバンの中から包みを出して広げる。",
+			NULL, "Then, she brought over a bag and took something out before unwrapping it.", Line_Normal);
+	ClearMessage();
+
+//r…何と気が効く！　クッキーじゃないか！　この不揃い感は間違いなく手作りのもの。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…何と気が効く！　クッキーじゃないか！　この不揃い感は間違いなく手作りのもの。",
+			NULL, "...Why, how considerate! They're cookies! Their lack of uniformity meant they had to be homemade.", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100027.「これ、レナの手作りなのか？！kvS07/01/330100028.　いっただきまーす。kvS07/01/330100029.うん、うまいうまい！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100027", 256, TRUE);
+	OutputLine(NULL, "「これ、レナの手作りなのか？！",
+			NULL, "\"Did you make these yourself!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100028", 256, TRUE);
+	OutputLine(NULL, "　いっただきまーす。",
+			NULL, " I'd be glad to have some.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100029", 256, TRUE);
+	OutputLine(NULL, "うん、うまいうまい！」",
+			NULL, " Mm, yep, these are great!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2b_komaru_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200030.「昨日作った残りなの。kvS07/02/330200031.ほとんどお父さんが食べちゃったから、あんまり残ってなかった。kvS07/02/330200032.レナもあんまり食べてないのにー」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200030", 256, TRUE);
+	OutputLine(NULL, "「昨日作った残りなの。",
+			NULL, "\"They're leftovers from yesterday.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200031", 256, TRUE);
+	OutputLine(NULL, "ほとんどお父さんが食べちゃったから、あんまり残ってなかった。",
+			NULL, " Dad ate most of them, so there weren't many left.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200032", 256, TRUE);
+	OutputLine(NULL, "レナもあんまり食べてないのにー」",
+			NULL, " Rena didn't even get to have that many.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100030.「そうかそうか、じゃあ俺だけが食べちゃ悪いな。kvS07/01/330100031.半分だけ食うぜ。kvS07/01/330100032.レナも食えよ！kvS07/01/330100033.　会心の出来だぜ！kvS07/01/330100034.　うん、むしゃむしゃ！kvS07/01/330100035.　この味、舌触り、格別じゃのぉおぉ～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100030", 256, TRUE);
+	OutputLine(NULL, "「そうかそうか、じゃあ俺だけが食べちゃ悪いな。",
+			NULL, "\"I see, I see, so I shouldn't eat them all myself.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100031", 256, TRUE);
+	OutputLine(NULL, "半分だけ食うぜ。",
+			NULL, " I'll just eat half.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100032", 256, TRUE);
+	OutputLine(NULL, "レナも食えよ！",
+			NULL, " You have some too!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100033", 256, TRUE);
+	OutputLine(NULL, "　会心の出来だぜ！",
+			NULL, " These are cookies after my own heart!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100034", 256, TRUE);
+	OutputLine(NULL, "　うん、むしゃむしゃ！",
+			NULL, " Mm, munch munch!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100035", 256, TRUE);
+	OutputLine(NULL, "　この味、舌触り、格別じゃのぉおぉ～！！」",
+			NULL, " This flavor, this texture, oh, they're extraordinary!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2a_def_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200033.「レナはいいから、圭一くんが全部食べちゃっていいよ。kvS07/02/330200034.そんなうれしそうな顔で食べてくれたら、作ったレナもクッキーも、すっごくうれしいもの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200033", 256, TRUE);
+	OutputLine(NULL, "「レナはいいから、圭一くんが全部食べちゃっていいよ。",
+			NULL, "\"Rena doesn't need any, so you can eat them all, Keiichi-kun.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200034", 256, TRUE);
+	OutputLine(NULL, "そんなうれしそうな顔で食べてくれたら、作ったレナもクッキーも、すっごくうれしいもの」",
+			NULL, " You look so happy with them, so both Rena and the cookies she made are really happy too.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100036.「そうか？kvS07/01/330100037.　ならいただくぜ、容赦なくなー！！kvS07/01/330100038.　殺せる！kvS07/01/330100039.　このクッキー１枚のためになら俺は人が殺せるぜー！！kvS07/01/330100040.　むしゃむしゃむしゃ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100036", 256, TRUE);
+	OutputLine(NULL, "「そうか？",
+			NULL, "\"Really?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100037", 256, TRUE);
+	OutputLine(NULL, "　ならいただくぜ、容赦なくなー！！",
+			NULL, " Guess I don't need to hold myself back!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100038", 256, TRUE);
+	OutputLine(NULL, "　殺せる！",
+			NULL, " I could kill!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100039", 256, TRUE);
+	OutputLine(NULL, "　このクッキー１枚のためになら俺は人が殺せるぜー！！",
+			NULL, " I could kill a man just to have one of these cookies!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100040", 256, TRUE);
+	OutputLine(NULL, "　むしゃむしゃむしゃ！！」",
+			NULL, " Munch munch munch!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200035.「あはははは、たとえはひどいけど、うれしいかな、かな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200035", 256, TRUE);
+	OutputLine(NULL, "「あはははは、たとえはひどいけど、うれしいかな、かな！」",
+			NULL, "\"Ahahaha, that's a terrible thing to say, but I'm happy. I am!\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("white", 1000 );
+	DrawSceneWithMask( "bg/sora2", "effect/up", 0, 0, 1000 );
+	PlayBGM( 1, "higurasi", 128, 0 );
+
+//r楽しい団欒のひととき…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "楽しい団欒のひととき…。",
+			NULL, "This fun moment sitting together...", Line_Normal);
+	ClearMessage();
+
+//r素直にレナの宝探しに付き合って正解だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "素直にレナの宝探しに付き合って正解だった。",
+			NULL, "Going with Rena on a treasure hunt was the right choice.", Line_Normal);
+	ClearMessage();
+
+//r……部屋に閉じこもってマンガを読んでるだけで今日を終えちまったら、今日という日に失礼だったもんな！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……部屋に閉じこもってマンガを読んでるだけで今日を終えちまったら、今日という日に失礼だったもんな！",
+			NULL, "...If I only ended up shutting myself up in my room with Mion's comics, it would have been rude to the day itself!", Line_Normal);
+	ClearMessage();
+
+//r空は少しずつ朱を混じらせていく。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "空は少しずつ朱を混じらせていく。",
+			NULL, "Scarlet began to creep into the sky.", Line_Normal);
+	ClearMessage();
+
+//r巣へと帰っていくのだろうか。鳥たちの群れが高い空の下を横切っていく…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "巣へと帰っていくのだろうか。鳥たちの群れが高い空の下を横切っていく…。",
+			NULL, "Flocks of birds started flying past...  Maybe they were going back to their nests.", Line_Normal);
+	ClearMessage();
+
+//rレナは広げた包みを片付けている。……そろそろ引き上げ時のようだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナは広げた包みを片付けている。……そろそろ引き上げ時のようだった。",
+			NULL, "Rena had already put away the cookie wrappers. ...It looked like it was time to go.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("bg/sora2", 50 );
+	ModSetLayerFilter(3, 256, "sunset");
+	ModDrawCharacter(3, 2, "sprite/re2a_def_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawScene("bg/mo_g3_01", 1000 );
+	FadeOutBGM(1, 200, FALSE);
+
+//圭一rvS07/01/330100041.「今日の戦果はどうだったよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100041", 256, TRUE);
+	OutputLine(NULL, "「今日の戦果はどうだったよ」",
+			NULL, "\"So what did you dig up today?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re2a_komaru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200036.「うーん、明日以降に期待、かな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200036", 256, TRUE);
+	OutputLine(NULL, "「うーん、明日以降に期待、かな！」",
+			NULL, "\"Hmm, hopes for tomorrow, I guess!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re2b_warai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200037.「この山はまだまだ深いよ～ぅ！kvS07/02/330200038.　きっと何かが出てくる。kvS07/02/330200039.レナには匂いでわかるのー、はぅ～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200037", 256, TRUE);
+	OutputLine(NULL, "「この山はまだまだ深いよ～ぅ！",
+			NULL, "\"This pile goes a lot deeper~!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200038", 256, TRUE);
+	OutputLine(NULL, "　きっと何かが出てくる。",
+			NULL, " I'm sure something will turn up.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200039", 256, TRUE);
+	OutputLine(NULL, "レナには匂いでわかるのー、はぅ～！！」",
+			NULL, " Rena can tell by the smell, hau~!!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100042.「ははははははは。kvS07/01/330100043.レナがそう信じてるなら、きっと何か出てくるだろ。kvS07/01/330100044.挫けるな！kvS07/01/330100045.　金が出るか温泉が出るか！kvS07/01/330100046.　楽しみにしてるぜ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100042", 256, TRUE);
+	OutputLine(NULL, "「ははははははは。",
+			NULL, "\"Hahahahahahaha.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100043", 256, TRUE);
+	OutputLine(NULL, "レナがそう信じてるなら、きっと何か出てくるだろ。",
+			NULL, " If you say something will turn up, I'm sure it will.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100044", 256, TRUE);
+	OutputLine(NULL, "挫けるな！",
+			NULL, " Don't lose heart!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100045", 256, TRUE);
+	OutputLine(NULL, "　金が出るか温泉が出るか！",
+			NULL, " Will it be gold, or a hot spring?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100046", 256, TRUE);
+	OutputLine(NULL, "　楽しみにしてるぜ」",
+			NULL, " I can't wait.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 2, "sprite/re2b_def_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200040.「明日も宝探ししたら、圭一くんも来てくれる？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200040", 256, TRUE);
+	OutputLine(NULL, "「明日も宝探ししたら、圭一くんも来てくれる？」",
+			NULL, "\"If I go treasure hunting tomorrow too, will you come with me?\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100047.「うん？kvS07/01/330100048.　俺か？kvS07/01/330100049.　そうだなぁ。kvS07/01/330100050.またレナの手作りクッキーが食べられるなら、考えてもいいぜー」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100047", 256, TRUE);
+	OutputLine(NULL, "「うん？",
+			NULL, "\"Hm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100048", 256, TRUE);
+	OutputLine(NULL, "　俺か？",
+			NULL, " Me?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100049", 256, TRUE);
+	OutputLine(NULL, "　そうだなぁ。",
+			NULL, " Hmm.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100050", 256, TRUE);
+	OutputLine(NULL, "またレナの手作りクッキーが食べられるなら、考えてもいいぜー」",
+			NULL, " I'll consider it if I can eat more of your homemade cookies.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200041.「ク、クッキーの準備がないから明日は無理…。kvS07/02/330200042.…クッキー作ってないと、…駄目？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200041", 256, TRUE);
+	OutputLine(NULL, "「ク、クッキーの準備がないから明日は無理…。",
+			NULL, "\"I-I didn't bake any more cookies, so I won't have them tomorrow...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200042", 256, TRUE);
+	OutputLine(NULL, "…クッキー作ってないと、…駄目？」",
+			NULL, " ...If I don't make cookies... you won't come?\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100051.「え？kvS07/01/330100052.　あ、あははははは、そんなウルウルな瞳で見んな！kvS07/01/330100053.　わわ、わかったよ！kvS07/01/330100054.　手伝うからそんな憐れみを誘う瞳で見んなー！kvS07/01/330100055.　俺のガラスの良心が痛む～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100051", 256, TRUE);
+	OutputLine(NULL, "「え？",
+			NULL, "\"Huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100052", 256, TRUE);
+	OutputLine(NULL, "　あ、あははははは、そんなウルウルな瞳で見んな！",
+			NULL, " Ah, ahahahaha, don't look at me with those eyes!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100053", 256, TRUE);
+	OutputLine(NULL, "　わわ、わかったよ！",
+			NULL, " O-O-Okay, I get it!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100054", 256, TRUE);
+	OutputLine(NULL, "　手伝うからそんな憐れみを誘う瞳で見んなー！",
+			NULL, " I'll help you, so don't give me that look!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100055", 256, TRUE);
+	OutputLine(NULL, "　俺のガラスの良心が痛む～！」",
+			NULL, " You'll break my glass conscience~!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2b_warai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200043.「くす、あははははははははは！kvS07/02/330200044.　圭一くんの明日のお手伝い、ゲット～！kvS07/02/330200045.　圭一くんと一緒なら、はぅ、何も出てこなくても楽しいよ。kvS07/02/330200046.あはははは！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200043", 256, TRUE);
+	OutputLine(NULL, "「くす、あははははははははは！",
+			NULL, "\"Hee hee, ahahahahahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200044", 256, TRUE);
+	OutputLine(NULL, "　圭一くんの明日のお手伝い、ゲット～！",
+			NULL, " I got Keiichi-kun to help me tomorrow~!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200045", 256, TRUE);
+	OutputLine(NULL, "　圭一くんと一緒なら、はぅ、何も出てこなくても楽しいよ。",
+			NULL, " When Keiichi-kun is with me, hau, it's fun even if I don't find anything.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200046", 256, TRUE);
+	OutputLine(NULL, "あはははは！」",
+			NULL, " Ahahahaha!\"", Line_Normal);
+	ClearMessage();
+
+//r普段の宝探しはひとりでするレナだが、たまには仲間がいるのも楽しいんだろう。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "普段の宝探しはひとりでするレナだが、たまには仲間がいるのも楽しいんだろう。",
+			NULL, "Rena usually went treasure hunting alone, but she probably also had fun doing it with friends once in a while.", Line_Normal);
+	ClearMessage();
+
+//rレナは、部活でもなかなか見せないような爽やかな笑いを見せてくれるのだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナは、部活でもなかなか見せないような爽やかな笑いを見せてくれるのだった。",
+			NULL, "She gave me a fresh, invigorating smile, the kind she didn't usually show anyone during club games.", Line_Normal);
+	ClearMessage();
+
+//rそれから後片付けをして帰り支度をし、引き上げることにした。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それから後片付けをして帰り支度をし、引き上げることにした。",
+			NULL, "After that, we decided to clean up, pack up, and leave.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+	FadeOutBGM(2, 1000, FALSE);
+	Wait( 2000 );
+	DrawScene("white", 100 );
+	PlaySE(3, "kamera", 256, 64);
+	DrawScene("bg/hi4_01", 1000 );
+
+//rそして土手を上がった瞬間、突然、眩いフラッシュが焚かれた！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そして土手を上がった瞬間、突然、眩いフラッシュが焚かれた！",
+			NULL, "And the moment we went up the embankment, there was a sudden dazzling flash!", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100056.「おわッ、眩しッ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100056", 256, TRUE);
+	OutputLine(NULL, "「おわッ、眩しッ？！」",
+			NULL, "\"Ack, my eyes!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kyupirn", 256, 64);
+	ModDrawCharacter(5, 8, "sprite/tomi1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+	PlayBGM(2, "hm01_04", 128, 0);
+
+//富竹rvS07/08/330800001.「はっははは！kvS07/08/330800002.　君たちの至福の笑顔、いただきさ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800001", 256, TRUE);
+	OutputLine(NULL, "「はっははは！",
+			NULL, "\"Hah-hahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800002", 256, TRUE);
+	OutputLine(NULL, "　君たちの至福の笑顔、いただきさ！」",
+			NULL, " Caught those blissful smiles on candid camera!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re2b_warai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200047.「と、富竹さんだー。kvS07/02/330200048.それに鷹野さんもー！kvS07/02/330200049.　こんにちは～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200047", 256, TRUE);
+	OutputLine(NULL, "「と、富竹さんだー。",
+			NULL, "\"T-Tomitake-san.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200048", 256, TRUE);
+	OutputLine(NULL, "それに鷹野さんもー！",
+			NULL, " And Takano-san, too!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200049", 256, TRUE);
+	OutputLine(NULL, "　こんにちは～！」",
+			NULL, " Hello~!\"", Line_Normal);
+	ClearMessage();
+
+	FadeAllBustshots( 200, TRUE );
+	ModDrawCharacter(4, 8, "sprite/tomi1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
+	ModDrawCharacter(3, 2, "sprite/re2b_warai_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, FALSE );
+	ModDrawCharacter(5, 9, "sprite/ta1_def_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//鷹野rvS07/09/330900001.「くすくす、こんにちは。kvS07/09/330900002.ジロウさんもデリカシーのない人よねぇ？kvS07/09/330900003.　レナちゃんたちのデートに水を挿すなんて」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900001", 256, TRUE);
+	OutputLine(NULL, "「くすくす、こんにちは。",
+			NULL, "\"Hee hee. Hello there.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900002", 256, TRUE);
+	OutputLine(NULL, "ジロウさんもデリカシーのない人よねぇ？",
+			NULL, " Jirou-san has no tact, does he?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900003", 256, TRUE);
+	OutputLine(NULL, "　レナちゃんたちのデートに水を挿すなんて」",
+			NULL, " Wrecking your date like that...\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+
+//圭一rvS07/01/330100057.「デ、デートなんかじゃないっすよ、デデ、デートじゃないデートじゃない！kvS07/01/330100058.　そうだよなレナ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100057", 256, TRUE);
+	OutputLine(NULL, "「デ、デートなんかじゃないっすよ、デデ、デートじゃないデートじゃない！",
+			NULL, "\"I-It wasn't a date or anything. Not a date, not a date!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100058", 256, TRUE);
+	OutputLine(NULL, "　そうだよなレナ？！」",
+			NULL, " Right, Rena?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re2b_hau_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	PlaySE(3, "pou", 256, 64);
+
+//レナrvS07/02/330200050.「は、はぅぅ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200050", 256, TRUE);
+	OutputLine(NULL, "「は、はぅぅ」",
+			NULL, "\"H-Hauuu.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 8, "sprite/tomi1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//富竹rvS07/08/330800003.「はっはっはっは！kvS07/08/330800004.　こんなひと気のないところに男女が二人で将来を語り合っててもかい？kvS07/08/330800005.　いやいやいいんだいいんだ！kvS07/08/330800006.　そういう出会いを重ねながら二人の絆を強めていくんだよ。kvS07/08/330800007.ねぇ鷹野さん」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800003", 256, TRUE);
+	OutputLine(NULL, "「はっはっはっは！",
+			NULL, "\"Ha ha ha ha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800004", 256, TRUE);
+	OutputLine(NULL, "　こんなひと気のないところに男女が二人で将来を語り合っててもかい？",
+			NULL, " A boy and a girl coming to an empty place like this to talk about the future?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800005", 256, TRUE);
+	OutputLine(NULL, "　いやいやいいんだいいんだ！",
+			NULL, " Well, well, that's fine!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800006", 256, TRUE);
+	OutputLine(NULL, "　そういう出会いを重ねながら二人の絆を強めていくんだよ。",
+			NULL, " That's the kind of discussion that will strengthen the bond between you.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800007", 256, TRUE);
+	OutputLine(NULL, "ねぇ鷹野さん」",
+			NULL, " Right, Takano-san?\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kyupirn", 256, 64);
+	ModDrawCharacter(5, 9, "sprite/ta1_warai_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//鷹野rvS07/09/330900004.「くすくす。kvS07/09/330900005.最初の頃のジロウさんの、あれこれ苦しい理由を付けては私を誘おうとするのがとっても面白かったわ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900004", 256, TRUE);
+	OutputLine(NULL, "「くすくす。",
+			NULL, "\"Hee hee.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900005", 256, TRUE);
+	OutputLine(NULL, "最初の頃のジロウさんの、あれこれ苦しい理由を付けては私を誘おうとするのがとっても面白かったわ」",
+			NULL, " Back when we first met, Jirou-san would always have the funniest, most awkward ways of asking me out.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 9, "sprite/ta1_akuwarai_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+	PlaySE(3, "kira", 256, 64);
+
+//鷹野rvS07/09/330900006.「中でも傑作だった口実がアレね。kvS07/09/330900007.えぇと、」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900006", 256, TRUE);
+	OutputLine(NULL, "「中でも傑作だった口実がアレね。",
+			NULL, "\"I remember one masterful excuse in particular.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900007", 256, TRUE);
+	OutputLine(NULL, "えぇと、」",
+			NULL, " What was it...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 8, "sprite/tomi1_komaru_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 100, FALSE );
+	PlaySE(3, "dageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//富竹rvS07/08/330800008.「わわわわわ、待った待ったぁ！！kvS07/08/330800009.　アレは僕の勘違いで、そのあの！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800008", 256, TRUE);
+	OutputLine(NULL, "「わわわわわ、待った待ったぁ！！",
+			NULL, "\"Whoa, whoa, whoa, hold on there!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800009", 256, TRUE);
+	OutputLine(NULL, "　アレは僕の勘違いで、そのあの！！」",
+			NULL, " That was my mistake, and, well!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 9, "sprite/ta1_warai_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+	PlaySE(3, "boyoon", 256, 64);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	PlaySE(1, "boyoon", 256, 64);
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//r鷹野さんがくすくす笑うように駆け出すと、その後を富竹さんが追い掛ける。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "鷹野さんがくすくす笑うように駆け出すと、その後を富竹さんが追い掛ける。",
+			NULL, "Takano-san ran off, giggling, and Tomitake-san chased after her.", Line_Normal);
+	ClearMessage();
+
+//rこうして遠目に見ている分には、仲良しカップルに間違いなかった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "こうして遠目に見ている分には、仲良しカップルに間違いなかった。",
+			NULL, "From afar, they looked like they had to be a great couple.", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 2, "sprite/re2a_def_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200051.「あの二人は、一見ちぐはぐに見えて、すっごく仲良しだよね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200051", 256, TRUE);
+	OutputLine(NULL, "「あの二人は、一見ちぐはぐに見えて、すっごく仲良しだよね」",
+			NULL, "\"They seemed mismatched at first, but they like each other a lot.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100059.「そうだなぁ。kvS07/01/330100060.お互いのキャラクターが正反対ゆえに、パズルのピースの凸と凹みたいにバチっと相性があったのかもしれないなぁ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100059", 256, TRUE);
+	OutputLine(NULL, "「そうだなぁ。",
+			NULL, "\"Yeah.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100060", 256, TRUE);
+	OutputLine(NULL, "お互いのキャラクターが正反対ゆえに、パズルのピースの凸と凹みたいにバチっと相性があったのかもしれないなぁ」",
+			NULL, " They have completely opposite personalities. Maybe they went together like the bumps and dents in puzzle pieces.\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(2, 200, FALSE);
+	PlayBGM( 1, "semi", 128, 0 );
+	PlaySE(3, "pou", 256, 64);
+	ModDrawCharacter(4, 2, "sprite/re2a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200052.「はぅ…。kvS07/02/330200053.凸と凹がバチっと。kvS07/02/330200054.はぅはぅ、どういう意味かな、かな、かなかな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200052", 256, TRUE);
+	OutputLine(NULL, "「はぅ…。",
+			NULL, "\"Hau...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200053", 256, TRUE);
+	OutputLine(NULL, "凸と凹がバチっと。",
+			NULL, " Just like a bump and a dent.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200054", 256, TRUE);
+	OutputLine(NULL, "はぅはぅ、どういう意味かな、かな、かなかな」",
+			NULL, " Hau hau, what do you mean? What do you mean? What do you mean.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100061.「ちち、違う違う、そんな変な意味で言ったんじゃないぃいいぃ！kvS07/01/330100062.　赤くなるな、そこで赤くなられると非常に気まずいッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100061", 256, TRUE);
+	OutputLine(NULL, "「ちち、違う違う、そんな変な意味で言ったんじゃないぃいいぃ！",
+			NULL, "\"N-N-N... No, no, I wasn't trying to say anything weird!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100062", 256, TRUE);
+	OutputLine(NULL, "　赤くなるな、そこで赤くなられると非常に気まずいッ！！」",
+			NULL, " Stop blushing! You're only making this more awkward!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "furu", 256, 64);
+	Wait( 250 );
+	PlaySE(1, "furu", 256, 64);
+	Wait( 250 );
+	PlaySE(3, "furu", 256, 64);
+	Wait( 250 );
+	PlaySE(1, "lf164", 256, 64);
+	FadeOutBGM(1, 200, FALSE);
+	ModDrawCharacter(4, 2, "sprite/re2b_kaii_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+	PlayBGM(2, "hm01_02", 128, 0);
+
+//レナrvS07/02/330200055.「何だろ何だろ！！kvS07/02/330200056.　凸と凹～～、凸凹凸凹～！！kvS07/02/330200057.　○△凸※◎～！！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200055", 256, TRUE);
+	OutputLine(NULL, "「何だろ何だろ！！",
+			NULL, "\"I wonder, I wonder!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200056", 256, TRUE);
+	OutputLine(NULL, "　凸と凹～～、凸凹凸凹～！！",
+			NULL, " Bumps and dents~~ bump dent bump dent~!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200057", 256, TRUE);
+	OutputLine(NULL, "　○△凸※◎～！！！」",
+			NULL, " ○△凸※◎~!!!\"", Line_Normal);
+	ClearMessage();
+
+//rああぁ、駄目だ駄目だレナが壊れちまったぁあぁ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ああぁ、駄目だ駄目だレナが壊れちまったぁあぁ！",
+			NULL, "Ahhh, oh no, Rena's completely broken!", Line_Normal);
+	ClearMessage();
+
+//rこういう時は潔く、俺が一発殴られてＫＯされるいつものオチで収拾する他ない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "こういう時は潔く、俺が一発殴られてＫＯされるいつものオチで収拾する他ない。",
+			NULL, "The only way to solve this is her usual method: punching me out cold.", Line_Normal);
+	ClearMessage();
+
+//rさぁレナ、覚悟は完了だ！　いつもの電光石火のパンチで俺をＫＯしろおぉお！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "さぁレナ、覚悟は完了だ！　いつもの電光石火のパンチで俺をＫＯしろおぉお！！",
+			NULL, "All right, Rena, I'm prepared! Give me your usual lightning-fast punch and KO me in an instant!!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	PlaySE(3, "nageru", 256, 64);
+	Wait( 500 );
+	FadeOutBGM(2, 200, FALSE);
+	DrawScene("effect/furiker_a", 100 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(3, "down3", 256, 64);
+	DrawScene("black", 250 );
+
+//rと、その時、何かが飛んできて、ガツンとレナの頭に当たった。何事だ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "と、その時、何かが飛んできて、ガツンとレナの頭に当たった。何事だ？！",
+			NULL, "But then, something flew towards Rena and clunked her in the head. What was that?!", Line_Normal);
+	ClearMessage();
+
+//rレナが急激にむせ込んで膝を突くと、ゲホゲホと明らかに普通じゃない咳を繰り返した。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナが急激にむせ込んで膝を突くと、ゲホゲホと明らかに普通じゃない咳を繰り返した。",
+			NULL, "Rena suddenly choked up and fell to her knees, coughing over and over in a way that clearly wasn't normal.", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 1, "higurasi", 128, 0 );
+	DrawScene("bg/hi4_01", 1000 );
+
+//圭一rvS07/01/330100063.「お、おいどうしたよ！！kvS07/01/330100064.　大丈夫かレナ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100063", 256, TRUE);
+	OutputLine(NULL, "「お、おいどうしたよ！！",
+			NULL, "\"H-Hey, what's wrong?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100064", 256, TRUE);
+	OutputLine(NULL, "　大丈夫かレナ！！」",
+			NULL, " Are you okay, Rena?!\"", Line_Normal);
+	ClearMessage();
+
+//r咳を繰り返すレナの背中をさする。…一体何なんだ突然！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "咳を繰り返すレナの背中をさする。…一体何なんだ突然！",
+			NULL, "I rubbed Rena's back as she coughed. ...What the heck just happened?!", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 8, "sprite/tomi1_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//富竹rvS07/08/330800010.「どうしたんだい！kvS07/08/330800011.　大丈夫かい、レナちゃん！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800010", 256, TRUE);
+	OutputLine(NULL, "「どうしたんだい！",
+			NULL, "\"What's the matter?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800011", 256, TRUE);
+	OutputLine(NULL, "　大丈夫かい、レナちゃん！」",
+			NULL, " Are you all right, Rena-chan?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 9, "sprite/ta1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//鷹野rvS07/09/330900008.「しっかり。kvS07/09/330900009.呼吸はできる？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900008", 256, TRUE);
+	OutputLine(NULL, "「しっかり。",
+			NULL, "\"Hang on.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900009", 256, TRUE);
+	OutputLine(NULL, "呼吸はできる？！」",
+			NULL, " Can you breathe?!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100065.「今、お二人が何か投げてレナにぶつけませんでした？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100065", 256, TRUE);
+	OutputLine(NULL, "「今、お二人が何か投げてレナにぶつけませんでした？」",
+			NULL, "\"Did you two throw something and hit Rena just now?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 8, "sprite/tomi1_komaru_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//富竹rvS07/08/330800012.「は？kvS07/08/330800013.　何の話だい？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800012", 256, TRUE);
+	OutputLine(NULL, "「は？",
+			NULL, "\"Huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800013", 256, TRUE);
+	OutputLine(NULL, "　何の話だい？」",
+			NULL, " What are you talking about?\"", Line_Normal);
+	ClearMessage();
+
+//r確かに見た。何かが飛んできてレナの頭に当たったんだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "確かに見た。何かが飛んできてレナの頭に当たったんだ。",
+			NULL, "I definitely saw it. Something came flying and hit Rena in the head.", Line_Normal);
+	ClearMessage();
+
+//r俺はてっきり、富竹さんか鷹野さんが投げた物だと思っていたが、…そんな酷いこと、するわけがない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺はてっきり、富竹さんか鷹野さんが投げた物だと思っていたが、…そんな酷いこと、するわけがない。",
+			NULL, "I was sure it was something Tomitake-san or Takano-san had thrown... but they wouldn't do something so mean, would they?", Line_Normal);
+	ClearMessage();
+
+//rじゃあ何なんだ。天から何かが降ってきてぶつかったとでも言うのか？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "じゃあ何なんだ。天から何かが降ってきてぶつかったとでも言うのか？",
+			NULL, "Then what was it? Are you telling me that whatever it was fell from the heavens, or something?", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100066.「大丈夫かよレナ…！kvS07/01/330100067.　ハンカチ使うか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100066", 256, TRUE);
+	OutputLine(NULL, "「大丈夫かよレナ…！",
+			NULL, "\"Are you all right, Rena...?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100067", 256, TRUE);
+	OutputLine(NULL, "　ハンカチ使うか？」",
+			NULL, " Do you need a handkerchief?\"", Line_Normal);
+	ClearMessage();
+
+	FadeAllBustshots( 200, TRUE );
+	ModDrawCharacter(3, 9, "sprite/ta1_def_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, FALSE );
+	ModDrawCharacter(5, 8, "sprite/tomi1_komaru_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, FALSE );
+	ModDrawCharacter(4, 2, "sprite/re2b_bikkuri_b1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200058.「……あ、…ありがと……。kvS07/02/330200059.ぅううぅ…、けほけほ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200058", 256, TRUE);
+	OutputLine(NULL, "「……あ、…ありがと……。",
+			NULL, "\"...Th... Thanks...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200059", 256, TRUE);
+	OutputLine(NULL, "ぅううぅ…、けほけほ…！」",
+			NULL, " uuuu... *cough* *cough*...!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 9, "sprite/ta1_hatena_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//鷹野rvS07/09/330900010.「唾が気道に入ってむせちゃったのかしら？kvS07/09/330900011.　落ち着いた？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900010", 256, TRUE);
+	OutputLine(NULL, "「唾が気道に入ってむせちゃったのかしら？",
+			NULL, "\"Did you swallow something the wrong way?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900011", 256, TRUE);
+	OutputLine(NULL, "　落ち着いた？」",
+			NULL, " Have you calmed down?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2b_nande_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200060.「そ、空を見上げながらふざけてたら…、急に何かが口の中に飛び込んできて…、飲み込んじゃって…。kvS07/02/330200061.うぅうぅ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200060", 256, TRUE);
+	OutputLine(NULL, "「そ、空を見上げながらふざけてたら…、急に何かが口の中に飛び込んできて…、飲み込んじゃって…。",
+			NULL, "\"I-I was looking at the sky and fooling around... when something suddenly flew into my mouth... and I swallowed it...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200061", 256, TRUE);
+	OutputLine(NULL, "うぅうぅ…」",
+			NULL, " uuuu...\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "jakinimititahaikyo", 256, 64);
+
+//圭一rvS07/01/330100068.「飲み込んだぁ？！kvS07/01/330100069.　何を飲み込んじまったんだ。kvS07/01/330100070.お腹とか痛くないか？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100068", 256, TRUE);
+	OutputLine(NULL, "「飲み込んだぁ？！",
+			NULL, "\"Swallowed it!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100069", 256, TRUE);
+	OutputLine(NULL, "　何を飲み込んじまったんだ。",
+			NULL, " What did you swallow?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100070", 256, TRUE);
+	OutputLine(NULL, "お腹とか痛くないか？！」",
+			NULL, " Does your stomach hurt or anything?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2a_komaru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200062.「痛くはないけど…、違和感があってヘン…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200062", 256, TRUE);
+	OutputLine(NULL, "「痛くはないけど…、違和感があってヘン…」",
+			NULL, "\"It doesn't, but... I feel a little strange...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 8, "sprite/tomi1_def_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//富竹rvS07/08/330800014.「……何だろう。kvS07/08/330800015.昆虫が飛び込んできて、偶然飲み込んじゃったのかな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800014", 256, TRUE);
+	OutputLine(NULL, "「……何だろう。",
+			NULL, "\"...I wonder why.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800015", 256, TRUE);
+	OutputLine(NULL, "昆虫が飛び込んできて、偶然飲み込んじゃったのかな」",
+			NULL, " Did a bug fly into your mouth?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 9, "sprite/ta1_def_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//鷹野rvS07/09/330900012.「気になるようだったら吐かせた方がいいわね。kvS07/09/330900013.向こうの事務所跡に確か使える蛇口があったはずよ。kvS07/09/330900014.水をたくさん飲んで、指で喉の奥を刺激して吐き出すの」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900012", 256, TRUE);
+	OutputLine(NULL, "「気になるようだったら吐かせた方がいいわね。",
+			NULL, "\"If it's bothering you, you should try vomiting.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900013", 256, TRUE);
+	OutputLine(NULL, "向こうの事務所跡に確か使える蛇口があったはずよ。",
+			NULL, " They should have a sink at the office site you can use.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900014", 256, TRUE);
+	OutputLine(NULL, "水をたくさん飲んで、指で喉の奥を刺激して吐き出すの」",
+			NULL, " Drink a lot of water, then put your finger in the back of your throat and throw it all up.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100071.「そうした方がいいな…！kvS07/01/330100072.　レナ、肩を貸すから行こう！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100071", 256, TRUE);
+	OutputLine(NULL, "「そうした方がいいな…！",
+			NULL, "\"That's a good idea...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100072", 256, TRUE);
+	OutputLine(NULL, "　レナ、肩を貸すから行こう！」",
+			NULL, " Rena, I'll help you stand, so let's go!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "pou", 256, 64);
+	ModDrawCharacter(4, 2, "sprite/re2a_bikkuri_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 100, FALSE );
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+
+//レナrvS07/02/330200063.「……あれ…？kvS07/02/330200064.　……すっきりしちゃった…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200063", 256, TRUE);
+	OutputLine(NULL, "「……あれ…？",
+			NULL, "\"...Huh...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200064", 256, TRUE);
+	OutputLine(NULL, "　……すっきりしちゃった…」",
+			NULL, " ...I feel better...\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100073.「どうしたよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100073", 256, TRUE);
+	OutputLine(NULL, "「どうしたよ」",
+			NULL, "\"What?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200065.「……うん。kvS07/02/330200066.お腹の中のコロコロした感じがね、すぅっと消えちゃった。kvS07/02/330200067.…もう何ともないよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200065", 256, TRUE);
+	OutputLine(NULL, "「……うん。",
+			NULL, "\"...Yeah.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200066", 256, TRUE);
+	OutputLine(NULL, "お腹の中のコロコロした感じがね、すぅっと消えちゃった。",
+			NULL, " It felt like something was rolling around in my stomach, but it went away.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200067", 256, TRUE);
+	OutputLine(NULL, "…もう何ともないよ」",
+			NULL, " ...I don't feel it anymore.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 8, "sprite/tomi1_komaru_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//富竹rvS07/08/330800016.「本当に何ともないのかい？kvS07/08/330800017.　大丈夫かな…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800016", 256, TRUE);
+	OutputLine(NULL, "「本当に何ともないのかい？",
+			NULL, "\"Are you sure it was nothing?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800017", 256, TRUE);
+	OutputLine(NULL, "　大丈夫かな…」",
+			NULL, " I hope you're all right...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 9, "sprite/ta1_hatena_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//鷹野rvS07/09/330900015.「…どうしても気になるんだったら、レントゲン撮って、胃の洗浄をした方がいいかもしれないわね。kvS07/09/330900016.本当にもう何ともないの？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900015", 256, TRUE);
+	OutputLine(NULL, "「…どうしても気になるんだったら、レントゲン撮って、胃の洗浄をした方がいいかもしれないわね。",
+			NULL, "\"...If it's really bothering you, we can take an X-ray of your stomach to see if there's a need to remove it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900016", 256, TRUE);
+	OutputLine(NULL, "本当にもう何ともないの？」",
+			NULL, " Are you sure it was nothing?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2b_def_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200068.「……はい。kvS07/02/330200069.うん、もう全然平気。kvS07/02/330200070.自分でも不思議です。kvS07/02/330200071.…けろっと治っちゃいました」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200068", 256, TRUE);
+	OutputLine(NULL, "「……はい。",
+			NULL, "\"...Yes.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200069", 256, TRUE);
+	OutputLine(NULL, "うん、もう全然平気。",
+			NULL, " Yep, I'm totally fine now.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200070", 256, TRUE);
+	OutputLine(NULL, "自分でも不思議です。",
+			NULL, " Even I don't get it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200071", 256, TRUE);
+	OutputLine(NULL, "…けろっと治っちゃいました」",
+			NULL, " ...I'm fit as a fiddle.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100074.「そうなのか…？kvS07/01/330100075.　念のため、診療所に行って監督に見てもらった方がいいんじゃないのか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100074", 256, TRUE);
+	OutputLine(NULL, "「そうなのか…？",
+			NULL, "\"Really...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100075", 256, TRUE);
+	OutputLine(NULL, "　念のため、診療所に行って監督に見てもらった方がいいんじゃないのか？」",
+			NULL, " Should we go to the clinic and have Coach look at you, just in case?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2b_warai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200072.「うん、ありがと！kvS07/02/330200073.　明日になっても具合が悪かったらそうするね。kvS07/02/330200074.でも今日のところはもう全然平気。kvS07/02/330200075.みんな、心配してくれてありがとう」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200072", 256, TRUE);
+	OutputLine(NULL, "「うん、ありがと！",
+			NULL, "\"No, I'm good!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200073", 256, TRUE);
+	OutputLine(NULL, "　明日になっても具合が悪かったらそうするね。",
+			NULL, " I'll do that if I feel sick tomorrow.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200074", 256, TRUE);
+	OutputLine(NULL, "でも今日のところはもう全然平気。",
+			NULL, " But I'm all better for today.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200075", 256, TRUE);
+	OutputLine(NULL, "みんな、心配してくれてありがとう」",
+			NULL, " Thanks for worrying about me, everyone.\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 1000 );
+
+//r当のレナが、もう何ともないというのだからそれ以上を詮索してもしょうがない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "当のレナが、もう何ともないというのだからそれ以上を詮索してもしょうがない。",
+			NULL, "The person concerned said it was nothing, so there was no point in prying any further.", Line_Normal);
+	ClearMessage();
+
+//r富竹さんたちとはそこで別れ、俺はレナを自宅まで送るのだった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "富竹さんたちとはそこで別れ、俺はレナを自宅まで送るのだった。",
+			NULL, "We said farewell to Tomitake-san and Takano-san, and then I walked Rena back to her house.", Line_Normal);
+	ClearMessage();
+
+//rレナの具合が急に悪くならないかと最初は不安だった俺も、今日の宝探しが本当に楽しかったと何度も繰り返すレナの話を聞いている内に、
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナの具合が急に悪くならないかと最初は不安だった俺も、今日の宝探しが本当に楽しかったと何度も繰り返すレナの話を聞いている内に、",
+			NULL, "At first, I was worried about Rena suddenly growing worse. But as I listened to her go on and on about how fun today's treasure hunt was,", Line_Normal);
+	ClearMessage();
+
+//rだんだんその気持ちも薄れ、また明日も一緒に宝探しをしようという話になっていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だんだんその気持ちも薄れ、また明日も一緒に宝探しをしようという話になっていた。",
+			NULL, "My worries drifted away, and we got to talking about going hunting again tomorrow.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("black", 50 );
+	FadeOutBGM(1, 1000, TRUE);
+	ModSetLayerFilter(4, 256, "night");
+	ModDrawCharacter(4, 2, "sprite/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/re_s4", 1000 );
+	PlayBGM( 1, "yoru", 128, 0 );
+	PlayBGM(2, "hm01_07", 128, 0);
+
+//レナrvS07/02/330200076.「じゃあね、圭一くん。kvS07/02/330200077.お見送りまでしてくれてありがと！kvS07/02/330200078.　もし明日の部活が早く終わったら、また一緒に宝探しに行こうね！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200076", 256, TRUE);
+	OutputLine(NULL, "「じゃあね、圭一くん。",
+			NULL, "\"Bye, Keiichi-kun.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200077", 256, TRUE);
+	OutputLine(NULL, "お見送りまでしてくれてありがと！",
+			NULL, " Thanks for taking me home!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200078", 256, TRUE);
+	OutputLine(NULL, "　もし明日の部活が早く終わったら、また一緒に宝探しに行こうね！」",
+			NULL, " If club tomorrow ends early, let's go treasure hunting together again!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100076.「おう！kvS07/01/330100077.　今日はおいしいクッキーと麦茶をありがとうな！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100076", 256, TRUE);
+	OutputLine(NULL, "「おう！",
+			NULL, "\"Yeah!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100077", 256, TRUE);
+	OutputLine(NULL, "　今日はおいしいクッキーと麦茶をありがとうな！！」",
+			NULL, " And thanks for the cookies and barley tea today!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2b_warai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200079.「手作りじゃないけど、kvS07/02/330200080.明日も何かお茶請けを持っていくね。kvS07/02/330200081.乞うご期待～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200079", 256, TRUE);
+	OutputLine(NULL, "「手作りじゃないけど、",
+			NULL, "\"It won't be homemade,", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200080", 256, TRUE);
+	OutputLine(NULL, "明日も何かお茶請けを持っていくね。",
+			NULL, " but I'll bring some kind of snack tomorrow.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200081", 256, TRUE);
+	OutputLine(NULL, "乞うご期待～！」",
+			NULL, " Please look forward to it~!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100078.「お～ぅ！！kvS07/01/330100079.　楽しみにしてるぜー！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100078", 256, TRUE);
+	OutputLine(NULL, "「お～ぅ！！",
+			NULL, "\"Awesome!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100079", 256, TRUE);
+	OutputLine(NULL, "　楽しみにしてるぜー！」",
+			NULL, " I can't wait!\"", Line_Normal);
+	ClearMessage();
+
+//rレナははち切れんばかりの上機嫌。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナははち切れんばかりの上機嫌。",
+			NULL, "Rena's mood seemed so good that she was fit to burst.", Line_Normal);
+	ClearMessage();
+
+//rそんなレナを見ている内に、俺はさっきの異物騒ぎのことをもうすっかり忘れてしまうのだった…。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "そんなレナを見ている内に、俺はさっきの異物騒ぎのことをもうすっかり忘れてしまうのだった…。",
+			NULL, "As I watched her, I completely forgot about the fuss over the foreign object earlier...", Line_Normal);
+	ClearMessage();
+
+	CallScript("&eye");
+
+}

@@ -1,0 +1,104 @@
+void main()
+{
+
+
+//*Hirukowashi Day 11 After picking choice 2 on first choice
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	PlaySE(3, "k1-swing", 256, 64);
+	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
+	PlaySE(0, "koruku", 256, 64);
+	DrawScene("bg/oki_g3", 250 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//rピシッ……！！
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ピシッ……！！",
+			NULL, "*ping*", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 10, "sprite/iri3_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//入江rvS07/10/331000159.「ファウル！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000159", 256, TRUE);
+	OutputLine(NULL, "「ファウル！！」",
+			NULL, "\"Foul!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//rレナの放った球は俺のバットをわずかにかすって、ボテボテっと一塁側のファウルゾーンに転がった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナの放った球は俺のバットをわずかにかすって、ボテボテっと一塁側のファウルゾーンに転がった。",
+			NULL, "My bat just slightly grazed Rena's ball, and it rolled into the foul zone on the first base size.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200273.「惜しかったね、あははは！kvS07/02/330200274.　まずはレナが一本リードだよ～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200273", 256, TRUE);
+	OutputLine(NULL, "「惜しかったね、あははは！",
+			NULL, "\"That was so close, ahahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200274", 256, TRUE);
+	OutputLine(NULL, "　まずはレナが一本リードだよ～！！」",
+			NULL, " Rena starts things off with a one-point lead~!!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100288.「くっ…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100288", 256, TRUE);
+	OutputLine(NULL, "「くっ…！！」",
+			NULL, "\"Rgh...!!\"", Line_Normal);
+	ClearMessage();
+
+//rいくら油断していたとはいえ、打ち損ないをしてしまうとは…不覚っ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "いくら油断していたとはいえ、打ち損ないをしてしまうとは…不覚っ！",
+			NULL, "Even if I was being careless... a mishit was such a failure!", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 3, "sprite/me2_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300136.「け、圭ちゃん…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300136", 256, TRUE);
+	OutputLine(NULL, "「け、圭ちゃん…」",
+			NULL, "\"K-Kei-chan...\"", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(5, 256, "none");
+	ModDrawCharacter(5, 6, "sprite/si1b_majime_b1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600095.「もう、しっかりしてくださいよ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600095", 256, TRUE);
+	OutputLine(NULL, "「もう、しっかりしてくださいよ！」",
+			NULL, "\"Come on, keep it together!\"", Line_Normal);
+	ClearMessage();
+
+//r魅音たちが心配そうに、俺の様子をうかがってくる。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "魅音たちが心配そうに、俺の様子をうかがってくる。",
+			NULL, "Mion and the others must've been worried and came to check on me.", Line_Normal);
+	ClearMessage();
+
+//r…まだだ！　まだたったの第一打席だ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…まだだ！　まだたったの第一打席だ！",
+			NULL, "...It's not over yet! That was only the first at-bat!", Line_Normal);
+	ClearMessage();
+
+//r次の打席でレナがミスって、俺が打てば…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "次の打席でレナがミスって、俺が打てば…！",
+			NULL, "As long as Rena misses the next pitch, and I'm able to land a hit...!", Line_Normal);
+	ClearMessage();
+
+}

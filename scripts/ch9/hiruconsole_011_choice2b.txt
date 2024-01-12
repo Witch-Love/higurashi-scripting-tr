@@ -1,0 +1,74 @@
+void main()
+{
+
+
+//*Hirukowashi Day 11 After picking choice 2 on second choice
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	PlaySE(3, "k1-swing", 256, 64);
+	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
+	FadeOutBGM(1, 200, FALSE);
+	PlaySE(3, "vse_hit", 256, 64);
+	DrawScene("bg/oki_g3", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//rカキィィィンッッ！！！
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "カキィィィンッッ！！！",
+			NULL, "*craaaack*", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 10, "sprite/iri3_majime2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//入江rvS07/10/331000161.「フェア！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000161", 256, TRUE);
+	OutputLine(NULL, "「フェア！！」",
+			NULL, "\"Fair!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+
+//rレナの放った球を渾身の力で打ち返すと、打球は三塁線を痛烈に抜けてゆく！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナの放った球を渾身の力で打ち返すと、打球は三塁線を痛烈に抜けてゆく！！",
+			NULL, "I hit Rena's pitch with all my might, and the ball went soaring down the third base line!!", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100297.「よっしゃ、長打コース！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100297", 256, TRUE);
+	OutputLine(NULL, "「よっしゃ、長打コース！！」",
+			NULL, "\"All right, it's heading between the outfielders!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 3, "sprite/me2_odoroki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//魅音rvS07/03/330300140.「何言ってんだよ、ヒットじゃ駄目でしょぉ～！kvS07/03/330300141.　これはホームラン対決なんだよ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300140", 256, TRUE);
+	OutputLine(NULL, "「何言ってんだよ、ヒットじゃ駄目でしょぉ～！",
+			NULL, "\"What are you saying?! Just getting a hit isn't good enough~!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300141", 256, TRUE);
+	OutputLine(NULL, "　これはホームラン対決なんだよ？！」",
+			NULL, " Did you forget this is a home run derby?!\"", Line_Normal);
+	ClearMessage();
+
+//rそれにしても、…自分で言うのもなんだがタイミングも読みもバッチリだったはずだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それにしても、…自分で言うのもなんだがタイミングも読みもバッチリだったはずだ。",
+			NULL, "Even so... I had the timing and the reading right on the mark, if I do say so myself.", Line_Normal);
+	ClearMessage();
+
+//rだから完全に捉えたと思っていたのに、…手応えが妙だ？！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "だから完全に捉えたと思っていたのに、…手応えが妙だ？！",
+			NULL, "So I thought I had nailed it perfectly... and yet I'm getting weird results?!", Line_Normal);
+	ClearMessage();
+
+}

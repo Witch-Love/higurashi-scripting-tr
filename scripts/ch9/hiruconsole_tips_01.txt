@@ -1,0 +1,313 @@
+﻿void main()
+{
+
+
+//*Tip 159, Hirukowashi console Tip 1
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+	PlaySE(3, "pou", 256, 64);
+	Wait( 1500 );
+
+//勾玉のキセキ
+
+	PlaySE(3, "chaimu", 256, 64);
+	Wait( 1000 );
+	DrawScene("bg/g1", 1000 );
+	Wait( 1000 );
+	DrawScene("bg/g2", 1000 );
+	Wait( 1000 );
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 1000 );
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 1, "sprite/kei1_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/gk1", 1000 );
+	PlayBGM(2, "hm01_01", 128, 0);
+
+//圭一rvS20/01/VTT_keiichi3026.「…にしても、縁結びの勾玉かぁ。kvS20/01/VTT_keiichi3027.使い方によっては、世界平和にも利用できそうなんだけどな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3026", 256, TRUE);
+	OutputLine(NULL, "「…にしても、縁結びの勾玉かぁ。",
+			NULL, "\"...Anyway, a matchmaking magatama, huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3027", 256, TRUE);
+	OutputLine(NULL, "使い方によっては、世界平和にも利用できそうなんだけどな」",
+			NULL, " Depending how it's used, that might be able to lead toward world peace.\"", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 3, "sprite/me1b_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS20/03/VTT_mion3037.「世界平和ぁ？kvS20/03/VTT_mion3038.　なんか、えらくスケールの大きな話が出たね。kvS20/03/VTT_mion3039.それって、いったいどうやって？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3037", 256, TRUE);
+	OutputLine(NULL, "「世界平和ぁ？",
+			NULL, "\"World peeeace?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3038", 256, TRUE);
+	OutputLine(NULL, "　なんか、えらくスケールの大きな話が出たね。",
+			NULL, " That seems like a rather large-scale proposal.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3039", 256, TRUE);
+	OutputLine(NULL, "それって、いったいどうやって？」",
+			NULL, " Just how might you go about that?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS20/01/VTT_keiichi3028.「ほら、あれだ。kvS20/01/VTT_keiichi3029.紛争とかでいがみ合ってる二つの国の偉い人に渡すんだ。kvS20/01/VTT_keiichi3030.そうしたらお互いに仲良くなって、めでたしめでたしじゃないか」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3028", 256, TRUE);
+	OutputLine(NULL, "「ほら、あれだ。",
+			NULL, "\"Here's what you do.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3029", 256, TRUE);
+	OutputLine(NULL, "紛争とかでいがみ合ってる二つの国の偉い人に渡すんだ。",
+			NULL, " Give it to the leaders of two countries that are in the middle of some kinda dispute.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3030", 256, TRUE);
+	OutputLine(NULL, "そうしたらお互いに仲良くなって、めでたしめでたしじゃないか」",
+			NULL, " That way, they'd be able to get along and live happily ever after.\"", Line_Normal);
+	ClearMessage();
+
+	ModSetLayerFilter(5, 256, "none");
+	ModDrawCharacter(5, 4, "sprite/sa1b_akireru_b1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS20/04/VTT_satoko3016.「…いくらなんでも、お国の対立問題でそう簡単にはまいりませんわ。kvS20/04/VTT_satoko3017.上の方が仲直りしても、他の方々が納得しなければ同じことですし。kvS20/04/VTT_satoko3018.二人とも職を追われておしまいだと思いますわよ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/vtt_satoko3016", 256, TRUE);
+	OutputLine(NULL, "「…いくらなんでも、お国の対立問題でそう簡単にはまいりませんわ。",
+			NULL, "\"...There's no way that would solve all of a country's problems.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/vtt_satoko3017", 256, TRUE);
+	OutputLine(NULL, "上の方が仲直りしても、他の方々が納得しなければ同じことですし。",
+			NULL, " Even if the higher ups are able to reconcile, it won't change anything unless the people around them are able to come to an agreement.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/vtt_satoko3018", 256, TRUE);
+	OutputLine(NULL, "二人とも職を追われておしまいだと思いますわよ？」",
+			NULL, " The two of them would just be forced out of their jobs, don't you think?\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 2, "sprite/re1b_komaru_b2_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS20/02/VTT_rena3021.「それに、あの勾玉だと一方的に好きになって、相手の気持ちはお構い無しだもんね。kvS20/02/VTT_rena3022.それって好きって感情とは、ちょっと違うと思う。kvS20/02/VTT_rena3023.むしろ依存とか従属とか、…あんまり幸せな感じじゃないね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s20/02/vtt_rena3021", 256, TRUE);
+	OutputLine(NULL, "「それに、あの勾玉だと一方的に好きになって、相手の気持ちはお構い無しだもんね。",
+			NULL, "\"Plus, that magatama only gives you one-sided affection with no consideration for your partner's feelings.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s20/02/vtt_rena3022", 256, TRUE);
+	OutputLine(NULL, "それって好きって感情とは、ちょっと違うと思う。",
+			NULL, " I think that's a little different from genuinely liking someone.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s20/02/vtt_rena3023", 256, TRUE);
+	OutputLine(NULL, "むしろ依存とか従属とか、…あんまり幸せな感じじゃないね」",
+			NULL, " That's more like dependence or servitude... not a very happy feeling.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1b_def_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS20/02/VTT_rena3024.「やっぱり、恋愛はお互いに好きあって理解してこそ成立するものなんだって、レナは思うよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s20/02/vtt_rena3024", 256, TRUE);
+	OutputLine(NULL, "「やっぱり、恋愛はお互いに好きあって理解してこそ成立するものなんだって、レナは思うよ」",
+			NULL, "\"Ultimately, love is only possible when two people like and understand one another, that's what Rena thinks.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 6, "sprite/si3_tokui_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS20/06/VTT_shion3001.「ま、そういう意味では国家は大げさとしても、仲間同士の信頼関係にも同じことが言えるかもしれません。kvS20/06/VTT_shion3002.便利な道具を使って、理由も根拠もなくこっちに好意を向けさせるなんて虫が良すぎます」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3001", 256, TRUE);
+	OutputLine(NULL, "「ま、そういう意味では国家は大げさとしても、仲間同士の信頼関係にも同じことが言えるかもしれません。",
+			NULL, "\"Well, in that sense, if national change is too much to ask for, then the same could probably be said for trust between friends.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3002", 256, TRUE);
+	OutputLine(NULL, "便利な道具を使って、理由も根拠もなくこっちに好意を向けさせるなんて虫が良すぎます」",
+			NULL, " Using some convenient tool to make people like each other without any reason or rationale just sounds too good to be true.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_wink_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS20/06/VTT_shion3003.「結局泥臭くても、理解の積み重ねが大事ってことなんでしょうね」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3003", 256, TRUE);
+	OutputLine(NULL, "「結局泥臭くても、理解の積み重ねが大事ってことなんでしょうね」",
+			NULL, "\"In the end, even if it's unrefined, the important thing is developing mutual understanding.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS20/01/VTT_keiichi3031.「ん～、理解かぁ。kvS20/01/VTT_keiichi3032.言葉にすると簡単だけど、なかなか難しいよな。kvS20/01/VTT_keiichi3033.仲のいい相手のことを考えてるつもりでも、こっちの思惑と全然違ってることのほうが多いし…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3031", 256, TRUE);
+	OutputLine(NULL, "「ん～、理解かぁ。",
+			NULL, "\"Hmm~, understanding, huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3032", 256, TRUE);
+	OutputLine(NULL, "言葉にすると簡単だけど、なかなか難しいよな。",
+			NULL, " That's an easy thing to say, but pretty tough to actually do.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3033", 256, TRUE);
+	OutputLine(NULL, "仲のいい相手のことを考えてるつもりでも、こっちの思惑と全然違ってることのほうが多いし…」",
+			NULL, " You might think you're trying to be considerate of someone close to you, but in a lot of cases they were thinking something completely different...\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 3, "sprite/me1b_wink_a1_", "1", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS20/03/VTT_mion3040.「そもそも相手のため、って考え方自体が傲慢なのかもしれないね。kvS20/03/VTT_mion3041.それってすごく、自分を相手よりも高みに置いてる思考なんだから」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3040", 256, TRUE);
+	OutputLine(NULL, "「そもそも相手のため、って考え方自体が傲慢なのかもしれないね。",
+			NULL, "\"Maybe it's arrogant to be thinking for someone else's sake in the first place.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3041", 256, TRUE);
+	OutputLine(NULL, "それってすごく、自分を相手よりも高みに置いてる思考なんだから」",
+			NULL, " Because when you think like that, you're totally putting yourself on a higher pedestal than the other person.\"", Line_Normal);
+	ClearMessage();
+
+//魅音rvS20/03/VTT_mion3042.「だったら本音をぶつけ合ったほうが、逆に理解が深まるってこともあるんじゃないかなぁ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3042", 256, TRUE);
+	OutputLine(NULL, "「だったら本音をぶつけ合ったほうが、逆に理解が深まるってこともあるんじゃないかなぁ」",
+			NULL, "\"In which case, there are times when it's better to share our true feelings with one another so we can deepen our understanding of each other.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 5, "sprite/ri1_niko_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//梨花rvS20/05/VTT_rika3004.「…とても深い話なのです。みぃ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtt_rika3004", 256, TRUE);
+	OutputLine(NULL, "「…とても深い話なのです。みぃ」",
+			NULL, "\"...This story is very deep. Meep.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_huteki_a1_", "1", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS20/06/VTT_shion3004.「…ほっほぉ？kvS20/06/VTT_shion3005.　だったらお姉、今持ってる本音を圭ちゃんにぶつけてみなさいな。kvS20/06/VTT_shion3006.意外に理解が深まるかもしれませんよ～？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3004", 256, TRUE);
+	OutputLine(NULL, "「…ほっほぉ？",
+			NULL, "\"...Hohoh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3005", 256, TRUE);
+	OutputLine(NULL, "　だったらお姉、今持ってる本音を圭ちゃんにぶつけてみなさいな。",
+			NULL, " Then Sis, why don't you share your true feelings with Kei-chan, right here and now?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3006", 256, TRUE);
+	OutputLine(NULL, "意外に理解が深まるかもしれませんよ～？」",
+			NULL, " You might be surprised how deeply you'll be able to understand one another~.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_hau_a1_", "1", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS20/03/VTT_mion3043.「えっ？kvS20/03/VTT_mion3044.　い、いやその、そ、それとこれとは…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3043", 256, TRUE);
+	OutputLine(NULL, "「えっ？",
+			NULL, "\"Huh?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3044", 256, TRUE);
+	OutputLine(NULL, "　い、いやその、そ、それとこれとは…」",
+			NULL, " N-no, well, th-this and that are, umm...\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 1, "sprite/kei1_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS20/01/VTT_keiichi3034.「ん？kvS20/01/VTT_keiichi3035.　なんだ魅音、俺に何かあるってのか？kvS20/01/VTT_keiichi3036.　言ってみろよ、ほれほれ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3034", 256, TRUE);
+	OutputLine(NULL, "「ん？",
+			NULL, "\"Hmm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3035", 256, TRUE);
+	OutputLine(NULL, "　なんだ魅音、俺に何かあるってのか？",
+			NULL, " What is it, Mion? You've got something to tell me?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3036", 256, TRUE);
+	OutputLine(NULL, "　言ってみろよ、ほれほれ」",
+			NULL, " Go ahead and say it.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS20/03/VTT_mion3045.「いっ、いいいい、言えるわけないでしょぉぉッッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtt_mion3045", 256, TRUE);
+	OutputLine(NULL, "「いっ、いいいい、言えるわけないでしょぉぉッッ！！」",
+			NULL, "\"Th-th-th-there's no way I can say thaaaat!!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	PlaySE(3, "dageki", 256, 64);
+	DrawScene("effect/furiker_a", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(0, "dageki", 256, 64);
+	DrawScene("effect/furiker_b", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(3, "finish", 256, 64);
+	DrawScene("effect/furiker_a", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	DrawScene("white", 1000 );
+	DrawScene("black", 1000 );
+	PlaySE(0, "door", 256, 64);
+	Wait( 500 );
+	PlaySE(3, "down", 256, 64);
+	DrawScene("bg/gk1", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	Wait( 500 );
+	ModDrawCharacter(4, 1, "sprite/kei1_komaru_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//圭一rvS20/01/VTT_keiichi3037.「……。kvS20/01/VTT_keiichi3038.なぁレナ、魅音出て行っちまったが、…なんで俺はぶん殴られたんだ？kvS20/01/VTT_keiichi3039.　やっぱりこれも、本人に疑問をぶつけるべきなんだろうか？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3037", 256, TRUE);
+	OutputLine(NULL, "「……。",
+			NULL, "\"...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3038", 256, TRUE);
+	OutputLine(NULL, "なぁレナ、魅音出て行っちまったが、…なんで俺はぶん殴られたんだ？",
+			NULL, " Hey Rena... why did Mion just beat me and then storm out?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtt_keiichi3039", 256, TRUE);
+	OutputLine(NULL, "　やっぱりこれも、本人に疑問をぶつけるべきなんだろうか？」",
+			NULL, " Right, maybe this is another thing I should be asking the person in question directly?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1b_warai_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS20/02/VTT_rena3025.「さぁてね？kvS20/02/VTT_rena3026.　レナは知ぃらな～い♪」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s20/02/vtt_rena3025", 256, TRUE);
+	OutputLine(NULL, "「さぁてね？",
+			NULL, "\"I wondeeer?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s20/02/vtt_rena3026", 256, TRUE);
+	OutputLine(NULL, "　レナは知ぃらな～い♪」",
+			NULL, " Rena doesn't knoooow~♪.\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_yowaki_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS20/06/VTT_shion3007.「まったく…。kvS20/06/VTT_shion3008.デリカシーないのはお互い様ってやつですか？kvS20/06/VTT_shion3009.　前途は多難ですねぇ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3007", 256, TRUE);
+	OutputLine(NULL, "「まったく…。",
+			NULL, "\"Unbelievable...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3008", 256, TRUE);
+	OutputLine(NULL, "デリカシーないのはお互い様ってやつですか？",
+			NULL, " Are they both equally clueless?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s20/06/vtt_shion3009", 256, TRUE);
+	OutputLine(NULL, "　前途は多難ですねぇ」",
+			NULL, " The road ahead is going to be full of difficulties.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 4, "sprite/sa1a_yareyare_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS20/04/VTT_satoko3019.「…とはいえ、この件で圭一さんに理解を深めろってのは酷かもしれませんわ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/vtt_satoko3019", 256, TRUE);
+	OutputLine(NULL, "「…とはいえ、この件で圭一さんに理解を深めろってのは酷かもしれませんわ」",
+			NULL, "\"...Although, perhaps expecting Keiichi-san to be more understanding on this matter is too much to ask for.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(2, 5, "sprite/ri1_warai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+
+//梨花rvS20/05/VTT_rika3005.「ギャルゲー主人公のお約束なのですよ、にぱー☆」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtt_rika3005", 256, TRUE);
+	OutputLine(NULL, "「ギャルゲー主人公のお約束なのですよ、にぱー☆」",
+			NULL, "\"That is the cliche for a galge protagonist, nipah☆.\"", Line_Normal);
+	ClearMessage();
+
+	CallScript("&eye");
+
+}

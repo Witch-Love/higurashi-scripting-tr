@@ -1,0 +1,1199 @@
+void main()
+{
+
+
+//*Hirukowashi Day 6
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+//＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
+
+//#6 三角関係
+
+	DrawSceneWithMask( "bg/m_hi6", "effect/right", 0, 0, 500 );
+	PlayBGM( 1, "semi", 128, 0 );
+	Wait( 2000 );
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
+	DrawSceneWithMask( "bg/jok1", "effect/right", 0, 0, 500 );
+	Wait( 2000 );
+	DrawSceneWithMask( "black", "effect/down", 0, 0, 500 );
+
+//r…そんなわけで、俺たちが神社にたどり着いた時は、……あぁお約束って素敵だなぁ。
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…そんなわけで、俺たちが神社にたどり着いた時は、……あぁお約束って素敵だなぁ。",
+			NULL, "...And so, when we made it to the shrine...  Ahh, cliches are wonderful.", Line_Normal);
+	ClearMessage();
+
+//r誰もが期待した典型的な修羅場が出来上がっていた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "誰もが期待した典型的な修羅場が出来上がっていた。",
+			NULL, "The typical scene of carnage everyone was expecting had come to fruition.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM(1, 400, TRUE);
+	PlayBGM(2, "hm03_14", 128, 0);
+	DrawScene("scene/207", 1000 );
+
+//鷹野rvS07/09/330900017.「あぁら、さすがジロウさん。kvS07/09/330900018.若い子にもモテるのねぇ？kvS07/09/330900019.　いつの間にそんな人気者になってたのかしらぁん？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900017", 256, TRUE);
+	OutputLine(NULL, "「あぁら、さすがジロウさん。",
+			NULL, "\"Oh, my, I should have expected no less, Jirou-san.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900018", 256, TRUE);
+	OutputLine(NULL, "若い子にもモテるのねぇ？",
+			NULL, " You sure are popular with children.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900019", 256, TRUE);
+	OutputLine(NULL, "　いつの間にそんな人気者になってたのかしらぁん？」",
+			NULL, " Since when were you such a celebrity, hmm?\"", Line_Normal);
+	ClearMessage();
+
+//富竹rvS07/08/330800018.「そそそそ、そんなことないよ！kvS07/08/330800019.　これはきっと何かの間違いさ…！kvS07/08/330800020.　はぅん！kvS07/08/330800021.　レナちゃん、そのあんまりくっついちゃ駄目だよ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800018", 256, TRUE);
+	OutputLine(NULL, "「そそそそ、そんなことないよ！",
+			NULL, "\"Y-Y-Y-Y-You've got it all wrong!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800019", 256, TRUE);
+	OutputLine(NULL, "　これはきっと何かの間違いさ…！",
+			NULL, " This has to be some kind of mistake...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800020", 256, TRUE);
+	OutputLine(NULL, "　はぅん！",
+			NULL, " Oof!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800021", 256, TRUE);
+	OutputLine(NULL, "　レナちゃん、そのあんまりくっついちゃ駄目だよ…！」",
+			NULL, " Rena-chan, don't cling to me like that...!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "dageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//レナrvS07/02/330200102.「ね～～～ぇ、富竹さぁん☆kvS07/02/330200103.　レナにもカメラのこととか、色々教えてほしいかな、かな！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200102", 256, TRUE);
+	OutputLine(NULL, "「ね～～～ぇ、富竹さぁん☆",
+			NULL, "\"Heeeeey, Tomitake-san☆", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200103", 256, TRUE);
+	OutputLine(NULL, "　レナにもカメラのこととか、色々教えてほしいかな、かな！」",
+			NULL, " Can you teach Rena about all the things you can do with cameras? Can you teach her?\"", Line_Normal);
+	ClearMessage();
+
+//富竹rvS07/08/330800022.「いやぁ、あっははは、カメラの道は長く険しいが遣り甲斐充分さ！kvS07/08/330800023.　レナちゃんが興味を持ってくれたなんてうれしいなぁ…。kvS07/08/330800024.はは、ははははは、はは…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800022", 256, TRUE);
+	OutputLine(NULL, "「いやぁ、あっははは、カメラの道は長く険しいが遣り甲斐充分さ！",
+			NULL, "\"Well, I mean, ah hahaha, the way of the camera is long and treacherous, but it's definitely worth traveling!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800023", 256, TRUE);
+	OutputLine(NULL, "　レナちゃんが興味を持ってくれたなんてうれしいなぁ…。",
+			NULL, " I'm happy you're showing an interest in it, Rena-chan...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800024", 256, TRUE);
+	OutputLine(NULL, "はは、ははははは、はは…」",
+			NULL, " Haha, hahahahaha, haha...\"", Line_Normal);
+	ClearMessage();
+
+	PlayBGM( 1, "semi_r", 128, 0 );
+
+//鷹野rvS07/09/330900020.「あぁら、別に私はいいのよ？kvS07/09/330900021.　だってジロウさんはとーってもやさしいベテランカメラマンなんですもの。kvS07/09/330900022.女の子が困ってたら、私に限らず、誰にだーって親切に教えちゃうのよねぇ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900020", 256, TRUE);
+	OutputLine(NULL, "「あぁら、別に私はいいのよ？",
+			NULL, "\"Oh, well, don't mind me, then.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900021", 256, TRUE);
+	OutputLine(NULL, "　だってジロウさんはとーってもやさしいベテランカメラマンなんですもの。",
+			NULL, " After all, Jirou-san is a very, very kind-hearted veteran cameraman.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900022", 256, TRUE);
+	OutputLine(NULL, "女の子が困ってたら、私に限らず、誰にだーって親切に教えちゃうのよねぇ？」",
+			NULL, " He'd be nice and teach just about any interested girl, not only me—isn't that right?\"", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200104.「レナ、富竹さんのその親切でやさしいところ、だぁい好き…。kvS07/02/330200105.カメラのこととかぁ、……カメラ以外のこととかぁ…、…色々教えてほしいかな、……かな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200104", 256, TRUE);
+	OutputLine(NULL, "「レナ、富竹さんのその親切でやさしいところ、だぁい好き…。",
+			NULL, "\"That kind, gentle part of you, Tomitake-san... Rena loooves it...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200105", 256, TRUE);
+	OutputLine(NULL, "カメラのこととかぁ、……カメラ以外のこととかぁ…、…色々教えてほしいかな、……かな」",
+			NULL, " I wonder if you could teach me... about cameras... and about many other things too... Many other things.\"", Line_Normal);
+	ClearMessage();
+
+//富竹rvS07/08/330800025.「カカ、カメラ以外のことって何かなぁ？！kvS07/08/330800026.　はは、はははははは…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800025", 256, TRUE);
+	OutputLine(NULL, "「カカ、カメラ以外のことって何かなぁ？！",
+			NULL, "\"Wh-What other things?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800026", 256, TRUE);
+	OutputLine(NULL, "　はは、はははははは…」",
+			NULL, " Haha, hahahahahaha...\"", Line_Normal);
+	ClearMessage();
+
+//鷹野rvS07/09/330900023.「ジロウさん、カメラ以外のことを聞いてもないのに教えてくれるの、得意だもんねぇ？kvS07/09/330900024.　そういう時のジロウさん、とっても強引なんだから」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900023", 256, TRUE);
+	OutputLine(NULL, "「ジロウさん、カメラ以外のことを聞いてもないのに教えてくれるの、得意だもんねぇ？",
+			NULL, "\"Jirou-san, you haven't even found out what those other things are yet, but you'll still teach her? You're so good at this.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900024", 256, TRUE);
+	OutputLine(NULL, "　そういう時のジロウさん、とっても強引なんだから」",
+			NULL, " At times like those, Jirou-san... can be very forceful.\"", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200106.「な、なな何が強引なのかな、…かなぁ！kvS07/02/330200107.　…でも、…レナ、富竹さんならその、…どんなこと教えてくれても、……いいかな、…かな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200106", 256, TRUE);
+	OutputLine(NULL, "「な、なな何が強引なのかな、…かなぁ！",
+			NULL, "\"Wh-Wh-What is he forceful about, I wonder... I wonder!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200107", 256, TRUE);
+	OutputLine(NULL, "　…でも、…レナ、富竹さんならその、…どんなこと教えてくれても、……いいかな、…かな」",
+			NULL, " ...But... Rena, well... if it's Tomitake-san... She'll let him teach her... just about anything... Just about anything.\"", Line_Normal);
+	ClearMessage();
+
+//富竹rvS07/08/330800027.「ぃえぁああぉおお、おっほはははははははは…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800027", 256, TRUE);
+	OutputLine(NULL, "「ぃえぁああぉおお、おっほはははははははは…！」",
+			NULL, "\"No, ahhhh, ohhh, ohh hohahahahahahaha...!\"", Line_Normal);
+	ClearMessage();
+
+//r…富竹さんの気色悪い笑い声が境内に木霊する。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…富竹さんの気色悪い笑い声が境内に木霊する。",
+			NULL, "...Tomitake-san's gross-sounding laugh echoed through the shrine grounds.", Line_Normal);
+	ClearMessage();
+
+//r女の子に言い寄られたことのない全国平均な男子だったら、こういう反応になるのだろうか。…俺も他人事じゃないから、わが振りを大いに戒めよう。…そんな機会あるかどうか知らないが。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "女の子に言い寄られたことのない全国平均な男子だったら、こういう反応になるのだろうか。…俺も他人事じゃないから、わが振りを大いに戒めよう。…そんな機会あるかどうか知らないが。",
+			NULL, "Maybe an average boy of this nation who had never experienced a girl's advances would have this kind of reaction. ...I'm no stranger to that, so I ought to be cognizant of my behavior. ...Although, who knows if an opportunity like that will ever come.", Line_Normal);
+	ClearMessage();
+
+//rとりあえず富竹さんたちには悪いが、傍から見てる分には大変楽しそうな修羅場だった。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "とりあえず富竹さんたちには悪いが、傍から見てる分には大変楽しそうな修羅場だった。",
+			NULL, "Anyway, maybe it would be rude to the two of them, but this was an incredibly amusing struggle when seen from afar.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("scene/207", 50 );
+	FadeOutBGM(1, 200, FALSE);
+	PlaySE(3, "daidageki", 256, 64);
+	ModSetLayerFilter(4, 256, "none");
+	ModDrawCharacter(4, 1, "sprite/kei1_ikari1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/ji2", 50 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//圭一rvS07/01/330100117.「レ、レナぁ！！kvS07/01/330100118.　目を覚ませ！！kvS07/01/330100119.　レナのその気持ちは偽物なんだぁああぁ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100117", 256, TRUE);
+	OutputLine(NULL, "「レ、レナぁ！！",
+			NULL, "\"R-Renaaa!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100118", 256, TRUE);
+	OutputLine(NULL, "　目を覚ませ！！",
+			NULL, " Open your eyes!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100119", 256, TRUE);
+	OutputLine(NULL, "　レナのその気持ちは偽物なんだぁああぁ！！」",
+			NULL, " Your feelings for him aren't real!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 1, "sprite/kei1_ikari1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, FALSE );
+	ModSetLayerFilter(5, 256, "none");
+	ModDrawCharacter(5, 2, "sprite/re1b_bikkuri_b1_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//レナrvS07/02/330200108.「にに、偽物なんて酷いよ！kvS07/02/330200109.　これはレナの本当の気持ちなの！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200108", 256, TRUE);
+	OutputLine(NULL, "「にに、偽物なんて酷いよ！",
+			NULL, "\"A-A-Aren't real?! How rude!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200109", 256, TRUE);
+	OutputLine(NULL, "　これはレナの本当の気持ちなの！」",
+			NULL, " These are Rena's true feelings!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 2, "sprite/re1b_komaru_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//レナrvS07/02/330200110.「レナはね、気付いちゃったの…、富竹さんの本当のやさしさ！kvS07/02/330200111.　それはね、とってもささやかなものなんだけど、でも気付いちゃったらもう忘れられないの…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200110", 256, TRUE);
+	OutputLine(NULL, "「レナはね、気付いちゃったの…、富竹さんの本当のやさしさ！",
+			NULL, "\"Rena realized something... Tomitake-san is really very kind!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200111", 256, TRUE);
+	OutputLine(NULL, "　それはね、とってもささやかなものなんだけど、でも気付いちゃったらもう忘れられないの…！！」",
+			NULL, " It might not mean much at all, but now that I've realized it, I can't ever forget it...!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 2, "sprite/re1b_hau_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//レナrvS07/02/330200112.「そのやさしさはね、きっとレナじゃないと気付けないの！！kvS07/02/330200113.　だからもうレナには富竹さんしかいないの！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200112", 256, TRUE);
+	OutputLine(NULL, "「そのやさしさはね、きっとレナじゃないと気付けないの！！",
+			NULL, "\"I'm sure Rena is the only one who could ever appreciate his kindness!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200113", 256, TRUE);
+	OutputLine(NULL, "　だからもうレナには富竹さんしかいないの！」",
+			NULL, " So Tomitake-san is the only one for Rena now!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 8, "sprite/tomi1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/ji1", "effect/right", 0, 0, 500 );
+	PlaySE(3, "taitoru", 256, 64);
+
+//富竹rvS07/08/330800028.「…は、……はああぁああぁぁぁぁ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800028", 256, TRUE);
+	OutputLine(NULL, "「…は、……はああぁああぁぁぁぁ…」",
+			NULL, "\"...Ha... Haaaaaaahhhhh...\"", Line_Normal);
+	ClearMessage();
+
+//r脳内にあらゆる快感物質がだぼだぼと分泌しているのだろう。この世の極楽のような表情を浮かべた富竹さんが、朦朧としながらヨダレを一筋垂らしている。…それと好対照な鷹野の表情が実に愉快だ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "脳内にあらゆる快感物質がだぼだぼと分泌しているのだろう。この世の極楽のような表情を浮かべた富竹さんが、朦朧としながらヨダレを一筋垂らしている。…それと好対照な鷹野の表情が実に愉快だ。",
+			NULL, "His brain must have been producing every single chemical that could make him feel pleasant. Tomitake-san made a face like he was in heaven on earth, and he stood there in a daze, a trickle of drool hanging from his mouth. ...Takano's expression made for a marked contrast with his—and that contrast was truly delightful.", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 8, "sprite/tomi1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, FALSE );
+	ModDrawCharacter(3, 3, "sprite/me1a_tohoho_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300056.「富竹さん！！kvS07/03/330300057.　鷹野さんを忘れちゃ駄目でしょ！kvS07/03/330300058.　自分のパートナーを見捨てちゃうの？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300056", 256, TRUE);
+	OutputLine(NULL, "「富竹さん！！",
+			NULL, "\"Tomitake-san!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300057", 256, TRUE);
+	OutputLine(NULL, "　鷹野さんを忘れちゃ駄目でしょ！",
+			NULL, " You can't forget about Takano-san!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300058", 256, TRUE);
+	OutputLine(NULL, "　自分のパートナーを見捨てちゃうの？！」",
+			NULL, " Are you going to abandon your own partner?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 8, "sprite/tomi1_komaru_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//富竹rvS07/08/330800029.「そ、そうさ…！kvS07/08/330800030.　レ、レナちゃんには悪いけど、僕には鷹野さんというパートナーがいるんだ！！kvS07/08/330800031.　だだ、だからその！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800029", 256, TRUE);
+	OutputLine(NULL, "「そ、そうさ…！",
+			NULL, "\"Th-That's right...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800030", 256, TRUE);
+	OutputLine(NULL, "　レ、レナちゃんには悪いけど、僕には鷹野さんというパートナーがいるんだ！！",
+			NULL, " I-I'm sorry, Rena-chan, but I already have Takano-san!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800031", 256, TRUE);
+	OutputLine(NULL, "　だだ、だからその！」",
+			NULL, " S-S-So, well, I...!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, FALSE);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	PlaySE(3, "kyupirn", 256, 64);
+	ModDrawCharacter(5, 9, "sprite/ta1_akuwarai_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, FALSE );
+	ModDrawCharacter(4, 8, "sprite/tomi1_komaru_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
+	ModDrawCharacter(3, 3, "sprite/me1a_tohoho_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//鷹野rvS07/09/330900025.「ふぅん…？kvS07/09/330900026.　パートナーってどういう意味かしら？kvS07/09/330900027.　私、横文字よくわかんないの。kvS07/09/330900028.ちゃんと日本語で言ってくれないとわかんないわぁ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900025", 256, TRUE);
+	OutputLine(NULL, "「ふぅん…？",
+			NULL, "\"Hmm...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900026", 256, TRUE);
+	OutputLine(NULL, "　パートナーってどういう意味かしら？",
+			NULL, " I wonder what you mean by 'partner'?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900027", 256, TRUE);
+	OutputLine(NULL, "　私、横文字よくわかんないの。",
+			NULL, " You'll have to be more specific.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900028", 256, TRUE);
+	OutputLine(NULL, "ちゃんと日本語で言ってくれないとわかんないわぁ？」",
+			NULL, " You have to say exactly what you mean, or I won't understand.\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+
+//富竹rvS07/08/330800032.「いや、だからその、えっとえっと、ぁははははははは！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800032", 256, TRUE);
+	OutputLine(NULL, "「いや、だからその、えっとえっと、ぁははははははは！」",
+			NULL, "\"Er, well, I... umm, err... ahahahahahahaha!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 2, "sprite/re1a_warai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200114.「レナが教えてあげるねー！kvS07/02/330200115.　鷹野さんは富竹さんのお友達なのー！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200114", 256, TRUE);
+	OutputLine(NULL, "「レナが教えてあげるねー！",
+			NULL, "\"Rena can tell you!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200115", 256, TRUE);
+	OutputLine(NULL, "　鷹野さんは富竹さんのお友達なのー！」",
+			NULL, " Takano-san is your friend, Tomitake-san!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 9, "sprite/ta1_human_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+	PlaySE(3, "dageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//鷹野rvS07/09/330900029.「お、…お友達ィ…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900029", 256, TRUE);
+	OutputLine(NULL, "「お、…お友達ィ…？！」",
+			NULL, "\"His... his friend...?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 9, "sprite/ta1_warai_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//鷹野rvS07/09/330900030.「ほ、ほほほほほほ！kvS07/09/330900031.　レナちゃんにはまだ大人の関係は理解できないかしら」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900030", 256, TRUE);
+	OutputLine(NULL, "「ほ、ほほほほほほ！",
+			NULL, "\"Ho, ho ho ho ho ho ho!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900031", 256, TRUE);
+	OutputLine(NULL, "　レナちゃんにはまだ大人の関係は理解できないかしら」",
+			NULL, " Rena-chan, you don't understand adult relationships yet, do you?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1b_def_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200116.「わかりますよーだ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200116", 256, TRUE);
+	OutputLine(NULL, "「わかりますよーだ！！」",
+			NULL, "\"I do too!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "pou", 256, 64);
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 100, TRUE);
+	ModDrawCharacter(3, 2, "sprite/re1a_hau_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 100, TRUE );
+
+//レナrvS07/02/330200117.「ねぇん富竹さぁん。kvS07/02/330200118.レナ、富竹さんと一緒に野鳥撮影がしたいし、富竹さんが望むなら、ナースさんの格好でモデルになってあげてもいいのにィ…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200117", 256, TRUE);
+	OutputLine(NULL, "「ねぇん富竹さぁん。",
+			NULL, "\"Come ooon, Tomitake-saaan.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200118", 256, TRUE);
+	OutputLine(NULL, "レナ、富竹さんと一緒に野鳥撮影がしたいし、富竹さんが望むなら、ナースさんの格好でモデルになってあげてもいいのにィ…」",
+			NULL, " Rena wants to take pictures of wild birds with you... and if you want... she can even dress up as a nurse and be your model, too...\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kyupirn", 256, 64);
+	DrawScene("white", 50 );
+	ModDrawCharacter(3, 2, "sprite/re1a_hau_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(5, 9, "sprite/ta1_sakebi_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );
+	ModDrawCharacter(4, 8, "sprite/tomi1_komaru_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/ji1", 250 );
+	PlaySE(3, "daidageki", 256, 64);
+	ModDrawCharacter(4, 8, "sprite/tomi1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlayBGM( 1, "kaze_lp", 128, 0 );
+
+//富竹rvS07/08/330800033.「えええぇえええ？！kvS07/08/330800034.　ほほ、本当かい？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800033", 256, TRUE);
+	OutputLine(NULL, "「えええぇえええ？！",
+			NULL, "\"Whaaaaaat?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800034", 256, TRUE);
+	OutputLine(NULL, "　ほほ、本当かい？！」",
+			NULL, " R-R-Really?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 8, "sprite/tomi1_komaru_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//富竹rvS07/08/330800035.「じゃなくって、駄目だよそんなの、僕には鷹野さんが…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800035", 256, TRUE);
+	OutputLine(NULL, "「じゃなくって、駄目だよそんなの、僕には鷹野さんが…！！」",
+			NULL, "\"No, wait, we can't, I already have Takano-san!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1a_nande_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200119.「ナース姿が撮影したいって何度もお願いしても、ちっともＯＫしてくれない人の方がいいんですか…？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200119", 256, TRUE);
+	OutputLine(NULL, "「ナース姿が撮影したいって何度もお願いしても、ちっともＯＫしてくれない人の方がいいんですか…？」",
+			NULL, "\"You'd rather have someone who you've asked several times to let you take a picture of her in a nurse outfit, but never gave you the okay...?\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "pou", 256, 64);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 100, TRUE);
+	ModDrawCharacter(5, 9, "sprite/ta1_sakebi_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 100, TRUE );
+
+//鷹野rvS07/09/330900032.「しし、失礼ね…。kvS07/09/330900033.そんなことジロウさんが言うはずないでしょう？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900032", 256, TRUE);
+	OutputLine(NULL, "「しし、失礼ね…。",
+			NULL, "\"H-H-How rude...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900033", 256, TRUE);
+	OutputLine(NULL, "そんなことジロウさんが言うはずないでしょう？」",
+			NULL, " Jirou-san would never say anything like that.\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 200, FALSE);
+	PlaySE(3, "daidageki", 256, 64);
+	ModDrawCharacter(3, 2, "sprite/re1b_hig_okoru_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 100, FALSE );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//レナrvS07/02/330200120.「嘘だッ！！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200120", 256, TRUE);
+	OutputLine(NULL, "「嘘だッ！！！」",
+			NULL, "\"That's a lie!!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1b_okoru_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200121.「レナには富竹さんの全てがわかるもん！！kvS07/02/330200122.　野鳥撮影とか言っておきながらいつも目線はふわふわ、鷹野さんの方ばかり！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200121", 256, TRUE);
+	OutputLine(NULL, "「レナには富竹さんの全てがわかるもん！！",
+			NULL, "\"Rena understands everything about you, Tomitake-san!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200122", 256, TRUE);
+	OutputLine(NULL, "　野鳥撮影とか言っておきながらいつも目線はふわふわ、鷹野さんの方ばかり！」",
+			NULL, " You say you're taking pictures of birds, but your eyes are always drifting to Takano-san instead!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 2, "sprite/re1a_okoru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200123.「レナは知ってるの。kvS07/02/330200124.富竹さんは野鳥が撮りたいんじゃないんだよ、鷹野さんが撮りたいんだよ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200123", 256, TRUE);
+	OutputLine(NULL, "「レナは知ってるの。",
+			NULL, "\"Rena knows.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200124", 256, TRUE);
+	OutputLine(NULL, "富竹さんは野鳥が撮りたいんじゃないんだよ、鷹野さんが撮りたいんだよ！」",
+			NULL, " You don't want to take pictures of birds! You want to take pictures of her!\"", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200125.「でも鷹野さんは思わせぶりなことを言うだけでちっとも撮らせてあげない！kvS07/02/330200126.　そんな意地悪な人はパートナー失格なのッ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200125", 256, TRUE);
+	OutputLine(NULL, "「でも鷹野さんは思わせぶりなことを言うだけでちっとも撮らせてあげない！",
+			NULL, "\"But all Takano-san does is say suggestive things, and won't let you take any pictures!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200126", 256, TRUE);
+	OutputLine(NULL, "　そんな意地悪な人はパートナー失格なのッ！」",
+			NULL, " That's mean, and makes her a failure as a partner!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "pou", 256, 64);
+	ModDrawCharacter(3, 2, "sprite/re1b_hau_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//レナrvS07/02/330200127.「だからレナが富竹さんとパートナーの座を、お～持ち帰りぃいいぃ～！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200127", 256, TRUE);
+	OutputLine(NULL, "「だからレナが富竹さんとパートナーの座を、お～持ち帰りぃいいぃ～！！」",
+			NULL, "\"Rena will take her seat as your partner home with heeer~!!\"", Line_Normal);
+	ClearMessage();
+
+//レナrvS07/02/330200128.「レナなら富竹さんのモデルになってあげられるもん！kvS07/02/330200129.　ねぇ富竹さぁん、ナースさんの服、白いのと水色とピンクの…どれが好きかな、…かな」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200128", 256, TRUE);
+	OutputLine(NULL, "「レナなら富竹さんのモデルになってあげられるもん！",
+			NULL, "\"Rena would be your model, Tomitake-san!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200129", 256, TRUE);
+	OutputLine(NULL, "　ねぇ富竹さぁん、ナースさんの服、白いのと水色とピンクの…どれが好きかな、…かな」",
+			NULL, " Come on, Tomitake-san... For the nurse uniform... White, or light blue and pink... Which would you like... like?\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene("bg/sora", 50 );
+	PlayBGM( 1, "semi", 128, 0 );
+	PlaySE(3, "nageru", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "nageru", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "nageru", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "garasu", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+
+//富竹rvS07/08/330800036.「ふ、……ふ、…ふぉおわあああああぁああぁ！！　しゅっしゅっぽっぽ、ふおおおおおおおおお！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800036", 256, TRUE);
+	OutputLine(NULL, "「ふ、……ふ、…ふぉおわあああああぁああぁ！！　しゅっしゅっぽっぽ、ふおおおおおおおおお！！」",
+			NULL, "\"Hu... hu... huoowaaahhhhhhhhhhh!! Shh... shh... ppp... huoooooooooh!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "down", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+
+//rとうとう富竹さんのＣＰＵが熱暴走したようだ。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "とうとう富竹さんのＣＰＵが熱暴走したようだ。",
+			NULL, "It looked like Tomitake-san's CPU finally experienced a thermal meltdown.", Line_Normal);
+	ClearMessage();
+
+//r両耳と両鼻から凄まじい蒸気を噴出すと、まるで機関車の物まねのようなわけのわからないことを口にしながら卒倒する。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "両耳と両鼻から凄まじい蒸気を噴出すと、まるで機関車の物まねのようなわけのわからないことを口にしながら卒倒する。",
+			NULL, "Steam burst from his ears and nose like a locomotive—and the sounds from his mouth were much the same—before he fainted.", Line_Normal);
+	ClearMessage();
+
+	DrawScene("bg/sora", 50 );
+	ModDrawCharacter(4, 9, "sprite/ta1_sakebi_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/ji1", 500 );
+
+//鷹野rvS07/09/330900034.「も、もう知らないわ！！kvS07/09/330900035.　ジロウさんはレナちゃんに懇切丁寧にいろいろ教えてあげるといいのよ！kvS07/09/330900036.　知らない知らない知ぃらない！kvS07/09/330900037.　失礼しちゃう失礼しちゃう！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900034", 256, TRUE);
+	OutputLine(NULL, "「も、もう知らないわ！！",
+			NULL, "\"I-I don't care anymore!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900035", 256, TRUE);
+	OutputLine(NULL, "　ジロウさんはレナちゃんに懇切丁寧にいろいろ教えてあげるといいのよ！",
+			NULL, " Fine, go on, kindly teach Rena-chan all sorts of things!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900036", 256, TRUE);
+	OutputLine(NULL, "　知らない知らない知ぃらない！",
+			NULL, " I don't care, I don't care, I don't care!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900037", 256, TRUE);
+	OutputLine(NULL, "　失礼しちゃう失礼しちゃう！！」",
+			NULL, " I'm leaving, I'm leaving!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 1, "sprite/kei1_nayamu_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawSceneWithMask( "bg/ji2", "effect/left", 0, 0, 500 );
+
+//圭一rvS07/01/330100120.「ああぁ、二人の破綻を食い止められなかったか…。kvS07/01/330100121.沙都子、梨花ちゃん、準備はまだなのか？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100120", 256, TRUE);
+	OutputLine(NULL, "「ああぁ、二人の破綻を食い止められなかったか…。",
+			NULL, "\"Ahhh, we couldn't stop them from breaking up...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100121", 256, TRUE);
+	OutputLine(NULL, "沙都子、梨花ちゃん、準備はまだなのか？！」",
+			NULL, " Satoko, Rika-chan, aren't you ready yet?!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 5, "sprite/ri1_majime_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//梨花rvS07/05/330500113.「……みー！kvS07/05/330500114.　ＯＫなのです！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500113", 256, TRUE);
+	OutputLine(NULL, "「……みー！",
+			NULL, "\"...Meep!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500114", 256, TRUE);
+	OutputLine(NULL, "　ＯＫなのです！！」",
+			NULL, " I'm okay here!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 4, "sprite/sa1b_akuwarai_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//沙都子rvS07/04/330400139.「行きますわよぉ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400139", 256, TRUE);
+	OutputLine(NULL, "「行きますわよぉ！！」",
+			NULL, "\"I'm doing it!!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	PlaySE(3, "se137", 256, 64);
+	Wait( 500 );
+	PlaySE(0, "addse24", 256, 64);
+	DrawScene("red", 1000 );
+	DrawScene("black", 250 );
+	DrawScene("red", 1000 );
+	DrawScene("black", 250 );
+	ModDrawCharacter(4, 2, "sprite/re1a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
+	DrawScene("bg/ji1", 1000 );
+
+//rこの雛見沢で裏山という例外を除いて、もっとも沙都子のトラップが張り巡らされた場所があるとしたら、それはこの境内だ！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "この雛見沢で裏山という例外を除いて、もっとも沙都子のトラップが張り巡らされた場所があるとしたら、それはこの境内だ！",
+			NULL, "Other than the mountains behind Hinamizawa, these shrine grounds were where the majority of Satoko's traps had been set!", Line_Normal);
+	ClearMessage();
+
+//rそれらトラップが全て照準補正され、レナを一度に狙う！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "それらトラップが全て照準補正され、レナを一度に狙う！！",
+			NULL, "She adjusted all their sights and aimed them at Rena!!", Line_Normal);
+	ClearMessage();
+
+//魅音rvS07/03/330300059.「今だ、発射ぁああぁ！！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300059", 256, TRUE);
+	OutputLine(NULL, "「今だ、発射ぁああぁ！！！」",
+			NULL, "\"Now! Fiiireee!!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 2, "sprite/re1a_bikkuri_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//レナrvS07/02/330200130.「ふぇ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200130", 256, TRUE);
+	OutputLine(NULL, "「ふぇ？！」",
+			NULL, "\"Huh?!\"", Line_Normal);
+	ClearMessage();
+
+//rレナに対し、四方八方からロケット弾のようなものが飛んでくる！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "レナに対し、四方八方からロケット弾のようなものが飛んでくる！",
+			NULL, "Rocket-like objects flew at Rena from all sides!", Line_Normal);
+	ClearMessage();
+
+//rロケット花火を改造した、よい子のみんなは絶対に真似しちゃいけない危険トラップだ！！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "ロケット花火を改造した、よい子のみんなは絶対に真似しちゃいけない危険トラップだ！！",
+			NULL, "It was a dangerous trap using remodeled bottle rockets. One that all you good children should never attempt to imitate!!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM(2, 200, FALSE);
+	PlaySE(3, "daidageki", 256, 64);
+	DrawScene("white", 150 );
+	PlayBGM( 1, "down", 128, 0 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(3, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(0, "dageki", 256, 64);
+	Wait( 150 );
+	PlaySE(3, "daidageki-kai2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(0, "daidageki", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(3, "kaminari2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(0, "lf226", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(3, "tatakiwaru", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(0, "finish", 256, 64);
+	DrawScene("effect/furiker_a", 150 );
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	FadeOutBGM(1, 200, FALSE);
+	DrawScene("white", 1000 );
+	PlayBGM( 1, "semi", 128, 0 );
+	DrawScene("bg/ji1", 1000 );
+
+//圭一rvS07/01/330100122.「って、…もうこれはトラップの領域じゃねぇ。kvS07/01/330100123.まるで軍艦の一斉砲撃だな…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100122", 256, TRUE);
+	OutputLine(NULL, "「って、…もうこれはトラップの領域じゃねぇ。",
+			NULL, "\"No... This could hardly be called a trap anymore.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100123", 256, TRUE);
+	OutputLine(NULL, "まるで軍艦の一斉砲撃だな…」",
+			NULL, " It was a full-on warship barrage...\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300060.「ど、どう？！kvS07/03/330300061.　効いた？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300060", 256, TRUE);
+	OutputLine(NULL, "「ど、どう？！",
+			NULL, "\"S-So?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300061", 256, TRUE);
+	OutputLine(NULL, "　効いた？！」",
+			NULL, " Did it work?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_fuman_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500115.「……暴走中のレナにあの程度の攻撃が効くとは思えませんのです…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500115", 256, TRUE);
+	OutputLine(NULL, "「……暴走中のレナにあの程度の攻撃が効くとは思えませんのです…」",
+			NULL, "\"...I don't think that attack is enough to stop Rena while she's gone berserk...\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 4, "sprite/sa1b_odoroki_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400140.「でも、むせ込んでおりますわ！！kvS07/04/330400141.　圭一さん、今の内に富竹さんを連れ出すんですのよ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400140", 256, TRUE);
+	OutputLine(NULL, "「でも、むせ込んでおりますわ！！",
+			NULL, "\"But it's choking her!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400141", 256, TRUE);
+	OutputLine(NULL, "　圭一さん、今の内に富竹さんを連れ出すんですのよ！！」",
+			NULL, " Keiichi-san, take Tomitake-san away while we have the chance!!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100124.「連れ出すってより引き摺り出すって感じだなッ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100124", 256, TRUE);
+	OutputLine(NULL, "「連れ出すってより引き摺り出すって感じだなッ！！」",
+			NULL, "\"Take him away? I'll practically have to drag him!!\"", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "effect/right", 0, 0, 500 );
+
+//レナrvS07/02/330200131.「はぅううぅ、みんな酷いよぉおぉ！！kvS07/02/330200132.　くしゅんくしゅん、ハックシュン！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200131", 256, TRUE);
+	OutputLine(NULL, "「はぅううぅ、みんな酷いよぉおぉ！！",
+			NULL, "\"Hauuuu, why is everyone being so mean?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200132", 256, TRUE);
+	OutputLine(NULL, "　くしゅんくしゅん、ハックシュン！！」",
+			NULL, " Achoo, achoo, ahhh-choo!!\"", Line_Normal);
+	ClearMessage();
+
+//沙都子rvS07/04/330400142.「をーっほっほっほっほ！！kvS07/04/330400143.　ロケット花火スパイスミックス、胡椒たっぷりバージョンですわよ！kvS07/04/330400144.　クシャミ地獄をお楽しみあそばせ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400142", 256, TRUE);
+	OutputLine(NULL, "「をーっほっほっほっほ！！",
+			NULL, "\"Ohhh ho ho ho ho!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400143", 256, TRUE);
+	OutputLine(NULL, "　ロケット花火スパイスミックス、胡椒たっぷりバージョンですわよ！",
+			NULL, " My bottle rocket spice mix—now with plenty of pepper!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400144", 256, TRUE);
+	OutputLine(NULL, "　クシャミ地獄をお楽しみあそばせ！！」",
+			NULL, " Please enjoy your stay in a sneezing hell!!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100125.「お、俺も巻き添えだけどな！kvS07/01/330100126.　ハクションハクション！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100125", 256, TRUE);
+	OutputLine(NULL, "「お、俺も巻き添えだけどな！",
+			NULL, "\"W-Well, I got caught in it too!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100126", 256, TRUE);
+	OutputLine(NULL, "　ハクションハクション！！」",
+			NULL, " Ah-choo, ah-choo!!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 3, "sprite/me1b_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	DrawSceneWithMask( "bg/ji2", "effect/right", 0, 0, 500 );
+
+//魅音rvS07/03/330300062.「とにかく一度、集会所の裏に隠れよう！！kvS07/03/330300063.　その間に富竹のおじさまの身体検査！kvS07/03/330300064.　勾玉を探すよ！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300062", 256, TRUE);
+	OutputLine(NULL, "「とにかく一度、集会所の裏に隠れよう！！",
+			NULL, "\"Anyway, let's hide behind the assembly hall for now!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300063", 256, TRUE);
+	OutputLine(NULL, "　その間に富竹のおじさまの身体検査！",
+			NULL, " And then we'll search Mr. Tomitake's body!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300064", 256, TRUE);
+	OutputLine(NULL, "　勾玉を探すよ！！」",
+			NULL, " I'm sure he's got that magatama somewhere!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 5, "sprite/ri1_warai_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500116.「……何だか幸せそうな顔で泡を吹いていますのです。kvS07/05/330500117.でも目を覚ましたら色々と大変なのですよ。kvS07/05/330500118.今の内にかわいそかわいそなのです。kvS07/05/330500119.み～！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500116", 256, TRUE);
+	OutputLine(NULL, "「……何だか幸せそうな顔で泡を吹いていますのです。",
+			NULL, "\"...He's frothing at the mouth, but he looks very happy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500117", 256, TRUE);
+	OutputLine(NULL, "でも目を覚ましたら色々と大変なのですよ。",
+			NULL, " But when he wakes up, it'll be terrible for him, I'm sure.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500118", 256, TRUE);
+	OutputLine(NULL, "今の内にかわいそかわいそなのです。",
+			NULL, " We should give him headpats while we can.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500119", 256, TRUE);
+	OutputLine(NULL, "み～！」",
+			NULL, " Meep~!\"", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM(1, 200, FALSE);
+	DrawSceneWithMask( "black", "effect/left", 0, 0, 250 );
+	PlayBGM(2, "hm02_08", 128, 0);
+	DrawSceneWithMask( "bg/js1", "effect/left", 0, 0, 250 );
+
+//r俺たちは富竹さんの体を引き摺り、一度集会所の裏に隠れた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺たちは富竹さんの体を引き摺り、一度集会所の裏に隠れた。",
+			NULL, "We dragged Tomitake-san behind the assembly hall for now.", Line_Normal);
+	ClearMessage();
+
+//rあの凄まじいクシャミ地獄でまだレナはクシャミを続けているが、それは大した時間稼ぎにはならないだろう。すぐにやって来るに違いない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "あの凄まじいクシャミ地獄でまだレナはクシャミを続けているが、それは大した時間稼ぎにはならないだろう。すぐにやって来るに違いない。",
+			NULL, "Rena was still stuck in a severe sneezing hell, but that wouldn't hold her off for very long. She'd be over here in no time flat.", Line_Normal);
+	ClearMessage();
+
+//rいや、それどころか今の攻撃で、俺たちのことを『恋路を邪魔するエネミー』だと認識しただろうから、何の容赦もなく先制攻撃を加えてくるはず…！
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "いや、それどころか今の攻撃で、俺たちのことを『恋路を邪魔するエネミー』だと認識しただろうから、何の容赦もなく先制攻撃を加えてくるはず…！",
+			NULL, "And not only that—she probably now thinks of us as 'obstacles in the way of her love', so she'll come at us in a pre-emptive attack, one utterly without mercy...!", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 3, "sprite/me1a_akuwarai_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300065.「ほらほらボディチェック！kvS07/03/330300066.　ポケットの中とか探って！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300065", 256, TRUE);
+	OutputLine(NULL, "「ほらほらボディチェック！",
+			NULL, "\"Come on, pat him down!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300066", 256, TRUE);
+	OutputLine(NULL, "　ポケットの中とか探って！！」",
+			NULL, " Fish around in his pockets and stuff!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(0, "down2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	PlaySE(3, "daidageki-kai2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
+	PlaySE(0, "furu", 256, 64);
+	Wait( 200 );
+	PlaySE(3, "down2", 256, 64);
+	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
+	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
+	ModDrawCharacter(3, 6, "sprite/si3_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//詩音rvS07/06/330600038.「小銭だのくしゃくしゃのレシートだの。kvS07/06/330600039.みっともない中身ですねぇ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600038", 256, TRUE);
+	OutputLine(NULL, "「小銭だのくしゃくしゃのレシートだの。",
+			NULL, "\"Small change, crumpled up receipts...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600039", 256, TRUE);
+	OutputLine(NULL, "みっともない中身ですねぇ！」",
+			NULL, " What a shameful collection of possessions!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100127.「…おかしいな、見つからないぜ？kvS07/01/330100128.　富竹さんが持ってるんだよなぁ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100127", 256, TRUE);
+	OutputLine(NULL, "「…おかしいな、見つからないぜ？",
+			NULL, "\"...That's strange. I can't find it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100128", 256, TRUE);
+	OutputLine(NULL, "　富竹さんが持ってるんだよなぁ？」",
+			NULL, " Tomitake-san has it, right?\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, FALSE);
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 4, "sprite/sa1a_akireru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400145.「……梨花ぁ、あなたも手伝いなさいませ！kvS07/04/330400146.　レナさんがこっちに来るまでに見つけませんと！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400145", 256, TRUE);
+	OutputLine(NULL, "「……梨花ぁ、あなたも手伝いなさいませ！",
+			NULL, "\"...Rikaaa, you help too!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400146", 256, TRUE);
+	OutputLine(NULL, "　レナさんがこっちに来るまでに見つけませんと！」",
+			NULL, " We have to find it before Rena-san gets here!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_fuman_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500120.「み、みぃ…、もちろん探したいのですが、…探知機が富竹を指していないのです！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500120", 256, TRUE);
+	OutputLine(NULL, "「み、みぃ…、もちろん探したいのですが、…探知機が富竹を指していないのです！」",
+			NULL, "\"M-meep... of course I want to search for it, but... the radar isn't pointing toward Tomitake!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400147.「はぁっ？！kvS07/04/330400148.　探知機が指していないってことは、無いってことじゃありませんの！kvS07/04/330400149.　じゃあレナさんはどうして富竹さんを追っていたのでございますか！kvS07/04/330400150.　勾玉を手放しているのに？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400147", 256, TRUE);
+	OutputLine(NULL, "「はぁっ？！",
+			NULL, "\"What?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400148", 256, TRUE);
+	OutputLine(NULL, "　探知機が指していないってことは、無いってことじゃありませんの！",
+			NULL, " If the radar isn't pointing to him, doesn't that mean he doesn't have it?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400149", 256, TRUE);
+	OutputLine(NULL, "　じゃあレナさんはどうして富竹さんを追っていたのでございますか！",
+			NULL, " Then why was Rena-san chasing Tomitake-san?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400150", 256, TRUE);
+	OutputLine(NULL, "　勾玉を手放しているのに？！」",
+			NULL, " He doesn't have the magatama anymore!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_komaru_a2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500121.「…みぃ！kvS07/05/330500122.　古文書によるとフワラズの勾玉は脳の恋愛レセプターを刺激して、その結果として恋愛時と同じ脳内物質を分泌させますです。kvS07/05/330500123.その結果、擬似的な恋愛感情が生まれて、…みぃ！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500121", 256, TRUE);
+	OutputLine(NULL, "「…みぃ！",
+			NULL, "\"...Meep!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500122", 256, TRUE);
+	OutputLine(NULL, "　古文書によるとフワラズの勾玉は脳の恋愛レセプターを刺激して、その結果として恋愛時と同じ脳内物質を分泌させますです。",
+			NULL, " According to the ancient texts, the Magatama of Fuwarazu stimulate the brain's love receptors, and makes your brain secrete the same chemicals as when you're in love. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500123", 256, TRUE);
+	OutputLine(NULL, "その結果、擬似的な恋愛感情が生まれて、…みぃ！」",
+			NULL, "That's how it creates false feelings of love... meep!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 5, "sprite/ri1_majime_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500124.「つまりです、富竹が手放した後もしばらくの間、効果が残っていたと考えてほしいのですよ…！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500124", 256, TRUE);
+	OutputLine(NULL, "「つまりです、富竹が手放した後もしばらくの間、効果が残っていたと考えてほしいのですよ…！」",
+			NULL, "\"The effects will still be active for a little while, even if Tomitake no longer has it...!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 6, "sprite/si3_ikari_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//詩音rvS07/06/330600040.「ああもうっ、こンのクソ忙しい時にもっともらしそうなことをー！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600040", 256, TRUE);
+	OutputLine(NULL, "「ああもうっ、こンのクソ忙しい時にもっともらしそうなことをー！！」",
+			NULL, "\"Aah, come on, we're too damn busy for your seemingly-sensible blathering!!\"", Line_Normal);
+	ClearMessage();
+
+//r…そもそも『恋愛レセプター』なんて単語が書いてある古文書ってどんだけ～？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…そもそも『恋愛レセプター』なんて単語が書いてある古文書ってどんだけ～？",
+			NULL, "...And what sort of ancient documents contain words like 'love receptors' in the first place~?", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1b_akireru_b1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400151.「つまり…。kvS07/04/330400152.富竹さんはさっきまでは持っておりましたけど、今はもう持ってないということでよろしいんですの？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400151", 256, TRUE);
+	OutputLine(NULL, "「つまり…。",
+			NULL, "\"So, in other words...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400152", 256, TRUE);
+	OutputLine(NULL, "富竹さんはさっきまでは持っておりましたけど、今はもう持ってないということでよろしいんですの？！」",
+			NULL, " Tomitake-san had it until a few moments ago, but doesn't anymore, is that what you're saying?!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100129.「何だってー？！kvS07/01/330100130.　ってことはレナはどうなってんだ？」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100129", 256, TRUE);
+	OutputLine(NULL, "「何だってー？！",
+			NULL, "\"What was that?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100130", 256, TRUE);
+	OutputLine(NULL, "　ってことはレナはどうなってんだ？」",
+			NULL, " Wait, then what'll happen to Rena?\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(5, 6, "sprite/si3_odoroki_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+	PlayBGM( 1, "semi", 128, 0 );
+
+//詩音rvS07/06/330600041.「あーッ！！kvS07/06/330600042.　いつの間にかいなくなっていますよ！！kvS07/06/330600043.　新しい勾玉の持ち主を捜しに行ったに違いありませんね！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600041", 256, TRUE);
+	OutputLine(NULL, "「あーッ！！",
+			NULL, "\"Ahhh!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600042", 256, TRUE);
+	OutputLine(NULL, "　いつの間にかいなくなっていますよ！！",
+			NULL, " Suddenly, she's nowhere to be seen!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600043", 256, TRUE);
+	OutputLine(NULL, "　新しい勾玉の持ち主を捜しに行ったに違いありませんね！！」",
+			NULL, " She must have gone looking for whoever has the magatama now!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 3, "sprite/me1b_odoroki_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//魅音rvS07/03/330300067.「ま、まずいね！kvS07/03/330300068.　レナを見失ったら私たちにはヒントがない！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300067", 256, TRUE);
+	OutputLine(NULL, "「ま、まずいね！",
+			NULL, "\"Th-That isn't good!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300068", 256, TRUE);
+	OutputLine(NULL, "　レナを見失ったら私たちにはヒントがない！」",
+			NULL, " If we lose sight of Rena, we'll have no way of knowing who she's after now!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(3, 4, "sprite/sa1a_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400153.「…となったら、この幸せあんぽんたんさんを起こして話を聞く方が早いですわね！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400153", 256, TRUE);
+	OutputLine(NULL, "「…となったら、この幸せあんぽんたんさんを起こして話を聞く方が早いですわね！」",
+			NULL, "\"...Which means it would be faster to wake up this lucky fool and ask him!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 5, "sprite/ri1_warai_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//梨花rvS07/05/330500125.「…お任せなのです」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500125", 256, TRUE);
+	OutputLine(NULL, "「…お任せなのです」",
+			NULL, "\"...Leave that to me.\"", Line_Normal);
+	ClearMessage();
+
+//r梨花ちゃんは、都合よくそこにあった蛇口をひねると、ホースの先端を富竹さんの顔に向けた。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "梨花ちゃんは、都合よくそこにあった蛇口をひねると、ホースの先端を富竹さんの顔に向けた。",
+			NULL, "Rika-chan twisted a faucet that was conveniently nearby and pointed the hose at Tomitake-san's face.", Line_Normal);
+	ClearMessage();
+
+//r…って梨花ちゃん、容赦がないな。…ちょっとムカついてる？
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "…って梨花ちゃん、容赦がないな。…ちょっとムカついてる？",
+			NULL, "...Wow, Rika-chan is merciless. ...Is she a little pissed off?", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "nageru", 256, 64);
+	DrawScene("white", 500 );
+	DrawScene("bg/js1", 250 );
+
+//富竹rvS07/08/330800037.「ぅわッ！！kvS07/08/330800038.　ったた、っと、……夢？kvS07/08/330800039.　今のは夢だったのかぁ…？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800037", 256, TRUE);
+	OutputLine(NULL, "「ぅわッ！！",
+			NULL, "\"Uwah!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800038", 256, TRUE);
+	OutputLine(NULL, "　ったた、っと、……夢？",
+			NULL, " Ack, ow... wait... it was a dream?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800039", 256, TRUE);
+	OutputLine(NULL, "　今のは夢だったのかぁ…？！」",
+			NULL, " Was all that a dream...?!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "boyoon", 256, 64);
+	ModDrawCharacter(4, 8, "sprite/tomi1_komaru_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//富竹rvS07/08/330800040.「はは、レナちゃんがナースさんの格好で撮影会なんて、…はは、おかしいと思ったんだよ。kvS07/08/330800041.それで鷹野さんと仲違いしちゃうなんて、ははは…。kvS07/08/330800042.とんでもない夢だったなぁ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800040", 256, TRUE);
+	OutputLine(NULL, "「はは、レナちゃんがナースさんの格好で撮影会なんて、…はは、おかしいと思ったんだよ。",
+			NULL, "\"Haha, Rena-chan offering to dress up like a nurse for a photoshoot... Haha, I knew it was strange.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800041", 256, TRUE);
+	OutputLine(NULL, "それで鷹野さんと仲違いしちゃうなんて、ははは…。",
+			NULL, " And breaking up with Takano-san over it... Hahaha...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800042", 256, TRUE);
+	OutputLine(NULL, "とんでもない夢だったなぁ」",
+			NULL, " What a terrible dream that was.\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100131.「あ、あははははは！kvS07/01/330100132.　ゆ、夢でよかったですねぇ！kvS07/01/330100133.　それより富竹さん！kvS07/01/330100134.　昨日、白い勾玉を拾いましたよね？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100131", 256, TRUE);
+	OutputLine(NULL, "「あ、あははははは！",
+			NULL, "\"Ah, ahahahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100132", 256, TRUE);
+	OutputLine(NULL, "　ゆ、夢でよかったですねぇ！",
+			NULL, " I-It's a good thing it was a dream!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100133", 256, TRUE);
+	OutputLine(NULL, "　それより富竹さん！",
+			NULL, " Anyway, Tomitake-san!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100134", 256, TRUE);
+	OutputLine(NULL, "　昨日、白い勾玉を拾いましたよね？！」",
+			NULL, " You picked up a white magatama yesterday, right?!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(4, 8, "sprite/tomi1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//富竹rvS07/08/330800043.「え、…えぇ？kvS07/08/330800044.　勾玉なんて知らないよ。kvS07/08/330800045.でも、白いオットセイのキーホルダーなら拾ったなぁ。kvS07/08/330800046.ほら、昨日、圭一くんと会ったダム現場でだよ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800043", 256, TRUE);
+	OutputLine(NULL, "「え、…えぇ？",
+			NULL, "\"Huh... what?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800044", 256, TRUE);
+	OutputLine(NULL, "　勾玉なんて知らないよ。",
+			NULL, " I don't know about any magatama.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800045", 256, TRUE);
+	OutputLine(NULL, "でも、白いオットセイのキーホルダーなら拾ったなぁ。",
+			NULL, " But I did find a white key ring with a seal on it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800046", 256, TRUE);
+	OutputLine(NULL, "ほら、昨日、圭一くんと会ったダム現場でだよ」",
+			NULL, " Here, look. We found it when we ran into Keiichi-kun at the dam site yesterday.\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(5, 8, "sprite/tomi1_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, FALSE );
+	ModDrawCharacter(3, 5, "sprite/ri1_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//梨花rvS07/05/330500126.「…そのキーホルダーなのです！kvS07/05/330500127.　どうしましたですか？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500126", 256, TRUE);
+	OutputLine(NULL, "「…そのキーホルダーなのです！",
+			NULL, "\"...That's the key ring!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s07/05/330500127", 256, TRUE);
+	OutputLine(NULL, "　どうしましたですか？！」",
+			NULL, " What happened?!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE(3, "kira", 256, 64);
+	ModDrawCharacter(5, 8, "sprite/tomi1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
+
+//富竹rvS07/08/330800047.「うん。kvS07/08/330800048.ついさっき鷹野さんにプレゼントしたよ。kvS07/08/330800049.拾い物なんて嫌ぁねぇとかいいながら、ちゃんと受け取ってくれてね！kvS07/08/330800050.　彼女のそういう素直じゃないところが、また魅力的なんだよ、たははは…」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800047", 256, TRUE);
+	OutputLine(NULL, "「うん。",
+			NULL, "\"Right.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800048", 256, TRUE);
+	OutputLine(NULL, "ついさっき鷹野さんにプレゼントしたよ。",
+			NULL, " Well, I just gave it to Takano-san as a present.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800049", 256, TRUE);
+	OutputLine(NULL, "拾い物なんて嫌ぁねぇとかいいながら、ちゃんと受け取ってくれてね！",
+			NULL, " She complained about me picking it up off the ground, but she still accepted it anyway! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s07/08/330800050", 256, TRUE);
+	OutputLine(NULL, "　彼女のそういう素直じゃないところが、また魅力的なんだよ、たははは…」",
+			NULL, "She's really dishonest sometimes, which makes her all the more charming to me, tahahaha...\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 3, "sprite/me1b_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//魅音rvS07/03/330300069.「ってことは、鷹野さんだッ！！kvS07/03/330300070.　さっき鷹野さんはどっちへ行ったっけ？！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300069", 256, TRUE);
+	OutputLine(NULL, "「ってことは、鷹野さんだッ！！",
+			NULL, "\"That means it's Takano-san!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s07/03/330300070", 256, TRUE);
+	OutputLine(NULL, "　さっき鷹野さんはどっちへ行ったっけ？！」",
+			NULL, " Where did Takano-san just go?!\"", Line_Normal);
+	ClearMessage();
+
+//圭一rvS07/01/330100135.「向こうはえっと沢の方だな！kvS07/01/330100136.　まずいぞ、もうレナが向かってる！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100135", 256, TRUE);
+	OutputLine(NULL, "「向こうはえっと沢の方だな！",
+			NULL, "\"I think, uh, the swamp is over that way!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s07/01/330100136", 256, TRUE);
+	OutputLine(NULL, "　まずいぞ、もうレナが向かってる！！」",
+			NULL, " Oh, no! Rena's already headed there!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(5, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(4, 6, "sprite/si3_tohoho_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
+
+//詩音rvS07/06/330600044.「あ、相手が女の人でもお構いなしなんですね…！kvS07/06/330600045.　恐ろしい効果です…！！」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600044", 256, TRUE);
+	OutputLine(NULL, "「あ、相手が女の人でもお構いなしなんですね…！",
+			NULL, "\"I... I see it doesn't matter that she's a woman...!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s07/06/330600045", 256, TRUE);
+	OutputLine(NULL, "　恐ろしい効果です…！！」",
+			NULL, " What a frightening effect...!!\"", Line_Normal);
+	ClearMessage();
+
+	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
+	ModDrawCharacter(3, 4, "sprite/sa1a_akireru_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+
+//沙都子rvS07/04/330400154.「…意外なカップリングに私も驚きましたわ」
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s07/04/330400154", 256, TRUE);
+	OutputLine(NULL, "「…意外なカップリングに私も驚きましたわ」",
+			NULL, "\"...This pairing is a surprise to me, too.\"", Line_Normal);
+	ClearMessage();
+
+//rと、他人の不幸を嘲笑いながらも、部活メンバーのこととあっては放っておけない。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "と、他人の不幸を嘲笑いながらも、部活メンバーのこととあっては放っておけない。",
+			NULL, "I like to laugh at the misfortune of others, but she was a club member, so we couldn't leave her be.", Line_Normal);
+	ClearMessage();
+
+//r俺たちは沢の方へ駆けて行った。
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "俺たちは沢の方へ駆けて行った。",
+			NULL, "We ran off toward the swamp.", Line_Normal);
+	ClearMessage();
+
+	CallScript("&eye");
+
+}

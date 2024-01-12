@@ -33,6 +33,8 @@ jobs:
           mkdir -p assets/ch6/HigurashiEp06_Data/StreamingAssets/Update
           mkdir -p assets/ch7/HigurashiEp07_Data/StreamingAssets/Update
           mkdir -p assets/ch8/HigurashiEp08_Data/StreamingAssets/Update
+          mkdir -p assets/ch9/HigurashiEp09_Data/StreamingAssets/Update
+          mkdir -p assets/ch10/HigurashiEp10_Data/StreamingAssets/Update
           
           cp output-scripts/ch1/* assets/ch1/HigurashiEp01_Data/StreamingAssets/Update
           cp output-scripts/ch2/* assets/ch2/HigurashiEp02_Data/StreamingAssets/Update
@@ -42,6 +44,8 @@ jobs:
           cp output-scripts/ch6/* assets/ch6/HigurashiEp06_Data/StreamingAssets/Update
           cp output-scripts/ch7/* assets/ch7/HigurashiEp07_Data/StreamingAssets/Update
           cp output-scripts/ch8/* assets/ch8/HigurashiEp08_Data/StreamingAssets/Update
+          cp output-scripts/ch9/* assets/ch9/HigurashiEp09_Data/StreamingAssets/Update
+          cp output-scripts/ch10/* assets/ch10/HigurashiEp10_Data/StreamingAssets/Update
           
           mkdir -p out
 
@@ -69,8 +73,14 @@ jobs:
           cd ../../assets/ch8
           zip -qry ../../out/8_matsuribayashi-turkish.zip HigurashiEp08_Data || exit 1
 
+          cd ../../assets/ch9
+          zip -qry ../../out/9_rei-turkish.zip HigurashiEp09_Data || exit 1
+
+          cd ../../assets/ch10
+          zip -qry ../../out/10_hou-plus-turkish.zip HigurashiEp10_Data || exit 1
+
           cd ../..
-          echo "Kurulum detayları için [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#kurulum) bakın." >> release_notes.md
+          echo "Kurulum detayları için [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#kurulum) bakınız." >> release_notes.md
 
       - name: Release
         if: github.repository_owner == 'Witch-Love'
@@ -173,3 +183,24 @@ jobs:
           asset_name: 8_matsuribayashi-turkish.zip
           asset_content_type: application/zip
 
+      - name: Upload Rei Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/9_rei-turkish.zip
+          asset_name: 9_rei-turkish.zip
+          asset_content_type: application/zip
+
+      - name: Upload Hou Plus Files
+        if: github.repository_owner == 'Witch-Love'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./out/10_hou-plus-turkish.zip
+          asset_name: 10_hou-plus-turkish.zip
+          asset_content_type: application/zip
