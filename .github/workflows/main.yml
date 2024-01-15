@@ -103,7 +103,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/1_onikakushi-turkish.zip
-          asset_name: 1_onikakushi-turkish.zip
+          asset_name: 01_onikakushi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Watanagashi Files
@@ -114,7 +114,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/2_watanagashi-turkish.zip
-          asset_name: 2_watanagashi-turkish.zip
+          asset_name: 02_watanagashi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Tatarigoroshi Files
@@ -125,7 +125,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/3_tatarigoroshi-turkish.zip
-          asset_name: 3_tatarigoroshi-turkish.zip
+          asset_name: 03_tatarigoroshi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Himatsubushi Files
@@ -136,7 +136,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/4_himatsubushi-turkish.zip
-          asset_name: 4_himatsubushi-turkish.zip
+          asset_name: 04_himatsubushi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Meakashi Files
@@ -147,7 +147,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/5_meakashi-turkish.zip
-          asset_name: 5_meakashi-turkish.zip
+          asset_name: 05_meakashi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Tsumihoroboshi Files
@@ -158,7 +158,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/6_tsumihoroboshi-turkish.zip
-          asset_name: 6_tsumihoroboshi-turkish.zip
+          asset_name: 06_tsumihoroboshi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Minagoroshi Files
@@ -169,7 +169,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/7_minagoroshi-turkish.zip
-          asset_name: 7_minagoroshi-turkish.zip
+          asset_name: 07_minagoroshi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Matsuribayashi Files
@@ -180,7 +180,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/8_matsuribayashi-turkish.zip
-          asset_name: 8_matsuribayashi-turkish.zip
+          asset_name: 08_matsuribayashi-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Rei Files
@@ -191,7 +191,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./out/9_rei-turkish.zip
-          asset_name: 9_rei-turkish.zip
+          asset_name: 09_rei-turkish.zip
           asset_content_type: application/zip
 
       - name: Upload Hou Plus Files
