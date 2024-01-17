@@ -299,9 +299,15 @@ function main($argc, $argv) {
 				$handle = fopen($chapter, "r");
 				if ($handle) {
 					while (($line = fgets($handle)) !== false) {
-						$result = preg_match($exp, $line, $matches, PREG_OFFSET_CAPTURE);
-						if ($result == 1 && !array_key_exists($matches[2][0], $data)) {
-							$data[$matches[2][0]] = '';
+						$result = preg_match_all($exp, $line, $matches, PREG_OFFSET_CAPTURE);
+						if ($result == 1) {
+							$count = count($matches[0]);
+
+							for ($x = 0; $x < $count; $x++) {
+								if (!array_key_exists($matches[2][$x][0], $data)) {
+									$data[$matches[2][$x][0]] = '';
+								}
+							}
 						}
 					}
 					fclose($handle);
