@@ -11,6 +11,9 @@ Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabil
 3. [Releases](../../releases) sayfasından Chapter'ınızın son sürüm Türkçe dosyalarını indirin.
 4. Oyunun yerel dosyalarının bulunduğu klasöre bu dosyaları atın.
    * *Steam `>` Kütüphane `>` Oyuna sağ tık `>` Özellikler `>` Yüklü Dosyalar `>` Göz at...*
+5. Oyunu başlatabilirsiniz!
+
+**NOT:** Oyunun çeşitli diyaloglarına Steam tarafından(?) sansür konulduğu için bazı diyalogların sansürlü ve sansürsüz olmak üzere iki varyasyonu bulunmakta. Çevirilerimizi sansürsüz olan metinlere yaptığımız için 07th-mod'un ayar menüsünden sansür seçeneğini en düşüğe çekerek İngilizce metinleri görmekten kaçınabilirsiniz.
 
 ## İletişim
 - <img src="https://i.imgur.com/62IuQAp.png" width=20 title="Discord" />  @singulariity
