@@ -175,7 +175,11 @@ function main($argc, $argv) {
 					}
 					fclose($handle);
 				}
-				$name = basename($file);
+				
+				$bla = pathinfo($file);
+				$dirs = explode('/', $bla['dirname']);
+				$name = end($dirs) . "/" . basename($file);
+
 				$datas[$name] = $data;
 			}
 
@@ -197,7 +201,11 @@ function main($argc, $argv) {
 					while (($line = fgets($handle)) !== false) {
 						$result = preg_match($exp, $line, $matches, PREG_OFFSET_CAPTURE);
 						if ($result == 1) {
-							$name = basename($chapter);
+
+							$bla = pathinfo($chapter);
+							$dirs = explode('/', $bla['dirname']);
+							$name = end($dirs) . "/" . basename($chapter);
+
 							$data = $datas[$name][$n];
 							$data = str_replace('"', '\\"', $data);
 							array_push($newfile, $matches[1][0] . str_replace(array("\r", "\n"), '', $data) . $matches[3][0] . LF);
@@ -235,7 +243,11 @@ function main($argc, $argv) {
 
 										$result = preg_match($exp, $in_line, $matches, PREG_OFFSET_CAPTURE);
 										if ($result == 1) {
-											$name = basename($chapter);
+
+											$bla = pathinfo($chapter);
+											$dirs = explode('/', $bla['dirname']);
+											$name = end($dirs) . "/" . basename($chapter);
+
 											$data = $datas[$name][$n];
 											$data = str_replace('"', '\\"', $data);
 											array_push($new_infile, $matches[1][0] . str_replace(array("\r", "\n"), '', $data) . $matches[3][0] . LF);
@@ -265,21 +277,25 @@ function main($argc, $argv) {
 			for ($i = 0; $i < count($story); $i++) {
 				$chapter = $story[$i];
 
-				$exp = '/(\s"<color=.{0,7}>)(.*?)(<\/color>)/';
+				$exp = '/(<color=.{0,7}>)([a-z0-9\t\n .\/<>?;:\"\'`!@#$%^&*()\[\]{}_+=|\\-]*?)(<\/color>)/i';
 
 				$handle = fopen($chapter, "r");
 				$newfile = [];
 				if ($handle) {
 					while (($line = fgets($handle)) !== false) {
-						$result = preg_match($exp, $line, $matches, PREG_OFFSET_CAPTURE);
-						if ($result == 1 && array_key_exists($matches[2][0], $data) && $data[$matches[2][0]] != '') {
+						$result = preg_match_all($exp, $line, $matches, PREG_OFFSET_CAPTURE);
+						$newline = $line;
 
-							$newline = str_replace($matches[2][0], $data[$matches[2][0]] ,$line);
-
-							array_push($newfile, $newline);
-						} else {
-							array_push($newfile, $line);
+						if ($result == 1) {
+							$count = count($matches[0]);
+							
+							for ($x = 0; $x < $count; $x++) {
+								if (array_key_exists($matches[2][$x][0], $data) && $data[$matches[2][$x][0]] != '') {
+									$newline = str_replace($matches[2][$x][0], $data[$matches[2][$x][0]], $newline);
+								}
+							}
 						}
+						array_push($newfile, $newline);
 					}
 					fclose($handle);
 				}
@@ -288,13 +304,12 @@ function main($argc, $argv) {
 			break;
 		case 'extract_charnames':
 			$story = readDirsAll($scripts_dir);
-			
 			$data = json_decode(file_get_contents($char_json_dir), true);
 			
 			for ($i = 0; $i < count($story); $i++) {
 				$chapter = $story[$i];
 				
-				$exp = '/(\s"<color=.{0,7}>)(.*?)(<\/color>)/';
+				$exp = '/(<color=.{0,7}>)([a-z0-9\t\n .\/<>?;:\"\'`!@#$%^&*()\[\]{}_+=|\\-]*?)(<\/color>)/i';
 				
 				$handle = fopen($chapter, "r");
 				if ($handle) {
