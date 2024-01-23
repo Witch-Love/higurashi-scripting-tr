@@ -1,16 +1,11 @@
 # Witch Love ~ Higurashi Türkçe Çeviri Projesi
 
-Bu proje herkese açıktır ve isteyen herkes istediği zaman katkıda bulunabilir. Süre sınırımız yok. Gönüllü çevirmenler ara ara çeviriye katkıda bulunursa yavaş yavaş çevirilerimizi ilerletebiliriz.
+Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediği zaman katkıda bulunabilir! Acele çeviri yapmak yerine kaliteli çeviri yapmak önceliğimiz. Bu nedenle süre sınırı gibi kısıtlamalarımız da bulunmamaktadır.
 
-Çeviriye katkıda bulunmak istiyorsanız [**buraya**](../../tree/master/CONTRIBUTING.md) göz atabilirsiniz.
+Katkıda bulunmak istiyorsanız lütfen [wiki sayfamızı](https://witch-love.github.io/wiki/higurashi/contributing/info) inceleyin!
 
 ## Kurulum
-
-1. Steam'den Higurashi'nin oynamak istediğiniz Chapter'ını kurun.
-2. [07th-mod](https://07th-mod.com/home/)'u oyununuza kurun.
-3. [Releases](../../releases) sayfasından Chapter'ınızın son sürüm Türkçe dosyalarını indirin.
-4. Oyunun yerel dosyalarının bulunduğu klasöre bu dosyaları atın.
-   * *Steam `>` Kütüphane `>` Oyuna sağ tık `>` Özellikler `>` Yüklü Dosyalar `>` Göz at...*
+Detaylı kuruluma [buradan](https://witch-love.github.io/wiki/higurashi/installation) ulaşabilirsiniz.
 
 ## İletişim
 - <img src="https://i.imgur.com/62IuQAp.png" width=20 title="Discord" />  @singulariity
