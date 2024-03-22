@@ -249,8 +249,8 @@
 `But that's also what preparation was all about...`
 `Some evils must be accepted as necessary.`
 ` The Irie Institute was one such evil...`
-`".........So we have to make a secret decision in order to keep this research undisclosed.`
-` Approving this is going to make us guilty. Are you sure that information will not leak from the members of this unit?"`
+`".........So we have to make a secret decision in order to keep this research undisclosed."`
+`"Approving this is going to make us guilty. Are you sure that information will not leak from the members of this unit?"`
 `"That will not happen.`
 ` The members were carefully selected from a group of extremely loyal men. `
 `We've never performed an operation such as this, but they are highly experienced, and they will not leak any information whatsoever."`
@@ -372,7 +372,10 @@
 `It was long past 3 AM, but everyone was wide awake with fear.`
 `They were having an extremely long night.`
 `Coincidentally, the end to their night had almost arrived...`
-`"...This is all Oyashiro-sama's curse! Rika-chama... Rika-chama.... Oyashiro-sama, Oyashiro-sama..."`
+`"...This is all`
+` Oyashiro-sama's curse!`
+` Rika-chama... Rika-chama....`
+` Oyashiro-sama, Oyashiro-sama..."`
 `"Oyashiro-sama demoned away those kids at the Furude Shrine in his fury..."`
 `"The Furude Shrine was swallowed by the world of the demons that day...`
 ` The demons chewed up her guts while she was still alive..."`
@@ -505,7 +508,8 @@
 `The villagers had no choice.`
 `Either they'd die from the gas without realizing what was happening,`
 ` or they'd find out about the mission and be killed.`
-`"What happened?! Did they fight back?!`
+`"What happened?!`
+` Did they fight back?!`
 ` Respond!!"`
 `"We've shot all the fugitives.`
 ` One of the residential policemen shot back."`

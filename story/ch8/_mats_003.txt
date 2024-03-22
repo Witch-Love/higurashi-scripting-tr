@@ -220,10 +220,8 @@
 ` ...But I'm not even close to approaching the level of my grandfather's great work."`
 `"Takano-kun was unlucky in many different ways.`
 ` The era he lived in...`
-` If he lived in a different era, `
-`I'm sure he would have finished his research..."`
-`"But he lived in that era, and ironically,`
-` that was why he noticed the existence of the Hinamizawa Syndrome."`
+` If he lived in a different era, I'm sure he would have finished his research..."`
+`"But he lived in that era, and ironically, that was why he noticed the existence of the Hinamizawa Syndrome."`
 `"......The world today is in the nuclear era.`
 ` With America and the Soviet Union glaring at each other over mounds of nuclear stockpiles, it takes nukes to have authority as a major power. `
 `......Yet we've forever abandoned our nukes thanks to our three antinuclear principles.`
@@ -341,8 +339,7 @@
 `At the time, it wasn't too far of a jump to assume that unknown pathogens could be behind unknown diseases.`
 `For instance, in modern times it's been revealed that beriberi is caused by Vitamin B-1 deficiency,`
 ` but at the start of the 20th century many loudly proclaimed that it was the work of an unidentified pathogen.`
-`"Yes. My grandfather predicted that his research would be valuable to the army,`
-` so he asked for a budget, but they just laughed at him."`
+`"Yes. My grandfather predicted that his research would be valuable to the army, so he asked for a budget, but they just laughed at him."`
 `As a researcher, her grandfather was very talented and passionate, but when it came to gaining the aid of political powers, he simply struck out.`
 `Hinamizawa Syndrome.`
 `...No, the possible existence of a parasite that infected the human brain and controlled emotions.`
@@ -363,8 +360,7 @@
 ` So we talked a lot. `
 `Many times he told me his research would be revolutionary, and asked me to lay the groundwork to secure funding for full-scale research."`
 `"I read in his journal that you talked to many different people about his research.`
-` Unfortunately, its value was never recognized,`
-` but I'm sure your support meant a lot to him."`
+` Unfortunately, its value was never recognized, but I'm sure your support meant a lot to him."`
 `"But I was never able to really do anything for him.`
 ` That's why I want to help you, Miyo-chan.`
 ` Helping you is like atoning for my mistakes..."`

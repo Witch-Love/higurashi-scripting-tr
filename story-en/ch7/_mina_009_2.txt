@@ -7,7 +7,7 @@
 `...But in spite of what everyone might expect, a single motorcycle came rolling in...`
 `The motorcycle stopped in front of a two-story apartment, one that could hardly be called 'neat' even as flattery.`
 `A man, fairly old and wrinkled, stepped off.`
-`...When a nearby neighbor hanging out the laundry noticed him, he called out.`
+`...When a nearby neighbor hanging out the laundry noticed him, she called out.`
 `"Well, heeello there!`
 ` It's quite hot today again, isn't it?"`
 `"Hoo, you've got that right!`
@@ -377,7 +377,9 @@
 `"What shall we do...`
 ` Shall we call the police and let them know...?"`
 `"I don't know about that.`
-` At the moment, it's not like anything serious has happened, is it?"`
+` At this point, all he did was come back and take her in as her legal guardian, right?`
+` It's not like she's been seriously injured by him.`
+` That's not the case, right...?"`
 `"But it's only a matter of time.`
 ` Something bad is going to happen if we don't do anything...!"`
 `I hate to say that it's only a matter of time.`

@@ -270,14 +270,14 @@
 `Once Rena climbed up,`
 ` Mion quickly pulled up the ladder.`
 `The young girl gestured to say it was okay to leave the ladder here,`
-` before passing through the second floor window via the eaves.`
+` before passing through the second-floor window via the eaves.`
 `Below them, the young rioters were spouting filthy curses`
 ` as they searched for a way to climb.`
 `"This way. ......This place won't be safe forever, either."`
 `"Seriously, thank you! You've saved our lives!"`
 `"Are we going out through another window?"`
 `"......There's no way those people won't, climb up here."`
-`She exited through another window, then used an outdoor air condition unit as a stepping stone`
+`She exited through another window, then used an outdoor air conditioning unit as a stepping stone`
 ` to climb into the neighboring building through its own window.`
 `Apparently she had been traveling along the second floor of the shopping district to avoid the dangerous streets below.`
 `They continued moving like that from building to building and roof to roof`
@@ -295,7 +295,7 @@
 `She had no obligation to risk herself to try and save someone else.`
 `If she was able to lock herself up tight indoors,`
 ` then her best option would have been to curl up and shut out all other sounds.`
-`"I'm Maebara Keiichi. You?"`
+`"I'm Keiichi Maebara. You?"`
 `"Une..... is what people call me."`
 `"I'm Rena. This is Mii-chan and Satoko-chan."`
 `"Nice to meet you. You really did save us at the perfect time."`
@@ -303,7 +303,7 @@
 `"Well, luck is another kind of strength."`
 `"Is it just you here, Une-chan? Any others?"`
 `"There were. ......But they're not coming back."`
-`If she stayed quiet she would be safe here.`
+`If she stayed quiet, she would be safe here.`
 `Yet that's the sad nature of humanity.`
 ` Once they gain safety, they want to risk danger......`
 `Whether it's wanting to make sure your family is safe, or to return home,`
@@ -338,7 +338,7 @@
 `"Even I, Oyashiro-sama, don't know that!"`
 `"I suppose that's true."`
 `The door to the emergency storage room was the type being locked from the outside.`
-`Given that something kept hitting it in there,  there was probably no way to unlock it from inside.`
+`Given that something kept hitting it in there, there was probably no way to unlock it from inside.`
 `Once she came back with the master key, the sound stopped for a moment.`
 `Maybe they were worn out from hitting it so much?`
 ` Either that, or they had gone quiet as Rika and Hanyuu approached, and were lying in wait for them.`
@@ -524,7 +524,7 @@
 `Next thing they knew, Rika and Hanyuu found themselves in a strange, dreamlike world.`
 `What was happening?`
 ` That sensation.........`
-`Hanyuu's expression had grown solemn, like when she spoke of her past thousands of years ago......`
+`Hanyuu's expression had grown solemn, like when she spoke of her past a thousand years ago......`
 `That was when something akin to mist began to flicker and coalesce into human shape......`
 `"W-What? Who......"`
 `"......It's someone I hoped to never see again."`
@@ -539,7 +539,7 @@
 `"......You aren't usually so hostile."`
 `"We are enemies, who refuse to accept one another. You must not trust her."`
 `"I guess you monsters hate your own kind."`
-`"I will not permit you to call me the same as that demon hiding her horns. Know your place, priestess of the horned people."`
+`"I will not permit you to call me the same as that demon not even hiding her horns. Know your place, priestess of the horned people."`
 `Rika got a sudden headache from her sharp gaze.`
 `Her hardened eyes carried not only supernatural power, but enough rejection and scorn to cause physical pain......`
 `......Thinking back, Rika had only ever received constant respect.`
@@ -549,7 +549,7 @@
 `"Hanyuu. ......Do you understand why I have appeared before you?"`
 `"..........................."`
 `"What do you make of this disaster below us?"`
-`Slowly the mist cleared beneath their feet.`
+`Slowly, the mist cleared beneath their feet.`
 `Finally Rika understood.`
 ` They weren't inside mist, but inside a cloud.`
 `Below them was a sight like one might see from an airplane.`
@@ -661,9 +661,9 @@
 `Humans have just been caught up in their mess.`
 `......The more I think about it, the more I realized we're the only ones who can stop this incident.`
 `".........From what I can see, the office of the Sonozaki Group still seems to be safe......"`
-`Mion and the others had traveled along the building's wall, stopping at one point to pick up some opera glasses`
+`Mion and the others had traveled building to building, stopping at one point to pick up some opera glasses`
 ` to use them as binoculars.`
-`After a bit of surveillance, they had a good idea of what actions they could take near the walls`
+`After a bit of surveillance, they had a good idea of what actions they could take between the buildings`
 ` as well as the movements of the surrounding rioters.`
 `"Figures they'd be behaving the same as Hinamizawa's neighborhood watch."`
 `"Generally they take up positions hiding behind the barricades, but every time they hear something, they shout and race toward it in a rampage."`
@@ -685,7 +685,7 @@
 `"Don't push yourself too hard, okay?"`
 `"I-it's fine, it's fine. A wound this small can't stop Sonozaki blood."`
 `"If the blood doesn't stop, then we've got a serious problem."`
-`"Well, I'm sure we can give it a more proper treatment once we get to the office. So we just need to hold out a little longer."`
+`"Well, I'm sure we can give it more proper treatment once we get to the office. So we just need to hold out a little longer."`
 `"So, even if it takes time, we definitely need to get to the office."`
 `"What are you going to do, Une-chan......?"`
 `"You coming with us? It'll probably be a little lonely here waiting for help that may never come."`
@@ -845,7 +845,7 @@
 `It looked like she wanted to carefully cross the river of cars and check out the sidewalk on the opposite bank.`
 `"......Shoot...... That's bad......"`
 `When she had scouted it from the roof right before commencing the operation, there wasn't anyone over there.`
-`But at some point three men from the watch had taken up posts on the opposite shore.`
+`But at some point, three men from the watch had taken up posts on the opposite shore.`
 `......They were heading right towards her.`
 `She wasn't exposed just yet.`
 ` They were just walking around shining lights randomly at the cars.`
@@ -855,7 +855,7 @@
 `If they had noticed us, would they be walking so carelessly......?`
 `Even if she was 99% certain she was safe...`
 ` she could feel herself sweating.`
-`......Pathetic, Sonozaki Mion.`
+`......Pathetic, Mion Sonozaki.`
 ` To think I'd be sweating this badly over a little hide and seek......`
 `"Make sure you don't overlook any infected......"`
 `"All their brains are damaged. Plus, they'll try to bite us and spread the virus further."`
@@ -867,7 +867,7 @@
 `"......We're, we're done for........."`
 `"Calm down. ......They're not acting like they have."`
 `"They're getting in?"`
-`The men from the watch climbed up into the bed of the truck Mion had hid under.`
+`The men from the watch climbed up into the bed of the truck Mion had hidden under.`
 `Apparently there were folding chairs or something inside the truck bed.`
 ` The men then sat down on them.`
 `Which meant the men had taken position directly above Mion.`
@@ -905,11 +905,11 @@
 `"Keiichi-kun, take Une-chan and secure our retreat. Satoko-chan, watch my back."`
 `"Leave it to me. Keiichi-san, you've got a great responsibility!"`
 `"I know. I'll leave this to you two. Let's go, Une-chan...!"`
-`"Y, Yes......"`
+`"Y-Yes......"`
 `Keiichi took Une and left for the time being.`
 `......He thought he'd faced death in Hinamizawa.`
 ` But Hinamizawa was full of nothing but old people.`
-` Plus they had a homeground advantage there.`
+` Plus they had the homeground advantage there.`
 `But they were playing an away game under different rules in Okinomiya.`
 `"If I'd known this was going to happen, I would've played around here more......"`
 `"Hahh, hahh, hahh......"`
@@ -988,7 +988,7 @@
 `"Don't let your guard down! We can't relax until we've made it inside the Sonozaki Group's office!"`
 `"Agreed. There's still a chance Shion-san might say, 'who the heck are you, plbbt!'"`
 `"True. More importantly, Mion, don't forget your promise to belly dance for us. You said you would when Une-chan lowered that ladder!"`
-`"Ihihi, Did I say that?"`
+`"Ihihi, did I say that?"`
 `"Hahh, hahh, hahh...!!"`
 `"Une-chan, hang in there! Just a little further!"`
 `"It's right around that corner!`
@@ -1052,7 +1052,7 @@
 `Shion, Kasai, and a few other men in black outfits approached from behind the barricade.`
 `Every one of them carried a gun, but none of them had the ferocious expressions of the rioters.`
 `Seems the Sonozaki Group had retained their sanity and focused on holing up inside.`
-`"Please, give us break, will you? We don't want to get involved with those crazies."`
+`"Please, give us a break, will you? We don't want to get involved with those crazies."`
 `"We're sorry for causing such a stir."`
 `"If you're safe, Shion-san, then we have nothing to fear anymore."`
 `"That's right. I'm more reliable than ten of my sister, all by myself. Kasai, open it for them."`
@@ -1063,7 +1063,7 @@
 `"You don't need to worry about them. If you leave them alone, they'll eventually wander off."`
 `"Now, now! Why don't we just appreciate this chance granted to us through Oyashiro-sama's miracles? Hahaha!"`
 `"Come on, Une-chan, you're safe now!"`
-`"There's nothing to worry about now that we have Shion-sama with us too!"`
+`"There's nothing to worry about now that we have Shion-san with us too!"`
 `"That's right. Satoko understands, at least. ......By the way, who's this girl?"`
 `".........H-Hello, there......"`
 `"She's Une-chan. She saved our lives!"`
@@ -1089,7 +1089,7 @@
 `"......Is this place safe?"`
 `"I can guarantee it's the safest place in Okinomiya. The community center was the main shelter at first, but that place has collapsed, so this is what's left."`
 `"Collapsed?"`
-`"You know what they say about too many cooks. What started as just fighting over leadership lead to murder. .....It's terrifying."`
+`"You know what they say about too many cooks. What started as just fighting over leadership led to murder. ......It's terrifying."`
 `"I see. ......The leadership here is solid, so you've managed to establish order and keep people from handing their hearts over to the demons......"`
 `"Impressive. So are the police and such still operating then?"`
 `"They're scattered across the city responding to riots... and there are lies going around that they're harboring infected......"`
@@ -1117,7 +1117,7 @@
 `That was when both tones began to resonate.`
 `A bright light enveloped everything......`
 `The moment that light cleared away, Rika, Hanyuu, and Une were floating in the world of inhuman beings.`
-`The eyes of the young girl named Une occasionally took on the same the light that dwelled within Hanyuu's.`
+`The eyes of the young girl named Une occasionally took on the same light that dwelled within Hanyuu's.`
 `I was certain.`
 ` This girl...... was someone like me and Hanyuu.`
 ` ......Some inhuman being.`
@@ -1198,7 +1198,7 @@
 `Fortunately, Une's people will not harm the flower bed.`
 `However,`
 ` they possess the strength to easily wipe out Tamura's people......`
-`"......We, Have no such intentions...... We just want, a little bit of land for ourselves........."`
+`"......We, have no such intentions...... We just want, a little bit of land for ourselves........."`
 `"I understand how you feel. ......I support you in this as well. As one who has also crossed the ocean of stars."`
 `"......In that case, she's just arrived at the worst possible time. It's hard to imagine Tamura welcoming another species with Hanyuu's people running rampant like they are now."`
 `".........I am, scared...... ......We, simply want to, bloom quietly, in peace........."`
@@ -1300,9 +1300,9 @@
 `"Owwww...... Stop using that headache power......"`
 `"She has always been stubborn and refuses to listen. Nothing you say will ever get through to her."`
 `"You are the one who never listens! You tainted people, you horned people! My anger has not abated, even after a thousand years!!"`
-`"I could say the same to you! I haven't lost any of my anger either, for all of your harrassment!"`
+`"I could say the same to you! I haven't lost any of my anger either, for all of your harassment!"`
 `I didn't know what kind of history those two shared,`
-` but if they held onto their grudges for a millenium...... then the cause of their antagonism ran deep.`
+` but if they held onto their grudges for a millennium...... then the cause of their antagonism ran deep.`
 `Apparently their history really isn't something humans, who only live for around a century, could moderate.`
 `Well, that's just how gods are.`
 ` Humans worship them all on their own, and yet the gods themselves are more human than humans. `
@@ -1401,7 +1401,7 @@
 `"You're having too much fun!!"`
 `Shion got behind Takano, and pale blue sparks could be seen.`
 ` She had driven her trump card - her stun gun - into Takano's body.`
-`No matter how strong you are, no body can withstand electric jolts.`
+`No matter how strong you are, nobody can withstand electric jolts.`
 `Yet Takano just calmly turned around......`
 `"My, my. ......What is that?"`
 `"T-That's impossible......!!"`
@@ -1758,7 +1758,7 @@
 `If she defeated Une's queen carrier (was that correct to say? Or was it better to say 'Une herself'?)`
 ` then she could at least deal a decisive blow to her.`
 `"However, my body is super beyond your reach. You can't even leave Shishibone City, so you can't lay a finger on her."`
-`"Nearly all of my people have been taken captive..... I have no idea where she is at present...... If only I could've taken her down while she was trapped in Shishibone...... But thanks to this tainted cream puff!"`
+`"Nearly all of my people have been taken captive...... I have no idea where she is at present...... If only I could've taken her down while she was trapped in Shishibone...... But thanks to this tainted cream puff!"`
 `"That's enough!`
 ` Honestly, it's your fault for being so petty, Tamura,`
 ` and holding a thousand year grudge over a single meal!"`
@@ -1821,7 +1821,7 @@
 `The older girl with a ponytail held up a sketchbook with a portrait that looked exactly like me.`
 `I was suddenly surrounded and didn't understand why.`
 `"......I finally found you, Une."`
-`"Wh, Who might you be......?"`
+`"Wh-Who might you be......?"`
 `"Our first time meeting would normally be some weeks from now. But I only met you just the other day. Well, while I say just the other day, I mean several months ago. I only had today to find you, so I had a hard time searching for you, Une!"`
 `"Fufufu! You shouldn't underestimate me and Rika, Une!! We've already seen your ambition for world conquest!"`
 `"......H-How, did you see through my ambition?!"`

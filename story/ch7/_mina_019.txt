@@ -632,7 +632,8 @@
 `The head of the office, in fact, was peeping out through the blinds of the meeting room on the second floor. He was shaking in fear.`
 `"Why are they inside the building...?`
 ` What are the police doing?"`
-`"Well, actually... both the prefectural and municipal Sonozaki representatives are here... They have a lawyer with them too.`
+`"Well, actually... both the prefectural and municipal Sonozaki representatives are here...`
+` They have a lawyer with them too.`
 ` They're asking for an answer, but only management has the authority to respond..."`
 `"...O-Okay, I've got it. Today is Saturday.`
 ` It's nearly three, right?`
@@ -644,7 +645,8 @@
 ` I never thought I'd see representatives and lawyers and yakuza! `
 `Who would have thought there would be two hundred people out there?!"`
 `"............Well,`
-` that's... Hinamizawa."`
+` that's...`
+` Hinamizawa."`
 `"Anyway, the office is closing in ten minutes!`
 ` I'm sure they'll threaten me if I meet with them!`
 ` But I'm not going to concede! That's my duty as a civil servant! `

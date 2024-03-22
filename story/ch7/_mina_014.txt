@@ -333,7 +333,8 @@
 `The word 'advice' didn't sound pleasant at all...`
 ` ...I felt myself frowning involuntarily.`
 `"Do you know what the child consultation center is thinking?`
-` You guys showed up two days in a row and you brought twenty people with you today.`
+` You guys showed up two days in a row`
+` and you brought twenty people with you today.`
 ` They're afraid you'll show up again tomorrow."`
 `"Ha ha.`
 ` Then why don't they just listen to us?`

@@ -124,7 +124,8 @@
 `"She's right, Satoko.`
 ` No matter what we say to the center,`
 ` they'll tell us that there's no abuse because you're denying that it's happening.`
-` We all want to help you, but we can't if you don't accept our help...!"`
+` We all want to help you,`
+` but we can't if you don't accept our help...!"`
 `"I understand... I was just like you once...`
 ` I thought no one could help me.`
 ` I thought whatever I was doing was the only thing I could do.`

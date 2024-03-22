@@ -89,14 +89,14 @@ void main()
 		1, //FontID
 		0, //CharSpacing
 		0, //LineSpacing - Rei: Adjust to 0 (was 8)
-		28 //FontSize - Rei: Adjust to 28 (was 30)
+		32 //FontSize
 	);
 
 	ModNVLModeSettingLoad(
 		"", //NameFormat
 		-170, //WindowPosX
 		-10, //WindowPosY
-		1240, //WindowSizeX
+		1150, //WindowSizeX
 		720, //WindowSizeY
 		60, //WindowMarginLeft
 		30, //WindowMarginTop
@@ -105,14 +105,14 @@ void main()
 		1, //FontID
 		0, //CharSpacing
 		0, //LineSpacing - Rei: Adjust to 0 (was 8)
-		34 //FontSize
+		32 //FontSize
 	);
 
 	ModNVLADVModeSettingLoad(
 		"", //NameFormat
 		-170, //WindowPosX
 		-10, //WindowPosY
-		1240, //WindowSizeX
+		1150, //WindowSizeX
 		720, //WindowSizeY
 		60, //WindowMarginLeft
 		30, //WindowMarginTop
@@ -121,8 +121,25 @@ void main()
 		1, //FontID
 		0, //CharSpacing
 		0, //LineSpacing - Rei: Adjust to 0 (was 8)
-		34 //FontSize
+		32 //FontSize
 	);
+
+	ModRyukishiModeSettingLoad(
+		"", //NameFormat
+		0, //WindowPosX
+		0, //WindowPosY
+		1024, //WindowSizeX
+		720, //WindowSizeY
+		60, //WindowMarginLeft
+		30, //WindowMarginTop
+		50, //WindowMarginRight
+		30, //WindowMarginBottom
+		1, //FontID
+		0, //CharSpacing
+		0, //LineSpacing - Rei: Adjust to 0 (was 8)
+		32 //FontSize
+	);
+
 
 	// For Hou+, you can also specify the window fade in and out time
 	SetWindowFadeTime(200); // 0.2s
@@ -132,33 +149,28 @@ void main()
 	SetGUIPosition(170, 0);
 	ModSetConfigFontSize(15);
 
-//	TODO: Commented out for now until we add custom fonts
-//	ModSetMainFontOutlineWidth(10);
+	ModSetMainFontOutlineWidth(30);
 
 	ModAddArtset("Console", "ゲーム機", "CG");
-//	ModAddArtset("Remake", "リメーク", "CGAlt:CG");
+	ModAddArtset("Remake", "リメーク", "CGAlt:CG");
 //	ModAddArtset("Original", "オリジナル", "OGBackgrounds:OGSprites:CG");
 
 	// GAltBGM controls which of these are selected
-	ModAddBGMset("New BGM", "Placeholder", "ExtraBGM:BGM");
-//	ModAddBGMset("GIN's BGM", "Placeholder", "OGBGM:ExtraBGM:BGM");
+	ModAddBGMset("New BGM", "Placeholder", "BGM");
+	ModAddBGMset("GIN's BGM", "Placeholder", "OGBGM:BGM");
 
 	// GAltSE controls which of these are selected
-	ModAddSEset("New SE", "Placeholder", "ExtraSE:SE");
-//	ModAddSEset("GIN's SE", "Placeholder", "OGSE:ExtraSE:SE");
+	ModAddSEset("New SE", "Placeholder", "SE");
+	ModAddSEset("GIN's SE", "Placeholder", "OGSE:SE");
 
 	// Audio presets the user can select, consisting of a combination of the BGM and SE flags
 	ModAddAudioset(
 		"New BGM/SE",
 		"Use the BGM/SE that came with the MangaGamer version of Higurashi Hou+ (2023), played with the Console timings.
 
-		NOTE: We haven't analysed Hou yet for possible april update BGM/SE changes.
-
 		Please see the BGM/SE FAQ for more info.",
 		"JP: New BGM/SE",
 		"JP: Use the BGM/SE that came with the MangaGamer version of Higurashi Hou+ (2023), played with the Console timings.
-
-		NOTE: We haven't analysed Hou yet for possible april update BGM/SE changes.
 
 		Please see the BGM/SE FAQ for more info.",
 		0, // GAltBGM
@@ -167,21 +179,24 @@ void main()
 		0  // GAltSEFlow
 	);
 
+	ModAddAudioset(
+		"GIN's BGM/SE",
+		"This option uses GIN's Background Music (BGM) and Sound Effects (SE), which brings the BGM/SE closer to the original Hou (non-plus) Japanese release.
 
-//	ModAddAudioset(
-//		"GIN's BGM/SE",
-//		"This option uses GIN's Background Music (BGM) and Sound Effects (SE), which bring the BGM/SE closer to the original Japanese release.
-//
-//		Please click on the 'Open BGM/SE FAQ' button to view the 07th-mod wiki for more details.",
-//		"JP: GIN's BGM/SE",
-//		"JP: This option uses GIN's Background Music (BGM) and Sound Effects (SE), which bring the BGM/SE closer to the original Japanese release.
-//
-//		Please click on the 'Open BGM/SE FAQ' button to view the 07th-mod wiki for more details.",
-//		1, // GAltBGM
-//		1, // GAltBGMFlow
-//		1, // GAltSE
-//		1  // GAltSEFlow
-//	);
+		If you were previously using GIN's BGM/SE, you should pick this option.
+
+		Please click on the 'Open BGM/SE FAQ' button to view the 07th-mod wiki for more details.",
+		"JP: GIN's BGM/SE",
+		"JP: This option uses GIN's Background Music (BGM) and Sound Effects (SE), which brings the BGM/SE closer to the original Hou (non-plus) Japanese release.
+
+		If you were previously using GIN's BGM/SE, you should pick this option.
+
+		Please click on the 'Open BGM/SE FAQ' button to view the 07th-mod wiki for more details.",
+		1, // GAltBGM
+		1, // GAltBGMFlow
+		1, // GAltSE
+		1  // GAltSEFlow
+	);
 
 	ModGenericCall("LipSyncSettings", ".3, .7, true");
 	SetNameHistoryFormat("{0}\n");//history seems to have broken nametags without it

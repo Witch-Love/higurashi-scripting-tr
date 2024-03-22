@@ -20,12 +20,12 @@
 ` The sky was just as blue as ever,`
 ` and the sun rose just as it always did.`
 `Yet, the helicopters flying at low altitudes with their speakers blaring,`
-` and the sight of traffic backed up at a blockade on the main road into the city `
-`was enough to let everyone know that this morning was anything but normal.`
+` and the sight of traffic backed up at a blockade on the main road into the city, `
+`were enough to let everyone know that this morning was anything but normal.`
 `By the time it was broadcast on the morning news, the confusion had already settled down to a degree.`
 `The residents of Hinamizawa couldn't act like this was all happening in some distant city as they listened to the emergency broadcasts... `
 `because there was no doubt that this emergency was happening in the very town we lived in...`
-`I stirred restlessly in my bed like I usually did before eventually crawling out, and once I came down to our dining room `
+`I stirred restlessly in my bed like I usually did before eventually crawling out, and when I came down to our dining room, `
 `I found my parents glued to the television, which is where I learned the news, peeking over their shoulders.`
 `I wonder just how many villagers muttered the same thing I did at first?`
 `"......Wh... What...? What's going on...?"`
@@ -44,7 +44,7 @@
 `...A small African village was completely annihilated, and the terrible spectacle was almost too gory to look at...`
 ` given the unrecognizable state of the resulting corpses.`
 `The people out of this danger's reach were being irresponsible`
-` in sastisfying their urge to spectate, watching this footage of the harm dealt by this mysterious, heretofore unknown virus.`
+` in satisfying their urge to spectate, watching this footage of the harm dealt by this mysterious, heretofore unknown virus.`
 `......But for those of us directly faced with this crisis...`
 ` it was far too real, and far too terrifying.`
 `I suddenly glanced up at the clock`
@@ -116,7 +116,7 @@
 `So he refused to let our family go out and use the public bathrooms, saying that was the same as going out to get ourselves infected.`
 `We didn't have that much water left in our bath tub, though.`
 ` So we couldn't keep using a flush toilet without water forever. `
-`To make matters worse, since the virus involved here has a one month incubation period, it wasn't hard to imagine the quarantine around Hinamizawa would last even longer than that.`
+`To make matters worse, since the virus involved here has a one-month incubation period, it wasn't hard to imagine the quarantine around Hinamizawa would last even longer than that.`
 `By my mom's quick estimate,`
 ` the quarantine was likely to last three months.`
 `......Three whole months.`
@@ -151,7 +151,7 @@
 `Right after I said that, someone smacked me hard on the back.`
 ` It was Mion.`
 `"Kei-chan!! Great to see you're safe!!"`
-`"That's my line!! I'm glad to see you safe too!"`
+`"That's my line!! I'm glad to see you're safe too!"`
 `Mion made a big show of wiping her tears away, enjoying our reunion after only a scant few days.`
 `There's no need to explain it at this point, I think,`
 ` but the old customs here meant Hinamizawa was governed by three ancient clans known as the Three Families. `
@@ -160,7 +160,7 @@
 `They were also working together with the government and the SDF, so they had information that regular villagers didn't know about.`
 `"Mion, be blunt with us, what's going on?! Has this virus really infected all of the villagers?"`
 `"According to this morning's explanation, the likelihood of that is pretty slim. From what they've said, the infected showed up over in Takatsudo. And hardly anyone lives over there! Since the quarantine was set up so quick, they're saying they don't think it's reached the Hinamizawa area yet."`
-`"Once they can confirm everyone in Hinamizawa is clean, then they're hopeful that they can start lifting the quarantine in stages."`
+`"Once they can confirm everyone in Hinamizawa is clean, they're hopeful that they can start lifting the quarantine in stages."`
 `"I-I hope that's true... I feel bad for those living in Takatsudo, but it'll be nice if Hinamizawa's quarantine ends sooner..."`
 `That was when Mion gave us a sharp look.`
 ` Then she grabbed my head and Rena's, pulling us in close to her own.`
@@ -172,7 +172,7 @@
 `"Yeah. Apparently there's some leeway in its incubation period. They can't rule out the chance that whoever brought it here is still incubating the disease. Also, there's no guarantee that the person ever traveled abroad at all. There's still a chance they got infected when they came into contact with a carrier from outside the village..."`
 `"......By my guess, the quarantined zones won't be limited to just Hinamizawa. Worst case is, the quarantine could extend to the prefecture, or even to this whole part of the country..."`
 `"........................... How can this be......?"`
-`"Also...... this is just between us, but. .........There's talk that this one might be different from the African killer virus they mentioned on TV."`
+`"Also...... this is just between us, but......... there's talk that this one might be different from the African killer virus they mentioned on TV."`
 `"...What do you mean?"`
 `"......I'm not sure either, but some of the chatter I'm picking up on the radio suggests that they suspect this whole virus crisis might be caused by an endemic disease native to Hinamizawa."`
 `"You mean some killer virus has been hiding in Hinamizawa for years?!"`
@@ -304,12 +304,12 @@
 `Hinamizawa had never shown any proof it was a "civilized" land.`
 ` The people there simply acted that way, `
 `but once you tore away the facade, they quickly revealed themselves as adherents to some truly bizarre delusions...`
-`"......Judging from your expression, Mion... you're not going to tell us this was some joke all along, right..."`
+`"......Judging from your expression, Mion... you're not going to tell us this was some joke all along, right...?"`
 `"........................"`
 `Mion's silence and downcast stare affirmed it as true.`
 `"O-Of course I've told them they need to calm down over the radio! But they're not listening to me at all..."`
 `"Kh! Shit...! If Rika-chan's been taken into custody, that means Satoko is currently living in that storage hut all by herself? ......She's in danger if they try to pull anything, isn't she?!"`
-`"True. There's only so much Satoko-chan can do by herself. ...Wouldn't it better to shelter her in our area? Wouldn't it?"`
+`"True. There's only so much Satoko-chan can do by herself. ...Wouldn't it be better to shelter her in our area? Wouldn't it?"`
 `Rena's suggestion was a good one.`
 ` If we left Satoko alone like this,`
 ` then those caught up in those wild fantasies might go after her!`
@@ -423,14 +423,14 @@
 ` and it directs its host to be antagonistic toward hosts of different strains.`
 `The UN investigation has discovered several hundred strains that would be classified under this virus,`
 ` and another shocking fact was uncovered as well: `
-`the distribution map of these strains, oddly enough, matches up with present-day national borders and religious distributions.`
+`The distribution map of these strains, oddly enough, matches up with present-day national borders and religious distributions.`
 `Furthermore, it is suspected that each strain of this virus is deeply involved in shaping the foundation of its host's behavior and personality. `
 `So the theory stands that the unique traits of this parasitic virus are responsible for several tendencies generally attributed to race or nationality.`
 `In other words,`
 ` this virus is theorized to be indirectly responsible`
 ` for all patterns within societies, personalities, and the cultures of different ethnicities and nations.`
 `The first to uncover the existence of this virus was a German doctor within the Nazi administration,`
-` and it is theorized that this discovery lead to the administration's massacre of particular peoples.`
+` and it is theorized that this discovery led to the administration's massacre of particular peoples.`
 `The UN's secret investigation committee`
 ` has identified the possibility that this virus has indirectly led humanity to commit its most heinous atrocities,`
 ` and they called for the extermination of this virus, `
@@ -865,7 +865,7 @@
 `"...I couldn't do anything...!`
 ` I couldn't do anything about it...!!`
 ` Nnnh!"`
-`"The council's officials took the lead and after they added the Shrine group, the youth group, the neighbourhood watch, and other volunteers from the village, their numbers swelled past a hundred people!! The watch is close with the hunting club too, so they're armed with at least 20 shotguns and rifles!"`
+`"The council's officials took the lead and after they added the Shrine group, the youth group, the neighborhood watch, and other volunteers from the village, their numbers swelled past a hundred people!! The watch is close with the hunting club too, so they're armed with at least 20 shotguns and rifles!"`
 `"Everyone keeps spouting Oyashiro-sama, Oyashiro-sama like they've all been possessed!! There's no mercy left in them! If I tried to protect Satoko, the villagers would've shot me to death without hesitation!!"`
 `"Like they did to you and to my father...?"`
 `Mion nodded bitterly as tears spilled from her eyes.`
@@ -966,7 +966,7 @@
 `But they didn't have their bags.`
 ` Instead they carried a hatchet and a metal bat.`
 ` They weren't wearing their uniforms either.`
-` ..No, what they wore was enough of a uniform. `
+` ...No, what they wore was enough of a uniform. `
 `Their blood-soaked clothes were a more than fitting uniform`
 ` for that mad and crimson night.`
 `We exited out the front and closed the door behind us,`
