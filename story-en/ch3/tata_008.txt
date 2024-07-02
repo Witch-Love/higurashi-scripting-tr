@@ -505,7 +505,7 @@
 ` ...Rika-chan lives by herself, but by law, she's considered to live with the mayor, right...?"`
 `"Yeah, basically.`
 ` That's how Rika-chan avoids being sent to an orphanage.`
-` ...However Satoko is actually living there as a freeloader."`
+` ...Actually, it would be child and family services, not an orphanage."`
 `"...Meep.`
 ` I don't understand the hard things... but anyway, she's right."`
 `"Interesting you should say that, Mion.`
@@ -1240,7 +1240,8 @@
 `"They can do that...?!`
 ` So then... we could rescue Satoko from her uncle right away!"`
 `".........Satoko-chan...`
-` might not want that."`
+` might not want that.`
+` Unless the person being abused wants shelter, anyway—it doesn't go that far."`
 `"Satoko... doesn't want it?!`
 ` Why..."`
 `"............"`

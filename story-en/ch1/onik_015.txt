@@ -119,7 +119,7 @@
 `At this rate, I might not be able to move as needed when the time came.`
 `I should probably keep practicing my swings to build stamina in addition to the excuse for carrying the bat around with me.`
 `"Well, it's nothing important...`
-` If you're tired, I can ask again later?"`
+` If you're tired, I can ask again later."`
 `"Now is fine."`
 `I'm only dealing with you right now because I judged this situation to be safe.`
 `Talking to you alone and away from others? ...That's out of the question.`
@@ -502,8 +502,8 @@
 `All these twists and turns, ups and downs!`
 `It was hard to believe... that this was even remotely in the direction towards my house.`
 `My sense of direction had long since gone out the window.`
-`"I really regretted it when Satoshi-kun 'transferred' out.`
-` I thought that if I had listened... he may not have 'transferred' out.`
+`"I really regretted it when Satoshi-kun 'transferred out.'`
+` I thought that if I had listened... he may not have 'transferred out.'`
 ` I really regretted that."`
 `The road led me deeper into the forest.`
 `...Wasn't I getting farther away from the village the more I ran...!?`
@@ -511,7 +511,7 @@
 `But despite this realization... my inner self was still disturbingly calm.`
 `"So you see, I vowed...`
 ` I vowed that if there was someone struggling like Satoshi-kun did, I'd save them!`
-`I don't want to see anyone 'transfer' out again.`
+` I don't want to see anyone 'transfer out' again.`
 ` Ahahahahahahahahahahahahaha."`
 `Daaaamn it!!`
 `What does "transfer" even mean!?`
@@ -625,7 +625,7 @@
 `What was Rena saying...?`
 `"Hasn't Oyashiro-sama... come to you as well, Keiichi-kun?`
 ` I'm probably the only one who you can confide in...`
-` I won't let you 'transfer' out...`
+` I won't let you 'transfer out'...`
 ` ...okay?"`
 `Ahahahahahahahahahahahahahahahahahahahaha.`
 `Rena's demented laughter clanged around inside my head.`
@@ -952,7 +952,7 @@
 `That's right... I was going to run!!!`
 `Deciding that, the moment I began to turn tail... both of them rushed towards me, as if they knew exactly what I was thinking!!`
 `Somewhere inside me, I had jumped to the conclusion that Rena was the only thing I needed to be afraid of.`
-`I made the assumption that I didn't need fear anything else...`
+`I made the assumption that I didn't need to fear anything else...`
 `But right now... I realized just how blatantly wrong I was!`
 `Suddenly, the story Ooishi-san told me about the demons all leaving the village to hunt prey floated through the back of my mind.`
 `I could tell they were both coming after me without even turning around because of their frenetic footsteps.`

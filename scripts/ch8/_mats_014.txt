@@ -198,13 +198,13 @@ void main()
 	ModDrawCharacter(3, 8, "sprite/tomi1_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps3/s13/08/ds41090020", 128, TRUE);
+	ModPlayVoiceLS(4, 8, "ps3/s13/08/ds41090021", 128, TRUE);
 	OutputLine(NULL, "「…………た、",
 		   NULL, "\"......It...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );
-	ModPlayVoiceLS(4, 8, "ps3/s13/08/ds41090021", 128, TRUE);
+
 	OutputLine(NULL, "………確かに、鷹野さんが新理事会に説明しに行って、かなり悪い評価をされたという話は聞いてるよ。",
 		   NULL, " it is true that Takano-san went to see the board of directors, and that she was evaluated extremely poorly.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s13/08/ds41090022", 128, TRUE);
@@ -640,9 +640,10 @@ void main()
 	ModPlayVoiceLS(4, 8, "ps3/s13/08/ds41090049", 128, TRUE);
 	OutputLine(NULL, "「…………………………ど、どうだろう。",
 		   NULL, "\"...............I-I don't know.", Line_WaitForInput);
-	OutputLine(NULL, "でも、今の東京のごたごたを見ていると、",
-		   NULL, " But if I think about what's going on in Tokyo...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s13/08/ds41090050", 128, TRUE);
+	OutputLine(NULL, "でも、今の東京のごたごたを見ていると、",
+		   NULL, " But if I think about what's going on in Tokyo...", Line_Continue);
+	Wait( 4000 );
 	OutputLine(NULL, "………なるほど、",
 		   NULL, " I guess...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
@@ -651,7 +652,7 @@ void main()
 	OutputLine(NULL, "…そんな恐ろしい絵を描いている連中がいたとしても、",
 		   NULL, " it is possible for some people to", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
+	Wait( 3000 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……、",
 		   NULL, "...", Line_Continue);
@@ -661,7 +662,7 @@ void main()
 	OutputLine(NULL, "…いや、",
 		   NULL, " think...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 900 );
+	Wait( 1800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "………ありえるかもしれない…。」",
 		   NULL, " things like that...\"", Line_Normal);
@@ -3739,7 +3740,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120200", 128, TRUE);
-	OutputLine(NULL, "「……梨花ちゃんの身が一番不安だよ。",
+	OutputLine(NULL, "「ということは……梨花ちゃんの身が一番不安だよ。",
 		   NULL, "\"...But Rika-chan's safety is the priority here...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120201", 128, TRUE);
 	OutputLine(NULL, "どうしたものか…。」",
