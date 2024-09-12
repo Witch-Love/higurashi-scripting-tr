@@ -23,9 +23,9 @@ Detaylı kuruluma [buradan](https://witch-love.github.io/wiki/higurashi/installa
       * [onik_003](../../tree/master/story/ch1/onik_003.txt) ✅
       * [onik_004](../../tree/master/story/ch1/onik_004.txt) ✅
       * [onik_005](../../tree/master/story/ch1/onik_005.txt) ✅
-      * [onik_009](../../tree/master/story/ch1/onik_009.txt) ✍️
-      * [onik_009_02](../../tree/master/story/ch1/onik_009_02.txt) ❌
-      * [onik_010](../../tree/master/story/ch1/onik_010.txt) ❌
+      * [onik_009](../../tree/master/story/ch1/onik_009.txt) ✅
+      * [onik_009_02](../../tree/master/story/ch1/onik_009_02.txt) ✅
+      * [onik_010](../../tree/master/story/ch1/onik_010.txt) ✍️
       * [onik_011](../../tree/master/story/ch1/onik_011.txt) ❌
       * [onik_012](../../tree/master/story/ch1/onik_012.txt) ❌
       * [onik_013](../../tree/master/story/ch1/onik_013.txt) ❌
@@ -43,10 +43,10 @@ Detaylı kuruluma [buradan](https://witch-love.github.io/wiki/higurashi/installa
       * [onik_tips_06](../../tree/master/story/ch1/onik_tips_06.txt) ✅
       * [onik_tips_07](../../tree/master/story/ch1/onik_tips_07.txt) ✅
       * [onik_tips_08](../../tree/master/story/ch1/onik_tips_08.txt) ✅
-      * [onik_tips_09](../../tree/master/story/ch1/onik_tips_09.txt) ❌
-      * [onik_tips_10](../../tree/master/story/ch1/onik_tips_10.txt) ❌
-      * [onik_tips_11](../../tree/master/story/ch1/onik_tips_11.txt) ❌
-      * [onik_tips_12](../../tree/master/story/ch1/onik_tips_12.txt) ❌
+      * [onik_tips_09](../../tree/master/story/ch1/onik_tips_09.txt) ✅
+      * [onik_tips_10](../../tree/master/story/ch1/onik_tips_10.txt) ✅
+      * [onik_tips_11](../../tree/master/story/ch1/onik_tips_11.txt) ✅
+      * [onik_tips_12](../../tree/master/story/ch1/onik_tips_12.txt) ✅
       * [onik_tips_13](../../tree/master/story/ch1/onik_tips_13.txt) ❌
       * [onik_tips_14](../../tree/master/story/ch1/onik_tips_14.txt) ❌
       * [onik_tips_15](../../tree/master/story/ch1/onik_tips_15.txt) ❌
@@ -467,4 +467,77 @@ Detaylı kuruluma [buradan](https://witch-love.github.io/wiki/higurashi/installa
       * [_mats_tips_01](../../tree/master/story/ch8/_mats_tips_01.txt) ❌
    * Other
       * [staffroom](../../tree/master/story/ch8/staffroom.txt) ❌
+  </details>
+* <details>
+  <summary>Chapter 9 (Rei) ❌</summary>
+
+   * Saikoroshi
+      * [saikoroshi00](../../tree/master/story/ch9/saikoroshi00.txt) ❌
+      * [saikoroshi01](../../tree/master/story/ch9/saikoroshi01.txt) ❌
+      * [saikoroshi02](../../tree/master/story/ch9/saikoroshi02.txt) ❌
+      * [saikoroshi02_2](../../tree/master/story/ch9/saikoroshi02_2.txt) ❌
+      * [saikoroshi02_3](../../tree/master/story/ch9/saikoroshi02_3.txt) ❌
+      * [saikoroshi03](../../tree/master/story/ch9/saikoroshi03.txt) ❌
+      * [saikoroshi04](../../tree/master/story/ch9/saikoroshi04.txt) ❌
+   * Hirukowashi PC
+      * [hirukowashi00](../../tree/master/story/ch9/hirukowashi00.txt) ❌
+      * [hirukowashi01](../../tree/master/story/ch9/hirukowashi01.txt) ❌
+      * [hirukowashi02](../../tree/master/story/ch9/hirukowashi02.txt) ❌
+      * [hirukowashi02_2](../../tree/master/story/ch9/hirukowashi02_2.txt) ❌
+      * [hirukowashi02_3](../../tree/master/story/ch9/hirukowashi02_3.txt) ❌
+      * [hirukowashi03](../../tree/master/story/ch9/hirukowashi03.txt) ❌
+      * [hirukowashi04](../../tree/master/story/ch9/hirukowashi04.txt) ❌
+   * Hirukowashi Console
+      * [hiruconsole_001](../../tree/master/story/ch9/hiruconsole_001.txt) ❌
+      * [hiruconsole_002](../../tree/master/story/ch9/hiruconsole_002.txt) ❌
+      * [hiruconsole_003](../../tree/master/story/ch9/hiruconsole_003.txt) ❌
+      * [hiruconsole_004](../../tree/master/story/ch9/hiruconsole_004.txt) ❌
+      * [hiruconsole_005](../../tree/master/story/ch9/hiruconsole_005.txt) ❌
+      * [hiruconsole_006](../../tree/master/story/ch9/hiruconsole_006.txt) ❌
+      * [hiruconsole_007](../../tree/master/story/ch9/hiruconsole_007.txt) ❌
+      * [hiruconsole_008](../../tree/master/story/ch9/hiruconsole_008.txt) ❌
+      * [hiruconsole_009](../../tree/master/story/ch9/hiruconsole_009.txt) ❌
+      * [hiruconsole_010](../../tree/master/story/ch9/hiruconsole_010.txt) ❌
+      * [hiruconsole_011](../../tree/master/story/ch9/hiruconsole_011.txt) ❌
+      * [hiruconsole_011_2](../../tree/master/story/ch9/hiruconsole_011_2.txt) ❌
+      * [hiruconsole_011_3](../../tree/master/story/ch9/hiruconsole_011_3.txt) ❌
+      * [hiruconsole_011_4](../../tree/master/story/ch9/hiruconsole_011_4.txt) ❌
+      * [hiruconsole_011_choice1a](../../tree/master/story/ch9/hiruconsole_011_choice1a.txt) ❌
+      * [hiruconsole_011_choice1b](../../tree/master/story/ch9/hiruconsole_011_choice1b.txt) ❌
+      * [hiruconsole_011_choice2a](../../tree/master/story/ch9/hiruconsole_011_choice2a.txt) ❌
+      * [hiruconsole_011_choice2b](../../tree/master/story/ch9/hiruconsole_011_choice2b.txt) ❌
+      * [hiruconsole_011_choice3a](../../tree/master/story/ch9/hiruconsole_011_choice3a.txt) ❌
+      * [hiruconsole_011_choice3b](../../tree/master/story/ch9/hiruconsole_011_choice3b.txt) ❌
+      * [hiruconsole_011_tobadend](../../tree/master/story/ch9/hiruconsole_011_tobadend.txt) ❌
+      * [hiruconsole_012](../../tree/master/story/ch9/hiruconsole_012.txt) ❌
+      * [hiruconsole_013](../../tree/master/story/ch9/hiruconsole_013.txt) ❌
+      * [hiruconsole_badend](../../tree/master/story/ch9/hiruconsole_badend.txt) ❌
+      * [hiruconsole_tips_01](../../tree/master/story/ch9/hiruconsole_tips_01.txt) ❌
+   * Batsukoishi
+      * [batsukoishi01](../../tree/master/story/ch9/batsukoishi01.txt) ❌
+   * Other
+      * [omake](../../tree/master/story/ch9/omake.txt) ❌
+      * [staffroom](../../tree/master/story/ch9/staffroom.txt) ❌
+  </details>
+* <details>
+  <summary>Chapter 10 (Hou+) ❌</summary>
+
+   * Bus stop
+      * [busstop01](../../tree/master/story/ch10/busstop01.txt) ❌
+   * Mehagashi
+      * [mehagashi](../../tree/master/story/ch10/mehagashi.txt) ❌
+   * Outbreak
+      * [outbreak01_1](../../tree/master/story/ch10/outbreak01_1.txt) ❌
+      * [outbreak01_2](../../tree/master/story/ch10/outbreak01_2.txt) ❌
+   * Other
+      * [staffroom](../../tree/master/story/ch10/staffroom.txt) ❌
+      * [staffroom02](../../tree/master/story/ch10/staffroom02.txt) ❌
+      * [staffroom03](../../tree/master/story/ch10/staffroom03.txt) ❌
+      * [staffroom06](../../tree/master/story/ch10/staffroom06.txt) ❌
+      * [staffroom08](../../tree/master/story/ch10/staffroom08.txt) ❌
+      * [staffroom11](../../tree/master/story/ch10/staffroom11.txt) ❌
+      * [staffroom12](../../tree/master/story/ch10/staffroom12.txt) ❌
+      * [staffroom13](../../tree/master/story/ch10/staffroom13.txt) ❌
+      * [staffroom14](../../tree/master/story/ch10/staffroom14.txt) ❌
+      * [staffroom15](../../tree/master/story/ch10/staffroom15.txt) ❌
   </details>
