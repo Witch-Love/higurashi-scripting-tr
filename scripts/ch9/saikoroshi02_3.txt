@@ -2446,6 +2446,7 @@ void main()
 	ClearMessage();
 
 	DrawScene( "scene/412a", 600 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/hu_kittin_02", 600 );}
 	PlayBGM( 1, "yoru", 120, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Rika's mom</color>", NULL, Line_ContinueAfterTyping); }

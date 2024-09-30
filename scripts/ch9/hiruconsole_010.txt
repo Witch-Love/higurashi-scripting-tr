@@ -1581,6 +1581,10 @@ void main()
 	DrawScene("white", 50 );
 	Wait( 150 );
 	DrawScene("scene/209", 50 );
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(5, 3, "sprite/me2_majime_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 0, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 10, "sprite/iri2_majime_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2a_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/sinryou_matiai1", 50 );}
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
 	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
 	PlayBGM(2, "hm01_06", 128, 0);
@@ -1608,6 +1612,9 @@ void main()
 			NULL, " For the sake of my inner self, I need Rena-san's help to make the world of maids a reality!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 10, "sprite/iri2_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );}
+
 //入江rvS07/10/331000117.「もう少しだけ、あとたった１世紀だけで構わない！kvS07/10/331000118.　この素敵なドリームを見させてくださいぃぃ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000117", 256, TRUE);
@@ -1617,6 +1624,9 @@ void main()
 	OutputLine(NULL, "　この素敵なドリームを見させてくださいぃぃ！！」",
 			NULL, " Please, allow me to bear witness to this wonderful dreeeam!!\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2b_odoroki_b1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //沙都子rvS07/04/330400184.「１世紀のどこが『たった』なんですのー！kvS07/04/330400185.　ここにいるみんなお墓の中に入っていましてよ～！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -1641,6 +1651,9 @@ void main()
 			NULL, " Just play along, give us that fur seal you picked up and let Rena go!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 10, "sprite/iri2_def2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );}
+
 //入江rvS07/10/331000119.「…前原さん。kvS07/10/331000120.たとえ偽りの言葉であっても、竜宮さんは私にメイドとしてお仕えします！　と、誓いの言葉を述べられたのです！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000119", 256, TRUE);
@@ -1651,6 +1664,9 @@ void main()
 			NULL, " Even if her words were false, Ryuugu-san swore an oath to serve as my maid!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 10, "sprite/iri2_majime2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );}
+
 //入江rvS07/10/331000121.「それはいわば、契約！kvS07/10/331000122.　つまりそれを覆すことができるのは、レナさんの口を持ってしかなしえないことなのです！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s07/10/331000121", 256, TRUE);
@@ -1660,6 +1676,9 @@ void main()
 	OutputLine(NULL, "　つまりそれを覆すことができるのは、レナさんの口を持ってしかなしえないことなのです！！」",
 			NULL, " In other words, the only way that condition can be overturned is if Rena-san herself declares it so!!\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(5, 3, "sprite/me2_tohoho_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );}
 
 //魅音rvS07/03/330300129.「だ、だめだこの人…！kvS07/03/330300130.　今まで言われたことのない言葉に舞い上がって前後不覚になっちゃってるよ～！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1672,6 +1691,8 @@ void main()
 	ClearMessage();
 
 	PlayBGM( 1, "denwa", 128, 0 );
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 4, "sprite/sa2a_akireru_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );}
 
 //沙都子rvS07/04/330400186.「…梨花？kvS07/04/330400187.　なにをなさっているのでございますの？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }

@@ -274,6 +274,7 @@ void main()
 	PlaySE(3, "kyupirn", 256, 64);
 	DrawScene("white", 250 );
 	DrawScene("scene/109a", 250 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 250 );}
 
 //沙都子rvS07/04/330400228.「…ふっ。kvS07/04/330400229.いただきですわッッ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -290,6 +291,7 @@ void main()
 	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
 	PlaySE(3, "vse_hit", 256, 64);
 	DrawScene("scene/109c", 50 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/sora", 50 );}
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
 	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
 
@@ -312,6 +314,7 @@ void main()
 	ClearMessage();
 
 	DrawScene("scene/109c", 50 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/sora", 50 );}
 	ModDrawCharacter(3, 3, "sprite/me2_wink_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("bg/oki_g3", 1000 );
 
@@ -484,6 +487,7 @@ void main()
 	PlaySE(3, "kyupirn", 256, 64);
 	DrawScene("white", 150 );
 	DrawScene("scene/109a", 250 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 250 );}
 
 //沙都子rvS07/04/330400232.「…速いだけなら、何とかなりますのよっ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -497,6 +501,7 @@ void main()
 	DrawSceneWithMask( "white", "effect/left", 0, 0, 250 );
 	PlaySE(0, "vse_hit", 256, 64);
 	DrawScene("scene/109c", 50 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/sora", 50 );}
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
 	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
 

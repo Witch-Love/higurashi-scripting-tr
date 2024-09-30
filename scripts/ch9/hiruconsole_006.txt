@@ -33,6 +33,9 @@ void main()
 	FadeOutBGM(1, 400, TRUE);
 	PlayBGM(2, "hm03_14", 128, 0);
 	DrawScene("scene/207", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/ji2", 200 );}
+	if (GetGlobalFlag(GHideCG)) {ModSetLayerFilter(3, 256, "none");}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 9, "sprite/ta1_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );}
 
 //鷹野rvS07/09/330900017.「あぁら、さすがジロウさん。kvS07/09/330900018.若い子にもモテるのねぇ？kvS07/09/330900019.　いつの間にそんな人気者になってたのかしらぁん？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -46,6 +49,10 @@ void main()
 	OutputLine(NULL, "　いつの間にそんな人気者になってたのかしらぁん？」",
 			NULL, " Since when were you such a celebrity, hmm?\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModSetLayerFilter(4, 256, "none");}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(4, 8, "sprite/tomi1_komaru_", "2", "effect/left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );}
 
 //富竹rvS07/08/330800018.「そそそそ、そんなことないよ！kvS07/08/330800019.　これはきっと何かの間違いさ…！kvS07/08/330800020.　はぅん！kvS07/08/330800021.　レナちゃん、そのあんまりくっついちゃ駄目だよ…！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
@@ -63,7 +70,10 @@ void main()
 			NULL, " Rena-chan, don't cling to me like that...!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
 	PlaySE(3, "dageki", 256, 64);
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(1, 2, "sprite/re1b_kaii_b1_", "2", "effect/right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 500, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {FadeBustshotWithFiltering( 3, "effect/right", 1, FALSE, 0, 0, 300, TRUE );}
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
 	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
 
@@ -76,6 +86,9 @@ void main()
 	OutputLine(NULL, "　レナにもカメラのこととか、色々教えてほしいかな、かな！」",
 			NULL, " Can you teach Rena about all the things you can do with cameras? Can you teach her?\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 8, "sprite/tomi1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 300, TRUE );}
 
 //富竹rvS07/08/330800022.「いやぁ、あっははは、カメラの道は長く険しいが遣り甲斐充分さ！kvS07/08/330800023.　レナちゃんが興味を持ってくれたなんてうれしいなぁ…。kvS07/08/330800024.はは、ははははは、はは…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
@@ -91,6 +104,8 @@ void main()
 	ClearMessage();
 
 	PlayBGM( 1, "semi_r", 128, 0 );
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacterWithFiltering(3, 9, "sprite/ta1_akuwarai_", "2", "effect/right", 1, 240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 //鷹野rvS07/09/330900020.「あぁら、別に私はいいのよ？kvS07/09/330900021.　だってジロウさんはとーってもやさしいベテランカメラマンなんですもの。kvS07/09/330900022.女の子が困ってたら、私に限らず、誰にだーって親切に教えちゃうのよねぇ？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -105,6 +120,9 @@ void main()
 			NULL, " He'd be nice and teach just about any interested girl, not only me—isn't that right?\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 2, "sprite/re1a_kaii_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );}
+
 //レナrvS07/02/330200104.「レナ、富竹さんのその親切でやさしいところ、だぁい好き…。kvS07/02/330200105.カメラのこととかぁ、……カメラ以外のこととかぁ…、…色々教えてほしいかな、……かな」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200104", 256, TRUE);
@@ -114,6 +132,9 @@ void main()
 	OutputLine(NULL, "カメラのこととかぁ、……カメラ以外のこととかぁ…、…色々教えてほしいかな、……かな」",
 			NULL, " I wonder if you could teach me... about cameras... and about many other things too... Many other things.\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 8, "sprite/tomi1_komaru_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 300, TRUE );}
 
 //富竹rvS07/08/330800025.「カカ、カメラ以外のことって何かなぁ？！kvS07/08/330800026.　はは、はははははは…」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
@@ -125,6 +146,9 @@ void main()
 			NULL, " Haha, hahahahahaha...\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 9, "sprite/ta1_warai_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );}
+
 //鷹野rvS07/09/330900023.「ジロウさん、カメラ以外のことを聞いてもないのに教えてくれるの、得意だもんねぇ？kvS07/09/330900024.　そういう時のジロウさん、とっても強引なんだから」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s07/09/330900023", 256, TRUE);
@@ -135,15 +159,21 @@ void main()
 			NULL, " At times like those, Jirou-san... can be very forceful.\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 2, "sprite/re1b_bikkuri_b1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );}
+
 //レナrvS07/02/330200106.「な、なな何が強引なのかな、…かなぁ！kvS07/02/330200107.　…でも、…レナ、富竹さんならその、…どんなこと教えてくれても、……いいかな、…かな」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200106", 256, TRUE);
 	OutputLine(NULL, "「な、なな何が強引なのかな、…かなぁ！",
 			NULL, "\"Wh-Wh-What is he forceful about, I wonder... I wonder!", Line_WaitForInput);
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(1, 2, "sprite/re1a_hau_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );}
 	ModPlayVoiceLS(4, 2, "ps3/s07/02/330200107", 256, TRUE);
 	OutputLine(NULL, "　…でも、…レナ、富竹さんならその、…どんなこと教えてくれても、……いいかな、…かな」",
 			NULL, " ...But... Rena, well... if it's Tomitake-san... She'll let him teach her... just about anything... Just about anything.\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/ji1", 600 );}
 
 //富竹rvS07/08/330800027.「ぃえぁああぉおお、おっほはははははははは…！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }

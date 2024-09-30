@@ -872,6 +872,7 @@ void main()
 	//print 1
 	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
 	DrawScene( "scene/625", 600 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 600 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　クラウドの妄想の中で、メイドレナは短いスプーンを逆向きに咥えさせられていた。",
@@ -1063,6 +1064,7 @@ void main()
 	//print 1
 	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
 	DrawScene( "scene/621", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 1000 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　トミーの瞳の中で、沙都子と梨花の二人はＳサイズのエンジェルモート制服に着替えさせられていた。",
@@ -1078,6 +1080,9 @@ void main()
 	OutputLine(NULL, "　そして二人は机を窓際に運んで、その机の上によじ登る。",
 		   NULL, "Then, they would carry a desk to the window, and climb up on top.", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 8, "sprite/tomi3_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/ma_j3_01", 500 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>トミー</color>", NULL, "<color=#945c44>Tomi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s27/08/ntom_0700", 128, TRUE);
@@ -1099,6 +1104,7 @@ void main()
 	Wait( 250 );
 	PlaySE( 0, "nageru", 128, 64 );
 	Wait( 250 );
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 8, "sprite/tomi3_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );}
 	DrawScene( "effect/furiker_c", 50 );
 	PlaySE( 0, "daidageki", 128, 64 );
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
@@ -1123,6 +1129,7 @@ void main()
 	DrawScene( "black", 50 );
 	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
 	DrawScene( "scene/621", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 1000 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　妄想の中の二人は、まさかこんな格好でこんなことをさせられるとは思わず、さすがの梨花ちゃんでさえ恥ずかしそうに俯いている。",
@@ -1639,6 +1646,7 @@ void main()
 	DrawScene( "white", 1500 );
 	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
 	DrawScene( "scene/622", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 1000 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "縦笛は長いですからね、さすがに長さが余っちゃいます。",
@@ -1933,6 +1941,7 @@ void main()
 	DrawScene( "white", 1500 );
 	DrawBustshot(5, "effect/waku_w", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 0, FALSE );
 	DrawScene( "scene/623", 1000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 1000 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>トミー</color>", NULL, "<color=#945c44>Tomi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s27/08/ntom_0890", 128, TRUE);
@@ -1961,6 +1970,9 @@ void main()
 		   NULL, " Tomi, our interests are aligning more and more by the day!!\"", Line_Normal);
 	ClearMessage();
 
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 1, "sprite/kei2_def1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/ma_j3_01", 500 );}
+
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>Ｋ</color>", NULL, "<color=#956f6e>K</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s27/01/nkei_1890", 128, TRUE);
 	OutputLine(NULL, "「……くっくっくっく！",
@@ -1968,6 +1980,9 @@ void main()
 	OutputLine(NULL, "　トミーもイリーもそれで終わりってのはちょいと能がないんじゃないのかい？」",
 		   NULL, " Tomi, Iri, don't you think there'd be a little something missing with only that?\"", Line_Normal);
 	ClearMessage();
+
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(3, 11, "sprite/oisi1_1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 300, TRUE );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>クラウド</color>", NULL, "<color=#a59da9>Cloud</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s27/11/nois_0320", 128, TRUE);
@@ -1977,7 +1992,10 @@ void main()
 		   NULL, " Then what sort of other option would you propose we add?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
+	if (GetGlobalFlag(GHideCG)) {DisableWindow();}
 	PlaySE( 0, "daidageki", 128, 64 );
+	if (GetGlobalFlag(GHideCG)) {FadeBustshot( 3, FALSE, 0, 0, 0, 0, 50, FALSE );}
+	if (GetGlobalFlag(GHideCG)) {ModDrawCharacter(4, 1, "sprite/kei2_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );}
 	StartShakingOfWindow( 278, 30, 0, 4, 2*2, FALSE );
 	StartShakingOfAllObjects( 278, 30, 0, 4, 2*2, TRUE );
 
@@ -4421,6 +4439,7 @@ void main()
 	DrawScene( "white", 3000 );
 	PlayBGM( 0, "t1_requiem", 120, 0 );
 	DrawScene( "scene/624a", 2000 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("black", 1000 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s27/01/nkei_2240", 128, TRUE);

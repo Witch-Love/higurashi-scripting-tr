@@ -5405,6 +5405,7 @@ void main()
 	DisableWindow();
 	DrawFilm( 2, 255, 255, 255, 255, 0, 0, FALSE );
 	DrawScene( "scene/411b", 600 );
+	if (GetGlobalFlag(GHideCG)) {DrawScene("bg/sora2", 600 );}
 	StartShakingOfWindow( 278, 30, 0, 4, 3*3, FALSE );
 	StartShakingOfAllObjects( 278, 30, 0, 4, 3*3, TRUE );
 	DrawScene( "black", 1000 );

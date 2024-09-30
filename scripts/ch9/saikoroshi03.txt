@@ -1004,6 +1004,7 @@ void main()
 
 	DrawSceneWithMask( "white", "effect/maskc", 0, 0, 2000 );
 	DrawSceneWithMask( "scene/413", "effect/maskc", 0, 0, 2000 );
+	if (GetGlobalFlag(GHideCG)) {DrawSceneWithMask( "bg/kakera", "effect/maskc", 0, 0, 2000 );}
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s15/12/ds42070220", 128, TRUE);

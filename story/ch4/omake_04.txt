@@ -371,7 +371,7 @@
 `Therefore, compared to adventure-type visual novels with branching routes to take, it's much closer to the experience of a book or a movie. `
 `...Because of that, there is the opinion out there that this should not be called a game, per se.`
 `If you're just watching it like a book or movie, Higurashi When They Cry isn't really a game, true. `
-`...That's why, as you know, there are a lot of mysteries referenced during the course of the experience.`
+`...That's why, as you know, there are a lot of mysteries referenced during the course of the experience. `
 `When you challenge those... this work will become a proper game.`
 `All the players have the privilege of scrutinizing this mystery-packed story from all sorts of angles. `
 `...For example, forming a theory about the mysteries during the course of the story, sharing them with your friends, and receiving their theories in return could be fun.`
