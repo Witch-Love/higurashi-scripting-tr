@@ -2,10 +2,10 @@
 
 Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediği zaman katkıda bulunabilir! Acele çeviri yapmak yerine kaliteli çeviri yapmak önceliğimiz. Bu nedenle süre sınırı gibi kısıtlamalarımız da bulunmamaktadır.
 
-Katkıda bulunmak istiyorsanız lütfen [wiki sayfamızı](https://witch-love.github.io/wiki/higurashi/contributing/info) inceleyin!
+Katkıda bulunmak istiyorsanız lütfen [wiki sayfamızı](https://witch-love.com/higurashi/contributing/info) inceleyin!
 
 ## Kurulum
-Detaylı kuruluma [buradan](https://witch-love.github.io/wiki/higurashi/installation) ulaşabilirsiniz.
+Detaylı kuruluma [buradan](https://witch-love.com/higurashi/installation) ulaşabilirsiniz.
 
 ## İletişim
 - <img src="https://i.imgur.com/62IuQAp.png" width=20 title="Discord" />  @singulariity

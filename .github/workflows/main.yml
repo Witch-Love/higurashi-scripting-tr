@@ -80,7 +80,7 @@ jobs:
           zip -qry ../../out/10_hou-plus-turkish.zip HigurashiEp10_Data || exit 1
 
           cd ../..
-          echo "Kurulum detayları için [buraya](https://witch-love.github.io/wiki/higurashi/installation) bakınız." >> release_notes.md
+          echo "Kurulum detayları için [buraya](https://witch-love.com/higurashi/installation) bakınız." >> release_notes.md
 
       - name: Release
         if: github.repository_owner == 'Witch-Love'
