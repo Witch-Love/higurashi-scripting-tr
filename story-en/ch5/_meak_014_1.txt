@@ -125,7 +125,7 @@
 ` ...I believe that this lunatic is some kind of mistake."`
 `"..............."`
 `"It might be either a big misunderstanding caused by a chain of coincidences, or...`
-` ...you know?`
+` ...you know? `
 `Na ha ha ha ha."`
 `"I have no idea what you're talking about."`
 `"I still believe that the real culprit is Satoshi Houjou-kun."`
@@ -175,7 +175,7 @@
 `They won't search for him as actively as before."`
 `"....................."`
 `"But I will continue searching for him.`
-` Only I will do it.`
+` Only I will do it. `
 `...I believe you're intending to do the same."`
 `"Our motives are different, though.`
 ` I just want to know if he's safe, but you'd like to arrest him, wouldn't you?"`
@@ -213,7 +213,7 @@
 ` It's part of the local dialect.`
 `".........He was kidnapped and taken to Hell through the bottom of the Onigafuchi Swamp...?`
 ` That's ridiculous..."`
-`"Anyway, the series of mysterious deaths has struck for the fourth time.`
+`"Anyway, the series of mysterious deaths has struck for the fourth time. `
 `...It's too soon, but people are already talking about next year."`
 `"Are you saying that the murder was the result of Oyashiro-sama's curse?"`
 `"...The victim was one of the Houjous, after all.`
@@ -446,7 +446,7 @@
 `Takano-san sounded like a teacher who had showed me how to solve a difficult math problem...`
 ` I wasn't quite convinced, but I couldn't deny what she'd said, either.`
 `"Did I give you enough hints...?`
-` I really would have enjoyed a conversation with you, but I think you prefer being alone.`
+` I really would have enjoyed a conversation with you, but I think you prefer being alone. `
 `...Hee hee hee."`
 `"......I'm sorry that I wasn't respectful, Miyo-san.`
 ` Please call me Shion."`
@@ -560,7 +560,7 @@
 `"...Thank you.`
 ` I'd love to read it."`
 `"Sure.`
-` I'd like to keep it confidential...`
+` I'd like to keep it confidential... `
 `......Hee hee, but I guess I should share it with my fellow researcher."`
 `Miyo-san handed me the notebook a bit hesitantly.`
 `It looked like it'd take a whole night to finish reading.`
@@ -574,7 +574,7 @@
 ` What is a sacrifice anyway...?`
 `Miyo-san looked pleased to hear my questions again. She took out another notebook and handed it to me.`
 `"I think you'll understand once you read it, but I'll give you a digest version...`
-` Oyashiro-sama's curse is simply Oyashiro-sama's anger.`
+` Oyashiro-sama's curse is simply Oyashiro-sama's anger. `
 `In other words, the curse is caused by Oyashiro-sama's anger,`
 ` do you follow?"`
 `"Yes......`
@@ -613,7 +613,7 @@
 `"...Sorry, I think I have to go.`
 ` I wanted to talk to you more,`
 ` but... I guess we'll have another chance to chat.`
-` I'll leave those notes to you.`
+` I'll leave those notes to you. `
 `I'm looking forward to hearing your opinions."`
 `Miyo-san wrapped up the conversation and headed to where the man was waiting for her.`
 `She left her old notebooks in my hands.`

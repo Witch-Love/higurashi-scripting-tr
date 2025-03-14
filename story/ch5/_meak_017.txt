@@ -17,7 +17,7 @@
 `By the way, don't you have school tomorrow, Shion?"`
 `"No, tomorrow is our school's anniversary, so there's no class...`
 ` ...Mmm..."`
-`"How many times a year does your school have its anniversary?`
+`"How many times a year does your school have its anniversary? `
 `Oh well...`
 ` Okay, Kasai-san.`
 ` She can stay here tonight."`
@@ -140,7 +140,7 @@
 ` Yes, me.`
 ` It had been about me!`
 `The curse of Oyashiro-sama... What is the curse of Oyashiro-sama?`
-`That was when I actually felt something for real.`
+`That was when I actually felt something for real. `
 `Someone grabbed my collar.`
 `"Ah.........!!"`
 `No voice came out.`
@@ -474,7 +474,7 @@
 `But...`
 ` even if it was unbelievable, I couldn't ignore what I was hearing from my twin sister...`
 `"I see...`
-` But Mion...`
+` But Mion... `
 `Doesn't the rule say that one victim gets killed by the curse and another has to become a sacrifice?`
 ` The body of the sacrifice is never to be found.`
 ` But there are two dead bodies this time. `

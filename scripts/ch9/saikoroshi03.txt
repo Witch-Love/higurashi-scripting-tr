@@ -1701,7 +1701,7 @@ void main()
 	OutputLine(NULL, "それを全て投げ捨てて、",
 		   NULL, " shouldn't you throw it all away...", Line_Continue);
 	OutputLine(NULL, "この世界に留まりたい気持ちと戦い打ち払って、元の世界へ帰るべきなのではないですか。",
-		   NULL, " fight away the desire to stay in this world, and return to your original one?", Line_Continue);
+		   NULL, " fight away the desire to stay in this world, and return to your original one? ", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 

@@ -247,8 +247,8 @@
 ` And plus, there are two rows on top of each other.`
 `This is the important part.`
 ` It's not as simple as lifting up two rows of seventeen tiles on top of each other. `
-`You must lift up the seventeen tiles from the top row, and only the four tiles on the edges of the bottom row!`
-`By setting them on the thirteen tiles from your hand placed behind the wall, you can bury your hand in the wall, and the lower thirteen tiles that remain from moving the wall become your new hand!`
+`You must lift up the seventeen tiles from the top row, and only the four tiles on the edges of the bottom row! `
+`By setting them on the thirteen tiles from your hand placed behind the wall, you can bury your hand in the wall, and the lower thirteen tiles that remain from moving the wall become your new hand! `
 `This is the ultimate technique, the Tsubame Gaeshi!!`
 `It's a technique that lets you switch all thirteen tiles in a split second!!"`
 `"......You can do it, Satoko."`

@@ -5,7 +5,6 @@ define('CRLF', "\r\n");
 
 // exclude empty files
 $exclude = [
-	'zwata_00x_vm00_n01.txt',
 	'flow.txt',
 	'init.txt',
 	'&choicesdialog.txt',

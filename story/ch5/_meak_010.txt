@@ -310,7 +310,7 @@
 `"I'm sure it was done out of malice.`
 ` The victim must have been murdered right here, judging from the pattern of the blood spatters and the soles of the sandals. `
 `And, even though not many people take this road, the body is right in the middle of it.`
-` It's very unusual to see a culprit who would bludgeon their victim until their face was completely destroyed.`
+` It's very unusual to see a culprit who would bludgeon their victim until their face was completely destroyed. `
 `Also,`
 ` can you look at her arms?"`
 `Ooishi put on latex gloves and lifted the corpse's arm.`
@@ -379,7 +379,7 @@
 `"......Uh-huh...`
 ` Do you have your father's address?"`
 `"No."`
-`"He's living with a woman who works at a club?`
+`"He's living with a woman who works at a club? `
 `Do you know the name of the place?"`
 `"...No.`
 ` I know it's in Okinomiya, and that's all."`

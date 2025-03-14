@@ -345,7 +345,7 @@
 `"Hm?`
 ` ...Yeah. It's fun.`
 ` Once she's discharged from the hospital, I'd like to bring my wife here at least once.`
-` ...With the child that would born by that time."`
+` ...With the child that would be born by that time."`
 `"..."`
 `"Right now she's in the hospital waiting to give birth.`
 ` ...She's due any day now.`
