@@ -2,7 +2,7 @@
 
 Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediği zaman katkıda bulunabilir! Acele çeviri yapmak yerine kaliteli çeviri yapmak önceliğimiz. Bu nedenle süre sınırı gibi kısıtlamalarımız da bulunmamaktadır.
 
-Katkıda bulunmak istiyorsanız lütfen [wiki sayfamızı](https://witch-love.com/higurashi/contributing/info) inceleyin!
+Katkıda bulunmak istiyorsanız lütfen [wiki sayfamızı](https://witch-love.com/higurashi/contributing/rules) inceleyin!
 
 ## Kurulum
 Detaylı kuruluma [buradan](https://witch-love.com/higurashi/installation) ulaşabilirsiniz.

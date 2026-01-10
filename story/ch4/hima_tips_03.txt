@@ -47,7 +47,7 @@
 `Would you still go out of your way to help?`
 ` You wouldn't, would you?`
 ` Even though it would be the wrong thing to do, there's no way the fire could spread to your own house.`
-`Even if it turned into a huge conflagration, there's no relation between the houses that will spread fire to yours and those that won't.`
+`Even if it turns into a huge conflagration, there are houses that can spread fire to yours, and those that can’t.`
 `With this basic example, you should be able to see the difference between gears that are or aren't related to your own.`
-`...Having said that, there's still a lot to think about, even without a river to divide it.`
+`Many such things exist in the world, even without a river to divide them.`
 `After all, it's not a spatial problem like being on the other side of the river, is it?`

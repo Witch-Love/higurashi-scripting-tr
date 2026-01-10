@@ -988,7 +988,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　左手にはガブガブ飲めるジュースのコップ！",
-		   NULL, "In left was a cup of juice that I could chug down!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In the left was a cup of juice that I could chug down!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　これで踊り出さなかったら男じゃない！￥
@@ -2388,7 +2388,7 @@ void main()
 		   NULL, " Still, keep this a secret from Satoko-chan, okay?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000107", 256, TRUE);
 	OutputLine(NULL, "彼女、私が養子にしたいなんて知ったら、こんなスケベ男なんか誰がパパと呼ぶものですかーって憤慨しそうですから。",
-		   NULL, " If she knew I wanted to adopt her, she'd probably get mad and call me a pervert for wanting me to call her papa.", Line_WaitForInput);
+		   NULL, " If she knew I wanted to adopt her, she'd probably get mad and call me a pervert for wanting her to call me papa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000108", 256, TRUE);
 	OutputLine(NULL, "…はっはっはっは。」",
 		   NULL, " ...Ha-ha-ha-ha.\"", Line_Normal);

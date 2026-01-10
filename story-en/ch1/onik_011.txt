@@ -507,7 +507,7 @@
 `"Don't try to play this off.`
 ` If you're not going to talk, then I'm not going to tell you anything!"`
 `"Ah, no no!`
-` That's not what I meant.  It's just... it may make you feel bad.`
+` That's not what I meant. It's just... it may make you feel bad.`
 ` ...You see... long ago, Hinamizawa was feared as the village where demons reside."`
 `"Demons?`
 ` By demons you mean... those pitchfork-carrying things in Hell?"`

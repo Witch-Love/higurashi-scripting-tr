@@ -354,7 +354,7 @@
 `...Well, just like the chief said, the plan was to eliminate all possibilities.`
 `While I'm in the XX police's reference room taking my time investigating, the higher-ups in Tokyo would probably solve the case.`
 `Without my involvement entirely.`
-`...Even if that was true, I couldn't regret being away from Tokyo while my wife was ready to give birth.`
+`The more I think on it, the more I regret being away from Tokyo while my wife is ready to give birth.`
 `This was work.`
 ` ...There was really nothing that I could do.`
 `Ding dong.`
@@ -907,7 +907,7 @@
 `Being able to meet with Ooishi's informant was an extremely compelling opportunity.`
 `We were looking to recruit somebody familiar with the area to collaborate with for intelligence.`
 `In the end, there was no better method for finding people than asking.`
-`We were always taught, however, that the rank-and-file police were no better than monkeys.`
+`We were always taught, however, that the rank-and-file police had loose lips.`
 `Unlike us, they were careless with confidential cases.`
 `We looked down on them like they'd run their mouth off in a drunken stupor.`
 `...Ooishi was an outlaw even amongst them. And here I was lost on whether or not I should tell him about the kidnapping of the minister's grandson.`
@@ -917,7 +917,7 @@
 ` Something like that is something I can't just tell you."`
 `...Protect your sources.`
 `That was the first principle of dealing with confidential information.`
-`...In that regard, it seemed that Ooishi wasn't one of those monkeys.`
+`...In that regard, it seemed that Ooishi wasn't one to slip up and leak intel.`
 `Should I trust him, ask for his help, or not?`
 `"It's just that you work for the feds, and I work for the prefecture.`
 ` I don't think that our jobs are that different.`
@@ -1026,7 +1026,7 @@
 ` In exchange, I'm giving you a little freebie."`
 `Ooishi finally smiled, but it didn't seem like he was fooling around.`
 `"...Please continue."`
-`"You see,  these human-devouring demons...`
+`"You see, these human-devouring demons...`
 ` Normally they were revered as Taoist 'transcendents,' and lived tucked away from the rest of the world. `
 `...But they ate people, after all, so apparently they'd go to villages in the foothills regularly and abduct their prey.`
 ` ...They used to call that being 'demoned away,' or 'Onikakushi.'"`

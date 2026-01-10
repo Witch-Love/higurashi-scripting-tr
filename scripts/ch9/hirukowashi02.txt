@@ -560,7 +560,7 @@ void main()
 
 
 	OutputLine(NULL, "あんた懲罰用のスペシャルバージョンよ！！",
-		   NULL, " where I mix together mustard and wasabi and tabasco sauce and pour it all on top!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " where I mix together mustard and wasabi and tabasco sauce and pour it all on top!! ", GetGlobalFlag(GLinemodeSp));
 
 	DrawScene( "effect/furiker_c", 50 );
 	PlaySE( 0, "finish", 128, 64 );

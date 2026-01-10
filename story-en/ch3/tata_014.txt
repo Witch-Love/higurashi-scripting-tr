@@ -235,11 +235,11 @@
 ` It's an extremely rare event, but it is possible for such a thing to happen even in a region not near craters."`
 `"Thank you very much, Doctor.`
 ` ...We appear to have an announcement from the Japan Defense Agency.`
-` Miss Morikawa, are you there?"`
+` Mr. Morikawa, are you there?"`
 `"Yes. I'm at the Japan Defense Agency.`
 ` The agency has just made an announcement regarding the source of the Hinamizawa Village gas disaster.`
 ` Analysis from the Ground Self-Defense Force's Department of Chemistry has found that the gas was a mixture of carbon dioxide and hydrogen sulfide."`
-`"Miss Morikawa, do you know whether the gas is still erupting or spreading to nearby areas?"`
+`"Mr. Morikawa, do you know whether the gas is still erupting or spreading to nearby areas?"`
 `"According to the SDF's 9th division, who are currently engaged in a rescue operation at Hinamizawa Village, the gas density is steadily decreasing.`
 ` They've announced that the damage will not spread.`
 `However, it does not change the fact that surrounding areas are still in danger, and that very strict observation must be maintained."`

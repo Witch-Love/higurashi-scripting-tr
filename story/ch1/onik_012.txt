@@ -114,7 +114,7 @@
 `"J-Just not feeling well, so I took the day off.`
 ` ...I was about to buy lunch and head back home."`
 `"That's great.`
-` I'm just about to get lunch myself.  Would you mind going together?`
+` I'm just about to get lunch myself. Would you mind going together?`
 ` ...Ah, if you're not feeling up for it, then don't mind me."`
 `I was just going to lie down after going home anyway.`
 `...And I didn't really have a cold.`
