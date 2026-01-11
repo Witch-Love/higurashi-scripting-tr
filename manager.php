@@ -301,7 +301,7 @@ function main($argc, $argv) {
 			file_put_contents($char_json_dir, json_encode($data, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE));
 			break;
 		case 'check':
-			$path = dirname(__FILE__, 2);
+			$path = dirname(__FILE__);
 			$story_tr = [];
 			$story_en = [];
 			$exit = false;
