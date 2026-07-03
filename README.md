@@ -1,15 +1,11 @@
 # Witch Love ~ Higurashi Türkçe Çeviri Projesi
 
-Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediği zaman katkıda bulunabilir! Acele çeviri yapmak yerine kaliteli çeviri yapmak önceliğimiz. Bu nedenle süre sınırı gibi kısıtlamalarımız da bulunmamaktadır.
+[![Build Status](https://github.com/Witch-Love/higurashi-scripting-tr/workflows/Build/badge.svg)](https://github.com/Witch-Love/higurashi-scripting-tr/actions) [![Check Script Status](https://github.com/Witch-Love/higurashi-scripting-tr/workflows/Check%20Script/badge.svg)](https://github.com/Witch-Love/higurashi-scripting-tr/actions)
 
-Katkıda bulunmak istiyorsanız lütfen [wiki sayfamızı](https://witch-love.com/higurashi/contributing/rules) inceleyin!
 
-## Kurulum
-Detaylı kuruluma [buradan](https://witch-love.com/higurashi/installation) ulaşabilirsiniz.
+Higurashi Türkçe çeviri projemiz tamamen açık kaynak olmakla birlikte dışarıdan gelen tüm katkılara da açıktır. Acele çeviri yapmak yerine kaliteli çeviri yapmak önceliğimiz. Katkıda bulunmak istiyorsanız lütfen başlamadan önce sitemizi inceleyin!
 
-## İletişim
-- <img src="https://i.imgur.com/62IuQAp.png" width=20 title="Discord" />  @singulariity
-- <img src="https://i.imgur.com/62IuQAp.png" width=20 title="Discord" />  [Discord Server](https://discord.gg/jyD5jn9Vpd)
+Detaylı kurulum adımlarına [sitemizden](https://witch-love.com/) ulaşabilirsiniz.
 
 ## İlerleme
 * <details>
